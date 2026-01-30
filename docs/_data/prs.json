@@ -249,6 +249,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1354",
+      "number": 1354,
+      "title": "[build] use `MicroBuild.1ES.Official` based on pipeline name",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-01-29T14:35:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10731",
       "number": 10731,
       "title": "[tests] verify `36.1` doesn't fallback to `36`",
@@ -327,6 +337,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/java-interop/pull/1378",
+      "number": 1378,
+      "title": "Bump external/xamarin-android-tools from `fb95edd` to `604940c`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot[bot]",
+      "mergedAt": "2026-01-28T19:51:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10736",
       "number": 10736,
       "title": "[build] use `MicroBuild.1ES.Official` based on pipeline name",
@@ -384,6 +404,16 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-28T15:24:24Z",
       "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1353",
+      "number": 1353,
+      "title": "Stable Updates 20260126",
+      "repo": "dotnet/android-libraries",
+      "author": "Copilot",
+      "mergedAt": "2026-01-28T14:52:57Z",
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -453,6 +483,16 @@
       "repo": "dotnet/macios",
       "author": "vs-mobiletools-engineering-service2",
       "mergedAt": "2026-01-28T09:52:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/267",
+      "number": 267,
+      "title": "[Xamarin.Android.Tools.AndroidSdk] Prevent fallback to major API level for minor",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-01-28T04:12:39Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -585,6 +625,15 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-native-tools/pull/42",
+      "number": 42,
+      "title": "Bump LLVM to 21.1.8",
+      "repo": "dotnet/android-native-tools",
+      "author": "grendello",
+      "mergedAt": "2026-01-27T14:04:29Z",
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10717",
       "number": 10717,
       "title": "[tests] add test for package-less `[Register(\"CustomView\"]`",
@@ -635,6 +684,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/java-interop/pull/1376",
+      "number": 1376,
+      "title": "Auto-generate crc64 package name when package is empty in XmlImporter",
+      "repo": "dotnet/java-interop",
+      "author": "Copilot",
+      "mergedAt": "2026-01-26T21:59:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10719",
       "number": 10719,
       "title": "[release/10.0.1xx] fix `MSBuildDeviceIntegration` build failure",
@@ -651,6 +710,16 @@
       "repo": "dotnet/android",
       "author": "jonathanpeppers",
       "mergedAt": "2026-01-26T17:59:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1377",
+      "number": 1377,
+      "title": "[build] set `$(TargetFramework)` to `net10.0`",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-01-26T16:26:32Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -765,6 +834,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1351",
+      "number": 1351,
+      "title": "Updates 20260120",
+      "repo": "dotnet/android-libraries",
+      "author": "moljac",
+      "mergedAt": "2026-01-23T14:23:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33328",
       "number": 33328,
       "title": "[Windows] Migrate device tests to Helix queues",
@@ -841,6 +920,16 @@
       "repo": "dotnet/android",
       "author": "dependabot[bot]",
       "mergedAt": "2026-01-22T19:58:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1375",
+      "number": 1375,
+      "title": "Bump external/xamarin-android-tools from `ca74eba` to `fb95edd`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot[bot]",
+      "mergedAt": "2026-01-22T19:57:37Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -972,6 +1061,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-tools/pull/266",
+      "number": 266,
+      "title": "[Xamarin.Android.Tools.AndroidSdk] Add Android Studio's Android SDK paths",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-01-21T17:20:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24455",
       "number": 24455,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
@@ -1008,6 +1107,26 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-20T19:31:11Z",
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1349",
+      "number": 1349,
+      "title": "Fix broken links in README.md and remove duplicate documentation",
+      "repo": "dotnet/android-libraries",
+      "author": "Copilot",
+      "mergedAt": "2026-01-20T18:55:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/722",
+      "number": 722,
+      "title": "Add semantic description to CategoryChart for accessibility",
+      "repo": "dotnet/maui-samples",
+      "author": "kubaflo",
+      "mergedAt": "2026-01-20T16:21:19Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -1356,6 +1475,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1343",
+      "number": 1343,
+      "title": "Run stable updates for 20260112 changes",
+      "repo": "dotnet/android-libraries",
+      "author": "Copilot",
+      "mergedAt": "2026-01-14T14:35:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24496",
       "number": 24496,
       "title": "[SceneKit] Distribute nullability for a few properties.",
@@ -1436,6 +1565,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/maui-samples/pull/738",
+      "number": 738,
+      "title": "Use FakeAgeSignalsManager while Google Age Signals API is paused",
+      "repo": "dotnet/maui-samples",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-01-13T14:06:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10677",
       "number": 10677,
       "title": "Bump com.android.tools:r8 from 8.13.17 to 8.13.19 in /src/r8",
@@ -1502,6 +1641,16 @@
       "author": "Copilot",
       "mergedAt": "2026-01-09T21:55:00Z",
       "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/724",
+      "number": 724,
+      "title": "Remove SemanticProperties.Description from CollectionView",
+      "repo": "dotnet/maui-samples",
+      "author": "kubaflo",
+      "mergedAt": "2026-01-09T21:31:50Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -1625,6 +1774,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/maui-samples/pull/739",
+      "number": 739,
+      "title": "Update macOS CI to use Xcode 26.2 with macos-26 runner",
+      "repo": "dotnet/maui-samples",
+      "author": "Copilot",
+      "mergedAt": "2026-01-07T11:40:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10656",
       "number": 10656,
       "title": "[main] Update dependencies from dotnet/dotnet",
@@ -1645,6 +1804,15 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1337",
+      "number": 1337,
+      "title": "20260105 alignment bumps",
+      "repo": "dotnet/android-libraries",
+      "author": "moljac",
+      "mergedAt": "2026-01-06T15:15:11Z",
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33325",
       "number": 33325,
       "title": "Add pr-build-status skill for querying Azure DevOps builds",
@@ -1661,6 +1829,26 @@
       "repo": "dotnet/macios",
       "author": "igormoiseev",
       "mergedAt": "2026-01-06T08:34:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1335",
+      "number": 1335,
+      "title": "Fixed Material Slider addOnChangeListener method missing issue",
+      "repo": "dotnet/android-libraries",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-01-06T03:20:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1336",
+      "number": 1336,
+      "title": "Updates 22051228",
+      "repo": "dotnet/android-libraries",
+      "author": "moljac",
+      "mergedAt": "2026-01-05T17:17:00Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -1901,6 +2089,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/maui-samples/pull/718",
+      "number": 718,
+      "title": "Add .NET MAUI Controls Expert custom agent",
+      "repo": "dotnet/maui-samples",
+      "author": "Copilot",
+      "mergedAt": "2025-12-18T10:01:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10651",
       "number": 10651,
       "title": "[xaprepare] increase `ProcessRunner` timeout",
@@ -1931,12 +2129,32 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1331",
+      "number": 1331,
+      "title": "[build] pass `-m:2` on Windows to fix file locking",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2025-12-15T15:21:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/7930",
       "number": 7930,
       "title": "[github] Add a Pull Request Template",
       "repo": "dotnet/android",
       "author": "jonpryor",
       "mergedAt": "2025-12-15T15:11:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1330",
+      "number": 1330,
+      "title": "[copilot] update/simplify instructions",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2025-12-12T18:00:08Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -1948,6 +2166,16 @@
       "author": "dotnet-maestro[bot]",
       "mergedAt": "2025-12-12T15:47:10Z",
       "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/723",
+      "number": 723,
+      "title": "Align DeveloperBalance dependencies with Maui template and update macOS CI Xcode version",
+      "repo": "dotnet/maui-samples",
+      "author": "Copilot",
+      "mergedAt": "2025-12-12T13:43:56Z",
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2010,12 +2238,32 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1326",
+      "number": 1326,
+      "title": "Stable weekly updates and generate files",
+      "repo": "dotnet/android-libraries",
+      "author": "Copilot",
+      "mergedAt": "2025-12-10T15:14:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10630",
       "number": 10630,
       "title": "[main] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
       "author": "dotnet-maestro[bot]",
       "mergedAt": "2025-12-09T16:31:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1328",
+      "number": 1328,
+      "title": " Add androidx.health.connect:connect-client 1.1.0 bindings",
+      "repo": "dotnet/android-libraries",
+      "author": "sheiksyedm",
+      "mergedAt": "2025-12-09T14:20:22Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -2040,12 +2288,52 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1320",
+      "number": 1320,
+      "title": "Stable Updates 20251124",
+      "repo": "dotnet/android-libraries",
+      "author": "Copilot",
+      "mergedAt": "2025-12-05T14:32:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/32950",
       "number": 32950,
       "title": "Simplify agent instructions and consolidate sandbox testing workflow",
       "repo": "dotnet/maui",
       "author": "Copilot",
       "mergedAt": "2025-12-04T18:13:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1324",
+      "number": 1324,
+      "title": "Bump Xamarin.GooglePlayServices.Tasks to 118.4.0.1",
+      "repo": "dotnet/android-libraries",
+      "author": "Copilot",
+      "mergedAt": "2025-12-04T03:33:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1323",
+      "number": 1323,
+      "title": "[build] update to .NET 10 GA",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2025-12-03T21:59:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1322",
+      "number": 1322,
+      "title": "Remove deprecated [Android.Runtime.Preserve] attribute",
+      "repo": "dotnet/android-libraries",
+      "author": "Copilot",
+      "mergedAt": "2025-12-03T18:39:44Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -2078,6 +2366,26 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1318",
+      "number": 1318,
+      "title": "Exclude Xamarin.GooglePlayServices.Ads from signing (keep unsigned in build artifacts)",
+      "repo": "dotnet/android-libraries",
+      "author": "Copilot",
+      "mergedAt": "2025-11-21T22:46:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/714",
+      "number": 714,
+      "title": "Added Age Signals sample - Cross-platform age verification for Android, iOS, and Windows",
+      "repo": "dotnet/maui-samples",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2025-11-21T13:48:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/32774",
       "number": 32774,
       "title": "Add checkpoint/resume system for PR review agent",
@@ -2085,6 +2393,45 @@
       "author": "kubaflo",
       "mergedAt": "2025-11-20T21:00:02Z",
       "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/702",
+      "number": 702,
+      "title": "Added Windows and MacOS Billing Support and Cross-Platform Billing Enhancements",
+      "repo": "dotnet/maui-samples",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2025-11-20T15:04:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/716",
+      "number": 716,
+      "title": "Revise MediaPicker API deprecation details for net9 to net10 upgrade ",
+      "repo": "dotnet/maui-samples",
+      "author": "jfversluis",
+      "mergedAt": "2025-11-20T09:47:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/xcsync/pull/234",
+      "number": 234,
+      "title": "Disable AzDO dependabot",
+      "repo": "dotnet/xcsync",
+      "author": "mmitche",
+      "mergedAt": "2025-11-19T20:06:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/717",
+      "number": 717,
+      "title": "Sync with awesome-copilot",
+      "repo": "dotnet/maui-samples",
+      "author": "PureWeen",
+      "mergedAt": "2025-11-19T13:25:01Z",
       "mauiReviewerUsed": false
     },
     {
@@ -2098,12 +2445,41 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1316",
+      "number": 1316,
+      "title": "Update configuration and generate files for stable release",
+      "repo": "dotnet/android-libraries",
+      "author": "Copilot",
+      "mergedAt": "2025-11-17T14:29:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/32485",
       "number": 32485,
       "title": "Improve AI agent documentation and testing instructions",
       "repo": "dotnet/maui",
       "author": "Copilot",
       "mergedAt": "2025-11-12T23:28:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/709",
+      "number": 709,
+      "title": "Add maui9 to maui10 upgrade instructions",
+      "repo": "dotnet/maui-samples",
+      "author": "PureWeen",
+      "mergedAt": "2025-11-11T15:14:09Z",
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/710",
+      "number": 710,
+      "title": "Add .NET MAUI Aspire integration sample",
+      "repo": "dotnet/maui-samples",
+      "author": "Copilot",
+      "mergedAt": "2025-11-10T22:21:56Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -2115,12 +2491,78 @@
       "author": "PureWeen",
       "mergedAt": "2025-11-07T17:34:26Z",
       "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1310",
+      "number": 1310,
+      "title": "Added the MLKit Prompting API",
+      "repo": "dotnet/android-libraries",
+      "author": "mattleibow",
+      "mergedAt": "2025-11-06T20:32:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1314",
+      "number": 1314,
+      "title": "New updates 20251027",
+      "repo": "dotnet/android-libraries",
+      "author": "sheiksyedm",
+      "mergedAt": "2025-11-06T19:54:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1373",
+      "number": 1373,
+      "title": "[Java.Interop.Sdk] Rename JavacClasspathSeparator to JavaPathSeparator for consistency",
+      "repo": "dotnet/java-interop",
+      "author": "Mliybs",
+      "mergedAt": "2025-11-05T18:50:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1313",
+      "number": 1313,
+      "title": "[WIP] Add support for MLKit Prompting API",
+      "repo": "dotnet/android-libraries",
+      "author": "Copilot",
+      "mergedAt": "2025-11-04T14:29:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/704",
+      "number": 704,
+      "title": "Revise README with new samples and formatting",
+      "repo": "dotnet/maui-samples",
+      "author": "jfversluis",
+      "mergedAt": "2025-11-03T15:02:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1232",
+      "number": 1232,
+      "title": "Fix BillingResult ObjectDisposedException in Billing 8.0.0.1",
+      "repo": "dotnet/android-libraries",
+      "author": "Copilot",
+      "mergedAt": "2025-11-03T14:51:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-01-30T18:08:21.711Z",
+  "lastUpdated": "2026-01-30T18:09:33.975Z",
   "repos": [
-    "dotnet/maui",
+    "dotnet/android-libraries",
+    "dotnet/android-native-tools",
+    "dotnet/android-tools",
     "dotnet/android",
-    "dotnet/macios"
+    "dotnet/java-interop",
+    "dotnet/macios",
+    "dotnet/maui-samples",
+    "dotnet/maui",
+    "dotnet/xcsync"
   ]
 }
