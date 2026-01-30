@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24580",
+      "number": 24580,
+      "title": "[UIKit] Enable nullability and clean up UIAccessibilityCustomAction.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-01-30T19:34:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33567",
       "number": 33567,
       "title": "[testing] Add xaml and resizetizer tests to run on helix",
@@ -4304,7 +4314,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-01-30T19:13:04.436Z",
+  "lastUpdated": "2026-01-30T20:05:17.788Z",
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
