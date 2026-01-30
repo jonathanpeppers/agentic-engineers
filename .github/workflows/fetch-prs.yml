@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 * * * *'  # Runs every hour
   workflow_dispatch:  # Allow manual triggers
+    inputs:
+      month_year:
+        description: 'Specific month/year to fetch (format: YYYY-MM, e.g., 2025-06). Leave blank for default (past 90 days).'
+        required: false
+        default: ''
+        type: string
   pull_request:
     paths:
       - '.github/workflows/fetch-prs.yml'
@@ -25,6 +31,24 @@ jobs:
           script: |
             const fs = require('fs');
             const path = require('path');
+            
+            // Check for specific month/year parameter
+            const monthYearInput = '${{ github.event.inputs.month_year }}';
+            let sinceDate, untilDate;
+            
+            if (monthYearInput && monthYearInput.trim() !== '') {
+              // Parse YYYY-MM format
+              const [year, month] = monthYearInput.split('-').map(Number);
+              sinceDate = new Date(year, month - 1, 1); // First day of month
+              untilDate = new Date(year, month, 0, 23, 59, 59); // Last day of month
+              console.log(`Fetching PRs for ${monthYearInput} (${sinceDate.toISOString()} to ${untilDate.toISOString()})`);
+            } else {
+              // Default: past 90 days
+              sinceDate = new Date();
+              sinceDate.setDate(sinceDate.getDate() - 90);
+              untilDate = new Date(); // Now
+              console.log(`Fetching PRs from past 90 days (since ${sinceDate.toISOString()})`);
+            }
             
             // List of repos to track
             const repos = [
@@ -59,66 +83,83 @@ jobs:
               console.log(`Fetching PRs from ${owner}/${repo}...`);
               
               try {
-                // Fetch merged PRs from the last 90 days
-                const since = new Date();
-                since.setDate(since.getDate() - 90);
+                // Paginate through all PRs to find ones in our date range
+                let page = 1;
+                let foundOlderThanRange = false;
                 
-                const { data: pulls } = await github.rest.pulls.list({
-                  owner,
-                  repo,
-                  state: 'closed',
-                  sort: 'updated',
-                  direction: 'desc',
-                  per_page: 100
-                });
-                
-                for (const pr of pulls) {
-                  // Only include merged PRs
-                  if (!pr.merged_at) continue;
+                while (!foundOlderThanRange) {
+                  console.log(`  Fetching page ${page}...`);
+                  const { data: pulls } = await github.rest.pulls.list({
+                    owner,
+                    repo,
+                    state: 'closed',
+                    sort: 'updated',
+                    direction: 'desc',
+                    per_page: 100,
+                    page: page
+                  });
                   
-                  const mergedDate = new Date(pr.merged_at);
-                  if (mergedDate < since) continue;
-                  
-                  const prUrl = pr.html_url;
-                  
-                  // Check if PR was authored by GitHub Copilot coding agent
-                  const authorLogin = pr.user?.login?.toLowerCase() || '';
-                  const isCopilotAuthored = 
-                    authorLogin === 'copilot' ||
-                    authorLogin.includes('copilot') ||
-                    pr.user?.type === 'Bot' && authorLogin.includes('copilot') ||
-                    pr.head?.ref?.toLowerCase().startsWith('copilot/') ||
-                    pr.labels?.some(l => l.name.toLowerCase().includes('copilot')) ||
-                    pr.body?.toLowerCase().includes('copilot-generated');
-                  
-                  // Check if MAUI PR Reviewer was used (check for review by specific bot/user)
-                  let mauiReviewerUsed = false;
-                  try {
-                    const { data: reviews } = await github.rest.pulls.listReviews({
-                      owner,
-                      repo,
-                      pull_number: pr.number
-                    });
-                    mauiReviewerUsed = reviews.some(r => 
-                      r.user?.login === 'maui-pr-reviewer' ||
-                      r.user?.login?.toLowerCase().includes('maui-pr-reviewer')
-                    );
-                  } catch (e) {
-                    console.log(`Could not fetch reviews for PR #${pr.number}`);
+                  if (pulls.length === 0) {
+                    console.log(`  No more PRs found.`);
+                    break;
                   }
                   
-                  const prData = {
-                    url: prUrl,
-                    number: pr.number,
-                    title: pr.title,
-                    repo: `${owner}/${repo}`,
-                    author: pr.user?.login || 'unknown',
-                    mergedAt: pr.merged_at,
-                    copilotAuthored: isCopilotAuthored,
-                    mauiReviewerUsed: mauiReviewerUsed
-                  };
+                  for (const pr of pulls) {
+                    // Only include merged PRs
+                    if (!pr.merged_at) continue;
+                    
+                    const mergedDate = new Date(pr.merged_at);
+                    
+                    // If we've gone past our date range, stop paginating
+                    if (mergedDate < sinceDate) {
+                      foundOlderThanRange = true;
+                      continue;
+                    }
+                    if (mergedDate > untilDate) continue;
+                    
+                    const prUrl = pr.html_url;
+                    
+                    // Check if PR was authored by GitHub Copilot coding agent
+                    const authorLogin = pr.user?.login?.toLowerCase() || '';
+                    const isCopilotAuthored = 
+                      authorLogin === 'copilot' ||
+                      authorLogin.includes('copilot') ||
+                      pr.user?.type === 'Bot' && authorLogin.includes('copilot') ||
+                      pr.head?.ref?.toLowerCase().startsWith('copilot/') ||
+                      pr.labels?.some(l => l.name.toLowerCase().includes('copilot')) ||
+                      pr.body?.toLowerCase().includes('copilot-generated');
+                    
+                    // Check if MAUI PR Reviewer was used (check for review by specific bot/user)
+                    let mauiReviewerUsed = false;
+                    try {
+                      const { data: reviews } = await github.rest.pulls.listReviews({
+                        owner,
+                        repo,
+                        pull_number: pr.number
+                      });
+                      mauiReviewerUsed = reviews.some(r => 
+                        r.user?.login === 'maui-pr-reviewer' ||
+                        r.user?.login?.toLowerCase().includes('maui-pr-reviewer')
+                      );
+                    } catch (e) {
+                      console.log(`Could not fetch reviews for PR #${pr.number}`);
+                    }
+                    
+                    const prData = {
+                      url: prUrl,
+                      number: pr.number,
+                      title: pr.title,
+                      repo: `${owner}/${repo}`,
+                      author: pr.user?.login || 'unknown',
+                      mergedAt: pr.merged_at,
+                      copilotAuthored: isCopilotAuthored,
+                      mauiReviewerUsed: mauiReviewerUsed
+                    };
+                    
+                    existingPRs.set(prUrl, prData);
+                  }
                   
-                  existingPRs.set(prUrl, prData);
+                  page++;
                 }
               } catch (e) {
                 console.log(`Error fetching PRs from ${owner}/${repo}: ${e.message}`);
@@ -158,11 +199,25 @@ jobs:
             TARGET_BRANCH="${{ github.ref_name }}"
           fi
           
-          # Fetch latest and rebase onto it
+          # Stash local changes before fetching/checkout
+          git stash push -m "pr-data-changes" -- docs/_data/prs.json || true
+          
+          # Fetch latest and checkout
           git fetch origin "$TARGET_BRANCH"
           git checkout -B "$TARGET_BRANCH" "origin/$TARGET_BRANCH"
           
-          # Re-apply data file changes (it was modified during the run)
+          # Restore stashed changes - fail if there's a merge conflict
+          if git stash list | grep -q "pr-data-changes"; then
+            if ! git stash pop; then
+              echo "::error::Merge conflict detected when applying stashed changes to prs.json"
+              echo "This can happen when multiple workflow runs modify the file simultaneously."
+              echo "Please re-run the workflow."
+              git stash drop || true
+              exit 1
+            fi
+          fi
+          
+          # Commit and push
           git add docs/_data/prs.json
           git diff --staged --quiet || git commit -m "Update PR data [skip ci]"
           git push origin "$TARGET_BRANCH"
