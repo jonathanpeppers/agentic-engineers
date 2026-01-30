@@ -35,7 +35,7 @@
       "number": 10746,
       "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-30T17:06:13Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -45,7 +45,7 @@
       "number": 10716,
       "title": "[xabt] use a response file when calling `java r8.jar`",
       "repo": "dotnet/android",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-30T16:51:39Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -85,7 +85,7 @@
       "number": 24587,
       "title": "[main] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-30T12:19:49Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -95,7 +95,7 @@
       "number": 24586,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-30T11:58:49Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -145,7 +145,7 @@
       "number": 24571,
       "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-29T23:25:10Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -155,7 +155,7 @@
       "number": 33727,
       "title": "Fix Android build failure by explicitly specifying build-tools 36.0.0",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-29T21:53:18Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -165,7 +165,7 @@
       "number": 24573,
       "title": "[main] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-29T21:47:29Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -207,6 +207,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-29T20:50:15Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -214,7 +215,7 @@
       "number": 33762,
       "title": "try-fix skill: Apply multi-model review recommendations",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-29T19:54:01Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -226,6 +227,7 @@
       "repo": "dotnet/android",
       "author": "jonathanpeppers",
       "mergedAt": "2026-01-29T19:25:25Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -233,7 +235,7 @@
       "number": 10739,
       "title": "[main] Update dependencies from dotnet/android",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-29T19:24:47Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -243,7 +245,7 @@
       "number": 10741,
       "title": "Bump external/Java.Interop from `b7965d4` to `b8f2c2b`",
       "repo": "dotnet/android",
-      "author": "dependabot[bot]",
+      "author": "dependabot",
       "mergedAt": "2026-01-29T19:22:31Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -303,7 +305,7 @@
       "number": 10742,
       "title": "Bump external/xamarin-android-tools from `fb95edd` to `604940c`",
       "repo": "dotnet/android",
-      "author": "dependabot[bot]",
+      "author": "dependabot",
       "mergedAt": "2026-01-29T14:18:48Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -315,6 +317,7 @@
       "repo": "dotnet/android",
       "author": "simonrozsival",
       "mergedAt": "2026-01-29T13:27:20Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -322,7 +325,7 @@
       "number": 24560,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-29T08:27:11Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -364,6 +367,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-01-28T21:41:50Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -371,7 +375,7 @@
       "number": 1378,
       "title": "Bump external/xamarin-android-tools from `fb95edd` to `604940c`",
       "repo": "dotnet/java-interop",
-      "author": "dependabot[bot]",
+      "author": "dependabot",
       "mergedAt": "2026-01-28T19:51:55Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -441,7 +445,7 @@
       "number": 1353,
       "title": "Stable Updates 20260126",
       "repo": "dotnet/android-libraries",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-28T14:52:57Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -481,7 +485,7 @@
       "number": 33730,
       "title": "[net10.0] Update dependencies from dotnet/android",
       "repo": "dotnet/maui",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-28T11:29:33Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -533,6 +537,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-27T22:31:28Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -540,7 +545,7 @@
       "number": 10728,
       "title": "[main] Update dependencies from dotnet/android",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-27T22:22:22Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -630,7 +635,7 @@
       "number": 10727,
       "title": "Remove unnecessary Microsoft.Win32.Registry PackageReference",
       "repo": "dotnet/android",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-27T17:21:23Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -640,7 +645,7 @@
       "number": 33721,
       "title": "[XEXPR] Refactor test skills/agents to dispatcher pattern",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-27T17:13:09Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -650,7 +655,7 @@
       "number": 24559,
       "title": "[net11.0] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-27T16:59:36Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -662,6 +667,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-27T15:09:41Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -681,6 +687,7 @@
       "repo": "dotnet/android-native-tools",
       "author": "grendello",
       "mergedAt": "2026-01-27T14:04:29Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -688,7 +695,7 @@
       "number": 10717,
       "title": "[tests] add test for package-less `[Register(\"CustomView\"]`",
       "repo": "dotnet/android",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-27T13:39:55Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -698,7 +705,7 @@
       "number": 10701,
       "title": "[main] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-27T13:37:47Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -708,7 +715,7 @@
       "number": 10723,
       "title": "Bump external/Java.Interop from `9fe493a` to `b7965d4`",
       "repo": "dotnet/android",
-      "author": "dependabot[bot]",
+      "author": "dependabot",
       "mergedAt": "2026-01-27T13:34:20Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -718,7 +725,7 @@
       "number": 33713,
       "title": "[net10.0] Update dependencies from dotnet/android",
       "repo": "dotnet/maui",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-27T13:10:44Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -738,7 +745,7 @@
       "number": 24508,
       "title": "[net11.0] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-26T23:34:30Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -748,7 +755,7 @@
       "number": 1376,
       "title": "Auto-generate crc64 package name when package is empty in XmlImporter",
       "repo": "dotnet/java-interop",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-26T21:59:15Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -898,7 +905,7 @@
       "number": 10713,
       "title": "Bump external/Java.Interop from `faee0da` to `9fe493a`",
       "repo": "dotnet/android",
-      "author": "dependabot[bot]",
+      "author": "dependabot",
       "mergedAt": "2026-01-23T20:06:19Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -918,7 +925,7 @@
       "number": 10655,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-23T18:51:46Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1018,7 +1025,7 @@
       "number": 33683,
       "title": "[net10.0] Update dependencies from dotnet/macios",
       "repo": "dotnet/maui",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-23T12:30:54Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1028,7 +1035,7 @@
       "number": 24552,
       "title": "[net11.0] Update dependencies from dotnet/macios",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-23T11:27:29Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1108,7 +1115,7 @@
       "number": 10707,
       "title": "Bump external/xamarin-android-tools from `ca74eba` to `fb95edd`",
       "repo": "dotnet/android",
-      "author": "dependabot[bot]",
+      "author": "dependabot",
       "mergedAt": "2026-01-22T19:58:29Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1118,7 +1125,7 @@
       "number": 1375,
       "title": "Bump external/xamarin-android-tools from `ca74eba` to `fb95edd`",
       "repo": "dotnet/java-interop",
-      "author": "dependabot[bot]",
+      "author": "dependabot",
       "mergedAt": "2026-01-22T19:57:37Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1148,7 +1155,7 @@
       "number": 24536,
       "title": "[main] Update dependencies from dotnet/macios",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-22T18:31:20Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1168,7 +1175,7 @@
       "number": 24534,
       "title": "[net11.0] Update dependencies from dotnet/macios",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-22T18:18:17Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1198,7 +1205,7 @@
       "number": 33652,
       "title": "[net10.0] Update dependencies from dotnet/macios",
       "repo": "dotnet/maui",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-22T16:54:31Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1298,7 +1305,7 @@
       "number": 24535,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-22T08:49:58Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1340,6 +1347,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-22T07:58:09Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -1349,6 +1357,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-22T07:57:52Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -1366,7 +1375,7 @@
       "number": 33637,
       "title": "[net10.0] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/maui",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-21T23:06:45Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1388,6 +1397,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-21T19:11:00Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -1415,7 +1425,7 @@
       "number": 33638,
       "title": "Apply Integration Tests logging fixes from PR #33624",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-21T17:54:02Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -1445,7 +1455,7 @@
       "number": 24455,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-21T13:25:01Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1475,7 +1485,7 @@
       "number": 24486,
       "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-21T13:01:38Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1485,7 +1495,7 @@
       "number": 24456,
       "title": "[main] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-21T12:42:09Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1537,6 +1547,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-20T19:31:11Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -1544,7 +1555,7 @@
       "number": 33626,
       "title": "[net11.0] Update dependencies from dotnet/macios",
       "repo": "dotnet/maui",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-20T19:23:58Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1554,7 +1565,7 @@
       "number": 1349,
       "title": "Fix broken links in README.md and remove duplicate documentation",
       "repo": "dotnet/android-libraries",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-20T18:55:19Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -1594,7 +1605,7 @@
       "number": 33442,
       "title": "Remove InternalsVisibleTo attributes for .NET MAUI Community Toolkit",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-20T16:10:16Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -1614,7 +1625,7 @@
       "number": 33579,
       "title": "Add learn-from-pr agent and enhance skills framework structure",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-20T15:59:08Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -1624,7 +1635,7 @@
       "number": 33592,
       "title": "[net10.0] Merge main to net10.0",
       "repo": "dotnet/maui",
-      "author": "github-actions[bot]",
+      "author": "github-actions",
       "mergedAt": "2026-01-20T15:19:50Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1636,6 +1647,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-20T14:55:47Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -1645,6 +1657,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-20T14:53:45Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -1664,6 +1677,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-20T14:53:18Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -1721,7 +1735,7 @@
       "number": 33593,
       "title": "[net11.0] Merge main to net11.0",
       "repo": "dotnet/maui",
-      "author": "github-actions[bot]",
+      "author": "github-actions",
       "mergedAt": "2026-01-20T11:21:58Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1741,7 +1755,7 @@
       "number": 33449,
       "title": "[XSG] Refactor MemberAccess to remove double negatives",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-19T17:55:07Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -1771,7 +1785,7 @@
       "number": 33522,
       "title": "[net10.0] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/maui",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-19T13:00:17Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1781,7 +1795,7 @@
       "number": 33588,
       "title": "[main] Update dependencies from dotnet/xharness",
       "repo": "dotnet/maui",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-19T12:45:13Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1801,7 +1815,7 @@
       "number": 33573,
       "title": "Convert integration tests from NUnit to XUnit",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-19T11:39:47Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -1821,7 +1835,7 @@
       "number": 33563,
       "title": "[net11.0] Update dependencies from dotnet/macios",
       "repo": "dotnet/maui",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-17T15:40:59Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1861,7 +1875,7 @@
       "number": 33565,
       "title": "[main] LEGO: Pull request from lego/hb_aa4ddd3b-37ca-4d87-a058-1e95d9ca2d38_20251119194205808 to net10.0",
       "repo": "dotnet/maui",
-      "author": "github-actions[bot]",
+      "author": "github-actions",
       "mergedAt": "2026-01-16T23:50:15Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1871,7 +1885,7 @@
       "number": 33349,
       "title": "Add find-reviewable-pr skill from existing PR",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-16T22:59:27Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -1941,7 +1955,7 @@
       "number": 29780,
       "title": "Fix Glide IllegalArgumentException in MauiCustomTarget.clear() for destroyed activities",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-16T17:45:45Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -1971,7 +1985,7 @@
       "number": 33465,
       "title": "[net10.0] Merge main to net10.0",
       "repo": "dotnet/maui",
-      "author": "github-actions[bot]",
+      "author": "github-actions",
       "mergedAt": "2026-01-16T14:16:54Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -1981,7 +1995,7 @@
       "number": 33542,
       "title": "[net11.0] Update dependencies from dotnet/android",
       "repo": "dotnet/maui",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-16T13:32:59Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -2031,7 +2045,7 @@
       "number": 10696,
       "title": "Remove referenceassemblies-pcl dependency from Arch and Fedora Linux",
       "repo": "dotnet/android",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-16T09:09:26Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -2091,7 +2105,7 @@
       "number": 10686,
       "title": "[main] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-15T19:16:56Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -2113,6 +2127,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-15T16:26:47Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -2150,7 +2165,7 @@
       "number": 24507,
       "title": "[main] Update dependencies from dotnet/xharness",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-15T10:49:07Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -2180,7 +2195,7 @@
       "number": 33537,
       "title": "Revert \"Update WindowsAppSDK to 1.8 (#32174)\"",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-14T19:55:05Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -2212,6 +2227,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-14T18:19:55Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -2229,7 +2245,7 @@
       "number": 1343,
       "title": "Run stable updates for 20260112 changes",
       "repo": "dotnet/android-libraries",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-14T14:35:49Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -2259,7 +2275,7 @@
       "number": 24484,
       "title": "[net11.0] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-14T11:02:11Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -2269,7 +2285,7 @@
       "number": 24499,
       "title": "[main] Update dependencies from dotnet/xharness",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-14T08:42:01Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -2329,7 +2345,7 @@
       "number": 10677,
       "title": "Bump com.android.tools:r8 from 8.13.17 to 8.13.19 in /src/r8",
       "repo": "dotnet/android",
-      "author": "dependabot[bot]",
+      "author": "dependabot",
       "mergedAt": "2026-01-12T21:47:08Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -2361,6 +2377,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-12T15:09:26Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -2368,7 +2385,7 @@
       "number": 24475,
       "title": "[main] Update dependencies from dotnet/xharness",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-12T09:08:54Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -2388,7 +2405,7 @@
       "number": 33327,
       "title": "Add issue-triage skill from PureWeen/maui PR #9",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-09T21:55:00Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -2428,7 +2445,7 @@
       "number": 33434,
       "title": "Improve agent workflow documentation",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-09T00:59:21Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -2448,7 +2465,7 @@
       "number": 10667,
       "title": "[main] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-08T16:54:20Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -2478,7 +2495,7 @@
       "number": 33398,
       "title": "Introduce consolidated 5-phase PR agent workflow with try-fix skill",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-07T20:13:26Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -2528,7 +2545,7 @@
       "number": 739,
       "title": "Update macOS CI to use Xcode 26.2 with macos-26 runner",
       "repo": "dotnet/maui-samples",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2026-01-07T11:40:34Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -2538,7 +2555,7 @@
       "number": 10656,
       "title": "[main] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2026-01-06T22:23:37Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -2580,6 +2597,7 @@
       "repo": "dotnet/android-libraries",
       "author": "moljac",
       "mergedAt": "2026-01-06T15:15:11Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -2659,6 +2677,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-05T08:28:24Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -2766,7 +2785,7 @@
       "number": 24467,
       "title": "[net11.0] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/macios",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2025-12-30T07:59:44Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -2916,7 +2935,7 @@
       "number": 33219,
       "title": "Disable AppThemeBinding source generation for .NET 10",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-22T18:13:10Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3046,7 +3065,7 @@
       "number": 33244,
       "title": "[WIP] Enforce exactly one Category attribute per UI test",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-19T16:03:48Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3106,7 +3125,7 @@
       "number": 33222,
       "title": "Add gitignore for TypeScript source map artifacts",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-19T12:59:45Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3118,6 +3137,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2025-12-19T09:31:03Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3207,6 +3227,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2025-12-18T14:03:47Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3216,6 +3237,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2025-12-18T11:14:41Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3223,9 +3245,59 @@
       "number": 718,
       "title": "Add .NET MAUI Controls Expert custom agent",
       "repo": "dotnet/maui-samples",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-18T10:01:16Z",
       "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24459",
+      "number": 24459,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2025-12-18T01:15:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24462",
+      "number": 24462,
+      "title": "[docs] Move the docs about ReferenceNativeSymbol in the correct file.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2025-12-18T00:33:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24457",
+      "number": 24457,
+      "title": "[Foundation] Fix nullability in NSDictionary<TKey,TValue>.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2025-12-18T00:21:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24461",
+      "number": 24461,
+      "title": "[docs] The MAUI wiki no longer needs updates when we release new versions.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2025-12-18T00:15:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24446",
+      "number": 24446,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2025-12-17T18:39:02Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3245,6 +3317,16 @@
       "repo": "dotnet/maui",
       "author": "HarishKumarSF4517",
       "mergedAt": "2025-12-17T09:58:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24451",
+      "number": 24451,
+      "title": "[net11.0] Disable CoreCLR tests on x64.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2025-12-17T09:55:39Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -3279,12 +3361,23 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/macios/pull/24460",
+      "number": 24460,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2025-12-17T08:41:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33186",
       "number": 33186,
       "title": "Update PatchVersion from 20 to 30",
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2025-12-17T01:41:39Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3298,11 +3391,51 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/maui/pull/26701",
+      "number": 26701,
+      "title": "Fixed the FlyoutPage.Flyout Disappearing When Maximizing the Window on Mac Platform",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2025-12-16T20:54:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/26825",
+      "number": 26825,
+      "title": "Fix ScrollToPosition.Center behavior in ScrollView on iOS and MacCatalyst",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2025-12-16T20:54:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30407",
+      "number": 30407,
+      "title": "[iOS, Mac, Windows] Fixed CharacterSpacing for SearchBar text and placeholder text",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2025-12-16T20:52:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28547",
+      "number": 28547,
+      "title": "[iOS] Fixed memory leak with PopToRootAsync when using TitleView",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2025-12-16T20:51:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10648",
       "number": 10648,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2025-12-16T15:48:58Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -3312,7 +3445,7 @@
       "number": 10649,
       "title": "[main] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2025-12-16T15:47:35Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -3352,7 +3485,7 @@
       "number": 10647,
       "title": "[main] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2025-12-12T15:47:10Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -3362,7 +3495,7 @@
       "number": 723,
       "title": "Align DeveloperBalance dependencies with Maui template and update macOS CI Xcode version",
       "repo": "dotnet/maui-samples",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-12T13:43:56Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3382,7 +3515,7 @@
       "number": 33125,
       "title": "Sync PR #32835 platform requirements to release/10.0.1xx-sr2",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-11T18:21:29Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3392,7 +3525,7 @@
       "number": 10604,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2025-12-11T15:14:43Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -3424,6 +3557,7 @@
       "repo": "dotnet/android",
       "author": "grendello",
       "mergedAt": "2025-12-11T12:58:54Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3431,7 +3565,7 @@
       "number": 33101,
       "title": "don't optimise AppThemeBinding on XSG: Revert PR #32728: Remove UnsafeAccessor workaround for AppThemeBinding",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-10T22:56:08Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3461,7 +3595,7 @@
       "number": 1326,
       "title": "Stable weekly updates and generate files",
       "repo": "dotnet/android-libraries",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-10T15:14:18Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3471,7 +3605,7 @@
       "number": 10630,
       "title": "[main] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2025-12-09T16:31:37Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -3491,7 +3625,7 @@
       "number": 33064,
       "title": "[release/10.0.1xx-sr2] Convert Maui27202 and Maui28711 tests from NUnit to XUnit",
       "repo": "dotnet/maui",
-      "author": "github-actions[bot]",
+      "author": "github-actions",
       "mergedAt": "2025-12-08T22:07:44Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -3503,6 +3637,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2025-12-08T22:06:57Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3510,7 +3645,7 @@
       "number": 10627,
       "title": "Fix outdated contents in WorkloadDependencies.json",
       "repo": "dotnet/android",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-08T20:42:56Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3532,6 +3667,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2025-12-08T14:36:33Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3539,9 +3675,19 @@
       "number": 32990,
       "title": "Optimize UITest category groups: split, combine, and remove Visual category",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-08T04:39:48Z",
       "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32884",
+      "number": 32884,
+      "title": "[Android] Fixed ShellFlyout Footer area not cleared after removing footer view",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2025-12-05T17:03:55Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3549,7 +3695,7 @@
       "number": 1320,
       "title": "Stable Updates 20251124",
       "repo": "dotnet/android-libraries",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-05T14:32:34Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3579,7 +3725,7 @@
       "number": 10593,
       "title": "[main] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2025-12-04T20:24:46Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -3589,7 +3735,7 @@
       "number": 32950,
       "title": "Simplify agent instructions and consolidate sandbox testing workflow",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-04T18:13:54Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3609,7 +3755,7 @@
       "number": 1324,
       "title": "Bump Xamarin.GooglePlayServices.Tasks to 118.4.0.1",
       "repo": "dotnet/android-libraries",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-04T03:33:48Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3659,7 +3805,7 @@
       "number": 1322,
       "title": "Remove deprecated [Android.Runtime.Preserve] attribute",
       "repo": "dotnet/android-libraries",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-03T18:39:44Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3679,7 +3825,7 @@
       "number": 32951,
       "title": "[XSG] Add comprehensive test coverage for nullable types in conditional access paths",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-12-03T10:21:57Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3691,6 +3837,7 @@
       "repo": "dotnet/android",
       "author": "grendello",
       "mergedAt": "2025-12-03T07:46:31Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3700,6 +3847,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2025-12-03T00:19:41Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3719,6 +3867,7 @@
       "repo": "dotnet/android",
       "author": "grendello",
       "mergedAt": "2025-12-01T22:50:22Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3746,7 +3895,7 @@
       "number": 32597,
       "title": "[XSG] Add heuristic to support bindable properties generated by other source generators",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-28T16:17:22Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3766,7 +3915,7 @@
       "number": 32828,
       "title": "Add accessibility identifier to MauiDoneAccessoryView Done button for UI testing",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-26T13:48:00Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3776,7 +3925,7 @@
       "number": 31866,
       "title": "[iOS] Fix modal page crash during app snapshot creation",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-25T19:11:33Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3788,6 +3937,7 @@
       "repo": "dotnet/android",
       "author": "jonathanpeppers",
       "mergedAt": "2025-11-25T15:29:27Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3797,6 +3947,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2025-11-25T13:38:25Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3824,7 +3975,7 @@
       "number": 32580,
       "title": "[XSG] Fix incorrect TargetNullValue flag check causing NPE with nullable bindings",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-25T10:08:24Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3834,7 +3985,7 @@
       "number": 32778,
       "title": "[XSG] Fix OnPlatform to generate default values for missing platforms",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-25T09:47:18Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -3854,7 +4005,7 @@
       "number": 10603,
       "title": "Bump com.android.tools:r8 from 8.11.18 to 8.13.17 in /src/r8",
       "repo": "dotnet/android",
-      "author": "dependabot[bot]",
+      "author": "dependabot",
       "mergedAt": "2025-11-24T21:49:35Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -3906,6 +4057,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2025-11-23T18:28:19Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3913,8 +4065,18 @@
       "number": 1318,
       "title": "Exclude Xamarin.GooglePlayServices.Ads from signing (keep unsigned in build artifacts)",
       "repo": "dotnet/android-libraries",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-21T22:46:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32341",
+      "number": 32341,
+      "title": "Fix iOS 26 TitleView covering content in Shell and NavigationPage",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2025-11-21T18:13:30Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -3935,6 +4097,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2025-11-21T01:25:54Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -4008,6 +4171,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/maui/pull/32537",
+      "number": 32537,
+      "title": "Fix content page title clipping on Android API < 30 with window insets compatibility",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2025-11-19T21:28:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/xcsync/pull/234",
       "number": 234,
       "title": "Disable AzDO dependabot",
@@ -4034,6 +4207,7 @@
       "repo": "dotnet/maui-samples",
       "author": "PureWeen",
       "mergedAt": "2025-11-19T13:25:01Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -4061,7 +4235,7 @@
       "number": 10590,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2025-11-18T18:27:56Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -4081,7 +4255,7 @@
       "number": 32470,
       "title": "Fix BindingSourceGen to detect inaccessible property setters",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-18T13:38:48Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -4093,6 +4267,7 @@
       "repo": "dotnet/android",
       "author": "grendello",
       "mergedAt": "2025-11-17T20:08:10Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -4110,7 +4285,7 @@
       "number": 10575,
       "title": "Bump external/Java.Interop from `749c65d` to `faee0da`",
       "repo": "dotnet/android",
-      "author": "dependabot[bot]",
+      "author": "dependabot",
       "mergedAt": "2025-11-17T14:51:26Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -4130,7 +4305,7 @@
       "number": 1316,
       "title": "Update configuration and generate files for stable release",
       "repo": "dotnet/android-libraries",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-17T14:29:49Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -4140,7 +4315,7 @@
       "number": 32485,
       "title": "Improve AI agent documentation and testing instructions",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-12T23:28:02Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -4150,7 +4325,7 @@
       "number": 32480,
       "title": "Fix CS8603 error for nullable reference types in SourceGen binding paths",
       "repo": "dotnet/maui",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-11T19:08:54Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -4162,6 +4337,7 @@
       "repo": "dotnet/maui-samples",
       "author": "PureWeen",
       "mergedAt": "2025-11-11T15:14:09Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -4169,7 +4345,7 @@
       "number": 710,
       "title": "Add .NET MAUI Aspire integration sample",
       "repo": "dotnet/maui-samples",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-10T22:21:56Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -4191,6 +4367,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2025-11-07T17:34:26Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -4208,7 +4385,7 @@
       "number": 10571,
       "title": "Fix: Ensure HttpContent stream rewinds on exception to support retry scenarios",
       "repo": "dotnet/android",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-07T14:24:32Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -4278,7 +4455,7 @@
       "number": 10565,
       "title": "[main] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/android",
-      "author": "dotnet-maestro[bot]",
+      "author": "dotnet-maestro",
       "mergedAt": "2025-11-04T22:57:31Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
@@ -4298,7 +4475,7 @@
       "number": 1313,
       "title": "[WIP] Add support for MLKit Prompting API",
       "repo": "dotnet/android-libraries",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-04T14:29:05Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
@@ -4318,13 +4495,13 @@
       "number": 1232,
       "title": "Fix BillingResult ObjectDisposedException in Billing 8.0.0.1",
       "repo": "dotnet/android-libraries",
-      "author": "Copilot",
+      "author": "copilot-swe-agent",
       "mergedAt": "2025-11-03T14:51:07Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-01-30T20:26:33.045Z",
+  "lastUpdated": "2026-01-30T20:32:40.289Z",
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",

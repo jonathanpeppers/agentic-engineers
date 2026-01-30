@@ -78,37 +78,48 @@ jobs:
             // Create a map of existing PRs by URL for quick lookup
             const existingPRs = new Map(existingData.prs.map(pr => [pr.url, pr]));
             
-            // Fetch PRs from each repo
+            // GraphQL query for merged PRs
+            const query = `
+              query($owner: String!, $repo: String!, $cursor: String) {
+                repository(owner: $owner, name: $repo) {
+                  pullRequests(states: [MERGED], orderBy: {field: UPDATED_AT, direction: DESC}, first: 100, after: $cursor) {
+                    pageInfo { hasNextPage, endCursor }
+                    nodes {
+                      number
+                      title
+                      url
+                      body
+                      mergedAt
+                      author { login }
+                      headRefName
+                      labels(first: 10) { nodes { name } }
+                    }
+                  }
+                }
+              }
+            `;
+            
+            // Fetch PRs from each repo using GraphQL
             for (const { owner, repo } of repos) {
               console.log(`Fetching PRs from ${owner}/${repo}...`);
               
               try {
-                // Paginate through all PRs to find ones in our date range
-                let page = 1;
+                let cursor = null;
                 let foundOlderThanRange = false;
+                let pageNum = 1;
                 
                 while (!foundOlderThanRange) {
-                  console.log(`  Fetching page ${page}...`);
-                  const { data: pulls } = await github.rest.pulls.list({
-                    owner,
-                    repo,
-                    state: 'closed',
-                    sort: 'updated',
-                    direction: 'desc',
-                    per_page: 100,
-                    page: page
-                  });
+                  console.log(`  Fetching page ${pageNum}...`);
+                  const { repository } = await github.graphql(query, { owner, repo, cursor });
+                  const { nodes, pageInfo } = repository.pullRequests;
                   
-                  if (pulls.length === 0) {
+                  if (nodes.length === 0) {
                     console.log(`  No more PRs found.`);
                     break;
                   }
                   
-                  for (const pr of pulls) {
-                    // Only include merged PRs
-                    if (!pr.merged_at) continue;
-                    
-                    const mergedDate = new Date(pr.merged_at);
+                  for (const pr of nodes) {
+                    const mergedDate = new Date(pr.mergedAt);
                     
                     // If we've gone past our date range, stop paginating
                     if (mergedDate < sinceDate) {
@@ -117,39 +128,36 @@ jobs:
                     }
                     if (mergedDate > untilDate) continue;
                     
-                    const prUrl = pr.html_url;
+                    const authorLogin = pr.author?.login?.toLowerCase() || '';
+                    const labels = pr.labels.nodes.map(l => l.name.toLowerCase());
                     
                     // Check if PR was authored by GitHub Copilot coding agent
-                    const authorLogin = pr.user?.login?.toLowerCase() || '';
                     const isCopilotAuthored = 
                       authorLogin === 'copilot' ||
                       authorLogin.includes('copilot') ||
-                      pr.user?.type === 'Bot' && authorLogin.includes('copilot') ||
-                      pr.head?.ref?.toLowerCase().startsWith('copilot/') ||
-                      pr.labels?.some(l => l.name.toLowerCase().includes('copilot')) ||
+                      pr.headRefName?.toLowerCase().startsWith('copilot/') ||
+                      labels.some(l => l.includes('copilot')) ||
                       pr.body?.toLowerCase().includes('copilot-generated');
                     
                     // Check if AI agent reviewed (s/ai-agent-reviewed label) - only valid for dotnet/maui
-                    let mauiReviewerUsed = false;
-                    if (owner === 'dotnet' && repo === 'maui') {
-                      mauiReviewerUsed = pr.labels?.some(l => l.name === 's/ai-agent-reviewed') || false;
-                    }
+                    const mauiReviewerUsed = (repo === 'maui') && 
+                      pr.labels.nodes.some(l => l.name === 's/ai-agent-reviewed');
                     
-                    const prData = {
-                      url: prUrl,
+                    existingPRs.set(pr.url, {
+                      url: pr.url,
                       number: pr.number,
                       title: pr.title,
                       repo: `${owner}/${repo}`,
-                      author: pr.user?.login || 'unknown',
-                      mergedAt: pr.merged_at,
+                      author: pr.author?.login || 'unknown',
+                      mergedAt: pr.mergedAt,
                       copilotAuthored: isCopilotAuthored,
-                      mauiReviewerUsed: mauiReviewerUsed
-                    };
-                    
-                    existingPRs.set(prUrl, prData);
+                      mauiReviewerUsed
+                    });
                   }
                   
-                  page++;
+                  if (!pageInfo.hasNextPage) break;
+                  cursor = pageInfo.endCursor;
+                  pageNum++;
                 }
               } catch (e) {
                 console.log(`Error fetching PRs from ${owner}/${repo}: ${e.message}`);
