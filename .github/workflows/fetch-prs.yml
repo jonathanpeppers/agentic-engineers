@@ -1,0 +1,162 @@
+name: Fetch PRs from Repos
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:  # Allow manual triggers
+  pull_request:
+    paths:
+      - '.github/workflows/fetch-prs.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-prs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch PRs and update data
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            
+            // List of repos to track
+            const repos = [
+              { owner: 'dotnet', repo: 'maui' },
+              { owner: 'dotnet', repo: 'android' },
+              { owner: 'dotnet', repo: 'macios' }
+            ];
+            
+            // Load existing data
+            const dataPath = 'docs/_data/prs.json';
+            let existingData = { prs: [], lastUpdated: null };
+            
+            if (fs.existsSync(dataPath)) {
+              try {
+                existingData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+              } catch (e) {
+                console.log('Could not parse existing data, starting fresh');
+              }
+            }
+            
+            // Create a map of existing PRs by URL for quick lookup
+            const existingPRs = new Map(existingData.prs.map(pr => [pr.url, pr]));
+            
+            // Fetch PRs from each repo
+            for (const { owner, repo } of repos) {
+              console.log(`Fetching PRs from ${owner}/${repo}...`);
+              
+              try {
+                // Fetch merged PRs from the last 90 days
+                const since = new Date();
+                since.setDate(since.getDate() - 90);
+                
+                const { data: pulls } = await github.rest.pulls.list({
+                  owner,
+                  repo,
+                  state: 'closed',
+                  sort: 'updated',
+                  direction: 'desc',
+                  per_page: 100
+                });
+                
+                for (const pr of pulls) {
+                  // Only include merged PRs
+                  if (!pr.merged_at) continue;
+                  
+                  const mergedDate = new Date(pr.merged_at);
+                  if (mergedDate < since) continue;
+                  
+                  const prUrl = pr.html_url;
+                  
+                  // Check if PR was authored by GitHub Copilot coding agent
+                  const authorLogin = pr.user?.login?.toLowerCase() || '';
+                  const isCopilotAuthored = 
+                    authorLogin === 'copilot' ||
+                    authorLogin.includes('copilot') ||
+                    pr.user?.type === 'Bot' && authorLogin.includes('copilot') ||
+                    pr.head?.ref?.toLowerCase().startsWith('copilot/') ||
+                    pr.labels?.some(l => l.name.toLowerCase().includes('copilot')) ||
+                    pr.body?.toLowerCase().includes('copilot-generated');
+                  
+                  // Check if MAUI PR Reviewer was used (check for review by specific bot/user)
+                  let mauiReviewerUsed = false;
+                  try {
+                    const { data: reviews } = await github.rest.pulls.listReviews({
+                      owner,
+                      repo,
+                      pull_number: pr.number
+                    });
+                    mauiReviewerUsed = reviews.some(r => 
+                      r.user?.login === 'maui-pr-reviewer' ||
+                      r.user?.login?.toLowerCase().includes('maui-pr-reviewer')
+                    );
+                  } catch (e) {
+                    console.log(`Could not fetch reviews for PR #${pr.number}`);
+                  }
+                  
+                  const prData = {
+                    url: prUrl,
+                    number: pr.number,
+                    title: pr.title,
+                    repo: `${owner}/${repo}`,
+                    author: pr.user?.login || 'unknown',
+                    mergedAt: pr.merged_at,
+                    copilotAuthored: isCopilotAuthored,
+                    mauiReviewerUsed: mauiReviewerUsed
+                  };
+                  
+                  existingPRs.set(prUrl, prData);
+                }
+              } catch (e) {
+                console.log(`Error fetching PRs from ${owner}/${repo}: ${e.message}`);
+              }
+            }
+            
+            // Convert map back to array and sort by merged date
+            const allPRs = Array.from(existingPRs.values())
+              .sort((a, b) => new Date(b.mergedAt) - new Date(a.mergedAt));
+            
+            // Prepare output data
+            const outputData = {
+              prs: allPRs,
+              lastUpdated: new Date().toISOString(),
+              repos: repos.map(r => `${r.owner}/${r.repo}`)
+            };
+            
+            // Ensure directory exists
+            const dir = path.dirname(dataPath);
+            if (!fs.existsSync(dir)) {
+              fs.mkdirSync(dir, { recursive: true });
+            }
+            
+            // Write data
+            fs.writeFileSync(dataPath, JSON.stringify(outputData, null, 2));
+            console.log(`Saved ${allPRs.length} PRs to ${dataPath}`);
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Determine target branch
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            TARGET_BRANCH="${{ github.head_ref }}"
+          else
+            TARGET_BRANCH="${{ github.ref_name }}"
+          fi
+          
+          # Fetch latest and rebase onto it
+          git fetch origin "$TARGET_BRANCH"
+          git checkout -B "$TARGET_BRANCH" "origin/$TARGET_BRANCH"
+          
+          # Re-apply data file changes (it was modified during the run)
+          git add docs/_data/prs.json
+          git diff --staged --quiet || git commit -m "Update PR data [skip ci]"
+          git push origin "$TARGET_BRANCH"
