@@ -4018,6 +4018,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/maui/pull/32728",
+      "number": 32728,
+      "title": "[XSG] Create AppThemeBinding using [UnsafeAccessor] in .NET 10",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2025-11-19T19:54:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-samples/pull/717",
       "number": 717,
       "title": "Sync with awesome-copilot",
@@ -4314,7 +4324,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-01-30T20:12:32.468Z",
+  "lastUpdated": "2026-01-30T20:15:41.013Z",
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
