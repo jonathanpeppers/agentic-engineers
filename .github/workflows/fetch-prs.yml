@@ -180,11 +180,17 @@ jobs:
             TARGET_BRANCH="${{ github.ref_name }}"
           fi
           
-          # Fetch latest and rebase onto it
+          # Stash local changes before fetching/checkout
+          git stash push -m "pr-data-changes" -- docs/_data/prs.json || true
+          
+          # Fetch latest and checkout
           git fetch origin "$TARGET_BRANCH"
           git checkout -B "$TARGET_BRANCH" "origin/$TARGET_BRANCH"
           
-          # Re-apply data file changes (it was modified during the run)
+          # Restore stashed changes
+          git stash pop || true
+          
+          # Commit and push
           git add docs/_data/prs.json
           git diff --staged --quiet || git commit -m "Update PR data [skip ci]"
           git push origin "$TARGET_BRANCH"
