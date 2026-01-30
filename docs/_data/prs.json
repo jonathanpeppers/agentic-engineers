@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33567",
+      "number": 33567,
+      "title": "[testing] Add xaml and resizetizer tests to run on helix",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-01-30T18:29:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33724",
+      "number": 33724,
+      "title": "[net11.0] Merge main to net11.0",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-01-30T18:15:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10746",
       "number": 10746,
       "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/dotnet",
@@ -2553,7 +2573,11 @@
       "mauiReviewerUsed": false
     }
   ],
+<<<<<<< Updated upstream
   "lastUpdated": "2026-01-30T18:41:55.032Z",
+=======
+  "lastUpdated": "2026-01-30T18:42:27.736Z",
+>>>>>>> Stashed changes
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
