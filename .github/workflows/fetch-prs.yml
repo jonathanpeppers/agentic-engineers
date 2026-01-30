@@ -206,8 +206,16 @@ jobs:
           git fetch origin "$TARGET_BRANCH"
           git checkout -B "$TARGET_BRANCH" "origin/$TARGET_BRANCH"
           
-          # Restore stashed changes
-          git stash pop || true
+          # Restore stashed changes - fail if there's a merge conflict
+          if git stash list | grep -q "pr-data-changes"; then
+            if ! git stash pop; then
+              echo "::error::Merge conflict detected when applying stashed changes to prs.json"
+              echo "This can happen when multiple workflow runs modify the file simultaneously."
+              echo "Please re-run the workflow."
+              git stash drop || true
+              exit 1
+            fi
+          fi
           
           # Commit and push
           git add docs/_data/prs.json
