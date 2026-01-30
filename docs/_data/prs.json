@@ -276,7 +276,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-29T15:19:41Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/android-libraries/pull/1354",
@@ -563,7 +563,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-27T20:33:43Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33256",
@@ -941,7 +941,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-23T17:49:58Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/macios/pull/24550",
@@ -1379,7 +1379,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-21T19:40:19Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/macios/pull/24531",
@@ -1764,7 +1764,7 @@
       "author": "albyrock87",
       "mergedAt": "2026-01-19T15:02:56Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33522",
@@ -1844,7 +1844,7 @@
       "author": "jeremy-visionaid",
       "mergedAt": "2026-01-16T23:51:46Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33533",
@@ -1934,7 +1934,7 @@
       "author": "SubhikshaSf4851",
       "mergedAt": "2026-01-16T17:47:10Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/29780",
@@ -2819,7 +2819,7 @@
       "author": "NirmalKumarYuvaraj",
       "mergedAt": "2025-12-28T17:54:48Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33295",
@@ -4314,7 +4314,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-01-30T20:05:17.788Z",
+  "lastUpdated": "2026-01-30T20:12:32.468Z",
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",

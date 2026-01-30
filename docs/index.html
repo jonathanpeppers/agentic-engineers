@@ -319,8 +319,11 @@ title: PR Dashboard
             document.getElementById('totalPRs').textContent = filteredPRs.length;
             document.getElementById('copilotPRs').textContent = 
                 filteredPRs.filter(pr => pr.copilotAuthored).length;
-            document.getElementById('reviewerPRs').textContent = 
-                filteredPRs.filter(pr => pr.mauiReviewerUsed).length;
+            const repoFilter = document.getElementById('repoFilter').value;
+            const showReviewerData = repoFilter === 'all' || repoFilter === 'dotnet/maui';
+            document.getElementById('reviewerPRs').textContent = showReviewerData
+                ? filteredPRs.filter(pr => pr.mauiReviewerUsed).length
+                : 'n/a';
             
             // Update monthly table
             updateMonthlyTable(filteredPRs);
@@ -330,6 +333,8 @@ title: PR Dashboard
         }
         
         function updateMonthlyTable(prs) {
+            const repoFilter = document.getElementById('repoFilter').value;
+            const showReviewerData = repoFilter === 'all' || repoFilter === 'dotnet/maui';
             const monthlyData = {};
             
             prs.forEach(pr => {
@@ -359,7 +364,7 @@ title: PR Dashboard
                     <td>${monthName}</td>
                     <td>${data.total}</td>
                     <td>${data.copilot}</td>
-                    <td>${data.reviewer}</td>
+                    <td>${showReviewerData ? data.reviewer : 'n/a'}</td>
                 `;
                 tbody.appendChild(row);
             });
@@ -371,6 +376,8 @@ title: PR Dashboard
         }
         
         function updatePRTable(prs) {
+            const repoFilter = document.getElementById('repoFilter').value;
+            const showReviewerData = repoFilter === 'all' || repoFilter === 'dotnet/maui';
             const tbody = document.getElementById('prBody');
             tbody.innerHTML = '';
             
@@ -380,6 +387,9 @@ title: PR Dashboard
             displayPRs.forEach(pr => {
                 const row = document.createElement('tr');
                 const repoClass = getRepoClass(pr.repo);
+                const reviewerDisplay = (showReviewerData || pr.repo === 'dotnet/maui')
+                    ? `<span class="badge ${pr.mauiReviewerUsed ? 'badge-reviewer' : 'badge-false'}">${pr.mauiReviewerUsed ? 'Yes' : 'No'}</span>`
+                    : '<span class="badge badge-false">n/a</span>';
                 
                 row.innerHTML = `
                     <td><a href="${pr.url}" target="_blank">#${pr.number}</a> ${escapeHtml(pr.title.substring(0, 60))}${pr.title.length > 60 ? '...' : ''}</td>
@@ -387,7 +397,7 @@ title: PR Dashboard
                     <td>${pr.author}</td>
                     <td>${new Date(pr.mergedAt).toLocaleDateString()}</td>
                     <td><span class="badge ${pr.copilotAuthored ? 'badge-copilot' : 'badge-false'}">${pr.copilotAuthored ? 'Yes' : 'No'}</span></td>
-                    <td><span class="badge ${pr.mauiReviewerUsed ? 'badge-reviewer' : 'badge-false'}">${pr.mauiReviewerUsed ? 'Yes' : 'No'}</span></td>
+                    <td>${reviewerDisplay}</td>
                 `;
                 tbody.appendChild(row);
             });
