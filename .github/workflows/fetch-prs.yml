@@ -83,64 +83,83 @@ jobs:
               console.log(`Fetching PRs from ${owner}/${repo}...`);
               
               try {
-                // Fetch merged PRs based on date range
-                const { data: pulls } = await github.rest.pulls.list({
-                  owner,
-                  repo,
-                  state: 'closed',
-                  sort: 'updated',
-                  direction: 'desc',
-                  per_page: 100
-                });
+                // Paginate through all PRs to find ones in our date range
+                let page = 1;
+                let foundOlderThanRange = false;
                 
-                for (const pr of pulls) {
-                  // Only include merged PRs
-                  if (!pr.merged_at) continue;
+                while (!foundOlderThanRange) {
+                  console.log(`  Fetching page ${page}...`);
+                  const { data: pulls } = await github.rest.pulls.list({
+                    owner,
+                    repo,
+                    state: 'closed',
+                    sort: 'updated',
+                    direction: 'desc',
+                    per_page: 100,
+                    page: page
+                  });
                   
-                  const mergedDate = new Date(pr.merged_at);
-                  if (mergedDate < sinceDate) continue;
-                  if (mergedDate > untilDate) continue;
-                  
-                  const prUrl = pr.html_url;
-                  
-                  // Check if PR was authored by GitHub Copilot coding agent
-                  const authorLogin = pr.user?.login?.toLowerCase() || '';
-                  const isCopilotAuthored = 
-                    authorLogin === 'copilot' ||
-                    authorLogin.includes('copilot') ||
-                    pr.user?.type === 'Bot' && authorLogin.includes('copilot') ||
-                    pr.head?.ref?.toLowerCase().startsWith('copilot/') ||
-                    pr.labels?.some(l => l.name.toLowerCase().includes('copilot')) ||
-                    pr.body?.toLowerCase().includes('copilot-generated');
-                  
-                  // Check if MAUI PR Reviewer was used (check for review by specific bot/user)
-                  let mauiReviewerUsed = false;
-                  try {
-                    const { data: reviews } = await github.rest.pulls.listReviews({
-                      owner,
-                      repo,
-                      pull_number: pr.number
-                    });
-                    mauiReviewerUsed = reviews.some(r => 
-                      r.user?.login === 'maui-pr-reviewer' ||
-                      r.user?.login?.toLowerCase().includes('maui-pr-reviewer')
-                    );
-                  } catch (e) {
-                    console.log(`Could not fetch reviews for PR #${pr.number}`);
+                  if (pulls.length === 0) {
+                    console.log(`  No more PRs found.`);
+                    break;
                   }
                   
-                  const prData = {
-                    url: prUrl,
-                    number: pr.number,
-                    title: pr.title,
-                    repo: `${owner}/${repo}`,
-                    author: pr.user?.login || 'unknown',
-                    mergedAt: pr.merged_at,
-                    copilotAuthored: isCopilotAuthored,
-                    mauiReviewerUsed: mauiReviewerUsed
-                  };
+                  for (const pr of pulls) {
+                    // Only include merged PRs
+                    if (!pr.merged_at) continue;
+                    
+                    const mergedDate = new Date(pr.merged_at);
+                    
+                    // If we've gone past our date range, stop paginating
+                    if (mergedDate < sinceDate) {
+                      foundOlderThanRange = true;
+                      continue;
+                    }
+                    if (mergedDate > untilDate) continue;
+                    
+                    const prUrl = pr.html_url;
+                    
+                    // Check if PR was authored by GitHub Copilot coding agent
+                    const authorLogin = pr.user?.login?.toLowerCase() || '';
+                    const isCopilotAuthored = 
+                      authorLogin === 'copilot' ||
+                      authorLogin.includes('copilot') ||
+                      pr.user?.type === 'Bot' && authorLogin.includes('copilot') ||
+                      pr.head?.ref?.toLowerCase().startsWith('copilot/') ||
+                      pr.labels?.some(l => l.name.toLowerCase().includes('copilot')) ||
+                      pr.body?.toLowerCase().includes('copilot-generated');
+                    
+                    // Check if MAUI PR Reviewer was used (check for review by specific bot/user)
+                    let mauiReviewerUsed = false;
+                    try {
+                      const { data: reviews } = await github.rest.pulls.listReviews({
+                        owner,
+                        repo,
+                        pull_number: pr.number
+                      });
+                      mauiReviewerUsed = reviews.some(r => 
+                        r.user?.login === 'maui-pr-reviewer' ||
+                        r.user?.login?.toLowerCase().includes('maui-pr-reviewer')
+                      );
+                    } catch (e) {
+                      console.log(`Could not fetch reviews for PR #${pr.number}`);
+                    }
+                    
+                    const prData = {
+                      url: prUrl,
+                      number: pr.number,
+                      title: pr.title,
+                      repo: `${owner}/${repo}`,
+                      author: pr.user?.login || 'unknown',
+                      mergedAt: pr.merged_at,
+                      copilotAuthored: isCopilotAuthored,
+                      mauiReviewerUsed: mauiReviewerUsed
+                    };
+                    
+                    existingPRs.set(prUrl, prData);
+                  }
                   
-                  existingPRs.set(prUrl, prData);
+                  page++;
                 }
               } catch (e) {
                 console.log(`Error fetching PRs from ${owner}/${repo}: ${e.message}`);
