@@ -129,20 +129,10 @@ jobs:
                       pr.labels?.some(l => l.name.toLowerCase().includes('copilot')) ||
                       pr.body?.toLowerCase().includes('copilot-generated');
                     
-                    // Check if MAUI PR Reviewer was used (check for review by specific bot/user)
+                    // Check if AI agent reviewed (s/ai-agent-reviewed label) - only valid for dotnet/maui
                     let mauiReviewerUsed = false;
-                    try {
-                      const { data: reviews } = await github.rest.pulls.listReviews({
-                        owner,
-                        repo,
-                        pull_number: pr.number
-                      });
-                      mauiReviewerUsed = reviews.some(r => 
-                        r.user?.login === 'maui-pr-reviewer' ||
-                        r.user?.login?.toLowerCase().includes('maui-pr-reviewer')
-                      );
-                    } catch (e) {
-                      console.log(`Could not fetch reviews for PR #${pr.number}`);
+                    if (owner === 'dotnet' && repo === 'maui') {
+                      mauiReviewerUsed = pr.labels?.some(l => l.name === 's/ai-agent-reviewed') || false;
                     }
                     
                     const prData = {
