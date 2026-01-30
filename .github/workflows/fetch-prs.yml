@@ -88,6 +88,7 @@ jobs:
                       number
                       title
                       url
+                      body
                       mergedAt
                       author { login }
                       headRefName
@@ -135,7 +136,8 @@ jobs:
                       authorLogin === 'copilot' ||
                       authorLogin.includes('copilot') ||
                       pr.headRefName?.toLowerCase().startsWith('copilot/') ||
-                      labels.some(l => l.includes('copilot'));
+                      labels.some(l => l.includes('copilot')) ||
+                      pr.body?.toLowerCase().includes('copilot-generated');
                     
                     // Check if AI agent reviewed (s/ai-agent-reviewed label) - only valid for dotnet/maui
                     const mauiReviewerUsed = (repo === 'maui') && 
