@@ -157,11 +157,32 @@ title: PR Dashboard
             border-radius: 4px;
             font-size: 12px;
             background-color: #e8e8e8;
+            font-weight: 500;
         }
         
-        .repo-maui { background-color: #7c3aed20; color: #7c3aed; }
-        .repo-android { background-color: #3ddc8420; color: #059669; }
-        .repo-macios { background-color: #f97316; color: #ea580c; background-color: #f9731620; }
+        /* Android/Java repos - Green */
+        .repo-android,
+        .repo-android-libraries,
+        .repo-android-native-tools,
+        .repo-android-tools,
+        .repo-java-interop { 
+            background-color: #3ddc8420; 
+            color: #059669; 
+        }
+        
+        /* MAUI repos - Purple */
+        .repo-maui,
+        .repo-maui-samples { 
+            background-color: #7c3aed20; 
+            color: #7c3aed; 
+        }
+        
+        /* macOS/iOS repos - Orange */
+        .repo-macios,
+        .repo-xcsync { 
+            background-color: #f9731620; 
+            color: #ea580c; 
+        }
     </style>
 </head>
 <body>
@@ -249,8 +270,8 @@ title: PR Dashboard
             const repoFilter = document.getElementById('repoFilter');
             const monthFilter = document.getElementById('monthFilter');
             
-            // Populate repo filter
-            const repos = [...new Set(prData.prs.map(pr => pr.repo))];
+            // Populate repo filter (sorted alphabetically)
+            const repos = [...new Set(prData.prs.map(pr => pr.repo))].sort();
             repos.forEach(repo => {
                 const option = document.createElement('option');
                 option.value = repo;
@@ -344,6 +365,11 @@ title: PR Dashboard
             });
         }
         
+        function getRepoClass(repoName) {
+            // Extract repo name after dotnet/ and add repo- prefix
+            return 'repo-' + repoName.split('/')[1];
+        }
+        
         function updatePRTable(prs) {
             const tbody = document.getElementById('prBody');
             tbody.innerHTML = '';
@@ -353,8 +379,7 @@ title: PR Dashboard
             
             displayPRs.forEach(pr => {
                 const row = document.createElement('tr');
-                const repoClass = pr.repo.includes('maui') ? 'repo-maui' : 
-                                  pr.repo.includes('android') ? 'repo-android' : 'repo-macios';
+                const repoClass = getRepoClass(pr.repo);
                 
                 row.innerHTML = `
                     <td><a href="${pr.url}" target="_blank">#${pr.number}</a> ${escapeHtml(pr.title.substring(0, 60))}${pr.title.length > 60 ? '...' : ''}</td>
