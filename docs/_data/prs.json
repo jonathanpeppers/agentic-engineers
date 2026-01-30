@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33806",
+      "number": 33806,
+      "title": "Improve PR Agent Gate verification to prevent result fabrication",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-01-30T22:56:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24594",
+      "number": 24594,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260130185159596 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-01-30T22:12:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10715",
       "number": 10715,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
@@ -9971,7 +9991,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-01-30T22:01:27.018Z",
+  "lastUpdated": "2026-01-30T23:03:36.315Z",
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
