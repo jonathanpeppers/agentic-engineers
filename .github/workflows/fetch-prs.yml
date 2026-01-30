@@ -142,7 +142,21 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Determine target branch
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            TARGET_BRANCH="${{ github.head_ref }}"
+          else
+            TARGET_BRANCH="${{ github.ref_name }}"
+          fi
+          
+          # Fetch latest and rebase onto it
+          git fetch origin "$TARGET_BRANCH"
+          git checkout -B "$TARGET_BRANCH" "origin/$TARGET_BRANCH"
+          
+          # Re-apply data file changes (it was modified during the run)
           git add docs/_data/prs.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update PR data [skip ci]" && git push)
+          git diff --staged --quiet || git commit -m "Update PR data [skip ci]"
+          git push origin "$TARGET_BRANCH"
