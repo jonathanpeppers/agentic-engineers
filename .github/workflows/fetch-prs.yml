@@ -78,13 +78,18 @@ jobs:
             // Create a map of existing PRs by URL for quick lookup
             const existingPRs = new Map(existingData.prs.map(pr => [pr.url, pr]));
             
-            // GraphQL query for merged PRs
-            const query = `
-              query($owner: String!, $repo: String!, $cursor: String) {
-                repository(owner: $owner, name: $repo) {
-                  pullRequests(states: [MERGED], orderBy: {field: UPDATED_AT, direction: DESC}, first: 100, after: $cursor) {
-                    pageInfo { hasNextPage, endCursor }
-                    nodes {
+            // Format dates for GitHub search query (YYYY-MM-DD)
+            const formatDate = (d) => d.toISOString().split('T')[0];
+            const sinceDateStr = formatDate(sinceDate);
+            const untilDateStr = formatDate(untilDate);
+            
+            // GraphQL search query for merged PRs - filters by merge date server-side
+            const searchQuery = `
+              query($searchQuery: String!, $cursor: String) {
+                search(query: $searchQuery, type: ISSUE, first: 100, after: $cursor) {
+                  pageInfo { hasNextPage, endCursor }
+                  nodes {
+                    ... on PullRequest {
                       number
                       title
                       url
@@ -99,34 +104,25 @@ jobs:
               }
             `;
             
-            // Fetch PRs from each repo using GraphQL
+            // Fetch PRs from each repo using GraphQL search
             for (const { owner, repo } of repos) {
               console.log(`Fetching PRs from ${owner}/${repo}...`);
               
               try {
                 let cursor = null;
-                let foundOlderThanRange = false;
                 let pageNum = 1;
+                const repoSearchQuery = `repo:${owner}/${repo} is:pr is:merged merged:${sinceDateStr}..${untilDateStr}`;
+                console.log(`  Search query: ${repoSearchQuery}`);
                 
-                while (!foundOlderThanRange) {
+                while (true) {
                   console.log(`  Fetching page ${pageNum}...`);
-                  const { repository } = await github.graphql(query, { owner, repo, cursor });
-                  const { nodes, pageInfo } = repository.pullRequests;
+                  const { search } = await github.graphql(searchQuery, { searchQuery: repoSearchQuery, cursor });
+                  const { nodes, pageInfo } = search;
                   
-                  if (nodes.length === 0) {
-                    console.log(`  No more PRs found.`);
-                    break;
-                  }
+                  console.log(`  Found ${nodes.length} PRs on this page`);
                   
                   for (const pr of nodes) {
-                    const mergedDate = new Date(pr.mergedAt);
-                    
-                    // If we've gone past our date range, stop paginating
-                    if (mergedDate < sinceDate) {
-                      foundOlderThanRange = true;
-                      continue;
-                    }
-                    if (mergedDate > untilDate) continue;
+                    if (!pr.number) continue; // Skip non-PR nodes
                     
                     const authorLogin = pr.author?.login?.toLowerCase() || '';
                     const labels = pr.labels.nodes.map(l => l.name.toLowerCase());
