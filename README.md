@@ -13,3 +13,4 @@ Documents and links from our group, "Agentic Engineers", at Microsoft.
 
 * [Vibe Coding a Mock Steam Client in WPF](https://github.com/jonathanpeppers/vibe-wpf)
   * [Recording on YouTube](https://youtu.be/SaJI6dkdwlE)
+* [Vibe Coding a Mock Steam Client in MAUI](https://github.com/emaf/MauiSteamApp/tree/main)
