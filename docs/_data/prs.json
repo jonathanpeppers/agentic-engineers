@@ -2573,11 +2573,7 @@
       "mauiReviewerUsed": false
     }
   ],
-<<<<<<< Updated upstream
-  "lastUpdated": "2026-01-30T18:41:55.032Z",
-=======
   "lastUpdated": "2026-01-30T18:42:27.736Z",
->>>>>>> Stashed changes
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
