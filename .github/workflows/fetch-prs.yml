@@ -34,9 +34,9 @@ jobs:
               { owner: 'dotnet', repo: 'android' },
               { owner: 'dotnet', repo: 'java-interop' },
               { owner: 'dotnet', repo: 'macios' },
-              { owner: 'dotnet', repo: 'maui-samples' }
+              { owner: 'dotnet', repo: 'maui-samples' },
               { owner: 'dotnet', repo: 'maui' },
-              { owner: 'dotnet', repo: 'xcsync' },
+              { owner: 'dotnet', repo: 'xcsync' }
             ];
             
             // Load existing data
