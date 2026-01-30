@@ -228,23 +228,20 @@ title: PR Dashboard
     </div>
     
     <script>
-        let prData = null;
+        // Data injected at build time by Jekyll from _data/prs.json
+        const prData = {{ site.data.prs | jsonify }};
         
-        async function loadData() {
-            try {
-                const response = await fetch('{{ site.baseurl }}/_data/prs.json');
-                prData = await response.json();
-                
-                if (prData.lastUpdated) {
-                    document.getElementById('lastUpdated').textContent = 
-                        new Date(prData.lastUpdated).toLocaleString();
-                }
-                
+        function loadData() {
+            if (prData && prData.lastUpdated) {
+                document.getElementById('lastUpdated').textContent = 
+                    new Date(prData.lastUpdated).toLocaleString();
+            }
+            
+            if (prData && prData.prs) {
                 populateFilters();
                 updateDisplay();
-            } catch (error) {
-                console.error('Error loading PR data:', error);
-                document.getElementById('lastUpdated').textContent = 'Error loading data';
+            } else {
+                document.getElementById('lastUpdated').textContent = 'No data available';
             }
         }
         
