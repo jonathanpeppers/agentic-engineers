@@ -1,0 +1,13 @@
+title: Agentic Engineers
+description: PR tracking dashboard for dotnet repos
+baseurl: "/agentic-engineers"
+url: "https://jonathanpeppers.github.io"
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
