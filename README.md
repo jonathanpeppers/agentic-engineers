@@ -12,3 +12,4 @@ Documents and links from our group, "Agentic Engineers", at Microsoft.
 ## Projects or other Links
 
 * [Vibe Coding a Mock Steam Client in WPF](https://github.com/jonathanpeppers/vibe-wpf)
+  * [Recording on YouTube](https://youtu.be/SaJI6dkdwlE)
