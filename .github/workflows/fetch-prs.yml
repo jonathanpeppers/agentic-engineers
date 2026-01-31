@@ -2,7 +2,7 @@ name: Fetch PRs from Repos
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+    - cron: '0 0,8,16 * * *'  # Runs 3 times per day (midnight, 8am, 4pm UTC)
   workflow_dispatch:  # Allow manual triggers
     inputs:
       month_year:
