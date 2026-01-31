@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33749",
+      "number": 33749,
+      "title": "[Testing] Fix flaky UI tests: retryTimeout and SwipeView button fix",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-01-31T02:08:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24579",
+      "number": 24579,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-01-31T01:41:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33803",
+      "number": 33803,
+      "title": "LEGO: Pull request from lego/hb_7241b85a-f216-4d55-a9fa-d8030c736df5_20260130203640718 to main",
+      "repo": "dotnet/maui",
+      "author": "csigs",
+      "mergedAt": "2026-01-31T01:34:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33618",
+      "number": 33618,
+      "title": "[net11.0] Update sdk preview1",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-01-31T01:32:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33801",
+      "number": 33801,
+      "title": "[testing] Dont fail xcode script",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-01-31T01:31:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24585",
       "number": 24585,
       "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/dotnet",
@@ -10011,7 +10061,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-01-31T01:30:03.723Z",
+  "lastUpdated": "2026-01-31T02:48:57.936Z",
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
