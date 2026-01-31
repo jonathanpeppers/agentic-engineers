@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10749",
+      "number": 10749,
+      "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-01-31T12:54:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33749",
       "number": 33749,
       "title": "[Testing] Fix flaky UI tests: retryTimeout and SwipeView button fix",
@@ -10061,7 +10071,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-01-31T12:01:40.816Z",
+  "lastUpdated": "2026-01-31T13:15:17.131Z",
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
