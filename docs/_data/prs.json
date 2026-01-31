@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33794",
+      "number": 33794,
+      "title": "Improve try-fix comment parsing and summary",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-01-31T13:46:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33793",
+      "number": 33793,
+      "title": "Improve test report formatting and summary extraction",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-01-31T13:45:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10749",
       "number": 10749,
       "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/dotnet",
@@ -10071,7 +10091,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-01-31T13:15:17.131Z",
+  "lastUpdated": "2026-01-31T14:03:07.753Z",
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
