@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24585",
+      "number": 24585,
+      "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-01-30T23:52:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24581",
+      "number": 24581,
+      "title": "[MediaAccessibility] Tweak nullability in MACaptionAppearance.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-01-30T23:18:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33806",
       "number": 33806,
       "title": "Improve PR Agent Gate verification to prevent result fabrication",
@@ -9991,7 +10011,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-01-30T23:03:36.315Z",
+  "lastUpdated": "2026-01-31T00:02:44.845Z",
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
