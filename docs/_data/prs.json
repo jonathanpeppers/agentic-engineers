@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33808",
+      "number": 33808,
+      "title": "[net11.0] Merge/main to net11.0",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-01-31T20:10:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33337",
       "number": 33337,
       "title": "[iOS 26 & Catalyst 26] [Follow-up PR] Fixed IsEnabled behavior on Tabs",
@@ -10111,7 +10121,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-01-31T20:01:27.039Z",
+  "lastUpdated": "2026-01-31T21:01:56.119Z",
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
