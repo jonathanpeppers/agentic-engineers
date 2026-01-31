@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33337",
+      "number": 33337,
+      "title": "[iOS 26 & Catalyst 26] [Follow-up PR] Fixed IsEnabled behavior on Tabs",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-01-31T16:54:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33790",
+      "number": 33790,
+      "title": "[ci] Use AcesShared on uitests",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-01-31T16:53:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33794",
       "number": 33794,
       "title": "Improve try-fix comment parsing and summary",
@@ -10091,7 +10111,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-01-31T16:01:39.338Z",
+  "lastUpdated": "2026-01-31T17:04:08.404Z",
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
