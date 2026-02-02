@@ -52,15 +52,18 @@ jobs:
             
             // List of repos to track
             const repos = [
+              { owner: 'dotnet', repo: 'android-libzipsharp' },
               { owner: 'dotnet', repo: 'android-libraries' },
               { owner: 'dotnet', repo: 'android-native-tools' },
               { owner: 'dotnet', repo: 'android-tools' },
               { owner: 'dotnet', repo: 'android' },
               { owner: 'dotnet', repo: 'java-interop' },
+              { owner: 'dotnet', repo: 'macios-devtools' },
               { owner: 'dotnet', repo: 'macios' },
               { owner: 'dotnet', repo: 'maui-samples' },
               { owner: 'dotnet', repo: 'maui' },
-              { owner: 'dotnet', repo: 'xcsync' }
+              { owner: 'dotnet', repo: 'xcsync' },
+              { owner: 'mono', repo: 'SkiaSharp' }
             ];
             
             // Load existing data

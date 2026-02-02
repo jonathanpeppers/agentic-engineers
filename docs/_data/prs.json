@@ -121,6 +121,36 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3488",
+      "number": 3488,
+      "title": "Improve AI instructions and skills",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-01T22:48:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3483",
+      "number": 3483,
+      "title": "Add structured workflow for adding APIs to SkiaSharp",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-01T20:25:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3486",
+      "number": 3486,
+      "title": "Use the new CI feed to download the pre-built artifacts",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-01T18:32:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33816",
       "number": 33816,
       "title": "[ci] Fix public vs internal aces",
@@ -191,6 +221,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3479",
+      "number": 3479,
+      "title": "Add NuGet feed management tools and PR package download script",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-31T12:53:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33749",
       "number": 33749,
       "title": "[Testing] Fix flaky UI tests: retryTimeout and SwipeView button fix",
@@ -237,6 +277,16 @@
       "repo": "dotnet/maui",
       "author": "rmarinho",
       "mergedAt": "2026-01-31T01:31:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/140",
+      "number": 140,
+      "title": "Add an XcodeLocator class.",
+      "repo": "dotnet/macios-devtools",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-01-31T01:11:15Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -431,6 +481,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3478",
+      "number": 3478,
+      "title": "Update libwebp to 1.6.0",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-30T05:44:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24571",
       "number": 24571,
       "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/dotnet",
@@ -541,6 +601,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3477",
+      "number": 3477,
+      "title": "Improve native-dependency-update skill instructions",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-29T18:59:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24569",
       "number": 24569,
       "title": "[Foundation] Improve NSArray.From[NS]Objects slightly.",
@@ -637,6 +707,56 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-01-29T06:02:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3468",
+      "number": 3468,
+      "title": "Add debugging methodology documentation",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-29T00:55:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3475",
+      "number": 3475,
+      "title": "Strengthen skill guidance on submodule merge sequence",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-29T00:51:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3474",
+      "number": 3474,
+      "title": "Fix skia submodule to point to squashed commit",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-29T00:41:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3469",
+      "number": 3469,
+      "title": "Update brotli to 1.2.0",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-29T00:37:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3470",
+      "number": 3470,
+      "title": "Migrate SkiaSharp documentation from Xamarin.Forms to .NET MAUI",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-28T22:38:33Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -841,6 +961,26 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3458",
+      "number": 3458,
+      "title": "Bump libexpat from 2.6.4 to 2.7.3",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-27T22:11:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3463",
+      "number": 3463,
+      "title": "Remove unused dependencies and add dependencies documentation",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-27T21:59:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24556",
       "number": 24556,
       "title": "[Foundation] Unify the FromObjectsAndKeys implementations for creating dictionaries.",
@@ -887,6 +1027,16 @@
       "repo": "dotnet/android",
       "author": "jonathanpeppers",
       "mergedAt": "2026-01-27T18:09:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3460",
+      "number": 3460,
+      "title": "Update more AI skills",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-27T17:57:59Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -951,12 +1101,52 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3457",
+      "number": 3457,
+      "title": "Update native-dependency-update skill with guardrails",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-27T16:15:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3459",
+      "number": 3459,
+      "title": "Update SkiaSharp package source URL in nuget.config",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-27T16:09:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3455",
+      "number": 3455,
+      "title": "Update the native dependency bump skills",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-27T15:11:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24561",
       "number": 24561,
       "title": "[release/11.0.1xx-preview1] Merge branch 'net11.0' into 'release/11.0.1xx-preview1'",
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-27T15:09:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3452",
+      "number": 3452,
+      "title": "Update libpng to 1.6.54",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-27T15:06:38Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -1021,6 +1211,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3454",
+      "number": 3454,
+      "title": "Update docs submodule",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-27T00:46:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10721",
       "number": 10721,
       "title": "[build] fix `publish BAR manifest` step",
@@ -1031,12 +1231,32 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3453",
+      "number": 3453,
+      "title": "Add AI skill for native dependency updates",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-27T00:23:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24508",
       "number": 24508,
       "title": "[net11.0] Update dependencies from dotnet/dotnet",
       "repo": "dotnet/macios",
       "author": "dotnet-maestro",
       "mergedAt": "2026-01-26T23:34:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3451",
+      "number": 3451,
+      "title": "Add AI release skills and integration test suite",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-26T22:38:26Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -1151,6 +1371,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3450",
+      "number": 3450,
+      "title": "Fix the version processing",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-25T19:19:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33699",
       "number": 33699,
       "title": "Improve skills and scripts for better agent workflows",
@@ -1167,6 +1397,16 @@
       "repo": "dotnet/maui",
       "author": "StephaneDelcroix",
       "mergedAt": "2026-01-25T04:54:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3445",
+      "number": 3445,
+      "title": "Add API guidelines and implement-issue skill",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-24T01:47:15Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -1397,6 +1637,26 @@
       "repo": "dotnet/android",
       "author": "jonathanpeppers",
       "mergedAt": "2026-01-22T21:53:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3447",
+      "number": 3447,
+      "title": "Document HarfBuzzSharp versioning in release process",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-22T21:40:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3446",
+      "number": 3446,
+      "title": "Bump to the next version (3.119.3) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-22T21:40:00Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -1651,12 +1911,32 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3444",
+      "number": 3444,
+      "title": "Add a release and tagging skill",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-22T02:15:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33213",
       "number": 33213,
       "title": "Fix for BlazorWebView Back Navigation Issues on Android 13+ After Predictive Back Gesture Changes",
       "repo": "dotnet/maui",
       "author": "SuthiYuvaraj",
       "mergedAt": "2026-01-22T00:27:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3387",
+      "number": 3387,
+      "title": "Add API documentation skill and improve API reference docs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-21T23:30:26Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -1821,6 +2101,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3443",
+      "number": 3443,
+      "title": "Fix issues with CI",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-21T03:18:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33209",
       "number": 33209,
       "title": "Restore OfficialBuildId for proper CI versioning",
@@ -1831,12 +2121,32 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3442",
+      "number": 3442,
+      "title": "Rewite the docs and Copilot instructions",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-20T22:32:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24529",
       "number": 24529,
       "title": "[devops] macOS 12 is macOS Monterey.",
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-20T19:31:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3441",
+      "number": 3441,
+      "title": "Improvements to docs and merged the wiki",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-20T19:27:23Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -2437,6 +2747,26 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-01-15T14:41:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/143",
+      "number": 143,
+      "title": "Enable nullability for the Xamarin.MacDev project.",
+      "repo": "dotnet/macios-devtools",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-01-15T14:35:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/142",
+      "number": 142,
+      "title": "Multi-target with .NET 10.",
+      "repo": "dotnet/macios-devtools",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-01-15T14:04:21Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -3479,6 +3809,16 @@
       "mergedAt": "2026-01-05T22:19:12Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/141",
+      "number": 141,
+      "title": "[Xamarin.MacDev] Add a PDictionary.TryGetStringValue method.",
+      "repo": "dotnet/macios-devtools",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-01-05T20:16:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
     },
     {
       "url": "https://github.com/dotnet/android/pull/10658",
@@ -8721,6 +9061,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3406",
+      "number": 3406,
+      "title": "Adding the initial set of AI docs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2025-11-13T03:21:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/32572",
       "number": 32572,
       "title": "Update default solution file in settings",
@@ -9791,6 +10141,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3404",
+      "number": 3404,
+      "title": "Enable BufferSecurityCheck for native DLLs to resolve BinSkim BA2007",
+      "repo": "mono/SkiaSharp",
+      "author": "Aguilex",
+      "mergedAt": "2025-11-04T17:19:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24169",
       "number": 24169,
       "title": "[xcode26.1] Update to stable bits",
@@ -9808,6 +10168,16 @@
       "author": "grendello",
       "mergedAt": "2025-11-04T15:33:44Z",
       "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3405",
+      "number": 3405,
+      "title": "Merge duplicate Debug|Win32 ItemDefinitionGroup in libHarfBuzzSharp.vcxproj",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2025-11-04T15:12:23Z",
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -10251,16 +10621,19 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-02T16:13:21.363Z",
+  "lastUpdated": "2026-02-02T16:17:18.948Z",
   "repos": [
+    "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
     "dotnet/android-tools",
     "dotnet/android",
     "dotnet/java-interop",
+    "dotnet/macios-devtools",
     "dotnet/macios",
     "dotnet/maui-samples",
     "dotnet/maui",
-    "dotnet/xcsync"
+    "dotnet/xcsync",
+    "mono/SkiaSharp"
   ]
 }
