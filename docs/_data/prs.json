@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33832",
+      "number": 33832,
+      "title": "[release/11.0.1xx-preview1] Fix public vs internal aces",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-02T11:57:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33807",
+      "number": 33807,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 13330: Build ID 13210800",
+      "repo": "dotnet/maui",
+      "author": "dotnet-bot",
+      "mergedAt": "2026-02-02T10:50:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33825",
+      "number": 33825,
+      "title": "LEGO: Pull request from lego/hb_aa4ddd3b-37ca-4d87-a058-1e95d9ca2d38_20260201193844071 to net10.0",
+      "repo": "dotnet/maui",
+      "author": "csigs",
+      "mergedAt": "2026-02-02T10:47:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33830",
+      "number": 33830,
+      "title": "readme tweaks",
+      "repo": "dotnet/maui",
+      "author": "davidortinau",
+      "mergedAt": "2026-02-02T10:19:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24601",
+      "number": 24601,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-02T09:31:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24600",
+      "number": 24600,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-02T09:21:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24603",
+      "number": 24603,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-02T08:33:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24597",
+      "number": 24597,
+      "title": "[tools] Remove the IntPtr.Size inline optimization.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-02T00:24:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24593",
+      "number": 24593,
+      "title": "[UIKit] Enable nullability and clean up UIActionSheet.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-02T00:22:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24591",
+      "number": 24591,
+      "title": "[Copilot] Add an XML doc writer agent.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-02T00:22:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24590",
+      "number": 24590,
+      "title": "[CoreVideo] Expose CVPixelBufferAttributes.AllocateWithIOSurface|MetalCompatibility on macOS. Fixes #24584.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-02T00:21:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24574",
+      "number": 24574,
+      "title": "[tests] Fix CGRenderingBufferProviderTest.SizeProperty_DoesNotThrow to have consistent results.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-02T00:20:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33816",
+      "number": 33816,
+      "title": "[ci] Fix public vs internal aces",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-01T13:40:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33808",
       "number": 33808,
       "title": "[net11.0] Merge/main to net11.0",
@@ -10121,7 +10251,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-01-31T23:48:12.104Z",
+  "lastUpdated": "2026-02-02T16:13:21.363Z",
   "repos": [
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
