@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24607",
+      "number": 24607,
+      "title": "[msbuild] Fix listing devices with no udid. Fixes #24605.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-03T15:37:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33813",
+      "number": 33813,
+      "title": "Enhance PR agent: multi-model workflow, blocker handling, shared rules extraction",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-03T15:30:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27340",
+      "number": 27340,
+      "title": "[Android & iOS] Entry/Editor: Dismiss keyboard when control becomes invisible",
+      "repo": "dotnet/maui",
+      "author": "prakashKannanSf3972",
+      "mergedAt": "2026-02-03T15:29:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24583",
+      "number": 24583,
+      "title": "[Foundation] Improve NSArray.FromStrings a bit.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-03T15:28:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27376",
+      "number": 27376,
+      "title": "[Android] Fix Numeric Entry not accepting the appropriate Decimal Separator",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-02-03T15:23:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31487",
+      "number": 31487,
+      "title": "[Android] Fixed duplicate title icon when setting TitleIconImageSource Multiple times",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-02-03T15:23:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33036",
+      "number": 33036,
+      "title": "Enable XAML Source Generator on ManualTests project",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-03T14:48:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33858",
+      "number": 33858,
+      "title": "[net11.0] Merge main into net11.0",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-03T14:27:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33857",
+      "number": 33857,
+      "title": "[net10.0] Merge main into net10.0",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-03T14:26:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10753",
+      "number": 10753,
+      "title": "Add UseMonoRuntime condition to API levels 21, 22, 23 in SupportedPlatforms generator",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-03T14:16:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33854",
+      "number": 33854,
+      "title": "Fixed: Missing diagnostic in SourceGen when Setter references non-BindableProperty - Candidate Failure Feb 2nd",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-02-03T13:41:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33846",
+      "number": 33846,
+      "title": "[ci] Update with net11.0 with preview 1",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-03T12:14:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33847",
+      "number": 33847,
+      "title": "[release/11.0.1xx-preview1] Fix global sdk",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-03T10:48:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33851",
+      "number": 33851,
+      "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/android",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-03T10:48:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3494",
+      "number": 3494,
+      "title": "Fix Linux ARM64 crash caused by missing fontconfig in cross-compile sysroot",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-03T10:33:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24606",
+      "number": 24606,
+      "title": "[UIKit] Enable nullability and clean up UICollectionViewLayoutAttributes.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-03T09:24:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24596",
+      "number": 24596,
+      "title": "[UIKit] Enable nullability and clean up UIAppearance.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-03T09:12:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24613",
+      "number": 24613,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-03T08:55:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24599",
+      "number": 24599,
+      "title": "[UIKit] Enable nullability and clean up UICollectionView.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-03T08:39:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24614",
+      "number": 24614,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-03T08:39:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24602",
       "number": 24602,
       "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/dotnet",
@@ -10791,7 +10991,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-03T08:12:07.465Z",
+  "lastUpdated": "2026-02-03T16:18:44.963Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
