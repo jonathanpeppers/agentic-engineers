@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24602",
+      "number": 24602,
+      "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-03T08:06:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24598",
+      "number": 24598,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-03T08:03:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33845",
+      "number": 33845,
+      "title": "Add doc comment explaining EnableDefaultCssItems in Blazor templates",
+      "repo": "dotnet/maui",
+      "author": "akoeplinger",
+      "mergedAt": "2026-02-03T07:59:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3495",
+      "number": 3495,
+      "title": "Use the dev/ branch prefix",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-03T02:34:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3493",
+      "number": 3493,
+      "title": "Improve bugfixing skills",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-03T02:28:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24494",
       "number": 24494,
       "title": "Enable partial Linux builds for Copilot support",
@@ -10741,7 +10791,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-03T00:23:09.895Z",
+  "lastUpdated": "2026-02-03T08:12:07.465Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
