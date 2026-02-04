@@ -1,6 +1,96 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24589",
+      "number": 24589,
+      "title": "[tools] Enable nullability in the registrars.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-04T00:01:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1358",
+      "number": 1358,
+      "title": "Stable Updates 20260202",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-03T20:47:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10755",
+      "number": 10755,
+      "title": "[Mono.Android] fix `$DOTNET_STARTUP_HOOKS` on CoreCLR",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-03T20:23:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24608",
+      "number": 24608,
+      "title": "[UIKit] Enable nullability and clean up UIControl.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-03T20:03:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24615",
+      "number": 24615,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-03T19:48:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24610",
+      "number": 24610,
+      "title": "[msbuild] Fix finding applicable simulator devices in GetMlaunchArguments task.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-03T19:40:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24548",
+      "number": 24548,
+      "title": "[release/9.0.1xx] [dotnet] Fix handling binding frameworks embedded in binding assemblies remotely.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-03T18:59:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24609",
+      "number": 24609,
+      "title": "[UIKit] Enable nullability and clean up UIDragDropSessionExtensions.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-03T18:17:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33856",
+      "number": 33856,
+      "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-03T17:37:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24607",
       "number": 24607,
       "title": "[msbuild] Fix listing devices with no udid. Fixes #24605.",
@@ -10991,7 +11081,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-03T18:49:27.288Z",
+  "lastUpdated": "2026-02-04T00:20:09.898Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
