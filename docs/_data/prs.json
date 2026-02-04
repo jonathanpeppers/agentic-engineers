@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10756",
+      "number": 10756,
+      "title": "[tests] remove \"flaky\" MSBuild perf tests",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-04T01:06:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24589",
       "number": 24589,
       "title": "[tools] Enable nullability in the registrars.",
@@ -11081,7 +11091,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-04T00:20:09.898Z",
+  "lastUpdated": "2026-02-04T08:12:43.756Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
