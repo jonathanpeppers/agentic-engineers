@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10759",
+      "number": 10759,
+      "title": "Fix MSB4096 error with user-defined TrimmerRootAssembly items lacking RootMode metadata",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-04T15:09:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/144",
+      "number": 144,
+      "title": "Misc improvements to the XcodeLocator class.",
+      "repo": "dotnet/macios-devtools",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-04T14:12:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24616",
+      "number": 24616,
+      "title": "[release/11.0.1xx-preview1] [msbuild] Fix listing devices with no udid. Fixes #24605.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-04T10:06:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24619",
+      "number": 24619,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-04T09:39:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24620",
+      "number": 24620,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-04T09:30:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10756",
       "number": 10756,
       "title": "[tests] remove \"flaky\" MSBuild perf tests",
@@ -11091,7 +11141,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-04T08:12:43.756Z",
+  "lastUpdated": "2026-02-04T16:16:45.584Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
