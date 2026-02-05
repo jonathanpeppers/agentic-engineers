@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3500",
+      "number": 3500,
+      "title": "Fix release-testing skill package resolution guidance",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-05T14:41:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10766",
+      "number": 10766,
+      "title": "Unify LangVersion to \"latest\" across projects",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-05T14:05:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10768",
+      "number": 10768,
+      "title": "[release/10.0.1xx] [NativeAOT] set environment variables before the app .so is loaded",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-05T14:03:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33860",
+      "number": 33860,
+      "title": "Improve write-tests-agent with best practices",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-02-05T13:47:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33896",
+      "number": 33896,
+      "title": "Fix build.ps1 to propagate exit codes",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-05T11:59:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33901",
+      "number": 33901,
+      "title": "Fix Android emulator boot: launch once in fixture, not per-test",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-05T11:58:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33898",
+      "number": 33898,
+      "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-05T11:57:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33894",
+      "number": 33894,
+      "title": "Fix device tests build: suppress CS0618 warning for deprecated XamlCompilation attribute",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-05T11:51:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24627",
+      "number": 24627,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-05T09:02:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10771",
+      "number": 10771,
+      "title": "Apply PR #10768 review feedback: fix Java string escaping and logging",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-05T08:38:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10769",
+      "number": 10769,
+      "title": "[xaprepare] add `--dotnet-sdk-archive` switch",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-05T08:27:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24626",
       "number": 24626,
       "title": "[CI] Fix PR detection in api-diff configure",
@@ -11261,7 +11371,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-05T08:13:43.767Z",
+  "lastUpdated": "2026-02-05T16:16:47.153Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
