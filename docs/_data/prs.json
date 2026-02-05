@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24626",
+      "number": 24626,
+      "title": "[CI] Fix PR detection in api-diff configure",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-02-05T07:28:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33884",
+      "number": 33884,
+      "title": "Fix iOS integration test simulator boot race condition",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-05T02:42:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3497",
       "number": 3497,
       "title": "[release/3.119.2-preview.2] Add Spectre mitigation flag for libSkiaSharp.dll.",
@@ -11241,7 +11261,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-05T00:22:47.323Z",
+  "lastUpdated": "2026-02-05T08:13:43.767Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
