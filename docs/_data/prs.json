@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3497",
+      "number": 3497,
+      "title": "[release/3.119.2-preview.2] Add Spectre mitigation flag for libSkiaSharp.dll.",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-02-04T22:42:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3496",
+      "number": 3496,
+      "title": "Add Spectre mitigation flag for libSkiaSharp.dll.",
+      "repo": "mono/SkiaSharp",
+      "author": "sshumakov",
+      "mergedAt": "2026-02-04T22:38:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33531",
+      "number": 33531,
+      "title": "[Android] Shell: Fix OnBackButtonPressed not firing for navigation bar back button",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-02-04T22:27:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33861",
+      "number": 33861,
+      "title": "Enhance pr-finalize skill with code review phase and safety rules",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-04T22:08:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33817",
+      "number": 33817,
+      "title": "Fix integration test log collection to use explicit allowlist",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-04T22:02:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10767",
+      "number": 10767,
+      "title": "[tests] fix `SubscribeToAppDomainUnhandledException(CoreCLR)`",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-04T21:20:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33890",
+      "number": 33890,
+      "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-04T17:11:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33887",
+      "number": 33887,
+      "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-04T17:11:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24611",
+      "number": 24611,
+      "title": "[release/11.0.1xx-preview1] [msbuild] Fix finding applicable simulator devices in GetMlaunchArguments task.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-04T16:35:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33693",
+      "number": 33693,
+      "title": "[XEXPR] [Experimental] XAML C# Expressions",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-04T16:24:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10759",
       "number": 10759,
       "title": "Fix MSB4096 error with user-defined TrimmerRootAssembly items lacking RootMode metadata",
@@ -11141,7 +11241,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-04T16:16:45.584Z",
+  "lastUpdated": "2026-02-05T00:22:47.323Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
