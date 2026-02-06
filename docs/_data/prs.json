@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24635",
+      "number": 24635,
+      "title": "[msbuild] Fix missing character in log message.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-05T23:48:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24633",
+      "number": 24633,
+      "title": "[net11.0] Fix building .NET 10 projects. Fixes #24417.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-05T23:32:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24634",
+      "number": 24634,
+      "title": "[release/11.0.1xx-preview1] [net11.0] Fix building .NET 10 projects. Fixes #24417.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-05T22:54:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33889",
+      "number": 33889,
+      "title": "[Android] Fixed PointerGestureRecognizer not triggering PointerMoved event",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-02-05T21:58:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3501",
+      "number": 3501,
+      "title": "Fix release-testing skill consistency issues",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-05T20:23:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24630",
+      "number": 24630,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-05T19:16:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/269",
+      "number": 269,
+      "title": "Add JDK discovery for user-writable installation paths on Windows and macOS",
+      "repo": "dotnet/android-tools",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-05T19:15:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3500",
       "number": 3500,
       "title": "Fix release-testing skill package resolution guidance",
@@ -11371,7 +11441,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-05T16:16:47.153Z",
+  "lastUpdated": "2026-02-06T00:20:43.544Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
