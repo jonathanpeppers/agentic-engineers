@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10775",
+      "number": 10775,
+      "title": "[marshal methods] Make AndroidEnvironmentInternal.UnhandledException public",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-06T16:06:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10776",
+      "number": 10776,
+      "title": "Bump external/xamarin-android-tools from `604940c` to `ebd3aaf`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-02-06T15:54:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24640",
+      "number": 24640,
+      "title": "[Foundation] Improve NSArray.StringArrayFromHandle a bit.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-06T14:46:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24641",
+      "number": 24641,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-06T14:05:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3505",
+      "number": 3505,
+      "title": "Fix stable version handling in release skills",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-06T13:51:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3504",
+      "number": 3504,
+      "title": "Add semver ordering guidance to release skills",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-06T13:37:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3503",
+      "number": 3503,
+      "title": "[release/3.119.2] Add Spectre mitigation flag for libSkiaSharp.so.",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-02-06T13:23:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24628",
+      "number": 24628,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-06T13:21:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3502",
+      "number": 3502,
+      "title": "Add Spectre mitigation flag for libSkiaSharp.so.",
+      "repo": "mono/SkiaSharp",
+      "author": "sshumakov",
+      "mergedAt": "2026-02-06T13:16:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24642",
+      "number": 24642,
+      "title": "[UIKit] Enable nullability and clean up UIFontDescriptor.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-06T13:14:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24639",
+      "number": 24639,
+      "title": "[net11.0] Remove workaround for incomplete KnownFrameworkReference for CoreCLR. Fixes #24315.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-06T13:12:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33524",
+      "number": 33524,
+      "title": "Make XAML Source Generator (XSG) the default inflator for .NET 11",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-06T11:30:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33234",
+      "number": 33234,
+      "title": "[Android] Enable Composite Partial ReadyToRun on Release builds by default",
+      "repo": "dotnet/maui",
+      "author": "davidnguyen-tech",
+      "mergedAt": "2026-02-06T11:29:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33912",
+      "number": 33912,
+      "title": "[net11.0] Merge main to net11.0",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-06T11:26:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33911",
+      "number": 33911,
+      "title": "[net10.0] Merge main to net10.0",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-06T11:26:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33916",
+      "number": 33916,
+      "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-06T11:24:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33921",
+      "number": 33921,
+      "title": "[release/11.0.1xx-preview1] Update dependencies from dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-06T11:22:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24636",
       "number": 24636,
       "title": "[msbuild] It seems that the 'get-task-allow' entitlement is allowed on all platforms.",
@@ -147,7 +317,7 @@
       "repo": "dotnet/maui",
       "author": "sheiksyedm",
       "mergedAt": "2026-02-05T13:47:16Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -157,7 +327,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-02-05T11:59:44Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -167,7 +337,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-02-05T11:58:29Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -277,7 +447,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-02-04T22:08:37Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -507,7 +677,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-02-03T15:30:46Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1057,7 +1227,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-01-31T13:46:26Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1067,7 +1237,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-01-31T13:45:54Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1177,7 +1347,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-01-30T22:56:24Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1257,7 +1427,7 @@
       "repo": "dotnet/maui",
       "author": "rmarinho",
       "mergedAt": "2026-01-30T14:58:14Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1387,7 +1557,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-01-29T21:46:23Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1397,7 +1567,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-01-29T21:46:13Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1567,7 +1737,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-01-29T06:02:35Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1707,7 +1877,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-01-28T15:24:24Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1747,7 +1917,7 @@
       "repo": "dotnet/maui",
       "author": "rmarinho",
       "mergedAt": "2026-01-28T11:44:31Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2247,7 +2417,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-01-25T18:37:55Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2607,7 +2777,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-01-22T17:40:30Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -3607,7 +3777,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-01-15T14:41:26Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -3717,7 +3887,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-01-14T20:37:48Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4167,7 +4337,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-01-10T00:00:41Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4607,7 +4777,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-01-06T10:39:50Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -11481,7 +11651,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-06T08:13:46.678Z",
+  "lastUpdated": "2026-02-06T16:14:22.612Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
