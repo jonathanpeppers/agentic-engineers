@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24636",
+      "number": 24636,
+      "title": "[msbuild] It seems that the 'get-task-allow' entitlement is allowed on all platforms.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-06T08:10:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24632",
+      "number": 24632,
+      "title": "[net11.0] Only create frameworks for dylibs on iOS and tvOS.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-06T07:45:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24638",
+      "number": 24638,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-06T07:21:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24631",
+      "number": 24631,
+      "title": "[devops] Use the local .NET for almost everything instead of installing a system .NET.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-06T06:42:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24635",
       "number": 24635,
       "title": "[msbuild] Fix missing character in log message.",
@@ -11441,7 +11481,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-06T00:20:43.544Z",
+  "lastUpdated": "2026-02-06T08:13:46.678Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
