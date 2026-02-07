@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33905",
+      "number": 33905,
+      "title": "Remove Phase 2 (Tests) from PR agent workflow",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-02-06T22:48:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1379",
+      "number": 1379,
+      "title": "Bump external/xamarin-android-tools from `604940c` to `ebd3aaf`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-02-06T20:32:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3506",
+      "number": 3506,
+      "title": "Add Linux Docker integration tests for release testing",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-06T20:05:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33931",
+      "number": 33931,
+      "title": "[net10.0] Skip flaky BlazorWebView header interception test",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-02-06T18:55:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33932",
+      "number": 33932,
+      "title": "[net11.0] Skip flaky BlazorWebView header interception test",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-02-06T18:55:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24643",
+      "number": 24643,
+      "title": "[net11.0.] [tests] Stop ignoring a few tests that work on CoreCLR. Fixes #19781.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-06T17:30:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10775",
       "number": 10775,
       "title": "[marshal methods] Make AndroidEnvironmentInternal.UnhandledException public",
@@ -11651,7 +11711,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-06T16:14:22.612Z",
+  "lastUpdated": "2026-02-07T00:22:07.034Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
