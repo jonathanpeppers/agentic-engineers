@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33941",
+      "number": 33941,
+      "title": "[ci] Fix the correct script",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-07T23:39:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33935",
+      "number": 33935,
+      "title": "[ci] Update net11.0 to preview 2",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-07T23:21:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3508",
       "number": 3508,
       "title": "Bump to the next version (3.119.4) after release",
@@ -11741,7 +11761,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-07T16:06:25.512Z",
+  "lastUpdated": "2026-02-08T00:28:02.716Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
