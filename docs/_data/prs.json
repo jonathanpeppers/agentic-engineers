@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33610",
+      "number": 33610,
+      "title": "[Sample] Add Microsoft.Maui.Essentials.AI sample app with multi-agent workflow",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-09T23:32:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10780",
+      "number": 10780,
+      "title": "Bump com.android.tools:r8 from 8.13.19 to 9.0.32 in /src/r8",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-02-09T22:49:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10781",
+      "number": 10781,
+      "title": "Bump external/Java.Interop from `b8f2c2b` to `5d55b25`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-02-09T22:47:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33910",
+      "number": 33910,
+      "title": "[Testing] Update iOS UITest baseline screenshots for ACES CI environment",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-02-09T21:06:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33541",
+      "number": 33541,
+      "title": "Add XcodeProject build system with cross-platform CI support",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-09T17:06:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33973",
+      "number": 33973,
+      "title": "Sync spec with CLI implementation (v2.8-draft)",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-09T16:48:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24647",
       "number": 24647,
       "title": "[builds] Find '<Sdk Name=\"...\" Version=\"...\" />' nodes when collecting all packages to download.",
@@ -11871,7 +11931,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-09T16:22:04.624Z",
+  "lastUpdated": "2026-02-10T00:27:53.391Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
