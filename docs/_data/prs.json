@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24670",
+      "number": 24670,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-11T07:43:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33779",
       "number": 33779,
       "title": "February 2nd, Candidate",
@@ -12051,7 +12061,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-11T00:27:31.107Z",
+  "lastUpdated": "2026-02-11T08:15:58.689Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
