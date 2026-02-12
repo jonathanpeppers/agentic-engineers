@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33914",
+      "number": 33914,
+      "title": "[XSG] Fix SourceGen typed binding setter for ObservableProperty",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-12T00:20:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3516",
+      "number": 3516,
+      "title": "Add bug-repro skill for systematic bug reproduction",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-11T22:36:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3515",
+      "number": 3515,
+      "title": "triage-issue: schema v2.1 — mandatory codeInvestigation + anti-patterns",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-11T22:33:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33836",
+      "number": 33836,
+      "title": "Fix XSG crash when Style Setter uses markup extension with source-generated BindableProperty",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-02-11T21:49:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33994",
+      "number": 33994,
+      "title": "[XSG] Fix expression binding TProperty type resolution for mismatched source/target types",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-11T19:51:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33765",
+      "number": 33765,
+      "title": "[Android] Skip DisposeWindowScope on Destroying to prevent ObjectDisposedException",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-02-11T19:32:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33872",
+      "number": 33872,
+      "title": "[XSG] Handle NaN values in ThicknessConverter",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-11T19:15:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33881",
+      "number": 33881,
+      "title": "[XSG] Improve error message for missing event handlers",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-11T19:15:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33882",
+      "number": 33882,
+      "title": "[XSG] Fix RelativeSource AncestorType x:Type resolution",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-11T19:14:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24675",
+      "number": 24675,
+      "title": "[UIKit] Enable nullability and clean up UIKitSynchronizationContext.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-11T19:02:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24674",
+      "number": 24674,
+      "title": "[UIKit] Enable nullability and clean up UIImagePickerController.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-11T18:41:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24671",
+      "number": 24671,
+      "title": "[UIKit] Enable nullability and clean up UIGuidedAccessRestriction.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-11T17:21:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10782",
+      "number": 10782,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-11T17:12:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios-devtools/pull/145",
       "number": 145,
       "title": "XcodeLocator: improve comment describing current behavior.",
@@ -12201,7 +12331,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-11T16:24:33.402Z",
+  "lastUpdated": "2026-02-12T00:22:13.403Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
