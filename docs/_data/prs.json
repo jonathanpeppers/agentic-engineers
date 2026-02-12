@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24688",
+      "number": 24688,
+      "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-12T07:39:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33937",
+      "number": 33937,
+      "title": "Copilot agent infrastructure, emulator reliability, and try-fix workflow improvements",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-12T02:25:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34003",
+      "number": 34003,
+      "title": "Fix comment and stabilize package version condition",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-12T01:32:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34001",
+      "number": 34001,
+      "title": "Update PreReleaseVersionLabel to 'servicing'",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-12T00:36:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33914",
       "number": 33914,
       "title": "[XSG] Fix SourceGen typed binding setter for ObservableProperty",
@@ -12331,7 +12371,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-12T00:22:13.403Z",
+  "lastUpdated": "2026-02-12T08:14:13.675Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
