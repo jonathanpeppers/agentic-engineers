@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10804",
+      "number": 10804,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13296678",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-02-12T14:20:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10803",
+      "number": 10803,
+      "title": "Bump external/debugger-libs from `f257277` to `e7fbb71`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-02-12T14:17:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24681",
+      "number": 24681,
+      "title": "[UIKit] Enable nullability and clean up UIPasteboard.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T13:22:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24664",
+      "number": 24664,
+      "title": "[dotnet] Fix support for startup hooks. Fixes #24492.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T12:46:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33978",
+      "number": 33978,
+      "title": "[Testing] Fix for flaky UITests in CI - 4",
+      "repo": "dotnet/maui",
+      "author": "LogishaSelvarajSF4525",
+      "mergedAt": "2026-02-12T12:22:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24656",
+      "number": 24656,
+      "title": "[net11.0] Enable launch time logging with environment variable",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-02-12T10:14:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24685",
+      "number": 24685,
+      "title": "[UIKit] Enable nullability and clean up UIScreen.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T09:13:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24673",
+      "number": 24673,
+      "title": "[builds] Fix parallel make race condition in apidiff build",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T09:10:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24682",
+      "number": 24682,
+      "title": "[UIKit] Enable nullability and clean up UIPickerView.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T08:47:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24683",
+      "number": 24683,
+      "title": "[UIKit] Enable nullability and clean up UIPopoverController.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T08:47:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24679",
+      "number": 24679,
+      "title": "[UIKit] Enable nullability and clean up UIOffset.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T08:19:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24521",
+      "number": 24521,
+      "title": "[dotnet] Add support for CoreCLR when building from Windows. Fixes #24504.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T08:17:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24688",
       "number": 24688,
       "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
@@ -12371,7 +12491,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-12T08:14:13.675Z",
+  "lastUpdated": "2026-02-12T16:21:19.853Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
