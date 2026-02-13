@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24690",
+      "number": 24690,
+      "title": "[xharness] Detect app launch failures instead of reporting them as crashes",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-13T08:11:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34011",
+      "number": 34011,
+      "title": "[WIP] Implement lazy/trimmable styles for XAML Source Generation",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-13T07:58:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33999",
+      "number": 33999,
+      "title": "[ci] Fix simulator install failures and artifact publishing for all pipeline types",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-13T00:55:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24700",
       "number": 24700,
       "title": "[UIKit] Enable nullability and clean up UITraitCollection.",
@@ -12691,7 +12721,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-13T00:24:40.979Z",
+  "lastUpdated": "2026-02-13T08:14:51.114Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
