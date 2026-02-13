@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24701",
+      "number": 24701,
+      "title": "[UIKit] Enable nullability and clean up UITypes.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-13T16:13:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24709",
+      "number": 24709,
+      "title": "[UIKit] Generate all UIToolbar bindings.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-13T16:07:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34037",
+      "number": 34037,
+      "title": "Fix ci-official Xcode provisioning for FoundationModels Swift compilation",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-13T15:39:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24703",
+      "number": 24703,
+      "title": "[UIKit] Enable nullability and clean up UIVibrancyEffect.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-13T15:03:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24680",
+      "number": 24680,
+      "title": "[net11.0] Exclude debug libraries in Release builds",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-02-13T14:58:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33519",
+      "number": 33519,
+      "title": "[Feature] Add Microsoft.Maui.Essentials.AI - Apple Intelligence",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-13T10:10:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10809",
+      "number": 10809,
+      "title": "Fix NativeAOT to use AndroidLinkMode=Full instead of SdkOnly",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-13T10:05:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10806",
+      "number": 10806,
+      "title": "Refactor singleton access and remove synchronous cleanup from WaitForGCBridgeProcessing",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-13T10:04:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24707",
+      "number": 24707,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-13T09:15:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24706",
+      "number": 24706,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-13T08:25:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24690",
       "number": 24690,
       "title": "[xharness] Detect app launch failures instead of reporting them as crashes",
@@ -12721,7 +12821,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-13T08:14:51.114Z",
+  "lastUpdated": "2026-02-13T16:15:34.028Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
