@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24700",
+      "number": 24700,
+      "title": "[UIKit] Enable nullability and clean up UITraitCollection.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-13T00:22:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24704",
+      "number": 24704,
+      "title": "[UIKit] Enable nullability and clean up UIViewControllerTransitionCoordinatorContext.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T23:28:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24697",
+      "number": 24697,
+      "title": "[UIKit] Enable nullability and clean up UITextAttributes.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T23:27:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24695",
+      "number": 24695,
+      "title": "[src] Remove redundant null checks before Class.GetHandle(Type)",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T23:26:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24694",
+      "number": 24694,
+      "title": "[UIKit] Enable nullability and clean up UITableViewCell.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T23:26:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24692",
+      "number": 24692,
+      "title": "[UIKit] Enable nullability and clean up UITableView.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T23:26:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24691",
+      "number": 24691,
+      "title": "[UIKit] Enable nullability and clean up UIStringAttributes.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T23:26:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24689",
+      "number": 24689,
+      "title": "[release/10.0.1xx] [dotnet-linker] Mark field references in trimmed INativeObject/NSObject constructors. Fixes #24663.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T23:24:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24687",
+      "number": 24687,
+      "title": "[dotnet-linker] Mark field references in trimmed INativeObject/NSObject constructors. Fixes #24663.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T23:24:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24686",
+      "number": 24686,
+      "title": "[UIKit] Enable nullability and clean up UISearchDisplayController.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T23:23:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24684",
+      "number": 24684,
+      "title": "[UIKit] Enable nullability and clean up UIPopoverPresentationController.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-12T23:23:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34026",
+      "number": 34026,
+      "title": "Update PatchVersion from 40 to 50",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-12T22:11:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33656",
+      "number": 33656,
+      "title": "Improve TypedBinding performance by ~29%",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-12T21:46:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1363",
+      "number": 1363,
+      "title": "Update .NET versions in issue templates",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-12T20:39:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10797",
+      "number": 10797,
+      "title": "[TrimmableTypeMap] Extract typemap targets into dedicated files",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-02-12T20:37:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33849",
+      "number": 33849,
+      "title": "Change VisualStateManager.GetVisualStateGroups return type to VisualStateGroupList",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-12T20:23:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34025",
+      "number": 34025,
+      "title": "Move Essentials.AI preview iteration to eng/Versions.props",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-12T20:18:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33976",
+      "number": 33976,
+      "title": "Enable packing and independent preview versioning for Essentials.AI",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-12T20:09:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1361",
+      "number": 1361,
+      "title": "Replace extends attribute modification with remove-node for grpc-core internal class",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-12T20:07:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3517",
+      "number": 3517,
+      "title": "Bug pipeline: redesign triage/repro/fix schemas and skill improvements",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-12T18:19:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10804",
       "number": 10804,
       "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13296678",
@@ -12491,7 +12691,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-12T16:21:19.853Z",
+  "lastUpdated": "2026-02-13T00:24:40.979Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
