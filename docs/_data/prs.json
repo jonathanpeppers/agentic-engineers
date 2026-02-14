@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10694",
+      "number": 10694,
+      "title": "Migrate GenerateProguardConfiguration from ILLink step to MSBuild task",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-02-13T22:45:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/25749",
+      "number": 25749,
+      "title": "[iOS] Fixed Shell Navigating event showing same current and target values",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-02-13T20:18:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/26194",
+      "number": 26194,
+      "title": "Fixed Editor vertical text alignment not working after toggling IsVisible",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2026-02-13T20:13:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33409",
+      "number": 33409,
+      "title": "[Testing] Add Material3 test category and separate pipeline stage for android material3 UI tests",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-02-13T16:43:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34045",
+      "number": 34045,
+      "title": "Add agentic workflow ci-doctor",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-13T16:23:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34043",
+      "number": 34043,
+      "title": "Add agentic workflow daily-repo-status",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-13T16:15:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24701",
       "number": 24701,
       "title": "[UIKit] Enable nullability and clean up UITypes.",
@@ -12821,7 +12881,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-13T16:15:34.028Z",
+  "lastUpdated": "2026-02-14T00:22:53.079Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
