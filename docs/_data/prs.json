@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34059",
+      "number": 34059,
+      "title": "Increment patch version from 40 to 41",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-14T14:42:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34052",
+      "number": 34052,
+      "title": "[release/10.0.1xx-sr4] Revert \"Remove InternalsVisibleTo attributes for .NET MAUI Community …",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-02-14T14:40:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10694",
       "number": 10694,
       "title": "Migrate GenerateProguardConfiguration from ILLink step to MSBuild task",
@@ -12881,7 +12901,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-14T08:07:32.837Z",
+  "lastUpdated": "2026-02-14T16:06:29.713Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
