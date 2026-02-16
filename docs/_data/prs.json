@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24715",
+      "number": 24715,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-16T07:57:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34047",
       "number": 34047,
       "title": "Revert \"Remove InternalsVisibleTo attributes for .NET MAUI Community …",
@@ -12911,7 +12921,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-16T00:23:03.536Z",
+  "lastUpdated": "2026-02-16T08:14:57.199Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
