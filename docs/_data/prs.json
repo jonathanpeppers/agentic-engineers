@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34047",
+      "number": 34047,
+      "title": "Revert \"Remove InternalsVisibleTo attributes for .NET MAUI Community …",
+      "repo": "dotnet/maui",
+      "author": "dartasen",
+      "mergedAt": "2026-02-15T21:51:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34059",
       "number": 34059,
       "title": "Increment patch version from 40 to 41",
@@ -12901,7 +12911,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-15T16:06:15.347Z",
+  "lastUpdated": "2026-02-16T00:23:03.536Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
