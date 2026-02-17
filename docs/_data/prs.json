@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24623",
+      "number": 24623,
+      "title": "[dotnet] Fix building with NativeAOT remotely from Windows. Fixes #21808.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-16T22:21:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24622",
+      "number": 24622,
+      "title": "[tools] Add sharpie. Fixes #23962.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-16T22:10:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24714",
       "number": 24714,
       "title": "[main] Update dependencies from dotnet/dotnet",
@@ -12961,7 +12981,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-16T16:14:59.834Z",
+  "lastUpdated": "2026-02-17T00:23:18.313Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
