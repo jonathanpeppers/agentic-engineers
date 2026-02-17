@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10821",
+      "number": 10821,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-17T14:33:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33689",
+      "number": 33689,
+      "title": "[Testing] Fix for flaky UITests in CI - 3",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-02-17T14:28:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34084",
+      "number": 34084,
+      "title": "Remove agent PR session reports",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-02-17T13:53:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24717",
+      "number": 24717,
+      "title": "Bump actions/checkout from 4 to 6",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-02-17T10:28:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24718",
+      "number": 24718,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-17T10:03:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/28886",
       "number": 28886,
       "title": "[Android] Fixed issue where group Header/Footer template was applied to all items when IsGrouped was true for an ObservableCollection",
@@ -13001,7 +13051,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-17T08:14:56.173Z",
+  "lastUpdated": "2026-02-17T16:20:17.036Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
