@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/28886",
+      "number": 28886,
+      "title": "[Android] Fixed issue where group Header/Footer template was applied to all items when IsGrouped was true for an ObservableCollection",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-02-17T06:56:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28309",
+      "number": 28309,
+      "title": "Fix ImageButton not rendering correctly based on its bounds",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-02-17T06:51:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24623",
       "number": 24623,
       "title": "[dotnet] Fix building with NativeAOT remotely from Windows. Fixes #21808.",
@@ -12981,7 +13001,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-17T00:23:18.313Z",
+  "lastUpdated": "2026-02-17T08:14:56.173Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
