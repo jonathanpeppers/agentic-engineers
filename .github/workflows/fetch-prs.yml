@@ -162,7 +162,7 @@ jobs:
                     
                     // Check if AI agent reviewed - only valid for dotnet/maui
                     const mauiReviewerUsed = (repo === 'maui') && 
-                      pr.labels.nodes.some(l => /\bagent\b/i.test(l.name) || /\bai\b/i.test(l.name));
+                      pr.labels.nodes.some(l => /\bagents?\b/i.test(l.name) || /\bai\b/i.test(l.name));
                     
                     const prData = {
                       url: pr.url,
