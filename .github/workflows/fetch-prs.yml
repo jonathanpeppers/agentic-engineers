@@ -108,6 +108,8 @@ jobs:
             `;
             
             // Separate query to fetch commit messages for a single PR
+            // Note: Only fetches last 100 commits to balance API cost vs coverage.
+            // PRs with >100 commits where Co-authored-by appears earlier will be missed.
             const commitsQuery = `
               query($owner: String!, $repo: String!, $number: Int!) {
                 repository(owner: $owner, name: $repo) {
@@ -192,20 +194,42 @@ jobs:
             }
             
             // Fetch commit messages only for new PRs not already flagged as Copilot
+            const MAX_COMMIT_CHECKS = 200;
             if (prsNeedingCommitCheck.length > 0) {
-              console.log(`Checking ${prsNeedingCommitCheck.length} new PRs for Co-authored-by Copilot...`);
-              for (const { owner, repo, number, url } of prsNeedingCommitCheck) {
-                try {
-                  const { repository } = await github.graphql(commitsQuery, { owner, repo, number });
-                  const commitMessages = repository.pullRequest.commits.nodes
-                    .map(n => n.commit.message).join('\n');
-                  if (/co-authored-by:.*copilot/i.test(commitMessages)) {
-                    console.log(`  PR #${number} in ${owner}/${repo} has Copilot co-author`);
-                    const prData = existingPRs.get(url);
-                    prData.copilotAuthored = true;
+              if (prsNeedingCommitCheck.length > MAX_COMMIT_CHECKS) {
+                console.log(
+                  `Skipping commit-message scan for ${prsNeedingCommitCheck.length} PRs ` +
+                  `(limit is ${MAX_COMMIT_CHECKS}) to avoid hitting rate limits.`
+                );
+              } else {
+                console.log(`Checking ${prsNeedingCommitCheck.length} new PRs for Co-authored-by Copilot...`);
+                for (const { owner, repo, number, url } of prsNeedingCommitCheck) {
+                  try {
+                    const { repository } = await github.graphql(commitsQuery, { owner, repo, number });
+                    const commits = repository.pullRequest.commits.nodes;
+                    
+                    // Check each commit message line-by-line for Co-authored-by trailers
+                    let foundCopilot = false;
+                    for (const node of commits) {
+                      const lines = node.commit.message.split('\n');
+                      for (const line of lines) {
+                        // Match Co-authored-by trailer with optional "GitHub" prefix and word boundary for "copilot"
+                        if (/^co-authored-by:\s*(github\s+)?copilot\b/i.test(line.trim())) {
+                          foundCopilot = true;
+                          break;
+                        }
+                      }
+                      if (foundCopilot) break;
+                    }
+                    
+                    if (foundCopilot) {
+                      console.log(`  PR #${number} in ${owner}/${repo} has Copilot co-author`);
+                      const prData = existingPRs.get(url);
+                      prData.copilotAuthored = true;
+                    }
+                  } catch (e) {
+                    console.log(`  Error checking commits for ${owner}/${repo}#${number}: ${e.message}`);
                   }
-                } catch (e) {
-                  console.log(`  Error checking commits for ${owner}/${repo}#${number}: ${e.message}`);
                 }
               }
             }

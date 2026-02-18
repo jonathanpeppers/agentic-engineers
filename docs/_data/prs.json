@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1365",
+      "number": 1365,
+      "title": "Stable Updates 20260216",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-18T15:13:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34109",
       "number": 34109,
       "title": "Update PR agent models to claude-sonnet-4.6 and gpt-5.3-codex",
@@ -13131,7 +13141,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-18T15:08:03.800Z",
+  "lastUpdated": "2026-02-18T15:14:49.987Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
