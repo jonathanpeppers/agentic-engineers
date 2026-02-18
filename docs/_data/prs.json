@@ -2718,7 +2718,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-31T13:46:26Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33793",
@@ -2728,7 +2728,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-31T13:45:54Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/android/pull/10749",
@@ -2838,7 +2838,7 @@
       "author": "PureWeen",
       "mergedAt": "2026-01-30T22:56:24Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/macios/pull/24594",
@@ -2918,7 +2918,7 @@
       "author": "rmarinho",
       "mergedAt": "2026-01-30T14:58:14Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/macios/pull/24577",
@@ -3048,7 +3048,7 @@
       "author": "PureWeen",
       "mergedAt": "2026-01-29T21:46:23Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33771",
@@ -3058,7 +3058,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-29T21:46:13Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/32296",
@@ -3158,7 +3158,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-29T15:19:41Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/android-libraries/pull/1354",
@@ -3228,7 +3228,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-29T06:02:35Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/mono/SkiaSharp/pull/3468",
@@ -3368,7 +3368,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-28T15:24:24Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/android-libraries/pull/1353",
@@ -3408,7 +3408,7 @@
       "author": "rmarinho",
       "mergedAt": "2026-01-28T11:44:31Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33730",
@@ -3518,7 +3518,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-27T20:33:43Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33256",
@@ -3608,7 +3608,7 @@
       "author": "copilot-swe-agent",
       "mergedAt": "2026-01-27T17:13:09Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/macios/pull/24559",
@@ -3908,7 +3908,7 @@
       "author": "PureWeen",
       "mergedAt": "2026-01-25T18:37:55Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33681",
@@ -3998,7 +3998,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-23T17:49:58Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/macios/pull/24550",
@@ -4268,7 +4268,7 @@
       "author": "PureWeen",
       "mergedAt": "2026-01-22T17:40:30Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33652",
@@ -4478,7 +4478,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-21T19:40:19Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/macios/pull/24531",
@@ -4748,7 +4748,7 @@
       "author": "copilot-swe-agent",
       "mergedAt": "2026-01-20T15:59:08Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33592",
@@ -4898,7 +4898,7 @@
       "author": "albyrock87",
       "mergedAt": "2026-01-19T15:02:56Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33522",
@@ -4978,7 +4978,7 @@
       "author": "jeremy-visionaid",
       "mergedAt": "2026-01-16T23:51:46Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33533",
@@ -5008,7 +5008,7 @@
       "author": "copilot-swe-agent",
       "mergedAt": "2026-01-16T22:59:27Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33575",
@@ -5068,7 +5068,7 @@
       "author": "SubhikshaSf4851",
       "mergedAt": "2026-01-16T17:47:10Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/29780",
@@ -5268,7 +5268,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-15T14:41:26Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/macios-devtools/pull/143",
@@ -5378,7 +5378,7 @@
       "author": "PureWeen",
       "mergedAt": "2026-01-14T20:37:48Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/android/pull/10685",
@@ -5828,7 +5828,7 @@
       "author": "PureWeen",
       "mergedAt": "2026-01-10T00:00:41Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33327",
@@ -5838,7 +5838,7 @@
       "author": "copilot-swe-agent",
       "mergedAt": "2026-01-09T21:55:00Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33134",
@@ -5878,7 +5878,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-09T20:15:34Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/android/pull/10666",
@@ -5918,7 +5918,7 @@
       "author": "copilot-swe-agent",
       "mergedAt": "2026-01-09T00:59:21Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33435",
@@ -6098,7 +6098,7 @@
       "author": "copilot-swe-agent",
       "mergedAt": "2026-01-07T20:13:26Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33416",
@@ -6248,7 +6248,7 @@
       "author": "copilot-swe-agent",
       "mergedAt": "2026-01-06T15:12:32Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33354",
@@ -6268,7 +6268,7 @@
       "author": "PureWeen",
       "mergedAt": "2026-01-06T10:39:50Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33332",
@@ -6278,7 +6278,7 @@
       "author": "devanathan-vaithiyanathan",
       "mergedAt": "2026-01-06T10:37:30Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33323",
@@ -6328,7 +6328,7 @@
       "author": "praveenkumarkarunanithi",
       "mergedAt": "2026-01-05T22:19:12Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/macios-devtools/pull/141",
@@ -6398,7 +6398,7 @@
       "author": "kubaflo",
       "mergedAt": "2026-01-02T23:28:51Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/33297",
@@ -6408,7 +6408,7 @@
       "author": "Shalini-Ashokan",
       "mergedAt": "2026-01-02T20:19:28Z",
       "copilotAuthored": false,
-      "mauiReviewerUsed": false
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/maui/pull/32456",
@@ -13141,7 +13141,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-18T15:28:59.636Z",
+  "lastUpdated": "2026-02-18T15:30:08.709Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
