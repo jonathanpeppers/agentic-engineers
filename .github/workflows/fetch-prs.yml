@@ -160,9 +160,9 @@ jobs:
                       labels.some(l => l.includes('copilot')) ||
                       pr.body?.toLowerCase().includes('copilot-generated');
                     
-                    // Check if AI agent reviewed (s/ai-agent-* or s/agent-* labels) - only valid for dotnet/maui
+                    // Check if AI agent reviewed - only valid for dotnet/maui
                     const mauiReviewerUsed = (repo === 'maui') && 
-                      pr.labels.nodes.some(l => l.name.startsWith('s/ai-agent') || l.name.startsWith('s/agent-'));
+                      pr.labels.nodes.some(l => /\bagent\b/i.test(l.name) || /\bai\b/i.test(l.name));
                     
                     const prData = {
                       url: pr.url,
