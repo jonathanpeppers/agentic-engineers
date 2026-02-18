@@ -118,7 +118,10 @@ jobs:
               }
             `;
             
-            // Track new PRs that need commit-message checks
+            // When month_year is specified, re-evaluate all PRs (backfill mode)
+            const isBackfill = monthYearInput && monthYearInput.trim() !== '';
+            
+            // Track PRs that need commit-message checks
             const prsNeedingCommitCheck = [];
             
             // Fetch PRs from each repo using GraphQL search
@@ -141,8 +144,8 @@ jobs:
                   for (const pr of nodes) {
                     if (!pr.number) continue; // Skip non-PR nodes
                     
-                    // Skip PRs we already have in existing data
-                    if (existingPRs.has(pr.url)) continue;
+                    // Skip PRs we already have in existing data (unless backfilling)
+                    if (!isBackfill && existingPRs.has(pr.url)) continue;
                     
                     const authorLogin = pr.author?.login?.toLowerCase() || '';
                     const labels = pr.labels.nodes.map(l => l.name.toLowerCase());
@@ -173,6 +176,7 @@ jobs:
                     existingPRs.set(pr.url, prData);
                     
                     // If not already detected as Copilot, queue for commit check
+                    // During backfills, always check; otherwise only check new PRs
                     if (!isCopilotAuthored) {
                       prsNeedingCommitCheck.push({ owner, repo, number: pr.number, url: pr.url });
                     }
