@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34109",
+      "number": 34109,
+      "title": "Update PR agent models to claude-sonnet-4.6 and gpt-5.3-codex",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-02-18T14:15:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24731",
+      "number": 24731,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 13334765",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-02-18T14:02:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34053",
+      "number": 34053,
+      "title": "Skip Xcode provisioning for RunOnAndroid integration tests",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-18T14:01:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34111",
+      "number": 34111,
+      "title": "[ci] Some fixes for aw workflows",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-18T14:00:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24728",
+      "number": 24728,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-18T09:26:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10812",
+      "number": 10812,
+      "title": "[NativeAOT] Fix application linking with API level > 21",
+      "repo": "dotnet/android",
+      "author": "grendello",
+      "mergedAt": "2026-02-18T08:21:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/32349",
       "number": 32349,
       "title": "[Android] CollectionView: Fix reordering when using DataTemplateSelector",
@@ -13071,7 +13131,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-18T08:14:44.500Z",
+  "lastUpdated": "2026-02-18T14:54:02.000Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
