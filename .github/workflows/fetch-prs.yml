@@ -196,14 +196,15 @@ jobs:
             // Fetch commit messages only for new PRs not already flagged as Copilot
             const MAX_COMMIT_CHECKS = 200;
             if (prsNeedingCommitCheck.length > 0) {
+              const prsToCheck = prsNeedingCommitCheck.slice(0, MAX_COMMIT_CHECKS);
               if (prsNeedingCommitCheck.length > MAX_COMMIT_CHECKS) {
                 console.log(
-                  `Skipping commit-message scan for ${prsNeedingCommitCheck.length} PRs ` +
-                  `(limit is ${MAX_COMMIT_CHECKS}) to avoid hitting rate limits.`
+                  `Too many PRs (${prsNeedingCommitCheck.length}) need commit-message scan; ` +
+                  `checking only the first ${MAX_COMMIT_CHECKS} to avoid hitting rate limits.`
                 );
-              } else {
-                console.log(`Checking ${prsNeedingCommitCheck.length} new PRs for Co-authored-by Copilot...`);
-                for (const { owner, repo, number, url } of prsNeedingCommitCheck) {
+              }
+              console.log(`Checking ${prsToCheck.length} new PRs for Co-authored-by Copilot...`);
+              for (const { owner, repo, number, url } of prsToCheck) {
                   try {
                     const { repository } = await github.graphql(commitsQuery, { owner, repo, number });
                     const commits = repository.pullRequest.commits.nodes;
@@ -211,7 +212,7 @@ jobs:
                     // Check each commit message line-by-line for Co-authored-by trailers
                     let foundCopilot = false;
                     for (const node of commits) {
-                      const lines = node.commit.message.split('\n');
+                      const lines = node.commit.message?.split('\n') || [];
                       for (const line of lines) {
                         // Match Co-authored-by trailer with optional "GitHub" prefix and word boundary for "copilot"
                         if (/^co-authored-by:\s*(github\s+)?copilot\b/i.test(line.trim())) {
@@ -231,7 +232,6 @@ jobs:
                     console.log(`  Error checking commits for ${owner}/${repo}#${number}: ${e.message}`);
                   }
                 }
-              }
             }
             
             // Convert map back to array and sort by merged date
