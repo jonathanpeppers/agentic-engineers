@@ -107,6 +107,20 @@ jobs:
               }
             `;
             
+            // Separate query to fetch commit messages for a single PR
+            const commitsQuery = `
+              query($owner: String!, $repo: String!, $number: Int!) {
+                repository(owner: $owner, name: $repo) {
+                  pullRequest(number: $number) {
+                    commits(last: 100) { nodes { commit { message } } }
+                  }
+                }
+              }
+            `;
+            
+            // Track new PRs that need commit-message checks
+            const prsNeedingCommitCheck = [];
+            
             // Fetch PRs from each repo using GraphQL search
             for (const { owner, repo } of repos) {
               console.log(`Fetching PRs from ${owner}/${repo}...`);
@@ -127,6 +141,9 @@ jobs:
                   for (const pr of nodes) {
                     if (!pr.number) continue; // Skip non-PR nodes
                     
+                    // Skip PRs we already have in existing data
+                    if (existingPRs.has(pr.url)) continue;
+                    
                     const authorLogin = pr.author?.login?.toLowerCase() || '';
                     const labels = pr.labels.nodes.map(l => l.name.toLowerCase());
                     
@@ -142,7 +159,7 @@ jobs:
                     const mauiReviewerUsed = (repo === 'maui') && 
                       pr.labels.nodes.some(l => l.name === 's/ai-agent-reviewed');
                     
-                    existingPRs.set(pr.url, {
+                    const prData = {
                       url: pr.url,
                       number: pr.number,
                       title: pr.title,
@@ -151,7 +168,14 @@ jobs:
                       mergedAt: pr.mergedAt,
                       copilotAuthored: isCopilotAuthored,
                       mauiReviewerUsed
-                    });
+                    };
+                    
+                    existingPRs.set(pr.url, prData);
+                    
+                    // If not already detected as Copilot, queue for commit check
+                    if (!isCopilotAuthored) {
+                      prsNeedingCommitCheck.push({ owner, repo, number: pr.number, url: pr.url });
+                    }
                   }
                   
                   if (!pageInfo.hasNextPage) break;
@@ -160,6 +184,25 @@ jobs:
                 }
               } catch (e) {
                 console.log(`Error fetching PRs from ${owner}/${repo}: ${e.message}`);
+              }
+            }
+            
+            // Fetch commit messages only for new PRs not already flagged as Copilot
+            if (prsNeedingCommitCheck.length > 0) {
+              console.log(`Checking ${prsNeedingCommitCheck.length} new PRs for Co-authored-by Copilot...`);
+              for (const { owner, repo, number, url } of prsNeedingCommitCheck) {
+                try {
+                  const { repository } = await github.graphql(commitsQuery, { owner, repo, number });
+                  const commitMessages = repository.pullRequest.commits.nodes
+                    .map(n => n.commit.message).join('\n');
+                  if (/co-authored-by:.*copilot/i.test(commitMessages)) {
+                    console.log(`  PR #${number} in ${owner}/${repo} has Copilot co-author`);
+                    const prData = existingPRs.get(url);
+                    prData.copilotAuthored = true;
+                  }
+                } catch (e) {
+                  console.log(`  Error checking commits for ${owner}/${repo}#${number}: ${e.message}`);
+                }
               }
             }
             
