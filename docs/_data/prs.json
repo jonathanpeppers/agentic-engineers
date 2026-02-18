@@ -167,7 +167,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-02-16T22:10:28Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -187,7 +187,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-02-16T09:57:13Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -937,7 +937,7 @@
       "repo": "dotnet/macios-devtools",
       "author": "rolfbjarne",
       "mergedAt": "2026-02-11T16:23:34Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1087,7 +1087,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-02-10T21:48:35Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1417,7 +1417,7 @@
       "repo": "dotnet/maui",
       "author": "rmarinho",
       "mergedAt": "2026-02-07T13:57:41Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1517,7 +1517,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-02-06T14:05:19Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1597,7 +1597,7 @@
       "repo": "dotnet/maui",
       "author": "StephaneDelcroix",
       "mergedAt": "2026-02-06T11:30:44Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1787,7 +1787,7 @@
       "repo": "dotnet/android",
       "author": "jonathanpeppers",
       "mergedAt": "2026-02-05T14:03:52Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2097,7 +2097,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-02-03T19:48:50Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2227,7 +2227,7 @@
       "repo": "dotnet/maui",
       "author": "rmarinho",
       "mergedAt": "2026-02-03T14:26:39Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2357,7 +2357,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-02-03T08:03:29Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2427,7 +2427,7 @@
       "repo": "dotnet/maui",
       "author": "NirmalKumarYuvaraj",
       "mergedAt": "2026-02-02T21:29:29Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2547,7 +2547,7 @@
       "repo": "dotnet/maui",
       "author": "davidortinau",
       "mergedAt": "2026-02-02T10:19:05Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2607,7 +2607,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-02-02T00:22:24Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2667,7 +2667,7 @@
       "repo": "dotnet/maui",
       "author": "rmarinho",
       "mergedAt": "2026-02-01T13:40:33Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -13131,7 +13131,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-18T14:54:02.000Z",
+  "lastUpdated": "2026-02-18T15:03:24.898Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
