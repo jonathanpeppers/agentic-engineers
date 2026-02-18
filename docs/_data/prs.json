@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10823",
+      "number": 10823,
+      "title": "[TrimmableTypeMap] Java peer scanner core",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-02-18T15:44:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-libraries/pull/1365",
       "number": 1365,
       "title": "Stable Updates 20260216",
@@ -13141,7 +13151,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-18T15:36:46.106Z",
+  "lastUpdated": "2026-02-18T16:21:09.356Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
