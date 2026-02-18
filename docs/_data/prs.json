@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/32349",
+      "number": 32349,
+      "title": "[Android] CollectionView: Fix reordering when using DataTemplateSelector",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2026-02-17T19:48:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34091",
+      "number": 34091,
+      "title": "Minor API docs improvements",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-02-17T19:22:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10821",
       "number": 10821,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
@@ -13051,7 +13071,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-17T16:20:17.036Z",
+  "lastUpdated": "2026-02-18T00:23:20.878Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
