@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/29022",
+      "number": 29022,
+      "title": "Fixed the crash on iOS when setting HeightRequest on WebView inside a ScrollView with IsVisible set to false",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-02-19T15:59:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10833",
+      "number": 10833,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-19T14:18:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24734",
+      "number": 24734,
+      "title": "[ObjCRuntime] Enable nullability and clean up BackingField.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-19T14:11:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24742",
+      "number": 24742,
+      "title": "[release/10.0.1xx] Bring back arcade script files",
+      "repo": "dotnet/macios",
+      "author": "adamzip",
+      "mergedAt": "2026-02-19T12:13:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24743",
+      "number": 24743,
+      "title": "[main] Bring back arcade common files",
+      "repo": "dotnet/macios",
+      "author": "adamzip",
+      "mergedAt": "2026-02-19T12:12:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33995",
+      "number": 33995,
+      "title": "Add XAML TypeConverters for Map coordinates (Location, MapSpan, Map.Region)",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-02-19T11:01:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10828",
       "number": 10828,
       "title": "[build] Add MSBuild + Emulator test stage to `dnceng-public` pipeline",
@@ -13271,7 +13331,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-19T08:14:16.028Z",
+  "lastUpdated": "2026-02-19T16:19:01.661Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
