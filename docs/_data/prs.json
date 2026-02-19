@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33702",
+      "number": 33702,
+      "title": "Add Windows unpackaged device tests on Helix alongside packaged tests",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-18T21:34:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30966",
+      "number": 30966,
+      "title": "[Android] Fix for incorrect scroll position when using ScrollTo with a header in CollectionView",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-02-18T21:01:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34072",
+      "number": 34072,
+      "title": "[net11.0] Update dependencies from dnceng/internal/dotnet-optimization",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-18T19:22:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34116",
+      "number": 34116,
+      "title": "Fix phase numbering in pr-agent post-gate docs",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-18T18:12:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24733",
+      "number": 24733,
+      "title": "[ObjCRuntime] Enable nullability and clean up TypeConverter.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-18T17:42:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24726",
+      "number": 24726,
+      "title": "[ObjCRuntime] Enable nullability and clean up Blocks.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-18T17:42:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24724",
+      "number": 24724,
+      "title": "[build] Remove the code to create msbuild.zip/bundle.zip.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-18T17:42:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24723",
+      "number": 24723,
+      "title": "[src] Fix numerous memory leaks.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-18T17:42:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24719",
+      "number": 24719,
+      "title": "[build] Remove the sharpie dependency.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-18T17:40:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24672",
+      "number": 24672,
+      "title": "[tests] Create a html report for the macOS tests and include them in the GH comment with all the other tests.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-18T17:39:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10823",
       "number": 10823,
       "title": "[TrimmableTypeMap] Java peer scanner core",
@@ -13151,7 +13251,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-18T16:21:09.356Z",
+  "lastUpdated": "2026-02-19T00:23:58.921Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
