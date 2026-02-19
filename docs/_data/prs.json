@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10828",
+      "number": 10828,
+      "title": "[build] Add MSBuild + Emulator test stage to `dnceng-public` pipeline",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-19T02:41:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10834",
+      "number": 10834,
+      "title": "[build] Use all available CPU cores for NUnit test parallelism",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-19T02:28:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33702",
       "number": 33702,
       "title": "Add Windows unpackaged device tests on Helix alongside packaged tests",
@@ -13251,7 +13271,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-19T00:23:58.921Z",
+  "lastUpdated": "2026-02-19T08:14:16.028Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
