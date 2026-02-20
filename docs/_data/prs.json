@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24749",
+      "number": 24749,
+      "title": "[release/11.0.1xx-preview2] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-20T15:12:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34156",
+      "number": 34156,
+      "title": "ci-copilot: set pipeline run title early using build.updatebuildnumber",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-20T15:09:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/26782",
+      "number": 26782,
+      "title": "[Android] Fix VerticalOffset Update When Modifying CollectionView.ItemsSource While Scrolled",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-02-20T15:02:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10763",
+      "number": 10763,
+      "title": "Replace [DllImport] with [LibraryImport] for runtime P/Invokes",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-20T14:23:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10813",
+      "number": 10813,
+      "title": "[TrimmableTypeMap] Scanner unit tests",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-02-20T14:15:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31722",
+      "number": 31722,
+      "title": "[Android] Fix System.IndexOutOfRangeException when scrolling CollectionView with image CarouselView ",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-02-20T13:03:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29228",
+      "number": 29228,
+      "title": "[Android] Fixed TransformProperties issue when a wrapper view is present",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-02-20T12:53:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27246",
+      "number": 27246,
+      "title": "Fix Incorrect Scrolling Behavior in CollectionView ScrollTo Method Using Index Value",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-02-20T12:42:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32997",
+      "number": 32997,
+      "title": "[iOS, macOS] Fixed Shell Flyout Icon is always black in iOS 26",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-02-20T12:38:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24740",
+      "number": 24740,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-20T12:21:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34140",
       "number": 34140,
       "title": "Add daily template size tracking workflow",
@@ -13411,7 +13511,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-20T08:14:07.840Z",
+  "lastUpdated": "2026-02-20T16:12:26.190Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
