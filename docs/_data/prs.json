@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34140",
+      "number": 34140,
+      "title": "Add daily template size tracking workflow",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-20T00:00:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10839",
+      "number": 10839,
+      "title": "Remove UseLatestAndroidPlatformSdk",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-19T21:59:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10840",
+      "number": 10840,
+      "title": "$(AndroidPackVersionSuffix)=preview.3; main is .NET 11 preview 3",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-19T21:55:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24741",
+      "number": 24741,
+      "title": "[ObjCRuntime] Enable nullability and clean up TrampolineBlockBase.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-19T19:21:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24736",
+      "number": 24736,
+      "title": "[build] Remove Mono dependency.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-19T16:32:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24744",
+      "number": 24744,
+      "title": "[ObjCRuntime] Enable nullability and clean up CategoryAttribute.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-19T16:31:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10752",
+      "number": 10752,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-19T16:27:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24732",
+      "number": 24732,
+      "title": "[ObjCRuntime] Enable nullability and clean up Stret.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-19T16:23:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/29022",
       "number": 29022,
       "title": "Fixed the crash on iOS when setting HeightRequest on WebView inside a ScrollView with IsVisible set to false",
@@ -13331,7 +13411,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-19T16:19:01.661Z",
+  "lastUpdated": "2026-02-20T00:20:18.491Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
