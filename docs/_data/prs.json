@@ -1881,16 +1881,6 @@
       "mauiReviewerUsed": false
     },
     {
-      "url": "https://github.com/mono/SkiaSharp.Extended/pull/331",
-      "number": 331,
-      "title": "Add AnimationSpeed property to SKLottieView",
-      "repo": "mono/SkiaSharp.Extended",
-      "author": "copilot-swe-agent",
-      "mergedAt": "2026-02-06T15:09:12Z",
-      "copilotAuthored": true,
-      "mauiReviewerUsed": false
-    },
-    {
       "url": "https://github.com/dotnet/macios/pull/24640",
       "number": 24640,
       "title": "[Foundation] Improve NSArray.StringArrayFromHandle a bit.",
@@ -2121,32 +2111,12 @@
       "mauiReviewerUsed": true
     },
     {
-      "url": "https://github.com/mono/SkiaSharp.Extended/pull/343",
-      "number": 343,
-      "title": "Remove deprecated Microsoft.Maui.Controls.Compatibility dependency",
-      "repo": "mono/SkiaSharp.Extended",
-      "author": "copilot-swe-agent",
-      "mergedAt": "2026-02-05T20:39:20Z",
-      "copilotAuthored": true,
-      "mauiReviewerUsed": false
-    },
-    {
       "url": "https://github.com/mono/SkiaSharp/pull/3501",
       "number": 3501,
       "title": "Fix release-testing skill consistency issues",
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-02-05T20:23:15Z",
-      "copilotAuthored": false,
-      "mauiReviewerUsed": false
-    },
-    {
-      "url": "https://github.com/mono/SkiaSharp.Extended/pull/346",
-      "number": 346,
-      "title": "fix: install MAUI workload in Azure Pipeline",
-      "repo": "mono/SkiaSharp.Extended",
-      "author": "mattleibow",
-      "mergedAt": "2026-02-05T19:45:21Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -2168,36 +2138,6 @@
       "author": "copilot-swe-agent",
       "mergedAt": "2026-02-05T19:15:02Z",
       "copilotAuthored": true,
-      "mauiReviewerUsed": false
-    },
-    {
-      "url": "https://github.com/mono/SkiaSharp.Extended/pull/344",
-      "number": 344,
-      "title": "fix: add nuget.org source for MAUI workload installation",
-      "repo": "mono/SkiaSharp.Extended",
-      "author": "mattleibow",
-      "mergedAt": "2026-02-05T17:01:56Z",
-      "copilotAuthored": false,
-      "mauiReviewerUsed": false
-    },
-    {
-      "url": "https://github.com/mono/SkiaSharp.Extended/pull/335",
-      "number": 335,
-      "title": "docs: comprehensive documentation revamp",
-      "repo": "mono/SkiaSharp.Extended",
-      "author": "copilot-swe-agent",
-      "mergedAt": "2026-02-05T16:53:36Z",
-      "copilotAuthored": true,
-      "mauiReviewerUsed": false
-    },
-    {
-      "url": "https://github.com/mono/SkiaSharp.Extended/pull/342",
-      "number": 342,
-      "title": "Add GitHub Copilot configuration files",
-      "repo": "mono/SkiaSharp.Extended",
-      "author": "mattleibow",
-      "mergedAt": "2026-02-05T14:56:58Z",
-      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -13571,7 +13511,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-20T17:10:47.133Z",
+  "lastUpdated": "2026-02-20T16:12:26.190Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
@@ -13584,7 +13524,6 @@
     "dotnet/maui-samples",
     "dotnet/maui",
     "dotnet/xcsync",
-    "mono/SkiaSharp",
-    "mono/SkiaSharp.Extended"
+    "mono/SkiaSharp"
   ]
 }
