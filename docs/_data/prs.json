@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24749",
+      "number": 24749,
+      "title": "[release/11.0.1xx-preview2] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-20T15:12:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34156",
+      "number": 34156,
+      "title": "ci-copilot: set pipeline run title early using build.updatebuildnumber",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-20T15:09:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/26782",
+      "number": 26782,
+      "title": "[Android] Fix VerticalOffset Update When Modifying CollectionView.ItemsSource While Scrolled",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-02-20T15:02:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10763",
+      "number": 10763,
+      "title": "Replace [DllImport] with [LibraryImport] for runtime P/Invokes",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-20T14:23:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10813",
+      "number": 10813,
+      "title": "[TrimmableTypeMap] Scanner unit tests",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-02-20T14:15:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31722",
+      "number": 31722,
+      "title": "[Android] Fix System.IndexOutOfRangeException when scrolling CollectionView with image CarouselView ",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-02-20T13:03:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29228",
+      "number": 29228,
+      "title": "[Android] Fixed TransformProperties issue when a wrapper view is present",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-02-20T12:53:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27246",
+      "number": 27246,
+      "title": "Fix Incorrect Scrolling Behavior in CollectionView ScrollTo Method Using Index Value",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-02-20T12:42:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32997",
+      "number": 32997,
+      "title": "[iOS, macOS] Fixed Shell Flyout Icon is always black in iOS 26",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-02-20T12:38:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24740",
+      "number": 24740,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-20T12:21:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34140",
       "number": 34140,
       "title": "Add daily template size tracking workflow",
@@ -1781,6 +1881,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/331",
+      "number": 331,
+      "title": "Add AnimationSpeed property to SKLottieView",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-06T15:09:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24640",
       "number": 24640,
       "title": "[Foundation] Improve NSArray.StringArrayFromHandle a bit.",
@@ -2011,12 +2121,32 @@
       "mauiReviewerUsed": true
     },
     {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/343",
+      "number": 343,
+      "title": "Remove deprecated Microsoft.Maui.Controls.Compatibility dependency",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-05T20:39:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3501",
       "number": 3501,
       "title": "Fix release-testing skill consistency issues",
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-02-05T20:23:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/346",
+      "number": 346,
+      "title": "fix: install MAUI workload in Azure Pipeline",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-05T19:45:21Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -2038,6 +2168,36 @@
       "author": "copilot-swe-agent",
       "mergedAt": "2026-02-05T19:15:02Z",
       "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/344",
+      "number": 344,
+      "title": "fix: add nuget.org source for MAUI workload installation",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-05T17:01:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/335",
+      "number": 335,
+      "title": "docs: comprehensive documentation revamp",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-05T16:53:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/342",
+      "number": 342,
+      "title": "Add GitHub Copilot configuration files",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-05T14:56:58Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -13411,7 +13571,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-20T08:14:07.840Z",
+  "lastUpdated": "2026-02-20T17:10:47.133Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
@@ -13424,6 +13584,7 @@
     "dotnet/maui-samples",
     "dotnet/maui",
     "dotnet/xcsync",
-    "mono/SkiaSharp"
+    "mono/SkiaSharp",
+    "mono/SkiaSharp.Extended"
   ]
 }
