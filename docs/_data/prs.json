@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34144",
+      "number": 34144,
+      "title": "Adopt arcade inter-branch merge workflow for main → net10.0 and main → net11.0",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-21T05:08:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24756",
+      "number": 24756,
+      "title": "[tools] Convert tools/diff-to-html to a C# script in scripts/diff-to-html",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-21T01:51:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24757",
+      "number": 24757,
+      "title": "[release/10.0.1xx] [Foundation] Treat any exception during X509Chain.Build as a remote certificate chain error. Fixes #24739.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-21T01:20:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10844",
+      "number": 10844,
+      "title": "[release/11.0.1xx-preview2] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-21T00:56:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10846",
       "number": 10846,
       "title": "Fix emulator readiness check for package manager service",
@@ -13671,7 +13711,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-21T00:22:25.548Z",
+  "lastUpdated": "2026-02-21T08:07:06.862Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
