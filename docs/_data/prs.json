@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10846",
+      "number": 10846,
+      "title": "Fix emulator readiness check for package manager service",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-20T23:14:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10849",
+      "number": 10849,
+      "title": "Fix _TouchAndroidLinkFlag skipping on NativeAOT incremental builds",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-02-20T23:12:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10738",
+      "number": 10738,
+      "title": "Fix net.android.init.gradle.kts for Gradle 9.x compatibility",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-20T23:10:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24612",
+      "number": 24612,
+      "title": "[CI] Bump to use macOS Tahoe",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-02-20T22:57:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10845",
+      "number": 10845,
+      "title": "[release/10.0.1xx] update to 10.0.4 runtime workloads",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-20T21:26:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10835",
+      "number": 10835,
+      "title": "Fix XA3006: Sanitize whitespace-only parameter names in marshal methods LLVM IR generation",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-20T20:50:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24746",
+      "number": 24746,
+      "title": "[runtime] Remove some dead code related to the embeddinator and unnecessary MONOMAC code.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-20T20:26:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34160",
+      "number": 34160,
+      "title": "Revamp find-reviewable-pr skill: priorities, defaults, and doc fixes",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-20T19:33:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24754",
+      "number": 24754,
+      "title": "[Foundation] Treat any exception during X509Chain.Build as a remote certificate chain error. Fixes #24739.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-20T19:14:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34046",
+      "number": 34046,
+      "title": "[ci] Enable Linux Android integration tests with workload and KVM support",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-20T19:04:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24749",
       "number": 24749,
       "title": "[release/11.0.1xx-preview2] Update dependencies from dotnet/dotnet",
@@ -13571,7 +13671,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-20T18:04:08.993Z",
+  "lastUpdated": "2026-02-21T00:22:25.548Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
