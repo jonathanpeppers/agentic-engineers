@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34174",
+      "number": 34174,
+      "title": "Fix Magick.NET v14 breaking API changes in UITest.cs",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-22T03:59:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp.Extended/pull/350",
       "number": 350,
       "title": "Add net10.0 TFM support alongside net9.0",
@@ -13741,7 +13751,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-22T00:22:03.159Z",
+  "lastUpdated": "2026-02-22T08:07:29.015Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
