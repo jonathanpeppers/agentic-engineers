@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/26728",
+      "number": 26728,
+      "title": "[Windows] Fixed IsEnabled Property not works on Tabs",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-02-23T15:55:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33997",
+      "number": 33997,
+      "title": "[ci] Run android on MAUI-Dnceng",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-23T15:15:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1368",
+      "number": 1368,
+      "title": "Updates 20260222",
+      "repo": "dotnet/android-libraries",
+      "author": "moljac",
+      "mergedAt": "2026-02-23T15:06:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29618",
+      "number": 29618,
+      "title": "[Android] Fix RemainingItemsThresholdReachedCommand not firing when CollectionView has Header and Footer both defined",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-02-23T13:45:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29265",
+      "number": 29265,
+      "title": "Fix for First Item in CollectionView Overlaps in FlyoutPage.Flyout on iOS",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-02-23T13:41:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31962",
+      "number": 31962,
+      "title": "[Android, Windows] Fix for FlyoutPage toolbar button not updating on orientation change",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-02-23T13:05:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32525",
+      "number": 32525,
+      "title": "[Testing] Feature Matrix UITest Cases for Shell Flyout Page",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-02-23T12:32:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34133",
+      "number": 34133,
+      "title": "[Perf] Lazy-initialize _triggerSpecificity dictionary on BindableObject",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-02-23T11:07:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34097",
+      "number": 34097,
+      "title": "[Perf] Simplify internal logging with MauiLogger<T> helper",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-02-23T10:58:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34095",
+      "number": 34095,
+      "title": "[Perf] Cache InvalidationEventArgs for known trigger values",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-02-23T10:53:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34089",
+      "number": 34089,
+      "title": "[Perf] Refactor SetterSpecificityList<T> from class to struct",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-02-23T10:52:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp.Extended/pull/355",
       "number": 355,
       "title": "Address review feedback on Blazor sample CI integration",
@@ -13771,7 +13881,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-23T08:15:38.125Z",
+  "lastUpdated": "2026-02-23T16:19:24.663Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
