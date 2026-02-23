@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/355",
+      "number": 355,
+      "title": "Address review feedback on Blazor sample CI integration",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-22T19:55:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/354",
+      "number": 354,
+      "title": "Add cross-linking between docs site and Blazor sample app",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-22T19:38:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34174",
       "number": 34174,
       "title": "Fix Magick.NET v14 breaking API changes in UITest.cs",
@@ -13751,7 +13771,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-22T16:06:42.937Z",
+  "lastUpdated": "2026-02-23T00:22:46.858Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
