@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10855",
+      "number": 10855,
+      "title": "[release/11.0.1xx-preview2] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-24T16:21:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33198",
+      "number": 33198,
+      "title": "Update MAUI dogfooding scripts to work with new Azure DevOps instance",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-02-24T14:54:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34209",
+      "number": 34209,
+      "title": "[Android] Fix PointerMoved and PointerReleased not firing in PointerGestureRecognizer",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-02-24T13:43:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32311",
+      "number": 32311,
+      "title": "[Android] Fix for ToolbarItem retaining the icon from the previous page on Android when using NavigationPage.",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-02-24T12:51:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33159",
+      "number": 33159,
+      "title": "[Testing] Feature Matrix UITest Cases for Shell Tabbed Page",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-02-24T12:41:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24753",
+      "number": 24753,
+      "title": "[workflows] Add an arcade workflow to flow 'main' into 'net11.0'.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-24T12:29:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24758",
+      "number": 24758,
+      "title": "[release/9.0.1xx] [Foundation] Treat any exception during X509Chain.Build as a remote certificate chain error. Fixes #24739.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-24T12:29:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24760",
+      "number": 24760,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-24T11:13:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33088",
+      "number": 33088,
+      "title": "Fix for NavigationPage.TitleView does not expand with host window in iPadOS 26+",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-02-24T10:23:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24770",
+      "number": 24770,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260224063306979 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-02-24T09:44:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33359",
+      "number": 33359,
+      "title": "[Android] Fix NavigationBar overlapping StatusBar when NavigationBar visibility changes",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-02-24T09:30:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33558",
+      "number": 33558,
+      "title": "[Android] Fix for CollectionView Scrolled event is triggered on the initial app load.",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-02-24T09:26:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10787",
+      "number": 10787,
+      "title": "Support for exempting native libraries from JNI preload",
+      "repo": "dotnet/android",
+      "author": "grendello",
+      "mergedAt": "2026-02-24T09:05:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32889",
+      "number": 32889,
+      "title": "[Android, iOS, Mac] Fixed Entry ClearButton not visible on dark theme Change",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-02-24T08:55:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33194",
+      "number": 33194,
+      "title": "Fix: Throw a clear error when an SVG lacks dimensions instead of a NullReferenceException",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-02-24T08:47:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34067",
+      "number": 34067,
+      "title": "Clarify MA003 error message",
+      "repo": "dotnet/maui",
+      "author": "jeremy-visionaid",
+      "mergedAt": "2026-02-24T08:44:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34117",
+      "number": 34117,
+      "title": "Fix ContentPage memory leak on Android when using NavigationPage modally (fixes #33918)",
+      "repo": "dotnet/maui",
+      "author": "brunck",
+      "mergedAt": "2026-02-24T08:15:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34126",
       "number": 34126,
       "title": "[Android] Add UI tests for Material 3 CheckBox",
@@ -14101,7 +14271,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-24T15:32:20.463Z",
+  "lastUpdated": "2026-02-24T16:24:42.087Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
