@@ -1,6 +1,196 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/31248",
+      "number": 31248,
+      "title": "[iOS] Fix SwipeView stays open on iOS after updating content",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-02-23T23:50:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31129",
+      "number": 31129,
+      "title": "[iOS & Mac] Fixed IndicatorView Size doesnt update dynamically",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-02-23T23:47:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30505",
+      "number": 30505,
+      "title": "[iOS, Mac] Fix for CursorPosition not updating when typing into Entry control",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-02-23T23:39:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29964",
+      "number": 29964,
+      "title": "[Android] Fix for Resize method returns an image that has already been disposed",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-02-23T23:32:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30880",
+      "number": 30880,
+      "title": "ContentPresenter: Propagate binding context to children with explicit TemplateBinding",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-02-23T23:28:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34192",
+      "number": 34192,
+      "title": "[Testing] Fixed Test case failure in PR 34173 - [02/21/2026] Candidate - 1",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-02-23T23:24:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10854",
+      "number": 10854,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-23T22:59:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34167",
+      "number": 34167,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-02-23T22:40:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33853",
+      "number": 33853,
+      "title": "[iOS/MacCatalyst] Fix CollectionView ScrollTo for horizontal layouts",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-02-23T22:26:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33590",
+      "number": 33590,
+      "title": "[Android] Fix excessive memory usage for stream and resource-based image loading",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-02-23T22:03:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33426",
+      "number": 33426,
+      "title": "[Android] Fix page not disposed on Shell replace navigation",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-02-23T21:35:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33091",
+      "number": 33091,
+      "title": "[Android] Fix TabBar FlowDirection not updating dynamically",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-02-23T21:15:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33643",
+      "number": 33643,
+      "title": "[Android] Fix Circle Stroke color is incorrectly updated as Fill color.",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-02-23T20:33:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31833",
+      "number": 31833,
+      "title": "[Testing] Feature Matrix UITest Cases for Brushes",
+      "repo": "dotnet/maui",
+      "author": "LogishaSelvarajSF4525",
+      "mergedAt": "2026-02-23T20:13:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10853",
+      "number": 10853,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-23T17:33:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34036",
+      "number": 34036,
+      "title": "[iOS] Fix toolbar items ignoring BarTextColor on iOS/MacCatalyst 26+",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-02-23T17:10:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10843",
+      "number": 10843,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-23T16:46:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33977",
+      "number": 33977,
+      "title": "[net11.0] Update dependencies from dotnet/android",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-23T16:33:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34178",
+      "number": 34178,
+      "title": "Bumps Syncfusion.Maui.Toolkit dependency to version 1.0.9",
+      "repo": "dotnet/maui",
+      "author": "PaulAndersonS",
+      "mergedAt": "2026-02-23T16:21:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/26728",
       "number": 26728,
       "title": "[Windows] Fixed IsEnabled Property not works on Tabs",
@@ -13881,7 +14071,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-23T16:19:24.663Z",
+  "lastUpdated": "2026-02-24T00:22:52.183Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
