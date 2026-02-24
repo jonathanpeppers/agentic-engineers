@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34126",
+      "number": 34126,
+      "title": "[Android] Add UI tests for Material 3 CheckBox",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-02-24T01:20:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33108",
+      "number": 33108,
+      "title": "[Testing] Feature Matrix UITest Cases for BindableLayout",
+      "repo": "dotnet/maui",
+      "author": "LogishaSelvarajSF4525",
+      "mergedAt": "2026-02-24T00:42:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32734",
+      "number": 32734,
+      "title": "[Android] Fixed Shell flyout does not disable scrolling when FlyoutVerticalScrollMode is set to Disabled",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2026-02-24T00:30:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/31248",
       "number": 31248,
       "title": "[iOS] Fix SwipeView stays open on iOS after updating content",
@@ -14071,7 +14101,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-24T00:22:52.183Z",
+  "lastUpdated": "2026-02-24T08:15:12.601Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
