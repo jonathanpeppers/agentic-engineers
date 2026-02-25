@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24779",
+      "number": 24779,
+      "title": "[release/10.0.1xx] Hardcode our manifest version band to 10.0.100",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-02-25T07:53:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34233",
+      "number": 34233,
+      "title": "[Testing] Fixed Test case failure in PR 34173 - [02/21/2026] Candidate - 2",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-02-25T07:22:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/356",
+      "number": 356,
+      "title": "Add Blazor WebAssembly sample with core extended demos and GitHub Pages deployment",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-25T02:18:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33647",
       "number": 33647,
       "title": "Fix for unable to open task using keyboard navigation on windows platform",
@@ -14381,7 +14411,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-25T00:24:40.862Z",
+  "lastUpdated": "2026-02-25T08:15:54.285Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
