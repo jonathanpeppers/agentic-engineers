@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33647",
+      "number": 33647,
+      "title": "Fix for unable to open task using keyboard navigation on windows platform",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-02-25T00:19:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34216",
+      "number": 34216,
+      "title": "[build] clean up old `$(DebugType)` MSBuild settings",
+      "repo": "dotnet/maui",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-24T21:58:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31403",
+      "number": 31403,
+      "title": "[iOS, Android] Fix for CollectionView IsEnabled=false allows touch interactions",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-02-24T20:48:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34110",
+      "number": 34110,
+      "title": " Fixed Label Span font property inheritance when applied via Style",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-02-24T20:29:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34028",
+      "number": 34028,
+      "title": "Add MauiXamlHotReload property for IDE communication",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-24T20:13:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24621",
+      "number": 24621,
+      "title": "CoreCLR: Compute and pass instruction set to crossgen2 based on deployment target",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-24T19:17:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24737",
+      "number": 24737,
+      "title": "[release/9.0.1xx] Bump to Xcode 26.2.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-24T18:50:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/287",
+      "number": 287,
+      "title": "[copilot] create minimal `copilot-instructions.md`",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-24T18:45:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/286",
+      "number": 286,
+      "title": "[build] update to .NET 10",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-24T18:33:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10829",
+      "number": 10829,
+      "title": "Default .NET 11 to target net11.0-android36.1 only",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-24T18:28:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24771",
+      "number": 24771,
+      "title": "[build] Use 'git rev-list --count' to count commits.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-24T17:18:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10855",
       "number": 10855,
       "title": "[release/11.0.1xx-preview2] Update dependencies from dotnet/dotnet",
@@ -14271,7 +14381,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-24T16:24:42.087Z",
+  "lastUpdated": "2026-02-25T00:24:40.862Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
