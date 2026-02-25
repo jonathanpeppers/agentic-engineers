@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24775",
+      "number": 24775,
+      "title": "[CoreFoundation/Foundation] Optimize getting a handle for NSNull and a null CFAllocator.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-25T16:24:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24784",
+      "number": 24784,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-25T16:12:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24781",
+      "number": 24781,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260225064543323 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-02-25T15:49:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24787",
+      "number": 24787,
+      "title": "Track .NET 9/Xcode 26.2 instead of .NET 9/Xcode 26.0",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-25T15:48:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10857",
+      "number": 10857,
+      "title": "Bump external/xamarin-android-tools from `ebd3aaf` to `062cc29`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-02-25T15:16:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24786",
+      "number": 24786,
+      "title": "[release/10.0.1xx] Track .NET 9/Xcode 26.2 instead of .NET 9/Xcode 26.0",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-25T14:46:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34186",
+      "number": 34186,
+      "title": "[XSG] Fix SourceGen OnPlatform default View null handling",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-25T13:48:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24747",
+      "number": 24747,
+      "title": "[ObjCRuntime] Enable nullability and clean up Runtime.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-25T13:35:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34055",
+      "number": 34055,
+      "title": "[XSG] Fix Setter.Value property element lookup for MauiGlobalUri namespace",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-25T13:08:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33536",
+      "number": 33536,
+      "title": "Fix empty string binding to nullable value types",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-25T13:04:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33993",
+      "number": 33993,
+      "title": "Add MapElement.IsVisible and MapElement.ZIndex properties",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-02-25T12:44:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24769",
+      "number": 24769,
+      "title": "[release/11.0.1xx-preview2] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-25T11:53:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24721",
+      "number": 24721,
+      "title": "[targets] Improve/fix post-processing item collection for dylibs and frameworks",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-25T10:05:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24780",
+      "number": 24780,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-25T09:44:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24779",
       "number": 24779,
       "title": "[release/10.0.1xx] Hardcode our manifest version band to 10.0.100",
@@ -14411,7 +14551,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-25T08:15:54.285Z",
+  "lastUpdated": "2026-02-25T16:26:44.896Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
