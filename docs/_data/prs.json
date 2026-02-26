@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/29101",
+      "number": 29101,
+      "title": "Add Circle, Polygon, and Polyline click events for Map control",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-02-26T07:56:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34137",
+      "number": 34137,
+      "title": "Fix XAML C# expression setter generation for read-only properties",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-26T06:37:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10824",
+      "number": 10824,
+      "title": "[Mono.Android] Bind API-CinnamonBun Beta 1",
+      "repo": "dotnet/android",
+      "author": "jonpryor",
+      "mergedAt": "2026-02-26T03:31:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/363",
+      "number": 363,
+      "title": "Add .nojekyll fixes for GitHub Pages Blazor deployment",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-26T02:15:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/362",
+      "number": 362,
+      "title": "Replace monolithic docs workflow with staged deployment system",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-26T01:27:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34203",
       "number": 34203,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -14621,7 +14671,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-26T00:20:42.758Z",
+  "lastUpdated": "2026-02-26T08:14:47.539Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
