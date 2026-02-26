@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34203",
+      "number": 34203,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-02-25T23:20:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33963",
+      "number": 33963,
+      "title": "Clarify git workflow: push to PR branch, don't create separate branches",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-25T21:48:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34183",
+      "number": 34183,
+      "title": "Fix RelayCommand binding inference for On*Async patterns",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-25T20:57:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10770",
+      "number": 10770,
+      "title": "[xabt] support `@(RuntimeEnvironmentVariable)` items",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-25T20:13:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/146",
+      "number": 146,
+      "title": "Add NuGet packaging and CI",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-25T20:01:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34193",
+      "number": 34193,
+      "title": "Fix SourceGen nullability output for #34130",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-25T18:48:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24785",
+      "number": 24785,
+      "title": "[release/11.0.1xx-preview2] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-02-25T16:55:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24775",
       "number": 24775,
       "title": "[CoreFoundation/Foundation] Optimize getting a handle for NSNull and a null CFAllocator.",
@@ -14551,7 +14621,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-25T16:26:44.896Z",
+  "lastUpdated": "2026-02-26T00:20:42.758Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
