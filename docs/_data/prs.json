@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-tools/pull/274",
+      "number": 274,
+      "title": "Add JDK installation support (Microsoft OpenJDK)",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-26T16:13:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34023",
+      "number": 34023,
+      "title": "Add resilience to UI tests for frozen/unresponsive apps",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-26T15:36:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34259",
+      "number": 34259,
+      "title": "Fix dogfood scripts: workflow trigger, build detection, and in-progress handling",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-02-26T14:13:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/147",
+      "number": 147,
+      "title": "Fix duplicate --results-directory in Azure Pipelines test steps",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-26T13:44:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34248",
+      "number": 34248,
+      "title": "Add a GitHub action to update global.json whenever maestro changes it.",
+      "repo": "dotnet/maui",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-26T13:41:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34255",
+      "number": 34255,
+      "title": "Add correct CI pipeline names to Copilot instructions",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-02-26T13:40:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34251",
+      "number": 34251,
+      "title": "docs: remove redundant \"Future Commands\" subsection from CLI design doc",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-26T13:39:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24759",
+      "number": 24759,
+      "title": "[Foundation] Add helper methods to NSArray to create managed arrays of strongly typed dictionaries.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-26T11:12:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32145",
+      "number": 32145,
+      "title": "[Android] Fix WebView in a grid expands beyond it's cell",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-02-26T09:37:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33646",
+      "number": 33646,
+      "title": "[Android] Implement material3 support for TimePicker",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-02-26T09:03:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24791",
+      "number": 24791,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260225184924663 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-02-26T08:57:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24783",
+      "number": 24783,
+      "title": "[devops] Add GitHub comment posting to Prepare .NET Release stage",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-26T08:30:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24792",
+      "number": 24792,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260226063756170 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-02-26T08:24:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/29101",
       "number": 29101,
       "title": "Add Circle, Polygon, and Polyline click events for Map control",
@@ -14671,7 +14801,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-26T08:14:47.539Z",
+  "lastUpdated": "2026-02-26T16:19:55.115Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
