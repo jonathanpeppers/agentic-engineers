@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34260",
+      "number": 34260,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-preview2'",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-02-27T04:48:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3530",
+      "number": 3530,
+      "title": "Add daily API docs generation pipeline",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-27T01:40:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3529",
+      "number": 3529,
+      "title": "Add learnings from Copilot memory audit to docs and instructions",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-27T00:58:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10859",
       "number": 10859,
       "title": "[main] Update dependencies from dotnet/dotnet",
@@ -14921,7 +14951,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-27T00:23:25.757Z",
+  "lastUpdated": "2026-02-27T08:13:02.383Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
