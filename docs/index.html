@@ -434,7 +434,7 @@ title: PR Dashboard
             
             function drawLine(data, color) {
                 if (months.length === 1) {
-                    const x = padLeft + 0 * xStep;
+                    const x = padLeft;
                     const y = padTop + chartH - (data[0] / maxVal) * chartH;
                     ctx.fillStyle = color;
                     ctx.beginPath();
