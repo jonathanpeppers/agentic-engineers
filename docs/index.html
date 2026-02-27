@@ -238,6 +238,13 @@ title: PR Dashboard
             <select id="monthFilter">
                 <option value="all">All Months</option>
             </select>
+            
+            <label for="chartGranularity">Chart Granularity:</label>
+            <select id="chartGranularity">
+                <option value="month">Per Month</option>
+                <option value="week">Per Week</option>
+                <option value="day">Per Day</option>
+            </select>
         </div>
         
         <div class="summary-cards">
@@ -341,6 +348,7 @@ title: PR Dashboard
             
             repoFilter.addEventListener('change', updateDisplay);
             monthFilter.addEventListener('change', updateDisplay);
+            document.getElementById('chartGranularity').addEventListener('change', updateDisplay);
         }
         
         function getFilteredPRs() {
@@ -378,7 +386,52 @@ title: PR Dashboard
             updatePRTable(filteredPRs);
         }
         
-        function drawChart(months, monthlyData, showReviewerData) {
+        function getChartData(prs) {
+            const granularity = document.getElementById('chartGranularity').value;
+            const data = {};
+            
+            prs.forEach(pr => {
+                const date = new Date(pr.mergedAt);
+                let key;
+                if (granularity === 'day') {
+                    key = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+                } else if (granularity === 'week') {
+                    // Get Monday of the week
+                    const d = new Date(date);
+                    const day = d.getDay();
+                    const diff = d.getDate() - day + (day === 0 ? -6 : 1);
+                    d.setDate(diff);
+                    key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+                } else {
+                    key = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
+                }
+                
+                if (!data[key]) {
+                    data[key] = { total: 0, copilot: 0, reviewer: 0 };
+                }
+                data[key].total++;
+                if (pr.copilotAuthored) data[key].copilot++;
+                if (pr.mauiReviewerUsed) data[key].reviewer++;
+            });
+            
+            return data;
+        }
+        
+        function formatChartLabel(key) {
+            const granularity = document.getElementById('chartGranularity').value;
+            const parts = key.split('-');
+            if (granularity === 'day') {
+                const d = new Date(parts[0], parts[1] - 1, parts[2]);
+                return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+            } else if (granularity === 'week') {
+                const d = new Date(parts[0], parts[1] - 1, parts[2]);
+                return 'W ' + d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+            } else {
+                return new Date(parts[0], parts[1] - 1).toLocaleDateString('en-US', { month: 'short', year: '2-digit' });
+            }
+        }
+        
+        function drawChart(keys, chartData, showReviewerData) {
             const canvas = document.getElementById('monthlyChart');
             const dpr = window.devicePixelRatio || 1;
             const rect = canvas.parentElement.getBoundingClientRect();
@@ -392,11 +445,11 @@ title: PR Dashboard
             ctx.scale(dpr, dpr);
             ctx.clearRect(0, 0, width, height);
             
-            if (months.length === 0) return;
+            if (keys.length === 0) return;
             
-            const totals = months.map(m => monthlyData[m].total);
-            const copilots = months.map(m => monthlyData[m].copilot);
-            const reviewers = months.map(m => monthlyData[m].reviewer);
+            const totals = keys.map(k => chartData[k].total);
+            const copilots = keys.map(k => chartData[k].copilot);
+            const reviewers = keys.map(k => chartData[k].reviewer);
             const maxVal = Math.max(...totals, 1);
             
             const padLeft = 50;
@@ -422,18 +475,20 @@ title: PR Dashboard
                 ctx.fillText(val, padLeft - 8, y + 4);
             }
             
-            // Draw X-axis labels
+            // Draw X-axis labels (limit labels to avoid overlap)
             ctx.textAlign = 'center';
-            const xStep = months.length > 1 ? chartW / (months.length - 1) : 0;
-            months.forEach((m, i) => {
-                const x = padLeft + i * xStep;
-                const [year, monthNum] = m.split('-');
-                const label = new Date(year, monthNum - 1).toLocaleDateString('en-US', { month: 'short', year: '2-digit' });
-                ctx.fillText(label, x, height - padBottom + 20);
+            const xStep = keys.length > 1 ? chartW / (keys.length - 1) : 0;
+            const maxLabels = Math.floor(chartW / 60);
+            const labelStep = keys.length > maxLabels ? Math.ceil(keys.length / maxLabels) : 1;
+            keys.forEach((k, i) => {
+                if (i % labelStep === 0 || i === keys.length - 1) {
+                    const x = padLeft + i * xStep;
+                    ctx.fillText(formatChartLabel(k), x, height - padBottom + 20);
+                }
             });
             
             function drawLine(data, color) {
-                if (months.length === 1) {
+                if (keys.length === 1) {
                     const x = padLeft;
                     const y = padTop + chartH - (data[0] / maxVal) * chartH;
                     ctx.fillStyle = color;
@@ -442,23 +497,40 @@ title: PR Dashboard
                     ctx.fill();
                     return;
                 }
+                
+                // Compute (x, y) points
+                const points = data.map((val, i) => ({
+                    x: padLeft + i * xStep,
+                    y: padTop + chartH - (val / maxVal) * chartH
+                }));
+                
                 ctx.strokeStyle = color;
                 ctx.lineWidth = 2;
                 ctx.beginPath();
-                data.forEach((val, i) => {
-                    const x = padLeft + i * xStep;
-                    const y = padTop + chartH - (val / maxVal) * chartH;
-                    if (i === 0) ctx.moveTo(x, y);
-                    else ctx.lineTo(x, y);
-                });
+                ctx.moveTo(points[0].x, points[0].y);
+                
+                // Draw smooth curve using cubic bezier segments
+                for (let i = 0; i < points.length - 1; i++) {
+                    const p0 = points[Math.max(i - 1, 0)];
+                    const p1 = points[i];
+                    const p2 = points[i + 1];
+                    const p3 = points[Math.min(i + 2, points.length - 1)];
+                    
+                    const tension = 0.3;
+                    const cp1x = p1.x + (p2.x - p0.x) * tension;
+                    const cp1y = p1.y + (p2.y - p0.y) * tension;
+                    const cp2x = p2.x - (p3.x - p1.x) * tension;
+                    const cp2y = p2.y - (p3.y - p1.y) * tension;
+                    
+                    ctx.bezierCurveTo(cp1x, cp1y, cp2x, cp2y, p2.x, p2.y);
+                }
                 ctx.stroke();
+                
                 // Draw dots
                 ctx.fillStyle = color;
-                data.forEach((val, i) => {
-                    const x = padLeft + i * xStep;
-                    const y = padTop + chartH - (val / maxVal) * chartH;
+                points.forEach(p => {
                     ctx.beginPath();
-                    ctx.arc(x, y, 3, 0, Math.PI * 2);
+                    ctx.arc(p.x, p.y, 3, 0, Math.PI * 2);
                     ctx.fill();
                 });
             }
@@ -473,8 +545,9 @@ title: PR Dashboard
         function updateMonthlyTable(prs) {
             const repoFilter = document.getElementById('repoFilter').value;
             const showReviewerData = repoFilter === 'all' || repoFilter === 'dotnet/maui';
-            const monthlyData = {};
             
+            // Monthly data for the table (always per-month)
+            const monthlyData = {};
             prs.forEach(pr => {
                 const date = new Date(pr.mergedAt);
                 const monthKey = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
@@ -488,11 +561,13 @@ title: PR Dashboard
                 if (pr.mauiReviewerUsed) monthlyData[monthKey].reviewer++;
             });
             
+            // Chart data (based on granularity dropdown)
+            const chartData = getChartData(prs);
+            const sortedChartKeys = Object.keys(chartData).sort();
+            drawChart(sortedChartKeys, chartData, showReviewerData);
+            
+            // Table always shows monthly data
             const sortedMonths = Object.keys(monthlyData).sort();
-            
-            // Draw chart
-            drawChart(sortedMonths, monthlyData, showReviewerData);
-            
             const tbody = document.getElementById('monthlyBody');
             tbody.innerHTML = '';
             
