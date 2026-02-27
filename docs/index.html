@@ -187,6 +187,40 @@ title: PR Dashboard
             background-color: #f9731620; 
             color: #ea580c; 
         }
+        
+        .chart-container {
+            background: white;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .chart-container canvas {
+            width: 100%;
+            height: 300px;
+        }
+        
+        .chart-legend {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        
+        .chart-legend span {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .legend-color {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border-radius: 3px;
+        }
     </style>
 </head>
 <body>
@@ -222,6 +256,14 @@ title: PR Dashboard
         </div>
         
         <h2>Monthly Totals</h2>
+        <div class="chart-container">
+            <canvas id="monthlyChart"></canvas>
+            <div class="chart-legend">
+                <span><span class="legend-color" style="background:#0366d6"></span> Merged PRs</span>
+                <span><span class="legend-color" style="background:#28a745"></span> Copilot Authored</span>
+                <span><span class="legend-color" style="background:#6f42c1"></span> MAUI Reviewer</span>
+            </div>
+        </div>
         <table id="monthlyTable">
             <thead>
                 <tr>
@@ -336,6 +378,98 @@ title: PR Dashboard
             updatePRTable(filteredPRs);
         }
         
+        function drawChart(months, monthlyData, showReviewerData) {
+            const canvas = document.getElementById('monthlyChart');
+            const dpr = window.devicePixelRatio || 1;
+            const rect = canvas.parentElement.getBoundingClientRect();
+            const width = rect.width - 40;
+            const height = 300;
+            canvas.width = width * dpr;
+            canvas.height = height * dpr;
+            canvas.style.width = width + 'px';
+            canvas.style.height = height + 'px';
+            const ctx = canvas.getContext('2d');
+            ctx.scale(dpr, dpr);
+            ctx.clearRect(0, 0, width, height);
+            
+            if (months.length === 0) return;
+            
+            const totals = months.map(m => monthlyData[m].total);
+            const copilots = months.map(m => monthlyData[m].copilot);
+            const reviewers = months.map(m => monthlyData[m].reviewer);
+            const maxVal = Math.max(...totals, 1);
+            
+            const padLeft = 50;
+            const padRight = 20;
+            const padTop = 20;
+            const padBottom = 40;
+            const chartW = width - padLeft - padRight;
+            const chartH = height - padTop - padBottom;
+            
+            // Draw grid lines and Y-axis labels
+            ctx.strokeStyle = '#e1e4e8';
+            ctx.fillStyle = '#586069';
+            ctx.font = '12px -apple-system, sans-serif';
+            ctx.textAlign = 'right';
+            const gridLines = 5;
+            for (let i = 0; i <= gridLines; i++) {
+                const y = padTop + (chartH / gridLines) * i;
+                const val = Math.round(maxVal - (maxVal / gridLines) * i);
+                ctx.beginPath();
+                ctx.moveTo(padLeft, y);
+                ctx.lineTo(width - padRight, y);
+                ctx.stroke();
+                ctx.fillText(val, padLeft - 8, y + 4);
+            }
+            
+            // Draw X-axis labels
+            ctx.textAlign = 'center';
+            const xStep = months.length > 1 ? chartW / (months.length - 1) : 0;
+            months.forEach((m, i) => {
+                const x = padLeft + i * xStep;
+                const [year, monthNum] = m.split('-');
+                const label = new Date(year, monthNum - 1).toLocaleDateString('en-US', { month: 'short', year: '2-digit' });
+                ctx.fillText(label, x, height - padBottom + 20);
+            });
+            
+            function drawLine(data, color) {
+                if (months.length === 1) {
+                    const x = padLeft;
+                    const y = padTop + chartH - (data[0] / maxVal) * chartH;
+                    ctx.fillStyle = color;
+                    ctx.beginPath();
+                    ctx.arc(x, y, 4, 0, Math.PI * 2);
+                    ctx.fill();
+                    return;
+                }
+                ctx.strokeStyle = color;
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                data.forEach((val, i) => {
+                    const x = padLeft + i * xStep;
+                    const y = padTop + chartH - (val / maxVal) * chartH;
+                    if (i === 0) ctx.moveTo(x, y);
+                    else ctx.lineTo(x, y);
+                });
+                ctx.stroke();
+                // Draw dots
+                ctx.fillStyle = color;
+                data.forEach((val, i) => {
+                    const x = padLeft + i * xStep;
+                    const y = padTop + chartH - (val / maxVal) * chartH;
+                    ctx.beginPath();
+                    ctx.arc(x, y, 3, 0, Math.PI * 2);
+                    ctx.fill();
+                });
+            }
+            
+            drawLine(totals, '#0366d6');
+            drawLine(copilots, '#28a745');
+            if (showReviewerData) {
+                drawLine(reviewers, '#6f42c1');
+            }
+        }
+        
         function updateMonthlyTable(prs) {
             const repoFilter = document.getElementById('repoFilter').value;
             const showReviewerData = repoFilter === 'all' || repoFilter === 'dotnet/maui';
@@ -354,11 +488,15 @@ title: PR Dashboard
                 if (pr.mauiReviewerUsed) monthlyData[monthKey].reviewer++;
             });
             
-            const sortedMonths = Object.keys(monthlyData).sort().reverse();
+            const sortedMonths = Object.keys(monthlyData).sort();
+            
+            // Draw chart
+            drawChart(sortedMonths, monthlyData, showReviewerData);
+            
             const tbody = document.getElementById('monthlyBody');
             tbody.innerHTML = '';
             
-            sortedMonths.forEach(month => {
+            sortedMonths.slice().reverse().forEach(month => {
                 const [year, monthNum] = month.split('-');
                 const monthName = new Date(year, monthNum - 1).toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
                 const data = monthlyData[month];
