@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24793",
+      "number": 24793,
+      "title": "[devops] Skip macOS test results when neither macOS nor Mac Catalyst is enabled.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-27T15:30:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34286",
+      "number": 34286,
+      "title": "[build] Fix YAML error: remove duplicate AndroidPoolLinux parameter in ci.yml",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-27T15:15:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24788",
+      "number": 24788,
+      "title": "[build] Make it possible to only build Objective-Sharpie.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-27T14:58:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/155",
+      "number": 155,
+      "title": "Add ProcessUtils helper and output models for Apple CLI APIs",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-27T14:43:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10863",
+      "number": 10863,
+      "title": "Bump external/Java.Interop from `5d55b25` to `ca0f7f0`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-02-27T14:32:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3531",
+      "number": 3531,
+      "title": "Update libfontconfig-dev for loong64 from 2.17.1-4 to 2.17.1-5",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-27T14:20:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3532",
+      "number": 3532,
+      "title": "Fix case-sensitive nupkg path + move docs workflow to docs repo",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-02-27T14:19:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24799",
+      "number": 24799,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-27T14:09:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33687",
+      "number": 33687,
+      "title": "[Android] Fix DatePicker MinimumDate/MaximumDate not updating dynamically",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-02-27T13:28:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34282",
+      "number": 34282,
+      "title": "Remove build status badges from README",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-02-27T12:53:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24794",
+      "number": 24794,
+      "title": "[src] Fix memory leaks: release retained handles from Copy/Create native calls",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-27T11:18:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24772",
+      "number": 24772,
+      "title": "[tests] Fix Windows test summary always reporting 'All tests passed'",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-02-27T11:17:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24795",
+      "number": 24795,
+      "title": "[main] Bump to Xcode 26.3 Stable",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-02-27T08:19:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34260",
       "number": 34260,
       "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-preview2'",
@@ -14951,7 +15081,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-27T08:13:02.383Z",
+  "lastUpdated": "2026-02-27T16:11:53.080Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
