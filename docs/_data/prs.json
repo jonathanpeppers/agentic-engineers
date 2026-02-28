@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3527",
+      "number": 3527,
+      "title": "Add SkiaSharp.Views.Gtk4 using GirCore.Gtk-4.0 bindings",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-02-27T23:16:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10866",
+      "number": 10866,
+      "title": "[Mono.Android] Bind API-CinnamonBun Beta 2",
+      "repo": "dotnet/android",
+      "author": "jonpryor",
+      "mergedAt": "2026-02-27T22:13:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10867",
+      "number": 10867,
+      "title": "[skills] create `read-assembly-store` skill",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-27T22:12:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33824",
+      "number": 33824,
+      "title": "Mark Color as immutable and make Font a readonly struct",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-02-27T19:36:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33468",
+      "number": 33468,
+      "title": "[Android] Implemented material3 support for RadioButton ",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-02-27T19:26:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/290",
+      "number": 290,
+      "title": "Add EnvironmentVariableNames constants for centralized env var management",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-02-27T18:47:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33173",
+      "number": 33173,
+      "title": "[Android] Implemented material3 support for Button",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-02-27T18:21:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10826",
+      "number": 10826,
+      "title": "[dotnet run] `ComputeAvailableDevices` lists available emulators and auto-boot on deploy",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-02-27T18:14:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33831",
+      "number": 33831,
+      "title": "Add Pin Clustering support for Maps",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-02-27T18:14:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10864",
+      "number": 10864,
+      "title": "Bump external/xamarin-android-tools from `062cc29` to `c6fc83d`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-02-27T18:04:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10865",
+      "number": 10865,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-02-27T18:03:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34032",
+      "number": 34032,
+      "title": "Fix crash when closing Windows based app when using TitleBar",
+      "repo": "dotnet/maui",
+      "author": "MFinkBK",
+      "mergedAt": "2026-02-27T16:40:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24793",
       "number": 24793,
       "title": "[devops] Skip macOS test results when neither macOS nor Mac Catalyst is enabled.",
@@ -15081,7 +15201,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-27T16:11:53.080Z",
+  "lastUpdated": "2026-02-28T00:19:31.661Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
