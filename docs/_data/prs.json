@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33478",
+      "number": 33478,
+      "title": "[Android] Implemented material3 support for Editor",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-02-28T11:26:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33668",
+      "number": 33668,
+      "title": "[Android] Implemented Material3 support for Picker",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-02-28T11:00:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33432",
+      "number": 33432,
+      "title": "Add LongPressGestureRecognizer for .NET MAUI 11",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-02-28T10:45:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3527",
       "number": 3527,
       "title": "Add SkiaSharp.Views.Gtk4 using GirCore.Gtk-4.0 bindings",
@@ -15201,7 +15231,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-02-28T08:06:03.235Z",
+  "lastUpdated": "2026-02-28T16:05:43.535Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
