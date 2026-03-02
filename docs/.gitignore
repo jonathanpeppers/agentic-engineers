@@ -1,0 +1,5 @@
+.bundle/
+_site/
+Gemfile.lock
+_config_local.yml
+_layouts/
