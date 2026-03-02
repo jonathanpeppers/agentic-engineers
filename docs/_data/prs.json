@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10861",
+      "number": 10861,
+      "title": "Fix AndroidDeviceUserId not passed to `am start` on debug/run",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-02T15:04:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10869",
+      "number": 10869,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260301113211414 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-03-02T15:02:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10868",
+      "number": 10868,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13427813",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-03-02T15:01:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24801",
+      "number": 24801,
+      "title": "Include .mobile.props for DTB (fix for VS Code)",
+      "repo": "dotnet/macios",
+      "author": "noiseonwires",
+      "mergedAt": "2026-03-02T14:50:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10872",
+      "number": 10872,
+      "title": "[main] Update dependencies from dotnet/android",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-02T14:48:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10870",
+      "number": 10870,
+      "title": "Bump external/xamarin-android-tools from `c6fc83d` to `e0a9393`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-02T14:46:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1371",
+      "number": 1371,
+      "title": "Fix duplicate class errors for runtime-annotation-jvm and datastore-preferences-core-jvm",
+      "repo": "dotnet/android-libraries",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-03-02T14:24:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34293",
+      "number": 34293,
+      "title": "February 21st, 2026 Candidate Branch",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-02T14:09:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34292",
+      "number": 34292,
+      "title": "Revert \"February 21st, 2026 Candidate Branch\"",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-02T14:02:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34173",
+      "number": 34173,
+      "title": "February 21st, 2026 Candidate Branch",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-02T13:40:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32916",
+      "number": 32916,
+      "title": "Fix NullReferenceException when binding to Dictionary<Enum, object> with x:DataType",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-03-02T13:39:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33985",
+      "number": 33985,
+      "title": "Add Pin.ShowInfoWindow() and Pin.HideInfoWindow() methods",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-02T13:11:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34153",
+      "number": 34153,
+      "title": "[iOS] Fix VerticalOffset Update When Modifying CollectionView.ItemsSource While Scrolled",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-02T12:47:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/156",
+      "number": 156,
+      "title": "Add Command Line Tools detection",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-02T11:24:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33792",
+      "number": 33792,
+      "title": "Add MapLongClicked event to Map control",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-02T10:44:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33950",
+      "number": 33950,
+      "title": "Add Custom Pin Icons support for Maps",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-02T10:43:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24797",
+      "number": 24797,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-02T10:26:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31567",
+      "number": 31567,
+      "title": "Android drawable perf",
+      "repo": "dotnet/maui",
+      "author": "albyrock87",
+      "mergedAt": "2026-03-02T09:28:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp.Extended/pull/369",
       "number": 369,
       "title": "Fix direct navigation 404 on Blazor sample pages",
@@ -15251,7 +15431,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-02T08:14:10.545Z",
+  "lastUpdated": "2026-03-02T15:20:31.357Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
