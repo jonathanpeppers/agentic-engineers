@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/369",
+      "number": 369,
+      "title": "Fix direct navigation 404 on Blazor sample pages",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-02T07:40:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33599",
       "number": 33599,
       "title": "[Android] Implemented material3 support for Label",
@@ -15241,7 +15251,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-02T00:21:33.073Z",
+  "lastUpdated": "2026-03-02T08:14:10.545Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
