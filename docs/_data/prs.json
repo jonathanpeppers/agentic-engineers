@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10877",
+      "number": 10877,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13445116",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-03-03T14:31:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/291",
+      "number": 291,
+      "title": "Make HttpClient static in JdkInstaller",
+      "repo": "dotnet/android-tools",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-03T14:20:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33481",
+      "number": 33481,
+      "title": "[Android] Implemented material3 support for ActivityIndicator",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-03T14:10:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33986",
+      "number": 33986,
+      "title": "Agent Workflow Metrics via GitHub Labels",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-03T12:22:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30420",
+      "number": 30420,
+      "title": "[iOS] Fix: CollectionView does not clear selection when SelectedItem is set to null",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-03-03T12:19:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34040",
+      "number": 34040,
+      "title": "Copilot CI: Structured phase outputs, autonomous execution, iOS support, and CI pipeline",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-03T10:50:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33991",
+      "number": 33991,
+      "title": "Add MapStyle property for custom JSON map styling (Android)",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-03T10:20:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24806",
+      "number": 24806,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-03T10:06:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24805",
+      "number": 24805,
+      "title": "[Foundation] Add [NullAllowed] to NSBundle members. Fixes #24803.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-03T09:40:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24798",
+      "number": 24798,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-03T09:01:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33982",
       "number": 33982,
       "title": "Add MoveToRegion animation control, MapSpan.FromLocations, and fix initial map animation",
@@ -15561,7 +15661,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-03T08:12:19.009Z",
+  "lastUpdated": "2026-03-03T16:17:15.865Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
