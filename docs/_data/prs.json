@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34124",
+      "number": 34124,
+      "title": "[AI] Fix multi-turn tool calling, add chat overlay, upgrade Agent Framework to rc2, and add CI pipelines",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-03T00:03:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29924",
+      "number": 29924,
+      "title": "[iOS] Fixed Flyout icon not updating when root page changes using InsertPageBefore",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-02T23:53:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24796",
+      "number": 24796,
+      "title": "[release/9.0.1xx] Bump to Xcode 26.3.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-02T23:43:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/275",
+      "number": 275,
+      "title": "Add SDK bootstrap and sdkmanager wrapper",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-02T22:53:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34305",
+      "number": 34305,
+      "title": "[release/11.0.1xx-preview2] Use wildcard versions for template dependencies in preview builds",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-03-02T22:35:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34214",
+      "number": 34214,
+      "title": "Use wildcard versions for template dependencies in preview builds",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-02T22:34:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1382",
+      "number": 1382,
+      "title": "Bump external/xamarin-android-tools from `c6fc83d` to `e0a9393`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-03-02T20:36:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33799",
+      "number": 33799,
+      "title": "Add UserLocationChanged event and LastUserLocation property to Map",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-02T19:28:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34300",
+      "number": 34300,
+      "title": "[ci] fix branding",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-02T19:28:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24804",
+      "number": 24804,
+      "title": "[release/10.0.1xx] Include .mobile.props for DTB (fix for VS Code)",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-02T18:19:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10861",
       "number": 10861,
       "title": "Fix AndroidDeviceUserId not passed to `am start` on debug/run",
@@ -15431,7 +15531,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-02T15:20:31.357Z",
+  "lastUpdated": "2026-03-03T00:22:52.670Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
