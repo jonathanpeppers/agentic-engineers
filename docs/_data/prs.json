@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33982",
+      "number": 33982,
+      "title": "Add MoveToRegion animation control, MapSpan.FromLocations, and fix initial map animation",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-03T07:58:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24745",
+      "number": 24745,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-03T00:50:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34306",
+      "number": 34306,
+      "title": "Fix CoreCLR iOS/MacCatalyst Helix jobs to use internal queues",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-03T00:27:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34124",
       "number": 34124,
       "title": "[AI] Fix multi-turn tool calling, add chat overlay, upgrade Agent Framework to rc2, and add CI pipelines",
@@ -15531,7 +15561,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-03T00:22:52.670Z",
+  "lastUpdated": "2026-03-03T08:12:19.009Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
