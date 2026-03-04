@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/375",
+      "number": 375,
+      "title": "Add pr-monitor skill",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-04T00:15:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/370",
+      "number": 370,
+      "title": "Fix API link and add GitHub link in Blazor sample",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-04T00:08:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/373",
+      "number": 373,
+      "title": "Enable XML doc generation for API reference docs",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-04T00:07:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/372",
+      "number": 372,
+      "title": "Add llms.txt and llms-full.txt to documentation site",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-04T00:04:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32045",
+      "number": 32045,
+      "title": "[iOS 26] Fix Entry MaxLength not enforced due to new multi-range delegate",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-04T00:01:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34085",
+      "number": 34085,
+      "title": "[iOS/Mac Catalyst 26] Fix Shell.ForegroundColor not applied to ToolbarItems",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-03T23:31:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/371",
+      "number": 371,
+      "title": "Add Pixel Comparer demo to Blazor sample with documentation",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-03T22:35:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10876",
+      "number": 10876,
+      "title": "Bump external/Java.Interop from `ca0f7f0` to `b57f4e3`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-03T22:19:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24813",
+      "number": 24813,
+      "title": "[sharpie] Set a few required properties for the nupkg.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-03T19:45:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33246",
+      "number": 33246,
+      "title": "[Shell] Update logic for iOS large title display in ShellItemRenderer",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-03T19:36:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1383",
+      "number": 1383,
+      "title": "Bump external/xamarin-android-tools from `e0a9393` to `6a6de1f`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-03-03T18:41:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24810",
+      "number": 24810,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-03T17:21:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/157",
+      "number": 157,
+      "title": "Add Xcode management APIs",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-03T17:14:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34237",
+      "number": 34237,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet, dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-03T16:47:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10877",
       "number": 10877,
       "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13445116",
@@ -15661,7 +15801,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-03T16:17:15.865Z",
+  "lastUpdated": "2026-03-04T00:21:42.423Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
