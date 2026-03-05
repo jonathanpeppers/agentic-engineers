@@ -511,16 +511,37 @@ title: PR Dashboard
                 
                 // Monotone cubic Hermite spline (Fritsch-Carlson)
                 // Smooth curves that never overshoot data points
+                // Uses arithmetic mean for tangent init (correct for equally-spaced x)
                 const n = points.length;
                 if (n === 2) {
                     ctx.lineTo(points[1].x, points[1].y);
                 } else if (n > 2) {
                     // Compute slopes of secant lines
                     const delta = [];
+                    let zeroSpacing = false;
                     for (let i = 0; i < n - 1; i++) {
-                        delta.push((points[i + 1].y - points[i].y) / (points[i + 1].x - points[i].x));
+                        const dx = points[i + 1].x - points[i].x;
+                        if (Math.abs(dx) < 1e-12) {
+                            zeroSpacing = true;
+                            break;
+                        }
+                        delta.push((points[i + 1].y - points[i].y) / dx);
                     }
-                    // Compute tangent slopes using Fritsch-Carlson method
+                    // Fall back to straight lines if x-spacing is zero
+                    if (zeroSpacing) {
+                        for (let i = 1; i < n; i++) {
+                            ctx.lineTo(points[i].x, points[i].y);
+                        }
+                        ctx.stroke();
+                        ctx.fillStyle = color;
+                        points.forEach(p => {
+                            ctx.beginPath();
+                            ctx.arc(p.x, p.y, 3, 0, Math.PI * 2);
+                            ctx.fill();
+                        });
+                        return;
+                    }
+                    // Compute tangent slopes (arithmetic mean; equal spacing)
                     const m = [delta[0]];
                     for (let i = 1; i < n - 1; i++) {
                         if (delta[i - 1] * delta[i] <= 0) {
