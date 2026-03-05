@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34301",
+      "number": 34301,
+      "title": "[Android] Fix crash in GraphicsView when using TapGestureRecognizer",
+      "repo": "dotnet/maui",
+      "author": "jpd21122012",
+      "mergedAt": "2026-03-05T15:38:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34064",
+      "number": 34064,
+      "title": "[Android] Fix improper rendering of ThumbimageSource in Slider",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-05T15:08:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3548",
+      "number": 3548,
+      "title": "Make skill action schemas automation-ready with required data fields",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-05T14:53:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10887",
+      "number": 10887,
+      "title": "[release/11.0.1xx-preview2] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-05T14:27:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3547",
+      "number": 3547,
+      "title": "Make add-comment risk dynamic based on content and confidence",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-05T14:10:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24818",
+      "number": 24818,
+      "title": "[skills] Add a \"macios-xcode-beta-update\" skill",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-05T13:00:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/26762",
+      "number": 26762,
+      "title": "[iOS] Flyout Items Not Displayed in RightToLeft FlowDirection in Landscape - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-05T12:56:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29144",
+      "number": 29144,
+      "title": "[iOS] Fixed issue where group Header/Footer template was set to all items when IsGrouped was true for an ObservableCollection",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-03-05T12:53:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33945",
+      "number": 33945,
+      "title": "[Testing] Feature Matrix UITest Cases for Shell Pages ",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-03-05T12:49:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32799",
+      "number": 32799,
+      "title": "[Testing] Feature matrix UITest Cases for Visual Transform Control",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-03-05T12:43:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31066",
+      "number": 31066,
+      "title": "[iOS] Fix TimePicker AM/PM frequently changes when the app is closed and reopened",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-05T12:37:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31215",
+      "number": 31215,
+      "title": "[iOS][CV2] Fix CollectionView renders large empty space at bottom of view",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-05T12:30:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34327",
+      "number": 34327,
+      "title": "Add PublicAPI.Unshipped.txt BOM sort warning to Copilot instructions",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-05T11:17:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24825",
+      "number": 24825,
+      "title": "[ci] Fix publish GitHub comment for sharpie-only builds and partial failures",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-05T10:13:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34311",
+      "number": 34311,
+      "title": "[Android] Fix UseMonoRuntime check for CoreCLR R2R",
+      "repo": "dotnet/maui",
+      "author": "davidnguyen-tech",
+      "mergedAt": "2026-03-05T09:36:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34212",
+      "number": 34212,
+      "title": "[Windows] Fix modal page keyboard focus not shifting to newly opened modal",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-05T09:34:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34179",
+      "number": 34179,
+      "title": "[net11.0] Update dependencies from dnceng/internal/dotnet-optimization",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-05T09:18:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/28983",
       "number": 28983,
       "title": "[iOS] Fix: ActivityIndicator IsRunning ignores IsVisible when set to true",
@@ -16221,7 +16391,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-05T08:11:40.318Z",
+  "lastUpdated": "2026-03-05T16:18:24.777Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
