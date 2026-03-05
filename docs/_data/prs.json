@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/28983",
+      "number": 28983,
+      "title": "[iOS] Fix: ActivityIndicator IsRunning ignores IsVisible when set to true",
+      "repo": "dotnet/maui",
+      "author": "bhavanesh2001",
+      "mergedAt": "2026-03-05T00:32:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31656",
+      "number": 31656,
+      "title": "[Testing] Feature matrix UITest Cases for Map Control",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-03-05T00:27:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34019",
       "number": 34019,
       "title": "[iOS] Fix for Slider ThumbImageSource is not centered properly on iOS 26",
@@ -16201,7 +16221,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-05T00:22:29.090Z",
+  "lastUpdated": "2026-03-05T08:11:40.318Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
