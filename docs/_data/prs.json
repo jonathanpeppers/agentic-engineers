@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10873",
+      "number": 10873,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-05T23:02:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10886",
+      "number": 10886,
+      "title": "[build-tools] Fix CI download failures, upgrade xa-prep-tasks and BootstrapTasks to net10.0",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-05T22:45:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/160",
+      "number": 160,
+      "title": "Add environment check APIs",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-05T22:43:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/374",
+      "number": 374,
+      "title": "Add image comparison metrics, tolerance, options pattern, and difference image generation",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-05T20:56:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/376",
+      "number": 376,
+      "title": "Add Deep Zoom test resources and sample tile collections",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-05T20:54:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34279",
+      "number": 34279,
+      "title": "[Android] Fix Label with MaxLines truncating text in horizontal ScrollView",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-05T20:35:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3551",
+      "number": 3551,
+      "title": "Enable blank issues in issue template configuration",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-05T20:12:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33926",
+      "number": 33926,
+      "title": "[Android] Implemented Material3 support for ProgressBar",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-05T20:09:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3550",
+      "number": 3550,
+      "title": "Update skill-creator from upstream anthropics/skills",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-05T19:39:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24817",
+      "number": 24817,
+      "title": "[xcode26.4] Bump PR to Xcode 26.4 Beta 2",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-05T19:02:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1374",
+      "number": 1374,
+      "title": "20260305 alignment bumps",
+      "repo": "dotnet/android-libraries",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-03-05T17:57:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33892",
+      "number": 33892,
+      "title": "[iOS/Android] MediaPicker: Fix image orientation when RotateImage=true",
+      "repo": "dotnet/maui",
+      "author": "michalpobuta",
+      "mergedAt": "2026-03-05T17:26:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10879",
+      "number": 10879,
+      "title": "[release/10.0.1xx] Support for exempting native libraries from JNI preload",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-05T17:08:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34301",
       "number": 34301,
       "title": "[Android] Fix crash in GraphicsView when using TapGestureRecognizer",
@@ -16391,7 +16521,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-05T16:18:24.777Z",
+  "lastUpdated": "2026-03-06T00:26:31.247Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
