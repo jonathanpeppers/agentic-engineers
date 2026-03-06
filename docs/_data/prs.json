@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34024",
+      "number": 34024,
+      "title": "[iOS] Fix SafeArea infinite layout cycle with parent hierarchy walk and pixel-level comparison",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-06T15:33:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/283",
+      "number": 283,
+      "title": "Add AdbRunner for adb CLI operations",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-06T14:59:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10892",
+      "number": 10892,
+      "title": "Bump to google/bundletool/1.18.3",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-06T14:29:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10897",
+      "number": 10897,
+      "title": "Use JDK 21 instead of 11",
+      "repo": "dotnet/android",
+      "author": "Happypig375",
+      "mergedAt": "2026-03-06T14:28:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34275",
+      "number": 34275,
+      "title": "[Android] Fix CollectionView selection crash with HeaderTemplate",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-06T14:25:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10893",
+      "number": 10893,
+      "title": "Add TaskFactory=\"TaskHostFactory\" Runtime=\"NET\" to xa-prep-tasks and BootstrapTasks UsingTask elements",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-06T14:21:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10890",
+      "number": 10890,
+      "title": "uses-feature.version should be settable according to android documentation",
+      "repo": "dotnet/android",
+      "author": "Happypig375",
+      "mergedAt": "2026-03-06T14:18:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10898",
+      "number": 10898,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260306113203968 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-03-06T14:17:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31940",
+      "number": 31940,
+      "title": "[iOS, Mac] Fix for RadioButton TextColor for plain Content not working",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-03-06T12:21:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34334",
+      "number": 34334,
+      "title": "[Testing] Fixed Test case failure in PR 34294 - [03/2/2026] Candidate - 1",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-03-06T12:16:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33756",
+      "number": 33756,
+      "title": "Add Android NativeAOT integration tests",
+      "repo": "dotnet/maui",
+      "author": "sbomer",
+      "mergedAt": "2026-03-06T12:13:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10873",
       "number": 10873,
       "title": "[main] Update dependencies from dotnet/dotnet",
@@ -16521,7 +16631,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-06T08:09:46.357Z",
+  "lastUpdated": "2026-03-06T16:12:07.620Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
