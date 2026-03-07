@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/30348",
+      "number": 30348,
+      "title": "Update Android Connectivity implementation to use modern APIs",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-06T23:59:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32354",
+      "number": 32354,
+      "title": "Replace deprecated NetworkReachability with NWPathMonitor on iOS/macOS",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-06T23:53:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31254",
+      "number": 31254,
+      "title": "[iOS, Mac, Windows] GraphicsView: Fix Background/BackgroundColor not updating",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-06T23:31:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10899",
+      "number": 10899,
+      "title": "Bump external/xamarin-android-tools from `6a6de1f` to `d3c269d`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-06T22:23:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1384",
+      "number": 1384,
+      "title": "Bump external/xamarin-android-tools from `6a6de1f` to `d3c269d`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-03-06T17:05:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34024",
       "number": 34024,
       "title": "[iOS] Fix SafeArea infinite layout cycle with parent hierarchy walk and pixel-level comparison",
@@ -16631,7 +16681,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-06T16:12:07.620Z",
+  "lastUpdated": "2026-03-07T00:21:26.091Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
