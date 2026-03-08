@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34371",
+      "number": 34371,
+      "title": "Update PreReleaseVersionLabel and StabilizePackageVersion",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-08T15:04:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33528",
       "number": 33528,
       "title": "[Android] ScrollView: Fix HorizontalScrollBarVisibility not updating immediately at runtime",
@@ -16701,7 +16711,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-08T08:06:57.149Z",
+  "lastUpdated": "2026-03-08T16:05:59.137Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
