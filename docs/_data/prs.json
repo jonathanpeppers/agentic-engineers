@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24854",
+      "number": 24854,
+      "title": "[system-dependencies] Update the check for the Metal toolchain to update if an update is available.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-09T15:33:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10904",
+      "number": 10904,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-09T15:15:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24846",
+      "number": 24846,
+      "title": "[skills] Add CI failure inspector skill",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-09T14:50:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24851",
+      "number": 24851,
+      "title": "[tests] Fix arm64 - Mac Tahoe (26) condition",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-09T14:48:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24847",
+      "number": 24847,
+      "title": "[xcode26.4] Merge remote-tracking branch 'origin/main' into xcode26.4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-09T14:47:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10901",
+      "number": 10901,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13490532",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-03-09T13:53:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10905",
+      "number": 10905,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-09T13:37:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10903",
+      "number": 10903,
+      "title": "Bump external/Java.Interop from `9c9dcaf` to `2d965b7`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-09T13:34:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24808",
+      "number": 24808,
+      "title": "[Foundation] Improve NSArray.ArrayFromHandle significantly.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-09T11:54:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24824",
+      "number": 24824,
+      "title": "[dotnet] Add support for @(RuntimeEnvironmentVariable).",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-09T11:52:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24800",
+      "number": 24800,
+      "title": "[msbuild] Don't pass symbol file to strip when _ExportSymbolsExplicitly=false. Fixes #24582.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-09T11:07:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24678",
+      "number": 24678,
+      "title": "[net11.0] Add CoreCLR and R2R framework to post-processing for symbol stripping",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-03-09T10:08:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33839",
       "number": 33839,
       "title": "[All Platforms] Fix RadioButton warning when ControlTemplate is set with View content",
@@ -16761,7 +16881,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-09T08:13:57.189Z",
+  "lastUpdated": "2026-03-09T16:22:52.671Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
