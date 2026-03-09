@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33839",
+      "number": 33839,
+      "title": "[All Platforms] Fix RadioButton warning when ControlTemplate is set with View content",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-09T07:55:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24829",
+      "number": 24829,
+      "title": "[msbuild] Fix incremental build for Metal shaders. Fixes #24816.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-09T07:48:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/21679",
+      "number": 21679,
+      "title": "[Android] Support for images inside HTML label",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-09T00:42:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/29564",
       "number": 29564,
       "title": "[iOS] System.NullReferenceException at NavigationRenderer.SetStatusBarStyle()",
@@ -16731,7 +16761,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-09T00:22:09.208Z",
+  "lastUpdated": "2026-03-09T08:13:57.189Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
