@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/29564",
+      "number": 29564,
+      "title": "[iOS] System.NullReferenceException at NavigationRenderer.SetStatusBarStyle()",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-08T19:49:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/21961",
+      "number": 21961,
+      "title": "Optimize ordering of children in Flex layout",
+      "repo": "dotnet/maui",
+      "author": "symbiogenesis",
+      "mergedAt": "2026-03-08T18:44:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34371",
       "number": 34371,
       "title": "Update PreReleaseVersionLabel and StabilizePackageVersion",
@@ -16711,7 +16731,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-08T16:05:59.137Z",
+  "lastUpdated": "2026-03-09T00:22:09.208Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
