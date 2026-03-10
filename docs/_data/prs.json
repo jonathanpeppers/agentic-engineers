@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34328",
+      "number": 34328,
+      "title": "[iOS] Fix gap at top of view after rotating device while Entry keyboard is visible",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-03-10T00:11:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10907",
+      "number": 10907,
+      "title": "[docs] Sync Documentation/docs-mobile with dotnet/docs-mobile",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-09T21:48:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10778",
+      "number": 10778,
+      "title": "[xabt] `dotnet watch` support, based on env vars",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-09T21:46:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24859",
+      "number": 24859,
+      "title": "[xcode26.4] Merge remote-tracking branch main into xcode26.4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-09T21:15:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24852",
+      "number": 24852,
+      "title": "[dotnet-linker] Export DOTNET for csproj.inc generation.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-09T20:56:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/161",
+      "number": 161,
+      "title": "Add Apple install orchestrator",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-09T19:39:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10900",
+      "number": 10900,
+      "title": "[tests] Clear ResolvedCodeAnalysisRuleSet to fix CoreCompile incrementality on CI",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-09T19:00:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/165",
+      "number": 165,
+      "title": "Fix XcodeVersion not populated when Xcode is discovered via xcode-select",
+      "repo": "dotnet/macios-devtools",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-09T18:21:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24854",
       "number": 24854,
       "title": "[system-dependencies] Update the check for the Metal toolchain to update if an update is available.",
@@ -16881,7 +16961,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-09T16:22:52.671Z",
+  "lastUpdated": "2026-03-10T00:19:43.390Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
