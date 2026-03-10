@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24836",
+      "number": 24836,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-10T16:15:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24862",
+      "number": 24862,
+      "title": "[tests] Fix crash in BitmapContextTest.CreateAdaptive_2 by computing correct buffer size.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-10T14:58:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24864",
+      "number": 24864,
+      "title": "[xcode26.4] Update to Xcode 26.4 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-10T14:58:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24830",
+      "number": 24830,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-03-10T14:45:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10827",
+      "number": 10827,
+      "title": "[TrimmableTypeMap] Integration parity tests",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-10T14:07:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34405",
+      "number": 34405,
+      "title": "Add MauiXamlHotReload to the list of CompilerVisibleProperties",
+      "repo": "dotnet/maui",
+      "author": "noiseonwires",
+      "mergedAt": "2026-03-10T13:44:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24857",
+      "number": 24857,
+      "title": "[release/10.0.1xx] [system-dependencies] Update the check for the Metal toolchain to update if an update is available.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-10T12:48:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34326",
+      "number": 34326,
+      "title": "[iOS 26] Fix back button color not applied for NavigationPage",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-03-10T12:30:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31590",
+      "number": 31590,
+      "title": "[Android] Fix control size properties not available during Loaded event",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-10T12:27:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34284",
+      "number": 34284,
+      "title": "[iOS/MacCatalyst] Fix CheckBox foreground color not resetting when set to null",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-03-10T12:14:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34283",
+      "number": 34283,
+      "title": "[Testing] Refactoring Feature Matrix UITest Cases for CheckBox Control",
+      "repo": "dotnet/maui",
+      "author": "LogishaSelvarajSF4525",
+      "mergedAt": "2026-03-10T12:12:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34152",
+      "number": 34152,
+      "title": "[Testing] Feature Matrix UITest Cases for Triggers",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-03-10T11:52:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24838",
+      "number": 24838,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-10T11:52:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/26304",
+      "number": 26304,
+      "title": "[iOS] GraphicsView DrawString - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-10T11:38:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27389",
+      "number": 27389,
+      "title": "[iOS] SwipeView: Honor FontImageSource.Color in SwipeItem icon",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-10T11:35:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/25444",
+      "number": 25444,
+      "title": "Fixed crash when calling ItemsView.ScrollTo on unloaded CollectionView",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-10T11:31:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24858",
       "number": 24858,
       "title": "[release/9.0.1xx] [system-dependencies] Update the check for the Metal toolchain to update if an update is available.",
@@ -16991,7 +17151,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-10T08:12:10.554Z",
+  "lastUpdated": "2026-03-10T16:22:51.027Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
