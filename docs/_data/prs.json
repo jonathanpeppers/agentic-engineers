@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24858",
+      "number": 24858,
+      "title": "[release/9.0.1xx] [system-dependencies] Update the check for the Metal toolchain to update if an update is available.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-10T06:13:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33960",
+      "number": 33960,
+      "title": "[Android] Fix Switch thumb shadow missing when ThumbColor is set",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-03-10T00:43:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34325",
+      "number": 34325,
+      "title": "[iOS] Fix Stepper layout overlap in landscape on iOS 26",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-10T00:27:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34328",
       "number": 34328,
       "title": "[iOS] Fix gap at top of view after rotating device while Entry keyboard is visible",
@@ -16961,7 +16991,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-10T00:19:43.390Z",
+  "lastUpdated": "2026-03-10T08:12:10.554Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
