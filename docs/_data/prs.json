@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34412",
+      "number": 34412,
+      "title": "Add version 11.0.0-preview2/10.0.50 to bug report template",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-10T21:55:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/295",
+      "number": 295,
+      "title": "Fix FormatDisplayName to preserve uppercase segments (XL, SE, FE)",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-10T19:52:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/294",
+      "number": 294,
+      "title": "Setup PublicApi Roslyn analyzer for Xamarin.Android.Tools.AndroidSdk",
+      "repo": "dotnet/android-tools",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-10T19:05:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24839",
+      "number": 24839,
+      "title": "[tests] Add a 'static-registrar' variation.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-10T18:33:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34410",
+      "number": 34410,
+      "title": "[ci] Update branding for MEAI Preview 1",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-10T17:56:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29041",
+      "number": 29041,
+      "title": "[iOS] Button RTL text and image overlap - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-10T17:51:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24836",
       "number": 24836,
       "title": "[main] Update dependencies from dotnet/macios",
@@ -17151,7 +17211,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-10T16:22:51.027Z",
+  "lastUpdated": "2026-03-11T00:19:30.664Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
