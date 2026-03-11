@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34409",
+      "number": 34409,
+      "title": "[ci] Fix internal pipeline OfficialBuildId format",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-11T15:20:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/297",
+      "number": 297,
+      "title": "Add PublicAPI file update rule to copilot instructions",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-11T15:17:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/23471",
+      "number": 23471,
+      "title": "Visual state change for disabled RadioButton",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-11T14:40:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/293",
+      "number": 293,
+      "title": "Fix CS8604 nullable warning in AndroidVersion.AlternateIds",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-11T14:05:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/296",
+      "number": 296,
+      "title": "Add no-whitespace-only-diffs rule to copilot instructions",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-11T14:03:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/298",
+      "number": 298,
+      "title": "Fix RS0026 by splitting AcceptLicensesAsync optional-parameter overloads",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-11T14:01:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29596",
+      "number": 29596,
+      "title": "[Android] VoiceOver on Toolbar Item",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-11T13:31:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28797",
+      "number": 28797,
+      "title": "Android TimePicker ignores 24 hour system setting when using Format Property - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-11T13:21:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34401",
+      "number": 34401,
+      "title": "[iOS/Mac] Fixed OnBackButtonPressed not firing for Shell Navigation Bar Button",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-11T12:51:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34403",
+      "number": 34403,
+      "title": "Fix for Shell tab visibility not updating when navigating back multiple pages",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-03-11T12:48:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29528",
+      "number": 29528,
+      "title": "[Android] - Fix Shadow Rendering For Transparent Fill, Stroke (Lines), and Text on Shapes",
+      "repo": "dotnet/maui",
+      "author": "prakashKannanSf3972",
+      "mergedAt": "2026-03-11T12:46:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24861",
+      "number": 24861,
+      "title": "[Foundation] Improve nullability in NSArray.EnumsFromHandle.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-11T09:26:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34398",
+      "number": 34398,
+      "title": "[Android]Fix TestDoesntCrashWithCachingDisable UI Test failure",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-11T08:37:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24866",
+      "number": 24866,
+      "title": "[release/10.0.1xx] [tests] Fix arm64 - Mac Tahoe (26) condition",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-11T08:14:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34412",
       "number": 34412,
       "title": "Add version 11.0.0-preview2/10.0.50 to bug report template",
@@ -17211,7 +17351,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-11T08:12:25.494Z",
+  "lastUpdated": "2026-03-11T16:18:45.920Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
