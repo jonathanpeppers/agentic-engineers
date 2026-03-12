@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34442",
+      "number": 34442,
+      "title": "Resolve UI test Build Sample failures - Candidate March 16",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-03-12T06:21:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34440",
       "number": 34440,
       "title": "Update Versions.props",
@@ -17511,7 +17521,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-12T00:18:56.045Z",
+  "lastUpdated": "2026-03-12T08:13:28.959Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
