@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34440",
+      "number": 34440,
+      "title": "Update Versions.props",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-12T00:06:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34340",
+      "number": 34340,
+      "title": "[ci] Copilot CI: Android device tests, emulator robustness, and snapshot fallback",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-11T23:28:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1377",
+      "number": 1377,
+      "title": "Stable Updates 20260309",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-11T21:50:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34439",
+      "number": 34439,
+      "title": "Update PatchVersion from 50 to 60",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-11T20:58:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3558",
+      "number": 3558,
+      "title": "Update skills: add update-skia, sync skill-creator from upstream",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-11T19:35:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34294",
+      "number": 34294,
+      "title": "March 2, 2026 Candidate Branch",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-11T19:30:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10915",
+      "number": 10915,
+      "title": "Bump external/xamarin-android-tools from `d3c269d` to `f9416d4`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-11T19:20:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/299",
+      "number": 299,
+      "title": "[skills] Incorporate review feedback from dotnet/android#10918",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-11T19:16:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24871",
+      "number": 24871,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-11T18:53:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24872",
+      "number": 24872,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-11T17:37:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24725",
+      "number": 24725,
+      "title": "[net11.0] Exclude user assemblies from R2R composite in Debug",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-03-11T17:24:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24831",
+      "number": 24831,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-11T17:23:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24873",
+      "number": 24873,
+      "title": "[Foundation] Improve nullability in NSArray.FromArray.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-11T17:18:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/746",
+      "number": 746,
+      "title": "Remove unnecessary .gitkeep from Map images directory",
+      "repo": "dotnet/maui-samples",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-11T17:12:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3556",
+      "number": 3556,
+      "title": "Add Skia core CVE tracking to security audit skill",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-11T17:04:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10808",
+      "number": 10808,
+      "title": "[TrimmableTypeMap] Add TypeMap proxy groundwork with CreateInstance",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-11T16:59:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34409",
       "number": 34409,
       "title": "[ci] Fix internal pipeline OfficialBuildId format",
@@ -17351,7 +17511,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-11T16:18:45.920Z",
+  "lastUpdated": "2026-03-12T00:18:56.045Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
