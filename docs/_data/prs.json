@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-samples/pull/747",
+      "number": 747,
+      "title": "Add .NET 11 SDK to CI build workflows",
+      "repo": "dotnet/maui-samples",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-12T16:17:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libzipsharp/pull/156",
+      "number": 156,
+      "title": "Update .NET SDK from 7.0.406 to 8.0.419 in CI pipeline",
+      "repo": "dotnet/android-libzipsharp",
+      "author": "Redth",
+      "mergedAt": "2026-03-12T15:34:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24865",
+      "number": 24865,
+      "title": "[release/9.0.1xx] [tests] Fix arm64 - Mac Tahoe (26) condition",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-12T15:30:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/24867",
+      "number": 24867,
+      "title": " [Windows] Fixed CollectionView with grouping fails to add items when a footer template is present or crashes when removing data.",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-12T14:21:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10918",
+      "number": 10918,
+      "title": "[skills] Add android-reviewer skill for PR code reviews",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-12T14:02:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33834",
+      "number": 33834,
+      "title": "Enable implicit xmlns declarations by default",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-03-12T13:47:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10916",
+      "number": 10916,
+      "title": "Use shared AdbRunner from android-tools for device listing",
+      "repo": "dotnet/android",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-12T13:39:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10919",
+      "number": 10919,
+      "title": "Bump external/xamarin-android-tools from `f9416d4` to `1a26c0c`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-12T13:37:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1380",
+      "number": 1380,
+      "title": "Updates 20260312",
+      "repo": "dotnet/android-libraries",
+      "author": "moljac",
+      "mergedAt": "2026-03-12T13:30:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24867",
+      "number": 24867,
+      "title": "[tests] Update max simulator OS version.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-12T08:53:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34442",
       "number": 34442,
       "title": "Resolve UI test Build Sample failures - Candidate March 16",
@@ -17521,7 +17621,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-12T08:13:28.959Z",
+  "lastUpdated": "2026-03-12T16:24:11.534Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
