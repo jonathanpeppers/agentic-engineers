@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-tools/pull/307",
+      "number": 307,
+      "title": "Add copilot-setup-steps.yml for Copilot coding agent",
+      "repo": "dotnet/android-tools",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-13T16:06:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34450",
+      "number": 34450,
+      "title": "[release/10.0.1xx-sr5] [Regression] Fix TypedBinding nested property re-subscription (#34428)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-03-13T14:52:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3514",
+      "number": 3514,
+      "title": "Update to .NET 10 SDK with workload version set pinning",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-13T14:34:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10929",
+      "number": 10929,
+      "title": "Bump external/xamarin-android-tools from `1a26c0c` to `40b3013`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-13T13:23:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10928",
+      "number": 10928,
+      "title": "Bump external/Java.Interop from `2d965b7` to `64a1c41`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-13T13:15:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10927",
+      "number": 10927,
+      "title": "Ignore submodules in fail-on-dirty-tree CI check",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-13T13:15:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10930",
+      "number": 10930,
+      "title": "android-reviewer: @copilot prefix for Copilot-authored PRs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-13T13:14:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34449",
+      "number": 34449,
+      "title": "[Regression] Fix TypedBinding nested property re-subscription (#34428)",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-03-13T09:26:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/29779",
       "number": 29779,
       "title": "[iOS] Fix Flyout icon visibility when popping page using PopAsync or PopToRootAsync",
@@ -17731,7 +17811,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-13T08:12:50.125Z",
+  "lastUpdated": "2026-03-13T16:11:58.746Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
