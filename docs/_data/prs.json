@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/30906",
+      "number": 30906,
+      "title": "[Android] Fixed SelectionLength Not Updated Correctly for Right-to-Left Text Selection on Editor and Entry",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-13T00:08:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28151",
+      "number": 28151,
+      "title": "[iOS] Label LinebreakMode (TailTruncation) for FormattedText does't work in CollectionView after scroll - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-12T23:56:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29339",
+      "number": 29339,
+      "title": "[Android] Button with corner radius shadow broken on Android device - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-12T23:53:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10917",
+      "number": 10917,
+      "title": "[TrimmableTypeMap] Add UCO wrappers, JCW generator, and JNI signature helpers",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-12T21:54:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30733",
+      "number": 30733,
+      "title": "[iOS] Permissions.RequestAsync<Permissions.Sensors> does not return a value on iOS16+ - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-12T21:07:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10926",
+      "number": 10926,
+      "title": "Add *.gdn.sarif to .gitignore",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-12T19:24:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/xcsync/pull/237",
+      "number": 237,
+      "title": "Pin transitive Microsoft.Build dependencies",
+      "repo": "dotnet/xcsync",
+      "author": "Redth",
+      "mergedAt": "2026-03-12T18:48:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1386",
+      "number": 1386,
+      "title": "Bump external/xamarin-android-tools from `d3c269d` to `1a26c0c`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-03-12T18:16:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/282",
+      "number": 282,
+      "title": "Add AvdManagerRunner for avdmanager CLI operations",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-12T18:03:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34458",
+      "number": 34458,
+      "title": "Increment patch version from 50 to 51",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-12T17:00:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-samples/pull/747",
       "number": 747,
       "title": "Add .NET 11 SDK to CI build workflows",
@@ -17621,7 +17721,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-12T16:24:11.534Z",
+  "lastUpdated": "2026-03-13T00:22:32.522Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
