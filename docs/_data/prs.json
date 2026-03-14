@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34424",
+      "number": 34424,
+      "title": "[iOS] Fix CollectionView excessive height when ObservableCollection source loads with delay",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-14T00:04:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10937",
+      "number": 10937,
+      "title": "Skip incremental build timing assertions for NativeAOT",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-13T23:23:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10939",
+      "number": 10939,
+      "title": "Fix flaky HttpListener tests by using dynamic port allocation",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-13T23:21:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1389",
+      "number": 1389,
+      "title": "Add [Category(\"NativeAOTIgnore\")] to JNI method remapping tests",
+      "repo": "dotnet/java-interop",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-13T22:16:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10935",
+      "number": 10935,
+      "title": "[xabt] Validate CustomJniInitFunctions names are valid C identifiers",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-13T20:44:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10923",
+      "number": 10923,
+      "title": "Remove checked-in test.keystore and generate it dynamically during tests",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-13T19:18:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10856",
+      "number": 10856,
+      "title": "Fix GC live lock issue in rapid UI switching",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-13T18:00:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-tools/pull/307",
       "number": 307,
       "title": "Add copilot-setup-steps.yml for Copilot coding agent",
@@ -17811,7 +17881,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-13T16:11:58.746Z",
+  "lastUpdated": "2026-03-14T00:20:38.900Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
