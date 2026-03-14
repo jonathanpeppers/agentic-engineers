@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34321",
+      "number": 34321,
+      "title": " [Testing] Feature Matrix UITest Cases for Shell Navigation Page",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-03-14T15:59:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34291",
+      "number": 34291,
+      "title": "[iOS] Fix SearchBar.CancelButtonColor not applied on iOS 26",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-14T15:55:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34281",
+      "number": 34281,
+      "title": "[iOS] Fix MediaPicker.PickPhotosAsync returning empty list when selecting 4+ images with CompressionQuality set",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-14T15:53:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34276",
+      "number": 34276,
+      "title": "[iOS] Fix Label background not clipped when Clip property is set",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-03-14T15:49:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34240",
+      "number": 34240,
+      "title": "[iOS/Mac] CollectionView: Fix incorrect ItemsViewScrolledEventArgs indices with grouped items",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-14T15:47:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24882",
+      "number": 24882,
+      "title": "[sharpie] Fix --scope path matching",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-14T13:35:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34382",
+      "number": 34382,
+      "title": "[iOS] Fix CollectionView horizontal scroll when   empty inside RefreshView",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-03-14T13:22:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33439",
+      "number": 33439,
+      "title": "[Android] Fix picked images end up with unexpected \"_processed\" suffix",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-14T12:53:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30653",
+      "number": 30653,
+      "title": "[iOS] Fix Scrollbar does not align with FlowDirection=RightToLeft in WebView and HybridWebView",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-14T12:45:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34416",
+      "number": 34416,
+      "title": "[Android] Fix GraphicsView dirtyRect mismatch when display density changes",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-03-14T12:39:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34404",
+      "number": 34404,
+      "title": " [Shell] Fix OnNavigatingFrom reporting wrong DestinationPage",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-03-14T12:36:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34387",
+      "number": 34387,
+      "title": "[Android] Fix CollectionView sizing when wrapped in RefreshView",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-14T12:31:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33948",
+      "number": 33948,
+      "title": "[Android] Implemented Material3 support for SearchBar",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-14T12:24:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3561",
+      "number": 3561,
+      "title": "Fix tvOS: split device/simulator native builds to match iOS pattern",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-14T08:52:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34424",
       "number": 34424,
       "title": "[iOS] Fix CollectionView excessive height when ObservableCollection source loads with delay",
@@ -17881,7 +18021,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-14T08:08:30.062Z",
+  "lastUpdated": "2026-03-14T16:07:05.130Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
