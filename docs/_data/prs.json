@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33429",
+      "number": 33429,
+      "title": "[Shell] Fix InvalidCastException when using QueryPropertyAttribute with nullable types",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-15T13:27:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27848",
+      "number": 27848,
+      "title": "[iOS] Shell: Fix 'More' tab navigation bar not applying Shell appearance customization",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-15T13:21:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29883",
+      "number": 29883,
+      "title": "[Android] Tabs briefly display wrong background color when navigating between flyout items ",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-03-15T13:09:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31340",
+      "number": 31340,
+      "title": "[Android, iOS] Fix for ContentView not clearing its Background when set to null",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-15T12:58:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33774",
+      "number": 33774,
+      "title": "[Android] Fix SearchHandler displays both Expanded and Collapsible views when SearchBoxVisibility changes at runtime",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-03-15T12:57:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27093",
+      "number": 27093,
+      "title": "[Android] CollectionView: Fix item spacing applied on outer edges causing scroll/rendering issues",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-15T12:55:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34452",
       "number": 34452,
       "title": "[Android] Fix for CollectionView EmptyView swaps reusing stale RecyclerView item holders",
@@ -18051,7 +18111,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-15T08:11:09.151Z",
+  "lastUpdated": "2026-03-15T16:08:06.689Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
