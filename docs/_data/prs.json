@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34452",
+      "number": 34452,
+      "title": "[Android] Fix for CollectionView EmptyView swaps reusing stale RecyclerView item holders",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-03-14T16:40:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34372",
+      "number": 34372,
+      "title": "[iOS][Android] Shell: Fix tab bar visibility and selection after first tab becomes invisible",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-03-14T16:23:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34331",
+      "number": 34331,
+      "title": "[iOS] Fix for CollectionView.Measure() returning incorrect height when called before the view is mounted",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-03-14T16:14:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34321",
       "number": 34321,
       "title": " [Testing] Feature Matrix UITest Cases for Shell Navigation Page",
@@ -18021,7 +18051,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-14T16:07:05.130Z",
+  "lastUpdated": "2026-03-15T00:25:18.456Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
