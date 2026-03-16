@@ -1,6 +1,296 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/30878",
+      "number": 30878,
+      "title": "[iOS] SwipeGestureRecognizer: Fix swipe direction detection on rotated views",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-03-16T15:53:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34406",
+      "number": 34406,
+      "title": "[Testing] Refactoring Feature Matrix UITest Cases for BoxView Control",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-03-16T15:47:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33958",
+      "number": 33958,
+      "title": "[iOS] Shell: Fix page viewport offset when Entry focused on page load",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-03-16T15:40:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10940",
+      "number": 10940,
+      "title": "[build] Scope BinSkim scanning to build output only",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-16T15:38:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34005",
+      "number": 34005,
+      "title": "[iOS & MacCatalyst] Fixed Flowdirection in Stepper",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-03-16T15:35:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1387",
+      "number": 1387,
+      "title": "Bump external/xamarin-android-tools from `1a26c0c` to `091e3a6`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-03-16T15:32:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1390",
+      "number": 1390,
+      "title": "[tests] Add NativeAOTIgnore to InvokeVirtualFromConstructorTests",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-16T15:28:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24883",
+      "number": 24883,
+      "title": "[sharpie] Add --deepsplit option to split bindings into one file per source header",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-16T14:35:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29769",
+      "number": 29769,
+      "title": "[iOS, Android] Fix for Incorrect Orientation in HEIC and JPG Images During Resize",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-03-16T14:31:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32878",
+      "number": 32878,
+      "title": "[Android] Prevent tabs from being removed during Disappearing",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-16T14:20:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34495",
+      "number": 34495,
+      "title": "Fix conflicts and build failures in inflight/current branch",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-16T14:03:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24875",
+      "number": 24875,
+      "title": "[runtime] Make 'is_class_finalization_aware' work before the managed NSObject type has been loaded.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-16T14:01:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28468",
+      "number": 28468,
+      "title": "[MacCatalyst] Shell: Fix ShellContent tab titles not rendering when entering full-screen",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-03-16T13:52:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31463",
+      "number": 31463,
+      "title": "[iOS] Fix indicator dots not rendering when using indicator size with shadow",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-03-16T13:50:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34427",
+      "number": 34427,
+      "title": "[Android] Fix Java.Lang.IllegalArgumentException crash in Entry with StringFormat binding",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-16T13:42:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29392",
+      "number": 29392,
+      "title": "[Android] Fix for Automatic Flow Direction change in Graphics View",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-03-16T13:39:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24881",
+      "number": 24881,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-16T13:37:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33907",
+      "number": 33907,
+      "title": "Fix CharacterSpacing Set on Label Does Not Apply to Spans in FormattedString",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-16T13:35:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32392",
+      "number": 32392,
+      "title": "[Android] Fixed TabbedPage bar background visual bug when using gradient stops with transparent colors.",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-03-16T13:29:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10894",
+      "number": 10894,
+      "title": "Move StripEmbeddedLibraries to MSBuild task",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-03-16T13:26:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10943",
+      "number": 10943,
+      "title": "Bump external/Java.Interop from `64a1c41` to `7a9f974`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-16T13:24:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31516",
+      "number": 31516,
+      "title": "[Android] Fix for Android TalkBack announcing CollectionView items as clickable when SelectionMode is None",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-03-16T13:21:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10938",
+      "number": 10938,
+      "title": "Add HasMetadata checks to all PEReader code paths to handle native Windows DLLs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-16T13:18:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34425",
+      "number": 34425,
+      "title": "[iOS] Fix PickContactAsync blocking subsequent dialog presentation",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-16T13:16:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34081",
+      "number": 34081,
+      "title": "[iOS 26] Stepper: Fix not reaching min/max when increment exceeds remaining range",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-16T13:05:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31067",
+      "number": 31067,
+      "title": "[iOS] Fix FlyoutPage toolbar items visibility and ordering",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-03-16T12:48:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30132",
+      "number": 30132,
+      "title": "Add PostNotifications implementation for iOS",
+      "repo": "dotnet/maui",
+      "author": "IeuanWalker",
+      "mergedAt": "2026-03-16T11:38:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24893",
+      "number": 24893,
+      "title": "[CI] Move to provisionator via script and use SAS token auth",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-16T11:21:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32497",
+      "number": 32497,
+      "title": "Changed the visibility of the _dialog field in the PickerHandler",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-03-16T09:18:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10936",
       "number": 10936,
       "title": "[xabt] Filter non-Android .so files from _ResolvedNativeLibraries",
@@ -18241,7 +18531,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-16T08:24:03.130Z",
+  "lastUpdated": "2026-03-16T16:24:32.382Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
