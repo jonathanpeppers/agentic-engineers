@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10936",
+      "number": 10936,
+      "title": "[xabt] Filter non-Android .so files from _ResolvedNativeLibraries",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-16T08:02:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31453",
+      "number": 31453,
+      "title": "[iOS, Mac] Fix for TabbedPage FlowDirection Property Renders Opposite Layout Direction When Set via ViewModel Binding",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-03-16T00:55:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34015",
+      "number": 34015,
+      "title": "[iOS] Fixed ProgressBar Flow Direction on iOS26",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-03-16T00:48:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34016",
+      "number": 34016,
+      "title": "[iOS 26] Fixed Placeholder text of SearchHandler is not displayed",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-16T00:46:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33427",
+      "number": 33427,
+      "title": "[Android] Shell: Implement Material 3 theming support",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-16T00:36:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32471",
+      "number": 32471,
+      "title": "Refactored ShellFlyoutTemplatedContentRenderer InsetListener ",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-16T00:31:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32241",
+      "number": 32241,
+      "title": "Fix for Shell back navigation using GoToAsync not triggering page transition to the previous page",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-16T00:30:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/25107",
       "number": 25107,
       "title": "[iOS] Preserve AlwaysTemplate rendering mode in Button.ResizeImageIfNecessary",
@@ -18171,7 +18241,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-16T00:25:50.166Z",
+  "lastUpdated": "2026-03-16T08:24:03.130Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
