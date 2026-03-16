@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/25107",
+      "number": 25107,
+      "title": "[iOS] Preserve AlwaysTemplate rendering mode in Button.ResizeImageIfNecessary",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-15T23:55:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3562",
+      "number": 3562,
+      "title": "Fix Cairo assertion crash in GTK4 SKDrawingArea",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-15T19:53:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3563",
+      "number": 3563,
+      "title": "Fix tvOS NativeReference targets to split device/simulator frameworks",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-15T19:52:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34481",
+      "number": 34481,
+      "title": "[iOS 26] Fix NavigationPage hang after rapidly pushing and popping pages",
+      "repo": "dotnet/maui",
+      "author": "mduchev",
+      "mergedAt": "2026-03-15T18:48:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32333",
+      "number": 32333,
+      "title": "[iOS][Android] Label: Fix RTL padding not mirroring",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-15T18:10:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27449",
+      "number": 27449,
+      "title": "[iOS] - Fixed SearchBar Dimension Handling to Respect WidthRequest and HeightRequest Values",
+      "repo": "dotnet/maui",
+      "author": "prakashKannanSf3972",
+      "mergedAt": "2026-03-15T18:00:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33429",
       "number": 33429,
       "title": "[Shell] Fix InvalidCastException when using QueryPropertyAttribute with nullable types",
@@ -18111,7 +18171,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-15T16:08:06.689Z",
+  "lastUpdated": "2026-03-16T00:25:50.166Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
