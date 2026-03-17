@@ -1,6 +1,236 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24899",
+      "number": 24899,
+      "title": "[msbuild] Rename the localization resources, so they don't match localization resources from other assemblies.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-17T15:32:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24908",
+      "number": 24908,
+      "title": "[tests] Fix flaky RecordTest.DeskCase_83099_InmutableDictionary on macOS CI",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-17T15:31:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/25073",
+      "number": 25073,
+      "title": "[blazorwebview] align `SupportedOSPlatform` attribute with templates",
+      "repo": "dotnet/maui",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-17T14:16:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27009",
+      "number": 27009,
+      "title": "[Android][iOS] SearchBar: Fix UserInteractionEnabled not respecting IsEnabled",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-17T13:43:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31258",
+      "number": 31258,
+      "title": "[iOS] - Fixed ImageSource.FromFile fails when image in subfolder",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-17T13:40:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10953",
+      "number": 10953,
+      "title": "[build] Fix BinSkim `analyzeTargetGlob` pattern",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-17T13:36:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33955",
+      "number": 33955,
+      "title": "[iOS/MacCatalyst] Fix Shell TabBarDisabledColor not working on disabled tabs",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-03-17T13:25:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30907",
+      "number": 30907,
+      "title": "[Android] CollectionView: Defer RemainingItemsThresholdReached to avoid RecyclerView scroll callback warnings",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-17T13:21:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24874",
+      "number": 24874,
+      "title": "[tests] Choose the right simulator RID on x64.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-17T13:11:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33132",
+      "number": 33132,
+      "title": "[Android] Switch: Add opt-in Material3 support",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-17T13:10:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24903",
+      "number": 24903,
+      "title": "[build] Fix parallel make hang by disabling dotnet build servers",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-17T12:55:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28107",
+      "number": 28107,
+      "title": "[Android] - Fix Inconsistent Footer Scrolling Behaviour in CollectionView with EmptyView",
+      "repo": "dotnet/maui",
+      "author": "prakashKannanSf3972",
+      "mergedAt": "2026-03-17T12:47:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28241",
+      "number": 28241,
+      "title": "Shell: Update flyout behavior when items are dynamically replaced",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-17T12:23:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29730",
+      "number": 29730,
+      "title": "[Windows/Android] Fix RadioButton TextTransform Property not working",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-17T12:20:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34511",
+      "number": 34511,
+      "title": "Fix: Replace double.IsFinite to resolve compilation errors in SwipeGestureExtensions",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-17T12:10:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24890",
+      "number": 24890,
+      "title": "[tools] There's no need to set the DOTNET variable before creating makefile fragments for csproj anymore.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-17T11:24:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24900",
+      "number": 24900,
+      "title": "[Foundation] Improve nullability in NSArray.ArrayFromHandleFunc.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-17T11:23:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24905",
+      "number": 24905,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-17T09:29:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24904",
+      "number": 24904,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-17T09:06:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33450",
+      "number": 33450,
+      "title": "[.NET11] Update android packages ",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-03-17T08:39:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24891",
+      "number": 24891,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-03-17T08:37:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24901",
+      "number": 24901,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 13567384",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-03-17T08:34:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libzipsharp/pull/157",
+      "number": 157,
+      "title": "[build] Replace `DotNetCoreCLI@2` with direct `dotnet` commands",
+      "repo": "dotnet/android-libzipsharp",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-17T08:28:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34508",
       "number": 34508,
       "title": "Revert \"[iOS, Mac, Windows] GraphicsView: Fix Background/BackgroundColor not updating (#31254)\"",
@@ -18791,7 +19021,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-17T08:16:04.913Z",
+  "lastUpdated": "2026-03-17T16:26:05.517Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
