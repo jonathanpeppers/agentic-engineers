@@ -1,6 +1,236 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34285",
+      "number": 34285,
+      "title": "Fix for Binding failure in RadioButton after .NET 10 upgrade",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-03-17T00:20:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33859",
+      "number": 33859,
+      "title": "[Android, iOS] Throw exceptions consistently for invalid StaticResource references to prevent relaunch crashes",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-17T00:19:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10944",
+      "number": 10944,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-17T00:18:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30009",
+      "number": 30009,
+      "title": "[Android, iOS, macOS] Fixed Shell SearchHandler Command Not Executed on Item Selection",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2026-03-17T00:18:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33084",
+      "number": 33084,
+      "title": "[Housekeeping] Refactor iOS large titles sample",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-17T00:09:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31553",
+      "number": 31553,
+      "title": "[Android] Fix for ArgumentOutOfRangeException thrown by ScrollTo when an invalid group index is specified",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-17T00:04:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33888",
+      "number": 33888,
+      "title": "[Android] Essentials: Cancel pending picker tasks when IntermediateActivity is destroyed in SingleTask mode",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-03-16T23:55:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30757",
+      "number": 30757,
+      "title": "[Android, iOS] Fix for Shell flyout navigation fires NavigatedTo before Loaded event",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-03-16T23:50:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34349",
+      "number": 34349,
+      "title": "[Testing] Refactoring Feature Matrix UITest Cases for Border Control",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-03-16T23:39:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10954",
+      "number": 10954,
+      "title": "Bump com.android.tools:common from 31.13.0 to 32.1.0 in /src/manifestmerger",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-16T21:15:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10466",
+      "number": 10466,
+      "title": "Bump com.android.tools.build:manifest-merger from 31.12.2 to 31.13.0 in /src/manifestmerger",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-16T21:11:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10496",
+      "number": 10496,
+      "title": "[tests] run `Java.Interop-Tests` on NativeAOT",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-16T20:40:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24894",
+      "number": 24894,
+      "title": "[src] Transient strings must always be disposed.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-16T20:25:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10947",
+      "number": 10947,
+      "title": "[TrimmableTypeMap] Normalize dots to slashes in [Register] attribute JNI names",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-16T19:51:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10951",
+      "number": 10951,
+      "title": "[tests] Treat IOException as transient network error in DownloadedCache",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-16T19:49:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24876",
+      "number": 24876,
+      "title": "[GitHub Actions] Allow manual triggering of Linux Build Verification workflow",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-16T19:33:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24884",
+      "number": 24884,
+      "title": "[Foundation] Improve nullability in NSArray.FromArrayNative.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-16T19:08:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24898",
+      "number": 24898,
+      "title": "[xcode26.4] Merge remote-tracking branch main into xcode26.4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-16T18:35:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/25233",
+      "number": 25233,
+      "title": "SwipeView: Fix scroll parent detection race condition in DataTemplate scenarios and scroll delta sign",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-16T18:09:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24880",
+      "number": 24880,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-16T17:24:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30116",
+      "number": 30116,
+      "title": "Fix Android/iOS map polygon clearing issue by resetting MapElementId",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-16T17:02:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34377",
+      "number": 34377,
+      "title": "[iOS/Mac] Shell: Prevent double back-navigation on rapid push/pop in   iOS 26",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-03-16T16:53:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34438",
+      "number": 34438,
+      "title": "CI Investigation: adopt dotnet/arcade-skills plugin + thin MAUI context skill",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-16T16:45:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/30878",
       "number": 30878,
       "title": "[iOS] SwipeGestureRecognizer: Fix swipe direction detection on rotated views",
@@ -18531,7 +18761,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-16T16:24:32.382Z",
+  "lastUpdated": "2026-03-17T00:23:23.874Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
