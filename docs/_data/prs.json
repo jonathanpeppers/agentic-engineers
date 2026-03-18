@@ -1,6 +1,236 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/xcsync/pull/239",
+      "number": 239,
+      "title": "[release] Merge main into release branch",
+      "repo": "dotnet/xcsync",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-18T16:21:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24922",
+      "number": 24922,
+      "title": "[dotnet] Make 'dotnet watch' work.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-18T16:10:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24917",
+      "number": 24917,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-18T16:01:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34329",
+      "number": 34329,
+      "title": "Add evaluate-pr-tests skill for test quality evaluation",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-18T15:48:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24916",
+      "number": 24916,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-18T15:46:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34525",
+      "number": 34525,
+      "title": "[backport 10.0.1xx-sr5] Fix MAUIG2045 false positive with x:Reference source in DataTemplate",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-03-18T15:32:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34384",
+      "number": 34384,
+      "title": "[Controls] Fix EventTrigger in global implicit style firing twice",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-18T15:31:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33651",
+      "number": 33651,
+      "title": "[Android] Implemented Material3 support for DatePicker",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-18T14:13:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31418",
+      "number": 31418,
+      "title": "[Android] CarouselView incorrectly reads out \"double tap to activate\" - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-18T13:51:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34447",
+      "number": 34447,
+      "title": "Fix Compiled Bindings with explicit sources inside DataTemplates",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-03-18T13:48:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33603",
+      "number": 33603,
+      "title": "[Android] Implement material3 support for Slider",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-03-18T13:46:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28187",
+      "number": 28187,
+      "title": "[Android, iOS] - Flyout icon should remain visible when a page is pushed onto a NavigationPage or Shell page with the back button disabled.",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-03-18T13:27:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10945",
+      "number": 10945,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-18T13:10:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34337",
+      "number": 34337,
+      "title": "Fix LayoutCycleException from nested Borders on Windows",
+      "repo": "dotnet/maui",
+      "author": "Oxymoron290",
+      "mergedAt": "2026-03-18T13:08:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33649",
+      "number": 33649,
+      "title": "[Android] Implemented Material3 support for  ImageButton",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-18T13:05:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33719",
+      "number": 33719,
+      "title": "[iOS] Fix incorrect FirstVisibleItemIndex reported by CollectionView.Scrolled after programmatic scroll",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-03-18T13:00:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24910",
+      "number": 24910,
+      "title": "[xcode26.4] Merge remote-tracking branch main into xcode26.4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-18T12:58:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33525",
+      "number": 33525,
+      "title": "[iOS/Mac] SwipeGestureRecognizer: Avoid firing parent swipes during child scroll gestures",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-03-18T12:44:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24913",
+      "number": 24913,
+      "title": "[sharpie] Prefer standard protocol interfaces over [Model] classes in type mapping",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-18T11:26:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34515",
+      "number": 34515,
+      "title": "Fixed candidate test failures caused by PR #33428.",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-03-18T10:01:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34514",
+      "number": 34514,
+      "title": "[fix] ContentLabel Moved to a nested class to prevent CS0122 in external source generators",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-03-18T10:01:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34501",
+      "number": 34501,
+      "title": "Fix MAUIG2045 false positive with x:Reference source in DataTemplate",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-03-18T09:19:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24918",
+      "number": 24918,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260318055049745 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-03-18T08:47:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10961",
       "number": 10961,
       "title": "[build] Fix BinSkim failure in 'Convert NuGet to MSI' job",
@@ -19191,7 +19421,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-18T08:15:48.340Z",
+  "lastUpdated": "2026-03-18T16:28:08.691Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
