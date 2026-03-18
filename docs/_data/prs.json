@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33140",
+      "number": 33140,
+      "title": "Refactor image rotation and PNG format logic",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-17T23:30:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27502",
+      "number": 27502,
+      "title": "[Android] Fix for Shell custom FlyoutIcon display problem",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-03-17T23:19:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24879",
+      "number": 24879,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-17T20:41:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24833",
+      "number": 24833,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-17T20:39:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24907",
+      "number": 24907,
+      "title": "[Foundation] Improve nullability in NSArray.GetItem.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-17T20:14:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24845",
+      "number": 24845,
+      "title": "[msbuild] Filter static frameworks from post-processing items. Fixes #24840.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-17T19:58:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30339",
+      "number": 30339,
+      "title": "Fix Changing Shell.NavBarIsVisible does not update the nav bar",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-17T18:29:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34460",
+      "number": 34460,
+      "title": "Replace PR agent with pr-review skill and decouple comment posting",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-17T18:08:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10957",
+      "number": 10957,
+      "title": "[TrimmableTypeMap] Skip registerNatives for Application/Instrumentation types",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-17T17:53:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10955",
+      "number": 10955,
+      "title": "Bump com.android.tools.build:manifest-merger from 31.13.0 to 32.1.0 in /src/manifestmerger",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-17T17:43:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10956",
+      "number": 10956,
+      "title": "Bump external/Java.Interop from `fb0952f` to `6126aed`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-17T17:39:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24911",
+      "number": 24911,
+      "title": "[sharpie] Fix platform type mapping for types inside generic type arguments. Fixes #24892.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-17T17:02:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24878",
+      "number": 24878,
+      "title": "[tests] Detect when we couldn't create a second background session.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-17T16:51:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24877",
+      "number": 24877,
+      "title": "[Accessibility] Update bindings to Xcode 26.4 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-17T16:35:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24899",
       "number": 24899,
       "title": "[msbuild] Rename the localization resources, so they don't match localization resources from other assemblies.",
@@ -19021,7 +19161,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-17T16:26:05.517Z",
+  "lastUpdated": "2026-03-18T00:24:14.100Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
