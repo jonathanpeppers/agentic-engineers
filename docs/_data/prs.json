@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10961",
+      "number": 10961,
+      "title": "[build] Fix BinSkim failure in 'Convert NuGet to MSI' job",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-18T03:26:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10962",
+      "number": 10962,
+      "title": "Ignore transient IO errors in on-device HTTP client handler tests",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-18T03:25:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10963",
+      "number": 10963,
+      "title": "Update documentation to reflect .aab fast deployment support",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-18T00:45:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33140",
       "number": 33140,
       "title": "Refactor image rotation and PNG format logic",
@@ -19161,7 +19191,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-18T00:24:14.100Z",
+  "lastUpdated": "2026-03-18T08:15:48.340Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
