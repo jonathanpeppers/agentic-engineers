@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3564",
+      "number": 3564,
+      "title": "Simplify Docker build infrastructure and switch to MCR mirrors",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-18T21:04:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34517",
+      "number": 34517,
+      "title": "Remove dead OnlyAndroid method from integration tests",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-18T20:05:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24915",
+      "number": 24915,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-18T19:43:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24919",
+      "number": 24919,
+      "title": "[Foundation] Improve nullability in NSArray.FromArrayOfArray.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-18T18:54:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34455",
+      "number": 34455,
+      "title": "Update Magick.NET-Q8-AnyCPU from 13.5.0 to 14.10.4",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-18T18:30:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34314",
+      "number": 34314,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet, dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-18T18:12:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33673",
+      "number": 33673,
+      "title": "[Android] Implement material3 support for Entry",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-03-18T17:53:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34539",
+      "number": 34539,
+      "title": "Fix CS0246: Replace MauiMaterialSlider with Slider in SliderExtensions",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-03-18T17:46:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24920",
+      "number": 24920,
+      "title": "[tests] Fix BitmapContextTest.CreateAdaptive_3/_4 crash due to undersized buffer",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-18T17:34:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24912",
+      "number": 24912,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260317174730541 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-03-18T16:54:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/xcsync/pull/239",
       "number": 239,
       "title": "[release] Merge main into release branch",
@@ -19421,7 +19521,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-18T16:28:08.691Z",
+  "lastUpdated": "2026-03-19T00:24:18.903Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
