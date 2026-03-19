@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24930",
+      "number": 24930,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-19T07:56:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10964",
+      "number": 10964,
+      "title": "[build] Revert BinSkim analyzeTargetGlob customization",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-19T02:36:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3564",
       "number": 3564,
       "title": "Simplify Docker build infrastructure and switch to MCR mirrors",
@@ -19521,7 +19541,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-19T00:24:18.903Z",
+  "lastUpdated": "2026-03-19T08:14:03.278Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
