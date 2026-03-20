@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24933",
+      "number": 24933,
+      "title": "[AVFoundation] Updated bindings to Xcode 26.4 RC",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-20T03:50:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10976",
+      "number": 10976,
+      "title": "Bump `$(AndroidPackVersion)` to 36.99.0",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-20T01:25:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34078",
       "number": 34078,
       "title": "Fixed SourceGen with invalid x:DataType or invalid bindings does not emit errors",
@@ -19911,7 +19931,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-20T00:23:19.438Z",
+  "lastUpdated": "2026-03-20T08:12:53.603Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
