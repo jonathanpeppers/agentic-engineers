@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34078",
+      "number": 34078,
+      "title": "Fixed SourceGen with invalid x:DataType or invalid bindings does not emit errors",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-03-20T00:07:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33470",
+      "number": 33470,
+      "title": "[Testing] Fix for flaky UITests in CI - 2",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-03-20T00:03:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3566",
+      "number": 3566,
+      "title": "Enable dotnetUseGlobalJson in Azure pipeline",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-19T23:45:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33632",
+      "number": 33632,
+      "title": "[Testing] Additional Feature Matrix Test Cases for CollectionView - 2",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-03-19T23:15:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24937",
+      "number": 24937,
+      "title": "[skills] Add macios-binding-creator skill v1",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-19T22:46:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10971",
+      "number": 10971,
+      "title": "Bump Android emulator from 32.1.9 to 36.4.10",
+      "repo": "dotnet/android",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-19T22:00:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33908",
+      "number": 33908,
+      "title": "[Android/iOS] Fix CollectionView not respecting SafeAreaEdges settings",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-03-19T21:43:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32516",
+      "number": 32516,
+      "title": "[Windows] Fix for Shell.FlyoutVerticalScrollMode=\"Disabled\" does not disable scrolling",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-03-19T21:18:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32789",
+      "number": 32789,
+      "title": "[Windows] Fix TitleBar color not applied to the Flyout icon background during initial loading",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-03-19T21:04:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24928",
+      "number": 24928,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-19T19:28:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/317",
+      "number": 317,
+      "title": "Update copilot-instructions: API design rules from PR #305 review",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-19T19:03:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24932",
+      "number": 24932,
+      "title": "[msbuild] Put all the tasks in the same assembly (Xamarin.MacDev.Tasks.dll).",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-19T18:57:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24929",
+      "number": 24929,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-19T18:42:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1394",
+      "number": 1394,
+      "title": "Bump external/xamarin-android-tools from `091e3a6` to `2bea0eb`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-03-19T17:37:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34505",
+      "number": 34505,
+      "title": "[Android] Fix SwipeItem FontImageSource.Size being ignored",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-03-19T17:27:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33962",
+      "number": 33962,
+      "title": "[Android/iOS/MacCatalyst] Shell.ForegroundColor: Reset back button color to platform default",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-03-19T17:12:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33469",
       "number": 33469,
       "title": "Fixed Shell TitleView disappears when switching between tabs on Android ",
@@ -19751,7 +19911,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-19T16:20:32.257Z",
+  "lastUpdated": "2026-03-20T00:23:19.438Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
