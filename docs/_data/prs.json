@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24906",
+      "number": 24906,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-03-20T15:00:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33160",
+      "number": 33160,
+      "title": "[net11.0] Trimmable StyleSheets",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-20T14:37:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28694",
+      "number": 28694,
+      "title": "[iOS] Trigger OnNavigatedTo method when hide the nav bar and using swipe",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-20T14:22:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34323",
+      "number": 34323,
+      "title": "[Testing] Additional Feature Matrix Event Test Cases for Stepper, RefreshView and FlyoutPage",
+      "repo": "dotnet/maui",
+      "author": "nivetha-nagalingam",
+      "mergedAt": "2026-03-20T13:37:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10974",
+      "number": 10974,
+      "title": "Update copilot-instructions.md with learnings from recent PRs",
+      "repo": "dotnet/android",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-20T13:31:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10978",
+      "number": 10978,
+      "title": "Bump external/Java.Interop from `6126aed` to `c14ba04`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-20T13:29:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10979",
+      "number": 10979,
+      "title": "Bump external/xamarin-android-tools from `40b3013` to `d679f2b`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-20T13:28:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32800",
+      "number": 32800,
+      "title": "[Windows] Fix for crash when navigating to an existing page using SetTitleView in a Flyout menu on Windows",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-03-20T13:28:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33600",
+      "number": 33600,
+      "title": "[Windows] Fix Narrator announcing typed characters for password Entry",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-20T13:21:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34112",
+      "number": 34112,
+      "title": "[Windows] Fix for inconsistent PanGestureRecognizer behavior on Windows compared to other platforms.",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-03-20T13:03:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34534",
+      "number": 34534,
+      "title": "[Android, Windows] Fix CollectionView handler cleanup when DataTemplateSelector switches templates",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-20T12:49:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24921",
+      "number": 24921,
+      "title": "[msbuild] Include iPads when looking for devices for apps built for iPhones.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-20T10:49:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24924",
+      "number": 24924,
+      "title": "[Foundation] Remove Content-Encoding and Content-Length headers for auto-decompressed responses in NSUrlSessionHandler. Fixes #23958.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-20T09:42:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24943",
+      "number": 24943,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-20T09:24:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34566",
+      "number": 34566,
+      "title": "Remove stale PR note from Copilot instructions",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-20T08:54:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34453",
+      "number": 34453,
+      "title": "Fix the failures in the Candidate branch- March 16",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-03-20T08:50:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24933",
       "number": 24933,
       "title": "[AVFoundation] Updated bindings to Xcode 26.4 RC",
@@ -24091,7 +24251,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-20T14:07:39.210Z",
+  "lastUpdated": "2026-03-20T16:15:19.359Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
