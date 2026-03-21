@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24945",
+      "number": 24945,
+      "title": "[AVKit] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-21T15:25:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24944",
+      "number": 24944,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-21T13:56:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30068",
+      "number": 30068,
+      "title": "[Windows] FontImageSource: Fix center alignment inside Image",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-03-21T13:48:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33451",
+      "number": 33451,
+      "title": "[PR-Agent] Fix ApplyQueryAttributes called with empty dictionary on back",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-21T13:43:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30753",
+      "number": 30753,
+      "title": "[Windows] Fix for NavigationPage transitions still animating when passing animated false to PushAsync or PopAsync",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-21T13:19:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30379",
+      "number": 30379,
+      "title": "[Android] Fix for Shadows disappearing permanently in Android after Label opacity is at any time set to \"0\"",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-03-21T13:10:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30047",
+      "number": 30047,
+      "title": "[Windows] Fixed Setting a ContentView with a content of StaticResource Style Causes a System.Runtime.InteropServices.COMException.",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-03-21T12:51:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29814",
+      "number": 29814,
+      "title": "[Android] Fix for disabled Picker prevents the parent container's GestureRecognizer from being triggered",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-21T12:48:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24939",
       "number": 24939,
       "title": "[BrowserKit] Update bindings to Xcode 26.4 Release Candidate",
@@ -34481,7 +34561,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-21T08:07:23.172Z",
+  "lastUpdated": "2026-03-21T16:06:39.153Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
