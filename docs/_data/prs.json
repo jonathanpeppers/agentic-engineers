@@ -1,6 +1,226 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/26475",
+      "number": 26475,
+      "title": "[Android] ScrollView - Setting SetClipChildren to false",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-20T23:47:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34478",
+      "number": 34478,
+      "title": "Fix artifact upload collision in maui-pr-uitests pipeline",
+      "repo": "dotnet/maui",
+      "author": "lewing",
+      "mergedAt": "2026-03-20T23:40:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/26213",
+      "number": 26213,
+      "title": "SelectionLength property update when entry is focused - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-20T23:31:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27300",
+      "number": 27300,
+      "title": "[iOS][Windows] ScrollView: Fix ScrollToAsync hanging when already at target position",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-03-20T23:16:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33066",
+      "number": 33066,
+      "title": "[Windows]Fix for AdaptiveTrigger Not Firing When Changing Window Width Programmatically",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-03-20T21:38:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34550",
+      "number": 34550,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-03-20T21:28:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10984",
+      "number": 10984,
+      "title": "$(AndroidPackVersionSuffix)=preview.4; main is .NET 11 preview 4",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-20T21:27:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24951",
+      "number": 24951,
+      "title": "[CoreData] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-20T20:33:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24952",
+      "number": 24952,
+      "title": "Bump mlaunch to get fix for #24935.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-20T19:17:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24923",
+      "number": 24923,
+      "title": "[devops] Improve macOS test failure diagnostics in run_mac_tests.ps1",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-20T18:58:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24841",
+      "number": 24841,
+      "title": "[runtime] Fix a race condition when switching between weak and strong GCHandles. Fixes #24702.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-20T18:58:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34493",
+      "number": 34493,
+      "title": "[iOS, Mac] Fix exponential event handler accumulation in CollectionViewHandler2 causing SnapPoints freeze",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-20T18:23:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34033",
+      "number": 34033,
+      "title": "[Windows] Fixed COMException when changing Image Aspect to Fill",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-03-20T18:07:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10981",
+      "number": 10981,
+      "title": "Fix nullable Func delegate, whitespace, and csproj comment in PostTrimmingPipeline",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-20T17:51:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24927",
+      "number": 24927,
+      "title": "[xcode26.4] Update to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-20T17:50:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10959",
+      "number": 10959,
+      "title": "[TrimmableTypeMap] Generate per-assembly acw-map.txt from scanner results",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-20T17:43:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24946",
+      "number": 24946,
+      "title": "[ClassKit] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-20T17:35:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1396",
+      "number": 1396,
+      "title": "Add `build/` to Hello-NativeAOTFromAndroid .gitignore",
+      "repo": "dotnet/java-interop",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-20T17:16:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1393",
+      "number": 1393,
+      "title": "Add ReadOnlySpan<byte> overloads for JNI member lookups",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-20T16:59:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24940",
+      "number": 24940,
+      "title": "[BackgroundAssets] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-20T16:53:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24950",
+      "number": 24950,
+      "title": "[tools] Enable xml doc generation for dotnet-linker.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-20T16:22:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24947",
+      "number": 24947,
+      "title": "[skills] Update macios-binding-creator skill with new learnings",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-20T16:15:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24906",
       "number": 24906,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -34251,7 +34471,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-20T21:33:07.215Z",
+  "lastUpdated": "2026-03-21T00:21:16.099Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
