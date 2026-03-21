@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24939",
+      "number": 24939,
+      "title": "[BrowserKit] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-21T01:28:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/26475",
       "number": 26475,
       "title": "[Android] ScrollView - Setting SetClipChildren to false",
@@ -34471,7 +34481,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-21T00:21:16.099Z",
+  "lastUpdated": "2026-03-21T08:07:23.172Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
