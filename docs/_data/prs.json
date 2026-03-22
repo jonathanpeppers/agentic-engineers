@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/25748",
+      "number": 25748,
+      "title": "Fixed the Label height nested VerticalStackLayout is truncated when width is set",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2026-03-22T16:00:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/26641",
+      "number": 26641,
+      "title": "Bugfix/26633 grid layout manager",
+      "repo": "dotnet/maui",
+      "author": "maonaoda",
+      "mergedAt": "2026-03-22T13:20:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28474",
+      "number": 28474,
+      "title": "[iOS] Fixed the flyout icon and content page disappeared when focus on the shell search handler",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2026-03-22T13:07:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28311",
+      "number": 28311,
+      "title": "[Windows] Fixed Horizontal Spacing for Horizontal List",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-03-22T12:52:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/30034",
       "number": 30034,
       "title": "Fixed Query parameters not passed on Shell navigation",
@@ -34691,7 +34731,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-22T08:08:28.521Z",
+  "lastUpdated": "2026-03-22T16:06:46.988Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
