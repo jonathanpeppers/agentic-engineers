@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/30034",
+      "number": 30034,
+      "title": "Fixed Query parameters not passed on Shell navigation",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-21T23:36:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30089",
+      "number": 30089,
+      "title": "[Windows] Fixed: Setting BackgroundColor for Slider updates the MaximumTrackColor",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-03-21T23:34:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30538",
+      "number": 30538,
+      "title": "[Windows] Fixed : Switch control default width issue",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-03-21T23:34:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32314",
+      "number": 32314,
+      "title": "[Windows] Fix for TimePicker rendering a default time when its value is null",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-21T23:31:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27847",
+      "number": 27847,
+      "title": "Fixed - Grouped CollectionView items not rendered properly on Android, works on Windows",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-03-21T23:26:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29474",
+      "number": 29474,
+      "title": "[Android] Fixed CollectionView MeasureFirstItem ItemSizingStrategy Not Applied in Horizontal Layouts",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2026-03-21T23:19:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10990",
+      "number": 10990,
+      "title": "[TrimmableTypeMap] Generate AndroidManifest.xml from component attributes (#10807)",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-21T22:11:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24942",
+      "number": 24942,
+      "title": "[xcode26.4] Merge remote-tracking branch 'origin/main' into xcode26.4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-21T19:50:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29225",
+      "number": 29225,
+      "title": "[iOS] Fix SearchBar Black Background Issue When Setting Transparent Background ",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-21T19:01:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33179",
+      "number": 33179,
+      "title": "[Regression][Windows]Fix Exception thrown on .NET 10 Windows when calling Permissions.CheckStatusAsync<Permissions.Microphone>()",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-21T18:12:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29955",
+      "number": 29955,
+      "title": "Removed SearchHandler Style Definitions",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-21T18:09:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29931",
+      "number": 29931,
+      "title": "[Android] Fix the Setting Content of ContentView through style would crash on parent change ",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-03-21T16:36:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24948",
+      "number": 24948,
+      "title": "[net11.0] [tests] Re-enable CoreCLR test variations on x64",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-03-21T16:24:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24945",
       "number": 24945,
       "title": "[AVKit] Update bindings to Xcode 26.4 Release Candidate",
@@ -34561,7 +34691,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-21T16:06:39.153Z",
+  "lastUpdated": "2026-03-22T00:23:51.704Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
