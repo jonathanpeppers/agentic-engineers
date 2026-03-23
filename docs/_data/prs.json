@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24926",
+      "number": 24926,
+      "title": "[devops] Move Linux build verification from GitHub Actions to Azure DevOps",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-23T08:12:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24931",
+      "number": 24931,
+      "title": "[dotnet-linker] Use [DynamicDependency] attributes instead of manual marking in MarkIProtocolHandler.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-23T08:11:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33540",
       "number": 33540,
       "title": "Fix pan & swipe update event values on Windows",
@@ -34791,7 +34811,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-23T00:25:22.300Z",
+  "lastUpdated": "2026-03-23T08:20:33.423Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
