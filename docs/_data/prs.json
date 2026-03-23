@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24962",
+      "number": 24962,
+      "title": "[skills] Update macios-binding-creator skill",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-23T16:05:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3568",
+      "number": 3568,
+      "title": "Fix generator: add macOS SDK system includes for CppAst",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-23T15:35:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28427",
+      "number": 28427,
+      "title": "[Android] ToolbarItems Tooltip text color",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-23T15:33:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/318",
+      "number": 318,
+      "title": "Create CODEOWNERS file for pull request assignments",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-23T15:21:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10999",
+      "number": 10999,
+      "title": "[ci] Pin yaml-templates to e30b445c to workaround issue",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-23T15:19:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10995",
+      "number": 10995,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-23T15:15:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/20967",
+      "number": 20967,
+      "title": "[Android] Navigation bar - left margin fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-23T15:14:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34575",
+      "number": 34575,
+      "title": "[ci] Copilot CI: Add Windows platform support to maui-copilot pipeline",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-23T15:08:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30540",
+      "number": 30540,
+      "title": "Fixed Early casting in Entry bound to double for negative decimal input",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-23T14:29:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10992",
+      "number": 10992,
+      "title": "Bump com.android.tools:r8 from 9.0.32 to 9.1.31 in /src/r8",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-23T14:16:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34527",
+      "number": 34527,
+      "title": "Fix CollectionView grid spacing updates for first row and column",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-03-23T13:52:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10949",
+      "number": 10949,
+      "title": "Use shared EmulatorRunner from android-tools for BootAndroidEmulator",
+      "repo": "dotnet/android",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-23T13:50:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/305",
+      "number": 305,
+      "title": "Add ADB reverse port forwarding support",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-23T13:40:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10985",
+      "number": 10985,
+      "title": "[main] Update dependencies from dotnet/android",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-23T13:24:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28734",
+      "number": 28734,
+      "title": "[iOS] BackButtonBehavior IsEnabled - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-23T12:34:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24958",
+      "number": 24958,
+      "title": "[CoreNFC] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-23T12:31:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24959",
+      "number": 24959,
+      "title": "[CoreTelephony] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-23T12:29:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24546",
+      "number": 24546,
+      "title": "[msbuild] Ship the net10.0 version of our msbuild tasks.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-23T08:21:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24926",
       "number": 24926,
       "title": "[devops] Move Linux build verification from GitHub Actions to Azure DevOps",
@@ -34811,7 +34991,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-23T08:20:33.423Z",
+  "lastUpdated": "2026-03-23T16:21:00.042Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
