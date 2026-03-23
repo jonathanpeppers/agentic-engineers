@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33540",
+      "number": 33540,
+      "title": "Fix pan & swipe update event values on Windows",
+      "repo": "dotnet/maui",
+      "author": "jeremy-visionaid",
+      "mergedAt": "2026-03-22T23:56:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29815",
+      "number": 29815,
+      "title": "[Windows, MAC] - Fix Selected State Not Being Retained in CollectionView Items When PointerOver Is Applied",
+      "repo": "dotnet/maui",
+      "author": "prakashKannanSf3972",
+      "mergedAt": "2026-03-22T21:38:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34593",
+      "number": 34593,
+      "title": "Fixed the iOS 18.5 Candidate failures (March 16,2026)",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-03-22T16:50:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34287",
+      "number": 34287,
+      "title": "Removed PhotosAddOnly permission request within MediaPicker.ios",
+      "repo": "dotnet/maui",
+      "author": "Kyranio",
+      "mergedAt": "2026-03-22T16:28:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34362",
+      "number": 34362,
+      "title": "Windows: Fix PanGestureRecognizer not starting when drag begins near control edge",
+      "repo": "dotnet/maui",
+      "author": "jpd21122012",
+      "mergedAt": "2026-03-22T16:23:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34535",
+      "number": 34535,
+      "title": "Fix FlexLayout Grow causes measured child sizes to be ignored",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-22T16:21:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/25748",
       "number": 25748,
       "title": "Fixed the Label height nested VerticalStackLayout is truncated when width is set",
@@ -34731,7 +34791,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-22T16:06:46.988Z",
+  "lastUpdated": "2026-03-23T00:25:22.300Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
