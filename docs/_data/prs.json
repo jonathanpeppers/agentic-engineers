@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24989",
+      "number": 24989,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-24T07:04:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24975",
+      "number": 24975,
+      "title": "[sharpie] Add --custom-delegates option to generate named delegates instead of Func<>/Action<>",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-24T06:13:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24972",
+      "number": 24972,
+      "title": "[skills] Update protocol skills",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T01:07:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33692",
       "number": 33692,
       "title": "Fix: missing style file in single file bundle",
@@ -35271,7 +35301,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-24T00:21:05.323Z",
+  "lastUpdated": "2026-03-24T08:16:25.195Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
