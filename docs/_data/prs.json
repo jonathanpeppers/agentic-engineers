@@ -1,6 +1,276 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11004",
+      "number": 11004,
+      "title": "Bump external/xamarin-android-tools from `d679f2b` to `ec5040a`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-24T15:43:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34437",
+      "number": 34437,
+      "title": "March 16th, Candidate",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-24T15:33:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24832",
+      "number": 24832,
+      "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-24T15:31:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24978",
+      "number": 24978,
+      "title": "[System.Net.Http] Enable nullability in this framework.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-24T15:06:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24990",
+      "number": 24990,
+      "title": "[WebKit] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T14:42:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24994",
+      "number": 24994,
+      "title": "[dotnet] Quote the path to our TrimAttributes.LinkDescription.xml file. Fixes #24964.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-24T14:40:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11008",
+      "number": 11008,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13636341",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-03-24T14:33:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34616",
+      "number": 34616,
+      "title": "[Testing] Resolved build error in inflight/current branch",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-03-24T13:55:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10997",
+      "number": 10997,
+      "title": "Root [Export] callback delegates to prevent GC on CoreCLR",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-24T13:53:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27331",
+      "number": 27331,
+      "title": "[Windows] Fixed CollectionView throws NRE when value of IsGrouped property is changed to false",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-24T12:56:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29592",
+      "number": 29592,
+      "title": "[Android] [Windows] Fixed text deletion via the clear icon in SearchBar when IsReadOnly is true",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-03-24T12:26:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29606",
+      "number": 29606,
+      "title": "[iOS] Fixed the ConnectivityChanged event is not triggered when toggling Wifi (turning it on or off)",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-03-24T12:17:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33855",
+      "number": 33855,
+      "title": "[Android] Fix MapElements.Clear() not removing native elements from Google Map",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-03-24T12:15:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24984",
+      "number": 24984,
+      "title": "[NetworkExtension] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T12:14:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28726",
+      "number": 28726,
+      "title": "[MacOS] Fixed NullReferenceException when using ImagePaint",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-24T12:12:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33959",
+      "number": 33959,
+      "title": "[Windows] Fix image shift in CarouselView when resizing the window",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-24T12:08:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30495",
+      "number": 30495,
+      "title": "[Windows] Fix DatePicker CharacterSpacing Property Not Working",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-24T12:05:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34613",
+      "number": 34613,
+      "title": "[Testing] Resolved build error in CollectionView scrolling feature tests",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-03-24T11:51:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24835",
+      "number": 24835,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-24T11:48:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24981",
+      "number": 24981,
+      "title": "[Photos] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T11:00:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24982",
+      "number": 24982,
+      "title": "[PassKit] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T11:00:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24977",
+      "number": 24977,
+      "title": "[MetalPerformanceShaders] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T10:59:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24980",
+      "number": 24980,
+      "title": "[Metal] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T10:59:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24983",
+      "number": 24983,
+      "title": "[SensorKit] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T10:58:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24976",
+      "number": 24976,
+      "title": "[MetalKit] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T10:55:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24985",
+      "number": 24985,
+      "title": "[PushKit] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T10:54:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24974",
+      "number": 24974,
+      "title": "[Foundation] Improve nullability in NSArray.ToArray.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-24T08:53:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24989",
       "number": 24989,
       "title": "[main] Update dependencies from dotnet/dotnet",
@@ -35301,7 +35571,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-24T08:16:25.195Z",
+  "lastUpdated": "2026-03-24T16:24:40.813Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
