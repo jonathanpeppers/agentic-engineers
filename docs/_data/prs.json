@@ -1,6 +1,286 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33692",
+      "number": 33692,
+      "title": "Fix: missing style file in single file bundle",
+      "repo": "dotnet/maui",
+      "author": "ilonatommy",
+      "mergedAt": "2026-03-23T23:56:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24896",
+      "number": 24896,
+      "title": "[release/10.0.1xx] [CI] Misc fixes",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-23T23:28:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34492",
+      "number": 34492,
+      "title": "[Android] Fix crash when shared swipe actions are used across multiple rows",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-03-23T23:15:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24895",
+      "number": 24895,
+      "title": "[release/9.0.1xx] [CI] Misc fixes",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-23T22:53:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24973",
+      "number": 24973,
+      "title": "[GameController] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-23T22:45:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11001",
+      "number": 11001,
+      "title": "Fix `dotnet run` failing with multiple AVDs present",
+      "repo": "dotnet/android",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-23T21:49:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10952",
+      "number": 10952,
+      "title": "Move `AddKeepAlives` trimmer step to post-trimming task",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-03-23T21:26:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1398",
+      "number": 1398,
+      "title": "Fix UTF-8 JNI lookup tests for Android",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-23T21:20:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24968",
+      "number": 24968,
+      "title": "[release/10.0.1xx] [devops] Pin yaml-templates to e30b445c to workaround issue.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-23T20:59:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24969",
+      "number": 24969,
+      "title": "[release/9.0.1xx] [devops] Pin yaml-templates to e30b445c to workaround issue.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-23T20:58:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30106",
+      "number": 30106,
+      "title": "[Android] ItemsUpdatingScrollMode in CarouselView",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-23T20:57:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1397",
+      "number": 1397,
+      "title": "Bump external/xamarin-android-tools from `2bea0eb` to `ec5040a`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-03-23T20:56:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32872",
+      "number": 32872,
+      "title": "[Issue-Resolver] Fix alert dialogs not displaying after dismissing modal page on iOS",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-23T20:46:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24970",
+      "number": 24970,
+      "title": "[tests] Propagate XCODE_VERSION and XCODE_IS_STABLE to Windows CI tests",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-23T20:24:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31572",
+      "number": 31572,
+      "title": "[Testing] Feature Matrix UITest Cases for TabbedPage",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-03-23T19:35:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24971",
+      "number": 24971,
+      "title": "Bump mlaunch to get fix for detecting launched simulators.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-23T19:33:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24966",
+      "number": 24966,
+      "title": "[Foundation] Update to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-23T18:45:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24961",
+      "number": 24961,
+      "title": "[CarPlay] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-23T18:44:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24960",
+      "number": 24960,
+      "title": "[CoreText] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-23T18:42:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10994",
+      "number": 10994,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-23T18:34:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3569",
+      "number": 3569,
+      "title": "Fix generate.ps1 error propagation",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-23T18:13:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/21686",
+      "number": 21686,
+      "title": "[Android] Flyout IsGestureEnabled fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-23T18:06:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24957",
+      "number": 24957,
+      "title": "[Foundation] Add KeepHeadersAfterDecompression app context switch to NSUrlSessionHandler",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-23T16:55:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24955",
+      "number": 24955,
+      "title": "[release/10.0.1xx] Bump mlaunch to get fix for #24935.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-23T16:52:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24953",
+      "number": 24953,
+      "title": "[release/9.0.1xx] Bump mlaunch to get fix for #24935.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-23T16:51:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24963",
+      "number": 24963,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-23T16:40:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24967",
+      "number": 24967,
+      "title": "[net11.0] [devops] Pin yaml-templates to e30b445c to workaround issue.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-23T16:35:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34595",
+      "number": 34595,
+      "title": "[iOS 26] Fix NavigationPage blank screen after rapidly pushing and popping pages",
+      "repo": "dotnet/maui",
+      "author": "mduchev",
+      "mergedAt": "2026-03-23T16:24:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24962",
       "number": 24962,
       "title": "[skills] Update macios-binding-creator skill",
@@ -34991,7 +35271,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-23T16:21:00.042Z",
+  "lastUpdated": "2026-03-24T00:21:05.323Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
