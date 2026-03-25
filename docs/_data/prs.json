@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25003",
+      "number": 25003,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-25T01:46:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3567",
+      "number": 3567,
+      "title": "Add review-skia-update skill and unify persist pattern",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-25T00:52:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25005",
       "number": 25005,
       "title": "[xcode26.4] Update to Xcode 26.4 Stable",
@@ -45271,7 +45291,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-25T00:24:16.234Z",
+  "lastUpdated": "2026-03-25T08:15:58.350Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
