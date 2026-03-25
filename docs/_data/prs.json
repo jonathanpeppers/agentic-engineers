@@ -1,6 +1,196 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34646",
+      "number": 34646,
+      "title": "[release/11.0.1xx-preview3] [net11] Templates: Fix duplicate Empty/empty parameter crash in maui-blazor templates",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-03-25T15:13:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34609",
+      "number": 34609,
+      "title": "[net11] Templates: Fix duplicate Empty/empty parameter crash in maui-blazor templates",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-25T15:10:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34548",
+      "number": 34548,
+      "title": "Add GitHub Actions workflow to run evaluate-pr-tests via Copilot CLI",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-25T14:44:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30074",
+      "number": 30074,
+      "title": "[Android] ImageButton CornerRadius not being applied - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-25T14:42:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34643",
+      "number": 34643,
+      "title": "Fix CI failures for Convert and ConvertIsCultureAware tests",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-25T14:39:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1399",
+      "number": 1399,
+      "title": "Fix GetFieldID UTF-8 test for Android",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-25T14:06:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3577",
+      "number": 3577,
+      "title": "Move documentation/ files to documentation/dev/ subfolder",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-25T14:04:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11015",
+      "number": 11015,
+      "title": "[TrimmableTypeMap] Wire AcwMapWriter to populate acw-map.txt",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-25T13:54:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10991",
+      "number": 10991,
+      "title": "[TrimmableTypeMap] Add ManifestGenerator",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-25T12:26:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10988",
+      "number": 10988,
+      "title": "[TrimmableTypeMap] Emit direct RegisterNatives with UTF-8 RVA data",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-25T12:13:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34352",
+      "number": 34352,
+      "title": "[Testing] Additional Feature Matrix Event Test Cases for Slider and ScrollView",
+      "repo": "dotnet/maui",
+      "author": "nivetha-nagalingam",
+      "mergedAt": "2026-03-25T12:02:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33488",
+      "number": 33488,
+      "title": "Fix CollectionView record struct selection on Windows",
+      "repo": "dotnet/maui",
+      "author": "jeremy-visionaid",
+      "mergedAt": "2026-03-25T12:02:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34639",
+      "number": 34639,
+      "title": "[Testing] Fixed Build error on inflight/ candidate PR 34617",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-03-25T11:52:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25017",
+      "number": 25017,
+      "title": "Bump mlaunch to get a logging fix.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-25T11:38:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25016",
+      "number": 25016,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-25T11:35:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25004",
+      "number": 25004,
+      "title": "[sharpie] Bump ClangSharp to v21.1.8.3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-25T11:05:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25009",
+      "number": 25009,
+      "title": "[main] Merge branch xcode26.4 into main",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-25T11:02:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25014",
+      "number": 25014,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-25T11:02:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25011",
+      "number": 25011,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-25T11:00:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25003",
       "number": 25003,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
@@ -45291,7 +45481,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-25T08:15:58.350Z",
+  "lastUpdated": "2026-03-25T16:27:49.166Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
