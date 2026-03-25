@@ -1,6 +1,266 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25005",
+      "number": 25005,
+      "title": "[xcode26.4] Update to Xcode 26.4 Stable",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-25T00:17:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3575",
+      "number": 3575,
+      "title": "Update explore agent launch instructions in SKILL.md",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-24T23:57:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3574",
+      "number": 3574,
+      "title": "Improve update-skia skill: extract references, add scripts, improve tone",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-24T22:46:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24995",
+      "number": 24995,
+      "title": "[CoreWlan] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T21:41:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3573",
+      "number": 3573,
+      "title": "Strengthen update-skia skill enforcement after compliance failures",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-24T21:30:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10967",
+      "number": 10967,
+      "title": "[TrimmableTypeMap] Implement runtime TypeManager, ValueManager, and JavaConvert",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-24T21:27:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11007",
+      "number": 11007,
+      "title": "Track AndroidManifestOverlay changes in _ManifestMerger",
+      "repo": "dotnet/android",
+      "author": "Redth",
+      "mergedAt": "2026-03-24T21:24:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34618",
+      "number": 34618,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-03-24T20:56:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25002",
+      "number": 25002,
+      "title": "[xcode26.4] Merge remote-tracking branch 'origin/main' into xcode26.4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T20:32:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34571",
+      "number": 34571,
+      "title": "Enable Controls CoreCLR device tests on iOS and Catalyst",
+      "repo": "dotnet/maui",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-03-24T20:26:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34107",
+      "number": 34107,
+      "title": "[clr-ios] Update MtouchLink conditions for Debug configuration",
+      "repo": "dotnet/maui",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-03-24T20:26:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33231",
+      "number": 33231,
+      "title": "Enable CoreCLR Apple template tests",
+      "repo": "dotnet/maui",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-03-24T20:25:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25000",
+      "number": 25000,
+      "title": "[release/10.0.1xx] Bump to Xcode 26.3 Stable",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T19:47:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24837",
+      "number": 24837,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-24T19:41:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34601",
+      "number": 34601,
+      "title": "[Android] Clamp BottomNavigationView MaxItemCount to 5 for Material3 net11.0 compatibility",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-03-24T19:31:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24988",
+      "number": 24988,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-24T19:09:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24997",
+      "number": 24997,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-24T19:05:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24986",
+      "number": 24986,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-24T18:43:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24987",
+      "number": 24987,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-24T18:40:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24998",
+      "number": 24998,
+      "title": "[AutomaticAssessmentConfiguration] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T18:40:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24991",
+      "number": 24991,
+      "title": "[src] Enable nullability in error.cs",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-24T18:39:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3571",
+      "number": 3571,
+      "title": "Update issue pipeline skills: persist to output/ai/ and path fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-24T18:27:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24996",
+      "number": 24996,
+      "title": "[FSKit] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T18:22:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3570",
+      "number": 3570,
+      "title": "Add GitHub workflow to publish samples using latest NuGet version",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-24T17:55:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24992",
+      "number": 24992,
+      "title": "[UIKit] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T16:27:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24993",
+      "number": 24993,
+      "title": "[AuthenticationServices] Update bindings to Xcode 26.4 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-24T16:26:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11004",
       "number": 11004,
       "title": "Bump external/xamarin-android-tools from `d679f2b` to `ec5040a`",
@@ -45011,7 +45271,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-25T00:21:25.525Z",
+  "lastUpdated": "2026-03-25T00:24:16.234Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
