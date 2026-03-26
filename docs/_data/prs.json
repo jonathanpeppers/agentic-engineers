@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3580",
+      "number": 3580,
+      "title": "Add render step to review-skia-update skill Phase 4",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-25T22:26:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3579",
+      "number": 3579,
+      "title": "Add HTML review viewer and direct diff for changed files",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-25T21:52:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34655",
+      "number": 34655,
+      "title": "Allow fork PRs to auto-trigger evaluate-pr-tests workflow",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-25T21:05:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/167",
+      "number": 167,
+      "title": "Add es-metadata",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-25T19:26:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34652",
+      "number": 34652,
+      "title": "[release/11.0.1xx-preview3] [net11] Fix internal pipeline: remove deleted SDLValidationParameters",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-03-25T19:00:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34651",
+      "number": 34651,
+      "title": "[net11] Fix internal pipeline: remove deleted SDLValidationParameters",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-25T18:59:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25015",
+      "number": 25015,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-25T18:08:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25021",
+      "number": 25021,
+      "title": "[xtro] Small todo xtro cleanup",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-25T17:49:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25019",
+      "number": 25019,
+      "title": "[devops] Pin yaml-templates to e30b445c to workaround issue.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-25T17:23:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34648",
+      "number": 34648,
+      "title": "Fix CI failure for NavBarIsVisibleUpdates unit test",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-25T16:43:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34645",
+      "number": 34645,
+      "title": "Fix CI failure [WebView] FlowDirection is set correctly(flowDirection: RightToLeft) device tests",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-25T16:37:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34646",
       "number": 34646,
       "title": "[release/11.0.1xx-preview3] [net11] Templates: Fix duplicate Empty/empty parameter crash in maui-blazor templates",
@@ -45481,7 +45591,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-25T16:27:49.166Z",
+  "lastUpdated": "2026-03-26T00:26:04.927Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
