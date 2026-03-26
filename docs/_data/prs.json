@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25020",
+      "number": 25020,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-26T01:49:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3580",
       "number": 3580,
       "title": "Add render step to review-skia-update skill Phase 4",
@@ -45591,7 +45601,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-26T00:26:04.927Z",
+  "lastUpdated": "2026-03-26T08:18:59.258Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
