@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3582",
+      "number": 3582,
+      "title": "Pin .NET SDK to 10.0.1xx band (10.0.105) to fix CI",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-26T16:23:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34674",
+      "number": 34674,
+      "title": "Fix CI failure for NavigatingAwayFromTabbedPageResizesContentPage device tests",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-26T15:07:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/24610",
+      "number": 24610,
+      "title": "[Android] Ensure disconnected ItemsViewHandler doesn't hold onto the items source",
+      "repo": "dotnet/maui",
+      "author": "filipnavara",
+      "mergedAt": "2026-03-26T14:58:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34668",
+      "number": 34668,
+      "title": "Fixed CI failure : Restore BackButtonBehavior IsEnabled after CanExecute changes",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-03-26T13:38:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11021",
+      "number": 11021,
+      "title": "Bump external/Java.Interop from `c14ba04` to `dc55197`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-03-26T09:48:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25020",
       "number": 25020,
       "title": "[net11.0] Update dependencies from dotnet/macios",
@@ -45601,7 +45651,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-26T08:18:59.258Z",
+  "lastUpdated": "2026-03-26T16:27:36.566Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
