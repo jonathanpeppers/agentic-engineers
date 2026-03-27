@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25006",
+      "number": 25006,
+      "title": "[dotnet] Add net10.0 msbuild tool DLLs to SignList.xml",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-27T08:07:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/25129",
       "number": 25129,
       "title": "Fixed Editor HorizontalTextAlignment does not update at run time",
@@ -45781,7 +45791,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-27T00:25:28.191Z",
+  "lastUpdated": "2026-03-27T08:16:38.126Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
