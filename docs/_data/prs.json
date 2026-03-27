@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/25129",
+      "number": 25129,
+      "title": "Fixed Editor HorizontalTextAlignment does not update at run time",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-26T23:09:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34685",
+      "number": 34685,
+      "title": "fix: restore CI triggering on SR3 branch",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-26T21:42:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31016",
+      "number": 31016,
+      "title": "[iOS] Alert popup may be displayed on wrong window when modal page navigation is in progress - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-26T21:29:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29166",
+      "number": 29166,
+      "title": "[iOS , macOS] Fixed Label text cropping when a width request is specified on the label inside a VerticalStackLayout with specified width request",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2026-03-26T21:20:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29520",
+      "number": 29520,
+      "title": "[Windows] Fixed SearchHandler issues",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-03-26T21:16:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29897",
+      "number": 29897,
+      "title": "[Windows] Fixed Margin doesn't work inside CollectionView EmptyView",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-26T21:08:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30080",
+      "number": 30080,
+      "title": "Fixed BindingContext of the Window TitleBar is not being passed on to its child content.",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-26T20:33:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27230",
+      "number": 27230,
+      "title": "[Windows] Fixed VisualState Setters not working properly for CollectionView ",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-26T20:25:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34679",
+      "number": 34679,
+      "title": "Update PreReleaseVersionIteration from 1 to 3",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-26T18:24:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34675",
+      "number": 34675,
+      "title": "[release/11.0.1xx-preview3] Install the iOS 26.2 simulator.",
+      "repo": "dotnet/maui",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-26T18:24:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34681",
+      "number": 34681,
+      "title": "[release/10.0.1xx-sr3] [iOS] Fix MauiCALayer and StaticCAShapeLayer crash on finalizer thread",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-03-26T18:17:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34417",
+      "number": 34417,
+      "title": "[Android] Fix Share.RequestAsync SecurityException on Android 10+ caused by missing ClipData",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-03-26T17:45:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3581",
+      "number": 3581,
+      "title": "Improve HTML viewer: syntax highlighting, DEPS layout, companion PR",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-26T16:42:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3582",
       "number": 3582,
       "title": "Pin .NET SDK to 10.0.1xx band (10.0.105) to fix CI",
@@ -45651,7 +45781,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-26T16:27:36.566Z",
+  "lastUpdated": "2026-03-27T00:25:28.191Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
