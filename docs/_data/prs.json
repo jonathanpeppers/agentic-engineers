@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34690",
+      "number": 34690,
+      "title": "fix: resolve pool validation errors breaking device-tests and ui-tests on SR3",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-27T12:07:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11002",
+      "number": 11002,
+      "title": "[TrimmableTypeMap] Use JniNativeMethod for RegisterNatives bootstrap",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-27T09:58:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/166",
+      "number": 166,
+      "title": "Onboard to dotnet/arcade build system",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-27T08:55:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25006",
       "number": 25006,
       "title": "[dotnet] Add net10.0 msbuild tool DLLs to SignList.xml",
@@ -45791,7 +45821,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-27T08:16:38.126Z",
+  "lastUpdated": "2026-03-27T16:19:31.940Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
