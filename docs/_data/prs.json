@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25022",
+      "number": 25022,
+      "title": "[tools] IOSurface is now working in the simulator.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-27T22:51:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24934",
+      "number": 24934,
+      "title": "[dotnet-linker] Use [DynamicDependency] attributes instead of manual marking when preserving smart enum methods.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-27T22:34:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3586",
+      "number": 3586,
+      "title": "Improve review-skia-update skill: require verification of removed patches",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-27T20:01:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3578",
+      "number": 3578,
+      "title": "Redesign Gallery as interactive Blazor WASM showcase with 21 demos",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-27T18:55:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3585",
+      "number": 3585,
+      "title": "review-skia-update: add relatedFiles cross-links and fix viewed checkbox",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-27T18:27:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34697",
+      "number": 34697,
+      "title": "[Windows] Fix the control overlap issue in the AppThemeFeatureMatrix sample on candidate",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-27T17:50:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34690",
       "number": 34690,
       "title": "fix: resolve pool validation errors breaking device-tests and ui-tests on SR3",
@@ -45821,7 +45881,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-27T16:19:31.940Z",
+  "lastUpdated": "2026-03-28T00:23:46.757Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
