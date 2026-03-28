@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25037",
+      "number": 25037,
+      "title": "[release/11.0.1xx-preview3] Update dependencies from https://github.com/dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-28T11:07:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25032",
       "number": 25032,
       "title": "[main] Update dependencies from dotnet/dotnet",
@@ -45941,7 +45951,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-28T08:12:03.994Z",
+  "lastUpdated": "2026-03-28T16:08:25.240Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
