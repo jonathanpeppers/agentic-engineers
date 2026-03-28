@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25032",
+      "number": 25032,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-28T05:17:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25030",
+      "number": 25030,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-28T03:21:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25027",
+      "number": 25027,
+      "title": "[VideoToolbox] Update bindings all the way to Xcode 26.4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-28T01:21:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25024",
+      "number": 25024,
+      "title": "[HomeKit] Ignore HMError.QuotaExceeded removed by Apple in Xcode 26.4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-28T00:51:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25026",
+      "number": 25026,
+      "title": "[WidgetKit] Cleanup xtro todo files for this Swift only framework",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-28T00:33:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3584",
+      "number": 3584,
+      "title": "Split NuGet mega-packages to stay under 500MB feed limit",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-28T00:25:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25022",
       "number": 25022,
       "title": "[tools] IOSurface is now working in the simulator.",
@@ -45881,7 +45941,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-28T00:23:46.757Z",
+  "lastUpdated": "2026-03-28T08:12:03.994Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
