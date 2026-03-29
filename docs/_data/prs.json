@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/33639",
+      "number": 33639,
+      "title": "[iOS] CarouselView2: Update internal scroll indicators for compositional layout",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-03-28T23:15:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34385",
+      "number": 34385,
+      "title": "[Shapes] Line: Fix asymmetric Stretch.None path translation when right/bottom edge overflows",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-03-28T20:35:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34717",
+      "number": 34717,
+      "title": "Add regression test for #34713: Binding with Converter and x:DataType is compiled",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-03-28T19:23:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25034",
+      "number": 25034,
+      "title": "[sharpie/xtro] VersionTuple.IsEmpty is incorrect, so use an extension property with the correct implementation.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-28T19:22:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25035",
+      "number": 25035,
+      "title": "[msbuild] Enable nullability for the remaining files in this directory.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-28T18:06:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34533",
+      "number": 34533,
+      "title": "[Android] Fix Label word wrapping clips text depending on alignment and layout options",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-28T18:00:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34570",
+      "number": 34570,
+      "title": " [Android, Windows] Fix CarouselView PreviousPosition/PreviousItem incorrect during animated ScrollTo()",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-03-28T17:21:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34565",
+      "number": 34565,
+      "title": "[Android] Fix overflowing children clipped when parent Opacity < 1",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-28T17:19:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25037",
       "number": 25037,
       "title": "[release/11.0.1xx-preview3] Update dependencies from https://github.com/dotnet/macios",
@@ -45951,7 +46031,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-28T16:08:25.240Z",
+  "lastUpdated": "2026-03-29T00:26:58.460Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
