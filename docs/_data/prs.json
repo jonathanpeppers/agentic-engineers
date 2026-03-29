@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/31775",
+      "number": 31775,
+      "title": "[Android] IndicatorView: Add TalkBack accessibility descriptions for indicators",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-03-29T16:00:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32141",
+      "number": 32141,
+      "title": "[iOS] Fix for Incorrect Scroll in Loop Mode When CurrentItem Is Not Found in ItemsSource",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-29T14:40:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32135",
+      "number": 32135,
+      "title": "[CarouselViewHandler2] Fir fox CurrentItem does not work when ItemSpacing is set",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-03-29T14:38:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32134",
+      "number": 32134,
+      "title": "Fixed the FlexLayout reverse issue with the AlignContent",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-03-29T14:37:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32864",
+      "number": 32864,
+      "title": "[Windows]Fixed the MauiImage with logical name containing path issue",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-03-29T12:31:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32245",
+      "number": 32245,
+      "title": "[iOS, Mac] Fix for Background set to Transparent doesn't have the same behavior as BackgroundColor Transparent",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-03-29T12:08:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/33639",
       "number": 33639,
       "title": "[iOS] CarouselView2: Update internal scroll indicators for compositional layout",
@@ -46031,7 +46091,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-29T08:12:19.921Z",
+  "lastUpdated": "2026-03-29T16:09:09.442Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
