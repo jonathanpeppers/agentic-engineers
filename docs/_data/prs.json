@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25012",
+      "number": 25012,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-30T07:31:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/31648",
       "number": 31648,
       "title": "[iOS/Mac] Fixed BoxView in AbsoluteLayout did not return to its default AutoSize for Height and Width after reset",
@@ -46271,7 +46281,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-30T00:26:38.666Z",
+  "lastUpdated": "2026-03-30T08:33:28.706Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
