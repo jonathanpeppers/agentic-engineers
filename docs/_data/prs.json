@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/31648",
+      "number": 31648,
+      "title": "[iOS/Mac] Fixed BoxView in AbsoluteLayout did not return to its default AutoSize for Height and Width after reset",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-03-29T19:33:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30400",
+      "number": 30400,
+      "title": "[Windows/Mac] Fix RTL FlowDirection causes overlap with native window control buttons in TitleBar",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-29T19:20:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3606",
+      "number": 3606,
+      "title": "Restructure Docker samples and add READMEs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3605",
+      "number": 3605,
+      "title": "Update Web (ASP.NET Core) sample with modernized code and README",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3604",
+      "number": 3604,
+      "title": "Update WinUI 3 sample with NavigationView and multi-page layout",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3603",
+      "number": 3603,
+      "title": "Update Windows Forms sample with multi-page layout and drawing",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3602",
+      "number": 3602,
+      "title": "Update WPF sample with multi-page layout and drawing support",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3601",
+      "number": 3601,
+      "title": "Update Blazor WebAssembly sample with multi-page layout",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3600",
+      "number": 3600,
+      "title": "Update MAUI sample with Shell flyout and multi-page layout",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3599",
+      "number": 3599,
+      "title": "Update tvOS sample with tab bar and GPU pages",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3598",
+      "number": 3598,
+      "title": "Update macOS sample with toolbar tabs and multi-page layout",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3597",
+      "number": 3597,
+      "title": "Update Mac Catalyst sample with tab bar and multi-page layout",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3596",
+      "number": 3596,
+      "title": "Update iOS sample with split-view sidebar and multi-page layout",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3595",
+      "number": 3595,
+      "title": "Update Android sample with Material 3 multi-page layout",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3594",
+      "number": 3594,
+      "title": "Update GTK 4 sample with multi-page layout and README",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3593",
+      "number": 3593,
+      "title": "Update GTK 3 sample with multi-page layout and README",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3591",
+      "number": 3591,
+      "title": "Update Browser WebAssembly sample with README and screenshot",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3590",
+      "number": 3590,
+      "title": "Update Console sample with improved drawing and README",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-29T17:21:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/31775",
       "number": 31775,
       "title": "[Android] IndicatorView: Add TalkBack accessibility descriptions for indicators",
@@ -46091,7 +46271,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-29T16:09:09.442Z",
+  "lastUpdated": "2026-03-30T00:26:38.666Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
