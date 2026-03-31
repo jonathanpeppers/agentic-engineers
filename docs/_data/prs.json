@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3616",
+      "number": 3616,
+      "title": "Validate-samples skill, samples build refactor, and stale file cleanup",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-31T00:57:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34744",
       "number": 34744,
       "title": "[release/10.0.1xx-sr3] [iOS] Fix ObjectDisposedException in ContentView.RemoveContentMask",
@@ -46751,7 +46761,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-31T00:26:25.482Z",
+  "lastUpdated": "2026-03-31T08:24:47.393Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
