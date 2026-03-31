@@ -1,6 +1,196 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3622",
+      "number": 3622,
+      "title": "Add workflow to deploy Gallery WASM sample to GitHub Pages",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-31T16:07:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33090",
+      "number": 33090,
+      "title": "Fix TabBarIsVisible Not Updating Dynamically When Set on ShellContent",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-31T15:41:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34599",
+      "number": 34599,
+      "title": " [Windows] Fix WebView background color not being applied",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-03-31T15:19:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11035",
+      "number": 11035,
+      "title": "[TrimmableTypeMap] Assembly-level manifest attribute scanning",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-31T14:50:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34664",
+      "number": 34664,
+      "title": "[Android] Fix CollectionView LinearItemsLayout first/last items clipped when ItemSpacing changes at runtime and candidate tests failures",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-03-31T14:19:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24956",
+      "number": 24956,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-03-31T13:52:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11057",
+      "number": 11057,
+      "title": "Handle transient ConnectException globally in on-device HTTP tests",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-31T13:37:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11060",
+      "number": 11060,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13697062",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-03-31T13:32:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25048",
+      "number": 25048,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-03-31T13:24:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34756",
+      "number": 34756,
+      "title": "[Windows] Fix FlexLayoutCycleException test failure on candidate branch",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-31T13:03:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34751",
+      "number": 34751,
+      "title": "Fix CS8632: remove nullable annotations from #nullable disable context in Element.cs",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-03-31T12:49:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25043",
+      "number": 25043,
+      "title": "[src] Fix a few nullablity issues in a few places.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-31T12:38:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3618",
+      "number": 3618,
+      "title": "Fix WASM Docker build scripts for ARM hosts and add features argument",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-31T12:31:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25046",
+      "number": 25046,
+      "title": "[tests] Minor improvements to the DotNetWatch test.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-31T12:25:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32080",
+      "number": 32080,
+      "title": "[Android] Fixed back button icon selection logic in ShellToolbarTracker",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-03-31T11:25:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34745",
+      "number": 34745,
+      "title": "[iOS] Fix GitHubIssue6184 regression on candidate — TabBarDisabledColor fix disabled More button when tabs > 5",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-03-31T10:58:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34753",
+      "number": 34753,
+      "title": "Revert \"SelectionLength property update when entry is focused - fix (#26213)\"",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-31T10:55:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34750",
+      "number": 34750,
+      "title": "[iOS] Fix Issue23377ItemSpacing test failure on candidate branch",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-31T10:52:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34667",
+      "number": 34667,
+      "title": "[iOS/MacCatalyst] Fix CollectionView cell misalignment regression on candidate branch",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-03-31T10:48:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3616",
       "number": 3616,
       "title": "Validate-samples skill, samples build refactor, and stale file cleanup",
@@ -46761,7 +46951,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-31T08:24:47.393Z",
+  "lastUpdated": "2026-03-31T16:23:55.067Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
