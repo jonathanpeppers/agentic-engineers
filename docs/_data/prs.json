@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34744",
+      "number": 34744,
+      "title": "[release/10.0.1xx-sr3] [iOS] Fix ObjectDisposedException in ContentView.RemoveContentMask",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-03-31T00:00:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34743",
+      "number": 34743,
+      "title": "Fix integration test binlogs not captured in CI artifacts",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-03-30T22:25:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34702",
+      "number": 34702,
+      "title": "[Android] Fix CollectionView inside disabled RefreshView blocks scroll",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-30T21:57:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28403",
+      "number": 28403,
+      "title": "[Windows, Android] Resolved issue with dynamic Header/Footer reassignment in CollectionView.",
+      "repo": "dotnet/maui",
+      "author": "prakashKannanSf3972",
+      "mergedAt": "2026-03-30T21:52:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34497",
+      "number": 34497,
+      "title": "[Android] Fix for TapGestureRecognizer doesn't fire",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-03-30T21:50:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32109",
+      "number": 32109,
+      "title": "[iOS] Fix App crash with NullReferenceException in ShellSectionRenderer",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-03-30T21:41:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1388",
+      "number": 1388,
+      "title": "Fix RepositoryUrl in NuGet packages to point to dotnet/android-libraries",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-30T21:08:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/10986",
+      "number": 10986,
+      "title": "[build] Cache Gradle downloads between CI runs",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-03-30T21:00:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32191",
+      "number": 32191,
+      "title": "[iOS, macOS] Fixed CollectionView KeepLastItemInView Not Updating Correctly When Items Are Added Dynamically",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2026-03-30T19:28:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25033",
+      "number": 25033,
+      "title": "[Speech] Ignore SFSpeechErrorCode tvOS xtro entries",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-30T19:05:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34672",
+      "number": 34672,
+      "title": "[iOS] Preserve ScrollView offsets when Orientation changes to Neither",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-03-30T19:05:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24936",
+      "number": 24936,
+      "title": "[dotnet-linker] Use [DynamicDependency] attributes instead of manual marking when preserving block code.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-03-30T18:30:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3614",
+      "number": 3614,
+      "title": "Use DesignMode property directly in WindowsForms controls",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-30T18:24:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11038",
+      "number": 11038,
+      "title": "[Mono.Android] Bind API-37 Beta 3",
+      "repo": "dotnet/android",
+      "author": "jonpryor",
+      "mergedAt": "2026-03-30T17:50:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3613",
+      "number": 3613,
+      "title": "Improve review-skia-update skill: fix header link, add expand/collapse, upgrade companion PR",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-30T17:37:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11041",
       "number": 11041,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
@@ -46601,7 +46751,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-30T16:23:13.127Z",
+  "lastUpdated": "2026-03-31T00:26:25.482Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
