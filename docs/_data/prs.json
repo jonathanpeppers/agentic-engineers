@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34513",
+      "number": 34513,
+      "title": "[net11.0] Compile x:Reference bindings against resolved element type",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-04-01T08:16:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25025",
+      "number": 25025,
+      "title": "[CryptoTokenKit] Update bindings all the way to Xcode 26.4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-01T07:58:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25055",
+      "number": 25055,
+      "title": "[main] Bump dependency/support for .NET 9 Xcode 26.4 packages.",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-01T07:36:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25057",
+      "number": 25057,
+      "title": "[release/10.0.1xx] Bump dependency/support for .NET 9 Xcode 26.4 packages.",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-01T07:34:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25052",
+      "number": 25052,
+      "title": "[CoreFoundation] Fix typo in native symbol name",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-01T07:26:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3625",
+      "number": 3625,
+      "title": "Reduce disk usage in Docker sample builds",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-01T07:15:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3626",
+      "number": 3626,
+      "title": "Target net6.0-tizen8.0 in Tizen sample",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-01T07:09:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11029",
       "number": 11029,
       "title": "Move FixAbstractMethodsStep out of ILLink process",
@@ -47021,7 +47091,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-01T00:28:52.213Z",
+  "lastUpdated": "2026-04-01T08:29:13.248Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
