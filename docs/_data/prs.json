@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11029",
+      "number": 11029,
+      "title": "Move FixAbstractMethodsStep out of ILLink process",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-03-31T22:13:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3623",
+      "number": 3623,
+      "title": "Add landing page, migrate docs to main, and unify site deployment",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-31T20:57:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11049",
+      "number": 11049,
+      "title": "[TrimmableTypeMap] Fix thread safety in TrimmableTypeMap.Initialize",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-31T20:44:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32946",
+      "number": 32946,
+      "title": "Fix XamlC to respect ObsoleteAttribute message and isError parameter",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-03-31T20:00:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3619",
+      "number": 3619,
+      "title": "Update Tizen support: Studio 6.1, TFM fixes, and 3-tab sample",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-03-31T17:58:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25010",
+      "number": 25010,
+      "title": "[release/9.0.1xx] Update build to use Xcode 26.4 no new API bindings",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-31T17:22:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25047",
+      "number": 25047,
+      "title": "[release/10.0.1xx] Merge remote-tracking branch main into release/10.0.1xx",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-03-31T17:21:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3622",
       "number": 3622,
       "title": "Add workflow to deploy Gallery WASM sample to GitHub Pages",
@@ -46951,7 +47021,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-03-31T16:23:55.067Z",
+  "lastUpdated": "2026-04-01T00:28:52.213Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
