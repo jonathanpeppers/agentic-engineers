@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/31317",
+      "number": 31317,
+      "title": "Improved style inheritance",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-01T16:13:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25063",
+      "number": 25063,
+      "title": "[release/10.0.1xx] [dotnet] Use the target framework version to compute the path to the task assembly",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-01T15:57:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25060",
+      "number": 25060,
+      "title": "[dotnet] Use the target framework version to compute the path to the task assembly.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-01T14:58:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25062",
+      "number": 25062,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 13711851",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-04-01T14:57:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11034",
+      "number": 11034,
+      "title": "[TrimmableTypeMap] Extract TrimmableTypeMapGenerator from MSBuild task",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-01T14:12:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31591",
+      "number": 31591,
+      "title": "[Android] CollectionView: Fix SelectedItem visual state not applying when re-selecting same item",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-04-01T14:02:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/168",
+      "number": 168,
+      "title": "Enable Real signing for official builds",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-01T13:46:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34485",
+      "number": 34485,
+      "title": "Fix Flyout memory leak",
+      "repo": "dotnet/maui",
+      "author": "pictos",
+      "mergedAt": "2026-04-01T12:12:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25023",
+      "number": 25023,
+      "title": "[bgen] Enable nullability everywhere.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-01T10:34:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24979",
+      "number": 24979,
+      "title": "[dotnet-linker] Use [DynamicDependency] attributes instead of manual marking when optimizing generated code.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-01T09:55:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34513",
       "number": 34513,
       "title": "[net11.0] Compile x:Reference bindings against resolved element type",
@@ -47091,7 +47191,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-01T08:29:13.248Z",
+  "lastUpdated": "2026-04-01T16:21:55.241Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
