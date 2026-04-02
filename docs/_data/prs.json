@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25013",
+      "number": 25013,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-02T16:07:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/23",
       "number": 23,
       "title": "Add CliJson and migrate CLI JSON handling",
@@ -47751,7 +47761,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-02T15:57:10.631Z",
+  "lastUpdated": "2026-04-02T16:21:39.590Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
