@@ -162,6 +162,11 @@ jobs:
                       labels.some(l => l.includes('copilot')) ||
                       pr.body?.toLowerCase().includes('copilot-generated');
                     
+                    // Preserve existing copilotAuthored flag — once detected as
+                    // Copilot (e.g. via Co-authored-by commit scan), never downgrade
+                    const existingPR = existingPRs.get(pr.url);
+                    const copilotAuthored = isCopilotAuthored || (existingPR?.copilotAuthored === true);
+                    
                     // Check if AI agent reviewed - only valid for dotnet/maui
                     const mauiReviewerUsed = (repo === 'maui') && 
                       pr.labels.nodes.some(l => /\bagents?\b/i.test(l.name) || /\bai\b/i.test(l.name));
@@ -173,15 +178,14 @@ jobs:
                       repo: `${owner}/${repo}`,
                       author: pr.author?.login || 'unknown',
                       mergedAt: pr.mergedAt,
-                      copilotAuthored: isCopilotAuthored,
+                      copilotAuthored: copilotAuthored,
                       mauiReviewerUsed
                     };
                     
                     existingPRs.set(pr.url, prData);
                     
                     // If not already detected as Copilot, queue for commit check
-                    // During backfills, always check; otherwise only check new PRs
-                    if (!isCopilotAuthored) {
+                    if (!copilotAuthored) {
                       prsNeedingCommitCheck.push({ owner, repo, number: pr.number, url: pr.url });
                     }
                   }
