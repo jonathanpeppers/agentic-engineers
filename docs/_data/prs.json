@@ -507,7 +507,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-31T20:57:24Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -527,7 +527,7 @@
       "repo": "dotnet/maui",
       "author": "StephaneDelcroix",
       "mergedAt": "2026-03-31T20:00:53Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -537,7 +537,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-31T17:58:08Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -567,7 +567,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-31T16:07:27Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -627,7 +627,7 @@
       "repo": "dotnet/maui-labs",
       "author": "jfversluis",
       "mergedAt": "2026-03-31T13:45:19Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -677,7 +677,7 @@
       "repo": "dotnet/maui",
       "author": "simonrozsival",
       "mergedAt": "2026-03-31T12:49:00Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -697,7 +697,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-31T12:31:03Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -767,7 +767,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-31T00:57:48Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -777,7 +777,7 @@
       "repo": "dotnet/maui",
       "author": "github-actions",
       "mergedAt": "2026-03-31T00:00:01Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -787,7 +787,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-03-30T22:25:41Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -797,7 +797,7 @@
       "repo": "dotnet/maui",
       "author": "Vignesh-SF3580",
       "mergedAt": "2026-03-30T21:57:19Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -807,7 +807,7 @@
       "repo": "dotnet/maui",
       "author": "prakashKannanSf3972",
       "mergedAt": "2026-03-30T21:52:28Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -827,7 +827,7 @@
       "repo": "dotnet/maui",
       "author": "devanathan-vaithiyanathan",
       "mergedAt": "2026-03-30T21:41:21Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -857,7 +857,7 @@
       "repo": "dotnet/maui",
       "author": "NanthiniMahalingam",
       "mergedAt": "2026-03-30T19:28:24Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -897,7 +897,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-30T18:24:00Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -917,7 +917,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-30T17:37:51Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1007,7 +1007,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-03-30T14:35:06Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1027,7 +1027,7 @@
       "repo": "dotnet/maui-labs",
       "author": "jfversluis",
       "mergedAt": "2026-03-30T14:09:51Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1097,7 +1097,7 @@
       "repo": "dotnet/maui-labs",
       "author": "rmarinho",
       "mergedAt": "2026-03-30T13:32:22Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1147,7 +1147,7 @@
       "repo": "dotnet/maui-labs",
       "author": "jfversluis",
       "mergedAt": "2026-03-30T13:01:47Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1177,7 +1177,7 @@
       "repo": "dotnet/maui",
       "author": "Ahamed-Ali",
       "mergedAt": "2026-03-30T11:56:22Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -1197,7 +1197,7 @@
       "repo": "dotnet/maui",
       "author": "StephaneDelcroix",
       "mergedAt": "2026-03-30T11:30:17Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1217,7 +1217,7 @@
       "repo": "dotnet/maui-labs",
       "author": "rmarinho",
       "mergedAt": "2026-03-30T11:07:24Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1317,7 +1317,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:45Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1327,7 +1327,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:42Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1337,7 +1337,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:39Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1347,7 +1347,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:36Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1357,7 +1357,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:34Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1367,7 +1367,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:31Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1377,7 +1377,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:29Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1387,7 +1387,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:27Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1397,7 +1397,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:24Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1407,7 +1407,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:21Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1417,7 +1417,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:19Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1427,7 +1427,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:15Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1437,7 +1437,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:11Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1447,7 +1447,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:08Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1457,7 +1457,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:05Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1467,7 +1467,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-29T17:21:03Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1487,7 +1487,7 @@
       "repo": "dotnet/maui-labs",
       "author": "davidortinau",
       "mergedAt": "2026-03-29T15:56:34Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1497,7 +1497,7 @@
       "repo": "dotnet/maui-labs",
       "author": "vitek-karas",
       "mergedAt": "2026-03-29T14:56:50Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1567,7 +1567,7 @@
       "repo": "dotnet/maui",
       "author": "NirmalKumarYuvaraj",
       "mergedAt": "2026-03-28T20:35:17Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -1577,7 +1577,7 @@
       "repo": "dotnet/maui",
       "author": "StephaneDelcroix",
       "mergedAt": "2026-03-28T19:23:57Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1697,7 +1697,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-28T00:25:23Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1727,7 +1727,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-27T20:01:33Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1747,7 +1747,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-27T18:27:38Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1767,7 +1767,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-03-27T12:07:16Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1817,7 +1817,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-03-26T21:42:30Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1837,7 +1837,7 @@
       "repo": "dotnet/maui",
       "author": "NanthiniMahalingam",
       "mergedAt": "2026-03-26T21:20:22Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -1867,7 +1867,7 @@
       "repo": "dotnet/maui",
       "author": "NirmalKumarYuvaraj",
       "mergedAt": "2026-03-26T20:33:25Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -1927,7 +1927,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-26T16:42:03Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1937,7 +1937,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-26T16:23:42Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1997,7 +1997,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-25T22:26:31Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2007,7 +2007,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-25T21:52:31Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2017,7 +2017,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-03-25T21:05:34Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2037,7 +2037,7 @@
       "repo": "dotnet/maui",
       "author": "github-actions",
       "mergedAt": "2026-03-25T19:00:03Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2117,7 +2117,7 @@
       "repo": "dotnet/maui",
       "author": "github-actions",
       "mergedAt": "2026-03-25T15:13:31Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2137,7 +2137,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-03-25T14:44:36Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2177,7 +2177,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-25T14:04:39Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2337,7 +2337,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-25T00:52:02Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2367,7 +2367,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-24T22:46:21Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2387,7 +2387,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-24T21:30:59Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2417,7 +2417,7 @@
       "repo": "dotnet/maui",
       "author": "github-actions",
       "mergedAt": "2026-03-24T20:56:01Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2437,7 +2437,7 @@
       "repo": "dotnet/maui",
       "author": "kotlarmilos",
       "mergedAt": "2026-03-24T20:26:24Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2557,7 +2557,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-24T18:27:47Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2617,7 +2617,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-03-24T15:33:20Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2697,7 +2697,7 @@
       "repo": "dotnet/maui",
       "author": "NirmalKumarYuvaraj",
       "mergedAt": "2026-03-24T12:56:04Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -2707,7 +2707,7 @@
       "repo": "dotnet/maui",
       "author": "Tamilarasan-Paranthaman",
       "mergedAt": "2026-03-24T12:26:59Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -2727,7 +2727,7 @@
       "repo": "dotnet/maui",
       "author": "KarthikRajaKalaimani",
       "mergedAt": "2026-03-24T12:15:37Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -2747,7 +2747,7 @@
       "repo": "dotnet/maui",
       "author": "NirmalKumarYuvaraj",
       "mergedAt": "2026-03-24T12:12:53Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -2877,7 +2877,7 @@
       "repo": "dotnet/maui-labs",
       "author": "emaf",
       "mergedAt": "2026-03-24T07:08:22Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -3037,7 +3037,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-23T20:46:16Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -3127,7 +3127,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-23T18:13:04Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -3137,7 +3137,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-23T18:06:45Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -3217,7 +3217,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-23T15:35:43Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -3267,7 +3267,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-23T15:14:25Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -3277,7 +3277,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-23T15:08:20Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -3287,7 +3287,7 @@
       "repo": "dotnet/maui",
       "author": "Dhivya-SF4094",
       "mergedAt": "2026-03-23T14:29:25Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -3497,7 +3497,7 @@
       "repo": "dotnet/maui",
       "author": "maonaoda",
       "mergedAt": "2026-03-22T13:20:15Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -3617,7 +3617,7 @@
       "repo": "dotnet/maui",
       "author": "devanathan-vaithiyanathan",
       "mergedAt": "2026-03-21T18:12:44Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -3687,7 +3687,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-21T13:43:50Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -3747,7 +3747,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-20T23:47:16Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -3757,7 +3757,7 @@
       "repo": "dotnet/maui",
       "author": "lewing",
       "mergedAt": "2026-03-20T23:40:04Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -3767,7 +3767,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-20T23:31:54Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -3797,7 +3797,7 @@
       "repo": "dotnet/maui",
       "author": "github-actions",
       "mergedAt": "2026-03-20T21:28:05Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -3977,7 +3977,7 @@
       "repo": "dotnet/maui",
       "author": "simonrozsival",
       "mergedAt": "2026-03-20T14:37:01Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4107,7 +4107,7 @@
       "repo": "dotnet/maui-labs",
       "author": "rmarinho",
       "mergedAt": "2026-03-20T10:44:21Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4137,7 +4137,7 @@
       "repo": "dotnet/maui",
       "author": "jfversluis",
       "mergedAt": "2026-03-20T08:54:04Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4207,7 +4207,7 @@
       "repo": "dotnet/maui",
       "author": "TamilarasanSF4853",
       "mergedAt": "2026-03-19T23:15:16Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -4467,7 +4467,7 @@
       "repo": "dotnet/maui",
       "author": "Oxymoron290",
       "mergedAt": "2026-03-19T12:39:11Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -4547,7 +4547,7 @@
       "repo": "dotnet/maui-labs",
       "author": "rmarinho",
       "mergedAt": "2026-03-19T09:52:49Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4597,7 +4597,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-18T21:04:01Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4607,7 +4607,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-03-18T20:05:18Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4647,7 +4647,7 @@
       "repo": "dotnet/maui",
       "author": "dotnet-maestro",
       "mergedAt": "2026-03-18T18:12:01Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4667,7 +4667,7 @@
       "repo": "dotnet/maui",
       "author": "sheiksyedm",
       "mergedAt": "2026-03-18T17:46:51Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4697,7 +4697,7 @@
       "repo": "dotnet/xcsync",
       "author": "dalexsoto",
       "mergedAt": "2026-03-18T16:21:29Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4727,7 +4727,7 @@
       "repo": "dotnet/maui",
       "author": "jfversluis",
       "mergedAt": "2026-03-18T15:48:30Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -4747,7 +4747,7 @@
       "repo": "dotnet/maui",
       "author": "StephaneDelcroix",
       "mergedAt": "2026-03-18T15:32:24Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4777,7 +4777,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-18T13:51:20Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -4807,7 +4807,7 @@
       "repo": "dotnet/maui",
       "author": "praveenkumarkarunanithi",
       "mergedAt": "2026-03-18T13:27:22Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -4827,7 +4827,7 @@
       "repo": "dotnet/maui",
       "author": "Oxymoron290",
       "mergedAt": "2026-03-18T13:08:07Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -4907,7 +4907,7 @@
       "repo": "dotnet/maui",
       "author": "StephaneDelcroix",
       "mergedAt": "2026-03-18T09:19:11Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4957,7 +4957,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-17T23:30:01Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -5117,7 +5117,7 @@
       "repo": "dotnet/maui",
       "author": "jonathanpeppers",
       "mergedAt": "2026-03-17T14:16:42Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -5127,7 +5127,7 @@
       "repo": "dotnet/maui-labs",
       "author": "jfversluis",
       "mergedAt": "2026-03-17T14:08:51Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -5137,7 +5137,7 @@
       "repo": "dotnet/maui",
       "author": "NirmalKumarYuvaraj",
       "mergedAt": "2026-03-17T13:43:45Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5167,7 +5167,7 @@
       "repo": "dotnet/maui",
       "author": "praveenkumarkarunanithi",
       "mergedAt": "2026-03-17T13:25:56Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5177,7 +5177,7 @@
       "repo": "dotnet/maui",
       "author": "NirmalKumarYuvaraj",
       "mergedAt": "2026-03-17T13:21:11Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5197,7 +5197,7 @@
       "repo": "dotnet/maui",
       "author": "NirmalKumarYuvaraj",
       "mergedAt": "2026-03-17T13:10:07Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5217,7 +5217,7 @@
       "repo": "dotnet/maui",
       "author": "prakashKannanSf3972",
       "mergedAt": "2026-03-17T12:47:41Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5277,7 +5277,7 @@
       "repo": "dotnet/maui-labs",
       "author": "jfversluis",
       "mergedAt": "2026-03-17T10:32:35Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -5307,7 +5307,7 @@
       "repo": "dotnet/maui",
       "author": "sheiksyedm",
       "mergedAt": "2026-03-17T08:39:27Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -5367,7 +5367,7 @@
       "repo": "mono/SkiaSharp.Extended",
       "author": "mattleibow",
       "mergedAt": "2026-03-17T01:23:58Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -5447,7 +5447,7 @@
       "repo": "dotnet/maui",
       "author": "praveenkumarkarunanithi",
       "mergedAt": "2026-03-16T23:50:33Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5557,7 +5557,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-16T18:09:32Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5597,7 +5597,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-03-16T16:45:54Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -5607,7 +5607,7 @@
       "repo": "dotnet/maui",
       "author": "BagavathiPerumal",
       "mergedAt": "2026-03-16T15:53:10Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5617,7 +5617,7 @@
       "repo": "dotnet/maui",
       "author": "HarishKumarSF4517",
       "mergedAt": "2026-03-16T15:47:28Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5687,7 +5687,7 @@
       "repo": "dotnet/maui-labs",
       "author": "jfversluis",
       "mergedAt": "2026-03-16T14:33:04Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -5707,7 +5707,7 @@
       "repo": "dotnet/maui",
       "author": "jfversluis",
       "mergedAt": "2026-03-16T14:20:59Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -5737,7 +5737,7 @@
       "repo": "dotnet/maui",
       "author": "KarthikRajaKalaimani",
       "mergedAt": "2026-03-16T13:52:57Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5827,7 +5827,7 @@
       "repo": "dotnet/maui",
       "author": "praveenkumarkarunanithi",
       "mergedAt": "2026-03-16T13:21:41Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5877,7 +5877,7 @@
       "repo": "dotnet/maui-labs",
       "author": "jfversluis",
       "mergedAt": "2026-03-16T12:06:13Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -5887,7 +5887,7 @@
       "repo": "dotnet/maui",
       "author": "IeuanWalker",
       "mergedAt": "2026-03-16T11:38:10Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -5937,7 +5937,7 @@
       "repo": "dotnet/maui",
       "author": "SubhikshaSf4851",
       "mergedAt": "2026-03-16T00:48:06Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5947,7 +5947,7 @@
       "repo": "dotnet/maui",
       "author": "Dhivya-SF4094",
       "mergedAt": "2026-03-16T00:46:11Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5957,7 +5957,7 @@
       "repo": "dotnet/maui",
       "author": "Dhivya-SF4094",
       "mergedAt": "2026-03-16T00:36:06Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5987,7 +5987,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-15T23:55:44Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -5997,7 +5997,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-15T19:53:15Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6007,7 +6007,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-15T19:52:39Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6017,7 +6017,7 @@
       "repo": "dotnet/maui",
       "author": "mduchev",
       "mergedAt": "2026-03-15T18:48:04Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -6027,7 +6027,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-15T18:10:36Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -6047,7 +6047,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-15T13:27:17Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -6097,7 +6097,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-15T12:55:41Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -6107,7 +6107,7 @@
       "repo": "dotnet/maui",
       "author": "BagavathiPerumal",
       "mergedAt": "2026-03-14T16:40:51Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -6137,7 +6137,7 @@
       "repo": "dotnet/maui",
       "author": "NafeelaNazhir",
       "mergedAt": "2026-03-14T15:59:49Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -6267,7 +6267,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-14T08:52:25Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6357,7 +6357,7 @@
       "repo": "dotnet/maui",
       "author": "github-actions",
       "mergedAt": "2026-03-13T14:52:03Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6367,7 +6367,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-13T14:34:51Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6417,7 +6417,7 @@
       "repo": "dotnet/maui",
       "author": "StephaneDelcroix",
       "mergedAt": "2026-03-13T09:26:38Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6457,7 +6457,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-12T23:53:59Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -6497,7 +6497,7 @@
       "repo": "dotnet/xcsync",
       "author": "Redth",
       "mergedAt": "2026-03-12T18:48:36Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6537,7 +6537,7 @@
       "repo": "dotnet/maui-samples",
       "author": "jfversluis",
       "mergedAt": "2026-03-12T16:17:04Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6587,7 +6587,7 @@
       "repo": "dotnet/maui",
       "author": "StephaneDelcroix",
       "mergedAt": "2026-03-12T13:47:43Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6657,7 +6657,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-03-11T23:28:00Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6687,7 +6687,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-11T19:35:36Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6697,7 +6697,7 @@
       "repo": "dotnet/maui",
       "author": "jfversluis",
       "mergedAt": "2026-03-11T19:30:59Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6787,7 +6787,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-11T17:04:18Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6807,7 +6807,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-03-11T15:20:04Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6827,7 +6827,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-11T14:40:50Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -6867,7 +6867,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-11T13:31:12Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -6877,7 +6877,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-11T13:21:46Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -6887,7 +6887,7 @@
       "repo": "dotnet/maui",
       "author": "Dhivya-SF4094",
       "mergedAt": "2026-03-11T12:51:33Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -6897,7 +6897,7 @@
       "repo": "dotnet/maui",
       "author": "BagavathiPerumal",
       "mergedAt": "2026-03-11T12:48:58Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -6907,7 +6907,7 @@
       "repo": "dotnet/maui",
       "author": "prakashKannanSf3972",
       "mergedAt": "2026-03-11T12:46:40Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -6927,7 +6927,7 @@
       "repo": "dotnet/maui",
       "author": "devanathan-vaithiyanathan",
       "mergedAt": "2026-03-11T08:37:38Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -6997,7 +6997,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-10T17:51:58Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7037,7 +7037,7 @@
       "repo": "dotnet/macios",
       "author": "github-actions",
       "mergedAt": "2026-03-10T14:45:51Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -7077,7 +7077,7 @@
       "repo": "dotnet/maui",
       "author": "Shalini-Ashokan",
       "mergedAt": "2026-03-10T12:30:38Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7137,7 +7137,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-10T11:38:47Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7147,7 +7147,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-10T11:35:34Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7157,7 +7157,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-10T11:31:50Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7187,7 +7187,7 @@
       "repo": "dotnet/maui",
       "author": "Vignesh-SF3580",
       "mergedAt": "2026-03-10T00:27:38Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7197,7 +7197,7 @@
       "repo": "dotnet/maui",
       "author": "praveenkumarkarunanithi",
       "mergedAt": "2026-03-10T00:11:04Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7367,7 +7367,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-03-09T11:52:14Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -7417,7 +7417,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-09T00:42:17Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -7437,7 +7437,7 @@
       "repo": "dotnet/maui",
       "author": "symbiogenesis",
       "mergedAt": "2026-03-08T18:44:50Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7467,7 +7467,7 @@
       "repo": "dotnet/maui",
       "author": "SubhikshaSf4851",
       "mergedAt": "2026-03-07T14:49:03Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7497,7 +7497,7 @@
       "repo": "dotnet/maui",
       "author": "NirmalKumarYuvaraj",
       "mergedAt": "2026-03-06T23:31:38Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7567,7 +7567,7 @@
       "repo": "dotnet/maui",
       "author": "NirmalKumarYuvaraj",
       "mergedAt": "2026-03-06T14:25:13Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7607,7 +7607,7 @@
       "repo": "dotnet/maui",
       "author": "HarishwaranVijayakumar",
       "mergedAt": "2026-03-06T12:21:35Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7627,7 +7627,7 @@
       "repo": "dotnet/maui",
       "author": "sbomer",
       "mergedAt": "2026-03-06T12:13:03Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7677,7 +7677,7 @@
       "repo": "mono/SkiaSharp.Extended",
       "author": "mattleibow",
       "mergedAt": "2026-03-05T20:54:35Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -7717,7 +7717,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-05T19:39:01Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -7747,7 +7747,7 @@
       "repo": "dotnet/maui",
       "author": "michalpobuta",
       "mergedAt": "2026-03-05T17:26:07Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7777,7 +7777,7 @@
       "repo": "dotnet/maui",
       "author": "NirmalKumarYuvaraj",
       "mergedAt": "2026-03-05T15:08:21Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7787,7 +7787,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-05T14:53:27Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -7807,7 +7807,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-05T14:10:43Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -7837,7 +7837,7 @@
       "repo": "dotnet/maui",
       "author": "Tamilarasan-Paranthaman",
       "mergedAt": "2026-03-05T12:53:56Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7857,7 +7857,7 @@
       "repo": "dotnet/maui",
       "author": "HarishKumarSF4517",
       "mergedAt": "2026-03-05T12:43:00Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7867,7 +7867,7 @@
       "repo": "dotnet/maui",
       "author": "devanathan-vaithiyanathan",
       "mergedAt": "2026-03-05T12:37:50Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7887,7 +7887,7 @@
       "repo": "dotnet/maui",
       "author": "jfversluis",
       "mergedAt": "2026-03-05T11:17:56Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -7907,7 +7907,7 @@
       "repo": "dotnet/maui",
       "author": "davidnguyen-tech",
       "mergedAt": "2026-03-05T09:36:55Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -7917,7 +7917,7 @@
       "repo": "dotnet/maui",
       "author": "jfversluis",
       "mergedAt": "2026-03-05T09:34:00Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -7937,7 +7937,7 @@
       "repo": "dotnet/maui",
       "author": "bhavanesh2001",
       "mergedAt": "2026-03-05T00:32:51Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -7947,7 +7947,7 @@
       "repo": "dotnet/maui",
       "author": "HarishKumarSF4517",
       "mergedAt": "2026-03-05T00:27:40Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -8047,7 +8047,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-04T23:29:00Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -8077,7 +8077,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-04T21:18:34Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8087,7 +8087,7 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-03-04T20:39:05Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8187,7 +8187,7 @@
       "repo": "dotnet/macios",
       "author": "github-actions",
       "mergedAt": "2026-03-04T16:45:44Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8217,7 +8217,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-03-04T15:41:56Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8297,7 +8297,7 @@
       "repo": "dotnet/maui",
       "author": "StephaneDelcroix",
       "mergedAt": "2026-03-04T12:46:33Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8347,7 +8347,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-03-04T08:56:20Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8357,7 +8357,7 @@
       "repo": "mono/SkiaSharp.Extended",
       "author": "mattleibow",
       "mergedAt": "2026-03-04T00:15:58Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8397,7 +8397,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-04T00:01:22Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -8487,7 +8487,7 @@
       "repo": "dotnet/maui",
       "author": "dotnet-maestro",
       "mergedAt": "2026-03-03T16:47:33Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8547,7 +8547,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-03-03T10:50:57Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": true
     },
     {
@@ -8557,7 +8557,7 @@
       "repo": "dotnet/maui",
       "author": "jfversluis",
       "mergedAt": "2026-03-03T10:20:33Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8597,7 +8597,7 @@
       "repo": "dotnet/maui",
       "author": "jfversluis",
       "mergedAt": "2026-03-03T07:58:45Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8607,7 +8607,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-03-03T00:50:42Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8617,7 +8617,7 @@
       "repo": "dotnet/maui",
       "author": "mattleibow",
       "mergedAt": "2026-03-03T00:27:34Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8627,7 +8627,7 @@
       "repo": "dotnet/maui",
       "author": "mattleibow",
       "mergedAt": "2026-03-03T00:03:31Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8667,7 +8667,7 @@
       "repo": "dotnet/maui",
       "author": "github-actions",
       "mergedAt": "2026-03-02T22:35:33Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8677,7 +8677,7 @@
       "repo": "dotnet/maui",
       "author": "mattleibow",
       "mergedAt": "2026-03-02T22:34:42Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8797,7 +8797,7 @@
       "repo": "dotnet/maui",
       "author": "jfversluis",
       "mergedAt": "2026-03-02T14:09:17Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8817,7 +8817,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-03-02T13:40:08Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8827,7 +8827,7 @@
       "repo": "dotnet/maui",
       "author": "StephaneDelcroix",
       "mergedAt": "2026-03-02T13:39:03Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -8877,7 +8877,7 @@
       "repo": "dotnet/maui",
       "author": "jfversluis",
       "mergedAt": "2026-03-02T10:43:43Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -47751,7 +47751,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-02T15:21:01.246Z",
+  "lastUpdated": "2026-04-02T15:57:10.631Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
