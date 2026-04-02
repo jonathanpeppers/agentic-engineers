@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25066",
+      "number": 25066,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260402054819308 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-04-02T07:38:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25054",
+      "number": 25054,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-02T07:16:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3624",
+      "number": 3624,
+      "title": "Update rollForward from latestPatch to latestFeature",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-02T01:37:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3629",
+      "number": 3629,
+      "title": "Enforce --no-undefined linker flag for Linux and Android native builds",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-02T00:32:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34773",
       "number": 34773,
       "title": "[iOS 26] Fix Issue20706.ChangeIncrementValue test failure regression",
@@ -47311,7 +47351,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-02T00:24:28.964Z",
+  "lastUpdated": "2026-04-02T08:23:09.496Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
