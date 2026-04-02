@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/23",
+      "number": 23,
+      "title": "Add CliJson and migrate CLI JSON handling",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-02T14:18:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34576",
+      "number": 34576,
+      "title": "[AI] Sample: Detail page, semantic search, streaming, and UI polish",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-02T14:09:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/57",
+      "number": 57,
+      "title": "Fix ThreadStatic crash in devflow list --json",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-02T14:02:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34723",
+      "number": 34723,
+      "title": "Add InvalidateStyle() and VisualStateManager.InvalidateVisualStates() APIs",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-04-02T12:51:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34727",
+      "number": 34727,
+      "title": "Fix x:Key values not escaped in source-generated C# string literals",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-04-02T12:41:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34736",
+      "number": 34736,
+      "title": "Bump Android SupportedOSPlatformVersion from 21 to 24 in templates",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-02T12:26:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/26851",
+      "number": 26851,
+      "title": "[Android] PopToRootAsync for modal pages - improvements",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-02T11:44:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25049",
+      "number": 25049,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-02T11:26:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34277",
+      "number": 34277,
+      "title": "[spec] Add `maui device list` command spec to CLI design doc",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-02T11:24:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34782",
+      "number": 34782,
+      "title": "[iOS, MacOS] [Candidate branch]Fix ShellFlyoutNavigationEventOrderShouldBeCorrect UI test failure on iOS 26.1+",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-04-02T10:59:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34777",
+      "number": 34777,
+      "title": "[Testing][Windows] Fix SearchBar device test failure in candidate branch",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-04-02T09:53:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31202",
+      "number": 31202,
+      "title": "LineHeight and decorations for HTML Label - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-02T09:42:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25066",
       "number": 25066,
       "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260402054819308 to main",
@@ -18,6 +138,16 @@
       "author": "dotnet-maestro",
       "mergedAt": "2026-04-02T07:16:14Z",
       "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/52",
+      "number": 52,
+      "title": "Complete DevFlow CLI merge: unify output, DI, and process execution",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-02T07:02:22Z",
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -118,6 +248,16 @@
       "author": "PureWeen",
       "mergedAt": "2026-04-01T20:58:07Z",
       "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/53",
+      "number": 53,
+      "title": "Fix NativeAOT smoke test: output empty JSON array when broker unavailable",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-01T20:27:00Z",
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -231,6 +371,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/50",
+      "number": 50,
+      "title": "Fix CLI crash on startup and reduce package size by ~244MB",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-01T13:08:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34485",
       "number": 34485,
       "title": "Fix Flyout memory leak",
@@ -327,6 +477,16 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-04-01T07:09:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/49",
+      "number": 49,
+      "title": "Fix duplicate DevFlow.Driver asset in official build",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-01T07:05:56Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -457,6 +617,16 @@
       "repo": "dotnet/macios",
       "author": "github-actions",
       "mergedAt": "2026-03-31T13:52:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/42",
+      "number": 42,
+      "title": "Merge DevFlow CLI into maui CLI as 'maui devflow' subcommand",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-31T13:45:19Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -851,6 +1021,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/41",
+      "number": 41,
+      "title": "Rename Client to Cli",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-30T14:09:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34739",
       "number": 34739,
       "title": "[Android] Fix the CarouselView ScrollTo issue in the candidate branch",
@@ -911,6 +1091,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/40",
+      "number": 40,
+      "title": "Invoke onProgress callback in SdkManager.InstallPackagesAsync",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-30T13:32:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10982",
       "number": 10982,
       "title": "[build] Add `build-summary` stage to `Xamarin.Android-PR` pipeline",
@@ -948,6 +1138,16 @@
       "author": "csigs",
       "mergedAt": "2026-03-30T13:19:33Z",
       "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/39",
+      "number": 39,
+      "title": "Split Client and DevFlow into independent build/release paths",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-30T13:01:47Z",
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -1009,6 +1209,16 @@
       "mergedAt": "2026-03-30T11:26:50Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/24",
+      "number": 24,
+      "title": "Add Microsoft.Maui.Client CLI tool",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-30T11:07:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
     },
     {
       "url": "https://github.com/dotnet/maui/pull/29344",
@@ -1269,6 +1479,26 @@
       "mergedAt": "2026-03-29T16:00:30Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/27",
+      "number": 27,
+      "title": "Improve DevFlow AI agent reliability: diagnose command, project scanning, agent logging",
+      "repo": "dotnet/maui-labs",
+      "author": "davidortinau",
+      "mergedAt": "2026-03-29T15:56:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/26",
+      "number": 26,
+      "title": "Avoid rewriting DevFlow port file on no-op builds",
+      "repo": "dotnet/maui-labs",
+      "author": "vitek-karas",
+      "mergedAt": "2026-03-29T14:56:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
     },
     {
       "url": "https://github.com/dotnet/maui/pull/32141",
@@ -1871,6 +2101,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/22",
+      "number": 22,
+      "title": "Fix skill refs",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-03-25T16:36:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34646",
       "number": 34646,
       "title": "[release/11.0.1xx-preview3] [net11] Templates: Fix duplicate Empty/empty parameter crash in maui-blazor templates",
@@ -2058,6 +2298,26 @@
       "author": "dotnet-maestro",
       "mergedAt": "2026-03-25T11:00:33Z",
       "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/21",
+      "number": 21,
+      "title": "Add missing .claude/skills/maui-ai-debugging skill files",
+      "repo": "dotnet/maui-labs",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-25T08:38:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/19",
+      "number": 19,
+      "title": "Fix iOS screenshot capture to include native dialogs & improve alert detection reliability",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-03-25T08:07:13Z",
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -2611,6 +2871,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/18",
+      "number": 18,
+      "title": "Lower MAUI version floor to 10.0.20 for DevFlow shipping packages",
+      "repo": "dotnet/maui-labs",
+      "author": "emaf",
+      "mergedAt": "2026-03-24T07:08:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24989",
       "number": 24989,
       "title": "[main] Update dependencies from dotnet/dotnet",
@@ -2837,6 +3107,16 @@
       "repo": "dotnet/android",
       "author": "dotnet-maestro",
       "mergedAt": "2026-03-23T18:34:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/17",
+      "number": 17,
+      "title": "Remove CFSClean gain",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-23T18:24:58Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -3087,6 +3367,26 @@
       "repo": "dotnet/macios",
       "author": "dalexsoto",
       "mergedAt": "2026-03-23T12:29:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/16",
+      "number": 16,
+      "title": "Add `checkout: none` to PublishNuGet job in release pipeline",
+      "repo": "dotnet/maui-labs",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-23T10:09:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/15",
+      "number": 15,
+      "title": "[WIP] [WIP] Address feedback on NuGet.org publish release pipeline changes",
+      "repo": "dotnet/maui-labs",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-23T10:03:15Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -3691,6 +3991,16 @@
       "mauiReviewerUsed": true
     },
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/13",
+      "number": 13,
+      "title": "Update service connection",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-20T13:51:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34323",
       "number": 34323,
       "title": "[Testing] Additional Feature Matrix Event Test Cases for Stepper, RefreshView and FlyoutPage",
@@ -3761,6 +4071,16 @@
       "mauiReviewerUsed": true
     },
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/12",
+      "number": 12,
+      "title": "[ci] Push packages false for now",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-20T13:01:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34534",
       "number": 34534,
       "title": "[Android, Windows] Fix CollectionView handler cleanup when DataTemplateSelector switches templates",
@@ -3778,6 +4098,16 @@
       "author": "rolfbjarne",
       "mergedAt": "2026-03-20T10:49:13Z",
       "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/11",
+      "number": 11,
+      "title": "Some fixes for signing on internal CI ",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-20T10:44:21Z",
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4051,6 +4381,16 @@
       "mauiReviewerUsed": true
     },
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/10",
+      "number": 10,
+      "title": "Add SUPPORT.md",
+      "repo": "dotnet/maui-labs",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-19T14:57:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/30133",
       "number": 30133,
       "title": "[iOS, Windows] GraphicsView: Fix GetStringSize() returning inaccurate text measurements",
@@ -4067,6 +4407,16 @@
       "repo": "dotnet/android-tools",
       "author": "copilot-swe-agent",
       "mergedAt": "2026-03-19T14:15:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/9",
+      "number": 9,
+      "title": "Update README support policy link to MAUI-specific policy",
+      "repo": "dotnet/maui-labs",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-03-19T14:01:22Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -4188,6 +4538,16 @@
       "author": "HarishwaranVijayakumar",
       "mergedAt": "2026-03-19T10:05:34Z",
       "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/7",
+      "number": 7,
+      "title": "Onboard to dotnet/arcade build system",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-03-19T09:52:49Z",
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4761,6 +5121,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/5",
+      "number": 5,
+      "title": "fix: use dnceng public feeds for 1ES network isolation",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-17T14:08:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/27009",
       "number": 27009,
       "title": "[Android][iOS] SearchBar: Fix UserInteractionEnabled not respecting IsEnabled",
@@ -4897,6 +5267,16 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-03-17T11:23:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/4",
+      "number": 4,
+      "title": "fix: broken symlinks and pipeline variable expansion",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-17T10:32:35Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -5301,6 +5681,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/2",
+      "number": 2,
+      "title": "Add Azure DevOps pipeline infrastructure with 1ES security scanning",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-16T14:33:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/29769",
       "number": 29769,
       "title": "[iOS, Android] Fix for Incorrect Orientation in HEIC and JPG Images During Resize",
@@ -5479,6 +5869,16 @@
       "mergedAt": "2026-03-16T12:48:22Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/1",
+      "number": 1,
+      "title": "Set up multi-product repo structure and port DevFlow",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-03-16T12:06:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
     },
     {
       "url": "https://github.com/dotnet/maui/pull/30132",
@@ -47351,7 +47751,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-02T08:23:09.496Z",
+  "lastUpdated": "2026-04-02T15:09:22.307Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
@@ -47361,6 +47761,7 @@
     "dotnet/java-interop",
     "dotnet/macios-devtools",
     "dotnet/macios",
+    "dotnet/maui-labs",
     "dotnet/maui-samples",
     "dotnet/maui",
     "dotnet/xcsync",
