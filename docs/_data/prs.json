@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25045",
+      "number": 25045,
+      "title": "[tests] Enable nullability in msbuild test projects.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-02T18:58:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3637",
+      "number": 3637,
+      "title": "Fix get-skiasharp-pr.ps1 killing the shell when run via iex",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-02T18:05:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25059",
+      "number": 25059,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-04-02T18:04:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3635",
+      "number": 3635,
+      "title": "Add workflow to post PR artifacts comment",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-02T17:52:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3634",
+      "number": 3634,
+      "title": "Build WASM natives in docs workflow instead of downloading",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-02T17:34:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1391",
+      "number": 1391,
+      "title": "Add bare .gitignore entries to prevent symlink commits",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-02T16:34:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11043",
+      "number": 11043,
+      "title": "[Tests] Bump default AGP to 9.1.0 for compileSdk 36 compatibility",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-02T16:31:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25013",
       "number": 25013,
       "title": "[net11.0] Update dependencies from dotnet/dotnet",
@@ -47761,16 +47831,18 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-02T16:21:39.590Z",
+  "lastUpdated": "2026-04-02T19:11:56.783Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
     "dotnet/android-tools",
     "dotnet/android",
+    "dotnet/android-samples",
     "dotnet/java-interop",
     "dotnet/macios-devtools",
     "dotnet/macios",
+    "dotnet/macios-samples",
     "dotnet/maui-labs",
     "dotnet/maui-samples",
     "dotnet/maui",
