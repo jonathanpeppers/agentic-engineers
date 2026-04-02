@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34773",
+      "number": 34773,
+      "title": "[iOS 26] Fix Issue20706.ChangeIncrementValue test failure regression",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-04-01T22:00:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1390",
+      "number": 1390,
+      "title": "Fix copilot-setup-steps workflow",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-01T21:47:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11044",
+      "number": 11044,
+      "title": "[TrimmableTypeMap] Fix manifest builder gaps: SupportsGLTexture, UsesPermissionFlags, RoundIcon, dedup",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-01T21:45:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3627",
+      "number": 3627,
+      "title": "Make the Uno sample work correctly on WinUI and switch to SkiaRenderer",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-01T21:45:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25028",
+      "number": 25028,
+      "title": "[ImageCaptureCore] Bind new APIs and fix existing bindings up to Xcode 26.4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-01T21:43:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11051",
+      "number": 11051,
+      "title": "[TrimmableTypeMap] Fix [Export] JNI signature mapping for non-primitive parameter types",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-01T21:43:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11061",
+      "number": 11061,
+      "title": "Remove obsolete `RemoveAttributesBase` from `Microsoft.Android.Sdk.ILLink`",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-01T21:36:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34774",
+      "number": 34774,
+      "title": "Increment patch version from 32 to 33",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-01T20:58:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31931",
+      "number": 31931,
+      "title": "[Android] Page: Fix OnNavigatedTo called twice when NavigationPage is FlyoutPage Detail",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-04-01T19:32:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33207",
+      "number": 33207,
+      "title": "[Android] Fix for WebView/HybridWebView briefly flashes full screen before layout completes",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-04-01T19:31:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32701",
+      "number": 32701,
+      "title": "[iOS, macOS] Shell: Fix RTL flow direction for flyout, menu cells, tab bar, and Locked flyout position",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2026-04-01T19:07:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25064",
+      "number": 25064,
+      "title": "[skills] More updates to macios-binding-creator",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-01T18:57:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/31317",
       "number": 31317,
       "title": "Improved style inheritance",
@@ -47191,7 +47311,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-01T16:21:55.241Z",
+  "lastUpdated": "2026-04-02T00:24:28.964Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
