@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25073",
+      "number": 25073,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-03T07:22:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25075",
+      "number": 25075,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-03T06:30:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25031",
+      "number": 25031,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-03T04:17:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34265",
       "number": 34265,
       "title": "Add standalone code-review skill with maintainer-sourced review rules",
@@ -47891,7 +47921,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-03T00:26:02.662Z",
+  "lastUpdated": "2026-04-03T08:19:22.705Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
