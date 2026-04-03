@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34265",
+      "number": 34265,
+      "title": "Add standalone code-review skill with maintainer-sourced review rules",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-02T21:50:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/320",
+      "number": 320,
+      "title": "TryGetPlatformDirectoryFromApiLevel: fall back to android-{major}.0",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-02T21:32:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34789",
+      "number": 34789,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-04-02T21:31:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34698",
+      "number": 34698,
+      "title": "[iOS] Fix Label with TailTruncation not rendering after empty-to-non-empty text transition",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-04-02T20:02:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28713",
+      "number": 28713,
+      "title": "[IOS] Inconsistent Resize Behavior for Header/Footer - fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-02T19:23:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-samples/pull/358",
+      "number": 358,
+      "title": "Add HpkeEncryption sample for Android 17 (API 37)",
+      "repo": "dotnet/android-samples",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-02T19:11:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25045",
       "number": 25045,
       "title": "[tests] Enable nullability in msbuild test projects.",
@@ -47831,7 +47891,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-02T19:11:56.783Z",
+  "lastUpdated": "2026-04-03T00:26:02.662Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
