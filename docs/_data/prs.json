@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34799",
+      "number": 34799,
+      "title": "[release/11.0.1xx-preview3] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-03T15:46:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34796",
+      "number": 34796,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-preview3'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-04-03T15:45:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29996",
+      "number": 29996,
+      "title": "[iOS] Support for IsSwipeEnabled on CarouselView2",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-03T14:09:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1389",
+      "number": 1389,
+      "title": "Use Claude Opus 4.6 for weekly stable updates agent",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-03T14:06:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1387",
+      "number": 1387,
+      "title": "Stable Updates 20260330",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-03T14:00:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11074",
+      "number": 11074,
+      "title": "Bump external/xamarin-android-tools from `ec5040a` to `a428178`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-04-03T13:52:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34628",
+      "number": 34628,
+      "title": "[release/11.0.1xx-preview3] Update dependencies from dotnet/android, dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-03T13:50:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11073",
+      "number": 11073,
+      "title": "Update nullable review rule to check project-level setting",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-03T13:50:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34735",
+      "number": 34735,
+      "title": "[iOS & Mac] Fix for SearchHandler retains previous page state when switching top tabs",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-04-03T13:47:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25074",
+      "number": 25074,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-03T11:40:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25076",
+      "number": 25076,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260403055317303 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-04-03T11:08:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29487",
+      "number": 29487,
+      "title": "[Windows] Fixed CollectionView.EmptyView can not be removed by setting it to Null",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-04-03T11:01:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29545",
+      "number": 29545,
+      "title": "[Android] Fix for SearchHandler retaining previous page SearchView data in pages within Shell sections",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-04-03T10:57:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30324",
+      "number": 30324,
+      "title": "[Windows] Fixed Entry Editor placeholder Text CharacterSpacing ",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-04-03T10:55:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34138",
+      "number": 34138,
+      "title": "[Windows] Implement WinUI 3 MapControl handler using Azure Maps",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-03T10:03:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25073",
       "number": 25073,
       "title": "[main] Update dependencies from dotnet/xharness",
@@ -47921,7 +48071,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-03T08:19:22.705Z",
+  "lastUpdated": "2026-04-03T16:12:48.077Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
