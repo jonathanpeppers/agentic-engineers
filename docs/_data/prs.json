@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/30242",
+      "number": 30242,
+      "title": "[Android] Exception thrown when give more than 5000 characters to the Text property of Entry.",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-04-04T15:53:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32775",
+      "number": 32775,
+      "title": "[iOS, MacOS] Fixed FlowDirection not working on Header/Footer in CollectionView ",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-04-04T15:50:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30193",
+      "number": 30193,
+      "title": "[iOS] Fix for DatePicker FlowDirection Not Working on iOS",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-04-04T15:49:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25081",
+      "number": 25081,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-04T15:30:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33917",
+      "number": 33917,
+      "title": "Fix: Filter precompressed RCL assets from MAUI Blazor Hybrid APKs",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-04T10:56:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33042",
+      "number": 33042,
+      "title": "[Windows] Fixed Picker items width wont resize back",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-04-04T10:53:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32708",
+      "number": 32708,
+      "title": "[Mac]  DeviceDisplay.KeepScreenOn not being respected on Mac OS",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-04-04T10:46:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34239",
+      "number": 34239,
+      "title": "[Android] Fix SafeAreaShouldWorkOnAllShellTabs test failure on API 36",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-04-04T10:29:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34345",
+      "number": 34345,
+      "title": "Fix Loaded event not called for MAUI View added to native View",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-04-04T10:21:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34521",
+      "number": 34521,
+      "title": "Fix TalkBack not correctly narrating RadioButtons with Content",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-04-04T10:14:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34812",
+      "number": 34812,
+      "title": "[iOS] Fix Label with TailTruncation not rendering after empty-to-non-empty text transition",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-04T10:11:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34444",
+      "number": 34444,
+      "title": "Fix Disabled visual state ignored when Button has locally-set BackgroundColor/TextColor",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-04-04T10:11:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3641",
       "number": 3641,
       "title": "Add a PR merge commit message skill",
@@ -48211,7 +48331,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-04T08:12:59.436Z",
+  "lastUpdated": "2026-04-04T16:09:31.668Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
