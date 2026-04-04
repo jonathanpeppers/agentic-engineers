@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3633",
+      "number": 3633,
+      "title": "Delay-load D3D12 DLLs to prevent crashes on systems without DX12",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-03T23:14:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34808",
+      "number": 34808,
+      "title": "Revert \"[iOS] Fix Label with TailTruncation not rendering after empty-to-non-empty text transition\"",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-03T21:50:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25058",
+      "number": 25058,
+      "title": "[net11.0] Bump dependency/support for .NET 10 Xcode 26.4 packages",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-03T21:06:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3639",
+      "number": 3639,
+      "title": "Refactor GitHub Pages: PR staging subfolders on docs-live branch",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-03T20:45:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34806",
+      "number": 34806,
+      "title": "Add android-36.1 and android-37 to SDK provisioning API levels",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-03T20:31:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34801",
+      "number": 34801,
+      "title": "Skip simulator install in official pack pipeline",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-03T19:00:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1400",
+      "number": 1400,
+      "title": "Bump external/xamarin-android-tools from `ec5040a` to `a428178`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-04-03T17:56:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11075",
+      "number": 11075,
+      "title": "[skills] Improve android-reviewer skill based on eval findings",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-03T17:14:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11039",
+      "number": 11039,
+      "title": "Move RemoveResourceDesignerStep out of ILLink process",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-04-03T17:13:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34760",
+      "number": 34760,
+      "title": "[Testing] Fixed test failure in PR 34617 - [30/03/2026] Candidate",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-04-03T17:00:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25071",
+      "number": 25071,
+      "title": "[xcode26.5] Initial bump PR for Xcode 26.5 Beta 1",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-03T16:34:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34574",
+      "number": 34574,
+      "title": "Bump MonoApiToolsMSBuildTasksPackageVersion to 0.5.0 and ship Essentials.AI public APIs",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-03T16:32:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/24275",
+      "number": 24275,
+      "title": "[Android] Prevent the tap that closes an open SwipeView from being propagated to children",
+      "repo": "dotnet/maui",
+      "author": "sjordanGSS",
+      "mergedAt": "2026-04-03T16:16:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34799",
       "number": 34799,
       "title": "[release/11.0.1xx-preview3] Update dependencies from dotnet/dotnet",
@@ -48071,7 +48201,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-03T16:12:48.077Z",
+  "lastUpdated": "2026-04-04T00:24:36.981Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
