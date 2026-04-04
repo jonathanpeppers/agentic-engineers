@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3641",
+      "number": 3641,
+      "title": "Add a PR merge commit message skill",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-04T00:37:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3633",
       "number": 3633,
       "title": "Delay-load D3D12 DLLs to prevent crashes on systems without DX12",
@@ -48201,7 +48211,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-04T00:24:36.981Z",
+  "lastUpdated": "2026-04-04T08:12:59.436Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
