@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34779",
+      "number": 34779,
+      "title": "[Android] Fixed NullReferenceException in app with TabBar after returning from minimized state",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-04-05T15:07:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34228",
       "number": 34228,
       "title": "Add public IAlertManager and IAlertManagerSubscription interfaces",
@@ -48341,7 +48351,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-05T08:12:50.933Z",
+  "lastUpdated": "2026-04-05T16:09:17.041Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
