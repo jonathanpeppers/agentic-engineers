@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25088",
+      "number": 25088,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-06T08:12:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25078",
+      "number": 25078,
+      "title": "[net11.0] [dotnet] Sign net11.0 workload msbuild task DLLs",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-06T07:54:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25085",
+      "number": 25085,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-06T07:27:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25084",
+      "number": 25084,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-06T06:57:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34151",
       "number": 34151,
       "title": "[iOS] CollectionView: Fix drag-and-drop reordering into empty groups",
@@ -48361,7 +48401,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-06T00:27:08.218Z",
+  "lastUpdated": "2026-04-06T08:33:44.576Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
