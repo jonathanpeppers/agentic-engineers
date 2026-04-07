@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34849",
+      "number": 34849,
+      "title": "Use batched trigger for ui-tests/device-tests pipelines",
+      "repo": "dotnet/maui",
+      "author": "akoeplinger",
+      "mergedAt": "2026-04-07T15:54:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25096",
+      "number": 25096,
+      "title": "[scripts] Make 'rsp-to-csproj' add included files into folders.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-07T15:49:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25093",
+      "number": 25093,
+      "title": "[tests] Add manifest timestamp checks to WindowsTest.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-07T15:17:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/22208",
+      "number": 22208,
+      "title": "Added a support for GradientBrushes on Shape.Stroke",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-07T14:45:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25099",
+      "number": 25099,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-04-07T14:05:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33288",
+      "number": 33288,
+      "title": "Fix crash when displaying alerts on unloaded pages",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-07T13:07:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/69",
+      "number": 69,
+      "title": "Update arcade versions",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-07T12:34:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34013",
+      "number": 34013,
+      "title": "[iOS26] Fix CarouselView scrolling to wrong item when navigating to last item",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-04-07T11:44:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34347",
+      "number": 34347,
+      "title": "Fixed SearchBar CursorPosition and SelectionLength not updating when typing",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-04-07T11:34:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34006",
+      "number": 34006,
+      "title": "[Windows] Fix for Runtime error when closing external window with WPF Webview Control",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-04-07T11:26:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/67",
+      "number": 67,
+      "title": "fix: exclude wwwroot static web assets from Windows PRI generation",
+      "repo": "dotnet/maui-labs",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-07T10:45:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25097",
+      "number": 25097,
+      "title": "Bump peterjgrainger/action-create-branch from 3.0.0 to 4.0.0",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-04-07T10:37:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34770",
+      "number": 34770,
+      "title": "[Android] Fix HideSoftInputOnTapped doesn't work on Modal Pages",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-04-07T09:34:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29442",
+      "number": 29442,
+      "title": "Fixed Custom Drawable does not support binding",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-04-07T09:30:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34700",
+      "number": 34700,
+      "title": "[iOS] Fix vertical CarouselView MandatorySingle snapping on iOS",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-04-07T09:07:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31867",
+      "number": 31867,
+      "title": "[Android] CollectionView: Fix drag-and-drop reordering into empty groups",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-04-07T09:01:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25103",
       "number": 25103,
       "title": "[CoreServices] Add deprecated attributes to FSEventStream RunLoop P/Invokes and fix UnscheduleFromRunLoop bug",
@@ -48561,7 +48721,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-07T08:27:54.051Z",
+  "lastUpdated": "2026-04-07T16:24:19.065Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
