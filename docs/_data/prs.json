@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25103",
+      "number": 25103,
+      "title": "[CoreServices] Add deprecated attributes to FSEventStream RunLoop P/Invokes and fix UnscheduleFromRunLoop bug",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-07T06:40:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25102",
+      "number": 25102,
+      "title": "[StoreKit] Update bindings up to Xcode 26.5 Beta 1",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-07T06:40:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25101",
+      "number": 25101,
+      "title": "[Photos] Update bindings up to Xcode 26.5 Beta 1",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-07T06:40:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25104",
+      "number": 25104,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-07T06:36:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24544",
+      "number": 24544,
+      "title": "[Foundation] Throws a specific exception in NSUrlSessionHandler when a certificate is needed but not provided. Fixes #24532.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-07T06:09:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11036",
+      "number": 11036,
+      "title": "[TrimmableTypeMap] Build pipeline: targets, stubs, manifest integration, feature switches",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-07T05:36:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25083",
       "number": 25083,
       "title": "[release/11.0.1xx-preview3] Update dependencies from dotnet/dotnet",
@@ -48501,7 +48561,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-07T00:26:56.207Z",
+  "lastUpdated": "2026-04-07T08:27:54.051Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
