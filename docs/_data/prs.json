@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34815",
+      "number": 34815,
+      "title": "Add eval.yaml for verify-tests-fail-without-fix skill",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-07T20:54:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/64",
+      "number": 64,
+      "title": "Fix set-property to update native platform views via BindableProperty",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-07T20:11:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/34",
+      "number": 34,
+      "title": "Add AI agent configuration: AGENTS.md, copilot-instructions, and instruction files",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-07T19:57:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34853",
+      "number": 34853,
+      "title": "[release/11.0.1xx-preview3] Bump macios SDKs to 26.2.11588-net11-p3",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-07T19:50:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/65",
+      "number": 65,
+      "title": "Fix DevFlow broker daemon silent failure and agent startup for Comet apps",
+      "repo": "dotnet/maui-labs",
+      "author": "davidortinau",
+      "mergedAt": "2026-04-07T19:50:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25065",
+      "number": 25065,
+      "title": "[msbuild] Fix Content/BundleResource with PublishFolderType not bundled in multi-RID builds. Fixes #25053.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-07T19:49:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25067",
+      "number": 25067,
+      "title": "[tests] Update the bgen tests.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-07T19:40:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25091",
+      "number": 25091,
+      "title": "[tests] Make NSStreamTest.ConnectToPeer time out cleanly.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-07T19:10:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25094",
+      "number": 25094,
+      "title": "[tests] Show full test names in html failure reports.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-07T18:52:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34540",
+      "number": 34540,
+      "title": "Enable CFSClean* policies for dotnet-maui pipeline",
+      "repo": "dotnet/maui",
+      "author": "mmitche",
+      "mergedAt": "2026-04-07T16:56:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34849",
       "number": 34849,
       "title": "Use batched trigger for ui-tests/device-tests pipelines",
@@ -48721,7 +48821,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-07T16:24:19.065Z",
+  "lastUpdated": "2026-04-08T00:27:46.768Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
