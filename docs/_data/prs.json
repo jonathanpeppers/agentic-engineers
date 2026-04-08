@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25108",
+      "number": 25108,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-04-08T07:46:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25082",
+      "number": 25082,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-08T07:10:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25106",
+      "number": 25106,
+      "title": "[tests] Add app size test for macOS, Mac Catalyst and tvOS as well.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-08T06:19:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34815",
       "number": 34815,
       "title": "Add eval.yaml for verify-tests-fail-without-fix skill",
@@ -48821,7 +48851,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-08T00:27:46.768Z",
+  "lastUpdated": "2026-04-08T08:26:54.683Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
