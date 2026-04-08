@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3631",
+      "number": 3631,
+      "title": "Update FullFrameworkTargetFrameworks to net48",
+      "repo": "mono/SkiaSharp",
+      "author": "4Darmygeometry",
+      "mergedAt": "2026-04-08T16:02:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3651",
+      "number": 3651,
+      "title": "Use MSIX packaging for the WinUI sample",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-08T15:40:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3650",
+      "number": 3650,
+      "title": "Fix docs staging workflow PR checkout",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-08T15:31:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25100",
+      "number": 25100,
+      "title": "Remove duplicate @ prefix from issueAuthor in GitOps",
+      "repo": "dotnet/macios",
+      "author": "akoeplinger",
+      "mergedAt": "2026-04-08T14:20:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34680",
+      "number": 34680,
+      "title": "[iOS] Fix ObjectDisposedException in ContentView.RemoveContentMask",
+      "repo": "dotnet/maui",
+      "author": "Oxymoron290",
+      "mergedAt": "2026-04-08T14:01:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34617",
+      "number": 34617,
+      "title": "March 30th, Inflight Candidate",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-08T13:56:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33208",
+      "number": 33208,
+      "title": "Fix for VisualStateManager Setter.TargetName failing when ControlTemplate is applied",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-04-08T12:55:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28935",
+      "number": 28935,
+      "title": "Fixed the OnPlatform does not work for header property in Collection view",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2026-04-08T12:50:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3648",
+      "number": 3648,
+      "title": "Fix loongarch64 Linux builds on main",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-08T11:46:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34659",
+      "number": 34659,
+      "title": "Add Shell badge support (BadgeText, BadgeColor, BadgeTextColor)",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-08T10:30:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25108",
       "number": 25108,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -48851,7 +48951,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-08T08:26:54.683Z",
+  "lastUpdated": "2026-04-08T16:27:25.132Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
