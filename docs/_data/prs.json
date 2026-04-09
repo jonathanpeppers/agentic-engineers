@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25123",
+      "number": 25123,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-09T06:37:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25113",
+      "number": 25113,
+      "title": "[dotnet] Don't remove the 'LaunchProfiles' capability for macOS projects.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-09T06:27:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25114",
+      "number": 25114,
+      "title": "[ObjCRuntime] Add a Class.GetClassName to avoid code duplication.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-09T06:27:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25117",
+      "number": 25117,
+      "title": "[iTunesLibrary] Clean up xtro files",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-09T06:23:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25116",
+      "number": 25116,
+      "title": "[CoreMotion] Clean up xtro files",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-09T06:23:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25118",
+      "number": 25118,
+      "title": "[MediaSetup] Add Mac Catalyst support",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-09T06:15:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25124",
+      "number": 25124,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-09T06:09:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34802",
+      "number": 34802,
+      "title": "Skip simulator install in official pack pipeline",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-09T00:58:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3653",
       "number": 3653,
       "title": "Update build-site workflow to remove path filters",
@@ -49001,7 +49081,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-09T00:22:38.228Z",
+  "lastUpdated": "2026-04-09T08:33:06.042Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
