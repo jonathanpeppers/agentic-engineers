@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11092",
+      "number": 11092,
+      "title": "[TrimmableTypeMap] Pass TargetType and InvokerType through JavaPeerProxy constructor",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-09T16:23:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3620",
+      "number": 3620,
+      "title": "Add Tizen x64 and arm64 native build support",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-09T16:15:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25127",
+      "number": 25127,
+      "title": "[xcode26.5] Merge main into xcode26.5",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-09T15:57:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11095",
+      "number": 11095,
+      "title": "[TrimmableTypeMap] Add typed logger interface",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-09T14:29:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31275",
+      "number": 31275,
+      "title": "CarouselView: Fix cascading PositionChanged/CurrentItemChanged events on collection update",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-04-09T14:27:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34895",
+      "number": 34895,
+      "title": "Fix XML doc build suggestions for enum remarks and unresolved inheritdoc",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-09T13:52:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25115",
+      "number": 25115,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-04-09T12:06:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34715",
+      "number": 34715,
+      "title": "Add x:Code directive support for inline C# in XAML",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-04-09T10:50:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25125",
+      "number": 25125,
+      "title": "[release/9.0.1xx] [devops] Install .NET 10 on bots.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-09T10:46:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34891",
+      "number": 34891,
+      "title": "[Testing] Fixed Build error on inflight/ candidate PR 34885",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-04-09T10:24:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34569",
+      "number": 34569,
+      "title": "Add MonochromeFile support for Android adaptive icons",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-09T10:20:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34669",
+      "number": 34669,
+      "title": "Add BadgeText, BadgeColor, and BadgeTextColor support to ToolbarItem",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-09T10:17:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25123",
       "number": 25123,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
@@ -49081,7 +49201,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-09T08:33:06.042Z",
+  "lastUpdated": "2026-04-09T16:31:31.122Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
