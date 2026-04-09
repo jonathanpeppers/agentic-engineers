@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3653",
+      "number": 3653,
+      "title": "Update build-site workflow to remove path filters",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-08T23:51:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3560",
+      "number": 3560,
+      "title": "Bump SkiaSharp to milestone 132",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-08T22:56:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32491",
+      "number": 32491,
+      "title": "Refactor the HybridWebView and properly support complex parameters",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-08T20:29:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25110",
+      "number": 25110,
+      "title": "[introspection] Enable nullability.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-08T18:01:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25111",
+      "number": 25111,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-04-08T17:03:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3631",
       "number": 3631,
       "title": "Update FullFrameworkTargetFrameworks to net48",
@@ -48951,7 +49001,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-08T16:27:25.132Z",
+  "lastUpdated": "2026-04-09T00:22:38.228Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
