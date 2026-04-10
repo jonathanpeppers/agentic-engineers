@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3076",
+      "number": 3076,
+      "title": "Fixed SKGLView on Android not being rendered when using a TabBar",
+      "repo": "mono/SkiaSharp",
+      "author": "SimonvBez",
+      "mergedAt": "2026-04-09T21:24:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33953",
+      "number": 33953,
+      "title": "[iOS] Fix Switch ThumbColor reset on iOS 26+ theme changes.",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-04-09T21:17:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3642",
+      "number": 3642,
+      "title": "Add PolySharp for C# 13 support on legacy TFMs",
+      "repo": "mono/SkiaSharp",
+      "author": "4Darmygeometry",
+      "mergedAt": "2026-04-09T21:06:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25119",
+      "number": 25119,
+      "title": "[LocalAuthenticationEmbeddedUI] Update bindings and xtro",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-09T18:00:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11092",
       "number": 11092,
       "title": "[TrimmableTypeMap] Pass TargetType and InvokerType through JavaPeerProxy constructor",
@@ -49201,7 +49241,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-09T16:31:31.122Z",
+  "lastUpdated": "2026-04-10T00:26:24.580Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
