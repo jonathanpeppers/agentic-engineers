@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11086",
+      "number": 11086,
+      "title": "Exclude satellite assemblies from _PostTrimmingPipeline",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-04-10T15:46:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33459",
+      "number": 33459,
+      "title": "[UIKit] Avoid useless measure invalidation propagation cycles",
+      "repo": "dotnet/maui",
+      "author": "albyrock87",
+      "mergedAt": "2026-04-10T09:57:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33979",
+      "number": 33979,
+      "title": "[Windows] Fix Narrator announcing ContentView children twice when Description is set",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-04-10T09:49:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33330",
+      "number": 33330,
+      "title": "Fixed Stacklayout is not rendered when clip is applied and StackLayout placed child to the Border control in iOS/ Mac platform",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-04-10T09:47:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34741",
+      "number": 34741,
+      "title": "[iOS/macCatalyst] Fix Entry and Editor BackgroundColor reset when set to null",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-04-10T08:47:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33133",
+      "number": 33133,
+      "title": "[Android] Fix WebView scrolling inside ScrollView",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-04-10T08:41:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11097",
       "number": 11097,
       "title": "[TrimmableTypeMap] Manifest rooting and deferred registration propagation",
@@ -49271,7 +49331,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-10T08:32:44.794Z",
+  "lastUpdated": "2026-04-10T16:19:47.247Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
