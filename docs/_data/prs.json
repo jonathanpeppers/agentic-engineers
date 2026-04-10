@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11097",
+      "number": 11097,
+      "title": "[TrimmableTypeMap] Manifest rooting and deferred registration propagation",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-10T07:43:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11100",
+      "number": 11100,
+      "title": "[TrimmableTypeMap] Use proxy associations for managed -> JNI lookups",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-10T07:42:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11094",
+      "number": 11094,
+      "title": "[TrimmableTypeMap] Fix UCO constructor activations",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-10T07:34:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3076",
       "number": 3076,
       "title": "Fixed SKGLView on Android not being rendered when using a TabBar",
@@ -49241,7 +49271,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-10T00:26:24.580Z",
+  "lastUpdated": "2026-04-10T08:32:44.794Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
