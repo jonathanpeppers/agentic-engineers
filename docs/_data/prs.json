@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11090",
+      "number": 11090,
+      "title": "[TrimmableTypeMap] Runtime-only trimmable typemap support",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-10T22:50:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3658",
+      "number": 3658,
+      "title": "Improve update-skia skill from m133 bump analysis",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-10T18:45:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11096",
+      "number": 11096,
+      "title": "[TrimmableTypeMap] Scanner and JCW edge-case fixes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-10T18:39:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30014",
+      "number": 30014,
+      "title": "[Windows] Fixed ItemSpacing doesn't work in Carousel View",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-04-10T18:10:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34882",
+      "number": 34882,
+      "title": "[Android] Fix CollectionView dynamic item sizing reset after scroll",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-04-10T18:02:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34901",
+      "number": 34901,
+      "title": "[Android] Fix NRE in ContainerView when Android Context is null during lifecycle transition",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-10T17:37:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3656",
+      "number": 3656,
+      "title": "Fix cgmanifest.json version drift and improve security-audit skill",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-10T16:42:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11086",
       "number": 11086,
       "title": "Exclude satellite assemblies from _PostTrimmingPipeline",
@@ -49331,7 +49401,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-10T16:19:47.247Z",
+  "lastUpdated": "2026-04-11T00:25:52.796Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
