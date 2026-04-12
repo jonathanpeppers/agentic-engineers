@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/31910",
+      "number": 31910,
+      "title": "[Android] Fix for TimePicker Dialog doesn't update the layout when rotating the device with dialog open",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-04-12T14:36:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33346",
+      "number": 33346,
+      "title": "[Android, iOS] Button: Fix VisualState properties not restored when leaving custom state",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-04-12T14:02:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33891",
+      "number": 33891,
+      "title": "[Windows] Fix password Entry crash when setting text on empty field",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-04-12T12:04:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33584",
+      "number": 33584,
+      "title": "BindableObject property access micro-optimizations",
+      "repo": "dotnet/maui",
+      "author": "albyrock87",
+      "mergedAt": "2026-04-12T11:52:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34781",
+      "number": 34781,
+      "title": "Fix RadioButtonGroup not working with ContentView",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-04-12T11:49:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3665",
       "number": 3665,
       "title": "Fix review-skia-update milestone detection",
@@ -49411,7 +49461,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-12T08:18:18.033Z",
+  "lastUpdated": "2026-04-12T16:11:24.909Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
