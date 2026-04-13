@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34934",
+      "number": 34934,
+      "title": "[Testing] Fix Label CharacterSpacing/LineHeight/TextDecorations test for HTML labels",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-13T16:16:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34673",
+      "number": 34673,
+      "title": "Fix: MauiView.DidUpdateFocus only clears IsFocused if it was the one that set it",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-13T16:09:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34938",
+      "number": 34938,
+      "title": "Fixed test failure - CursorPositionUpdatesWhenSearchBarGainsFocus",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-04-13T16:05:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1395",
+      "number": 1395,
+      "title": "Stable Updates 20260406",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-13T15:42:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11082",
+      "number": 11082,
+      "title": "Remove duplicate @ prefix from issueAuthor in GitOps",
+      "repo": "dotnet/android",
+      "author": "akoeplinger",
+      "mergedAt": "2026-04-13T15:40:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11080",
+      "number": 11080,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-13T15:21:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11079",
+      "number": 11079,
+      "title": "Bump external/Java.Interop from `dc55197` to `c7b4ea6`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-04-13T15:18:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34933",
+      "number": 34933,
+      "title": "[Testing] Fixed UI test image failure in PR 34885 - [13/4/2026] ",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-04-13T13:11:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34905",
+      "number": 34905,
+      "title": "Update Controls.ManualTest project: changes the android SupportedOSPlatformVersion from 21 to 24",
+      "repo": "dotnet/maui",
+      "author": "CathyZhu0110",
+      "mergedAt": "2026-04-13T12:24:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11037",
+      "number": 11037,
+      "title": "[TrimmableTypeMap] Root AndroidManifest-referenced types",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-13T11:47:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/29",
+      "number": 29,
+      "title": "feat: Add Linux GTK4 MAUI Backend",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-13T11:33:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30369",
+      "number": 30369,
+      "title": "[Android, iOS] Fixed TimePicker FlowDirection Not Applied Across Platforms",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-04-13T11:29:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32167",
+      "number": 32167,
+      "title": "[NET11.0][Editor] Implemented Completed command",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-04-13T11:07:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/56",
+      "number": 56,
+      "title": "Add Apple platform commands to CLI",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-13T11:01:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34928",
+      "number": 34928,
+      "title": "[Android] [Candidate branch] Fix VerifySelectedItemClearsOnNullAssignment, CollectionViewSelectionShouldClear, SelectedItemVisualIsCleared UI test failure on Android ",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-04-13T10:45:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30382",
+      "number": 30382,
+      "title": "[Windows] Fix for Shell.FlyoutBehavior=\"Flyout\" forces the title height space above the tab bar even if the page title is empty",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-04-13T10:41:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34687",
+      "number": 34687,
+      "title": "Fix CollectionView not scrolling to top on iOS status bar tap",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-13T10:16:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25080",
+      "number": 25080,
+      "title": "[net11.0] [tests] Expand the AppSizeTest to more platforms.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-13T08:56:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/48",
       "number": 48,
       "title": "Fix orphaned crashpad_handler processes after Android emulator stop",
@@ -49591,7 +49771,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-13T08:43:29.525Z",
+  "lastUpdated": "2026-04-13T16:28:44.462Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
