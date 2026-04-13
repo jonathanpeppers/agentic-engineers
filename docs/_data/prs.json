@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/48",
+      "number": 48,
+      "title": "Fix orphaned crashpad_handler processes after Android emulator stop",
+      "repo": "dotnet/maui-labs",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-13T08:26:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25136",
+      "number": 25136,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-13T08:22:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25126",
+      "number": 25126,
+      "title": "Remove duplicate entries in Directory.Build.props.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-13T07:55:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25130",
+      "number": 25130,
+      "title": "[msbuild] Ignore CS1685 in Xamarin.MacDev.Tasks tests.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-13T07:55:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/73",
+      "number": 73,
+      "title": "Fix Android install bootstrap when sdkmanager is missing",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-13T07:54:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25131",
+      "number": 25131,
+      "title": "[SecurityUI] Clean up xtro",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-13T07:54:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25128",
+      "number": 25128,
+      "title": "[PrintCore] Update bindings and clear xtro",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-13T07:53:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25132",
+      "number": 25132,
+      "title": "[SystemConfiguration] Cleanup xtro files",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-13T07:45:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25134",
+      "number": 25134,
+      "title": "[SafetyKit] Enable bindings in MacCatalyst",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-13T07:45:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25138",
+      "number": 25138,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-13T07:35:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25139",
+      "number": 25139,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-13T07:30:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25137",
+      "number": 25137,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-13T07:23:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/30201",
       "number": 30201,
       "title": "Fix Changing Location on a Pin does nothing",
@@ -49471,7 +49591,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-13T00:29:37.254Z",
+  "lastUpdated": "2026-04-13T08:43:29.525Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
