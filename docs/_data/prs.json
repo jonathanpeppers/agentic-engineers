@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/30201",
+      "number": 30201,
+      "title": "Fix Changing Location on a Pin does nothing",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-04-12T22:20:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/31910",
       "number": 31910,
       "title": "[Android] Fix for TimePicker Dialog doesn't update the layout when rotating the device with dialog open",
@@ -49461,7 +49471,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-12T16:11:24.909Z",
+  "lastUpdated": "2026-04-13T00:29:37.254Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
