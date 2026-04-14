@@ -1,6 +1,196 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25050",
+      "number": 25050,
+      "title": "[net11.0] Make CoreCLR the default runtime.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-14T15:38:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/329",
+      "number": 329,
+      "title": "[Build.Tasks] Use LogDebugMessage instead of LogWarning in ExtractAll()",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-14T15:33:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25145",
+      "number": 25145,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-04-14T15:19:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25129",
+      "number": 25129,
+      "title": "[msbuild] Revamp finding a simulator to use when running an app in the simulator. Fixes #25112.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-14T14:33:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11105",
+      "number": 11105,
+      "title": "[TrimmableTypeMap] Propagate deferred registerNatives to base classes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-14T14:19:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11059",
+      "number": 11059,
+      "title": "Move FixLegacyResourceDesignerStep to post-trim pipeline",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-04-14T14:18:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11106",
+      "number": 11106,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13828023",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-04-14T14:04:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1401",
+      "number": 1401,
+      "title": "[Java.Interop.Tools.Cecil] Fix retry logic in ReadAssembly to skip symbol loading",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-14T13:16:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/328",
+      "number": 328,
+      "title": "Validate extracted zip entry paths in Files.ExtractAll",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-14T13:15:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/79",
+      "number": 79,
+      "title": "Add initial es-metadata.yml configuration file",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-14T13:11:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28071",
+      "number": 28071,
+      "title": "Fix Path Rendering Issue Inside StackLayout When Margin Is Set",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-04-14T10:53:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34936",
+      "number": 34936,
+      "title": "Fix Shell flyout items scrolling behind FlyoutHeader on iOS",
+      "repo": "dotnet/maui",
+      "author": "Qythyx",
+      "mergedAt": "2026-04-14T10:43:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34951",
+      "number": 34951,
+      "title": "[Testing] Fix Label CharacterSpacing/LineHeight/TextDecorations test for HTML labels (#34934)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-14T10:19:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34950",
+      "number": 34950,
+      "title": "[iOS] Fix FlyoutHeaderScroll device test regression (#34932)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-14T10:17:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25109",
+      "number": 25109,
+      "title": "[dotnet-linker] Create an xml descriptor instead of manual marking when applying the [Preserve] attribute.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-14T10:13:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34948",
+      "number": 34948,
+      "title": "Revert \"[iOS] Fix FlyoutHeaderScroll device test regression\"",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-14T10:11:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34932",
+      "number": 34932,
+      "title": "[iOS] Fix FlyoutHeaderScroll device test regression",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-14T09:57:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34947",
+      "number": 34947,
+      "title": "[iOS] Fix Issue12574Test regression caused by early-exit guard in CollectionViewUpdating",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-04-14T09:51:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25121",
+      "number": 25121,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-14T09:38:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/78",
       "number": 78,
       "title": "fix: Use Arcade-provisioned SDK for workload install in AzDO pipeline",
@@ -49901,7 +50091,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-14T08:35:47.887Z",
+  "lastUpdated": "2026-04-14T16:27:04.748Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
