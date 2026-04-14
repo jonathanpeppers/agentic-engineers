@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34943",
+      "number": 34943,
+      "title": "Update PatchVersion from 60 to 70",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-14T00:08:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34942",
+      "number": 34942,
+      "title": "Stabilize Version 10.0.60",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-14T00:07:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3667",
+      "number": 3667,
+      "title": "Auto-sync submodules and DEPS in review-skia-update orchestrator",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-13T22:34:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34620",
+      "number": 34620,
+      "title": "Consolidate file path resolution for WebView controls",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-13T22:24:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34383",
+      "number": 34383,
+      "title": "[iOS] Fixed CollectionView Scroll Jitter for TextType HTML Labels",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-04-13T21:30:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11050",
+      "number": 11050,
+      "title": "[TrimmableTypeMap] Add GetStaticMethodFallbackTypesCore override for desugared default interface methods",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-13T21:01:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11072",
+      "number": 11072,
+      "title": "Fix API 37 platform directory name: android-37 to android-37.0",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-13T19:45:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25142",
+      "number": 25142,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-04-13T18:51:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25143",
+      "number": 25143,
+      "title": "[tests] Improve the AppSizeTest a bit.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-13T17:57:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25144",
+      "number": 25144,
+      "title": "Bump actions/github-script from 8.0.0 to 9.0.0",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-04-13T17:53:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30533",
+      "number": 30533,
+      "title": "[Windows] Fixed TimePicker CharacterSpacing issue",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-04-13T17:44:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/26217",
+      "number": 26217,
+      "title": "[Windows] TabbedPage: Refresh layout when NavigationView size changes",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-04-13T17:37:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34934",
       "number": 34934,
       "title": "[Testing] Fix Label CharacterSpacing/LineHeight/TextDecorations test for HTML labels",
@@ -49771,7 +49891,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-13T16:28:44.462Z",
+  "lastUpdated": "2026-04-14T00:31:53.072Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
