@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/java-interop/pull/1402",
+      "number": 1402,
+      "title": "Bump external/xamarin-android-tools from `a428178` to `d222cfe`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-04-15T16:04:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34705",
+      "number": 34705,
+      "title": "[CI] Extend gate to all test types and decouple from PR review",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-15T16:03:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11110",
+      "number": 11110,
+      "title": "Use Assert.Inconclusive for emulator acquisition failures",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-15T15:21:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25153",
+      "number": 25153,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-15T14:26:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25140",
+      "number": 25140,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-15T14:08:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11117",
+      "number": 11117,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260415103450130 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-04-15T13:30:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34954",
+      "number": 34954,
+      "title": "[iOS] Fix HEIC images picked via PickPhotosAsync not displayed",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-04-15T13:03:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/758",
+      "number": 758,
+      "title": "Remove ValidateXcodeVersion workaround for .NET 11 samples",
+      "repo": "dotnet/maui-samples",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-15T09:59:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34557",
+      "number": 34557,
+      "title": "Fixed FlowDirection property not working on Drawable control and GraphicsView",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-04-15T09:51:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/706",
+      "number": 706,
+      "title": "Created Sample for Picker dialog customization",
+      "repo": "dotnet/maui-samples",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-04-15T09:48:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/757",
+      "number": 757,
+      "title": "Update CI to use Xcode 26.3",
+      "repo": "dotnet/maui-samples",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-15T09:20:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34963",
       "number": 34963,
       "title": "Fix CS8602 nullable dereference in ToolbarBadgePage",
@@ -50341,7 +50451,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-15T08:35:47.566Z",
+  "lastUpdated": "2026-04-15T16:24:28.036Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
