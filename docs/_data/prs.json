@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34963",
+      "number": 34963,
+      "title": "Fix CS8602 nullable dereference in ToolbarBadgePage",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-15T07:29:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25147",
+      "number": 25147,
+      "title": "[tests] Improve LinkSdk.DllImportTest.PingSend to try to ping multiple hosts.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-15T06:52:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25152",
+      "number": 25152,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-15T06:31:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25155",
+      "number": 25155,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-15T05:49:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25150",
+      "number": 25150,
+      "title": "[xharness] Add TestReporter implementation to detect crashes properly.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-15T05:47:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34958",
       "number": 34958,
       "title": "Fix HybridWebView NativeAOT warning path",
@@ -50291,7 +50341,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-15T00:32:14.216Z",
+  "lastUpdated": "2026-04-15T08:35:47.566Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
