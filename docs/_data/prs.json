@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34958",
+      "number": 34958,
+      "title": "Fix HybridWebView NativeAOT warning path",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-15T00:30:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3671",
+      "number": 3671,
+      "title": "Add weekly sweep to clean stale PR staging directories",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-14T22:31:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3217",
+      "number": 3217,
+      "title": "Add Android Bionic Library build support",
+      "repo": "mono/SkiaSharp",
+      "author": "4Darmygeometry",
+      "mergedAt": "2026-04-14T22:29:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3660",
+      "number": 3660,
+      "title": "Bump skia to milestone 133 (G)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-14T22:28:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3662",
+      "number": 3662,
+      "title": "Improve update-skia merge conflict guidance",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-14T22:22:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3670",
+      "number": 3670,
+      "title": "Fix docs deploy race condition by serializing Go Live deployments",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-14T21:59:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3668",
+      "number": 3668,
+      "title": "Redesign docs homepage: gallery, features, code showcase & cleanup",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-14T21:50:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3669",
+      "number": 3669,
+      "title": "[Gallery] Refine Image Decoder metadata overlay",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-14T21:44:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/753",
+      "number": 753,
+      "title": "Add InvalidateStyle demo sample for .NET MAUI 11",
+      "repo": "dotnet/maui-samples",
+      "author": "davidortinau",
+      "mergedAt": "2026-04-14T21:24:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/743",
+      "number": 743,
+      "title": "Add Map pin clustering sample for .NET MAUI 11 preview 3",
+      "repo": "dotnet/maui-samples",
+      "author": "davidortinau",
+      "mergedAt": "2026-04-14T21:23:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/752",
+      "number": 752,
+      "title": "Add LongPressGestureRecognizer sample for .NET MAUI 11",
+      "repo": "dotnet/maui-samples",
+      "author": "davidortinau",
+      "mergedAt": "2026-04-14T21:15:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/756",
+      "number": 756,
+      "title": "Add workload update to CI to fix .NET 11 preview manifest resolution",
+      "repo": "dotnet/maui-samples",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-14T20:58:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34945",
+      "number": 34945,
+      "title": "Refresh Blazor Hybrid templates to align with .NET 11 Blazor Web App template updates",
+      "repo": "dotnet/maui",
+      "author": "ilonatommy",
+      "mergedAt": "2026-04-14T20:33:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/755",
+      "number": 755,
+      "title": "Add Directory.Build.props for centralized .NET 11 version management",
+      "repo": "dotnet/maui-samples",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-14T20:25:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/754",
+      "number": 754,
+      "title": "Add 11.0 folder with global.json for .NET 11 previews",
+      "repo": "dotnet/maui-samples",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-14T19:10:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34852",
+      "number": 34852,
+      "title": "[net11.0] Update dependencies to preview.3 build 26202.110",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-14T18:56:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11109",
+      "number": 11109,
+      "title": "Remove broken 'Windows > Tests > Debugging' CI lane",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-14T18:56:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11107",
+      "number": 11107,
+      "title": "Bump external/Java.Interop from `c7b4ea6` to `85919bb`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-04-14T18:55:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11108",
+      "number": 11108,
+      "title": "Bump external/xamarin-android-tools from `a428178` to `9b8ef3c`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-04-14T18:54:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25018",
+      "number": 25018,
+      "title": "[dotnet-linker] Use [DynamicDependency] attributes instead of manual marking when marking static registrar methods.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-14T18:05:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25050",
       "number": 25050,
       "title": "[net11.0] Make CoreCLR the default runtime.",
@@ -50091,7 +50291,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-14T16:27:04.748Z",
+  "lastUpdated": "2026-04-15T00:32:14.216Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
