@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3672",
+      "number": 3672,
+      "title": "[build] Split Tizen native CI into per-architecture jobs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-15T22:47:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1399",
+      "number": 1399,
+      "title": "Update configuration and artifacts for stable release",
+      "repo": "dotnet/android-libraries",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-04-15T21:01:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11081",
+      "number": 11081,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-15T20:44:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1404",
+      "number": 1404,
+      "title": "[ci] Use PublishTestResults@2 instead of DotNetCoreCLI@2 built-in publishing",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-15T20:36:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11113",
+      "number": 11113,
+      "title": "Bump external/xamarin-android-tools from `9b8ef3c` to `d222cfe`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-04-15T18:51:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3675",
+      "number": 3675,
+      "title": "Add release-notes-audit skill for Skia API gap analysis",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-15T18:09:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25157",
+      "number": 25157,
+      "title": "[apidiff] Update reference/stable versions to latest .NET 10 / Xcode 26.3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-15T17:53:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34678",
+      "number": 34678,
+      "title": "Improve evaluate-pr-tests workflow: slash_command + workflow_dispatch, security hardening",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-15T17:21:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/java-interop/pull/1402",
       "number": 1402,
       "title": "Bump external/xamarin-android-tools from `a428178` to `d222cfe`",
@@ -50451,7 +50531,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-15T16:24:28.036Z",
+  "lastUpdated": "2026-04-16T00:32:43.110Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
