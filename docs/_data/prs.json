@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/10862",
+      "number": 10862,
+      "title": "[dotnet test] Add `androidtest` project template and `dotnet run` instrumentation support",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-16T16:27:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25159",
+      "number": 25159,
+      "title": "[xcode26.5] Merge main into xcode26.5",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-16T14:55:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1403",
+      "number": 1403,
+      "title": "[Java.Interop] fix global ref leak in ConstructPeer",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-16T14:51:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/86",
+      "number": 86,
+      "title": "Switch docs-check workflow from create-pull-request to create-issue",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-16T14:27:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/84",
+      "number": 84,
+      "title": "Rename marketplace from dotnet-maui-labs-skills to dotnet-maui-labs",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-16T14:14:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/58",
+      "number": 58,
+      "title": "Add skills marketplace infrastructure",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-16T13:57:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34686",
+      "number": 34686,
+      "title": "Add automated milestone management with Versions.props detection",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-16T13:42:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11121",
+      "number": 11121,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13854166",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-04-16T13:30:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34978",
+      "number": 34978,
+      "title": "Pin iOS simulator version to match selected Xcode in provisioning",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-16T13:16:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/35",
+      "number": 35,
+      "title": "Add weekly AI docs audit via Copilot coding agent",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-16T11:44:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34839",
+      "number": 34839,
+      "title": "Fix [Android] Title of FlyOutPage is not updating anymore after showing a NonFlyOutPage",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-04-16T11:29:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/36",
+      "number": 36,
+      "title": "Add PR documentation check agentic workflow",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-16T10:59:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34982",
+      "number": 34982,
+      "title": "[iOS,MacCatalyst] Fix for SwipeView.Open() throwing an ArgumentException on the second programmatic call",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-04-16T10:28:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/75",
+      "number": 75,
+      "title": "Add maui-platform-backend Copilot skill",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-16T09:10:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34991",
       "number": 34991,
       "title": "Fix duplicate issue number crash breaking all Windows UI tests",
@@ -50571,7 +50711,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-16T08:35:49.431Z",
+  "lastUpdated": "2026-04-16T16:34:03.062Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
