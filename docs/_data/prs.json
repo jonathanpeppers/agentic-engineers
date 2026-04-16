@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34991",
+      "number": 34991,
+      "title": "Fix duplicate issue number crash breaking all Windows UI tests",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-16T08:15:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/83",
+      "number": 83,
+      "title": "docs: Update READMEs with missing command groups and features",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-16T07:56:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/82",
+      "number": 82,
+      "title": "Align DevFlow with the v1 spec and integration harness",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-16T07:03:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25164",
+      "number": 25164,
+      "title": "CoreSpotlight: fix 'occured' -> 'occurred' in CSEnums XML doc comment",
+      "repo": "dotnet/macios",
+      "author": "SAY-5",
+      "mergedAt": "2026-04-16T06:14:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3672",
       "number": 3672,
       "title": "[build] Split Tizen native CI into per-architecture jobs",
@@ -50531,7 +50571,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-16T00:32:43.110Z",
+  "lastUpdated": "2026-04-16T08:35:49.431Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
