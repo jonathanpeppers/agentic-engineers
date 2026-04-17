@@ -1,6 +1,226 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/91",
+      "number": 91,
+      "title": "Port Maui.Gtk PR #19: refactor CairoPlatformImage stream handling",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-17T15:58:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/93",
+      "number": 93,
+      "title": "Add Wayland support for Linux key simulation and screen recording",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-17T15:57:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34827",
+      "number": 34827,
+      "title": " [Windows] Fix Preserve ScrollView offsets when Orientation changes to Neither",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-04-17T15:40:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34880",
+      "number": 34880,
+      "title": "[iOS, Mac] Fix Shell.CurrentState.Location stale in OnNavigated after GoToAsync",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-04-17T15:24:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35012",
+      "number": 35012,
+      "title": "[Android] Fix SwipeViewShouldNotClose test failure regression",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-04-17T14:36:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35013",
+      "number": 35013,
+      "title": " [Android] Fix VerifyHybridWebViewWithShadow UI test regression on candidate branch",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-04-17T14:34:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35000",
+      "number": 35000,
+      "title": "[Android] Fix VerifyFlowDirectionRTLCanReorderItemsTrueWithCanMixGroups test failure regression",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-04-17T14:32:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34996",
+      "number": 34996,
+      "title": "[Android] Fix CarouselView Issue23291 and Issue29216 test regression on candidate branch",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-04-17T14:31:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34804",
+      "number": 34804,
+      "title": "Cache Gradle downloads between CI runs to avoid transient failures",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-17T14:20:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25166",
+      "number": 25166,
+      "title": "[ObjCRuntime] Provide a way to remove an object from the object map.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-17T13:59:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11132",
+      "number": 11132,
+      "title": "Compute Java name hashes on demand instead of pre-computing both",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-17T13:50:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11126",
+      "number": 11126,
+      "title": "Port TypeMapObjectsXmlFile.Import to XmlReader streaming",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-17T13:43:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25169",
+      "number": 25169,
+      "title": "[main] Bump Xcode to 26.4.1",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-17T13:24:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/759",
+      "number": 759,
+      "title": "Update application description in README.md",
+      "repo": "dotnet/maui-samples",
+      "author": "rgunawans",
+      "mergedAt": "2026-04-17T12:45:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25172",
+      "number": 25172,
+      "title": "[tests] Improve diagnostics a bit for DeskCase_83099_InmutableDictionary when it fails.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-17T12:08:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11144",
+      "number": 11144,
+      "title": "[TrimmableTypeMap] Fix IL1034 by excluding app assembly from trimmer roots",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-17T11:22:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25167",
+      "number": 25167,
+      "title": "[xcode26.5] Bump to Xcode 26.5 Beta 2",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-04-17T10:25:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34956",
+      "number": 34956,
+      "title": "[Android] Fix CollectionView EmptyView not displayed correctly",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-04-17T09:19:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34877",
+      "number": 34877,
+      "title": "[Testing] SafeArea Feature Matrix Test Cases for ContentPage",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-04-17T09:03:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34719",
+      "number": 34719,
+      "title": "Fix VisualStateGroups duplicate name crash with implicit styles (#34716)",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-04-17T08:53:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34969",
+      "number": 34969,
+      "title": "Fix NullReferenceException when tapping Map with no overlays on iOS",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-17T08:51:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28335",
+      "number": 28335,
+      "title": "[Windows] Fix for RadioButton BorderColor and BorderWidth not updated at runtime",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-04-17T08:39:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25120",
       "number": 25120,
       "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
@@ -50991,7 +51211,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-17T08:35:40.905Z",
+  "lastUpdated": "2026-04-17T16:21:30.661Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
