@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25120",
+      "number": 25120,
+      "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-17T07:44:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25168",
+      "number": 25168,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-17T07:43:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25161",
+      "number": 25161,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-17T07:18:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25165",
+      "number": 25165,
+      "title": "[src] Review xml docs for grammar.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-17T06:07:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25158",
+      "number": 25158,
+      "title": "[AppKit] Fix the name of the userInfo 'Item' key in the WillAddItem/DidRemoveItem notifications.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-17T06:06:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25160",
+      "number": 25160,
+      "title": "[xharness] Enable nullability, and fix any errors.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-17T06:05:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/87",
       "number": 87,
       "title": "Port Maui.Gtk PR #18: replace DllImports in ScrollViewHandler",
@@ -50931,7 +50991,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-17T00:31:00.499Z",
+  "lastUpdated": "2026-04-17T08:35:40.905Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
