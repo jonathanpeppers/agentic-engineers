@@ -1,6 +1,226 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/87",
+      "number": 87,
+      "title": "Port Maui.Gtk PR #18: replace DllImports in ScrollViewHandler",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-16T23:16:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/90",
+      "number": 90,
+      "title": "Port Maui.Gtk PR #17: replace DllImports in CairoCanvas",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-16T23:16:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11134",
+      "number": 11134,
+      "title": "[release/10.0.1xx] [tests] Add regression test for global ref leak in LayoutInflater.Inflate",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-16T21:57:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/60",
+      "number": 60,
+      "title": "feat: support Android and iOS simulator startup profiling in maui profile",
+      "repo": "dotnet/maui-labs",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-16T21:28:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34818",
+      "number": 34818,
+      "title": "Add daily PR review queue workflow with actionability detection",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-16T21:25:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34999",
+      "number": 34999,
+      "title": "Add preview/RC milestone support with release branch detection",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-16T21:24:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/89",
+      "number": 89,
+      "title": "Port Maui.Gtk PR #27: add image sample page",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-16T20:12:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/88",
+      "number": 88,
+      "title": "Port Maui.Gtk PR #21: use shared GTK color conversion",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-16T20:11:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/94",
+      "number": 94,
+      "title": "Fix Linux GTK4 official build pool image",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-16T20:10:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/92",
+      "number": 92,
+      "title": "Clarify non-disruptive guidance in maui-ai-debugging skill",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-16T20:06:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/59",
+      "number": 59,
+      "title": "Add initial MAUI dev skills (bindings + workload info)",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-16T20:03:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25162",
+      "number": 25162,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-16T19:56:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11127",
+      "number": 11127,
+      "title": "Avoid O(n²) array growth in GenerateTypeMappings",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-16T19:50:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34989",
+      "number": 34989,
+      "title": "Fix CollectionView Header is not visible when ItemsSource is not set and an EmptyView is set in iOS, Mac platform",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-04-16T18:53:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11112",
+      "number": 11112,
+      "title": "[Mono.Android] fix global ref leak in TypeManager.Activate",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-16T18:38:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34970",
+      "number": 34970,
+      "title": " [MacCatalyst] Fix DatePicker Opened/Closed events not being raised",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-04-16T18:36:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3692",
+      "number": 3692,
+      "title": "Move AI agent config to shared location for Claude Code and GitHub Copilot",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-16T18:02:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11128",
+      "number": 11128,
+      "title": "Remove experimental `AndroidGenerateJniMarshalMethods` feature",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-16T17:58:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11129",
+      "number": 11129,
+      "title": "Document AndroidInstrumentation and EnableMSTestRunner build properties",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-16T17:27:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/76",
+      "number": 76,
+      "title": "feat: Add CI/CD pipeline for Linux GTK4 backend",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-16T17:23:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11124",
+      "number": 11124,
+      "title": "Remove unused HashSet allocations in HashJavaNames",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-16T17:08:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11125",
+      "number": 11125,
+      "title": "Bump external/Java.Interop from `85919bb` to `7b018fe`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-04-16T17:06:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/10862",
       "number": 10862,
       "title": "[dotnet test] Add `androidtest` project template and `dotnet run` instrumentation support",
@@ -50711,7 +50931,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-16T16:34:03.062Z",
+  "lastUpdated": "2026-04-17T00:31:00.499Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
