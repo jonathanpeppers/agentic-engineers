@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34640",
+      "number": 34640,
+      "title": " [iOS] Fix span Tap gesture on wrapped Label lines in iOS 26+",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-04-18T15:06:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35028",
+      "number": 35028,
+      "title": "Fix CI failure for CollectionView and CarouselView tests in April 14th Candidate",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-04-18T10:13:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11142",
       "number": 11142,
       "title": "[TrimmableTypeMap] Package CoreCLR preserve list in SDK pack",
@@ -51401,7 +51421,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-18T08:15:24.934Z",
+  "lastUpdated": "2026-04-18T16:12:16.483Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
