@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11142",
+      "number": 11142,
+      "title": "[TrimmableTypeMap] Package CoreCLR preserve list in SDK pack",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-18T07:20:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11143",
+      "number": 11143,
+      "title": "[TrimmableTypeMap] Manifest generator fixes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-18T07:19:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35014",
+      "number": 35014,
+      "title": "Update PreReleaseVersionIteration to 4",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-18T06:09:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/99",
       "number": 99,
       "title": "Fix internal CI signing for Linux GTK4 packages",
@@ -51371,7 +51401,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-18T00:27:52.724Z",
+  "lastUpdated": "2026-04-18T08:15:24.934Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
