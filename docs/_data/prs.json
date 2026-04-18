@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/99",
+      "number": 99,
+      "title": "Fix internal CI signing for Linux GTK4 packages",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-17T23:00:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11084",
+      "number": 11084,
+      "title": "Run FixLegacyResourceDesigner before trimming",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-04-17T21:28:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11070",
+      "number": 11070,
+      "title": "Guard Mono-specific AOT targets for CoreCLR runtime, add XA1042 warning",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-17T21:24:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11153",
+      "number": 11153,
+      "title": "[ci] Only run dnceng-public pipeline for fork PRs",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-17T21:16:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1407",
+      "number": 1407,
+      "title": "Fix UTF-8 JniType class lookup fallback",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-17T20:58:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11133",
+      "number": 11133,
+      "title": "Use stackalloc in TypeMapHelper to reduce allocations",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-17T20:53:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35016",
+      "number": 35016,
+      "title": "[release/10.0.1xx-sr6] Cache Gradle downloads between CI runs to avoid transient failures",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-04-17T20:52:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11152",
+      "number": 11152,
+      "title": "Set `min-integrity: none` on /review workflow",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-17T20:50:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11150",
+      "number": 11150,
+      "title": "[copilot] Use Claude Opus 4.6 for android-reviewer workflow",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-17T19:53:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11149",
+      "number": 11149,
+      "title": "[copilot] Add /review agentic workflow and update android-reviewer skill",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-17T19:48:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3697",
+      "number": 3697,
+      "title": "Move skills from .claude/ to .agents/",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-17T19:38:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3696",
+      "number": 3696,
+      "title": "Revert \"Add daily-digest agentic workflow\"",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-17T19:36:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3694",
+      "number": 3694,
+      "title": "Add daily-digest agentic workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-17T19:21:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25174",
+      "number": 25174,
+      "title": "[tools] Improve the create-makefile-fragment script a bit.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-17T18:01:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25175",
+      "number": 25175,
+      "title": "[src] Unify the xml docs for the `Dispose(bool)` method.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-17T18:00:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11141",
+      "number": 11141,
+      "title": "Add investigation & debugging practices to copilot-instructions",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-17T17:33:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/91",
       "number": 91,
       "title": "Port Maui.Gtk PR #19: refactor CairoPlatformImage stream handling",
@@ -51211,7 +51371,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-17T16:21:30.661Z",
+  "lastUpdated": "2026-04-18T00:27:52.724Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
