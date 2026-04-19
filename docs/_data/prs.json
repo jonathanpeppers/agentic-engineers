@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/29028",
+      "number": 29028,
+      "title": "Fixed Flyout Not Displayed on Android When FlyoutWidth Is Set Only for Desktop via OnIdiom",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2026-04-18T22:07:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11145",
+      "number": 11145,
+      "title": "[TrimmableTypeMap] Runtime and typemap generator fixes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-18T20:17:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34640",
       "number": 34640,
       "title": " [iOS] Fix span Tap gesture on wrapped Label lines in iOS 26+",
@@ -51421,7 +51441,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-18T16:12:16.483Z",
+  "lastUpdated": "2026-04-19T00:30:12.823Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
