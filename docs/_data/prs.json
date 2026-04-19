@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35024",
+      "number": 35024,
+      "title": "Revert public API surface from #34228 on inflight/candidate",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-04-19T02:14:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/29028",
       "number": 29028,
       "title": "Fixed Flyout Not Displayed on Android When FlyoutWidth Is Set Only for Desktop via OnIdiom",
@@ -51441,7 +51451,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-19T00:30:12.823Z",
+  "lastUpdated": "2026-04-19T08:21:41.323Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
