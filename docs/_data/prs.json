@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/java-interop/pull/1409",
+      "number": 1409,
+      "title": "[Java.Interop] Convert dot-separated class names before calling FindClass",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-20T15:41:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25177",
+      "number": 25177,
+      "title": "[Foundation] Clean up pre-net10.0 code from NSUrlSessionHandler.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-20T15:28:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25182",
+      "number": 25182,
+      "title": "[devops] Remove the branch-based trigger for pull requests.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-20T15:17:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11161",
+      "number": 11161,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-20T14:59:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11164",
+      "number": 11164,
+      "title": "Add network allowlist to android-reviewer workflow",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-20T13:56:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25186",
+      "number": 25186,
+      "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-20T13:34:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11158",
+      "number": 11158,
+      "title": "Bump com.android.tools:common from 32.1.0 to 32.1.1 in /src/manifestmerger",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-04-20T13:17:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11155",
+      "number": 11155,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13878536",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-04-20T13:16:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11156",
+      "number": 11156,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260419103203462 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-04-20T13:15:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11163",
+      "number": 11163,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260420103228482 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-04-20T13:15:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25163",
+      "number": 25163,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-20T12:20:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25156",
+      "number": 25156,
+      "title": "[xharness] Unify test variation creation.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-20T11:48:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34959",
+      "number": 34959,
+      "title": "[Testing] Fixed test failure in PR 34885 - [04/14/2026] Candidate",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-04-20T11:03:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35040",
+      "number": 35040,
+      "title": "[Windows] Fix for CS1061 build error caused by missing HasMenuBarContent property in MauiToolbar",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-04-20T10:53:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25187",
+      "number": 25187,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-20T09:14:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25154",
       "number": 25154,
       "title": "[net11.0] Update dependencies from dotnet/dotnet",
@@ -51491,7 +51641,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-20T08:47:04.569Z",
+  "lastUpdated": "2026-04-20T16:27:33.532Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
