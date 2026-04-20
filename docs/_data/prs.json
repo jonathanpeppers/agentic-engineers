@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/102",
+      "number": 102,
+      "title": "fix: delegate ShouldInterceptRequest in DevFlowWebViewClient",
+      "repo": "dotnet/maui-labs",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-19T19:15:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35024",
       "number": 35024,
       "title": "Revert public API surface from #34228 on inflight/candidate",
@@ -51451,7 +51461,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-19T16:12:01.152Z",
+  "lastUpdated": "2026-04-20T00:30:04.615Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
