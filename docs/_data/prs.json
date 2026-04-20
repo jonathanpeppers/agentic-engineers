@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25154",
+      "number": 25154,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-20T07:55:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25188",
+      "number": 25188,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-20T07:18:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25189",
+      "number": 25189,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-20T07:16:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/102",
       "number": 102,
       "title": "fix: delegate ShouldInterceptRequest in DevFlowWebViewClient",
@@ -51461,7 +51491,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-20T00:30:04.615Z",
+  "lastUpdated": "2026-04-20T08:47:04.569Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
