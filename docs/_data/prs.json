@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3710",
+      "number": 3710,
+      "title": "[auto-triage] Fix label application and tune scheduling",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-21T04:01:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3709",
+      "number": 3709,
+      "title": "Add gh-aw agent config and actions lock",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-21T03:34:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3708",
+      "number": 3708,
+      "title": "Clean up issue-triage skill: semantic enum ordering, cost labels, schema fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-21T02:40:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3707",
+      "number": 3707,
+      "title": "Fix issue-triage skill paths for gh-aw sandbox compatibility",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-21T01:41:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3706",
+      "number": 3706,
+      "title": "Fix auto-triage: set min-integrity=none for public issue access",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-21T00:43:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3704",
       "number": 3704,
       "title": "Clean up issue-triage skill + add auto-triage workflow",
@@ -51751,7 +51801,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-21T00:31:19.625Z",
+  "lastUpdated": "2026-04-21T08:38:25.048Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
