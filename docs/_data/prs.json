@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3704",
+      "number": 3704,
+      "title": "Clean up issue-triage skill + add auto-triage workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-21T00:24:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/106",
+      "number": 106,
+      "title": "Prompt interactively when Android SDK licenses not accepted",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-20T23:45:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11162",
+      "number": 11162,
+      "title": "[tests] Improve NUnit runner reporting and dry-run auditing",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-20T21:49:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34890",
+      "number": 34890,
+      "title": "[iOS26]Fix BackButtonBehavior_IsEnabled_False_BackButtonDoesNotNavigate UITest fails",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-04-20T21:47:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35009",
+      "number": 35009,
+      "title": "[iOS] Fix ContentPage with ToolbarItem Clicked event leaks when presented as modal page",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-04-20T21:44:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34981",
+      "number": 34981,
+      "title": "[Android] Fix MediaPicker.PickPhotosAsync UnauthorizedAccessException on API 28 and below",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-04-20T21:41:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/71",
+      "number": 71,
+      "title": "[MAUI CLI] Align Android SDK elevation check with actual filesystem writability",
+      "repo": "dotnet/maui-labs",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-20T21:30:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25194",
+      "number": 25194,
+      "title": "Make tests not be as picky with the assertions.",
+      "repo": "dotnet/macios",
+      "author": "mandel-macaque",
+      "mergedAt": "2026-04-20T21:10:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35023",
+      "number": 35023,
+      "title": "Fix milestone fallback to use main's Versions.props instead of merge commit",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-20T18:44:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11159",
+      "number": 11159,
+      "title": "Bump com.android.tools.build:manifest-merger from 32.1.0 to 32.1.1 in /src/manifestmerger",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-04-20T18:18:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11160",
+      "number": 11160,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-20T16:59:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/java-interop/pull/1409",
       "number": 1409,
       "title": "[Java.Interop] Convert dot-separated class names before calling FindClass",
@@ -51641,7 +51751,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-20T16:27:33.532Z",
+  "lastUpdated": "2026-04-21T00:31:19.625Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
