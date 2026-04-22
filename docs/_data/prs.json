@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35066",
+      "number": 35066,
+      "title": "Update branching instructions to be version-agnostic",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-21T21:07:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35054",
+      "number": 35054,
+      "title": "Fix milestone fallback: inflight/candidate reads from main, not staging branch",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-21T20:34:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/120",
+      "number": 120,
+      "title": "ci: add stub workflow for review.agent discovery",
+      "repo": "dotnet/maui-labs",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-21T20:25:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35049",
+      "number": 35049,
+      "title": "Add Gradle cache to official pack pipeline",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-21T19:56:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35046",
+      "number": 35046,
+      "title": "Remove broken AI triage and find-similar-issues workflows",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-21T19:35:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11173",
+      "number": 11173,
+      "title": "Add roles restriction to `/review` slash command",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-21T19:18:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11171",
+      "number": 11171,
+      "title": "Bump external/Java.Interop from `7b018fe` to `69c9daa`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-04-21T19:00:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11122",
+      "number": 11122,
+      "title": "[TrimmableTypeMap] Implement alias support in codegen and runtime",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-21T17:40:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3711",
+      "number": 3711,
+      "title": "[auto-triage] Upload triage reports (JSON/MD/HTML) to agent artifact",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-21T17:28:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34976",
+      "number": 34976,
+      "title": "Add skills validator for repo skills / agents",
+      "repo": "dotnet/maui",
+      "author": "JanKrivanek",
+      "mergedAt": "2026-04-21T16:43:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/114",
+      "number": 114,
+      "title": "Multi-target Microsoft.Maui.Cli to net9.0 and net10.0",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-21T16:36:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/103",
       "number": 103,
       "title": "Add missing DevFlow agent integration tests + expand CLI test coverage",
@@ -51951,7 +52061,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-21T16:26:05.157Z",
+  "lastUpdated": "2026-04-22T00:27:56.731Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
