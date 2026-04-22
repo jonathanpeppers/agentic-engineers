@@ -97,13 +97,41 @@ Building this across three repos taught us several security lessons:
 
 ### Stale Blocking Reviews Can't Be Dismissed
 
-When the bot posts a `REQUEST_CHANGES` review and the author fixes everything, the old blocking review **persists**. gh-aw has no `dismiss-pull-request-review` safe output, and `pull-requests: write` is rejected by the compiler. We filed [gh-aw#27655](https://github.com/github/gh-aw/issues/27655) and switched to `COMMENT`-only reviews:
+When the bot posts a `REQUEST_CHANGES` review and the author fixes everything, the old blocking review **persists**. gh-aw has no `dismiss-pull-request-review` safe output, and `pull-requests: write` is rejected by the compiler. We filed [gh-aw#27655](https://github.com/github/gh-aw/issues/27655).
+
+There are two viable approaches:
 
 ```yaml
+# Option A: COMMENT-only (PolyPilot, maui-labs)
+# Pros: No stale blocks, safe for iterative /review re-runs
+# Cons: No "Changes requested" badge, no merge-blocking signal
 safe-outputs:
   submit-pull-request-review:
-    allowed-events: [COMMENT]  # Never REQUEST_CHANGES or APPROVE
+    allowed-events: [COMMENT]
+
+# Option B: Allow REQUEST_CHANGES (dotnet/android)
+# Pros: Native merge-blocking, visible "Changes requested" badge
+# Cons: Stale reviews persist until manually dismissed
+safe-outputs:
+  submit-pull-request-review:
+    allowed-events: [COMMENT, REQUEST_CHANGES]
 ```
+
+Choose based on your workflow: if reviewers frequently re-run `/review` after fixes, use `COMMENT`-only to avoid stale blocks. If reviews are mostly one-shot and a human dismisses when ready, `REQUEST_CHANGES` gives stronger merge-gating signal.
+
+### Role-Based Access Control
+
+This is security-critical and easy to overlook. The `roles:` field controls who can trigger your review workflow:
+
+```yaml
+on:
+  slash_command:
+    name: review
+    events: [pull_request_comment]
+  roles: [admin, maintainer, write]  # Only committers can trigger
+```
+
+Without this, **any user** — including the PR author — could comment `/review` on a malicious PR designed to prompt-inject the reviewer. The default `[admin, maintainer, write]` ensures only trusted committers can invoke the agent. Never use `roles: all` on workflows that process PR content.
 
 ### Sub-Agent Recursion
 
@@ -177,6 +205,7 @@ on:
   slash_command:
     name: review
     events: [pull_request_comment]
+  roles: [admin, maintainer, write]  # Only committers can trigger
 engine:
   id: copilot
   model: claude-opus-4.6
