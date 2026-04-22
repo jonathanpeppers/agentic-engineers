@@ -24,13 +24,10 @@ We wanted reviews that developers actually trust. That meant:
 The system runs on [GitHub Agentic Workflows (gh-aw)](https://github.github.com/gh-aw/) — GitHub's framework for running AI agents as GitHub Actions workflows. A workflow is a markdown file with YAML frontmatter that compiles to a lock file:
 
 ```
-.github/
-├── agents/
-│   └── expert-reviewer.agent.md   ← review agent definition
-└── workflows/
-    ├── review.agent.md              ← /review slash command
-    ├── review-on-open.agent.md      ← auto-review on PR open
-    └── shared/review-shared.md      ← shared orchestration logic
+.github/workflows/
+├── review.agent.md              ← /review slash command
+├── review-on-open.agent.md      ← auto-review on PR open
+└── shared/review-shared.md      ← shared orchestration logic
 ```
 
 ### Two Entry Points, One Engine
@@ -191,15 +188,7 @@ The staleness checker tracks 16 reference URLs, 5 upstream issues, and gh-aw rel
 
 ## Try It Yourself
 
-The minimal setup is four files:
-
-**`.github/agents/expert-reviewer.agent.md`** — the review agent definition (what to check, how to report):
-```yaml
----
-name: expert-reviewer
-description: "Expert code reviewer. Multi-model review with adversarial consensus."
----
-```
+The minimal setup is three files:
 
 **`.github/workflows/review.agent.md`** — the `/review` slash command trigger:
 ```yaml
