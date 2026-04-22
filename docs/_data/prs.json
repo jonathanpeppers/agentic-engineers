@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25207",
+      "number": 25207,
+      "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-22T07:09:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25202",
+      "number": 25202,
+      "title": "Bump mlaunch to get startup hook fix.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-22T04:40:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25192",
+      "number": 25192,
+      "title": "Add eng/Signing.props to sign cab files inside MSI workload packs",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-22T04:38:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25191",
+      "number": 25191,
+      "title": "[docs] Minor updates from copilot review in the dotnet/docs-mobile repository.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-22T04:37:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25178",
+      "number": 25178,
+      "title": "[sharpie] Add docs on how to create a sharpie release.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-22T04:34:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35061",
+      "number": 35061,
+      "title": "[Testing] Resaved the iOS 26.4 images",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-04-22T04:02:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3712",
+      "number": 3712,
+      "title": "Free disk space on Linux CI agents",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-22T03:39:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3713",
+      "number": 3713,
+      "title": "Update SKIASHARP_VERSION to 3.133.0",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-22T01:05:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35066",
       "number": 35066,
       "title": "Update branching instructions to be version-agnostic",
@@ -52061,7 +52141,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-22T00:27:56.731Z",
+  "lastUpdated": "2026-04-22T08:36:55.337Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
