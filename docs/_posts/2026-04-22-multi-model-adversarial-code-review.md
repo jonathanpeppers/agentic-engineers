@@ -188,7 +188,7 @@ The staleness checker tracks 16 reference URLs, 5 upstream issues, and gh-aw rel
 
 ## Try It Yourself
 
-The minimal setup is three files:
+The minimal setup is two files:
 
 **`.github/workflows/review.agent.md`** — the `/review` slash command trigger:
 ```yaml
@@ -216,20 +216,6 @@ safe-outputs:
   add-comment:
     max: 5
     hide-older-comments: true
----
-```
-
-**`.github/workflows/review-on-open.agent.md`** — automatic review on PR open:
-```yaml
----
-on:
-  pull_request:
-    events: [opened, ready_for_review]
-engine:
-  id: copilot
-  model: claude-opus-4.6
-imports:
-  - shared/review-shared.md
 ---
 ```
 
