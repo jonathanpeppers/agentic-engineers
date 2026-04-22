@@ -1,6 +1,96 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11169",
+      "number": 11169,
+      "title": "Make CoreCLR the default runtime for Debug builds",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-22T15:06:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/118",
+      "number": 118,
+      "title": "feat: add expert code review workflows with 3-model adversarial consensus",
+      "repo": "dotnet/maui-labs",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-22T13:56:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25205",
+      "number": 25205,
+      "title": "[docs] Fix typo 'embeddded' -> 'embedded'.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-22T13:23:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1404",
+      "number": 1404,
+      "title": "Stable Updates 20260420",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-22T13:16:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11175",
+      "number": 11175,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13905231",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-04-22T13:11:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25180",
+      "number": 25180,
+      "title": "[Foundation] Enable HTTP digest auth in NSUrlSessionHandler",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-22T12:38:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25208",
+      "number": 25208,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-22T12:09:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25146",
+      "number": 25146,
+      "title": "[dotnet-linker] Use [DynamicDependency] attributes instead of manual marking of NSObjects.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-22T11:38:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35050",
+      "number": 35050,
+      "title": "Extract filename from DisplayName and add extension if missing",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-22T11:28:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25207",
       "number": 25207,
       "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
@@ -52141,7 +52231,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-22T08:36:55.337Z",
+  "lastUpdated": "2026-04-22T16:25:06.158Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
