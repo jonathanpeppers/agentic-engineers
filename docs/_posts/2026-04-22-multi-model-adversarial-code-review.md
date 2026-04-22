@@ -24,10 +24,13 @@ We wanted reviews that developers actually trust. That meant:
 The system runs on [GitHub Agentic Workflows (gh-aw)](https://github.github.com/gh-aw/) — GitHub's framework for running AI agents as GitHub Actions workflows. A workflow is a markdown file with YAML frontmatter that compiles to a lock file:
 
 ```
-.github/workflows/
-├── review.agent.md              ← /review slash command
-├── review-on-open.agent.md      ← auto-review on PR open
-└── shared/review-shared.md      ← shared orchestration logic
+.github/
+├── agents/
+│   └── expert-reviewer.agent.md   ← review agent definition
+└── workflows/
+    ├── review.agent.md              ← /review slash command
+    ├── review-on-open.agent.md      ← auto-review on PR open
+    └── shared/review-shared.md      ← shared orchestration logic
 ```
 
 ### Two Entry Points, One Engine
@@ -61,7 +64,7 @@ This eliminates false positives while preserving genuine findings that even one 
 
 ## Real-World Results
 
-### PolyPilot PR #619 — Watchdog Timing Fix
+### PolyPilot PR #619 — Session Idle Detection Fix
 
 The review found 4 real issues in a complex event-processing change:
 
@@ -76,7 +79,7 @@ All 4 were real — the author fixed them in subsequent commits. The discarded f
 
 ### PolyPilot PR #639 — Mobile UI Fixes
 
-Found a 🔴 CRITICAL architectural issue that 3/3 reviewers agreed on: portaling Blazor-managed elements to `document.body` desyncs the render tree, causing menu/overlay leaks, scroll freeze, and DOM corruption. This was the kind of deep architectural finding that's easy to miss in a diff review but obvious when you read the full source files.
+Found a 🔴 CRITICAL issue that 3/3 reviewers agreed on: the CSS `position: fixed` context menu inside a transformed flyout panel is positioned relative to the flyout rather than the viewport, making menu items untappable on Android. The fix required detecting the transformed ancestor and adjusting coordinates with safe-area insets. The review also flagged the Blazor preview package revert (0.1.0-preview.5 broke asset serving on Android) and iOS touch-event issues where `all: unset` reset `-webkit-user-select`, triggering keyboard resets.
 
 ### dotnet/android — Domain-Specific Review
 
@@ -188,7 +191,7 @@ The staleness checker tracks 16 reference URLs, 5 upstream issues, and gh-aw rel
 
 ## Try It Yourself
 
-The setup is three files:
+The minimal setup is four files:
 
 **`.github/agents/expert-reviewer.agent.md`** — the review agent definition (what to check, how to report):
 ```yaml
@@ -224,6 +227,20 @@ safe-outputs:
   add-comment:
     max: 5
     hide-older-comments: true
+---
+```
+
+**`.github/workflows/review-on-open.agent.md`** — automatic review on PR open:
+```yaml
+---
+on:
+  pull_request:
+    events: [opened, ready_for_review]
+engine:
+  id: copilot
+  model: claude-opus-4.6
+imports:
+  - shared/review-shared.md
 ---
 ```
 
