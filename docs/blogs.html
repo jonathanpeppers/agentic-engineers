@@ -1,0 +1,132 @@
+---
+layout: default
+title: Blog
+permalink: /blogs/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic Engineers - Blog</title>
+    <style>
+        :root {
+            --primary-color: #0366d6;
+            --bg-color: #f6f8fa;
+            --border-color: #e1e4e8;
+            --text-color: #24292e;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .post-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .post-item {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 24px;
+            margin-bottom: 16px;
+        }
+
+        .post-item:hover {
+            border-color: var(--primary-color);
+        }
+
+        .post-title {
+            margin: 0 0 8px 0;
+            font-size: 20px;
+        }
+
+        .post-title a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .post-title a:hover {
+            text-decoration: underline;
+        }
+
+        .post-meta {
+            color: #586069;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .post-excerpt {
+            color: #444d56;
+            font-size: 15px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 12px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="{{ site.baseurl }}/" class="back-link">← Back to PR Dashboard</a>
+        <h1>📝 Blog</h1>
+
+        <ul class="post-list">
+            {% for post in site.posts %}
+            <li class="post-item">
+                <h2 class="post-title">
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+                <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}{% if post.author %} · {{ post.author }}{% endif %}</p>
+                <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+                <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more →</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
