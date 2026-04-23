@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3714",
+      "number": 3714,
+      "title": "Bump SkiaSharpGenerator to CppAst 0.21.4 and make it work on Linux",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-23T16:16:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/335",
+      "number": 335,
+      "title": "Replace Crc64 with XxHash64 in Files class",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-23T15:57:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/334",
+      "number": 334,
+      "title": "Add BenchmarkDotNet project for Files hash APIs",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-23T14:56:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34994",
+      "number": 34994,
+      "title": "Integrate code-review skill into pr-review Pre-Flight and Try-Fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-23T14:17:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35074",
+      "number": 35074,
+      "title": "[release/10.0.1xx-sr6] [Android] Material 3 Fixed BottomNavigationView overflowing in Tabbed page",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-04-23T13:58:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35082",
+      "number": 35082,
+      "title": "[iOS] Fix Shell page memory leak when using TitleView with x:Name",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-04-23T11:15:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35064",
+      "number": 35064,
+      "title": "[Android] Material 3 Fixed BottomNavigationView overflowing in Tabbed page",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-04-23T10:28:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3721",
       "number": 3721,
       "title": "Fix cgmanifest.json Skia milestone mismatch on release/3.119.x",
@@ -52351,7 +52421,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-23T08:37:46.813Z",
+  "lastUpdated": "2026-04-23T16:34:41.234Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
