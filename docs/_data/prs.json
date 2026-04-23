@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11181",
+      "number": 11181,
+      "title": "[TrimmableTypeMap] Per-assembly typemap universes with startup hook initialization",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-22T21:13:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25185",
+      "number": 25185,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-22T20:56:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11178",
+      "number": 11178,
+      "title": "[TrimmableTypeMap] Add exception handling to UCO constructor callbacks (nctor_*_uco)",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-22T19:53:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1411",
+      "number": 1411,
+      "title": "[Java.Interop] Fix RawCallStaticObjectMethodA PInvoke call",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-22T19:51:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/333",
+      "number": 333,
+      "title": "[test] Rename test cases to `relative.txt` in test files",
+      "repo": "dotnet/android-tools",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-22T18:03:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11119",
+      "number": 11119,
+      "title": "[Mono.Android] reduce GC bridge and reference logging overhead",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-22T17:59:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/132",
+      "number": 132,
+      "title": "fix: remove premature Graphene.Point.Free() calls causing heap corruption",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-22T17:49:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11169",
       "number": 11169,
       "title": "Make CoreCLR the default runtime for Debug builds",
@@ -52231,7 +52301,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-22T16:25:06.158Z",
+  "lastUpdated": "2026-04-23T00:33:21.343Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
