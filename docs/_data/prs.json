@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3721",
+      "number": 3721,
+      "title": "Fix cgmanifest.json Skia milestone mismatch on release/3.119.x",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-23T07:28:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25203",
+      "number": 25203,
+      "title": "[tests] Simplify MonoTouch.Dialog.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-23T06:12:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25206",
+      "number": 25206,
+      "title": "Add macios-reviewer skill for PR code review",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-23T06:11:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25210",
+      "number": 25210,
+      "title": "[devops] Add a timeout to the 'Publish to Artifact Services Drop' step.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-23T01:40:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25211",
+      "number": 25211,
+      "title": "[devops] Disable implicit CI triggers on xamarin-macios-pr pipeline",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-23T01:39:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11181",
       "number": 11181,
       "title": "[TrimmableTypeMap] Per-assembly typemap universes with startup hook initialization",
@@ -52301,7 +52351,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-23T00:33:21.343Z",
+  "lastUpdated": "2026-04-23T08:37:46.813Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
