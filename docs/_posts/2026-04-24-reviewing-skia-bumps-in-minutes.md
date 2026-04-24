@@ -118,5 +118,5 @@ This time, the coffee is for fun.
 ## Links
 
 - [`mono/SkiaSharp` — `review-skia-update` skill](https://github.com/mono/SkiaSharp/tree/main/.agents/skills/review-skia-update)
-- [Sample report (HTML, open in a browser)](https://gist.githubusercontent.com/mattleibow/63a533bd398e35efab3fe7f9e4031400/raw/c5c07be9123ffdf35ff52faab86264863edb2194/184.html)
+- [Live sample report (open in a browser)](https://mattleibow.github.io/gistpreview/?63a533bd398e35efab3fe7f9e4031400)
 - [SkiaSharp](https://github.com/mono/SkiaSharp) — .NET bindings for [Skia](https://skia.org/)
