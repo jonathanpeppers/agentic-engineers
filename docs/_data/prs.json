@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3727",
+      "number": 3727,
+      "title": "Improve native-dependency-update skill with post-mortem fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-23T23:44:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3728",
+      "number": 3728,
+      "title": "[release/3.119.x] Improve Android CI disk diagnostics",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-04-23T23:31:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3676",
+      "number": 3676,
+      "title": "[CI] Improve Android CI disk space and emulator startup",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-23T23:28:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3718",
+      "number": 3718,
+      "title": "[main] Update libpng to 1.6.58",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-23T23:21:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3723",
+      "number": 3723,
+      "title": "[release/3.119.x] Update libpng to 1.6.58",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-23T23:19:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3717",
+      "number": 3717,
+      "title": "[main] Update libexpat to 2.7.5",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-23T23:11:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3722",
+      "number": 3722,
+      "title": "[release/3.119.x] Update libexpat to 2.7.5",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-23T23:10:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35077",
+      "number": 35077,
+      "title": "[Testing] Fixed test failure in PR 34885 - [04/14/2026] Candidate - 2",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-04-23T21:22:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25236",
+      "number": 25236,
+      "title": "[msbuild] Add a condition to make sure empty item groups aren't processed.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-23T20:44:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25235",
+      "number": 25235,
+      "title": "[msbuild] Copy some ILLink output back to Windows when building remotely.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-23T20:42:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/123",
+      "number": 123,
+      "title": "feat: add inline review comments for expert code review",
+      "repo": "dotnet/maui-labs",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-23T19:38:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/104",
+      "number": 104,
+      "title": "Expand DevFlow integration test workflow to run on GitHub-hosted runners",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-23T19:26:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3716",
+      "number": 3716,
+      "title": "[release/3.119.x] Free disk space on Linux CI agents",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-04-23T18:13:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11195",
+      "number": 11195,
+      "title": "[Xamarin.Android.Build.Tasks] Retry RemoveDirFixed on ERROR_DIR_NOT_EMPTY",
+      "repo": "dotnet/android",
+      "author": "SuperJMN",
+      "mergedAt": "2026-04-23T18:11:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1412",
+      "number": 1412,
+      "title": "Bump external/xamarin-android-tools from `d222cfe` to `e873716`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-04-23T17:58:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25183",
+      "number": 25183,
+      "title": "[Foundation] Improve potential reentrancy problems in NSUrlSessionHandler.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-23T17:15:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/133",
+      "number": 133,
+      "title": "Fix duplicate Android emulator listing while AVD is booting",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-23T16:58:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3714",
       "number": 3714,
       "title": "Bump SkiaSharpGenerator to CppAst 0.21.4 and make it work on Linux",
@@ -52421,7 +52591,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-23T16:34:41.234Z",
+  "lastUpdated": "2026-04-24T00:33:14.451Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
