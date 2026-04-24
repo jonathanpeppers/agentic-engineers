@@ -5,13 +5,26 @@ permalink: /blogs/
 ---
 
 <style>
-    .blog-container {
-        max-width: 800px;
+    .blog-layout {
+        max-width: 1200px;
         margin: 0 auto;
         padding: 40px 24px;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 280px;
+        gap: 32px;
+        align-items: start;
     }
 
-    .blog-container h1 {
+    @media (max-width: 900px) {
+        .blog-layout {
+            grid-template-columns: 1fr;
+        }
+        .blog-sidebar {
+            order: -1;
+        }
+    }
+
+    .blog-main h1 {
         margin-bottom: 24px;
         font-size: 28px;
     }
@@ -33,6 +46,10 @@ permalink: /blogs/
 
     .post-item:hover {
         border-color: #6366f1;
+    }
+
+    .post-item.is-hidden {
+        display: none;
     }
 
     .post-title {
@@ -74,21 +91,613 @@ permalink: /blogs/
     .read-more:hover {
         text-decoration: underline;
     }
+
+    .post-tags {
+        margin-top: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .post-tag {
+        display: inline-block;
+        background: #eef2ff;
+        color: #4338ca;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 3px 10px;
+        border-radius: 999px;
+        text-decoration: none;
+        cursor: pointer;
+        border: 1px solid transparent;
+    }
+
+    .post-tag:hover {
+        background: #e0e7ff;
+        text-decoration: none;
+    }
+
+    /* Sidebar */
+    .blog-sidebar {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: sticky;
+        top: 88px;
+    }
+
+    .sidebar-card {
+        background: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 16px 18px;
+    }
+
+    .sidebar-card h3 {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #64748b;
+        margin-bottom: 12px;
+        font-weight: 700;
+    }
+
+    .filter-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .filter-list li {
+        margin-bottom: 4px;
+    }
+
+    .filter-btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 6px 10px;
+        background: transparent;
+        border: 1px solid transparent;
+        border-radius: 6px;
+        font-size: 14px;
+        color: #334155;
+        cursor: pointer;
+        text-align: left;
+        font-family: inherit;
+    }
+
+    .filter-btn:hover {
+        background: #f1f5f9;
+    }
+
+    .filter-btn.active {
+        background: #eef2ff;
+        color: #4338ca;
+        border-color: #c7d2fe;
+        font-weight: 600;
+    }
+
+    .filter-count {
+        background: #e2e8f0;
+        color: #475569;
+        font-size: 12px;
+        padding: 1px 8px;
+        border-radius: 999px;
+        font-weight: 500;
+    }
+
+    .filter-btn.active .filter-count {
+        background: #c7d2fe;
+        color: #4338ca;
+    }
+
+    /* Active filters bar */
+    .active-filters {
+        display: none;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 16px;
+        padding: 10px 14px;
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+
+    .active-filters.is-visible {
+        display: flex;
+    }
+
+    .active-filter-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: #4338ca;
+        color: white;
+        padding: 3px 10px;
+        border-radius: 999px;
+        font-size: 13px;
+    }
+
+    .active-filter-chip button {
+        background: transparent;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 14px;
+        line-height: 1;
+        padding: 0;
+    }
+
+    .clear-filters {
+        margin-left: auto;
+        background: transparent;
+        border: none;
+        color: #4338ca;
+        font-size: 13px;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    .clear-filters:hover {
+        text-decoration: underline;
+    }
+
+    .no-results {
+        display: none;
+        text-align: center;
+        padding: 40px 24px;
+        color: #64748b;
+        background: white;
+        border: 1px dashed #cbd5e1;
+        border-radius: 8px;
+    }
+
+    .no-results.is-visible {
+        display: block;
+    }
+
+    /* Calendar */
+    .calendar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .calendar-title {
+        font-size: 14px;
+        font-weight: 600;
+        color: #1e293b;
+    }
+
+    .calendar-nav {
+        display: flex;
+        gap: 4px;
+    }
+
+    .calendar-nav button {
+        width: 24px;
+        height: 24px;
+        border: 1px solid #e2e8f0;
+        background: white;
+        border-radius: 4px;
+        cursor: pointer;
+        color: #475569;
+        font-size: 14px;
+        line-height: 1;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .calendar-nav button:hover {
+        background: #f1f5f9;
+        color: #4338ca;
+    }
+
+    .calendar-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 2px;
+        font-size: 12px;
+    }
+
+    .calendar-dow {
+        text-align: center;
+        color: #94a3b8;
+        font-weight: 600;
+        font-size: 11px;
+        padding: 4px 0;
+    }
+
+    .calendar-day {
+        aspect-ratio: 1 / 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #475569;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .calendar-day.is-empty {
+        color: transparent;
+    }
+
+    .calendar-day.is-today {
+        font-weight: 700;
+        color: #1e293b;
+    }
+
+    .calendar-day.has-post {
+        color: #4338ca;
+        font-weight: 600;
+        border: 2px solid #6366f1;
+        cursor: pointer;
+    }
+
+    .calendar-day.has-post:hover {
+        background: #eef2ff;
+    }
+
+    /* Tag cloud */
+    .tag-cloud {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        line-height: 1.6;
+    }
+
+    .tag-cloud-item {
+        background: #f1f5f9;
+        color: #334155;
+        padding: 4px 10px;
+        border-radius: 999px;
+        cursor: pointer;
+        border: 1px solid transparent;
+        font-family: inherit;
+    }
+
+    .tag-cloud-item:hover {
+        background: #e0e7ff;
+        color: #4338ca;
+    }
+
+    .tag-cloud-item.active {
+        background: #4338ca;
+        color: white;
+        border-color: #4338ca;
+    }
+
+    .tag-cloud-item.size-1 { font-size: 12px; }
+    .tag-cloud-item.size-2 { font-size: 13px; }
+    .tag-cloud-item.size-3 { font-size: 14px; }
+    .tag-cloud-item.size-4 { font-size: 15px; font-weight: 600; }
+    .tag-cloud-item.size-5 { font-size: 16px; font-weight: 700; }
 </style>
 
-<div class="blog-container">
-    <h1>✍️ Blog</h1>
+<div class="blog-layout">
+    <main class="blog-main">
+        <h1>✍️ Blog</h1>
 
-    <ul class="post-list">
-        {% for post in site.posts %}
-        <li class="post-item">
-            <h2 class="post-title">
-                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-            <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}{% if post.author %} · {{ post.author }}{% endif %}</p>
-            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-            <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more →</a>
-        </li>
-        {% endfor %}
-    </ul>
+        <div class="active-filters" id="active-filters">
+            <span id="active-filters-chips"></span>
+            <button type="button" class="clear-filters" id="clear-filters">Clear all</button>
+        </div>
+
+        <ul class="post-list" id="post-list">
+            {% for post in site.posts %}
+            <li class="post-item"
+                data-author="{{ post.author | default: '' | escape }}"
+                data-date="{{ post.date | date: '%Y-%m-%d' }}"
+                data-tags="{{ post.tags | join: ',' | downcase }}">
+                <h2 class="post-title">
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+                <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}{% if post.author %} · {{ post.author }}{% endif %}</p>
+                <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+                <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more →</a>
+                {% if post.tags and post.tags.size > 0 %}
+                <div class="post-tags">
+                    {% for tag in post.tags %}
+                    <button type="button" class="post-tag" data-tag="{{ tag | downcase }}">#{{ tag }}</button>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+
+        <div class="no-results" id="no-results">
+            No posts match the current filters.
+        </div>
+    </main>
+
+    <aside class="blog-sidebar">
+        <div class="sidebar-card">
+            <h3>Authors</h3>
+            <ul class="filter-list" id="author-list"></ul>
+        </div>
+
+        <div class="sidebar-card">
+            <h3>Calendar</h3>
+            <div class="calendar-header">
+                <div class="calendar-title" id="calendar-title"></div>
+                <div class="calendar-nav">
+                    <button type="button" id="cal-prev" aria-label="Previous month">‹</button>
+                    <button type="button" id="cal-next" aria-label="Next month">›</button>
+                </div>
+            </div>
+            <div class="calendar-grid" id="calendar-grid"></div>
+        </div>
+
+        <div class="sidebar-card">
+            <h3>Tags</h3>
+            <div class="tag-cloud" id="tag-cloud"></div>
+        </div>
+    </aside>
 </div>
+
+<script>
+(function () {
+    var postItems = Array.prototype.slice.call(document.querySelectorAll('#post-list .post-item'));
+
+    // Build posts metadata
+    var posts = postItems.map(function (el) {
+        return {
+            el: el,
+            author: el.getAttribute('data-author') || '',
+            date: el.getAttribute('data-date'),
+            tags: (el.getAttribute('data-tags') || '').split(',').filter(Boolean)
+        };
+    });
+
+    var state = { author: null, tag: null };
+
+    // ---------- Author filter ----------
+    var authorCounts = {};
+    posts.forEach(function (p) {
+        if (!p.author) return;
+        authorCounts[p.author] = (authorCounts[p.author] || 0) + 1;
+    });
+
+    var authorList = document.getElementById('author-list');
+    var allAuthorsLi = document.createElement('li');
+    allAuthorsLi.innerHTML = '<button type="button" class="filter-btn active" data-author=""><span>All authors</span><span class="filter-count">' + posts.length + '</span></button>';
+    authorList.appendChild(allAuthorsLi);
+
+    Object.keys(authorCounts).sort().forEach(function (name) {
+        var li = document.createElement('li');
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'filter-btn';
+        btn.setAttribute('data-author', name);
+        btn.innerHTML = '<span></span><span class="filter-count">' + authorCounts[name] + '</span>';
+        btn.firstChild.textContent = name;
+        li.appendChild(btn);
+        authorList.appendChild(li);
+    });
+
+    authorList.addEventListener('click', function (e) {
+        var btn = e.target.closest('.filter-btn');
+        if (!btn) return;
+        var name = btn.getAttribute('data-author');
+        state.author = name || null;
+        applyFilters();
+    });
+
+    // ---------- Tag cloud ----------
+    var tagCounts = {};
+    posts.forEach(function (p) {
+        p.tags.forEach(function (t) {
+            tagCounts[t] = (tagCounts[t] || 0) + 1;
+        });
+    });
+
+    var tagCloud = document.getElementById('tag-cloud');
+    var tagNames = Object.keys(tagCounts);
+    if (tagNames.length === 0) {
+        tagCloud.innerHTML = '<span style="color:#94a3b8;font-size:13px;">No tags yet.</span>';
+    } else {
+        var maxCount = Math.max.apply(null, tagNames.map(function (t) { return tagCounts[t]; }));
+        tagNames.sort().forEach(function (t) {
+            var size = Math.max(1, Math.min(5, Math.ceil((tagCounts[t] / maxCount) * 5)));
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'tag-cloud-item size-' + size;
+            btn.setAttribute('data-tag', t);
+            btn.textContent = '#' + t + ' (' + tagCounts[t] + ')';
+            tagCloud.appendChild(btn);
+        });
+    }
+
+    tagCloud.addEventListener('click', function (e) {
+        var btn = e.target.closest('.tag-cloud-item');
+        if (!btn) return;
+        var t = btn.getAttribute('data-tag');
+        state.tag = (state.tag === t) ? null : t;
+        applyFilters();
+    });
+
+    // Inline tag chips on posts
+    document.getElementById('post-list').addEventListener('click', function (e) {
+        var btn = e.target.closest('.post-tag');
+        if (!btn) return;
+        e.preventDefault();
+        var t = btn.getAttribute('data-tag');
+        state.tag = (state.tag === t) ? null : t;
+        applyFilters();
+    });
+
+    // ---------- Active filters bar ----------
+    var activeFiltersEl = document.getElementById('active-filters');
+    var activeChipsEl = document.getElementById('active-filters-chips');
+    document.getElementById('clear-filters').addEventListener('click', function () {
+        state.author = null;
+        state.tag = null;
+        applyFilters();
+    });
+
+    function renderActiveFilters() {
+        var chips = [];
+        if (state.author) {
+            chips.push('<span class="active-filter-chip">Author: ' + escapeHtml(state.author) + ' <button type="button" data-clear="author" aria-label="Clear author filter">×</button></span>');
+        }
+        if (state.tag) {
+            chips.push('<span class="active-filter-chip">Tag: #' + escapeHtml(state.tag) + ' <button type="button" data-clear="tag" aria-label="Clear tag filter">×</button></span>');
+        }
+        activeChipsEl.innerHTML = chips.join(' ');
+        activeFiltersEl.classList.toggle('is-visible', chips.length > 0);
+    }
+    activeChipsEl.addEventListener('click', function (e) {
+        var b = e.target.closest('button[data-clear]');
+        if (!b) return;
+        state[b.getAttribute('data-clear')] = null;
+        applyFilters();
+    });
+
+    // ---------- Apply filters ----------
+    function applyFilters() {
+        var visibleCount = 0;
+        posts.forEach(function (p) {
+            var match = true;
+            if (state.author && p.author !== state.author) match = false;
+            if (state.tag && p.tags.indexOf(state.tag) === -1) match = false;
+            p.el.classList.toggle('is-hidden', !match);
+            if (match) visibleCount++;
+        });
+
+        // Author button states
+        document.querySelectorAll('#author-list .filter-btn').forEach(function (b) {
+            var n = b.getAttribute('data-author');
+            b.classList.toggle('active', (state.author || '') === n);
+        });
+
+        // Tag button states
+        document.querySelectorAll('.tag-cloud-item').forEach(function (b) {
+            b.classList.toggle('active', state.tag === b.getAttribute('data-tag'));
+        });
+
+        document.getElementById('no-results').classList.toggle('is-visible', visibleCount === 0);
+        renderActiveFilters();
+    }
+
+    // ---------- Calendar ----------
+    var postDates = {};
+    posts.forEach(function (p) {
+        if (p.date) postDates[p.date] = (postDates[p.date] || 0) + 1;
+    });
+
+    var today = new Date();
+    var initial = today;
+    if (posts.length > 0) {
+        // Start at the most recent post's month
+        var mostRecent = posts[0].date;
+        if (mostRecent) {
+            var parts = mostRecent.split('-');
+            initial = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, 1);
+        }
+    }
+    var calYear = initial.getFullYear();
+    var calMonth = initial.getMonth();
+
+    var monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    var dowNames = ['S','M','T','W','T','F','S'];
+
+    function pad(n) { return n < 10 ? '0' + n : '' + n; }
+
+    function renderCalendar() {
+        document.getElementById('calendar-title').textContent = monthNames[calMonth] + ' ' + calYear;
+        var grid = document.getElementById('calendar-grid');
+        grid.innerHTML = '';
+        dowNames.forEach(function (d) {
+            var el = document.createElement('div');
+            el.className = 'calendar-dow';
+            el.textContent = d;
+            grid.appendChild(el);
+        });
+        var firstDay = new Date(calYear, calMonth, 1).getDay();
+        var daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
+        for (var i = 0; i < firstDay; i++) {
+            var emp = document.createElement('div');
+            emp.className = 'calendar-day is-empty';
+            emp.textContent = '.';
+            grid.appendChild(emp);
+        }
+        for (var d = 1; d <= daysInMonth; d++) {
+            var key = calYear + '-' + pad(calMonth + 1) + '-' + pad(d);
+            var dayEl = document.createElement('div');
+            dayEl.className = 'calendar-day';
+            dayEl.textContent = d;
+            if (postDates[key]) {
+                dayEl.classList.add('has-post');
+                dayEl.title = postDates[key] + ' post' + (postDates[key] > 1 ? 's' : '') + ' on this day';
+                dayEl.setAttribute('data-date', key);
+            }
+            if (today.getFullYear() === calYear && today.getMonth() === calMonth && today.getDate() === d) {
+                dayEl.classList.add('is-today');
+            }
+            grid.appendChild(dayEl);
+        }
+    }
+
+    document.getElementById('cal-prev').addEventListener('click', function () {
+        calMonth--;
+        if (calMonth < 0) { calMonth = 11; calYear--; }
+        renderCalendar();
+    });
+    document.getElementById('cal-next').addEventListener('click', function () {
+        calMonth++;
+        if (calMonth > 11) { calMonth = 0; calYear++; }
+        renderCalendar();
+    });
+    document.getElementById('calendar-grid').addEventListener('click', function (e) {
+        var d = e.target.closest('.calendar-day.has-post');
+        if (!d) return;
+        var date = d.getAttribute('data-date');
+        var match = posts.find(function (p) { return p.date === date; });
+        if (match) {
+            var link = match.el.querySelector('.post-title a');
+            if (link) link.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            match.el.style.transition = 'box-shadow 0.6s ease';
+            match.el.style.boxShadow = '0 0 0 3px rgba(99, 102, 241, 0.4)';
+            setTimeout(function () { match.el.style.boxShadow = ''; }, 1500);
+        }
+    });
+
+    function escapeHtml(s) {
+        return String(s).replace(/[&<>"']/g, function (c) {
+            return { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c];
+        });
+    }
+
+    // Read initial state from URL hash (e.g. #tag=copilot or #author=Jonathan%20Peppers)
+    function readHash() {
+        var h = window.location.hash.replace(/^#/, '');
+        if (!h) return;
+        h.split('&').forEach(function (kv) {
+            var idx = kv.indexOf('=');
+            if (idx === -1) return;
+            var key = decodeURIComponent(kv.slice(0, idx));
+            var val = decodeURIComponent(kv.slice(idx + 1));
+            if (key === 'tag') state.tag = val.toLowerCase();
+            else if (key === 'author') state.author = val;
+        });
+    }
+    readHash();
+    window.addEventListener('hashchange', function () {
+        state.author = null;
+        state.tag = null;
+        readHash();
+        applyFilters();
+    });
+
+    renderCalendar();
+    applyFilters();
+})();
+</script>

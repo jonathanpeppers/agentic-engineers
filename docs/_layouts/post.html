@@ -101,8 +101,48 @@ layout: default
         background: #f8fafc;
         font-weight: 600;
     }
+
+    .post-tags-footer {
+        max-width: 800px;
+        margin: 0 auto 40px auto;
+        padding: 0 24px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        align-items: center;
+    }
+
+    .post-tags-footer .label {
+        color: #64748b;
+        font-size: 14px;
+        margin-right: 4px;
+    }
+
+    .post-tags-footer a {
+        display: inline-block;
+        background: #eef2ff;
+        color: #4338ca;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 3px 10px;
+        border-radius: 999px;
+        text-decoration: none;
+    }
+
+    .post-tags-footer a:hover {
+        background: #e0e7ff;
+    }
 </style>
 
 <article class="post-content">
     {{ content }}
 </article>
+
+{% if page.tags and page.tags.size > 0 %}
+<div class="post-tags-footer">
+    <span class="label">Tags:</span>
+    {% for tag in page.tags %}
+    <a href="{{ '/blogs/' | prepend: site.baseurl }}#tag={{ tag | downcase | url_encode }}">#{{ tag }}</a>
+    {% endfor %}
+</div>
+{% endif %}
