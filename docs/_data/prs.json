@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/131",
+      "number": 131,
+      "title": "Fix emulator start false-positive when launcher forks and exits",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-24T08:13:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3729",
+      "number": 3729,
+      "title": "Add Suggested Repro Platform to auto-triage workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-24T03:58:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25237",
+      "number": 25237,
+      "title": "[release/10.0.1xx] [msbuild] Add a condition to make sure empty item groups aren't processed.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-24T00:47:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3727",
       "number": 3727,
       "title": "Improve native-dependency-update skill with post-mortem fixes",
@@ -52591,7 +52621,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-24T00:33:14.451Z",
+  "lastUpdated": "2026-04-24T08:42:24.216Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
