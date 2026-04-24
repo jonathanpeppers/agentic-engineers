@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Multi-Model Adversarial Code Review with GitHub Agentic Workflows"
 author: "Shane Neuville"
 excerpt: "What if your code reviewer never got tired, never missed a pattern, and always checked with two other experts before flagging an issue? We built an automated code review system that dispatches three AI models in parallel, runs adversarial consensus to filter noise, and posts findings directly on your PR."

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Agentic Engineers</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        .site-banner {
+            background: linear-gradient(135deg, #1e1b4b 0%, #312e81 25%, #4338ca 50%, #6366f1 75%, #818cf8 100%);
+            padding: 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
+        }
+
+        .banner-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 24px;
+            height: 64px;
+        }
+
+        .banner-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .banner-brand:hover {
+            text-decoration: none;
+            opacity: 0.9;
+        }
+
+        .banner-brand .brand-icon {
+            font-size: 24px;
+        }
+
+        .banner-nav {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .banner-nav a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .banner-nav a:hover {
+            color: white;
+            background: rgba(255, 255, 255, 0.15);
+            text-decoration: none;
+        }
+
+        .banner-nav a.active {
+            color: white;
+            background: rgba(255, 255, 255, 0.2);
+            font-weight: 600;
+        }
+
+        @media (max-width: 600px) {
+            .banner-inner {
+                flex-direction: column;
+                height: auto;
+                padding: 12px 16px;
+                gap: 8px;
+            }
+
+            .banner-nav {
+                gap: 2px;
+            }
+
+            .banner-nav a {
+                padding: 6px 12px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="site-banner">
+        <div class="banner-inner">
+            <a href="{{ site.baseurl }}/" class="banner-brand">
+                <span class="brand-icon">🤖</span>
+                <span>Agentic Engineers</span>
+            </a>
+            <div class="banner-nav">
+                <a href="{{ site.baseurl }}/" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+                <a href="{{ site.baseurl }}/dashboard/" {% if page.url == '/dashboard/' %}class="active"{% endif %}>Dashboard</a>
+                <a href="{{ site.baseurl }}/blogs/" {% if page.url == '/blogs/' %}class="active"{% endif %}>Blogs</a>
+            </div>
+        </div>
+    </nav>
+    {{ content }}
+</body>
+</html>

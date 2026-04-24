@@ -1,689 +1,240 @@
 ---
 layout: default
-title: PR Dashboard
+title: Home
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agentic Engineers - PR Dashboard</title>
-    <style>
-        :root {
-            --primary-color: #0366d6;
-            --success-color: #28a745;
-            --bg-color: #f6f8fa;
-            --border-color: #e1e4e8;
-            --text-color: #24292e;
-        }
-        
-        * {
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        h1 {
-            margin-bottom: 10px;
-        }
-        
-        .last-updated {
-            color: #586069;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-        
-        .filters {
-            background: white;
-            padding: 15px;
-            border-radius: 6px;
-            border: 1px solid var(--border-color);
-            margin-bottom: 20px;
-            display: flex;
-            gap: 15px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        
-        .filters label {
-            font-weight: 600;
-        }
-        
-        .filters select {
-            padding: 8px 12px;
-            border-radius: 6px;
-            border: 1px solid var(--border-color);
-            font-size: 14px;
-        }
-        
-        .summary-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-        
-        .summary-card {
-            background: white;
-            padding: 20px;
-            border-radius: 6px;
-            border: 1px solid var(--border-color);
-            text-align: center;
-        }
-        
-        .summary-card h3 {
-            margin: 0 0 10px 0;
-            font-size: 14px;
-            color: #586069;
-        }
-        
-        .summary-card .value {
+<style>
+    .hero {
+        background: linear-gradient(135deg, #1e1b4b 0%, #312e81 30%, #4338ca 60%, #6366f1 100%);
+        color: white;
+        padding: 80px 24px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+        font-weight: 800;
+        letter-spacing: -1px;
+        margin-bottom: 16px;
+    }
+
+    .hero .subtitle {
+        font-size: 22px;
+        opacity: 0.9;
+        max-width: 700px;
+        margin: 0 auto 32px;
+        line-height: 1.6;
+        font-weight: 400;
+    }
+
+    .hero .org-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        padding: 8px 20px;
+        border-radius: 100px;
+        font-size: 14px;
+        font-weight: 500;
+        backdrop-filter: blur(10px);
+    }
+
+    .about-section {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 60px 24px;
+    }
+
+    .about-section h2 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        color: #1e293b;
+    }
+
+    .about-section p {
+        font-size: 17px;
+        line-height: 1.8;
+        color: #475569;
+        margin-bottom: 20px;
+    }
+
+    .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 24px;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 24px 60px;
+    }
+
+    .info-card {
+        background: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 12px;
+        padding: 32px;
+        transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .info-card:hover {
+        box-shadow: 0 8px 30px rgba(99, 102, 241, 0.1);
+        border-color: #c7d2fe;
+    }
+
+    .info-card .card-icon {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+
+    .info-card h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 12px;
+        color: #1e293b;
+    }
+
+    .info-card p {
+        font-size: 15px;
+        line-height: 1.7;
+        color: #64748b;
+    }
+
+    .cta-section {
+        background: #f1f5f9;
+        padding: 48px 24px;
+        text-align: center;
+    }
+
+    .cta-section h2 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        color: #1e293b;
+    }
+
+    .cta-section p {
+        color: #64748b;
+        margin-bottom: 24px;
+        font-size: 16px;
+    }
+
+    .cta-buttons {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .cta-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 24px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.2s ease;
+    }
+
+    .cta-btn:hover {
+        text-decoration: none;
+    }
+
+    .cta-btn-primary {
+        background: linear-gradient(135deg, #4338ca, #6366f1);
+        color: white;
+    }
+
+    .cta-btn-primary:hover {
+        box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+        transform: translateY(-1px);
+    }
+
+    .cta-btn-secondary {
+        background: white;
+        color: #4338ca;
+        border: 1px solid #c7d2fe;
+    }
+
+    .cta-btn-secondary:hover {
+        background: #eef2ff;
+        border-color: #a5b4fc;
+    }
+
+    @media (max-width: 600px) {
+        .hero h1 {
             font-size: 32px;
-            font-weight: 600;
-            color: var(--primary-color);
         }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background: white;
-            border-radius: 6px;
-            overflow: hidden;
-            border: 1px solid var(--border-color);
+
+        .hero .subtitle {
+            font-size: 18px;
         }
-        
-        th, td {
-            padding: 12px 15px;
-            text-align: left;
-            border-bottom: 1px solid var(--border-color);
+
+        .about-section h2 {
+            font-size: 24px;
         }
-        
-        th {
-            background-color: var(--bg-color);
-            font-weight: 600;
-        }
-        
-        tr:hover {
-            background-color: #f1f8ff;
-        }
-        
-        .badge {
-            display: inline-block;
-            padding: 2px 8px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 500;
-        }
-        
-        .badge-copilot {
-            background-color: #ddf4ff;
-            color: #0969da;
-        }
-        
-        .badge-reviewer {
-            background-color: #dafbe1;
-            color: #1a7f37;
-        }
-        
-        .badge-false {
-            background-color: #f3f4f6;
-            color: #6b7280;
-        }
-        
-        a {
-            color: var(--primary-color);
-            text-decoration: none;
-        }
-        
-        a:hover {
-            text-decoration: underline;
-        }
-        
-        .repo-badge {
-            display: inline-block;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            background-color: #e8e8e8;
-            font-weight: 500;
-        }
-        
-        /* Android/Java repos - Green */
-        .repo-android,
-        .repo-android-libzipsharp,
-        .repo-android-libraries,
-        .repo-android-native-tools,
-        .repo-android-samples,
-        .repo-android-tools,
-        .repo-java-interop { 
-            background-color: #3ddc8420; 
-            color: #059669; 
-        }
-        
-        /* MAUI repos - Purple */
-        .repo-maui,
-        .repo-maui-labs,
-        .repo-maui-samples,
-        .repo-SkiaSharp,
-        .repo-SkiaSharp\.Extended { 
-            background-color: #7c3aed20; 
-            color: #7c3aed; 
-        }
-        
-        /* macOS/iOS repos - Orange */
-        .repo-macios,
-        .repo-macios-devtools,
-        .repo-macios-samples,
-        .repo-xcsync { 
-            background-color: #f9731620; 
-            color: #ea580c; 
-        }
-        
-        .chart-container {
-            background: white;
-            border-radius: 6px;
-            border: 1px solid var(--border-color);
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        
-        .chart-container canvas {
-            width: 100%;
-            height: 300px;
-        }
-        
-        .chart-legend {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            margin-top: 10px;
-            font-size: 14px;
-        }
-        
-        .chart-legend span {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        
-        .legend-color {
-            display: inline-block;
-            width: 14px;
-            height: 14px;
-            border-radius: 3px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>🤖 Agentic Engineers - PR Dashboard</h1>
-        <p class="last-updated">Last updated: <span id="lastUpdated">Loading...</span> · <a href="{{ site.baseurl }}/blogs/" style="color: var(--primary-color); text-decoration: none; font-weight: 600;">📝 Blog</a></p>
-        
-        <div class="filters">
-            <label for="repoFilter">Filter by Repo:</label>
-            <select id="repoFilter">
-                <option value="all">All Repos</option>
-            </select>
-            
-            <label for="monthFilter">Filter by Month:</label>
-            <select id="monthFilter">
-                <option value="all">All Months</option>
-            </select>
-            
-            <label for="chartGranularity">Chart Granularity:</label>
-            <select id="chartGranularity">
-                <option value="month">Per Month</option>
-                <option value="week">Per Week</option>
-                <option value="day">Per Day</option>
-            </select>
-        </div>
-        
-        <div class="summary-cards">
-            <div class="summary-card">
-                <h3>Total Merged PRs</h3>
-                <div class="value" id="totalPRs">0</div>
-            </div>
-            <div class="summary-card">
-                <h3>Copilot Authored</h3>
-                <div class="value" id="copilotPRs">0</div>
-            </div>
-            <div class="summary-card">
-                <h3>MAUI Reviewer Used</h3>
-                <div class="value" id="reviewerPRs">0</div>
-            </div>
-        </div>
-        
-        <h2>Monthly Totals</h2>
-        <div class="chart-container">
-            <canvas id="monthlyChart"></canvas>
-            <div class="chart-legend">
-                <span><span class="legend-color" style="background:#0366d6"></span> Merged PRs</span>
-                <span><span class="legend-color" style="background:#28a745"></span> Copilot Authored</span>
-                <span><span class="legend-color" style="background:#6f42c1"></span> MAUI Reviewer</span>
-            </div>
-        </div>
-        <table id="monthlyTable">
-            <thead>
-                <tr>
-                    <th>Month</th>
-                    <th>Merged PRs</th>
-                    <th>Copilot Authored</th>
-                    <th>MAUI Reviewer Used</th>
-                </tr>
-            </thead>
-            <tbody id="monthlyBody">
-            </tbody>
-        </table>
-        
-        <h2 style="margin-top: 30px;">Recent Merged PRs</h2>
-        <table id="prTable">
-            <thead>
-                <tr>
-                    <th>PR</th>
-                    <th>Repo</th>
-                    <th>Author</th>
-                    <th>Merged</th>
-                    <th>Copilot</th>
-                    <th>MAUI Reviewer</th>
-                </tr>
-            </thead>
-            <tbody id="prBody">
-            </tbody>
-        </table>
+    }
+</style>
+
+<div class="hero">
+    <h1>Agentic Engineers</h1>
+    <p class="subtitle">
+        We are a group of software engineers at <strong>Microsoft</strong> exploring how AI agents
+        can transform the way we build, review, and ship software.
+    </p>
+    <span class="org-badge">
+        🏢 Microsoft · Developer Division · .NET
+    </span>
+</div>
+
+<section class="about-section">
+    <h2>What We Do</h2>
+    <p>
+        Agentic Engineers is a team within Microsoft's Developer Division, working across the .NET ecosystem.
+        We build frameworks and tools used by millions of developers — including
+        <strong>.NET MAUI</strong>, <strong>Xamarin.Android</strong>, <strong>Xamarin.iOS</strong>, and related libraries.
+    </p>
+    <p>
+        We are actively integrating AI-powered agents into our engineering workflows: from
+        <strong>Copilot-authored pull requests</strong> to <strong>automated code review</strong> powered by
+        multi-model adversarial systems. This site tracks our progress and shares what we learn along the way.
+    </p>
+</section>
+
+<div class="cards-grid">
+    <div class="info-card">
+        <div class="card-icon">📊</div>
+        <h3>PR Dashboard</h3>
+        <p>
+            Track merged pull requests across our repos. See which PRs were authored by Copilot
+            and which used AI-powered code review — updated hourly.
+        </p>
     </div>
-    
-    <script>
-        // Data injected at build time by Jekyll from _data/prs.json
-        const prData = {{ site.data.prs | jsonify }};
-        
-        function loadData() {
-            if (prData && prData.lastUpdated) {
-                document.getElementById('lastUpdated').textContent = 
-                    new Date(prData.lastUpdated).toLocaleString();
-            }
-            
-            if (prData && prData.prs) {
-                populateFilters();
-                updateDisplay();
-            } else {
-                document.getElementById('lastUpdated').textContent = 'No data available';
-            }
-        }
-        
-        function populateFilters() {
-            const repoFilter = document.getElementById('repoFilter');
-            const monthFilter = document.getElementById('monthFilter');
-            
-            // Populate repo filter (sorted alphabetically)
-            const repos = [...new Set(prData.prs.map(pr => pr.repo))].sort();
-            repos.forEach(repo => {
-                const option = document.createElement('option');
-                option.value = repo;
-                option.textContent = repo;
-                repoFilter.appendChild(option);
-            });
-            
-            // Populate month filter
-            const months = [...new Set(prData.prs.map(pr => {
-                const date = new Date(pr.mergedAt);
-                return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
-            }))].sort().reverse();
-            
-            months.forEach(month => {
-                const option = document.createElement('option');
-                option.value = month;
-                const [year, monthNum] = month.split('-');
-                option.textContent = new Date(year, monthNum - 1).toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
-                monthFilter.appendChild(option);
-            });
-            
-            repoFilter.addEventListener('change', updateDisplay);
-            monthFilter.addEventListener('change', updateDisplay);
-            document.getElementById('chartGranularity').addEventListener('change', updateDisplay);
-        }
-        
-        function getFilteredPRs() {
-            const repoFilter = document.getElementById('repoFilter').value;
-            const monthFilter = document.getElementById('monthFilter').value;
-            
-            return prData.prs.filter(pr => {
-                if (repoFilter !== 'all' && pr.repo !== repoFilter) return false;
-                if (monthFilter !== 'all') {
-                    const date = new Date(pr.mergedAt);
-                    const prMonth = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
-                    if (prMonth !== monthFilter) return false;
-                }
-                return true;
-            });
-        }
-        
-        function updateDisplay() {
-            const filteredPRs = getFilteredPRs();
-            
-            // Update summary cards
-            document.getElementById('totalPRs').textContent = filteredPRs.length;
-            document.getElementById('copilotPRs').textContent = 
-                filteredPRs.filter(pr => pr.copilotAuthored).length;
-            const repoFilter = document.getElementById('repoFilter').value;
-            const showReviewerData = repoFilter === 'all' || repoFilter === 'dotnet/maui';
-            document.getElementById('reviewerPRs').textContent = showReviewerData
-                ? filteredPRs.filter(pr => pr.mauiReviewerUsed).length
-                : 'n/a';
-            
-            // Update monthly table
-            updateMonthlyTable(filteredPRs);
-            
-            // Update PR table
-            updatePRTable(filteredPRs);
-        }
-        
-        function getChartData(prs) {
-            const granularity = document.getElementById('chartGranularity').value;
-            const data = {};
-            
-            prs.forEach(pr => {
-                const date = new Date(pr.mergedAt);
-                let key;
-                if (granularity === 'day') {
-                    key = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
-                } else if (granularity === 'week') {
-                    // Get Monday of the week
-                    const d = new Date(date);
-                    const day = d.getDay();
-                    const diff = d.getDate() - day + (day === 0 ? -6 : 1);
-                    d.setDate(diff);
-                    key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-                } else {
-                    key = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
-                }
-                
-                if (!data[key]) {
-                    data[key] = { total: 0, copilot: 0, reviewer: 0 };
-                }
-                data[key].total++;
-                if (pr.copilotAuthored) data[key].copilot++;
-                if (pr.mauiReviewerUsed) data[key].reviewer++;
-            });
-            
-            return data;
-        }
-        
-        function formatChartLabel(key) {
-            const granularity = document.getElementById('chartGranularity').value;
-            const parts = key.split('-');
-            if (granularity === 'day') {
-                const d = new Date(parts[0], parts[1] - 1, parts[2]);
-                return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-            } else if (granularity === 'week') {
-                const d = new Date(parts[0], parts[1] - 1, parts[2]);
-                return 'W ' + d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-            } else {
-                return new Date(parts[0], parts[1] - 1).toLocaleDateString('en-US', { month: 'short', year: '2-digit' });
-            }
-        }
-        
-        function drawChart(keys, chartData, showReviewerData) {
-            const canvas = document.getElementById('monthlyChart');
-            const dpr = window.devicePixelRatio || 1;
-            const rect = canvas.parentElement.getBoundingClientRect();
-            const width = rect.width - 40;
-            const height = 300;
-            canvas.width = width * dpr;
-            canvas.height = height * dpr;
-            canvas.style.width = width + 'px';
-            canvas.style.height = height + 'px';
-            const ctx = canvas.getContext('2d');
-            ctx.scale(dpr, dpr);
-            ctx.clearRect(0, 0, width, height);
-            
-            if (keys.length === 0) return;
-            
-            const totals = keys.map(k => chartData[k].total);
-            const copilots = keys.map(k => chartData[k].copilot);
-            const reviewers = keys.map(k => chartData[k].reviewer);
-            const maxVal = Math.max(...totals, 1);
-            
-            const padLeft = 50;
-            const padRight = 20;
-            const padTop = 20;
-            const padBottom = 40;
-            const chartW = width - padLeft - padRight;
-            const chartH = height - padTop - padBottom;
-            
-            // Draw grid lines and Y-axis labels
-            ctx.strokeStyle = '#e1e4e8';
-            ctx.fillStyle = '#586069';
-            ctx.font = '12px -apple-system, sans-serif';
-            ctx.textAlign = 'right';
-            const gridLines = 5;
-            for (let i = 0; i <= gridLines; i++) {
-                const y = padTop + (chartH / gridLines) * i;
-                const val = Math.round(maxVal - (maxVal / gridLines) * i);
-                ctx.beginPath();
-                ctx.moveTo(padLeft, y);
-                ctx.lineTo(width - padRight, y);
-                ctx.stroke();
-                ctx.fillText(val, padLeft - 8, y + 4);
-            }
-            
-            // Draw X-axis labels (limit labels to avoid overlap)
-            ctx.textAlign = 'center';
-            const xStep = keys.length > 1 ? chartW / (keys.length - 1) : 0;
-            const maxLabels = Math.floor(chartW / 60);
-            const labelStep = keys.length > maxLabels ? Math.ceil(keys.length / maxLabels) : 1;
-            keys.forEach((k, i) => {
-                if (i % labelStep === 0 || i === keys.length - 1) {
-                    const x = padLeft + i * xStep;
-                    ctx.fillText(formatChartLabel(k), x, height - padBottom + 20);
-                }
-            });
-            
-            function drawLine(data, color) {
-                if (keys.length === 1) {
-                    const x = padLeft;
-                    const y = padTop + chartH - (data[0] / maxVal) * chartH;
-                    ctx.fillStyle = color;
-                    ctx.beginPath();
-                    ctx.arc(x, y, 4, 0, Math.PI * 2);
-                    ctx.fill();
-                    return;
-                }
-                
-                // Compute (x, y) points
-                const points = data.map((val, i) => ({
-                    x: padLeft + i * xStep,
-                    y: padTop + chartH - (val / maxVal) * chartH
-                }));
-                
-                ctx.strokeStyle = color;
-                ctx.lineWidth = 2;
-                ctx.beginPath();
-                ctx.moveTo(points[0].x, points[0].y);
-                
-                // Monotone cubic Hermite spline (Fritsch-Carlson)
-                // Smooth curves that never overshoot data points
-                // Uses arithmetic mean for tangent init (correct for equally-spaced x)
-                const n = points.length;
-                if (n === 2) {
-                    ctx.lineTo(points[1].x, points[1].y);
-                } else if (n > 2) {
-                    // Compute slopes of secant lines
-                    const delta = [];
-                    let zeroSpacing = false;
-                    for (let i = 0; i < n - 1; i++) {
-                        const dx = points[i + 1].x - points[i].x;
-                        if (Math.abs(dx) < 1e-12) {
-                            zeroSpacing = true;
-                            break;
-                        }
-                        delta.push((points[i + 1].y - points[i].y) / dx);
-                    }
-                    // Fall back to straight lines if x-spacing is zero
-                    if (zeroSpacing) {
-                        for (let i = 1; i < n; i++) {
-                            ctx.lineTo(points[i].x, points[i].y);
-                        }
-                        ctx.stroke();
-                        ctx.fillStyle = color;
-                        points.forEach(p => {
-                            ctx.beginPath();
-                            ctx.arc(p.x, p.y, 3, 0, Math.PI * 2);
-                            ctx.fill();
-                        });
-                        return;
-                    }
-                    // Compute tangent slopes (arithmetic mean; equal spacing)
-                    const m = [delta[0]];
-                    for (let i = 1; i < n - 1; i++) {
-                        if (delta[i - 1] * delta[i] <= 0) {
-                            m.push(0);
-                        } else {
-                            m.push((delta[i - 1] + delta[i]) / 2);
-                        }
-                    }
-                    m.push(delta[n - 2]);
-                    // Clamp tangents to ensure monotonicity
-                    for (let i = 0; i < n - 1; i++) {
-                        if (Math.abs(delta[i]) < 1e-12) {
-                            m[i] = 0;
-                            m[i + 1] = 0;
-                        } else {
-                            const alpha = m[i] / delta[i];
-                            const beta = m[i + 1] / delta[i];
-                            const s = alpha * alpha + beta * beta;
-                            if (s > 9) {
-                                const t = 3 / Math.sqrt(s);
-                                m[i] = t * alpha * delta[i];
-                                m[i + 1] = t * beta * delta[i];
-                            }
-                        }
-                    }
-                    // Draw cubic Hermite segments
-                    for (let i = 0; i < n - 1; i++) {
-                        const dx = (points[i + 1].x - points[i].x) / 3;
-                        ctx.bezierCurveTo(
-                            points[i].x + dx, points[i].y + m[i] * dx,
-                            points[i + 1].x - dx, points[i + 1].y - m[i + 1] * dx,
-                            points[i + 1].x, points[i + 1].y
-                        );
-                    }
-                }
-                ctx.stroke();
-                
-                // Draw dots
-                ctx.fillStyle = color;
-                points.forEach(p => {
-                    ctx.beginPath();
-                    ctx.arc(p.x, p.y, 3, 0, Math.PI * 2);
-                    ctx.fill();
-                });
-            }
-            
-            drawLine(totals, '#0366d6');
-            drawLine(copilots, '#28a745');
-            if (showReviewerData) {
-                drawLine(reviewers, '#6f42c1');
-            }
-        }
-        
-        function updateMonthlyTable(prs) {
-            const repoFilter = document.getElementById('repoFilter').value;
-            const showReviewerData = repoFilter === 'all' || repoFilter === 'dotnet/maui';
-            
-            // Monthly data for the table (always per-month)
-            const monthlyData = {};
-            prs.forEach(pr => {
-                const date = new Date(pr.mergedAt);
-                const monthKey = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
-                
-                if (!monthlyData[monthKey]) {
-                    monthlyData[monthKey] = { total: 0, copilot: 0, reviewer: 0 };
-                }
-                
-                monthlyData[monthKey].total++;
-                if (pr.copilotAuthored) monthlyData[monthKey].copilot++;
-                if (pr.mauiReviewerUsed) monthlyData[monthKey].reviewer++;
-            });
-            
-            // Chart data (based on granularity dropdown)
-            const chartData = getChartData(prs);
-            const sortedChartKeys = Object.keys(chartData).sort();
-            drawChart(sortedChartKeys, chartData, showReviewerData);
-            
-            // Table always shows monthly data
-            const sortedMonths = Object.keys(monthlyData).sort();
-            const tbody = document.getElementById('monthlyBody');
-            tbody.innerHTML = '';
-            
-            sortedMonths.slice().reverse().forEach(month => {
-                const [year, monthNum] = month.split('-');
-                const monthName = new Date(year, monthNum - 1).toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
-                const data = monthlyData[month];
-                
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td>${monthName}</td>
-                    <td>${data.total}</td>
-                    <td>${data.copilot}</td>
-                    <td>${showReviewerData ? data.reviewer : 'n/a'}</td>
-                `;
-                tbody.appendChild(row);
-            });
-        }
-        
-        function getRepoClass(repoName) {
-            // Extract repo name after dotnet/ and add repo- prefix
-            return 'repo-' + repoName.split('/')[1];
-        }
-        
-        function updatePRTable(prs) {
-            const repoFilter = document.getElementById('repoFilter').value;
-            const showReviewerData = repoFilter === 'all' || repoFilter === 'dotnet/maui';
-            const tbody = document.getElementById('prBody');
-            tbody.innerHTML = '';
-            
-            // Show only first 50 PRs in the detailed table
-            const displayPRs = prs.slice(0, 50);
-            
-            displayPRs.forEach(pr => {
-                const row = document.createElement('tr');
-                const repoClass = getRepoClass(pr.repo);
-                const reviewerDisplay = (showReviewerData || pr.repo === 'dotnet/maui')
-                    ? `<span class="badge ${pr.mauiReviewerUsed ? 'badge-reviewer' : 'badge-false'}">${pr.mauiReviewerUsed ? 'Yes' : 'No'}</span>`
-                    : '<span class="badge badge-false">n/a</span>';
-                
-                row.innerHTML = `
-                    <td><a href="${pr.url}" target="_blank">#${pr.number}</a> ${escapeHtml(pr.title.substring(0, 60))}${pr.title.length > 60 ? '...' : ''}</td>
-                    <td><span class="repo-badge ${repoClass}">${pr.repo}</span></td>
-                    <td>${pr.author}</td>
-                    <td>${new Date(pr.mergedAt).toLocaleDateString()}</td>
-                    <td><span class="badge ${pr.copilotAuthored ? 'badge-copilot' : 'badge-false'}">${pr.copilotAuthored ? 'Yes' : 'No'}</span></td>
-                    <td>${reviewerDisplay}</td>
-                `;
-                tbody.appendChild(row);
-            });
-        }
-        
-        function escapeHtml(text) {
-            const div = document.createElement('div');
-            div.textContent = text;
-            return div.innerHTML;
-        }
-        
-        // Load data when page loads
-        loadData();
-    </script>
-</body>
-</html>
+    <div class="info-card">
+        <div class="card-icon">✍️</div>
+        <h3>Blog</h3>
+        <p>
+            Deep dives into our experiments with agentic workflows, multi-model review systems,
+            and real-world results from shipping AI-assisted code.
+        </p>
+    </div>
+    <div class="info-card">
+        <div class="card-icon">🔬</div>
+        <h3>Open Source</h3>
+        <p>
+            All of our work happens in public repositories under the <code>dotnet</code> GitHub org.
+            Our tooling, workflows, and findings are shared openly.
+        </p>
+    </div>
+</div>
+
+<div class="cta-section">
+    <h2>Explore Our Work</h2>
+    <p>See the data and read about our latest experiments with AI-powered engineering.</p>
+    <div class="cta-buttons">
+        <a href="{{ site.baseurl }}/dashboard/" class="cta-btn cta-btn-primary">📊 View Dashboard</a>
+        <a href="{{ site.baseurl }}/blogs/" class="cta-btn cta-btn-secondary">✍️ Read the Blog</a>
+    </div>
+</div>
