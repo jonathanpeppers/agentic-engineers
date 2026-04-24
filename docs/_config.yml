@@ -1,7 +1,7 @@
 title: Agentic Engineers
 description: PR tracking dashboard for dotnet repos
-baseurl: "/agentic-engineers"
-url: "https://jonathanpeppers.github.io"
+baseurl: ""
+url: "https://agentic-engineers.net"
 
 # Build settings
 markdown: kramdown
