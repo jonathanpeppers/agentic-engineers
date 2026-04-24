@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "From Three Days to Three Minutes: Reviewing a Half-Million-Line Skia Bump"
+title: "From Ten Days to Ten Minutes: Reviewing a Half-Million-Line Skia Bump"
 author: "Matthew Leibowitz"
-excerpt: "Bumping SkiaSharp to a new Skia release used to mean staring at a 500,000-line diff for the better part of a week. Now I open one HTML report, click around for a few minutes, and I'm done. Here's how a small AI skill changed my life."
+excerpt: "Bumping SkiaSharp to a new Skia release used to mean staring at a 500,000-line diff for the better part of two weeks. Now I open one HTML report, click around for ten minutes, and I'm done. Here's how a small AI skill changed my life."
 ---
 
-# From Three Days to Three Minutes: Reviewing a Half-Million-Line Skia Bump
+# From Ten Days to Ten Minutes: Reviewing a Half-Million-Line Skia Bump
 
 *April 2026 — Matthew Leibowitz ([@mattleibow](https://github.com/mattleibow))*
 
@@ -87,13 +87,13 @@ I want to be clear about what the AI is and isn't doing here, because that's the
 
 **The AI is not guessing.** The mechanical checks are mechanical — a Python script regenerates bindings, runs `diff`, walks the merge graph. The AI only narrates the results and ranks the risk. If a binding doesn't match, that's `diff` saying so, not a language model having a feeling.
 
-**The AI is doing the part I was bad at.** I am a human. I cannot read 4,000 files. I cannot remember which of our 80-odd carry-patches were added in 2019 and why. I cannot eyeball whether a regenerated P/Invoke signature drifted by one parameter. The computer is *great* at all of those things, and now it does them in a few minutes instead of me doing them badly over three days.
+**The AI is doing the part I was bad at.** I am a human. I cannot read 4,000 files. I cannot remember which of our 80-odd carry-patches were added in 2019 and why. I cannot eyeball whether a regenerated P/Invoke signature drifted by one parameter. The computer is *great* at all of those things, and now it does them in about ten minutes instead of me doing them badly over ten days.
 
 The before-and-after is genuinely silly:
 
 | | **Before** | **After** |
 |---|---|---|
-| Time to first useful review | ~2–3 days | ~3 minutes |
+| Time to first useful review | ~10 days | ~10 minutes |
 | Files I personally scroll through | thousands | dozens |
 | "Did I miss a dropped patch?" anxiety | constant | zero |
 | Reviewers willing to look at the PR | 1 (me, reluctantly) | anyone with a browser |
