@@ -1,6 +1,216 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35130",
+      "number": 35130,
+      "title": "Revert \"[Android, iOS] Throw exceptions consistently for invalid StaticResource references to prevent relaunch crashes (#33859)\"",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-24T16:16:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11200",
+      "number": 11200,
+      "title": "Bump external/Java.Interop from `69c9daa` to `26c7948`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-04-24T16:01:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11130",
+      "number": 11130,
+      "title": "[dotnet test] Add MTP test adapter for Android device testing",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-24T15:55:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11166",
+      "number": 11166,
+      "title": "Refactor network test helpers and fix async Assert.Ignore in NUnitLite",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-24T15:50:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11185",
+      "number": 11185,
+      "title": "[Build] Add Inputs/Outputs to _AddTypeManagerResources to skip on incremental builds",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-24T15:42:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/143",
+      "number": 143,
+      "title": "Fix AndroidProvider health check test environment isolation",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-24T15:39:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11198",
+      "number": 11198,
+      "title": "Bump external/xamarin-android-tools from `d222cfe` to `e873716`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-04-24T15:32:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11197",
+      "number": 11197,
+      "title": "[TrimmableTypeMap] Replace startup hook with direct TypeMapLoader.Initialize() call",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-24T15:30:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3731",
+      "number": 3731,
+      "title": "review-skia-update: Add --milestone parameter for explicit milestone input",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-24T15:27:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25151",
+      "number": 25151,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-04-24T15:12:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3666",
+      "number": 3666,
+      "title": "Update Uno Platform sample",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-24T13:51:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11202",
+      "number": 11202,
+      "title": "[tests] Skip InflateCustomView_ShouldNotLeakGlobalRefs until global ref leak is fully resolved",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-24T13:26:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/144",
+      "number": 144,
+      "title": "Harden MCP tools: batch exceptions, gesture null params, capabilities message",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-24T12:31:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25231",
+      "number": 25231,
+      "title": "[devops] Fix PR latest-commit detection",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-24T11:58:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/115",
+      "number": 115,
+      "title": "Add 5 critical MCP tools: capabilities, back, key, gesture, batch",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-24T10:44:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34935",
+      "number": 34935,
+      "title": " [iOS & Mac] Fix image tile misalignment in GraphicsView ImagePaint",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-04-24T10:33:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/142",
+      "number": 142,
+      "title": "Add debug app identity isolation for DevFlow builds",
+      "repo": "dotnet/maui-labs",
+      "author": "vitek-karas",
+      "mergedAt": "2026-04-24T10:31:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34907",
+      "number": 34907,
+      "title": "[Windows] Fix CollectionView ScrollTo related test cases failed in CI",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-04-24T10:24:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/121",
+      "number": 121,
+      "title": "Fix maui CLI help rendering for options and subcommands",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-24T10:21:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25228",
+      "number": 25228,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-24T10:05:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/100",
+      "number": 100,
+      "title": "Add MIBC output mode to `maui profile startup`",
+      "repo": "dotnet/maui-labs",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-24T09:57:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/131",
       "number": 131,
       "title": "Fix emulator start false-positive when launcher forks and exits",
@@ -52621,7 +52831,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-24T08:42:24.216Z",
+  "lastUpdated": "2026-04-24T16:22:06.642Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
