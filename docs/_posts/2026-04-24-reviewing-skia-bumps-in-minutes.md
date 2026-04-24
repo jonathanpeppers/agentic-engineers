@@ -17,15 +17,16 @@ Let me tell you about my least favourite week of every quarter.
 
 Yes, really. Half a million lines. C++, headers, build files, vendored third-party code, regenerated P/Invoke bindings, an upstream merge with hundreds of commits, and a pile of our own carry-patches that may or may not still apply. And it's not even *one* PR — it's two: one in `mono/skia`, and a companion in `mono/SkiaSharp` for the C# side. They have to be reviewed together or not at all.
 
-For years, my "review" looked like this:
+For years, doing this review properly meant blocking out the better part of two weeks and working through it by hand:
 
-1. Open the PR.
-2. Scroll.
-3. Keep scrolling.
-4. Go make coffee.
-5. Quietly approve and hope for the best.
+1. Pull both branches locally and build them, because the GitHub diff viewer gives up long before file 4,000.
+2. Walk the upstream merge commit by commit — hundreds of them — to understand what Google actually changed across fourteen Skia milestones.
+3. For every one of our carry-patches, work out whether it was preserved, rebased, upstreamed, obsoleted, or silently dropped. Miss one and we ship a regression to every customer using SkiaSharp.
+4. Re-run the P/Invoke binding generator from scratch and diff the output against what's in the PR, header by header, to make sure the C# surface still matches the new C ABI.
+5. Cross-reference every `DEPS` bump (freetype, libjpeg-turbo, harfbuzz, and friends) against the Chromium revision it's supposed to track, and check the changelogs for anything security-sensitive.
+6. Switch over to the companion C# PR and audit the hand-written changes for null handling, disposal, and backward compatibility — separately from the auto-generated bindings, because mixing those two reviews is how mistakes happen.
 
-That is not a review. That's a prayer.
+Each of those steps requires real focus, and you cannot safely interleave them — lose your place in the merge graph and you start over. Customers — Chrome's .NET ecosystem, MAUI apps in production, every shipped game and design tool that links SkiaSharp — depend on this review being thorough, so cutting corners is not an option. The realistic cost was about ten working days of one person's undivided attention, and during that time almost nothing else got done.
 
 ## The Real Questions Hiding in That Diff
 
@@ -89,7 +90,7 @@ I want to be clear about what the AI is and isn't doing here, because that's the
 
 **The AI is doing the part I was bad at.** I am a human. I cannot read 4,000 files. I cannot remember which of our 80-odd carry-patches were added in 2019 and why. I cannot eyeball whether a regenerated P/Invoke signature drifted by one parameter. The computer is *great* at all of those things, and now it does them in about ten minutes instead of me doing them badly over ten days.
 
-The before-and-after is genuinely silly:
+The before-and-after is stark:
 
 | | **Before** | **After** |
 |---|---|---|
@@ -111,9 +112,7 @@ If you maintain anything with a "huge regenerated PR" problem — a vendored lib
 
 That's it. The skill is a markdown file. The orchestrator is a Python script. The "magic" is just deciding, up front, what a good review looks like — and then refusing to ship a report that doesn't deliver one.
 
-What used to be a painful, day-eating slog is now something I genuinely look forward to. Skia bumped to a new milestone? Cool. Let me grab a coffee and click through the report.
-
-This time, the coffee is for fun.
+What used to be a multi-day, focus-eating slog is now a focused, repeatable process. A new Skia milestone lands, I run the skill, and within minutes I have a structured report that lets me — or any other reviewer — give the change the attention our customers deserve.
 
 ## Links
 
