@@ -3,6 +3,12 @@ layout: post
 title: "From Ten Days to Ten Minutes: Reviewing a Half-Million-Line Skia Bump"
 author: "Matthew Leibowitz"
 excerpt: "Bumping SkiaSharp to a new Skia release used to mean staring at a 500,000-line diff for the better part of two weeks. Now I open one HTML report, click around for ten minutes, and I'm done. Here's how a small AI skill changed my life."
+tags:
+  - copilot
+  - skiasharp
+  - code-review
+  - automation
+  - ai-agents
 ---
 
 # From Ten Days to Ten Minutes: Reviewing a Half-Million-Line Skia Bump
