@@ -3,6 +3,13 @@ layout: post
 title: "Sorting Networks: From Paper to Performance with AI"
 author: "Jonathan Peppers"
 excerpt: "Implementing a new CS paper algorithm in C# using GitHub Copilot, then benchmarking against .NET's built-in sort — achieving up to 41x faster performance with SIMD vectorization. 59 PRs in 3 days, from research paper to optimized library."
+tags:
+  - copilot
+  - csharp
+  - performance
+  - benchmarking
+  - simd
+  - algorithms
 ---
 
 # Sorting Networks: From Paper to Performance with AI
