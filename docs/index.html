@@ -75,11 +75,23 @@ title: Home
         border-radius: 12px;
         padding: 32px;
         transition: box-shadow 0.2s ease, border-color 0.2s ease;
+        cursor: pointer;
     }
 
     .info-card:hover {
         box-shadow: 0 8px 30px rgba(99, 102, 241, 0.1);
         border-color: #c7d2fe;
+    }
+
+    a.info-card-link {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+
+    a.info-card-link:hover {
+        text-decoration: none;
+        color: inherit;
     }
 
     .info-card .card-icon {
@@ -204,30 +216,36 @@ title: Home
 </section>
 
 <div class="cards-grid">
-    <div class="info-card">
-        <div class="card-icon">📊</div>
-        <h3>PR Dashboard</h3>
-        <p>
-            Track merged pull requests across our repos. See which PRs were authored by Copilot
-            and which used AI-powered code review — updated hourly.
-        </p>
-    </div>
-    <div class="info-card">
-        <div class="card-icon">✍️</div>
-        <h3>Blog</h3>
-        <p>
-            Deep dives into our experiments with agentic workflows, multi-model review systems,
-            and real-world results from shipping AI-assisted code.
-        </p>
-    </div>
-    <div class="info-card">
-        <div class="card-icon">🔬</div>
-        <h3>Open Source</h3>
-        <p>
-            All of our work happens in public repositories under the <code>dotnet</code> GitHub org.
-            Our tooling, workflows, and findings are shared openly.
-        </p>
-    </div>
+    <a href="{{ site.baseurl }}/dashboard/" class="info-card-link">
+        <div class="info-card">
+            <div class="card-icon">📊</div>
+            <h3>PR Dashboard</h3>
+            <p>
+                Track merged pull requests across our repos. See which PRs were authored by Copilot
+                and which used AI-powered code review — updated hourly.
+            </p>
+        </div>
+    </a>
+    <a href="{{ site.baseurl }}/blogs/" class="info-card-link">
+        <div class="info-card">
+            <div class="card-icon">✍️</div>
+            <h3>Blog</h3>
+            <p>
+                Deep dives into our experiments with agentic workflows, multi-model review systems,
+                and real-world results from shipping AI-assisted code.
+            </p>
+        </div>
+    </a>
+    <a href="https://github.com/dotnet" class="info-card-link">
+        <div class="info-card">
+            <div class="card-icon">🔬</div>
+            <h3>Open Source</h3>
+            <p>
+                All of our work happens in public repositories under the <code>dotnet</code> GitHub org.
+                Our tooling, workflows, and findings are shared openly.
+            </p>
+        </div>
+    </a>
 </div>
 
 <div class="cta-section">
