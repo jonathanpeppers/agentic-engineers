@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35128",
+      "number": 35128,
+      "title": "[Android] Shell: Fix top-tab unselected text visibility in Material 3 light theme",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-04-25T09:31:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35129",
+      "number": 35129,
+      "title": "[Android] Fix Shell/TabbedPage \"More\" BottomSheet uses hard-coded M2 colors when Material3 is enabled ",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-04-25T09:29:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35117",
+      "number": 35117,
+      "title": "[Material 3] Fix Material 2 color flash in AppBar when switching tabs for the first time",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-04-25T09:19:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35087",
+      "number": 35087,
+      "title": "[Android/iOS] Fix SwipeItem visibility change causing double command execution in Execute mode",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-04-25T09:16:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11199",
       "number": 11199,
       "title": "[Build] Fix apidocs pipeline (template repo, DocsApiLevel, JAVA_HOME)",
@@ -52881,7 +52921,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-25T08:21:01.377Z",
+  "lastUpdated": "2026-04-25T16:13:31.614Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
