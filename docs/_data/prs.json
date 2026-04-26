@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3747",
+      "number": 3747,
+      "title": "Fix debian/13 Docker build for non-loong64/riscv64 architectures",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-25T23:58:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3745",
+      "number": 3745,
+      "title": "Update devcontainers: split into managed and native configs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-25T21:45:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3744",
+      "number": 3744,
+      "title": "Bump externals/skia to include sk_fontmgr_legacy_create_typeface",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-25T21:41:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3730",
+      "number": 3730,
+      "title": "Fix #3693: move default-typeface resolution to the managed layer",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-25T19:30:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35128",
       "number": 35128,
       "title": "[Android] Shell: Fix top-tab unselected text visibility in Material 3 light theme",
@@ -52921,7 +52961,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-25T16:13:31.614Z",
+  "lastUpdated": "2026-04-26T00:32:09.391Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
