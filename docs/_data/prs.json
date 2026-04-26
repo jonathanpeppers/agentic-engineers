@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3674",
+      "number": 3674,
+      "title": "Fix x86 .NET Framework threading test OOM failures (#3608)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-26T13:24:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3703",
+      "number": 3703,
+      "title": "Variable font support",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-26T13:15:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3640",
+      "number": 3640,
+      "title": "Upgrade SkiaSharp major version from 3.x to 4.x",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-26T11:25:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35083",
+      "number": 35083,
+      "title": "[iOS] Fix stale bottom safe area after changing SafeAreaEdges with keyboard open",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-04-26T11:02:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/148",
       "number": 148,
       "title": "Rework debug identity isolation to metadata-only session identity",
@@ -53001,7 +53041,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-26T08:27:47.336Z",
+  "lastUpdated": "2026-04-26T16:14:53.546Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
