@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/148",
+      "number": 148,
+      "title": "Rework debug identity isolation to metadata-only session identity",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-26T06:35:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3750",
+      "number": 3750,
+      "title": "Fix YAML syntax error in build-site workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-26T02:34:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3746",
+      "number": 3746,
+      "title": "Replace release-notes-audit with skia-feature-scout skill",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-26T01:22:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3748",
+      "number": 3748,
+      "title": "Add staging URL to docs deploy commit message",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-26T01:15:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3747",
       "number": 3747,
       "title": "Fix debian/13 Docker build for non-loong64/riscv64 architectures",
@@ -52961,7 +53001,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-26T00:32:09.391Z",
+  "lastUpdated": "2026-04-26T08:27:47.336Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
