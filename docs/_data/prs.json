@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3756",
+      "number": 3756,
+      "title": "Add gallery sample guidance to api-add-review skill",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-27T01:31:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3749",
       "number": 3749,
       "title": "Expand API design docs and rename add-api skill to api-add-review",
@@ -53081,7 +53091,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-27T00:32:34.459Z",
+  "lastUpdated": "2026-04-27T08:52:39.422Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
