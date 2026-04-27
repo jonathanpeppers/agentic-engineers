@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-tools/pull/342",
+      "number": 342,
+      "title": "Fix NullReferenceException in DeleteFile catch block",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-27T14:12:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/337",
+      "number": 337,
+      "title": "Fix StringBuilder concurrency crash in JdkInfo.GetJavaProperties",
+      "repo": "dotnet/android-tools",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-27T14:09:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/341",
+      "number": 341,
+      "title": "[JdkInfo] Remove dead code: GetLibJvmJdks and GetLibJvmJdkPaths",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-27T13:59:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/159",
+      "number": 159,
+      "title": "Redirect MCP server logging to stderr to prevent stdio transport corruption",
+      "repo": "dotnet/maui-labs",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-27T13:20:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/338",
+      "number": 338,
+      "title": "Replace `XxHash64` with `System.IO.Hashing.Crc64` in `Files` class",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-27T09:19:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3756",
       "number": 3756,
       "title": "Add gallery sample guidance to api-add-review skill",
@@ -53091,7 +53141,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-27T08:52:39.422Z",
+  "lastUpdated": "2026-04-27T16:34:02.956Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
