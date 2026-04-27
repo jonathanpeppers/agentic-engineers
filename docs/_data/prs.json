@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3749",
+      "number": 3749,
+      "title": "Expand API design docs and rename add-api skill to api-add-review",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-27T00:15:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3491",
+      "number": 3491,
+      "title": "Add SKSamplingOptions support to SKSurface.Draw and SKCanvas.DrawSurface",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-26T20:38:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3753",
+      "number": 3753,
+      "title": "Pre-fetch skia PR ref in submodule before companion PR fetch",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-26T20:27:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3742",
+      "number": 3742,
+      "title": "Add color font palette support and improve variable font robustness",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-26T19:12:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3674",
       "number": 3674,
       "title": "Fix x86 .NET Framework threading test OOM failures (#3608)",
@@ -53041,7 +53081,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-26T16:14:53.546Z",
+  "lastUpdated": "2026-04-27T00:32:34.459Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
