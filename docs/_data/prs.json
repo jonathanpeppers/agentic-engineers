@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/152",
+      "number": 152,
+      "title": "feat: Add file management support to DevFlow agent",
+      "repo": "dotnet/maui-labs",
+      "author": "aritchie",
+      "mergedAt": "2026-04-28T08:34:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/344",
+      "number": 344,
+      "title": "Enable nullable reference types in Microsoft.Android.Build.BaseTasks",
+      "repo": "dotnet/android-tools",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-28T07:50:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/345",
+      "number": 345,
+      "title": "Remove unused `key_name` variables in OS.cs and OracleJdkLocations.cs",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-28T07:49:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25204",
+      "number": 25204,
+      "title": "[tests] Enable nullability in Touch.Unit.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-28T07:47:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/346",
+      "number": 346,
+      "title": "Add `/review` agentic workflow for android-tools-reviewer",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-28T07:44:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11212",
+      "number": 11212,
+      "title": "[xabt] Validate extracted zip entry paths in `ExtractJarsFromAar`",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-28T07:22:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25209",
+      "number": 25209,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-28T07:08:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25245",
+      "number": 25245,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-28T07:02:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25260",
+      "number": 25260,
+      "title": "[net11.0] Fix PublishBuildAssets.proj path for newer Arcade SDK",
+      "repo": "dotnet/macios",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-28T06:00:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3780",
+      "number": 3780,
+      "title": "Bump HarfBuzzSharp to 8.3.1.6 after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-28T03:16:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3774",
+      "number": 3774,
+      "title": "Update SKIASHARP version to 4.147.0",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-28T03:09:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3765",
+      "number": 3765,
+      "title": "Delete samples/Gallery/Uno/nuget.config",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-28T03:07:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3702",
+      "number": 3702,
+      "title": "Bump skia to milestone 147",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-28T02:55:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3762",
+      "number": 3762,
+      "title": "[samples] Add SkiaFiddle Uno Platform WebAssembly sample",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-28T02:40:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3763",
+      "number": 3763,
+      "title": "Add website release notes with AI-powered generation pipeline",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-28T02:39:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/165",
+      "number": 165,
+      "title": "Use unique CI package versions",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-28T01:27:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/162",
+      "number": 162,
+      "title": "fix: recompile review workflows with gh-aw v0.68.3 for activation permissions",
+      "repo": "dotnet/maui-labs",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-28T01:17:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3764",
       "number": 3764,
       "title": "Update the icon for the new v4",
@@ -53431,7 +53601,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-28T00:35:32.945Z",
+  "lastUpdated": "2026-04-28T08:51:02.129Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
