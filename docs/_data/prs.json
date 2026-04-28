@@ -1,6 +1,216 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3764",
+      "number": 3764,
+      "title": "Update the icon for the new v4",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-28T00:32:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1413",
+      "number": 1413,
+      "title": "Bump external/xamarin-android-tools from `e873716` to `2fd1240`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-04-27T21:23:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11091",
+      "number": 11091,
+      "title": "[TrimmableTypeMap] Add CoreCLRTrimmable Mono.Android.NET-Tests lane",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-27T21:15:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11217",
+      "number": 11217,
+      "title": "Bump com.android.tools.build:manifest-merger from 32.1.1 to 32.2.0 in /src/manifestmerger",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-04-27T20:34:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3761",
+      "number": 3761,
+      "title": "Add FillPath and TextToPath gallery samples",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-27T20:26:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11222",
+      "number": 11222,
+      "title": "$(AndroidPackVersionSuffix)=preview.5; main is .NET 11 preview 5",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-27T20:12:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3760",
+      "number": 3760,
+      "title": "Add download button and fix WASM text rendering in gallery",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-27T20:07:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33312",
+      "number": 33312,
+      "title": "[Windows] Fix for Multiple Tabs Being Selected in WinUI TabbedPage",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-04-27T19:10:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3758",
+      "number": 3758,
+      "title": "[samples] Add Uno Platform WebAssembly gallery",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-27T19:06:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35089",
+      "number": 35089,
+      "title": "Use Azure Artifacts Maven feed for CFSClean network isolation compliance",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-27T18:42:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35161",
+      "number": 35161,
+      "title": "fix: recompile review workflow with gh-aw v0.68.3 for activation permissions",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-27T18:31:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35164",
+      "number": 35164,
+      "title": "Update merge flow to target release/11.0.1xx-preview4",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-27T18:24:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25249",
+      "number": 25249,
+      "title": "[relase/10.0.1x] Keep using the desktop MSBuild assemblies when building from within Visual Studio.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-27T17:54:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1405",
+      "number": 1405,
+      "title": "Remove `$(AndroidGenerateJniMarshalMethods)` support",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-27T17:20:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25221",
+      "number": 25221,
+      "title": "[StoreKit] Fix StoreKit iTunes identifier width. Fixes #25219.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-27T16:50:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25181",
+      "number": 25181,
+      "title": "[monotouch-test] Remove versioned code that's become dead due to min macOS version increasing.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-27T16:30:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35111",
+      "number": 35111,
+      "title": "feat: add expert code review workflow with 3-model adversarial consensus",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-27T16:24:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11208",
+      "number": 11208,
+      "title": "Fix wrong-TFM assembly loading producing empty JCW .jlo.xml files",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-27T15:12:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35121",
+      "number": 35121,
+      "title": "[Android] Fix AlertDialog, ActionSheet, and Prompt render with Material 2 styles when Material 3 is enabled",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-04-27T15:08:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35008",
+      "number": 35008,
+      "title": "[iOS&Mac] Fix Shell SearchHandler Query update on Initial load",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-04-27T15:04:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34704",
+      "number": 34704,
+      "title": "[iOS] Fix SearchBar unexpected left margin in iPad windowed mode on 26 Version",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-04-27T14:56:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android-tools/pull/342",
       "number": 342,
       "title": "Fix NullReferenceException in DeleteFile catch block",
@@ -31,6 +241,36 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android/pull/11215",
+      "number": 11215,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13939340",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-04-27T13:46:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11216",
+      "number": 11216,
+      "title": "Bump com.android.tools:common from 32.1.1 to 32.2.0 in /src/manifestmerger",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-04-27T13:45:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11221",
+      "number": 11221,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260427103413911 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-04-27T13:45:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/159",
       "number": 159,
       "title": "Redirect MCP server logging to stderr to prevent stdio transport corruption",
@@ -39,6 +279,56 @@
       "mergedAt": "2026-04-27T13:20:19Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11220",
+      "number": 11220,
+      "title": "[TrimmableTypeMap] Emit alias-base entry as unconditional for now",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-27T12:49:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35031",
+      "number": 35031,
+      "title": "Fix Shell.Items.Clear() memory leak by disconnecting child handlers on removal (#34898)",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-04-27T11:48:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35094",
+      "number": 35094,
+      "title": "[net11.0][NativeAOT] Hook _PrepareTrimConfiguration to fix IL3050 on Android",
+      "repo": "dotnet/maui",
+      "author": "sbomer",
+      "mergedAt": "2026-04-27T11:40:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35091",
+      "number": 35091,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-04-27T11:00:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34488",
+      "number": 34488,
+      "title": "[iOS] Fix CollectionView ScrollOffset not resetting when ItemsSource changes",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-04-27T10:22:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
     },
     {
       "url": "https://github.com/dotnet/android-tools/pull/338",
@@ -53141,7 +53431,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-27T16:34:02.956Z",
+  "lastUpdated": "2026-04-28T00:35:32.945Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
