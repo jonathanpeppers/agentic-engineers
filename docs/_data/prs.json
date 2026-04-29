@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/167",
+      "number": 167,
+      "title": "fix: reduce review noise — all findings inline, lean summary, consensus leak fix",
+      "repo": "dotnet/maui-labs",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-29T13:59:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11229",
+      "number": 11229,
+      "title": "[release/11.0.1xx-preview4] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-29T13:25:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11240",
+      "number": 11240,
+      "title": "[Hot Reload] Parameterize DotNetWatchHotReload test and remove Mono STARTUP_HOOKS workaround",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-29T13:23:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11244",
+      "number": 11244,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13967215",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-04-29T13:21:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/187",
+      "number": 187,
+      "title": "Fix GTK4 README: Fedora packages and MenuBar attribution",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-29T13:01:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35020",
+      "number": 35020,
+      "title": "[iOS] Fix StaticResource Hot Reload crash on iOS",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-04-29T12:59:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/186",
+      "number": 186,
+      "title": "docs: fix Linux.Gtk4 README accuracy issues",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-29T12:45:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/185",
+      "number": 185,
+      "title": "docs: fix DevFlow README inaccuracies",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-29T12:41:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/184",
+      "number": 184,
+      "title": "docs: add missing maui profile startup command and fix Windows platform claim",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-29T12:34:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/183",
+      "number": 183,
+      "title": "Include StartupProfiling in CLI NuGet publish",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-29T12:23:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/149",
+      "number": 149,
+      "title": "feat: Add reflection invoke for DevFlow Actions and arbitrary methods",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-29T08:57:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11236",
+      "number": 11236,
+      "title": "Delete obsolete Documentation/workflow/HowToBumpMono.md",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-29T08:54:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11228",
+      "number": 11228,
+      "title": "[XABT] Remove `RunCheckedBuild` / `_AndroidJLOCheckedBuild` infrastructure",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-29T08:53:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/173",
       "number": 173,
       "title": "Combine DevFlow platform package artifacts",
@@ -877,6 +1007,16 @@
       "repo": "dotnet/maui",
       "author": "sbomer",
       "mergedAt": "2026-04-27T11:40:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34360",
+      "number": 34360,
+      "title": "Add RunOnAndroid_MauiNativeAOT integration test",
+      "repo": "dotnet/maui",
+      "author": "sbomer",
+      "mergedAt": "2026-04-27T11:29:26Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -54001,7 +54141,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-29T08:47:56.307Z",
+  "lastUpdated": "2026-04-29T16:34:28.419Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
