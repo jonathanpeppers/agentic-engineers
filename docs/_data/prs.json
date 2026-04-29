@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/173",
+      "number": 173,
+      "title": "Combine DevFlow platform package artifacts",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-29T07:59:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/172",
+      "number": 172,
+      "title": "Add concrete CI/CD templates for new product onboarding",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-29T07:49:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25077",
+      "number": 25077,
+      "title": "[net11.0] Support multiple R2R images for ios/tvos apps",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-04-29T05:54:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/176",
       "number": 176,
       "title": "chore: ignore personal agent state under .claude/",
@@ -53971,7 +54001,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-29T00:37:03.771Z",
+  "lastUpdated": "2026-04-29T08:47:56.307Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
