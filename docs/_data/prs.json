@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/176",
+      "number": 176,
+      "title": "chore: ignore personal agent state under .claude/",
+      "repo": "dotnet/maui-labs",
+      "author": "davidortinau",
+      "mergedAt": "2026-04-28T23:42:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/175",
+      "number": 175,
+      "title": "fix: DevFlow broker daemon spawn args",
+      "repo": "dotnet/maui-labs",
+      "author": "davidortinau",
+      "mergedAt": "2026-04-28T23:42:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3794",
+      "number": 3794,
+      "title": "Improve docs landing page layout and hero section",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-28T22:27:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35191",
+      "number": 35191,
+      "title": "Tests: Add 11 missing UnitConverters unit tests",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-28T21:44:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35193",
+      "number": 35193,
+      "title": "docs: Update branch reference from net10.0 to net11.0 in DEVELOPMENT.md",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-28T21:37:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35194",
+      "number": 35194,
+      "title": "docs: Fix hardcoded path and add library overview in Essentials.AI README",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-28T21:34:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35195",
+      "number": 35195,
+      "title": "docs: Add UITesting-Guide, ReleasePlanning, and ReleaseProcess to docs/README.md index",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-28T21:33:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1414",
+      "number": 1414,
+      "title": "Bump external/xamarin-android-tools from `2fd1240` to `ed6aab1`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-04-28T21:19:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3787",
+      "number": 3787,
+      "title": "Automate website release notes with branch-diffing script",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-28T20:53:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11219",
+      "number": 11219,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-28T20:52:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3790",
+      "number": 3790,
+      "title": "Dev/skiafiddle ux improvements",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-28T20:03:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/169",
+      "number": 169,
+      "title": "Colorize DevFlow skill output",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-28T19:41:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/170",
+      "number": 170,
+      "title": "Trigger CI on PR base branch changes",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-04-28T19:36:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/164",
+      "number": 164,
+      "title": "Add DevFlow skill onboarding manager",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-28T19:21:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35011",
+      "number": 35011,
+      "title": "[Enhancement]Add accessibility label support for toolbar back button",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-04-28T19:03:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35081",
+      "number": 35081,
+      "title": "Fix Shadow does not honour Styles",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-04-28T18:45:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios-devtools/pull/171",
       "number": 171,
       "title": "Fix test infrastructure: enable test execution and fix TestHelper path resolution",
@@ -53811,7 +53971,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-28T16:37:56.909Z",
+  "lastUpdated": "2026-04-29T00:37:03.771Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
