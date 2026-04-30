@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35241",
+      "number": 35241,
+      "title": "[Testing] Fixed Build error on inflight/ candidate PR 35234",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-04-30T07:16:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11237",
+      "number": 11237,
+      "title": "Fix JavaList.Remove() always-false guard condition (`&&` -> `||`)",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-04-30T07:09:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/192",
       "number": 192,
       "title": "Add arcade-skills plugin for Copilot",
@@ -54311,7 +54331,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-30T00:36:29.693Z",
+  "lastUpdated": "2026-04-30T08:48:00.276Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
