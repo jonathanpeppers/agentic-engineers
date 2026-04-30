@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/192",
+      "number": 192,
+      "title": "Add arcade-skills plugin for Copilot",
+      "repo": "dotnet/maui-labs",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-30T00:32:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/193",
+      "number": 193,
+      "title": "fix: running Android emulators report AVD device profile for model/manufacturer instead of adb values",
+      "repo": "dotnet/maui-labs",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-30T00:31:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/147",
+      "number": 147,
+      "title": "docs: add guide for testing the DevFlow MCP server",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-04-30T00:30:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/170",
+      "number": 170,
+      "title": "Use simctl --json-output flag to avoid stdout pollution",
+      "repo": "dotnet/macios-devtools",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-04-29T23:53:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3813",
+      "number": 3813,
+      "title": "Add allowed-base-branches: [main] to release notes workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-29T23:32:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3812",
+      "number": 3812,
+      "title": "Delete .github/workflows/skia-analyst.md",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-29T23:28:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3811",
+      "number": 3811,
+      "title": "Revert \"Fix skia-analyst and sample-scout: no safe outputs generated\"",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-29T23:26:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3808",
+      "number": 3808,
+      "title": "Fix release notes script git fetch for CI shallow clones",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-29T22:38:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3805",
+      "number": 3805,
+      "title": "Fix skia-analyst and sample-scout: no safe outputs generated",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-29T21:41:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35210",
+      "number": 35210,
+      "title": "[HouseKeeping] Fix inconsistant namespace in HostApp",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-04-29T21:12:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35219",
+      "number": 35219,
+      "title": "Use Azure Artifacts feed only in CI, standard repos locally",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-29T21:07:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3802",
+      "number": 3802,
+      "title": "Simplify sample-scout to read GM files from local submodule",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-29T20:28:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3755",
+      "number": 3755,
+      "title": "Add skia-analyst and sample-scout skills with daily/weekly workflows",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-29T19:51:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34885",
+      "number": 34885,
+      "title": "April 14th, Candidate",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-29T18:52:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/190",
+      "number": 190,
+      "title": "Build DevFlow packages on Windows only",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-04-29T18:39:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35233",
+      "number": 35233,
+      "title": "Modify bug report template versions",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-04-29T18:32:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35231",
+      "number": 35231,
+      "title": "try-fix: self-apply @maui-expert-reviewer before reporting",
+      "repo": "dotnet/maui",
+      "author": "T-Gro",
+      "mergedAt": "2026-04-29T18:12:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/167",
       "number": 167,
       "title": "fix: reduce review noise — all findings inline, lean summary, consensus leak fix",
@@ -54141,7 +54311,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-29T16:34:28.419Z",
+  "lastUpdated": "2026-04-30T00:36:29.693Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
