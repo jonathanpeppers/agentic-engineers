@@ -223,6 +223,11 @@ permalink: /dashboard/
                 <option value="all">All Months</option>
             </select>
             
+            <label for="authorFilter">Filter by Author:</label>
+            <select id="authorFilter">
+                <option value="all">All Authors</option>
+            </select>
+            
             <label for="chartGranularity">Chart Granularity:</label>
             <select id="chartGranularity">
                 <option value="month">Per Month</option>
@@ -306,6 +311,7 @@ permalink: /dashboard/
         function populateFilters() {
             const repoFilter = document.getElementById('repoFilter');
             const monthFilter = document.getElementById('monthFilter');
+            const authorFilter = document.getElementById('authorFilter');
             
             // Populate repo filter (sorted alphabetically)
             const repos = [...new Set(prData.prs.map(pr => pr.repo))].sort();
@@ -314,6 +320,15 @@ permalink: /dashboard/
                 option.value = repo;
                 option.textContent = repo;
                 repoFilter.appendChild(option);
+            });
+            
+            // Populate author filter (sorted alphabetically, case-insensitive)
+            const authors = [...new Set(prData.prs.map(pr => pr.author))].sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+            authors.forEach(author => {
+                const option = document.createElement('option');
+                option.value = author;
+                option.textContent = author;
+                authorFilter.appendChild(option);
             });
             
             // Populate month filter
@@ -332,15 +347,18 @@ permalink: /dashboard/
             
             repoFilter.addEventListener('change', updateDisplay);
             monthFilter.addEventListener('change', updateDisplay);
+            authorFilter.addEventListener('change', updateDisplay);
             document.getElementById('chartGranularity').addEventListener('change', updateDisplay);
         }
         
         function getFilteredPRs() {
             const repoFilter = document.getElementById('repoFilter').value;
             const monthFilter = document.getElementById('monthFilter').value;
+            const authorFilter = document.getElementById('authorFilter').value;
             
             return prData.prs.filter(pr => {
                 if (repoFilter !== 'all' && pr.repo !== repoFilter) return false;
+                if (authorFilter !== 'all' && pr.author !== authorFilter) return false;
                 if (monthFilter !== 'all') {
                     const date = new Date(pr.mergedAt);
                     const prMonth = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
