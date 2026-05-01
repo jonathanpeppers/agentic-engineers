@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3827",
+      "number": 3827,
+      "title": "Disable PR artifact retrieval in get-build-type.ps1",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-01T15:50:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11183",
+      "number": 11183,
+      "title": "[NativeAOT] Decouple ILC from ILLink for trimmable type map path",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-05-01T15:23:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11259",
+      "number": 11259,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 13990659",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-01T13:33:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/208",
+      "number": 208,
+      "title": "build(deps-dev): Bump protobufjs from 7.5.4 to 7.5.6 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-05-01T13:19:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/62",
+      "number": 62,
+      "title": "Add Comet MVU framework",
+      "repo": "dotnet/maui-labs",
+      "author": "davidortinau",
+      "mergedAt": "2026-05-01T12:51:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34397",
+      "number": 34397,
+      "title": "Fix SafeAreaEdges comments and access modifiers",
+      "repo": "dotnet/maui",
+      "author": "jeremy-visionaid",
+      "mergedAt": "2026-05-01T11:26:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35026",
+      "number": 35026,
+      "title": "Add .cab and ReconnectModal.razor.js to signing config",
+      "repo": "dotnet/maui",
+      "author": "jesuszarate",
+      "mergedAt": "2026-05-01T09:38:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31159",
+      "number": 31159,
+      "title": "Improve label mapping performance and ensure complete coverage including ToPlatform and subsequent property changes",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-05-01T09:04:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11253",
       "number": 11253,
       "title": "Add `.lscache` to .gitignore",
@@ -54841,7 +54921,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-01T08:41:09.035Z",
+  "lastUpdated": "2026-05-01T16:22:19.432Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
