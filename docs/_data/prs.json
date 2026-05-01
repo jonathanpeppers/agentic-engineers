@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11253",
+      "number": 11253,
+      "title": "Add `.lscache` to .gitignore",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-01T07:48:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11257",
+      "number": 11257,
+      "title": "[build] Remove WearOS emulator CI lane",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-01T07:47:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11249",
+      "number": 11249,
+      "title": "[tests] Skip PerformanceTest on slow CI machines using evaluation time",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-01T07:46:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25288",
+      "number": 25288,
+      "title": "[release/11.0.1xx-preview4] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-01T05:17:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25287",
+      "number": 25287,
+      "title": "[xcode26.5] Merge main into xcode26.5",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-01T03:43:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25293",
+      "number": 25293,
+      "title": "[xcode26.5] Update to use Xcode 26.5 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-01T03:24:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3824",
       "number": 3824,
       "title": "Fix update-docs workflow: add missing mdoc assembly search paths for Tizen and Gtk4",
@@ -54781,7 +54841,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-01T00:38:35.239Z",
+  "lastUpdated": "2026-05-01T08:41:09.035Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
