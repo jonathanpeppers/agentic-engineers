@@ -1,6 +1,96 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3824",
+      "number": 3824,
+      "title": "Fix update-docs workflow: add missing mdoc assembly search paths for Tizen and Gtk4",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-01T00:33:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35095",
+      "number": 35095,
+      "title": "Add delegate-based alert dialog extensibility convention (no public API changes)",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-04-30T20:59:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11148",
+      "number": 11148,
+      "title": "[NativeAOT] Take over native linker invocation from ILC targets",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-04-30T19:27:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11225",
+      "number": 11225,
+      "title": "[TrimmableTypeMap] JavaCast/JavaAs + container support",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-30T19:24:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11245",
+      "number": 11245,
+      "title": "[CoreCLR] Exclude diagnostic libraries from release APKs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-04-30T19:22:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35263",
+      "number": 35263,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-04-30T18:58:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35092",
+      "number": 35092,
+      "title": "[Windows] Fix WebView blank rendering when used with HybridWebView",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-04-30T18:52:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3822",
+      "number": 3822,
+      "title": "fix: preserve branch name in release notes workflow to reuse PRs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-30T17:18:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35133",
+      "number": 35133,
+      "title": "Integrate UI test category detection into PR review and fix gate reliability",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-04-30T17:00:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios-devtools/pull/172",
       "number": 172,
       "title": "Add PDictionary.OpenFile and TryOpenFile methods",
@@ -54691,7 +54781,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-04-30T16:33:04.221Z",
+  "lastUpdated": "2026-05-01T00:38:35.239Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
