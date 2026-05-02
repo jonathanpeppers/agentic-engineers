@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/80",
+      "number": 80,
+      "title": "Import WPF backend into platforms/Windows.WPF",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-05-02T14:25:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35284",
+      "number": 35284,
+      "title": "Prevent NullReferenceException in LayoutButton",
+      "repo": "dotnet/maui",
+      "author": "GamesAgeddon",
+      "mergedAt": "2026-05-02T14:20:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/195",
+      "number": 195,
+      "title": "Add Microsoft.Maui.Build.AppProjectReference package for app build references",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-05-02T12:44:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/211",
+      "number": 211,
+      "title": "Add Essentials.AI to main README and create product README",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-02T11:55:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/209",
+      "number": 209,
+      "title": "fix: Add UI.Init() to TabViewTests",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-02T11:37:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/171",
+      "number": 171,
+      "title": "Add Microsoft.Maui.Essentials.AI — on-device AI for .NET MAUI",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-02T11:35:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35179",
       "number": 35179,
       "title": "Fix DragGestureRecognizer.DropCompleted event not firing in Android platform",
@@ -54941,7 +55001,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-02T08:32:02.848Z",
+  "lastUpdated": "2026-05-02T16:17:04.996Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
