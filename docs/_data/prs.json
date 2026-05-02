@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35179",
+      "number": 35179,
+      "title": "Fix DragGestureRecognizer.DropCompleted event not firing in Android platform",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-05-01T23:36:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11255",
+      "number": 11255,
+      "title": "[NativeAOT] Add GenerateNativeAotBootstrapSources task",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-05-01T21:57:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3827",
       "number": 3827,
       "title": "Disable PR artifact retrieval in get-build-type.ps1",
@@ -54921,7 +54941,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-01T16:22:19.432Z",
+  "lastUpdated": "2026-05-02T00:35:22.598Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
