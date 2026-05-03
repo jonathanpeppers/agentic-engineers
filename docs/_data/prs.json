@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35086",
+      "number": 35086,
+      "title": "[Android] Fix TabbedPage truncating tab titles instead of scrolling",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-05-03T13:47:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/215",
+      "number": 215,
+      "title": "feat(go): single-file Comet Go server + companion-app QR scanner fix",
+      "repo": "dotnet/maui-labs",
+      "author": "davidortinau",
+      "mergedAt": "2026-05-03T11:37:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/161",
       "number": 161,
       "title": "Add macOS AppKit MAUI backend (platforms/MacOS)",
@@ -55011,7 +55031,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-03T08:35:44.482Z",
+  "lastUpdated": "2026-05-03T16:17:08.669Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
