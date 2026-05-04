@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3821",
+      "number": 3821,
+      "title": "[samples] Bump Basic Uno sample to Uno.Sdk/6.6.0-dev.208",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-05-03T19:49:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34868",
+      "number": 34868,
+      "title": "Fix AOT integration test failures: suppress IL3050/IL2026 for HybridWebViewHandler in AddControlsHandlers",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-03T18:39:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35086",
       "number": 35086,
       "title": "[Android] Fix TabbedPage truncating tab titles instead of scrolling",
@@ -55031,7 +55051,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-03T16:17:08.669Z",
+  "lastUpdated": "2026-05-04T00:36:05.641Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
