@@ -1,6 +1,96 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11247",
+      "number": 11247,
+      "title": "Bump external/xamarin-android-tools and fix NRT warnings",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-04T08:34:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11248",
+      "number": 11248,
+      "title": "[release/10.0.1xx] [xabt] Fix wrong-TFM assembly loading -> empty `.jlo.xml` files",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-04T08:34:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11250",
+      "number": 11250,
+      "title": "[xabt] Use Load() in RunPipeline instead of pre-loading all assemblies",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-04T08:33:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11266",
+      "number": 11266,
+      "title": "Split android-reviewer review-rules.md into conditional rule files",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-04T08:33:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25253",
+      "number": 25253,
+      "title": "[tools] Extract helpers to deduplicate StaticRegistrar code",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-04T08:31:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25267",
+      "number": 25267,
+      "title": "Fix unclosed markdown code block in scripts/README.md",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-04T08:20:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/203",
+      "number": 203,
+      "title": "Expose maui apple simulator create|erase",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-05-04T08:14:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25079",
+      "number": 25079,
+      "title": "[tools] Add a new 'trimmable-static' registrar, that uses trimmable type maps. Fixes #23108.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-04T07:36:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25239",
+      "number": 25239,
+      "title": "[devops] Make the tests pipeline use a pr: trigger.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-04T07:16:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3821",
       "number": 3821,
       "title": "[samples] Bump Basic Uno sample to Uno.Sdk/6.6.0-dev.208",
@@ -55051,7 +55141,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-04T00:36:05.641Z",
+  "lastUpdated": "2026-05-04T08:51:26.293Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
