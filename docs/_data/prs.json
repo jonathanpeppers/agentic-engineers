@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11252",
+      "number": 11252,
+      "title": "[TrimmableTypeMap] Fix app initialization and startup",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-04T15:17:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30408",
+      "number": 30408,
+      "title": "[Windows] Fixed the ContentView clip is not updated when wrapping inside the Border",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-05-04T14:44:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/355",
+      "number": 355,
+      "title": "Split reviewer skill rules into conditional files",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-04T14:19:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11269",
+      "number": 11269,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260502103235064 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-05-04T13:30:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11272",
+      "number": 11272,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260503103212737 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-05-04T13:29:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11277",
+      "number": 11277,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-04T13:29:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/218",
+      "number": 218,
+      "title": "fix: Go project build (NU1507, SIGN004) + CI triggers + locale test",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-04T10:58:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25286",
+      "number": 25286,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-05-04T09:09:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11247",
       "number": 11247,
       "title": "Bump external/xamarin-android-tools and fix NRT warnings",
@@ -55141,7 +55221,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-04T08:51:26.293Z",
+  "lastUpdated": "2026-05-04T16:35:12.197Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
