@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25302",
+      "number": 25302,
+      "title": "[tests] Fix flaky SecureTransportTest.Tls12 by ignoring network timeouts in CI",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-05T06:37:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25289",
+      "number": 25289,
+      "title": "Recompile macios-reviewer workflow with gh-aw v0.71.2",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-05T06:23:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25307",
+      "number": 25307,
+      "title": "[workflows] Adjust the inter-branch merge flow to run daily + manually.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-05T06:21:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25227",
+      "number": 25227,
+      "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-05T06:17:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25282",
+      "number": 25282,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-05T06:16:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3840",
       "number": 3840,
       "title": "[docs] Update release notes for 4.147.0",
@@ -55381,7 +55431,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-05T00:34:59.804Z",
+  "lastUpdated": "2026-05-05T08:46:26.809Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
