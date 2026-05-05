@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3840",
+      "number": 3840,
+      "title": "[docs] Update release notes for 4.147.0",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-05-04T22:44:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3839",
+      "number": 3839,
+      "title": "fix: skip release notes workflow when only docs/releases change",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-04T22:32:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3837",
+      "number": 3837,
+      "title": "[docs] Update release notes for 4.147.0",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-05-04T22:05:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3836",
+      "number": 3836,
+      "title": "fix: add recreate-ref to release notes workflow for branch reuse",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-04T21:34:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1419",
+      "number": 1419,
+      "title": "Bump external/xamarin-android-tools from `ed6aab1` to `2b9c8c2`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-05-04T21:29:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11263",
+      "number": 11263,
+      "title": "Remove XA1024 warning for `.config` files",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-04T21:23:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11267",
+      "number": 11267,
+      "title": "[build] Audit xaprepare third-party notices",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-04T20:56:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1418",
+      "number": 1418,
+      "title": "[Hello-Java.Base] Add missing jcw-gen project dependency",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-04T20:52:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11280",
+      "number": 11280,
+      "title": "[tests] Root StartupHook test assembly directly",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-04T20:49:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/389",
+      "number": 389,
+      "title": "Update docs to net10 and remove pr-monitor skill",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-04T20:33:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25305",
+      "number": 25305,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14005679",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-04T17:31:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/325",
+      "number": 325,
+      "title": "Add AvdManagerRunner.ListDeviceProfilesAsync() for device profile enumeration",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-05-04T17:25:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25234",
+      "number": 25234,
+      "title": "[msbuild/dotnet] Use 'SdkIsSimulator' instead of 'ComputedPlatform'.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-04T17:11:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/354",
+      "number": 354,
+      "title": "Add performance and allocation review learnings from PR #327",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-05-04T17:10:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11276",
+      "number": 11276,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-04T16:39:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11278",
+      "number": 11278,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-04T16:38:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11252",
       "number": 11252,
       "title": "[TrimmableTypeMap] Fix app initialization and startup",
@@ -55221,7 +55381,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-04T16:35:12.197Z",
+  "lastUpdated": "2026-05-05T00:34:59.804Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
