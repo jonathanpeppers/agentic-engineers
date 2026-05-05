@@ -1,6 +1,266 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1407",
+      "number": 1407,
+      "title": "Update configurations and generate necessary files",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-05T16:31:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25329",
+      "number": 25329,
+      "title": "[src/docs] Fix broken links in source files and XML API docs",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-05T16:30:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25294",
+      "number": 25294,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-05T16:02:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3796",
+      "number": 3796,
+      "title": "Fix finalizer crash in SKPath when SKPathBuilder is collected first",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-05-05T15:10:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11286",
+      "number": 11286,
+      "title": "Bump external/xamarin-android-tools from `ed6aab1` to `2b9c8c2`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-05-05T14:58:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25328",
+      "number": 25328,
+      "title": "[FSKit] Update the cref target in an xml comment.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-05T14:27:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/222",
+      "number": 222,
+      "title": "Fix flaky CLI tests: serialize Program.Services mutators with [Collection]",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-05-05T14:23:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11283",
+      "number": 11283,
+      "title": "[NativeAOT] Fix incremental build test with trimmable type map",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-05-05T13:39:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25324",
+      "number": 25324,
+      "title": "[docs] Fix reference to the ReferenceNativeSymbol item.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-05T13:30:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25327",
+      "number": 25327,
+      "title": "[dotnet] Remove some outdated code only applicable to .NET 6 (and not later .NET versions).",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-05T13:29:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25323",
+      "number": 25323,
+      "title": "[apidiff] Update reference/stable versions to latest .NET 10 / Xcode 26.4",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-05T13:25:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/764",
+      "number": 764,
+      "title": "Bump OpenTelemetry.Exporter.OpenTelemetryProtocol from 1.12.0 to 1.15.3",
+      "repo": "dotnet/maui-samples",
+      "author": "dependabot",
+      "mergedAt": "2026-05-05T13:23:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11285",
+      "number": 11285,
+      "title": "Bump external/Java.Interop from `dedb8f8` to `4abc52e`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-05-05T13:23:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11287",
+      "number": 11287,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14015079",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-05T13:19:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/765",
+      "number": 765,
+      "title": "Fix broken screenshots on MS Learn for Material3 sample",
+      "repo": "dotnet/maui-samples",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-05T13:15:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/216",
+      "number": 216,
+      "title": "feat(cli): wire 'maui go' single-file dev experience",
+      "repo": "dotnet/maui-labs",
+      "author": "davidortinau",
+      "mergedAt": "2026-05-05T12:55:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31789",
+      "number": 31789,
+      "title": "[NET11.0] Provided Fill property support for BoxView control",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-05-05T12:51:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25310",
+      "number": 25310,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-05T11:26:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/176",
+      "number": 176,
+      "title": "Add simulator app lifecycle APIs (install/uninstall/launch/terminate/get_app_container)",
+      "repo": "dotnet/macios-devtools",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-05T11:18:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35072",
+      "number": 35072,
+      "title": "[iOS, Mac] Fix OnBackButtonPressed not invoked for NavigationPage and Shell",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-05-05T11:12:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25315",
+      "number": 25315,
+      "title": "[dotnet] Disable trimming when using CoreCLR in the simulator.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-05T11:04:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34621",
+      "number": 34621,
+      "title": "Fix Android layout jump when navigating with IME open and NavBarIsVisible=false",
+      "repo": "dotnet/maui",
+      "author": "jpd21122012",
+      "mergedAt": "2026-05-05T10:50:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25233",
+      "number": 25233,
+      "title": "[devops] Show \"(Publish failed)\" instead of broken VSDrops link when html report publish fails.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-05T10:08:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25268",
+      "number": 25268,
+      "title": "Change DtdProcessing.Parse to DtdProcessing.Ignore in XML loading helpers",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-05T10:07:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35213",
+      "number": 35213,
+      "title": "[MacCatalyst] Fix CollectionView Header/Footer Not Expanding to Content Width",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-05-05T09:44:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25325",
+      "number": 25325,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260505064756191 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-05-05T09:26:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25302",
       "number": 25302,
       "title": "[tests] Fix flaky SecureTransportTest.Tls12 by ignoring network timeouts in CI",
@@ -55431,7 +55691,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-05T08:46:26.809Z",
+  "lastUpdated": "2026-05-05T16:34:25.245Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
