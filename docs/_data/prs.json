@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3772",
+      "number": 3772,
+      "title": "Add SKStream.GetData() for zero-copy stream-to-data conversion",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-05T21:16:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/230",
+      "number": 230,
+      "title": "Add Xcode 26.3 selection to macOS AppKit AzDO job + update pipeline instructions",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-05T21:14:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/228",
+      "number": 228,
+      "title": "Replace useGlobalJson with explicit SDK version in AzDO pipeline",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-05T20:56:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3771",
+      "number": 3771,
+      "title": "Add animated WebP encoding support (SKWebpEncoder)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-05T20:49:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/227",
+      "number": 227,
+      "title": "Remove src/Go/global.json that breaks CLI official builds",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-05T20:31:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/226",
+      "number": 226,
+      "title": "Pin AzDO workload versions to 10.0.203 and fix macOS AppKit pool",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-05T20:15:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25322",
+      "number": 25322,
+      "title": "[xcode26.5] Merge main into xcode26.5",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-05T19:40:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/224",
+      "number": 224,
+      "title": "fix: NuGet/npm supply chain compliance",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-05T19:10:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/766",
+      "number": 766,
+      "title": "Bump OpenTelemetry.Exporter.OpenTelemetryProtocol from 1.9.0 to 1.15.3",
+      "repo": "dotnet/maui-samples",
+      "author": "dependabot",
+      "mergedAt": "2026-05-05T18:45:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25308",
+      "number": 25308,
+      "title": "Fix flaky CtorIPAddressPair test. Fixes #25242",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-05T18:34:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/223",
+      "number": 223,
+      "title": "fix: AzDO pipeline YAML errors + NuGet security compliance",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-05T18:29:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31540",
+      "number": 31540,
+      "title": "CollectionView selecteditem background lost if collectionview (or parent) IsEnabled changed.",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-05-05T18:28:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35215",
+      "number": 35215,
+      "title": "[iOS/MacCatalyst] Fix IndicatorView not updating when IndicatorSize is changed to default value",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-05-05T18:13:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1417",
+      "number": 1417,
+      "title": "Add java-interop-reviewer skill for PR code reviews",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-05T16:39:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-libraries/pull/1407",
       "number": 1407,
       "title": "Update configurations and generate necessary files",
@@ -55691,7 +55831,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-05T16:34:25.245Z",
+  "lastUpdated": "2026-05-06T00:34:23.784Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
