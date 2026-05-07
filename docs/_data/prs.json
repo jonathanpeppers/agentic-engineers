@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3867",
+      "number": 3867,
+      "title": "Fix SkiaSharp references for Uno Platform's Gallery sample",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-05-06T22:32:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3877",
+      "number": 3877,
+      "title": "Keep raw PR data in release notes files as HTML comment",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-06T22:29:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/249",
+      "number": 249,
+      "title": "fix: Docs-check  reliable issues, no noise",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-06T21:18:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35225",
+      "number": 35225,
+      "title": "[Testing] Fixed test failure in net11 branch",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-05-06T20:44:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/244",
+      "number": 244,
+      "title": "Improve simulator UDID validation: availability check, reduce duplication",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-05-06T20:17:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25344",
+      "number": 25344,
+      "title": "[release/10.0.1xx] Backport a number of CI changes to make PRs work.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-06T18:04:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1421",
+      "number": 1421,
+      "title": "Bump external/xamarin-android-tools from `2b9c8c2` to `7d0e083`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-05-06T17:39:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25338",
+      "number": 25338,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260505174743293 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-05-06T17:20:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-tools/pull/356",
       "number": 356,
       "title": "[copilot] Restore workflow_dispatch trigger for Copilot coding agent",
@@ -56181,7 +56261,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-06T16:34:50.831Z",
+  "lastUpdated": "2026-05-07T00:36:21.943Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
