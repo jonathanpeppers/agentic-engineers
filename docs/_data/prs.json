@@ -22687,7 +22687,7 @@
       "repo": "dotnet/maui",
       "author": "rmarinho",
       "mergedAt": "2026-01-31T20:10:06Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -22887,7 +22887,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-01-30T18:15:29Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -23008,6 +23008,16 @@
       "author": "mattleibow",
       "mergedAt": "2026-01-30T05:44:47Z",
       "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/167",
+      "number": 167,
+      "title": "Update libwebp to 1.6.0",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-30T05:42:18Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -23271,6 +23281,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/skia/pull/165",
+      "number": 165,
+      "title": "Update brotli to 1.2.0",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-29T00:37:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3470",
       "number": 3470,
       "title": "Migrate SkiaSharp documentation from Xamarin.Forms to .NET MAUI",
@@ -23397,7 +23417,7 @@
       "repo": "dotnet/maui",
       "author": "PureWeen",
       "mergedAt": "2026-01-28T12:52:49Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -23498,6 +23518,16 @@
       "author": "mattleibow",
       "mergedAt": "2026-01-27T21:59:12Z",
       "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/164",
+      "number": 164,
+      "title": "Remove unused dependencies from DEPS",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-27T21:56:39Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -23668,6 +23698,16 @@
       "author": "mattleibow",
       "mergedAt": "2026-01-27T15:06:38Z",
       "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/162",
+      "number": 162,
+      "title": "Update libpng to 1.6.54",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-01-27T15:03:47Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -23937,7 +23977,7 @@
       "repo": "dotnet/maui",
       "author": "noiseonwires",
       "mergedAt": "2026-01-23T23:01:34Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -24207,7 +24247,7 @@
       "repo": "dotnet/maui",
       "author": "jfversluis",
       "mergedAt": "2026-01-22T19:12:51Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -24297,7 +24337,7 @@
       "repo": "dotnet/maui",
       "author": "jfversluis",
       "mergedAt": "2026-01-22T16:04:11Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -24317,7 +24357,7 @@
       "repo": "dotnet/maui",
       "author": "jfversluis",
       "mergedAt": "2026-01-22T14:38:39Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -24597,7 +24637,7 @@
       "repo": "dotnet/maui",
       "author": "kubaflo",
       "mergedAt": "2026-01-21T10:24:51Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -24797,7 +24837,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-01-20T14:53:18Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -24857,7 +24897,7 @@
       "repo": "dotnet/maui",
       "author": "github-actions",
       "mergedAt": "2026-01-20T11:21:58Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -56741,7 +56781,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-07T15:35:32.271Z",
+  "lastUpdated": "2026-05-07T15:44:02.905Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
