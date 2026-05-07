@@ -67,7 +67,8 @@ jobs:
               { owner: 'dotnet', repo: 'maui' },
               { owner: 'dotnet', repo: 'xcsync' },
               { owner: 'mono', repo: 'SkiaSharp' },
-              { owner: 'mono', repo: 'SkiaSharp.Extended' }
+              { owner: 'mono', repo: 'SkiaSharp.Extended' },
+              { owner: 'mono', repo: 'skia' }
             ];
             
             // Load existing data
