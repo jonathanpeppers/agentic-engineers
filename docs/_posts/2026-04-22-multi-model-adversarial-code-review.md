@@ -97,7 +97,7 @@ safety issues, and pattern violations over style nitpicks.
 3 important comments > 15 nitpicks.
 ```
 
-Their [`android-reviewer` skill](https://github.com/dotnet/android/blob/main/.github/skills/android-reviewer/SKILL.md) encodes repo-specific patterns: MSBuild conventions, nullable reference types, async patterns, native code safety, and incremental build correctness. The skill references a detailed [review-rules.md](https://github.com/dotnet/android/blob/main/.github/skills/android-reviewer/references/review-rules.md) that acts as a living style guide.
+Their [`android-reviewer` skill](https://github.com/dotnet/android/blob/main/.github/skills/android-reviewer/SKILL.md) encodes repo-specific patterns: MSBuild conventions, nullable reference types, async patterns, native code safety, and incremental build correctness. The skill references a detailed [review-rules.md](https://github.com/dotnet/android/blob/b764af7607ffe3a115030aed1228593a7a9a82b2/.github/skills/android-reviewer/references/review-rules.md) that acts as a living style guide.
 
 ## Security: Lessons Learned the Hard Way
 
