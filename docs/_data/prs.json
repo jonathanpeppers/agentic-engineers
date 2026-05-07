@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35337",
+      "number": 35337,
+      "title": "[net11.0] Target Android 37.0",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-07T16:34:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11256",
+      "number": 11256,
+      "title": "[NativeAOT] Use NativeLinker and invoke lld directly for linking",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-05-07T16:25:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11300",
+      "number": 11300,
+      "title": "Bump external/Java.Interop from `4abc52e` to `05e9e8f`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-05-07T16:22:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11297",
+      "number": 11297,
+      "title": "[TrimmableTypeMap] Keep array rank anchors private",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-07T16:21:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25337",
+      "number": 25337,
+      "title": "[dotnet] Fix R2R --instruction-set computation for iOS/tvOS device builds",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-05-07T15:54:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3882",
       "number": 3882,
       "title": "[docs] Release notes for 4.147.0",
@@ -56831,7 +56881,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-07T15:48:54.857Z",
+  "lastUpdated": "2026-05-07T16:35:48.883Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
