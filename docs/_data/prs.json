@@ -36201,6 +36201,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-samples/pull/357",
+      "number": 357,
+      "title": "Android 36.1 \"PDF Annotator\" sample",
+      "repo": "dotnet/android-samples",
+      "author": "jonathanpeppers",
+      "mergedAt": "2025-10-13T17:59:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3384",
       "number": 3384,
       "title": "Use the correct run for the artifacts",
@@ -36357,6 +36367,16 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2025-10-10T14:40:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/161",
+      "number": 161,
+      "title": "Remove the strip symbols flag",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2025-10-10T14:34:44Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -56781,7 +56801,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-07T15:44:02.905Z",
+  "lastUpdated": "2026-05-07T15:46:34.823Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
