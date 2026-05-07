@@ -42981,6 +42981,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/skia/pull/158",
+      "number": 158,
+      "title": "Added support for getPostScriptName to SkTypeface",
+      "repo": "mono/skia",
+      "author": "jonlipsky",
+      "mergedAt": "2025-08-22T23:53:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/31249",
       "number": 31249,
       "title": "[Testing] Fixed Test case failure in PR 31201 - [08/16/2025] Candidate - 2",
@@ -43007,6 +43017,16 @@
       "repo": "mono/SkiaSharp",
       "author": "jeremy-visionaid",
       "mergedAt": "2025-08-22T20:42:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/159",
+      "number": 159,
+      "title": "Update to new GrDirectContext::MakeMetal API",
+      "repo": "mono/skia",
+      "author": "jeremy-visionaid",
+      "mergedAt": "2025-08-22T20:40:52Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -43087,6 +43107,16 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2025-08-22T01:11:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/160",
+      "number": 160,
+      "title": "Update zlib to 1.3.0.1+",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2025-08-22T01:08:32Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
@@ -45967,7 +45997,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2025-08-08T16:00:21Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -56801,7 +56831,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-07T15:46:34.823Z",
+  "lastUpdated": "2026-05-07T15:48:54.857Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
