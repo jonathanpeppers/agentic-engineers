@@ -56,7 +56,7 @@ That HTML file is the whole point of this post. Let me show you.
 
 When the run finishes, I open the report in my browser and see this:
 
-![SkiaSharp review report — executive summary and recommendations](https://github.com/user-attachments/assets/b2e99283-b413-4e85-a174-3637a6b14928)
+![SkiaSharp review report — executive summary and recommendations](/assets/images/skia-review-summary.png)
 
 In the time it takes to read one paragraph, I already know:
 
@@ -72,7 +72,7 @@ That's the executive summary. Then come the tabs.
 
 The tabs along the bottom are the real superpower. Generated Files (0 issues — bindings regenerated and matched). Interop (26 things to look at). DEPS (6 third-party bumps). Companion PR (27 C# items). And the one I always click first: **Upstream — 29 items**.
 
-![SkiaSharp review report — Upstream tab showing added/removed/changed patches](https://github.com/user-attachments/assets/dbb6a3c0-18c7-4f31-90b9-d4dd9e509eee)
+![SkiaSharp review report — Upstream tab showing added/removed/changed patches](/assets/images/skia-review-upstream.png)
 
 This tab answers the question that used to keep me up at night: *what actually happened to our carry-patches?* For every patch on top of upstream Skia, the report tells me whether it was **added, removed, changed, or unchanged** — and for each one, a one-paragraph summary of *why*. Was it upstreamed? Obsoleted by a refactor? Quietly dropped? The skill is required to look at the new upstream code and *explain*; it's not allowed to shrug.
 
