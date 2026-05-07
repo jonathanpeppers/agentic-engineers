@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3882",
+      "number": 3882,
+      "title": "[docs] Release notes for 4.147.0",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-05-07T14:57:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35343",
+      "number": 35343,
+      "title": "[iOS/macCatalyst] [Candidate Fix] Editor shadow and theme regression caused by BackgroundColor reset on initial handler connection",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-05-07T13:30:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25341",
+      "number": 25341,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-07T13:21:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25356",
+      "number": 25356,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14036358",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-07T13:07:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35341",
+      "number": 35341,
+      "title": "[Revert] [iOS] Fixed CollectionView Scroll Jitter for TextType HTML Labels",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-05-07T12:26:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25354",
+      "number": 25354,
+      "title": "[tests] Using the strict dlfcn mode only works if monotouch-test is trimmed.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-07T12:08:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35342",
+      "number": 35342,
+      "title": "Revert \"Revert \"[Windows] Fix Flyout/Locked mode header collapse regression causing UI test failures on candidate branch\"\"",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-07T11:31:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35295",
+      "number": 35295,
+      "title": "[Android] Fix for Shell colors change before navigation completes on Android in .NET 10 ",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-05-07T11:08:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34997",
+      "number": 34997,
+      "title": "[Android/Windows] Fix RadioButton gradient not clearing when switching background",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-05-07T10:58:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32674",
+      "number": 32674,
+      "title": "[iOS/macOS] CollectionView: Fix FlowDirection not working on EmptyView",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-05-07T10:41:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35340",
+      "number": 35340,
+      "title": "[Windows] Fix Flyout/Locked mode header collapse regression causing UI test failures on candidate branch",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-07T10:34:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35339",
+      "number": 35339,
+      "title": "Revert \"[Windows] Fix Flyout/Locked mode header collapse regression causing UI test failures on candidate branch\"",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-07T10:30:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35312",
+      "number": 35312,
+      "title": "[Windows] Fix Flyout/Locked mode header collapse regression causing UI test failures on candidate branch",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-05-07T10:29:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35307",
+      "number": 35307,
+      "title": "Fix CI for ValidateKeyboardRuntime_SwitchContainerToSoftInput_WhileKeyboardOpen test failure in May 4th Candidate",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-05-07T10:26:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35305",
+      "number": 35305,
+      "title": "Fix: Build fails when appicon is an empty (but valid) SVG",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-05-07T10:24:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34845",
+      "number": 34845,
+      "title": "[Windows] Fix RefreshView IsRefreshing property not working while binding",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-05-07T10:09:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35333",
+      "number": 35333,
+      "title": "Bump OpenTelemetry packages in Aspire ServiceDefaults template",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-07T09:50:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/251",
       "number": 251,
       "title": "feat: Add macOS template, align platform READMEs, fix template packaging",
@@ -581,12 +751,32 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/skia/pull/211",
+      "number": 211,
+      "title": "Fix sk_stream_get_data const correctness for m147",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-05T21:08:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/228",
       "number": 228,
       "title": "Replace useGlobalJson with explicit SDK version in AzDO pipeline",
       "repo": "dotnet/maui-labs",
       "author": "jfversluis",
       "mergedAt": "2026-05-05T20:56:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/200",
+      "number": 200,
+      "title": "Add sk_stream_get_data C API function",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-05T20:52:20Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -617,6 +807,16 @@
       "repo": "dotnet/maui-labs",
       "author": "jfversluis",
       "mergedAt": "2026-05-05T20:15:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/199",
+      "number": 199,
+      "title": "Add sk_webpencoder_encode_animated to C API",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-05T19:58:49Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -2911,6 +3111,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/skia/pull/184",
+      "number": 184,
+      "title": "Dev/update skia 147",
+      "repo": "mono/skia",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-28T02:49:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3762",
       "number": 3762,
       "title": "[samples] Add SkiaFiddle Uno Platform WebAssembly sample",
@@ -3351,6 +3561,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/skia/pull/197",
+      "number": 197,
+      "title": "Add color font palette support to C API",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-26T16:31:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3674",
       "number": 3674,
       "title": "Fix x86 .NET Framework threading test OOM failures (#3608)",
@@ -3397,6 +3617,16 @@
       "repo": "dotnet/maui-labs",
       "author": "Redth",
       "mergedAt": "2026-04-26T06:35:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/185",
+      "number": 185,
+      "title": "Add variable font C API",
+      "repo": "mono/skia",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-26T02:42:14Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -3461,6 +3691,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/skia/pull/198",
+      "number": 198,
+      "title": "Add missing sk_fontmgr_legacy_create_typeface C API",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-25T21:37:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3730",
       "number": 3730,
       "title": "Fix #3693: move default-typeface resolution to the managed layer",
@@ -3468,6 +3708,16 @@
       "author": "ramezgerges",
       "mergedAt": "2026-04-25T19:30:18Z",
       "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/195",
+      "number": 195,
+      "title": "Fix null default typeface on Android API 36; remove redundant C APIs",
+      "repo": "mono/skia",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-25T19:26:46Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -3851,6 +4101,26 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/skia/pull/188",
+      "number": 188,
+      "title": "[skiasharp] Update libpng to 1.6.58",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-23T23:13:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/192",
+      "number": 192,
+      "title": "[release/3.119.x] Update libpng to 1.6.58",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-23T23:13:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3717",
       "number": 3717,
       "title": "[main] Update libexpat to 2.7.5",
@@ -3867,6 +4137,26 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-04-23T23:10:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/191",
+      "number": 191,
+      "title": "[release/3.119.x] Update libexpat to 2.7.5",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-23T23:05:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/187",
+      "number": 187,
+      "title": "[skiasharp] Update libexpat to 2.7.5",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-23T23:04:50Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -3978,6 +4268,16 @@
       "author": "ramezgerges",
       "mergedAt": "2026-04-23T16:16:54Z",
       "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/186",
+      "number": 186,
+      "title": "Use int32_t instead of long for stream move offset",
+      "repo": "mono/skia",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-23T16:01:52Z",
+      "copilotAuthored": false,
       "mauiReviewerUsed": false
     },
     {
@@ -6501,6 +6801,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/skia/pull/179",
+      "number": 179,
+      "title": "Update skia to milestone 133",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-14T02:27:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34943",
       "number": 34943,
       "title": "Update PatchVersion from 60 to 70",
@@ -7211,6 +7521,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/skia/pull/175",
+      "number": 175,
+      "title": "Add Tizen x64 and arm64 target_cpu support in GN build config",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-09T16:08:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25127",
       "number": 25127,
       "title": "[xcode26.5] Merge main into xcode26.5",
@@ -7407,6 +7727,16 @@
       "repo": "mono/SkiaSharp",
       "author": "ramezgerges",
       "mergedAt": "2026-04-08T22:56:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/171",
+      "number": 171,
+      "title": "Bump to google/chrome/m132 (milestone 132)",
+      "repo": "mono/skia",
+      "author": "ramezgerges",
+      "mergedAt": "2026-04-08T22:25:36Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -8191,6 +8521,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/mono/skia/pull/177",
+      "number": 177,
+      "title": "Change current_cpu detect from loongarch64 to loong64",
+      "repo": "mono/skia",
+      "author": "elysia-best",
+      "mergedAt": "2026-04-04T00:02:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3633",
       "number": 3633,
       "title": "Delay-load D3D12 DLLs to prevent crashes on systems without DX12",
@@ -8807,6 +9147,16 @@
       "repo": "mono/SkiaSharp",
       "author": "mattleibow",
       "mergedAt": "2026-04-02T00:32:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/176",
+      "number": 176,
+      "title": "Enforce --no-undefined linker flag and fix libpng LoongArch LSX build",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-04-02T00:29:34Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -56391,7 +56741,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-07T08:55:15.649Z",
+  "lastUpdated": "2026-05-07T15:24:50.184Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
@@ -56408,6 +56758,7 @@
     "dotnet/maui",
     "dotnet/xcsync",
     "mono/SkiaSharp",
-    "mono/SkiaSharp.Extended"
+    "mono/SkiaSharp.Extended",
+    "mono/skia"
   ]
 }
