@@ -4487,7 +4487,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-04-22T13:23:35Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -4597,7 +4597,7 @@
       "repo": "dotnet/macios",
       "author": "rolfbjarne",
       "mergedAt": "2026-04-22T04:34:34Z",
-      "copilotAuthored": false,
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -56741,7 +56741,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-07T15:24:50.184Z",
+  "lastUpdated": "2026-05-07T15:32:08.383Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
