@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/251",
+      "number": 251,
+      "title": "feat: Add macOS template, align platform READMEs, fix template packaging",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-07T08:39:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/250",
+      "number": 250,
+      "title": "docs: Fix dead links in Linux GTK4 README + build WPF & Linux Template NuGet",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-07T07:33:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25348",
+      "number": 25348,
+      "title": "[tests] Fix underlying type for BrowserEngineKit enums.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-07T07:08:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35315",
+      "number": 35315,
+      "title": "Bump Magick.NET-Q8-AnyCPU from 14.10.4 to 14.12.0",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-05-07T06:48:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25345",
+      "number": 25345,
+      "title": "[release/9.0.1xx] Backport a number of CI changes to make PRs work.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-07T06:33:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25349",
+      "number": 25349,
+      "title": "Add code-radiator agentic workflow",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-07T06:08:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25332",
+      "number": 25332,
+      "title": "[msbuild] Add com.apple.developer.payment-pass-provisioning to known entitlements",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-07T06:06:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25326",
+      "number": 25326,
+      "title": "[msbuild] Introduce SdkIsDesktop and SdkIsMobile properties",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-07T06:06:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25353",
+      "number": 25353,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-07T06:05:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24888",
+      "number": 24888,
+      "title": "[tools/msbuild] Add InlineDlfcnMethodsStep as an opt-in custom linker step",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-07T06:01:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25350",
+      "number": 25350,
+      "title": "[github] Fix reviewer skill to submit COMMENT on re-reviews to clear REQUEST_CHANGES state",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-07T05:52:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24856",
+      "number": 24856,
+      "title": "Use shared SimctlOutputParser from Xamarin.MacDev for simctl JSON parsing",
+      "repo": "dotnet/macios",
+      "author": "rmarinho",
+      "mergedAt": "2026-05-07T05:47:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11254",
+      "number": 11254,
+      "title": "[build] Default .NET 11 to target `net11.0-android37` only",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-07T05:07:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3867",
       "number": 3867,
       "title": "Fix SkiaSharp references for Uno Platform's Gallery sample",
@@ -56261,7 +56391,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-07T00:36:21.943Z",
+  "lastUpdated": "2026-05-07T08:55:15.649Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
