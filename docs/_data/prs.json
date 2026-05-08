@@ -1,6 +1,96 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25351",
+      "number": 25351,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-07T21:43:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25361",
+      "number": 25361,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14038264",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-07T19:42:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25292",
+      "number": 25292,
+      "title": "Enable nullability and warnings-as-errors globally",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-07T19:38:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35198",
+      "number": 35198,
+      "title": "History-trained agentic files + expert reviewer",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-07T18:33:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35330",
+      "number": 35330,
+      "title": "Merge release/11.0.1xx-preview4 into net11.0",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-05-07T18:24:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11302",
+      "number": 11302,
+      "title": "[ci] Apply MAUI Android 37 patch",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-07T18:02:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11301",
+      "number": 11301,
+      "title": "Bump external/xamarin-android-tools from `981df21` to `7d0e083`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-05-07T17:52:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35292",
+      "number": 35292,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-07T16:49:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35271",
+      "number": 35271,
+      "title": "[release/11.0.1xx-preview4] Update dependencies from dotnet/dotnet, dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-07T16:47:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35337",
       "number": 35337,
       "title": "[net11.0] Target Android 37.0",
@@ -56881,7 +56971,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-07T16:35:48.883Z",
+  "lastUpdated": "2026-05-08T00:36:14.701Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
