@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/255",
+      "number": 255,
+      "title": "feat: Update ai-docs- full repo coverage + self-audit",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-08T07:52:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/256",
+      "number": 256,
+      "title": "Fix EssentialsAI tool call logging tests for M.E.AI 10.4",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-08T07:44:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/23509",
+      "number": 23509,
+      "title": "[msbuild] Fix building apps with extensions remotely.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-08T05:22:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25351",
       "number": 25351,
       "title": "[net11.0] Update dependencies from dotnet/macios",
@@ -56971,7 +57001,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-08T00:36:14.701Z",
+  "lastUpdated": "2026-05-08T08:32:57.919Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
