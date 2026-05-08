@@ -1,6 +1,96 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34552",
+      "number": 34552,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet, dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-08T15:36:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/261",
+      "number": 261,
+      "title": "fix: Disable noop issue creation in pr-docs-check",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-08T11:50:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25368",
+      "number": 25368,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-08T11:28:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34831",
+      "number": 34831,
+      "title": "[iOS/Mac] Fix FlyoutPage RTL FlowDirection is not working",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-05-08T11:00:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/359",
+      "number": 359,
+      "title": "Handle InvalidOperationException in emulator boot and improve Process disposal",
+      "repo": "dotnet/android-tools",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-08T09:30:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35325",
+      "number": 35325,
+      "title": "[Testing] Fixed UI test image failure in PR 35234 - [30/03/2026] Candidate - 1",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-05-08T09:29:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35351",
+      "number": 35351,
+      "title": "Fix single modifier for NSMenuItem accelerators",
+      "repo": "dotnet/maui",
+      "author": "jeremy-visionaid",
+      "mergedAt": "2026-05-08T09:27:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11299",
+      "number": 11299,
+      "title": "[xaprepare] Remove NuGet scanning from Step_GenerateCGManifest",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-08T09:13:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/259",
+      "number": 259,
+      "title": "Revert \"feat: BLE Monitoring\" (#153)",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-08T08:39:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/255",
       "number": 255,
       "title": "feat: Update ai-docs- full repo coverage + self-audit",
@@ -57001,7 +57091,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-08T08:32:57.919Z",
+  "lastUpdated": "2026-05-08T16:32:04.892Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
