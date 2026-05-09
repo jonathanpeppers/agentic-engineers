@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11310",
+      "number": 11310,
+      "title": "Fix dotnet restore hang in Step_InstallDotNetPreview",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-08T23:40:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11309",
+      "number": 11309,
+      "title": "Revert \"[ci] Apply dotnet/maui Android 37 patch (#11302)\"",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-08T23:38:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3849",
+      "number": 3849,
+      "title": "[samples] Improve SkiaFiddle application size",
+      "repo": "mono/SkiaSharp",
+      "author": "ebariche",
+      "mergedAt": "2026-05-08T21:47:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3911",
+      "number": 3911,
+      "title": "Run stale staging sweep daily instead of weekly",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-08T21:31:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/232",
+      "number": 232,
+      "title": "Fix NanoServer: use empty font manager instead of DirectWrite",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-08T20:30:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3826",
+      "number": 3826,
+      "title": "Add content-based build caching with ADO Cache@2",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-08T20:18:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3825",
+      "number": 3825,
+      "title": "Add automated Skia upstream sync workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-08T19:55:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3907",
+      "number": 3907,
+      "title": "Add workflow to persist agentic workflow data to aw-data branch",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-08T19:26:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35245",
+      "number": 35245,
+      "title": "Fix iOS CollectionView stale layout invalidations",
+      "repo": "dotnet/maui",
+      "author": "filipnavara",
+      "mergedAt": "2026-05-08T17:41:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35272",
+      "number": 35272,
+      "title": "Avoid unnecessary LINQ enumerations",
+      "repo": "dotnet/maui",
+      "author": "jeremy-visionaid",
+      "mergedAt": "2026-05-08T17:39:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35314",
+      "number": 35314,
+      "title": "[Windows] Fix \"PlatformView cannot be null here\" exception during handler disconnect",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-08T17:37:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35346",
+      "number": 35346,
+      "title": "[iOS] Fix ShellFeatureMatrix test failures on candidate branch",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-05-08T17:32:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34552",
       "number": 34552,
       "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet, dotnet/macios",
@@ -57091,7 +57211,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-08T16:32:04.892Z",
+  "lastUpdated": "2026-05-09T00:37:41.159Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
