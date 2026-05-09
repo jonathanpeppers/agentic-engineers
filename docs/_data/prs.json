@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/28516",
+      "number": 28516,
+      "title": "Fix Binding for ListView.IsRefreshing",
+      "repo": "dotnet/maui",
+      "author": "bill2004158",
+      "mergedAt": "2026-05-09T14:52:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35360",
+      "number": 35360,
+      "title": "[Windows] Fix COMException when restoring a ScrollView as ContentPage.Content after swapping it out",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-05-09T09:41:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11310",
       "number": 11310,
       "title": "Fix dotnet restore hang in Step_InstallDotNetPreview",
@@ -57211,7 +57231,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-09T08:34:18.702Z",
+  "lastUpdated": "2026-05-09T16:18:59.215Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
