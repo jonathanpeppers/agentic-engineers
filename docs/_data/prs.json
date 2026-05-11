@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35345",
+      "number": 35345,
+      "title": "[Testing] Fixed test failure in net11 branch - 2",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-05-11T07:56:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11307",
+      "number": 11307,
+      "title": "Add EnableOnBackInvokedCallback property to ApplicationAttribute",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-11T07:20:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11293",
+      "number": 11293,
+      "title": "[tests] Add DotNetRunCtrlC integration test",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-11T07:19:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11308",
+      "number": 11308,
+      "title": "[xaprepare] Remove dead Step_DetermineAzurePipelinesTestJobs",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-11T07:17:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11271",
+      "number": 11271,
+      "title": "[TrimmableTypeMap] Use trimmable Java proxy runtime sources",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-11T07:16:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25347",
+      "number": 25347,
+      "title": "[src] Add [Un]SupportedSimulator attributes.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-11T06:46:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25366",
+      "number": 25366,
+      "title": "[docs] Improve docs on updating API docs.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-11T02:48:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25364",
+      "number": 25364,
+      "title": "[github] Fix agentic workflows based on gh-aw guide",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-11T02:47:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35367",
       "number": 35367,
       "title": "[Testing] Replace retryDelay with retryTimeout in UI tests",
@@ -57241,7 +57321,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-11T00:38:21.616Z",
+  "lastUpdated": "2026-05-11T09:10:17.627Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
