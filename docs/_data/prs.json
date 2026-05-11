@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11316",
+      "number": 11316,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-11T15:21:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1409",
+      "number": 1409,
+      "title": "Fix camera-camera2-pipe Kotlin-mangled method binding issue",
+      "repo": "dotnet/android-libraries",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-05-11T13:45:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11314",
+      "number": 11314,
+      "title": "Bump com.android.tools:common from 32.2.0 to 32.2.1 in /src/manifestmerger",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-05-11T13:25:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/139",
+      "number": 139,
+      "title": "Add global `--sdk` and `--jdk` path overrides for all Android commands",
+      "repo": "dotnet/maui-labs",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-11T12:50:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11270",
+      "number": 11270,
+      "title": "[TrimmableTypeMap] Enable JNI replacement APIs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-11T11:16:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35335",
+      "number": 35335,
+      "title": "[Testing] The Windows WebView category is removed from CI because WebView2 is not connected in Appium.",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-05-11T10:25:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/178",
+      "number": 178,
+      "title": "Fix native memory leak in Keychain.GetKeychainPath error path",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-05-11T09:47:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35345",
       "number": 35345,
       "title": "[Testing] Fixed test failure in net11 branch - 2",
@@ -57321,7 +57391,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-11T09:10:17.627Z",
+  "lastUpdated": "2026-05-11T16:55:00.495Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
