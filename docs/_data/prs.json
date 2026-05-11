@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35367",
+      "number": 35367,
+      "title": "[Testing] Replace retryDelay with retryTimeout in UI tests",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-10T21:48:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/28516",
       "number": 28516,
       "title": "Fix Binding for ListView.IsRefreshing",
@@ -57231,7 +57241,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-10T16:19:51.879Z",
+  "lastUpdated": "2026-05-11T00:38:21.616Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
