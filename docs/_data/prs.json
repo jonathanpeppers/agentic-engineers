@@ -1,6 +1,236 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios-devtools/pull/179",
+      "number": 179,
+      "title": "Fix ArgumentNullException in AppleSdkSettings when no settings file exists",
+      "repo": "dotnet/macios-devtools",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-12T16:23:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3966",
+      "number": 3966,
+      "title": "docs: Update Uno Platform link and description in README.md",
+      "repo": "mono/SkiaSharp",
+      "author": "sasakrsmanovic",
+      "mergedAt": "2026-05-12T15:57:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3792",
+      "number": 3792,
+      "title": "[samples] Add Hero Image gallery sample",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-12T15:28:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3835",
+      "number": 3835,
+      "title": "Fix CI: samples, Docker, NanoServer, coverlet, and build chain",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-12T15:17:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35323",
+      "number": 35323,
+      "title": "[Material3] Expose Material Handlers and Helpers as Public",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-05-12T14:42:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/362",
+      "number": 362,
+      "title": "Pass stdout to ThrowIfFailed in three runner list methods",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-12T14:08:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/363",
+      "number": 363,
+      "title": "Remove dead ThrowIfCancellationRequested() in WaitForFullBootAsync",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-12T14:08:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1423",
+      "number": 1423,
+      "title": "docs: update README for .NET 10 and dotnet/android repo rename",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-12T14:07:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1424",
+      "number": 1424,
+      "title": "Fix FileStream leak in ClassPath.IsJmodFile",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-12T14:07:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33372",
+      "number": 33372,
+      "title": "Add CancellationToken support to animation methods in ViewExtensions",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-05-12T13:44:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11325",
+      "number": 11325,
+      "title": "Bump to DevDiv/android-platform-support/main@120fcc4a",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-12T12:09:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25394",
+      "number": 25394,
+      "title": "[xcode26.5] Update to stable version of Xcode 26.5",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-12T11:13:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25392",
+      "number": 25392,
+      "title": "Fix nullability errors in mono-api-html and mono-api-info",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-12T11:13:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35131",
+      "number": 35131,
+      "title": "[Windows] Fix Shell FlyoutItem not taking full width",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-05-12T10:32:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35368",
+      "number": 35368,
+      "title": "Fix Android grouped CollectionView header/footer rebind leak",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-12T10:22:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34699",
+      "number": 34699,
+      "title": "[Windows] Fix Image layout inconsistency caused by async decode race in GetDesiredSize",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-05-12T10:07:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35197",
+      "number": 35197,
+      "title": "[Android] Fix SearchBar IME full-screen extract mode in landscape orientation",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-05-12T10:00:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34957",
+      "number": 34957,
+      "title": "[iOS] Fix Picker CharacterSpacing ignored on initial load",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-05-12T09:42:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/270",
+      "number": 270,
+      "title": "[ai-docs] docs: update AI config files to reflect current codebase state",
+      "repo": "dotnet/maui-labs",
+      "author": "github-actions",
+      "mergedAt": "2026-05-12T09:42:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34974",
+      "number": 34974,
+      "title": "[iOS] Fix Picker CharacterSpacing lost after item selection when Title is set",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-05-12T09:35:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/199",
+      "number": 199,
+      "title": "docs: document --json error envelope contract in CLI README",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-05-12T09:23:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/233",
+      "number": 233,
+      "title": "feat(go): implement `maui go upgrade` command",
+      "repo": "dotnet/maui-labs",
+      "author": "davidortinau",
+      "mergedAt": "2026-05-12T09:18:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/767",
+      "number": 767,
+      "title": "Drop .NET 9, centralize .NET 10 package versions, add Dependabot",
+      "repo": "dotnet/maui-samples",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-12T09:15:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/217",
       "number": 217,
       "title": "docs(squad): record Holden reactor-unification proposal + David's verdict",
@@ -57521,7 +57751,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-12T08:59:05.603Z",
+  "lastUpdated": "2026-05-12T16:45:46.349Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
