@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/217",
+      "number": 217,
+      "title": "docs(squad): record Holden reactor-unification proposal + David's verdict",
+      "repo": "dotnet/maui-labs",
+      "author": "davidortinau",
+      "mergedAt": "2026-05-12T08:05:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25381",
+      "number": 25381,
+      "title": "[tools] Use the new UnsupportedSimulator attribute to determine whether a Dlfcn method should be inlined or not.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-12T05:51:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25391",
+      "number": 25391,
+      "title": "Add git branch safety instructions to copilot-instructions.md",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-12T05:44:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11324",
+      "number": 11324,
+      "title": "[xaprepare] Remove desktop Mono provisioning and dead Mono-related code",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-12T05:06:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11260",
+      "number": 11260,
+      "title": "[TrimmableTypeMap] Compute generated IL maxstack",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-12T05:05:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11315",
       "number": 11315,
       "title": "Bump com.android.tools.build:manifest-merger from 32.2.0 to 32.2.1 in /src/manifestmerger",
@@ -57471,7 +57521,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-12T00:35:47.638Z",
+  "lastUpdated": "2026-05-12T08:59:05.603Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
