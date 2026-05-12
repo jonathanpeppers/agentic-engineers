@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11315",
+      "number": 11315,
+      "title": "Bump com.android.tools.build:manifest-merger from 32.2.0 to 32.2.1 in /src/manifestmerger",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-05-11T22:12:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3918",
+      "number": 3918,
+      "title": "Add automated API docs pipeline",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-11T21:23:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35177",
+      "number": 35177,
+      "title": "[iOS/Mac] Fix Entry clear button retaining tint color after TextColor is reset to null",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-05-11T20:44:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35318",
+      "number": 35318,
+      "title": "[MacCatalyst] Fix KeyboardAccelerator with Cmd+Shift modifiers breaks entire MenuBarItem on Mac Catalyst ",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-05-11T18:57:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35369",
+      "number": 35369,
+      "title": "Avoid image source layout invalidation for fixed-size views",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-11T18:48:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35372",
+      "number": 35372,
+      "title": "Fix Android stale ContainerView root leak",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-11T18:46:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35374",
+      "number": 35374,
+      "title": "Fix iOS 26 Stepper overlap in landscape",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-11T18:45:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11313",
+      "number": 11313,
+      "title": "Bump external/xamarin-android-tools from `7d0e083` to `482a9bb`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-05-11T17:46:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11316",
       "number": 11316,
       "title": "[main] Update dependencies from microsoft/testfx",
@@ -57391,7 +57471,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-11T16:55:00.495Z",
+  "lastUpdated": "2026-05-12T00:35:47.638Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
