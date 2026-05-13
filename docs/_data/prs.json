@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11291",
+      "number": 11291,
+      "title": "[Diagnostics] Enable .NET Runtime crash reporting before signal chaining",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-13T16:02:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11336",
+      "number": 11336,
+      "title": "[TrimmableTypeMap] Use separate trimmable Java.Interop test jar",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-13T15:29:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11333",
+      "number": 11333,
+      "title": "Bump external/Java.Interop from `05e9e8f` to `d3636b4`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-05-13T15:27:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25411",
+      "number": 25411,
+      "title": "[release/10.0.1xx] Merge main into release/10.0.1xx to get Xcode 26.5 Support",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-13T15:12:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25401",
+      "number": 25401,
+      "title": "[xharness] Honor system dark mode in xharness web UI",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-13T14:43:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25377",
+      "number": 25377,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260508175345648 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-05-13T14:39:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25399",
+      "number": 25399,
+      "title": "[src] Attempt to fix a race condition with NSObject.GetData. Fixes #25373.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-13T14:17:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25420",
+      "number": 25420,
+      "title": "fix: treat missing expected cookie as transient network failure in TestNSurlSessionHandlerCookieContainerSetCookie",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-13T13:46:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1427",
+      "number": 1427,
+      "title": "Bump external/xamarin-android-tools from `7d0e083` to `8a58f4f`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-05-13T13:21:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35419",
+      "number": 35419,
+      "title": "[inflight/current] Fix CS0111 duplicate GetNativeCharacterSpacing in PickerHandlerTests.iOS",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-05-13T13:18:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25371",
+      "number": 25371,
+      "title": "[aw] Harden Code Radiator safe-outputs for scheduled runs",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-13T12:19:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35398",
+      "number": 35398,
+      "title": "[Windows] Fix Issue29529VerifyPreviousPositionOnInsert test failure on candidate branch",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-05-13T10:31:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35356",
+      "number": 35356,
+      "title": " [Android] Fix ScrollTo regression when IsGrouped true on CollectionView",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-05-13T09:26:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25369",
+      "number": 25369,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-13T09:20:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28074",
+      "number": 28074,
+      "title": "[Windows] Fix for Item should scrolled based on the GroupHeaderTemplate",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-05-13T09:16:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35097",
+      "number": 35097,
+      "title": "[Essentials] Use mean sea level altitude on Android API 34+",
+      "repo": "dotnet/maui",
+      "author": "KitKeen",
+      "mergedAt": "2026-05-13T09:14:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35358",
+      "number": 35358,
+      "title": "[Android] Fix CollectionView ActivityIndicator not animating after header height change",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-05-13T09:11:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35392",
+      "number": 35392,
+      "title": "Fix for ApplyQueryAttributes being called on non-destination pages during back navigation",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-05-13T09:03:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25406",
       "number": 25406,
       "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14077114",
@@ -57871,7 +58051,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-13T09:02:15.645Z",
+  "lastUpdated": "2026-05-13T16:47:40.989Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
