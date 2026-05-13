@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25380",
+      "number": 25380,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260509054811778 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-05-12T22:29:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25400",
+      "number": 25400,
+      "title": "[main] Merge xcode26.5 into main",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-12T21:10:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25370",
+      "number": 25370,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-12T18:44:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35224",
+      "number": 35224,
+      "title": "[Android, iOS, Catalyst] Fix SearchHandler.BackgroundColor cannot be reset to null",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-05-12T18:36:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35347",
+      "number": 35347,
+      "title": "[iOS 26] Fix SearchBar layout spacing issues for small HeightRequest values",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-05-12T18:21:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25393",
+      "number": 25393,
+      "title": "[tests] Fix introspection TypoTest and improve allowed word management",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-12T18:01:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios-devtools/pull/179",
       "number": 179,
       "title": "Fix ArgumentNullException in AppleSdkSettings when no settings file exists",
@@ -57751,7 +57811,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-12T16:45:46.349Z",
+  "lastUpdated": "2026-05-13T00:39:27.073Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
