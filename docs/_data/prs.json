@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25406",
+      "number": 25406,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14077114",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-13T07:35:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11334",
+      "number": 11334,
+      "title": "Bump external/xamarin-android-tools from `482a9bb` to `8a58f4f`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-05-13T06:08:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11329",
+      "number": 11329,
+      "title": "Skip ILC LinkNative target for NativeAOT, remove llvm-ar dependency",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-05-13T06:08:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11275",
+      "number": 11275,
+      "title": "[TrimmableTypeMap] Fix UCO constructor activation",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-13T04:51:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11330",
+      "number": 11330,
+      "title": "[build] Replace custom `<DownloadUri/>` task with built-in `<DownloadFile/>`",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-13T04:47:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25402",
+      "number": 25402,
+      "title": "[macios-devtools] Bump devtools",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-13T03:42:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25380",
       "number": 25380,
       "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260509054811778 to main",
@@ -57811,7 +57871,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-13T00:39:27.073Z",
+  "lastUpdated": "2026-05-13T09:02:15.645Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
