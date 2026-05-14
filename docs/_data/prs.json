@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25421",
+      "number": 25421,
+      "title": "[release/10.0.1xx] [src] Attempt to fix a race condition with NSObject.GetData. Fixes #25373.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-13T21:57:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11317",
+      "number": 11317,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-13T21:45:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11303",
+      "number": 11303,
+      "title": "[NativeAOT] Enable workload-provided linker for NDK-free builds",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-05-13T20:52:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11318",
+      "number": 11318,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-13T20:13:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11337",
+      "number": 11337,
+      "title": "[TrimmableTypeMap] Add trimmable typemap runtime coverage tests",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-13T20:11:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25417",
+      "number": 25417,
+      "title": "[main] Keep using the desktop MSBuild assemblies when building from within Visual Studio.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-13T18:28:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35250",
+      "number": 35250,
+      "title": "Add review triggering workflow",
+      "repo": "dotnet/maui",
+      "author": "JanKrivanek",
+      "mergedAt": "2026-05-13T18:27:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35433",
+      "number": 35433,
+      "title": "Update PatchVersion from 70 to 80",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-05-13T18:25:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25419",
+      "number": 25419,
+      "title": "fix: treat unexpected cookie values as transient network failures in cookie handler tests",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-13T18:18:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25414",
+      "number": 25414,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260513055157079 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-05-13T18:17:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25415",
+      "number": 25415,
+      "title": "[tools] Fix IL2009 warning for generic types in linker XML descriptors",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-13T18:16:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11193",
+      "number": 11193,
+      "title": "[TrimmableTypeMap] Use Crc64 package naming by default with LowercaseCrc64 compatibility",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-13T17:12:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35417",
+      "number": 35417,
+      "title": "[Android] [Candidate Fix] Shell: Fix handler disconnect timing to preserve WebView navigation and memory leak fix",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-05-13T17:01:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11291",
       "number": 11291,
       "title": "[Diagnostics] Enable .NET Runtime crash reporting before signal chaining",
@@ -58051,7 +58181,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-13T16:47:40.989Z",
+  "lastUpdated": "2026-05-14T00:41:15.120Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
