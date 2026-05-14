@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35350",
+      "number": 35350,
+      "title": "Add dependency-flow Copilot skill for MAUI build promotion and feed management",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-05-14T15:54:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1411",
+      "number": 1411,
+      "title": "Stable Updates 20260511",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-14T15:16:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35428",
+      "number": 35428,
+      "title": "[release/10.0.1xx-sr7]  [Android] Fix ScrollTo regression when IsGrouped true on CollectionView",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-05-14T13:40:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35423",
+      "number": 35423,
+      "title": "[release/10.0.1xx-sr7] Fix: Build fails when appicon is an empty (but valid) SVG",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-05-14T13:38:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11341",
+      "number": 11341,
+      "title": "Bump external/xamarin-android-tools from `7d0e083` to `8a58f4f`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-05-14T13:25:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25352",
+      "number": 25352,
+      "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-14T13:01:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25412",
+      "number": 25412,
+      "title": "[release/9.0.1xx] Update build to use Xcode 26.5 no new API bindings",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-14T11:56:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35084",
+      "number": 35084,
+      "title": "[Android] Fix bottom safe area padding dropping to zero when keyboard is shown",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-05-14T11:23:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35436",
+      "number": 35436,
+      "title": "Fix Android activity result callback leak",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-14T11:16:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25426",
+      "number": 25426,
+      "title": "[aw] Allow dotted Xcode branches in Code Radiator PR base policy",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-14T11:11:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25425",
+      "number": 25425,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260514054804289 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-05-14T10:27:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35379",
       "number": 35379,
       "title": "[Android] Fix CollectionView scrolling performance regression",
@@ -58241,7 +58351,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-14T08:57:10.543Z",
+  "lastUpdated": "2026-05-14T16:41:34.422Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
