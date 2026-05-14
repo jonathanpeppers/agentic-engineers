@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35379",
+      "number": 35379,
+      "title": "[Android] Fix CollectionView scrolling performance regression",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-05-14T08:24:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35223",
+      "number": 35223,
+      "title": "[Android] Fix for predictive back-to-home animation blocked by unconditional back callback registration",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-05-14T08:19:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35196",
+      "number": 35196,
+      "title": "[Android] Fix for Android 16 Back button is not working after command from FlyoutPage",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-05-14T08:17:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34614",
+      "number": 34614,
+      "title": "[Android] Fix for RefreshView triggering pull-to-refresh when scrolling inside a WebView with internal scrollable content",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-05-14T07:51:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11332",
+      "number": 11332,
+      "title": "[build] Replace `Step_InstallGNUBinutils` with MSBuild targets",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-14T06:58:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25423",
+      "number": 25423,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260513174343331 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-05-14T06:38:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25421",
       "number": 25421,
       "title": "[release/10.0.1xx] [src] Attempt to fix a race condition with NSObject.GetData. Fixes #25373.",
@@ -58181,7 +58241,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-14T00:41:15.120Z",
+  "lastUpdated": "2026-05-14T08:57:10.543Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
