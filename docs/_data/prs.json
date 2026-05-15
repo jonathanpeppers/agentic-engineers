@@ -1,6 +1,226 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35465",
+      "number": 35465,
+      "title": "Remove ci-doctor, upgrade all gh-aw workflows to v0.72.1",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-05-15T16:26:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35382",
+      "number": 35382,
+      "title": "Add agentic labeler workflow for issues and PRs",
+      "repo": "dotnet/maui",
+      "author": "JanKrivanek",
+      "mergedAt": "2026-05-15T15:33:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/180",
+      "number": 180,
+      "title": "Update arcade sdk",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-05-15T15:01:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11338",
+      "number": 11338,
+      "title": "[Tests] Add NativeCrashProducesManagedStackTrace device test",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-15T13:56:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35424",
+      "number": 35424,
+      "title": "[release/10.0.1xx-sr7] [Android] Fix LinearGradientBrush rendering as opaque black box",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-05-15T13:55:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35425",
+      "number": 35425,
+      "title": "[release/10.0.1xx-sr7] [iOS] Fix StaticResource Hot Reload crash on iOS",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-05-15T13:55:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35426",
+      "number": 35426,
+      "title": "[release/10.0.1xx-sr7] [iOS 26] Fix SearchBar layout spacing issues for small HeightRequest values",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-05-15T13:55:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35427",
+      "number": 35427,
+      "title": "[release/10.0.1xx-sr7] [Windows] Fix COMException when restoring a ScrollView as ContentPage.Content after swapping it out",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-05-15T13:55:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11347",
+      "number": 11347,
+      "title": "Bump `7-Zip.CommandLine` from 18.1.0 to 25.1.0",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-15T13:54:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35430",
+      "number": 35430,
+      "title": "[release/10.0.1xx-sr7] [Android] Fix OnBackButtonPressed not invoked for Shell",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-05-15T13:54:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35441",
+      "number": 35441,
+      "title": "[release/10.0.1xx-sr7] [Android] Fix for predictive back-to-home animation blocked by unconditional back callback registration",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-05-15T13:53:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/361",
+      "number": 361,
+      "title": "Launch emulator in signal-isolated process on Unix to survive Ctrl+C",
+      "repo": "dotnet/android-tools",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-15T13:34:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11364",
+      "number": 11364,
+      "title": "Add XML documentation to `Android.Security.KeyChain` public methods",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-15T13:25:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11368",
+      "number": 11368,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14106209",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-15T13:24:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11362",
+      "number": 11362,
+      "title": "Add XML documentation to `AndroidBitmapInfo` struct",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-15T13:23:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/107",
+      "number": 107,
+      "title": "Add AI Extensions — source-generated AI tool bindings",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-15T13:22:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11367",
+      "number": 11367,
+      "title": "[tests] Set xamarin_manifest_needs_updating to false for API 37",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-05-15T13:22:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11360",
+      "number": 11360,
+      "title": "Add missing XML documentation to AndroidMessageHandler public properties",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-15T13:21:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11354",
+      "number": 11354,
+      "title": "Add XML documentation to `JValue` struct",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-15T13:20:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/275",
+      "number": 275,
+      "title": "Update arcade bits and sdk",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-05-15T12:21:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35422",
+      "number": 35422,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-05-15T11:23:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3971",
+      "number": 3971,
+      "title": "Skip Skia sync workflow when upstream is already merged",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-15T09:06:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/277",
       "number": 277,
       "title": "Bump Xamarin.Android.Tools.AndroidSdk to 1.0.155-preview.137",
@@ -58451,7 +58671,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-15T09:05:23.542Z",
+  "lastUpdated": "2026-05-15T16:37:07.792Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
