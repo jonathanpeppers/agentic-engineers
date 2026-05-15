@@ -22,7 +22,7 @@ If you've spent any time wiring AI agents into observability stacks, you know th
 https://<grafana-endpoint>/api/azure-mcp
 ```
 
-No container to deploy. No sidecar. No long-lived secret on your laptop. The same Grafana you already pay for is now an MCP server your agents can talk to — using the same auth you already use for Grafana itself.
+No container to deploy. No sidecar. And with OAuth or managed-identity auth, no long-lived secret on your laptop. The same Grafana you already pay for is now an MCP server your agents can talk to — using the same auth you already use for Grafana itself.
 
 **Docs:** [learn.microsoft.com — Grafana MCP server](https://learn.microsoft.com/en-us/azure/managed-grafana/grafana-mcp-server) · [Azure/azure-managed-grafana — amg-mcp.md](https://github.com/Azure/azure-managed-grafana/blob/main/amg-mcp.md)
 
@@ -34,7 +34,7 @@ The MCP ecosystem skews local: you `npm install` a server, drop a stanza into `m
 - A locally-run server that has to be kept up to date
 - A different setup story for every teammate and every agent host (VS Code, Claude Code, Foundry, …)
 
-The AMG remote MCP server flips this. The server is **already running inside your Grafana instance**, behind the same network and identity perimeter your dashboards already trust. Your agent just needs a URL and a token — or, if you're in VS Code or Visual Studio with Copilot, **just the URL**, because OAuth with Microsoft Entra ID is handled for you.
+The AMG remote MCP server flips this. The server is **already running inside your Grafana instance**, behind the same identity perimeter your dashboards already trust (note: [private endpoint connectivity is not yet supported](#limitations-worth-knowing)). Your agent just needs a URL and a token — or, if you're in VS Code or Visual Studio with Copilot, **just the URL**, because OAuth with Microsoft Entra ID is handled for you.
 
 ## What the agent actually gets
 
