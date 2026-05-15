@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/277",
+      "number": 277,
+      "title": "Bump Xamarin.Android.Tools.AndroidSdk to 1.0.155-preview.137",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-05-15T08:49:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25431",
+      "number": 25431,
+      "title": "[tests] Upgrade tests/msbuild to NUnit v4 Assert.That syntax",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-15T08:22:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25331",
+      "number": 25331,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-05-15T07:33:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25436",
+      "number": 25436,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-15T07:23:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25432",
       "number": 25432,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
@@ -58411,7 +58451,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-15T00:38:25.039Z",
+  "lastUpdated": "2026-05-15T09:05:23.542Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
