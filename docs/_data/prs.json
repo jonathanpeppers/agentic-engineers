@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11366",
+      "number": 11366,
+      "title": "Move hardcoded error strings in GenerateJniRemappingNativeCode to Properties.Resources with XA error codes",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-16T14:02:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11351",
+      "number": 11351,
+      "title": "[Build] Block insecure HTTP Maven repository URLs for defense in depth",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-16T14:00:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3970",
       "number": 3970,
       "title": "Blazor gallery redesign: API Atlas with tag cloud filtering",
@@ -58731,7 +58751,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-16T08:35:50.621Z",
+  "lastUpdated": "2026-05-16T16:20:28.188Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
