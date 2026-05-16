@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3970",
+      "number": 3970,
+      "title": "Blazor gallery redesign: API Atlas with tag cloud filtering",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-15T23:10:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11373",
+      "number": 11373,
+      "title": "Add unit tests for EnvironmentFilesParser utility",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-15T20:37:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11340",
+      "number": 11340,
+      "title": "[NativeAOT] Make workload linker the default for NativeAOT builds",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-05-15T18:57:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11350",
+      "number": 11350,
+      "title": "[release/10.0.1xx] Fix dotnet restore hang during prepare step",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-15T16:59:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35461",
+      "number": 35461,
+      "title": "Revert [Android] Fix CollectionView handler cleanup when DataTemplateSelector switches templates",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-05-15T16:59:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35434",
+      "number": 35434,
+      "title": "[release/10.0.1xx-sr7] [iOS, Mac] Fix OnBackButtonPressed not invoked for NavigationPage and Shell",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-15T16:56:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35465",
       "number": 35465,
       "title": "Remove ci-doctor, upgrade all gh-aw workflows to v0.72.1",
@@ -58671,7 +58731,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-15T16:37:07.792Z",
+  "lastUpdated": "2026-05-16T00:36:26.437Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
