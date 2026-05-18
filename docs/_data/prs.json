@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25450",
+      "number": 25450,
+      "title": "[tests] Fix flaky NSPasteboardTests.DetectMetadataTests on macOS",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-18T16:40:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25441",
+      "number": 25441,
+      "title": "Fix docs/bindas.md links pointing to personal fork instead of dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-18T16:29:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11369",
+      "number": 11369,
+      "title": "[build] Remove 15 unused internal build tasks",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-18T15:41:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11382",
+      "number": 11382,
+      "title": "Bump external/xamarin-android-tools from `8a58f4f` to `7c05b5c`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-05-18T15:24:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11379",
+      "number": 11379,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260516103243234 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-05-18T15:13:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11380",
+      "number": 11380,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14118602",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-18T13:46:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35174",
+      "number": 35174,
+      "title": "Update pr-review skill model lineup",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-18T13:31:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11383",
+      "number": 11383,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-18T13:27:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11388",
+      "number": 11388,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260518103241915 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-05-18T13:20:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25449",
+      "number": 25449,
+      "title": "Delete old NuGet.config feeds.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-18T13:11:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25442",
+      "number": 25442,
+      "title": "[tests] Upgrade tests/introspection to NUnit v4 Assert.That syntax",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-18T12:12:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25439",
+      "number": 25439,
+      "title": "docs: fix broken link in native-library-interop.md",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-18T12:11:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25376",
+      "number": 25376,
+      "title": "[ObjCRuntime] Improve super calls - Fixes #25362",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-18T11:55:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25437",
       "number": 25437,
       "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
@@ -58761,7 +58891,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-18T09:12:13.442Z",
+  "lastUpdated": "2026-05-18T16:59:04.572Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
