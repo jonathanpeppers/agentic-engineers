@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25437",
+      "number": 25437,
+      "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-18T06:21:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11366",
       "number": 11366,
       "title": "Move hardcoded error strings in GenerateJniRemappingNativeCode to Properties.Resources with XA error codes",
@@ -58751,7 +58761,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-18T00:40:30.416Z",
+  "lastUpdated": "2026-05-18T09:12:13.442Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
