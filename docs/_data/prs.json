@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11343",
+      "number": 11343,
+      "title": "Use Java identity in constructor activation tests",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-19T16:37:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25466",
       "number": 25466,
       "title": "[github] Remove unused workflows.",
@@ -59271,7 +59281,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-19T15:52:21.985Z",
+  "lastUpdated": "2026-05-19T17:00:38.113Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
