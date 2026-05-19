@@ -1,6 +1,296 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25466",
+      "number": 25466,
+      "title": "[github] Remove unused workflows.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-19T15:42:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25467",
+      "number": 25467,
+      "title": "[github] Simplify the yaml lint action to not post a comment.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-19T15:42:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25465",
+      "number": 25465,
+      "title": "[release/10.0.1xx] Fix issue #25462: Update Xamarin.MacDev",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-19T15:38:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35480",
+      "number": 35480,
+      "title": "Fix iOS/Catalyst MapPool retention with MapElements",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-19T15:27:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35487",
+      "number": 35487,
+      "title": "Fix device test memory",
+      "repo": "dotnet/maui",
+      "author": "pictos",
+      "mergedAt": "2026-05-19T15:22:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35444",
+      "number": 35444,
+      "title": "Fix Implicit parameter conversion from integer to byte fails with source generated XAML",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-05-19T15:20:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11401",
+      "number": 11401,
+      "title": "Remove stale TODO and dead code in AuthDigestSession.HA2",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-19T14:44:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3743",
+      "number": 3743,
+      "title": "Update Tizen SDK installer from 6.1 to 10.0",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-19T14:41:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35518",
+      "number": 35518,
+      "title": "[net11.0] Use Azure Artifacts feed only in CI, standard repos locally",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-05-19T14:33:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35520",
+      "number": 35520,
+      "title": "Update PreReleaseVersionLabel and StabilizePackageVersion",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-05-19T14:22:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25457",
+      "number": 25457,
+      "title": "[apidiff] Update reference/stable versions to latest .NET 10 / Xcode 26.5",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-19T14:18:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35412",
+      "number": 35412,
+      "title": "[Testing]Revert 'Fix Preserve ScrollView offsets when Orientation changes to Neither'",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-05-19T14:15:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25434",
+      "number": 25434,
+      "title": "[tools] Fix marking generated block code when not using any of the static registrars",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-19T13:36:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11397",
+      "number": 11397,
+      "title": "Remove unused `using` directives in CheckForInvalidResourceFileNames.cs and CreateDynamicFeatureManifest.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-19T13:36:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11407",
+      "number": 11407,
+      "title": "[native] Track archive DSO stub output",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-19T13:34:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25452",
+      "number": 25452,
+      "title": "[tests] Fix transient TLS/network failures in MessageHandlerTest tests",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-19T13:32:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25468",
+      "number": 25468,
+      "title": "[release/10.0.1xx] Delete old NuGet.config feeds.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-19T13:30:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11406",
+      "number": 11406,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14133616",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-19T13:11:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11408",
+      "number": 11408,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260519103318662 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-05-19T13:11:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25429",
+      "number": 25429,
+      "title": "Add option to build (partially) without Xcode.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-19T12:25:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25375",
+      "number": 25375,
+      "title": "[msbuild/tools] Add netstandard2.0 helper string functions.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-19T12:12:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/280",
+      "number": 280,
+      "title": "[ai-docs] docs: add AIExtensions product to AI config files",
+      "repo": "dotnet/maui-labs",
+      "author": "github-actions",
+      "mergedAt": "2026-05-19T12:12:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35515",
+      "number": 35515,
+      "title": "[Housekeeping] Remove hardcoded net10 TargetFramework values",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-05-19T12:07:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35450",
+      "number": 35450,
+      "title": "ci: delete unused add-remove-label-check-suites workflow",
+      "repo": "dotnet/maui",
+      "author": "arpitjain099",
+      "mergedAt": "2026-05-19T12:05:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35148",
+      "number": 35148,
+      "title": "[Android] Fix Shell flyout background to follow Material 3 theme colors",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-05-19T11:42:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35395",
+      "number": 35395,
+      "title": "Fix - ScrollView.ScrollToAsync(x, y, animated) doesn't work when called from Page.OnAppearing",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-05-19T11:10:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35408",
+      "number": 35408,
+      "title": "Optimize parent dynamic resource refresh",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-19T10:56:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35503",
+      "number": 35503,
+      "title": "Revert [Android, iOS] - Flyout icon should remain visible when a page is pushed onto a NavigationPage or Shell page with the back button disabled.",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-05-19T10:42:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35499",
+      "number": 35499,
+      "title": "Backport Test Fixes and Snapshots from SR to Inflight Branch",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-05-19T10:32:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25460",
       "number": 25460,
       "title": "[main] Update dependencies from dotnet/macios",
@@ -58981,7 +59271,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-19T09:10:17.887Z",
+  "lastUpdated": "2026-05-19T15:52:21.985Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
