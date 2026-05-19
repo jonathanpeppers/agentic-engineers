@@ -296,5 +296,5 @@ jobs:
           
           # Commit and push
           git add docs/_data/prs.json
-          git diff --staged --quiet || git commit -m "Update PR data [skip ci]"
+          git diff --staged --quiet || git commit -m "Update PR data"
           git push origin "$TARGET_BRANCH"
