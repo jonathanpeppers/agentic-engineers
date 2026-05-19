@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4006",
+      "number": 4006,
+      "title": "Fix UnicodeEncodeError on Windows CI in repo-deps.py",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-18T22:57:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35468",
+      "number": 35468,
+      "title": "Add labeler skill evals and fix Handlers/*/Android/ rule gap",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-05-18T20:06:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11384",
+      "number": 11384,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-18T19:22:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11392",
+      "number": 11392,
+      "title": "Remove dead code in TypeMappingReleaseNativeAssemblyGeneratorCLR.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-18T19:16:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11390",
+      "number": 11390,
+      "title": "Remove obsolete `SetAndroidSupportedAbis` usage from test code",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-18T17:45:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4000",
+      "number": 4000,
+      "title": "Add HBColor struct for proper hb_color_t representation",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-18T17:20:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4001",
+      "number": 4001,
+      "title": "Add missing API wrappers and fix naming convention violations",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-18T17:12:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3752",
+      "number": 3752,
+      "title": "Enable TreatWarningsAsErrors in binding/ and fix all warnings",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-18T17:11:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25450",
       "number": 25450,
       "title": "[tests] Fix flaky NSPasteboardTests.DetectMetadataTests on macOS",
@@ -58891,7 +58971,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-18T16:59:04.572Z",
+  "lastUpdated": "2026-05-19T00:42:14.948Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
