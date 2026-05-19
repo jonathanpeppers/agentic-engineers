@@ -295,6 +295,13 @@ jobs:
           fi
           
           # Commit and push
+          # Skip CI on PRs to avoid triggering unnecessary workflow runs,
+          # but allow it on main so the Pages deployment workflow runs.
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            COMMIT_MSG="Update PR data [skip ci]"
+          else
+            COMMIT_MSG="Update PR data"
+          fi
           git add docs/_data/prs.json
-          git diff --staged --quiet || git commit -m "Update PR data [skip ci]"
+          git diff --staged --quiet || git commit -m "$COMMIT_MSG"
           git push origin "$TARGET_BRANCH"
