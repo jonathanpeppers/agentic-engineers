@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25456",
+      "number": 25456,
+      "title": "[tests] Upgrade tests/monotouch-test to NUnit v4 Assert.That syntax",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-20T16:13:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/285",
+      "number": 285,
+      "title": "Pin DevFlow integration workload versions",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-05-20T15:27:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11331",
+      "number": 11331,
+      "title": "Unify Android minimum API level to 24 for all runtimes",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-05-20T15:16:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35452",
+      "number": 35452,
+      "title": "[net11.0] Bump Android SupportedOSPlatformVersion from 23 to 24",
+      "repo": "dotnet/maui",
+      "author": "sbomer",
+      "mergedAt": "2026-05-20T15:10:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11417",
+      "number": 11417,
+      "title": "Move hardcoded error string in CompressAssemblies to Properties.Resources with XA5303 error code",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-20T15:04:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35540",
+      "number": 35540,
+      "title": "Fix agentic-labeler truncating labels to 1 per call",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-20T14:34:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11409",
+      "number": 11409,
+      "title": "Use AcesShared macOS pool for public dnceng pipelines",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-20T14:30:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11345",
+      "number": 11345,
+      "title": "[TrimmableTypeMap] Remove ForceUnconditionalEntries workaround",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-20T14:26:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/154",
+      "number": 154,
+      "title": "Clarify session identity auto vs explicit behavior",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-20T13:47:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/283",
+      "number": 283,
+      "title": "Add MAUI DevFlow session review skill",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-05-20T13:46:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25303",
+      "number": 25303,
+      "title": "[copilot] Add CI postmortem skill and weekly agentic workflow",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-20T13:40:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11418",
+      "number": 11418,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14145349",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-20T13:09:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25480",
+      "number": 25480,
+      "title": "[tests] Ignore the AppSize tests for now.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-20T12:36:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35359",
+      "number": 35359,
+      "title": " [Android] Fix BottomNavigationView remaining visible for TabbedPage inside modal NavigationPage after PushAsync",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-05-20T12:08:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35458",
+      "number": 35458,
+      "title": " [Windows] Fix VerifyAllIndicatorDotsShowShadowsWhenIndicatorSize test failure on candidate branch",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-05-20T11:39:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35438",
+      "number": 35438,
+      "title": "Fix /review trigger when comment has leading whitespace",
+      "repo": "dotnet/maui",
+      "author": "JanKrivanek",
+      "mergedAt": "2026-05-20T11:19:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25477",
+      "number": 25477,
+      "title": "[release/10.0.1xx] [tools] Fix IL2009 warning for generic types in linker XML descriptors",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-20T11:04:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35400",
+      "number": 35400,
+      "title": " [iOS 26] Fix Switch ThumbColor and OffColor not applied on initial load",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-05-20T10:11:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34980",
+      "number": 34980,
+      "title": "[Android] Fix DatePicker dialog dismisses after the device is rotated",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-05-20T10:10:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25475",
+      "number": 25475,
+      "title": "[tests] Fix actool warnings in test icon asset catalogs",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-20T10:10:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35504",
       "number": 35504,
       "title": "Fix iOS toolbar empty badge indicator",
@@ -59511,7 +59711,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-20T09:08:59.585Z",
+  "lastUpdated": "2026-05-20T17:05:11.908Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
