@@ -1,6 +1,226 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3830",
+      "number": 3830,
+      "title": "Fix cgmanifest.json version mismatches",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-19T23:45:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25472",
+      "number": 25472,
+      "title": "[github] Harden 'Maestro changelog' workflow permissions and pin actions",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-19T23:20:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25471",
+      "number": 25471,
+      "title": "[github] Remove the backport trigger workflow.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-19T23:20:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25470",
+      "number": 25470,
+      "title": "[github] Enable cooldown for dependabot.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-19T23:19:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25469",
+      "number": 25469,
+      "title": "[github] Use/require fewer permissions in the 'Bump global.json' workflow.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-19T23:19:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35447",
+      "number": 35447,
+      "title": "[release/10.0.1xx-sr7] Fix VisualElement.ChangeVisualState() gets stuck in Selected state",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-05-19T23:01:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3726",
+      "number": 3726,
+      "title": "[main] Update FreeType to 2.14.3",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-19T22:36:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/194",
+      "number": 194,
+      "title": "[skiasharp] Update FreeType to 2.14.3",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-19T22:34:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3720",
+      "number": 3720,
+      "title": "[main] Update zlib to 1.3.2.1-motley",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-19T22:29:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/189",
+      "number": 189,
+      "title": "[skiasharp] Update zlib to 1.3.2.1-motley",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-19T22:26:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35489",
+      "number": 35489,
+      "title": "[Android] Fix Shell.FlyoutHeader background incorrect",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-05-19T21:35:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11349",
+      "number": 11349,
+      "title": "[release/10.0.1xx] Emit NETSDK1202 EOL warning for net9.0-android projects",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-19T21:28:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11352",
+      "number": 11352,
+      "title": "[gh-aw] Add nightly-fix-finder agentic workflow",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-19T21:27:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11377",
+      "number": 11377,
+      "title": "Fix NativeLinker.LogFailure: add XA3008 coded warning with format arguments",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-19T21:27:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11398",
+      "number": 11398,
+      "title": "[tests] Fix ApplicationRunsWithDebuggerAndBreaks flakiness",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-19T21:25:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25459",
+      "number": 25459,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-19T20:28:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35521",
+      "number": 35521,
+      "title": "Fix for Issue33356NavigateShouldOccur failure",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-05-19T19:27:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35217",
+      "number": 35217,
+      "title": " [iOS/Android] Fix SwipeItem.IsVisible not refreshing native swipe items when binding changes",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-05-19T18:57:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35510",
+      "number": 35510,
+      "title": "Fix SwipeItemView command leak",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-19T18:49:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11411",
+      "number": 11411,
+      "title": "Log resolution failures in FixLegacyResourceDesignerStep.GetFixupKey instead of silently swallowing",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-19T18:48:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11403",
+      "number": 11403,
+      "title": "Enable nullable reference types in `AidlCompiler.cs`",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-19T17:59:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11413",
+      "number": 11413,
+      "title": "Use static Regex and StringBuilder in ManifestDocument.CalculateVersionCode",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-19T17:38:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11343",
       "number": 11343,
       "title": "Use Java identity in constructor activation tests",
@@ -59281,7 +59501,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-19T17:00:38.113Z",
+  "lastUpdated": "2026-05-20T00:43:59.943Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
