@@ -1,6 +1,246 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4029",
+      "number": 4029,
+      "title": "[docs] Release notes for 4.147.0 (unreleased)",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-05-21T00:40:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4012",
+      "number": 4012,
+      "title": "Update libjpeg-turbo to 3.1.4.1",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-21T00:13:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/237",
+      "number": 237,
+      "title": "Update libjpeg-turbo to 3.1.4.1",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-21T00:10:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4022",
+      "number": 4022,
+      "title": "[WASM] Drop native builds for pre-.NET 8 Emscripten versions",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-21T00:09:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4025",
+      "number": 4025,
+      "title": "Add manifest generation to docs-tool.ps1 extract",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-20T21:17:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35529",
+      "number": 35529,
+      "title": "Clarify SR vs preview channel mapping in dependency-flow skill",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-05-20T21:12:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4023",
+      "number": 4023,
+      "title": "Fix font test failures in sync workflow by mounting /usr/share/fonts",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-20T21:12:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11348",
+      "number": 11348,
+      "title": "Move OpenJDK installation from xaprepare to MSBuild NoTargets project",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-20T21:01:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11415",
+      "number": 11415,
+      "title": "Add TRX report support to Microsoft.Android.Run",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-20T20:59:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25486",
+      "number": 25486,
+      "title": "[devops] Fan the linker tests out per platform.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-20T20:59:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4024",
+      "number": 4024,
+      "title": "Move API docs workflow to docs repo and optimize skill architecture",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-20T19:42:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4013",
+      "number": 4013,
+      "title": "Fix Alpine CI failures caused by transient GitLab 500 errors",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-20T18:56:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35551",
+      "number": 35551,
+      "title": "Fix RemovePossibleQueryString to also strip URL fragments",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-20T18:36:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/46",
+      "number": 46,
+      "title": "Add project version management commands",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-20T18:35:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/287",
+      "number": 287,
+      "title": "Harden Android DevFlow integration tests",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-05-20T18:34:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11321",
+      "number": 11321,
+      "title": "Fail `InstallAndroidDependencies` cleanly when `ResolveAndroidTooling` has no resolved SDK",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-20T17:57:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35445",
+      "number": 35445,
+      "title": "[iOS, Mac] Fix Item spacing not properly applied between items in Horizontal LinearItemsLayout",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-05-20T17:54:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/284",
+      "number": 284,
+      "title": "Improve Windows DevFlow dialog automation",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-05-20T17:52:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25428",
+      "number": 25428,
+      "title": "[mtouch] Remove unused code from mtouch",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-20T17:25:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35549",
+      "number": 35549,
+      "title": "Recompile agentic-labeler.lock.yml (PR #35540 follow-up)",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-05-20T17:22:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4020",
+      "number": 4020,
+      "title": "Fix Skia Upstream Sync showing as failed when nothing to sync",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-20T17:18:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25455",
+      "number": 25455,
+      "title": "Add *.lscache to .gitignore.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-20T17:15:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4019",
+      "number": 4019,
+      "title": "Fix docs deploy race condition with retry loop",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-20T17:14:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25474",
+      "number": 25474,
+      "title": "[tools] Fix a nullability issue in the create-dotnet-linker-launch-json tool.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-20T17:11:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25456",
       "number": 25456,
       "title": "[tests] Upgrade tests/monotouch-test to NUnit v4 Assert.That syntax",
@@ -59711,7 +59951,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-20T17:05:11.908Z",
+  "lastUpdated": "2026-05-21T00:43:34.324Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
