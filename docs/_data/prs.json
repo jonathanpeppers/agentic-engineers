@@ -1,6 +1,216 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25490",
+      "number": 25490,
+      "title": "[tools] Keep track of removed/unavailable frameworks in our list of frameworks.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-21T16:31:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35559",
+      "number": 35559,
+      "title": "[iOS] Fix Shell - opened keyboard on modal page shifts parent page/frame behind modal after update to 10.0.60",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-05-21T14:55:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35561",
+      "number": 35561,
+      "title": "[Android] Fix Shell FlyoutIcon tint loss after navigation",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-05-21T14:52:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11399",
+      "number": 11399,
+      "title": "[Build] Move aapt2 download from xaprepare to MSBuild target",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-21T14:51:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35552",
+      "number": 35552,
+      "title": "Destroy Android WebView on handler disconnect",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-21T14:50:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11385",
+      "number": 11385,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-21T14:49:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35079",
+      "number": 35079,
+      "title": "[Windows] Fix SearchHandler does not focus when ShowSoftInputAsync is called",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-05-21T14:47:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25484",
+      "number": 25484,
+      "title": "[tests] Upgrade tests/linker to NUnit v4 Assert.That syntax",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-21T14:11:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25230",
+      "number": 25230,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-21T14:06:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11432",
+      "number": 11432,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14157285",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-21T13:17:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11427",
+      "number": 11427,
+      "title": "Move hardcoded error strings in JCWGenerator.cs to Properties.Resources with XA error codes",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-21T13:17:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35524",
+      "number": 35524,
+      "title": "Fix for WebView leaks when reusing a shared WebViewSource",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-05-21T13:06:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35037",
+      "number": 35037,
+      "title": "[Windows] Fix WebView Does Not Inherit App Theme",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-05-21T13:03:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11123",
+      "number": 11123,
+      "title": "[TrimmableTypeMap] Add trimmable [Export] and [ExportField] callback support",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-21T13:00:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25458",
+      "number": 25458,
+      "title": "[release/9.0.1xx] Update dependencies from dotnet/sdk",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-21T11:59:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25489",
+      "number": 25489,
+      "title": "[release/10.0.1xx] [github] Use/require fewer permissions in the 'Bump global.json' workflow.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-21T11:54:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35538",
+      "number": 35538,
+      "title": "[Android] Fix for BlazorWebView predictive back callback blocks Android back-to-home animation ",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-05-21T11:03:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35545",
+      "number": 35545,
+      "title": "[iOS/MacCatalyst]  Fix Shell.BackgroundColor not applied to bottom TabBar",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-05-21T11:01:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35507",
+      "number": 35507,
+      "title": "Fix iOS ProgressBar bounding box",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-21T10:54:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35548",
+      "number": 35548,
+      "title": "Replace JavaFinalize() with Dispose(bool) in GenericAnimatorListener",
+      "repo": "dotnet/maui",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-21T10:46:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35536",
+      "number": 35536,
+      "title": "Fix CI failure for CollectionView Scrolling Feature Tests due to PR #35379",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-05-21T10:33:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/288",
       "number": 288,
       "title": "Set Essentials AI package version override",
@@ -59991,7 +60201,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-21T09:09:40.291Z",
+  "lastUpdated": "2026-05-21T16:55:07.509Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
