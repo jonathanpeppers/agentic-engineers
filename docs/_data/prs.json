@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/288",
+      "number": 288,
+      "title": "Set Essentials AI package version override",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-05-21T08:50:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25382",
+      "number": 25382,
+      "title": "[msbuild] Bump Xamarin.MacDev and use PDictionary.[Try]OpenFile.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-21T07:07:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25448",
+      "number": 25448,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-21T06:01:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1429",
+      "number": 1429,
+      "title": "[Trimming] Change the signature of JniValueManager.ActivatePeer",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-21T04:18:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4029",
       "number": 4029,
       "title": "[docs] Release notes for 4.147.0 (unreleased)",
@@ -59951,7 +59991,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-21T00:43:34.324Z",
+  "lastUpdated": "2026-05-21T09:09:40.291Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
