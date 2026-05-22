@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25454",
+      "number": 25454,
+      "title": "[NSObject] Store the super handle in a ConditionalWeakTable.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-22T07:45:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25493",
+      "number": 25493,
+      "title": "[NSUrlSessionHandler] Reject unsupported auth methods to allow fallback to Basic. Fixes #25485.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-22T06:59:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25495",
+      "number": 25495,
+      "title": "[release/10.0.1xx] [tests] Ignore the AppSize tests for now.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-22T06:37:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11393",
+      "number": 11393,
+      "title": "Remove the obsolete AndroidClientHandler class",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-22T04:09:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4043",
+      "number": 4043,
+      "title": "Bump to the next version (3.119.5) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-22T00:55:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4014",
       "number": 4014,
       "title": "Fix ANGLE WinAppSDK download failure on 1ES agents",
@@ -60391,7 +60441,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-22T00:41:44.305Z",
+  "lastUpdated": "2026-05-22T09:07:40.985Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
