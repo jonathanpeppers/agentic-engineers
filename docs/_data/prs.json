@@ -1,6 +1,246 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11453",
+      "number": 11453,
+      "title": "Enable nullable reference types in `MamJsonToXml.cs`",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-22T16:30:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35589",
+      "number": 35589,
+      "title": "[Testing] Fix for flaky UITests in CI that occasionally fail",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-22T15:47:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11431",
+      "number": 11431,
+      "title": "Fix broken string interpolation in LlvmIrInstructions error messages",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-22T15:39:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11444",
+      "number": 11444,
+      "title": "[main] Update dependencies from dotnet/android",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-22T15:26:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11443",
+      "number": 11443,
+      "title": "Bump to DevDiv/android-platform-support/main@9c8f9978",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-22T15:22:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35376",
+      "number": 35376,
+      "title": "Add deep UI test execution to Copilot PR review pipeline",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-22T15:18:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25501",
+      "number": 25501,
+      "title": "[tests] Upgrade remaining tests to NUnit v4 Assert.That syntax.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-22T15:08:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11292",
+      "number": 11292,
+      "title": "[TrimmableTypeMap][NativeAOT] Initialize trimmable typemap runtime",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-22T14:26:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25500",
+      "number": 25500,
+      "title": "Fix 'dotnet checkout' typos in docs/guides/HowToBranch.md",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-22T14:11:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11421",
+      "number": 11421,
+      "title": "[tests] Add AssertCommercialBuild() to incremental build tests",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-22T13:46:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11378",
+      "number": 11378,
+      "title": "[Build] Fix JNI remapping counts lost on incremental builds",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-22T13:44:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11428",
+      "number": 11428,
+      "title": "[Export] Fix dynamic export array callbacks",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-22T13:41:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11436",
+      "number": 11436,
+      "title": "[Trimming] Update value managers for annotated peer activation",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-22T13:06:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11448",
+      "number": 11448,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14168159",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-22T13:04:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11450",
+      "number": 11450,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260522103142690 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-05-22T13:04:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25499",
+      "number": 25499,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-22T12:18:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11442",
+      "number": 11442,
+      "title": "[build] provision OpenJDK before Java.Interop Prepare",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-22T12:16:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35541",
+      "number": 35541,
+      "title": "[iOS/MacCatalyst] Fix Entry clear button appearing dimmed compared to TextColor",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-05-22T10:57:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35475",
+      "number": 35475,
+      "title": "Avoid layout diagnostics allocations without listeners",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-22T10:20:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35562",
+      "number": 35562,
+      "title": "[Windows] Add Automation Id support for Layouts. ",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-05-22T10:18:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35311",
+      "number": 35311,
+      "title": "Don't change the default trimming for iOS and Mac Catalyst when using CoreCLR.",
+      "repo": "dotnet/maui",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-22T10:17:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35460",
+      "number": 35460,
+      "title": "[Testing] Fix for flaky UITests in CI that occasionally fail",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-05-22T10:06:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25430",
+      "number": 25430,
+      "title": "[mtouch] Make mtouch work without Xcode, since we don't really need Xcode for what mtouch currently does.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-22T09:21:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/769",
+      "number": 769,
+      "title": "Update SurfaceLight and OnSurfaceDark in Colors.xaml to Align with Material 3 Baseline",
+      "repo": "dotnet/maui-samples",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-05-22T09:19:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25454",
       "number": 25454,
       "title": "[NSObject] Store the super handle in a ConditionalWeakTable.",
@@ -60441,7 +60681,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-22T09:07:40.985Z",
+  "lastUpdated": "2026-05-22T16:45:45.438Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
