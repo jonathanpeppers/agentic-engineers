@@ -1,6 +1,196 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4014",
+      "number": 4014,
+      "title": "Fix ANGLE WinAppSDK download failure on 1ES agents",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-22T00:32:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4038",
+      "number": 4038,
+      "title": "Add GitHub Actions workflow for API diff",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-21T22:37:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35567",
+      "number": 35567,
+      "title": "Restrict agentic-labeler to exactly one area-* label",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-05-21T21:57:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35569",
+      "number": 35569,
+      "title": "Add version 10.0.70 to bug report template",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-05-21T21:04:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11425",
+      "number": 11425,
+      "title": "Improve android-reviewer skill accuracy and update gh-aw",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-21T20:46:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11441",
+      "number": 11441,
+      "title": "[xaprepare] Standardize on dotnet/arcade's use of dotnet-install scripts",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-21T20:41:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/229",
+      "number": 229,
+      "title": "Add DevFlow extension descriptors",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-05-21T20:33:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1419",
+      "number": 1419,
+      "title": "Disable macOS build lane due to frequent timeouts",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-21T20:32:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1414",
+      "number": 1414,
+      "title": "Stable Updates 20260518",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-21T20:23:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4030",
+      "number": 4030,
+      "title": "Update api-docs skill: merge guard, anchored regex, workflow awareness",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-21T19:48:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25487",
+      "number": 25487,
+      "title": "[tests] Upgrade tests/dotnet to NUnit v4 Assert.That syntax",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-21T19:38:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25492",
+      "number": 25492,
+      "title": "[net11.0] [builds] Fix .NET SDK installation on Windows for .NET 11+",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-21T19:38:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35432",
+      "number": 35432,
+      "title": "Fix intermediate pages not receiving query parameters in multi-page Shell navigation",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-21T19:21:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35566",
+      "number": 35566,
+      "title": "[release/10.0.1xx-sr7] Fix BackButtonBehavior_IconOverride_CustomIconShownOnBackButton on iOS 26",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-05-21T19:15:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/273",
+      "number": 273,
+      "title": "Improve Android DevFlow port forwarding",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-05-21T18:42:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11434",
+      "number": 11434,
+      "title": "[Trimming] Use DiagnosticMethodInfo for AOT-safe stack frame information",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-21T18:26:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35532",
+      "number": 35532,
+      "title": "[iOS & Mac] CarouselViewController2 leaks on iOS/MacCatalyst due to unremoved orientation notification observer ",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-05-21T18:11:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25359",
+      "number": 25359,
+      "title": "[sharpie] Show a helpful error message when installed on x64",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-21T18:05:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25360",
+      "number": 25360,
+      "title": "[net11.0] Strip CoreCLR/R2R frameworks in Debug on devices",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-05-21T17:32:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25490",
       "number": 25490,
       "title": "[tools] Keep track of removed/unavailable frameworks in our list of frameworks.",
@@ -60201,7 +60391,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-21T16:55:07.509Z",
+  "lastUpdated": "2026-05-22T00:41:44.305Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
