@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35526",
+      "number": 35526,
+      "title": "Fix polygon points collection handler leak",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-23T14:17:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4049",
+      "number": 4049,
+      "title": "[docs] docs: update release notes for 4.147.0 (unreleased)",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-05-23T10:04:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11459",
       "number": 11459,
       "title": "Docs: fix broken Wear OS link in XA4312 page",
@@ -60811,7 +60831,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-23T08:43:19.898Z",
+  "lastUpdated": "2026-05-23T16:21:56.160Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
