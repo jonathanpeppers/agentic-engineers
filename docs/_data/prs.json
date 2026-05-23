@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4036",
+      "number": 4036,
+      "title": "Add automated API diff workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-22T23:09:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4041",
+      "number": 4041,
+      "title": "[docs] API diff for v3.119.4",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-05-22T22:58:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4046",
+      "number": 4046,
+      "title": "[docs] API diff for v3.119.2",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-05-22T22:58:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35539",
+      "number": 35539,
+      "title": "Fix SwipeView memory leak when SwipeItems are reused or replaced",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-05-22T20:59:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4045",
+      "number": 4045,
+      "title": "[release/3.119.x] Fix CI failures: ANGLE, WASM 2.0.6, Tizen SDK, Alpine",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-22T20:49:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1418",
+      "number": 1418,
+      "title": "Ship real bindings for Xamarin.AndroidX.Compose.Runtime",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-22T19:52:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11446",
+      "number": 11446,
+      "title": "Move hardcoded warning strings in MergeRemapXml to Properties.Resources with XA codes",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-22T19:38:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11458",
+      "number": 11458,
+      "title": "Enable `#nullable enable` in `SolutionBuilder.cs`",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-22T19:35:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35558",
+      "number": 35558,
+      "title": "Fix CollectionView.SelectedItems leaks popped views when bound to a retained ObservableCollection",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-05-22T19:07:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35181",
+      "number": 35181,
+      "title": "[Android] Fix AppBar flicker on CheckBox/Switch toggle with Material 3",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-05-22T19:00:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35582",
+      "number": 35582,
+      "title": "Fix for Label.FormattedText leaks labels when shared FormattedString is stored in Application.Resources",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-05-22T18:19:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/241",
+      "number": 241,
+      "title": "Update harfbuzz to 14.2.0",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-22T18:07:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11453",
       "number": 11453,
       "title": "Enable nullable reference types in `MamJsonToXml.cs`",
@@ -60681,7 +60801,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-22T16:45:45.438Z",
+  "lastUpdated": "2026-05-23T00:40:53.841Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
