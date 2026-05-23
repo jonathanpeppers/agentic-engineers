@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11459",
+      "number": 11459,
+      "title": "Docs: fix broken Wear OS link in XA4312 page",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-23T08:31:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4036",
       "number": 4036,
       "title": "Add automated API diff workflow",
@@ -60801,7 +60811,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-23T00:40:53.841Z",
+  "lastUpdated": "2026-05-23T08:43:19.898Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
