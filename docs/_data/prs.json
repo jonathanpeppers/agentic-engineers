@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/289",
+      "number": 289,
+      "title": "Add DevFlow theme switching support",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-05-24T07:50:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/286",
+      "number": 286,
+      "title": "Use Assert.Fail in WebView integration test",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-05-24T07:17:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11461",
       "number": 11461,
       "title": "[TrimmableTypeMap] Skip UCO constructor generation for abstract types",
@@ -60841,7 +60861,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-24T00:41:29.534Z",
+  "lastUpdated": "2026-05-24T08:52:47.369Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
