@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11461",
+      "number": 11461,
+      "title": "[TrimmableTypeMap] Skip UCO constructor generation for abstract types",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-05-23T19:24:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35526",
       "number": 35526,
       "title": "Fix polygon points collection handler leak",
@@ -60831,7 +60841,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-23T16:21:56.160Z",
+  "lastUpdated": "2026-05-24T00:41:29.534Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
