@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4061",
+      "number": 4061,
+      "title": "[docs] Update release notes for 4.147.0 (unreleased/main)",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-05-24T22:16:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4058",
+      "number": 4058,
+      "title": "Enhance security-audit skill: CG alerts integration and viewer improvements",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-24T21:28:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4059",
+      "number": 4059,
+      "title": "Fix release notes workflow to always checkout main",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-24T21:20:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28904",
+      "number": 28904,
+      "title": "Fix for Android - Dynamic Updates to CollectionView Header/Footer and Templates Are Not Displayed ",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-05-24T21:01:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4057",
+      "number": 4057,
+      "title": "[docs] Update release notes for 4.147.0 (preview.3)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-24T19:47:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4035",
+      "number": 4035,
+      "title": "Update harfbuzz to 14.2.0",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-24T18:53:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34561",
+      "number": 34561,
+      "title": "doc: Add paragraph to README.md explaining how to fetch the `maui` project templates",
+      "repo": "dotnet/maui",
+      "author": "durandt",
+      "mergedAt": "2026-05-24T18:49:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4050",
       "number": 4050,
       "title": "Document ADO pipeline chain tracking in release skills",
@@ -60871,7 +60941,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-24T16:22:41.024Z",
+  "lastUpdated": "2026-05-25T00:42:52.190Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
