@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4054",
+      "number": 4054,
+      "title": "Disable unused dependency manifests in skia submodule to suppress CG alerts",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-25T07:55:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/243",
+      "number": 243,
+      "title": "Disable dependency manifest files to suppress CG security alerts",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-25T07:42:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25505",
+      "number": 25505,
+      "title": "[release/10.0.1xx] [devops] Remove the fix to avoid using a leaked GitHub ssh key.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-25T07:35:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25506",
+      "number": 25506,
+      "title": "[release/9.0.1xx] [devops] Remove the fix to avoid using a leaked GitHub ssh key.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-25T07:27:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25507",
+      "number": 25507,
+      "title": "[Foundation] Simplify memory management of NSObjectData for CoreCLR.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-25T06:18:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4061",
       "number": 4061,
       "title": "[docs] Update release notes for 4.147.0 (unreleased/main)",
@@ -60941,7 +60991,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-25T00:42:52.190Z",
+  "lastUpdated": "2026-05-25T09:22:03.536Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
