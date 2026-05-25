@@ -1,6 +1,96 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/24021",
+      "number": 24021,
+      "title": "[msbuild] Improve how we handle the path to Xcode.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-25T16:23:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25482",
+      "number": 25482,
+      "title": "[tests] Upload expected app size files as artifacts on test failure",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-25T16:20:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35604",
+      "number": 35604,
+      "title": "Revert [Android, iOS] - Flyout icon should remain visible when a page is pushed onto a NavigationPage or Shell page with the back button disabled.",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-05-25T14:04:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35546",
+      "number": 35546,
+      "title": "[macOS] Fix IsEnabled property false not working on MenuBarItem",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-05-25T12:58:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32850",
+      "number": 32850,
+      "title": "[Mac, iOS, Windows] Fix for inconsistent Text-to-Speech rate behavior",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-05-25T12:18:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35393",
+      "number": 35393,
+      "title": "Fix pill-shaped focus ring on macOS 26",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-05-25T11:18:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32962",
+      "number": 32962,
+      "title": "[Android] Fix Shadow property affecting transform matrix.",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-05-25T10:32:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33109",
+      "number": 33109,
+      "title": "[Windows] Fix Shell title bar overlap with window controls in RTL mode",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-05-25T09:54:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25504",
+      "number": 25504,
+      "title": "[devops] Remove the fix to avoid using a leaked GitHub ssh key.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-25T09:28:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4054",
       "number": 4054,
       "title": "Disable unused dependency manifests in skia submodule to suppress CG alerts",
@@ -60991,7 +61081,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-25T09:22:03.536Z",
+  "lastUpdated": "2026-05-25T16:44:31.122Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
