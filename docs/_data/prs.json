@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4044",
+      "number": 4044,
+      "title": "[skia-sync] Merge upstream chrome/m147 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-25T23:33:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/242",
+      "number": 242,
+      "title": "[skia-sync] Merge upstream chrome/m147",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-25T23:30:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4070",
+      "number": 4070,
+      "title": "Improve security-audit skill: schema enforcement, CG reliability, and report quality",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-25T21:13:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34862",
+      "number": 34862,
+      "title": "Add default .gitignore to MAUI project templates",
+      "repo": "dotnet/maui",
+      "author": "davidortinau",
+      "mergedAt": "2026-05-25T18:53:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4055",
+      "number": 4055,
+      "title": "Update .NET SDK version to 10.0.108",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-25T18:39:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/24021",
       "number": 24021,
       "title": "[msbuild] Improve how we handle the path to Xcode.",
@@ -61081,7 +61131,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-25T16:44:31.122Z",
+  "lastUpdated": "2026-05-26T00:41:32.367Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
