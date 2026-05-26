@@ -1,6 +1,236 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11439",
+      "number": 11439,
+      "title": "[Trimming] Use assembly-qualified name in ResourceDesignerAttribute",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-26T16:54:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11500",
+      "number": 11500,
+      "title": "Use x64 shared Macs for macOS build jobs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-26T16:43:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11476",
+      "number": 11476,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-26T16:31:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4073",
+      "number": 4073,
+      "title": "docs: force-push docs-live to prevent repo size bloat",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-26T15:44:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25229",
+      "number": 25229,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-26T15:05:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1434",
+      "number": 1434,
+      "title": "Add ManagedPeer native registration feature switch",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-26T14:39:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1420",
+      "number": 1420,
+      "title": "Ship real bindings for Xamarin.AndroidX.Compose.UI / Foundation / Foundation.Layout",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-26T14:29:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1433",
+      "number": 1433,
+      "title": "Use function pointers for JavaVM invoker",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-26T14:25:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11465",
+      "number": 11465,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14181732",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-26T14:04:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11429",
+      "number": 11429,
+      "title": "[Trimming] Use trimmable type map for non-generic collection CopyTo",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-26T13:42:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11455",
+      "number": 11455,
+      "title": "Enable nullable reference types in XAJavaTypeScanner.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-26T13:28:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11471",
+      "number": 11471,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260524104831372 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-05-26T13:25:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11479",
+      "number": 11479,
+      "title": "Define empty compressed assembly symbols",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-26T13:21:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11481",
+      "number": 11481,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260525103625103 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-05-26T13:20:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11483",
+      "number": 11483,
+      "title": "[tests] Remove custom widget trimmable exclusion",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-26T13:18:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11484",
+      "number": 11484,
+      "title": "[TrimmableTypeMap] Refactor NativeTypeMap tests for trimmable typemap",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-26T13:18:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11485",
+      "number": 11485,
+      "title": "[TrimmableTypeMap] Assert build test outputs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-26T13:12:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35362",
+      "number": 35362,
+      "title": "[Testing] Fixed test failure in PR 35234 - [05/08/2026] Candidate",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-05-26T13:00:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35611",
+      "number": 35611,
+      "title": "[Android] Fix BlazorWebView back callback can swallow the first Back press when its callback is stale-enabled",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-05-26T12:52:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25318",
+      "number": 25318,
+      "title": "[dotnet-linker] Add a trimmer step to inline calls to Class.GetHandle[Intrinsic].",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-26T11:53:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11497",
+      "number": 11497,
+      "title": "Remove unused using directives in JCWGenerator.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-26T11:24:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35608",
+      "number": 35608,
+      "title": "Bumps Syncfusion.Maui.Toolkit dependency to version 1.0.10",
+      "repo": "dotnet/maui",
+      "author": "PaulAndersonS",
+      "mergedAt": "2026-05-26T09:40:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/296",
+      "number": 296,
+      "title": "[ai-docs] docs: update AI config for new MCP tools and project version command",
+      "repo": "dotnet/maui-labs",
+      "author": "github-actions",
+      "mergedAt": "2026-05-26T09:39:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/29247",
       "number": 29247,
       "title": "[Windows] Fix CarouselView EmptyView display when filtering to zero items",
@@ -61191,7 +61421,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-26T09:11:48.082Z",
+  "lastUpdated": "2026-05-26T17:07:44.715Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
