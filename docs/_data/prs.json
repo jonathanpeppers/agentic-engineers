@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/29247",
+      "number": 29247,
+      "title": "[Windows] Fix CarouselView EmptyView display when filtering to zero items",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-05-26T09:05:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31341",
+      "number": 31341,
+      "title": "[Windows/Android] FlexLayout: Fix wrap misalignment due to floating-point precision",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-05-26T08:57:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25502",
+      "number": 25502,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-26T06:48:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25510",
+      "number": 25510,
+      "title": "[github] Add autoformat-v2.yml: single zizmor-clean workflow",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-26T06:32:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25514",
+      "number": 25514,
+      "title": "[github] Update to gh aw v0.74.8",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-26T03:07:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25508",
+      "number": 25508,
+      "title": "Fix missing 'don't' in docs/os-onboarding.md that reverses sentence meaning",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-26T03:06:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4044",
       "number": 4044,
       "title": "[skia-sync] Merge upstream chrome/m147 bug fixes",
@@ -61131,7 +61191,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-26T00:41:32.367Z",
+  "lastUpdated": "2026-05-26T09:11:48.082Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
