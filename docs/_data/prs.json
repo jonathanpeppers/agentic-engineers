@@ -1,6 +1,326 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25537",
+      "number": 25537,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14204841",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-27T17:01:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25539",
+      "number": 25539,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14204987",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-27T17:00:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25535",
+      "number": 25535,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14204473",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-27T16:59:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25522",
+      "number": 25522,
+      "title": "[tests] Misc improvements to the app size tests",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-27T16:57:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25538",
+      "number": 25538,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14204921",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-27T16:57:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25521",
+      "number": 25521,
+      "title": "[bgen] Replace XPath lookups with Dictionary in DocumentationManager",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-27T16:57:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25523",
+      "number": 25523,
+      "title": "[src] NSBindingSelectionMarker is in AppKit.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-27T16:16:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25518",
+      "number": 25518,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14187915",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-27T15:53:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11515",
+      "number": 11515,
+      "title": "Bump external/Java.Interop from `d546a08` to `e382113`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-05-27T15:48:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11472",
+      "number": 11472,
+      "title": "[TrimmableTypeMap] Preserve trimmable typemap outputs on no-op builds",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-27T15:06:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1435",
+      "number": 1435,
+      "title": "Use simple assertion for ManagedPeer test",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-27T13:20:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11512",
+      "number": 11512,
+      "title": "Remove unused `using` directives in ELFHelper.cs and TypeMappingStep.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-27T13:17:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11513",
+      "number": 11513,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14204428",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-27T13:15:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11466",
+      "number": 11466,
+      "title": "[TrimmableTypeMap] Reuse base UCO wrappers for inherited overrides",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-27T13:14:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11473",
+      "number": 11473,
+      "title": "[TrimmableTypeMap] Package ReadyToRun trimmable typemap assemblies",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-27T13:14:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1423",
+      "number": 1423,
+      "title": "Stable Updates 20260525",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-27T12:47:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1424",
+      "number": 1424,
+      "title": "Bump .NET SDK installer to 10.x in CI",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-27T12:41:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35601",
+      "number": 35601,
+      "title": "Fix Android app bar inset background coloring",
+      "repo": "dotnet/maui",
+      "author": "ne0rrmatrix",
+      "mergedAt": "2026-05-27T11:28:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25440",
+      "number": 25440,
+      "title": "[aw] Align Code Radiator base-branch policy with safe-output glob matching",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-27T11:19:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35631",
+      "number": 35631,
+      "title": "[inflight/current] Fixes a CS0111 build failure in RadioButton.cs caused by a duplicate OnPropertyChanged override",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-05-27T10:53:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35639",
+      "number": 35639,
+      "title": "[Testing] Fixed test failure in PR 35234 - [05/04/2026] Candidate - 3",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-05-27T10:52:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11475",
+      "number": 11475,
+      "title": "Move hardcoded warning strings in ELFHelper.cs to Properties.Resources with XA warning codes",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-27T10:22:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11510",
+      "number": 11510,
+      "title": "[ci] Stop using preview .NET SDK channel in two lanes",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-27T10:21:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34364",
+      "number": 34364,
+      "title": "Windows: Ensure layouts without background participate in hit testing",
+      "repo": "dotnet/maui",
+      "author": "jpd21122012",
+      "mergedAt": "2026-05-27T09:55:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35383",
+      "number": 35383,
+      "title": "Fix Entry select all text on refocus not working on WinUI",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-27T09:50:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28879",
+      "number": 28879,
+      "title": "Fixed a NullReferenceException when starting application with empty shell on Windows",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-05-27T09:47:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/27749",
+      "number": 27749,
+      "title": "[Android/iOS] Fix IsEnabled=False on CollectionView not working",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-05-27T09:43:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35620",
+      "number": 35620,
+      "title": "[Testing] Include more testing around Windows Image Aspect recent fixes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-27T09:35:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34184",
+      "number": 34184,
+      "title": "[iOS] Slider: Scale ThumbImageSource to match default thumb size",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-05-27T09:33:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34630",
+      "number": 34630,
+      "title": "Fix Changing Content property of ShellContent doesn't change visual content",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-05-27T09:21:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35544",
+      "number": 35544,
+      "title": "Fix Border.StrokeDashArray leaks dashed Borders when using a shared Application resource",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-05-27T09:14:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35476",
+      "number": 35476,
+      "title": "Fix Android map view lifecycle cleanup",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-27T09:10:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35555",
       "number": 35555,
       "title": "Fix Android Shell top inset when nav bar is hidden",
@@ -61581,7 +61901,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-27T09:09:50.291Z",
+  "lastUpdated": "2026-05-27T17:06:16.342Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
