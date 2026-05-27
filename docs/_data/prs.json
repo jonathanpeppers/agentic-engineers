@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35555",
+      "number": 35555,
+      "title": "Fix Android Shell top inset when nav bar is hidden",
+      "repo": "dotnet/maui",
+      "author": "ne0rrmatrix",
+      "mergedAt": "2026-05-27T09:00:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25517",
+      "number": 25517,
+      "title": "[devops] If SYSTEM_PULLREQUEST_PULLREQUESTNUMBER is set, always use that as the PR number.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-27T07:47:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11460",
+      "number": 11460,
+      "title": "Add unit tests for Xamarin.Android.Tools.Aidl.CSharpCodeGenerator",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-27T07:44:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11451",
+      "number": 11451,
+      "title": "[gh-aw] Refactor nightly-fix-finder into per-category scripts",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-27T07:43:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11470",
+      "number": 11470,
+      "title": "Move hardcoded error strings in RemoveRegisterAttribute and GenerateCompressedAssembliesNativeSourceFiles to Properties.Resources",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-27T07:37:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25520",
+      "number": 25520,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-27T07:30:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25503",
+      "number": 25503,
+      "title": "[tests] Improve new BasicAuthWorksWhenBearerIsAdvertisedFirst test.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-27T07:16:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25533",
+      "number": 25533,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-27T07:02:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25519",
+      "number": 25519,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-27T07:02:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25515",
+      "number": 25515,
+      "title": "[bgen] Remove support for ZeroCopyStrings",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-27T06:33:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25529",
+      "number": 25529,
+      "title": "Make NSUrlSessionHandler handle redirects like the .NET handlers do",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-27T06:06:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4077",
       "number": 4077,
       "title": "Add es-metadata.yml to cache exclude list",
@@ -61471,7 +61581,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-27T00:42:49.904Z",
+  "lastUpdated": "2026-05-27T09:09:50.291Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
