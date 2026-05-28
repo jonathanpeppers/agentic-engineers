@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4062",
+      "number": 4062,
+      "title": "Migrate Linux Docker builds to .NET official cross-compilation images",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-27T23:59:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1425",
+      "number": 1425,
+      "title": "Fix binding for AndroidX.Media3.Session.MediaNotification.IProvider.CreateNotification",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-27T21:18:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/370",
+      "number": 370,
+      "title": "Add Dependabot config for weekly NuGet updates",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-27T19:17:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/369",
+      "number": 369,
+      "title": "Update Microsoft.Build package references",
+      "repo": "dotnet/android-tools",
+      "author": "Redth",
+      "mergedAt": "2026-05-27T19:08:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25545",
+      "number": 25545,
+      "title": "[github] Fix workflows to pin actions & drop credentials when possible.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-27T18:48:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25544",
+      "number": 25544,
+      "title": "[runtime] Show the error code if calling coreclr_initialize fails.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-27T18:46:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25550",
+      "number": 25550,
+      "title": "Bump actions/upload-artifact from 4.6.2 to 7.0.1",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-05-27T17:32:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25524",
+      "number": 25524,
+      "title": "[dotnet] Don't enable InlineClassGetHandle if we're using the static registrar as a custom trimmer step.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-27T17:07:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25537",
       "number": 25537,
       "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14204841",
@@ -61901,7 +61981,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-27T17:06:16.342Z",
+  "lastUpdated": "2026-05-28T00:39:17.081Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
