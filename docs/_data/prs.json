@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25562",
+      "number": 25562,
+      "title": "[net11.0] [runtime] Register host_runtime_contract callbacks so CoreCLR finds System.Private.CoreLib.dll",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-28T17:02:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/373",
+      "number": 373,
+      "title": "Bump Microsoft.CodeAnalysis.PublicApiAnalyzers from 3.3.4 to 4.14.0",
+      "repo": "dotnet/android-tools",
+      "author": "dependabot",
+      "mergedAt": "2026-05-28T16:20:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25563",
+      "number": 25563,
+      "title": "Fix Code Radiator: prevent upstream unsetting that breaks safeoutputs PR creation",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-05-28T16:01:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11521",
+      "number": 11521,
+      "title": "Bump external/xamarin-android-tools from `7c05b5c` to `46b5284`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-05-28T15:34:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35384",
+      "number": 35384,
+      "title": "[Android] Fix screenshot from WebView content not working",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-28T15:33:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25560",
+      "number": 25560,
+      "title": "[github] Add zizmor GitHub Actions security linter workflow",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-28T14:52:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25565",
+      "number": 25565,
+      "title": "[CI] Add retry count on task failure for AzureCLI step in provision.yml",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-05-28T14:01:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35638",
+      "number": 35638,
+      "title": "[Android] Fix Capture video crashes after stopping recording on Android 12",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-05-28T13:34:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/375",
+      "number": 375,
+      "title": "Bump Microsoft.NET.Test.Sdk from 17.5.0-preview-20221003-04 to 18.6.0",
+      "repo": "dotnet/android-tools",
+      "author": "dependabot",
+      "mergedAt": "2026-05-28T13:28:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/372",
+      "number": 372,
+      "title": "Bump GitInfo from 2.1.2 to 3.6.0",
+      "repo": "dotnet/android-tools",
+      "author": "dependabot",
+      "mergedAt": "2026-05-28T13:28:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/371",
+      "number": 371,
+      "title": "Bump BenchmarkDotNet from 0.14.0 to 0.15.8",
+      "repo": "dotnet/android-tools",
+      "author": "dependabot",
+      "mergedAt": "2026-05-28T13:27:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/374",
+      "number": 374,
+      "title": "Bump Microsoft.DotNet.Arcade.Sdk from 6.0.0-beta.20615.1 to 6.0.0-beta.26072.1",
+      "repo": "dotnet/android-tools",
+      "author": "dependabot",
+      "mergedAt": "2026-05-28T13:27:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/377",
+      "number": 377,
+      "title": "Remove unused System.Reflection.Metadata reference",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-28T13:22:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11498",
+      "number": 11498,
+      "title": "[TrimmableTypeMap] Improve trimmable typemap framework roots",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-28T13:18:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11525",
+      "number": 11525,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14217982",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-05-28T13:09:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11524",
+      "number": 11524,
+      "title": "Drop global Instance of JavaMarshalValueManager",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-28T13:08:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35642",
       "number": 35642,
       "title": "Revert PR #30068 — Fix FontImageSource centering regression on Windows",
@@ -62051,7 +62211,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-28T09:16:22.834Z",
+  "lastUpdated": "2026-05-28T17:17:39.515Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
