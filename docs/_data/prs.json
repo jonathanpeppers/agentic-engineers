@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35642",
+      "number": 35642,
+      "title": "Revert PR #30068 — Fix FontImageSource centering regression on Windows",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-05-28T09:09:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35623",
+      "number": 35623,
+      "title": "[Android] Fix Switch Shadow Does Not Follow Thumb when Toggle On or Off ",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-05-28T08:52:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35634",
+      "number": 35634,
+      "title": "Fix Android map element options retention",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-28T08:47:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11519",
+      "number": 11519,
+      "title": "$(AndroidPackVersionSuffix)=preview.6; main is .NET 11 preview 6",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-28T04:20:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4091",
+      "number": 4091,
+      "title": "Revert \"Add --pull to Docker builds to ensure fresh base images\"",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-28T04:07:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4089",
+      "number": 4089,
+      "title": "Fix native Windows builds failing to find .NET SDK 10.0.108",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-28T03:56:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4087",
+      "number": 4087,
+      "title": "Add --pull to Docker builds to ensure fresh base images",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-28T03:46:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4062",
       "number": 4062,
       "title": "Migrate Linux Docker builds to .NET official cross-compilation images",
@@ -61981,7 +62051,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-28T00:39:17.081Z",
+  "lastUpdated": "2026-05-28T09:16:22.834Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
