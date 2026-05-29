@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34834",
+      "number": 34834,
+      "title": "Remove duplicate @ prefix from issueAuthor in GitOps",
+      "repo": "dotnet/maui",
+      "author": "akoeplinger",
+      "mergedAt": "2026-05-29T09:07:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35577",
+      "number": 35577,
+      "title": "[Windows] Border: Add AutomationPeer support",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-05-29T09:05:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11528",
       "number": 11528,
       "title": "[release/11.0.1xx-preview5] Update dependencies from dotnet/dotnet",
@@ -62221,7 +62241,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-29T00:45:28.083Z",
+  "lastUpdated": "2026-05-29T09:11:37.352Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
