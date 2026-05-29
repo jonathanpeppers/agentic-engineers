@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4086",
+      "number": 4086,
+      "title": "[3.119.x] Fix WinUI Projection DLL not resolved for .NET 9 consumers on Windows",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-29T17:08:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4084",
+      "number": 4084,
+      "title": "Fix WinUI Projection DLL not resolved for .NET 9 consumers on Windows",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-29T17:07:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4094",
+      "number": 4094,
+      "title": "Add ci-status skill for daily CI health dashboard",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-29T15:19:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34992",
+      "number": 34992,
+      "title": "Fix incorrect SDK provisioning commands in integration-tests instructions",
+      "repo": "dotnet/maui",
+      "author": "davidnguyen-tech",
+      "mergedAt": "2026-05-29T14:06:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35543",
+      "number": 35543,
+      "title": "[Android & iOS] TabbedPage leaks with shared GradientBrush.",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-05-29T13:56:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25547",
+      "number": 25547,
+      "title": "[tools] Make csproj.inc generation parallel-safe.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-05-29T12:54:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25557",
+      "number": 25557,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-05-29T12:48:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11522",
+      "number": 11522,
+      "title": "[ci] Scope Dependabot NuGet scanning to stable-SDK directories",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-29T12:45:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11523",
+      "number": 11523,
+      "title": "[tests] Fix UrlEscaping_Bug43411 to actually run and assert correctly",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-05-29T12:44:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11449",
+      "number": 11449,
+      "title": "[TrimmableTypeMap] Generate NativeAOT ProGuard rules from DGML",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-05-29T12:40:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34834",
       "number": 34834,
       "title": "Remove duplicate @ prefix from issueAuthor in GitOps",
@@ -62241,7 +62341,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-29T09:11:37.352Z",
+  "lastUpdated": "2026-05-29T17:10:37.691Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
