@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4079",
+      "number": 4079,
+      "title": "Update expat to 2.8.1",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-30T08:18:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/245",
+      "number": 245,
+      "title": "Update expat to 2.8.1",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-30T08:15:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4081",
+      "number": 4081,
+      "title": "[skia-sync] Merge upstream chrome/m147 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-30T08:13:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4004",
+      "number": 4004,
+      "title": "Migrate device and WASM tests from XHarness to DeviceRunners `dotnet test`",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-30T07:55:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4099",
       "number": 4099,
       "title": "feat(ci-status): add GitHub Actions tracking and restructure as collect → AI → render pipeline",
@@ -62361,7 +62401,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-30T00:41:13.422Z",
+  "lastUpdated": "2026-05-30T08:49:42.823Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
