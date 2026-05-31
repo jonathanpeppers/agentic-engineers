@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35575",
+      "number": 35575,
+      "title": "Fix: Propagate AdditionalProperties from ProjectReference in ResizetizeCollectItems",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-05-30T16:49:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35652",
+      "number": 35652,
+      "title": "[Essentials] Browser.OpenAsync(External): drop visibility-filtered ResolveActivity pre-check",
+      "repo": "dotnet/maui",
+      "author": "Kebechet",
+      "mergedAt": "2026-05-30T16:44:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35629",
+      "number": 35629,
+      "title": "Fix Picker SelectedIndex deferred initialization",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-05-30T16:27:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/29905",
       "number": 29905,
       "title": "Fix hardcoded version of Microsoft.DotNet.XHarness.TestRunners.Xunit in test projects",
@@ -62431,7 +62461,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-30T16:23:37.338Z",
+  "lastUpdated": "2026-05-31T00:44:51.744Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
