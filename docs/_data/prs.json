@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35684",
+      "number": 35684,
+      "title": "Update SDK pin to 10.0.108 and align global.json with dotnet repo patterns",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-06-01T17:05:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25556",
+      "number": 25556,
+      "title": "[release/11.0.1xx-preview5] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-01T13:57:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35632",
+      "number": 35632,
+      "title": "Fix SwipeItem IconImageSource color handling and rendering across platforms",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-06-01T12:51:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35666",
+      "number": 35666,
+      "title": "[net11.0] Workaround #35665: use DI handler registration for CheckBox",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-01T12:03:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35612",
+      "number": 35612,
+      "title": "Reduce allocations on AnimationManager",
+      "repo": "dotnet/maui",
+      "author": "pictos",
+      "mergedAt": "2026-06-01T11:45:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25576",
+      "number": 25576,
+      "title": "[github] Raise Code Radiator PR patch-file limit to 1000 for inter-branch merges",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-01T11:24:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/183",
+      "number": 183,
+      "title": "Fix PathUtils.IsSymlink throwing on common lstat failures",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-01T10:48:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/182",
+      "number": 182,
+      "title": "Fix NullReferenceException and crash in ManifestExtensions",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-01T10:47:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/184",
+      "number": 184,
+      "title": "Fix native resource leaks in Keychain",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-01T10:47:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/186",
+      "number": 186,
+      "title": "Include parameter name in ArgumentNullException for SDK version types",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-01T10:47:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/187",
+      "number": 187,
+      "title": "Fix potential crash when extracting URI path in Keychain",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-01T10:47:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35421",
+      "number": 35421,
+      "title": "Fix VisualElement.ChangeVisualState() gets stuck in Selected state",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-06-01T10:17:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11546",
       "number": 11546,
       "title": "Enable nullable reference types in `GenerateNativeAotEnvironmentAssemblerSources.cs`",
@@ -62531,7 +62651,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-01T09:51:39.414Z",
+  "lastUpdated": "2026-06-01T18:02:01.830Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
