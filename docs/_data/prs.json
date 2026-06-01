@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11546",
+      "number": 11546,
+      "title": "Enable nullable reference types in `GenerateNativeAotEnvironmentAssemblerSources.cs`",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-01T09:34:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11551",
+      "number": 11551,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-01T09:33:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25579",
+      "number": 25579,
+      "title": "[docs] Fix reference to the ReferenceNativeSymbol item group.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-01T06:50:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24722",
+      "number": 24722,
+      "title": "Add support for Composer Icons",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-01T06:49:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25483",
+      "number": 25483,
+      "title": "[msbuild] Improve diagnostics when simulator runtimes aren't available, Fixes #25298",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-01T06:48:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25528",
+      "number": 25528,
+      "title": "[msbuid] Fix Content items with PublishFolderType losing files that match SDK names. Fixes #25497.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-01T06:44:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35678",
       "number": 35678,
       "title": "Update WinAppSDK to 1.8.260508005",
@@ -62471,7 +62531,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-01T00:46:55.564Z",
+  "lastUpdated": "2026-06-01T09:51:39.414Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
