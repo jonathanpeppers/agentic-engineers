@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35678",
+      "number": 35678,
+      "title": "Update WinAppSDK to 1.8.260508005",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-05-31T18:39:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35575",
       "number": 35575,
       "title": "Fix: Propagate AdditionalProperties from ProjectReference in ResizetizeCollectItems",
@@ -62461,7 +62471,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-05-31T16:27:52.013Z",
+  "lastUpdated": "2026-06-01T00:46:55.564Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
