@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35553",
+      "number": 35553,
+      "title": "Fix MacCatalyst DatePicker focus handling",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-06-01T21:08:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35625",
+      "number": 35625,
+      "title": "Revert - Fix TalkBack not correctly narrating RadioButtons with Content",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-01T19:18:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35664",
+      "number": 35664,
+      "title": "Gate SafeArea inset listeners in recycler items",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-06-01T18:31:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35609",
+      "number": 35609,
+      "title": "[iOS / Mac] Fix CollectionView.ScrollTo(index) silently failing whenIsGrouped=\"True\"",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-06-01T18:11:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29527",
+      "number": 29527,
+      "title": "Fix CarouselView.Loop property does not update dynamically and fails to maintain the scroll position when the loop value is changed at runtime",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-01T18:08:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35684",
       "number": 35684,
       "title": "Update SDK pin to 10.0.108 and align global.json with dotnet repo patterns",
@@ -62651,7 +62701,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-01T18:02:01.830Z",
+  "lastUpdated": "2026-06-02T00:48:08.112Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
