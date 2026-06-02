@@ -1,6 +1,266 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11540",
+      "number": 11540,
+      "title": "Bump Microsoft.DotNet.Arcade.Sdk from 6.0.0-beta.20555.6 to 6.0.0-beta.26072.1",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-02T17:28:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25516",
+      "number": 25516,
+      "title": "[tests] Update NUnit packages to latest stable versions",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-02T17:06:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/351",
+      "number": 351,
+      "title": "[AdbRunner] Add ADB forward port management (follow-up to #305)",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-02T16:28:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25600",
+      "number": 25600,
+      "title": "[devops] yaml-templates go back to use main",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-02T16:21:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/380",
+      "number": 380,
+      "title": "Bump NUnit3TestAdapter from 4.0.0 to 6.2.0",
+      "repo": "dotnet/android-tools",
+      "author": "dependabot",
+      "mergedAt": "2026-06-02T15:25:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25566",
+      "number": 25566,
+      "title": "[tools] Use instance-based Log methods.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-02T14:55:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11532",
+      "number": 11532,
+      "title": "[release/11.0.1xx-preview5] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-02T14:53:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11534",
+      "number": 11534,
+      "title": "Bump external/xamarin-android-tools from `46b5284` to `3c95718`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-02T14:42:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1426",
+      "number": 1426,
+      "title": "Add RollForward=Major to test/util projects",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-02T14:27:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/378",
+      "number": 378,
+      "title": "Bump Microsoft.SourceLink.GitHub from 1.1.1 to 10.0.300",
+      "repo": "dotnet/android-tools",
+      "author": "dependabot",
+      "mergedAt": "2026-06-02T13:36:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/381",
+      "number": 381,
+      "title": "Bump System.IO.Hashing from 10.0.7 to 10.0.8",
+      "repo": "dotnet/android-tools",
+      "author": "dependabot",
+      "mergedAt": "2026-06-02T13:36:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11544",
+      "number": 11544,
+      "title": "ci: declare least-privilege workflow-level contents: read",
+      "repo": "dotnet/android",
+      "author": "arpitjain099",
+      "mergedAt": "2026-06-02T13:16:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11553",
+      "number": 11553,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260601103238515 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-06-02T13:08:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11549",
+      "number": 11549,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260531103227188 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-06-02T13:06:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11542",
+      "number": 11542,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260530103252730 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-06-02T13:05:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11539",
+      "number": 11539,
+      "title": "Bump Microsoft.Build.NoTargets from 2.0.1 to 3.7.134",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-02T13:04:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11536",
+      "number": 11536,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260529103218466 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-06-02T13:03:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11541",
+      "number": 11541,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14257541",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-02T12:58:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25564",
+      "number": 25564,
+      "title": "[bgen] Cache raw GetCustomAttributesData() results per provider",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-02T12:47:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25587",
+      "number": 25587,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-02T12:16:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25575",
+      "number": 25575,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260529053637714 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-06-02T11:44:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25604",
+      "number": 25604,
+      "title": "[tests] Fix flaky BasicAuthWorksWhenBearerIsAdvertisedFirst test. Fixes #25597",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-02T11:31:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35656",
+      "number": 35656,
+      "title": "Fix Android nested carousel scrolling",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-06-02T10:37:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/28465",
+      "number": 28465,
+      "title": "[Windows] Fixed BoxView improper rendering inside Border ",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-06-02T10:30:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35563",
+      "number": 35563,
+      "title": "Fix TextColor null reset to restore platform defaults on iOS and Android",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-06-02T10:25:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25595",
+      "number": 25595,
+      "title": "[docs] Minor update to docs about how to update api docs.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-02T10:19:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25593",
       "number": 25593,
       "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14245989",
@@ -62781,7 +63041,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-02T09:28:35.083Z",
+  "lastUpdated": "2026-06-02T17:34:46.815Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
