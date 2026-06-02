@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25593",
+      "number": 25593,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14245989",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-02T07:58:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25558",
+      "number": 25558,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260528055153236 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-06-02T07:54:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25569",
+      "number": 25569,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260528175129236 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-06-02T07:39:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25527",
+      "number": 25527,
+      "title": "[src] Remove NSPrintPreviewGraphicsContext.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-02T07:00:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/181",
+      "number": 181,
+      "title": "Enable GenerateDocumentationFile so NuGet package ships XML IntelliSense docs",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-02T06:15:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25498",
+      "number": 25498,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-02T06:03:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25546",
+      "number": 25546,
+      "title": "[src] Add opt-in to build the platform assemblies serially.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-02T06:00:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25601",
+      "number": 25601,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14248498",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-02T05:47:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35553",
       "number": 35553,
       "title": "Fix MacCatalyst DatePicker focus handling",
@@ -62701,7 +62781,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-02T00:48:08.112Z",
+  "lastUpdated": "2026-06-02T09:28:35.083Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
