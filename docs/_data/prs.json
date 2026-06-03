@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25616",
+      "number": 25616,
+      "title": "[sharpie] Fix a parallel build issue by building before packing.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-03T08:44:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25577",
+      "number": 25577,
+      "title": "[github] Disable signed-commit replay in Code Radiator merge PR pushes",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-03T07:33:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25620",
+      "number": 25620,
+      "title": "[src] Mark MKDistanceFormatter as thread-safe. Fixes #25617.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-03T07:26:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25615",
+      "number": 25615,
+      "title": "[sharpie] Ignore warnings about long paths when packaging sharpie.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-03T07:21:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11562",
+      "number": 11562,
+      "title": "Bump Microsoft.CodeAnalysis.BannedApiAnalyzers from 3.3.4 to 4.14.0",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-03T01:15:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/303",
+      "number": 303,
+      "title": "Bump Xamarin.Apple.Tools.MaciOS to 1.0.0-preview.1.26301.3",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-03T01:03:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11559",
+      "number": 11559,
+      "title": "Bump Microsoft.Build.NoTargets from 2.0.1 to 3.7.134",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-03T00:59:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35723",
       "number": 35723,
       "title": "[ci] Use macOS 26 hosted image for preview5",
@@ -63331,7 +63401,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-03T00:53:26.078Z",
+  "lastUpdated": "2026-06-03T09:38:18.742Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
