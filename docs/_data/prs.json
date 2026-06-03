@@ -1,6 +1,196 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35730",
+      "number": 35730,
+      "title": "[Testing] Fixed Build error on inflight/ candidate PR 35716",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-06-03T17:37:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35724",
+      "number": 35724,
+      "title": "[ci] Set __PWSH_LOGIN_CHECKED to avoid macOS pwsh 'procargs failed' startup crashes",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-03T17:20:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35586",
+      "number": 35586,
+      "title": "Fix MauiView leaks detached platform views when SafeAreaEdges includes SoftInput",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-06-03T17:17:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35728",
+      "number": 35728,
+      "title": "Update PreReleaseVersionIteration from 4 to 6",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-03T17:15:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11565",
+      "number": 11565,
+      "title": "Use Properties.Resources.XA0140 instead of hardcoded string in GetAssetPacks.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-03T16:54:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35751",
+      "number": 35751,
+      "title": "Stop PR Review Queue workflow from running on forks and @-pinging PR authors",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-03T16:46:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1430",
+      "number": 1430,
+      "title": "Stable Updates 20260601",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-03T16:01:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11563",
+      "number": 11563,
+      "title": "Bump Microsoft.CodeAnalysis.PublicApiAnalyzers from 3.3.4 to 4.14.0",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-03T15:41:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11560",
+      "number": 11560,
+      "title": "Bump Microsoft.DotNet.Arcade.Sdk from 6.0.0-beta.20555.6 to 6.0.0-beta.26072.1",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-03T15:40:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1432",
+      "number": 1432,
+      "title": "[generator] Drop Kotlin hash-mangled siblings that collide on the C# side",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-03T15:26:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1438",
+      "number": 1438,
+      "title": "Bump external/xamarin-android-tools from `3c95718` to `5165523`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-06-03T15:06:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1432",
+      "number": 1432,
+      "title": "Use discoverable .NET casing for newer multi-word Material namespaces",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-03T15:02:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25625",
+      "number": 25625,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-03T15:01:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11554",
+      "number": 11554,
+      "title": "Fix AndroidMessageHandler response body cancellation",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-03T14:58:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/312",
+      "number": 312,
+      "title": "Merged PR 61151: [SECURITY] Bump dotnet-sdk from 10.0.106 to 10.0.108",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-03T13:21:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11566",
+      "number": 11566,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14268994",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-03T13:20:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/310",
+      "number": 310,
+      "title": "Update arcade",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-03T11:41:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/309",
+      "number": 309,
+      "title": "Update internal",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-03T11:41:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/302",
+      "number": 302,
+      "title": "Enrich Android USB devices in `maui device list` via `adb shell getprop`",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-03T10:28:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25616",
       "number": 25616,
       "title": "[sharpie] Fix a parallel build issue by building before packing.",
@@ -63401,7 +63591,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-03T09:38:18.742Z",
+  "lastUpdated": "2026-06-03T17:41:54.658Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
