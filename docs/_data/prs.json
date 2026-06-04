@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1438",
+      "number": 1438,
+      "title": "Ship real bindings for Xamarin.AndroidX.Compose.UI.Graphics",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-04T16:36:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25614",
+      "number": 25614,
+      "title": "[msbuild] Fix getting an x64 simulator if asked to build for x64.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-04T16:14:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25630",
+      "number": 25630,
+      "title": "[src] Remove CIFilterGenerator from iOS and Mac Catalyst.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-04T16:13:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25628",
+      "number": 25628,
+      "title": "[tests] Filter out any warnings about using deprecated locations for the Xcode location.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-04T16:11:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25629",
+      "number": 25629,
+      "title": "[tools] Don't inline calls to Class.GetHandle for BrowserEngineKit/BrowserEngineCore classes.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-04T16:10:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11574",
+      "number": 11574,
+      "title": "Move hardcoded error string in PrepareAbiItems.cs to Resources.resx",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-04T16:10:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25602",
+      "number": 25602,
+      "title": "Disable weekly schedule trigger for CI Post-Mortem Analysis workflow",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-04T16:06:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25642",
+      "number": 25642,
+      "title": "Increase Code Radiator safe-output patch size limit",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-04T16:05:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1439",
+      "number": 1439,
+      "title": "Add NuGet ecosystem to Dependabot configuration",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-04T15:06:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1436",
+      "number": 1436,
+      "title": "Add binding for com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk (GMA Next-Gen SDK)",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-04T14:32:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11529",
+      "number": 11529,
+      "title": "[build] android-platform-support repo consolidation",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-04T14:23:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11575",
+      "number": 11575,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260604103302773 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-06-04T14:07:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35744",
+      "number": 35744,
+      "title": "[Revert] - [Windows] Fix WebView blank rendering when used with HybridWebView",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-06-04T13:55:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25643",
+      "number": 25643,
+      "title": "[tests] Don't strip symbols on any platform.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-04T12:55:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25635",
+      "number": 25635,
+      "title": "[tests] Ignore any tests using CFNetworkHandler. Fixes #25634.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-04T12:54:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25626",
       "number": 25626,
       "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260603055155830 to main",
@@ -63711,7 +63861,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-04T09:20:48.962Z",
+  "lastUpdated": "2026-06-04T17:03:55.246Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
