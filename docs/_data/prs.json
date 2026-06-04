@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25626",
+      "number": 25626,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260603055155830 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-06-04T09:08:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25531",
+      "number": 25531,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-04T08:09:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25619",
+      "number": 25619,
+      "title": "[tools] Remove most static state from the tools.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-04T06:55:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25638",
+      "number": 25638,
+      "title": "Bump actions/setup-dotnet from 5.2.0 to 5.3.0",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-06-04T06:46:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25639",
+      "number": 25639,
+      "title": "Bump dotnet/arcade/.github/workflows/inter-branch-merge-base.yml from b36a3594d11b8d56bf7d3dbce919e0688715d5ec to b6ed8ef7f3251d0b67ac2428c06253d0ba328e97",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-06-04T06:43:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11568",
       "number": 11568,
       "title": "Replace Step_CopyExtraResultFilesForCI with a YAML template",
@@ -63661,7 +63711,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-04T00:53:09.618Z",
+  "lastUpdated": "2026-06-04T09:20:48.962Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
