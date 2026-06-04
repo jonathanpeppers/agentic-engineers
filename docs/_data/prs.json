@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11568",
+      "number": 11568,
+      "title": "Replace Step_CopyExtraResultFilesForCI with a YAML template",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-03T21:24:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11556",
+      "number": 11556,
+      "title": "Track Microsoft.DotNet.Arcade.Sdk dependency to flow eng/common",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-03T21:23:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11537",
+      "number": 11537,
+      "title": "[CoreCLR] Stop serving BCL p/invokes from the precompiled override",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-03T21:13:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25603",
+      "number": 25603,
+      "title": "[apidiff] Add nullability support to mono-api-info and mono-api-html",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-03T18:47:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25627",
+      "number": 25627,
+      "title": "[release/10.0.1xx] [tests] Treat missing expected cookie as transient network failure in TestNSurlSessionHandlerCookieContainerSetCookie",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-03T18:29:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/313",
+      "number": 313,
+      "title": "Update CI pool image to windows.vs2026.amd64",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-03T18:22:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11558",
+      "number": 11558,
+      "title": "Bump external/xamarin-android-tools from `3c95718` to `5165523`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-03T18:13:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35730",
       "number": 35730,
       "title": "[Testing] Fixed Build error on inflight/ candidate PR 35716",
@@ -63591,7 +63661,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-03T17:41:54.658Z",
+  "lastUpdated": "2026-06-04T00:53:09.618Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
