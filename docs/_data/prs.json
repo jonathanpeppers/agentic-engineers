@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25644",
+      "number": 25644,
+      "title": "[monotouch-test] Add timeouts to all Thread.Join calls",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-05T07:51:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25572",
       "number": 25572,
       "title": "[CI] Use ACES in CI builds",
@@ -63941,7 +63951,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-05T00:45:53.222Z",
+  "lastUpdated": "2026-06-05T09:09:57.744Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
