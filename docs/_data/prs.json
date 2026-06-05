@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25572",
+      "number": 25572,
+      "title": "[CI] Use ACES in CI builds",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-04T21:45:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35669",
+      "number": 35669,
+      "title": "[Testing] Refactoring Feature Matrix UITest Cases for RadioButton Control",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-06-04T21:29:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29253",
+      "number": 29253,
+      "title": "Fixed Incorrect Window.Y and Window.Height values when closing a maximized window",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-06-04T21:11:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35769",
+      "number": 35769,
+      "title": "Update dotnet/dotnet dependencies to 11.0.100-preview.5.26302.115",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-04T19:22:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31786",
+      "number": 31786,
+      "title": "[Mac] Fix for DeviceDisplay.MainDisplayInfoChanged event not getting raised",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-06-04T19:09:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31631",
+      "number": 31631,
+      "title": "[Android][Testing] Add dedicated CI stage for SafeAreaEdges tests on API 36 (Pixel 3 XL)",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-06-04T19:07:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35662",
+      "number": 35662,
+      "title": "[Inflight/Candidate][iOS & Mac] Fix for Editor height inconsistency when VerticalTextAlignment is Center or End on iOS and MacCatalyst",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-06-04T18:28:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1434",
+      "number": 1434,
+      "title": "Restore missing OkHttp3 Additions in okhttp-android and okhttp-jvm",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-04T18:16:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-libraries/pull/1438",
       "number": 1438,
       "title": "Ship real bindings for Xamarin.AndroidX.Compose.UI.Graphics",
@@ -63861,7 +63941,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-04T17:03:55.246Z",
+  "lastUpdated": "2026-06-05T00:45:53.222Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
