@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1440",
+      "number": 1440,
+      "title": "Un-strip ui-text-android and ui-unit-android Compose bindings",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-05T15:24:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35686",
+      "number": 35686,
+      "title": "[Android] Fix MapHandler leaks when removed Pin instances are retained by app code  ",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-06-05T15:15:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11582",
+      "number": 11582,
+      "title": "Add XML documentation to `Android.Graphics.Color` ARGB component properties",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-05T13:09:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11589",
+      "number": 11589,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14291696",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-05T13:05:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35523",
+      "number": 35523,
+      "title": "[iOS/Mac Catalyst 26] Fix NavigationPage content not extending behind floating glass tab bar",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-06-05T12:12:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35768",
+      "number": 35768,
+      "title": " Fix OnNavigatedTo not firing after PopModalAsync when tab is changed inside modal",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-06-05T11:47:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25632",
+      "number": 25632,
+      "title": "[xtro] Don't report !unknown-type! for types with an [UnsupportedOSPlatform] attribute.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-05T10:38:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25644",
       "number": 25644,
       "title": "[monotouch-test] Add timeouts to all Thread.Join calls",
@@ -63951,7 +64021,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-05T09:09:57.744Z",
+  "lastUpdated": "2026-06-05T16:49:43.820Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
