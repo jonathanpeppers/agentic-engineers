@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35783",
+      "number": 35783,
+      "title": "Fix Android foreground geolocation update distance",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-06-05T20:21:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1442",
+      "number": 1442,
+      "title": "Bind primitive Compose state types/factories (MutableIntState/LongState/FloatState)",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-05T20:12:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11590",
+      "number": 11590,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260605103313126 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-06-05T19:33:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35786",
+      "number": 35786,
+      "title": "Increment patch version from 70 to 71",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-05T19:23:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35717",
+      "number": 35717,
+      "title": "[HybridWebView] Filter Android `message` events by source",
+      "repo": "dotnet/maui",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-05T18:22:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1443",
+      "number": 1443,
+      "title": "Bump the nuget-dependencies group with 15 updates",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-06-05T17:51:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-libraries/pull/1440",
       "number": 1440,
       "title": "Un-strip ui-text-android and ui-unit-android Compose bindings",
@@ -64021,7 +64081,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-05T16:49:43.820Z",
+  "lastUpdated": "2026-06-06T00:43:17.506Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
