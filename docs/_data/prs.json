@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/32203",
+      "number": 32203,
+      "title": "Don't pack .NET Standard",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-07T12:17:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29255",
+      "number": 29255,
+      "title": "[Android] - Fix KeepScrollOffset Behavior During Dynamic Item Additions in CollectionView",
+      "repo": "dotnet/maui",
+      "author": "prakashKannanSf3972",
+      "mergedAt": "2026-06-07T11:29:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android-libraries/pull/1448",
       "number": 1448,
       "title": "Un-strip Compose Animation bindings (animation-android, animation-core-android)",
@@ -64091,7 +64111,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-07T09:04:39.826Z",
+  "lastUpdated": "2026-06-07T16:31:39.296Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
