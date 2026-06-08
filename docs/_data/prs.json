@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1454",
+      "number": 1454,
+      "title": "Un-strip Material Icons Core binding so the Icons type binds",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-07T22:24:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34225",
+      "number": 34225,
+      "title": "Add UsePlatformHandler<T> for custom BlazorWebView backends",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-06-07T19:50:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34866",
+      "number": 34866,
+      "title": "Rename RunOnAndroid CI lane to match its Linux pool",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-07T18:46:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33624",
+      "number": 33624,
+      "title": "[ci] Remove trimming workaround",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-07T18:43:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/32203",
       "number": 32203,
       "title": "Don't pack .NET Standard",
@@ -64111,7 +64151,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-07T16:31:39.296Z",
+  "lastUpdated": "2026-06-08T00:47:28.636Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
