@@ -235,6 +235,12 @@ permalink: /dashboard/
                 <option value="week">Per Week</option>
                 <option value="day">Per Day</option>
             </select>
+            
+            <label for="chartLayout">Layout:</label>
+            <select id="chartLayout">
+                <option value="total">Total</option>
+                <option value="stacked">Stacked by Repo</option>
+            </select>
         </div>
         
         <div class="summary-cards">
@@ -255,7 +261,7 @@ permalink: /dashboard/
         <h2>Monthly Totals</h2>
         <div class="chart-container">
             <canvas id="monthlyChart"></canvas>
-            <div class="chart-legend">
+            <div class="chart-legend" id="chartLegend">
                 <span><span class="legend-color" style="background:#0366d6"></span> Merged PRs</span>
                 <span><span class="legend-color" style="background:#28a745"></span> Copilot Authored</span>
                 <span><span class="legend-color" style="background:#6f42c1"></span> MAUI Reviewer</span>
@@ -350,6 +356,7 @@ permalink: /dashboard/
             monthFilter.addEventListener('change', updateDisplay);
             authorFilter.addEventListener('change', updateDisplay);
             document.getElementById('chartGranularity').addEventListener('change', updateDisplay);
+            document.getElementById('chartLayout').addEventListener('change', updateDisplay);
         }
         
         function getFilteredPRs() {
@@ -389,6 +396,25 @@ permalink: /dashboard/
             updatePRTable(filteredPRs);
         }
         
+        // Repo groups used for the "Stacked by Repo" chart layout.
+        // Order here defines the stacking order (bottom to top) and legend order.
+        const REPO_GROUPS = [
+            { name: 'Android', color: '#28a745' },
+            { name: 'Macios', color: '#f97316' },
+            { name: 'MAUI', color: '#7c3aed' },
+            { name: 'Skia', color: '#0366d6' },
+            { name: 'Other', color: '#6c757d' }
+        ];
+
+        function getRepoGroup(repo) {
+            const name = (repo.split('/')[1] || '').toLowerCase();
+            if (name.startsWith('skia')) return 'Skia';
+            if (name.startsWith('maui')) return 'MAUI';
+            if (name.startsWith('macios') || name === 'xcsync') return 'Macios';
+            if (name.startsWith('android') || name === 'java-interop') return 'Android';
+            return 'Other';
+        }
+
         function getChartData(prs) {
             const granularity = document.getElementById('chartGranularity').value;
             const data = {};
@@ -410,9 +436,11 @@ permalink: /dashboard/
                 }
                 
                 if (!data[key]) {
-                    data[key] = { total: 0, copilot: 0, reviewer: 0 };
+                    data[key] = { total: 0, copilot: 0, reviewer: 0, groups: {} };
+                    REPO_GROUPS.forEach(g => { data[key].groups[g.name] = 0; });
                 }
                 data[key].total++;
+                data[key].groups[getRepoGroup(pr.repo)]++;
                 if (pr.copilotAuthored) data[key].copilot++;
                 if (pr.mauiReviewerUsed) data[key].reviewer++;
             });
@@ -434,7 +462,27 @@ permalink: /dashboard/
             }
         }
         
+        function updateChartLegend(layout, showReviewerData) {
+            const legend = document.getElementById('chartLegend');
+            let items;
+            if (layout === 'stacked') {
+                items = REPO_GROUPS.map(g => ({ color: g.color, label: g.name }));
+            } else {
+                items = [
+                    { color: '#0366d6', label: 'Merged PRs' },
+                    { color: '#28a745', label: 'Copilot Authored' }
+                ];
+                if (showReviewerData) {
+                    items.push({ color: '#6f42c1', label: 'MAUI Reviewer' });
+                }
+            }
+            legend.innerHTML = items.map(it =>
+                `<span><span class="legend-color" style="background:${it.color}"></span> ${it.label}</span>`
+            ).join('');
+        }
+
         function drawChart(keys, chartData, showReviewerData) {
+            const layout = document.getElementById('chartLayout').value;
             const canvas = document.getElementById('monthlyChart');
             const dpr = window.devicePixelRatio || 1;
             const rect = canvas.parentElement.getBoundingClientRect();
@@ -447,6 +495,8 @@ permalink: /dashboard/
             const ctx = canvas.getContext('2d');
             ctx.scale(dpr, dpr);
             ctx.clearRect(0, 0, width, height);
+            
+            updateChartLegend(layout, showReviewerData);
             
             if (keys.length === 0) return;
             
@@ -489,6 +539,44 @@ permalink: /dashboard/
                     ctx.fillText(formatChartLabel(k), x, height - padBottom + 20);
                 }
             });
+            
+            // Stacked-by-repo layout: draw cumulative filled areas for each repo group.
+            if (layout === 'stacked') {
+                const xAt = i => padLeft + i * xStep;
+                const yAt = val => padTop + chartH - (val / maxVal) * chartH;
+                // Running cumulative total per key, starting at the baseline (0).
+                const lower = keys.map(() => 0);
+                REPO_GROUPS.forEach(group => {
+                    const upper = keys.map((k, i) => lower[i] + chartData[k].groups[group.name]);
+                    
+                    // Fill the band between the previous cumulative line and this one.
+                    ctx.fillStyle = group.color + '40';
+                    ctx.beginPath();
+                    if (keys.length === 1) {
+                        const barW = Math.min(40, chartW / 2);
+                        ctx.rect(xAt(0) - barW / 2, yAt(upper[0]), barW, Math.abs(yAt(lower[0]) - yAt(upper[0])));
+                    } else {
+                        ctx.moveTo(xAt(0), yAt(lower[0]));
+                        for (let i = 0; i < keys.length; i++) ctx.lineTo(xAt(i), yAt(upper[i]));
+                        for (let i = keys.length - 1; i >= 0; i--) ctx.lineTo(xAt(i), yAt(lower[i]));
+                        ctx.closePath();
+                    }
+                    ctx.fill();
+                    
+                    // Stroke the top edge of the band for definition.
+                    if (keys.length > 1) {
+                        ctx.strokeStyle = group.color;
+                        ctx.lineWidth = 1.5;
+                        ctx.beginPath();
+                        ctx.moveTo(xAt(0), yAt(upper[0]));
+                        for (let i = 1; i < keys.length; i++) ctx.lineTo(xAt(i), yAt(upper[i]));
+                        ctx.stroke();
+                    }
+                    
+                    for (let i = 0; i < keys.length; i++) lower[i] = upper[i];
+                });
+                return;
+            }
             
             function drawLine(data, color) {
                 if (keys.length === 1) {
