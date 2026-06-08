@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11597",
+      "number": 11597,
+      "title": "Remove obsolete misspelled `IncompatibleCpuAbiExceptiopn` class and dead code references",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-08T17:02:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11602",
+      "number": 11602,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-08T16:37:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11601",
+      "number": 11601,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-08T16:05:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11599",
+      "number": 11599,
+      "title": "Enable nullable reference types in `DetectIfAppWasUninstalled.cs`",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-08T15:49:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11592",
+      "number": 11592,
+      "title": "[build] Drop unused protobuf-net references from Mono.AndroidTools",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-08T15:43:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31040",
+      "number": 31040,
+      "title": "[iOS] Fixed Webview LoadFile ignore directories.",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-06-08T15:10:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35784",
+      "number": 35784,
+      "title": "Add geolocation listening minimum distance",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-06-08T14:15:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11595",
+      "number": 11595,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14302426",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-08T13:33:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11576",
+      "number": 11576,
+      "title": "[build] Drop always-true _HasCommercialFiles / _AndroidFastDeploymentSupported gates",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-08T11:39:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11577",
+      "number": 11577,
+      "title": "[tests] Remove always-true AssertCommercialBuild() / CommercialBuildAvailable",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-08T11:37:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11580",
+      "number": 11580,
+      "title": "[build] Remove unused bin/configuration.mk",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-08T11:36:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11570",
+      "number": 11570,
+      "title": "[release/10.0.1xx] [Xamarin.Android.Build.Tasks] Fix _CreateAar race under parallel build",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-08T11:28:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35670",
+      "number": 35670,
+      "title": "Make MSIX install in Windows test cake script resilient",
+      "repo": "dotnet/maui",
+      "author": "akoeplinger",
+      "mergedAt": "2026-06-08T10:53:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35776",
+      "number": 35776,
+      "title": "[HouseKeeping] Fix inconsistant owner type of DropCommandProperty",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-06-08T10:40:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/java-interop/pull/1442",
       "number": 1442,
       "title": "[tests] Add missing jcw-gen project dependency to Java.Base-Tests",
@@ -64161,7 +64301,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-08T09:37:13.475Z",
+  "lastUpdated": "2026-06-08T17:08:18.023Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
