@@ -402,7 +402,8 @@ permalink: /dashboard/
             { name: 'Android', color: '#28a745' },
             { name: 'Macios', color: '#f97316' },
             { name: 'MAUI', color: '#7c3aed' },
-            { name: 'Skia', color: '#0366d6' }
+            { name: 'Skia', color: '#0366d6' },
+            { name: 'Other', color: '#6c757d' }
         ];
 
         function getRepoGroup(repo) {
@@ -411,7 +412,7 @@ permalink: /dashboard/
             if (name.startsWith('maui')) return 'MAUI';
             if (name.startsWith('macios') || name === 'xcsync') return 'Macios';
             if (name.startsWith('android') || name === 'java-interop') return 'Android';
-            return 'Android';
+            return 'Other';
         }
 
         function getChartData(prs) {
