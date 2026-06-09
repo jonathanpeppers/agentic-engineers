@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1461",
+      "number": 1461,
+      "title": "Fix ads-mobile-sdk binding: naming convention and missing AdView.LoadAd",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-08T23:54:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35725",
+      "number": 35725,
+      "title": "[ci] Use common macOS 26 hosted image",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-08T23:34:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11509",
+      "number": 11509,
+      "title": "Fix _AfterILLinkAdditionalSteps breaking IlcCompile incrementalism",
+      "repo": "dotnet/android",
+      "author": "sbomer",
+      "mergedAt": "2026-06-08T22:43:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11587",
+      "number": 11587,
+      "title": "Bump System.CodeDom from 9.0.8 to 10.0.8",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-08T22:35:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11586",
+      "number": 11586,
+      "title": "Bump NuGet.ProjectModel from 6.13.1 to 6.14.3",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-08T22:33:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35701",
+      "number": 35701,
+      "title": "Add /review tests failure review workflow",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-08T21:58:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35685",
+      "number": 35685,
+      "title": "Add gh-aw rerun review scanner",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-08T21:10:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11588",
+      "number": 11588,
+      "title": "Bump System.IO.Hashing from 9.0.4 to 10.0.8",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-08T20:48:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35773",
+      "number": 35773,
+      "title": "Backport simulator runtime provisioning fix",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-08T19:56:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35734",
+      "number": 35734,
+      "title": "Add CI failure scanner gh-aw workflow",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-08T19:52:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35804",
+      "number": 35804,
+      "title": "Security hardening for ci-copilot (#35677 stack): sanitize PR stdout, fail-closed Gate state, HMAC verdict, Phase-Audit",
+      "repo": "dotnet/maui",
+      "author": "T-Gro",
+      "mergedAt": "2026-06-08T19:37:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35778",
+      "number": 35778,
+      "title": "[Android] Fix DragGestureRecognizer DragStarting Command/Event fired prematurely",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-06-08T19:09:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11579",
+      "number": 11579,
+      "title": "[release/10.0.1xx] [build] Fix `ConfigureLocalWorkload` for .NET 10.0.400 SDK",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-08T18:48:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1446",
+      "number": 1446,
+      "title": "Remove JniObjectReference SafeHandle backend",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-08T17:48:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1458",
+      "number": 1458,
+      "title": "Bind Xamarin.AndroidX.Compose.Foundation MutationInterruptedException",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-08T17:36:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11594",
+      "number": 11594,
+      "title": "Move hardcoded IL6001 warning string to Resources.resx",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-08T17:29:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11597",
       "number": 11597,
       "title": "Remove obsolete misspelled `IncompatibleCpuAbiExceptiopn` class and dead code references",
@@ -64301,7 +64461,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-08T17:08:18.023Z",
+  "lastUpdated": "2026-06-09T00:41:45.028Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
