@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35455",
+      "number": 35455,
+      "title": "Fix Android MediaPicker result recovery",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-06-09T08:31:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android-libraries/pull/1461",
       "number": 1461,
       "title": "Fix ads-mobile-sdk binding: naming convention and missing AdView.LoadAd",
@@ -64461,7 +64471,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-09T00:41:45.028Z",
+  "lastUpdated": "2026-06-09T09:09:47.159Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
