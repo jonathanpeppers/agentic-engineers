@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4068",
+      "number": 4068,
+      "title": "Promote SKPaint text/font obsolete members to error",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-06-09T16:43:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/319",
+      "number": 319,
+      "title": "Fix: android sdk accept-licenses returns non-zero when user declines",
+      "repo": "dotnet/maui-labs",
+      "author": "engyebrahim",
+      "mergedAt": "2026-06-09T16:38:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11607",
+      "number": 11607,
+      "title": "[Xamarin.AndroidTools] Remove dead VS Mac / legacy code",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-09T16:07:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11608",
+      "number": 11608,
+      "title": "[build] Check in Mono.Android.Apis.projitems, remove generator",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-09T16:06:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1451",
+      "number": 1451,
+      "title": "Remove legacy NET preprocessor paths",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-09T16:02:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35814",
+      "number": 35814,
+      "title": "[Revert] - [Windows] Fix WebView blank rendering when used with HybridWebView",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-06-09T15:46:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35825",
+      "number": 35825,
+      "title": "Fix CarouselView tests fail in June 8 Candidate",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-09T15:39:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35815",
+      "number": 35815,
+      "title": "[iOS] Fix Label Span formatting test failures on candidate branch",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-06-09T15:29:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35823",
+      "number": 35823,
+      "title": "[Inflight regression] Fixed Test failures ModalTabbedPagePushAsyncShouldOverlayBottomNavigationView and GroupedCollectionViewScrollToIndexScrollsToCorrectItem",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-06-09T14:57:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35719",
+      "number": 35719,
+      "title": "Document Maestro subscription authoring & lifecycle in dependency-flow skill",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-09T14:35:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31291",
+      "number": 31291,
+      "title": "[iOS & macOS] Fixed IndicatorView square shape does not update on load or dynamically",
+      "repo": "dotnet/maui",
+      "author": "NanthiniMahalingam",
+      "mergedAt": "2026-06-09T14:25:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1450",
+      "number": 1450,
+      "title": "Remove Java.Interop.GenericMarshaler",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-09T14:02:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11610",
+      "number": 11610,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14320800",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-09T13:18:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35565",
+      "number": 35565,
+      "title": "Fix iOS Shell tab badge styling",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-06-09T09:18:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35455",
       "number": 35455,
       "title": "Fix Android MediaPicker result recovery",
@@ -64471,7 +64611,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-09T09:09:47.159Z",
+  "lastUpdated": "2026-06-09T16:55:42.273Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
