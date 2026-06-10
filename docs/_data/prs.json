@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35819",
+      "number": 35819,
+      "title": "[Android] Fix ShellPages_NavBarVisibilityHide, VerifyNavBarStatusAtRuntime, and ToggleHasNavigationBar_HidesBar_Visual test failures ",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-06-10T16:03:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35847",
+      "number": 35847,
+      "title": "[Testing] Fixed Build error on inflight/current ",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-06-10T16:02:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35856",
+      "number": 35856,
+      "title": "[inflight/candidate] Revert Fix Android app bar inset background coloring",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-06-10T16:00:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11621",
+      "number": 11621,
+      "title": "Enable nullable reference types in `ExecutionConfiguration.cs`",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-10T15:39:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35829",
+      "number": 35829,
+      "title": "Fix /review trigger lock label permissions",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-10T15:24:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11612",
+      "number": 11612,
+      "title": "[cleanup] Delete unused public types from inlined platform-support projects",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-10T14:56:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11618",
+      "number": 11618,
+      "title": "[ci] Cache Android toolchain downloads + bump `DownloadFile` retries",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-10T14:55:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11614",
+      "number": 11614,
+      "title": "[tests] Use Android.Util.Log in JnienvTest.ThreadReuse callback",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-10T14:06:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11615",
+      "number": 11615,
+      "title": "[tests] Improve DoNotLeakWeakReferences reliability",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-10T14:06:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35478",
+      "number": 35478,
+      "title": "Improve code-review skill with regression prevention safeguards",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-10T14:02:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34420",
+      "number": 34420,
+      "title": "[Android] Fix CollectionView items not resizing after orientation change on Shell pages",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-06-10T13:22:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11626",
+      "number": 11626,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260610103214140 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-06-10T13:11:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11623",
+      "number": 11623,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14333140",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-10T12:45:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35824",
+      "number": 35824,
+      "title": "Fix SR8 test failures - revert HybridWebView refactor and update iOS 26 snapshot",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-06-10T11:51:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35798",
+      "number": 35798,
+      "title": " Fix RelativeSource Binding is NULL with XAML SourceGen and IsAotCompatible in iOS Release Mode",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-06-10T11:40:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35739",
+      "number": 35739,
+      "title": "[Testing] Revert - Refactor the HybridWebView and properly support complex parameters",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-06-10T11:00:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25659",
       "number": 25659,
       "title": "[xcode26.6] Bump to Xcode 26.6 Release Candidate",
@@ -64761,7 +64921,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-10T09:15:06.874Z",
+  "lastUpdated": "2026-06-10T17:06:14.462Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
