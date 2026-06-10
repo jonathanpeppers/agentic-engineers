@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25659",
+      "number": 25659,
+      "title": "[xcode26.6] Bump to Xcode 26.6 Release Candidate",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-10T02:05:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11609",
       "number": 11609,
       "title": "Bump external/Java.Interop from `e382113` to `b881d21`",
@@ -64751,7 +64761,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-10T00:47:24.608Z",
+  "lastUpdated": "2026-06-10T09:15:06.874Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
