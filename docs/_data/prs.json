@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11609",
+      "number": 11609,
+      "title": "Bump external/Java.Interop from `e382113` to `b881d21`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-10T00:03:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1449",
+      "number": 1449,
+      "title": "Remove Java.Interop.Dynamic",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-09T23:19:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1441",
+      "number": 1441,
+      "title": "Split reflection-based JniTypeManager and JniValueManager behavior",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-09T23:17:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1463",
+      "number": 1463,
+      "title": "Add androidx.compose.material3.adaptive bindings",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-09T23:08:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11611",
+      "number": 11611,
+      "title": "Bump `$(AndroidPackVersion)` to 37.0.0",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-09T23:05:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11561",
+      "number": 11561,
+      "title": "Bump Irony from 1.1.0 to 1.5.3",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-09T20:59:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11578",
+      "number": 11578,
+      "title": "[ci] Make dnceng-public the default PR pipeline; disable PR triggers on DevDiv pipeline",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-09T20:35:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1466",
+      "number": 1466,
+      "title": "Unify Xamarin.GoogleAndroid.* package IDs and strip Xamarin. prefix from Play.Core.Review namespaces",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-09T20:06:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1464",
+      "number": 1464,
+      "title": "Make Health Connect records assignable to IRecord",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-09T20:04:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1460",
+      "number": 1460,
+      "title": "Stable Updates 20260608",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-09T20:01:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11616",
+      "number": 11616,
+      "title": "[NUnitLite] Add OneTimeSetUp/OneTimeTearDown attribute shims",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-09T19:28:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35817",
+      "number": 35817,
+      "title": "Fix /review rerun for MauiBot summaries",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-09T18:55:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35820",
+      "number": 35820,
+      "title": "Fix /review tests trigger and output",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-09T18:54:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35818",
+      "number": 35818,
+      "title": "Remove CI scanner token budget limit",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-09T18:54:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4068",
       "number": 4068,
       "title": "Promote SKPaint text/font obsolete members to error",
@@ -64611,7 +64751,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-09T16:55:42.273Z",
+  "lastUpdated": "2026-06-10T00:47:24.608Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
