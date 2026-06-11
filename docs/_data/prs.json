@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/skia/pull/250",
+      "number": 250,
+      "title": "[skia-sync] Merge upstream chrome/m148",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-10T23:35:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4128",
+      "number": 4128,
+      "title": "Fix SKPixmap.GetPixelSpan<T>(x,y) offset using Height instead of Width",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-10T22:30:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4080",
+      "number": 4080,
+      "title": "Rework the lifecycle of singleton instances",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-06-10T22:12:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11224",
+      "number": 11224,
+      "title": "Dogfood `dotnet test` for Mono.Android device tests",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-10T22:00:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35828",
+      "number": 35828,
+      "title": "Fix /review tests comment formatting",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-10T21:40:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35819",
       "number": 35819,
       "title": "[Android] Fix ShellPages_NavBarVisibilityHide, VerifyNavBarStatusAtRuntime, and ToggleHasNavigationBar_HidesBar_Visual test failures ",
@@ -64921,7 +64971,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-10T17:06:14.462Z",
+  "lastUpdated": "2026-06-11T00:47:06.750Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
