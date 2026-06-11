@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/318",
+      "number": 318,
+      "title": "[ai-docs] docs: add Essentials.AI test projects to testing instructions",
+      "repo": "dotnet/maui-labs",
+      "author": "github-actions",
+      "mergedAt": "2026-06-11T08:47:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11613",
+      "number": 11613,
+      "title": "[build] Remove Step_PrepareProps; fold values into eng/Versions.props",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-11T08:31:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/skia/pull/250",
       "number": 250,
       "title": "[skia-sync] Merge upstream chrome/m148",
@@ -64971,7 +64991,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-11T00:47:06.750Z",
+  "lastUpdated": "2026-06-11T09:30:52.361Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
