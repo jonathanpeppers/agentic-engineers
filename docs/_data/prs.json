@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35879",
+      "number": 35879,
+      "title": "Update PatchVersion from 80 to 90",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-11T16:47:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35361",
+      "number": 35361,
+      "title": "[Windows] Fix SwipeItem IsVisible not refreshing native swipe items when binding changes",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-06-11T15:33:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4114",
+      "number": 4114,
+      "title": "Obsolete remaining legacy paint state-reading APIs (#3732)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-11T14:54:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35810",
+      "number": 35810,
+      "title": "[release/10.0.1xx-sr8] Merge release/10.0.1xx-sr7 into release/10.0.1xx-sr8",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-11T13:32:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11629",
+      "number": 11629,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14344809",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-11T12:57:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35781",
+      "number": 35781,
+      "title": "[Android] Fix RadialGradientBrush crash on Android when view has zero size",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-06-11T11:37:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4125",
+      "number": 4125,
+      "title": "[skia-sync] Update skia to milestone 148",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-11T11:03:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4133",
+      "number": 4133,
+      "title": "Move native-compat gate from [ModuleInitializer] to SkiaApi cctor",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-11T11:00:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/318",
       "number": 318,
       "title": "[ai-docs] docs: add Essentials.AI test projects to testing instructions",
@@ -64991,7 +65071,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-11T09:30:52.361Z",
+  "lastUpdated": "2026-06-11T17:16:02.463Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
