@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35896",
+      "number": 35896,
+      "title": "[Inflight/Candidate] Revert - Fix Changing Shell.NavBarIsVisible does not update the nav bar",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-12T16:39:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11638",
+      "number": 11638,
+      "title": "Add XML documentation to `Android.Util.Log` convenience overloads",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-12T16:31:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/253",
+      "number": 253,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-12T16:07:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11631",
+      "number": 11631,
+      "title": "[build] Remove omnisharp.json generation from xaprepare",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-12T16:03:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35868",
+      "number": 35868,
+      "title": "[Revert] Fix iOS ProgressBar bounding box",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-06-12T11:31:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35777",
+      "number": 35777,
+      "title": "[Android] Fix SearchHandler.ClearPlaceholderEnabled not updated dynamically",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-06-12T11:24:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35884",
+      "number": 35884,
+      "title": "Fix build error caused by duplicate property change registration in SwipeItem",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-06-12T11:21:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35633",
+      "number": 35633,
+      "title": "[Android] Fix for Android RefreshView incorrectly triggering pull-to-refresh when scrolling inside WebView or HybridWebView on cold-start",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-06-12T11:20:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35800",
+      "number": 35800,
+      "title": "Fix Shell.Title binding in TitleView",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-06-12T11:18:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35762",
+      "number": 35762,
+      "title": "[Testing] Fixed Test case failure in PR 35716 - [06/08/2026] Candidate - 1",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-06-12T11:09:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/skia/pull/255",
       "number": 255,
       "title": "[skia-sync/m150] Backport PDF backend to C++17 for the Tizen toolchain",
@@ -65201,7 +65301,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-12T09:25:53.014Z",
+  "lastUpdated": "2026-06-12T17:00:45.749Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
