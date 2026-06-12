@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4153",
+      "number": 4153,
+      "title": "[docs] docs: update release notes for 4.148.0 (unreleased)",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-06-12T00:25:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4148",
+      "number": 4148,
+      "title": "Fix SKPixmap/SKBitmap GetPixelSpan to use RowBytes for stride",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-12T00:24:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4152",
+      "number": 4152,
+      "title": "[docs] Two-way supersede links in release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-11T23:17:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4149",
+      "number": 4149,
+      "title": "release-notes: roll up preview-only/skipped versions into their successor",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-11T22:25:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/387",
+      "number": 387,
+      "title": "Bump System.IO.Hashing from 10.0.8 to 10.0.9",
+      "repo": "dotnet/android-tools",
+      "author": "dependabot",
+      "mergedAt": "2026-06-11T21:27:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/386",
+      "number": 386,
+      "title": "Update MSBuild package dependency",
+      "repo": "dotnet/android-tools",
+      "author": "Redth",
+      "mergedAt": "2026-06-11T21:02:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11628",
+      "number": 11628,
+      "title": "Remove obsolete `AndroidToolsPath` pragma suppressions in `AndroidSdk.cs`",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-11T20:43:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35803",
+      "number": 35803,
+      "title": "Fix OnNavigatedTo not firing after PopModalAsync when tab is changed inside modal",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-06-11T19:50:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35733",
+      "number": 35733,
+      "title": "Fix incorrect DestinationPage in NavigationPage OnNavigatingFrom events",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-06-11T19:23:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35822",
+      "number": 35822,
+      "title": "[Android] Fix RenderThread SIGSEGV crash with multiple auto-sizing WebViews in ScrollView",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-06-11T19:20:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35782",
+      "number": 35782,
+      "title": "[Android] Fix grouped CollectionView grid row spacing regression",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-06-11T19:05:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4144",
+      "number": 4144,
+      "title": "Fix SKIASHARP_VERSION yaml missed by the m148 bump",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-11T17:53:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35879",
       "number": 35879,
       "title": "Update PatchVersion from 80 to 90",
@@ -65071,7 +65191,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-11T17:16:02.463Z",
+  "lastUpdated": "2026-06-12T00:49:45.263Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
