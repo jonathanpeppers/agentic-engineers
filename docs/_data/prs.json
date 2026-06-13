@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4159",
+      "number": 4159,
+      "title": "feat: Add job-level status to release-status skill pipeline script",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-12T22:29:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4146",
+      "number": 4146,
+      "title": "[skia-sync] Update skia to milestone 150",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-12T22:28:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11639",
+      "number": 11639,
+      "title": "Bump external/xamarin-android-tools from `5165523` to `1fb68b6`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-12T21:47:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1461",
+      "number": 1461,
+      "title": "[ci] Update agentic workflows to claude-opus-4.8",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-12T21:43:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1453",
+      "number": 1453,
+      "title": "Remove Java.Base",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-12T20:38:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1471",
+      "number": 1471,
+      "title": "Bind stripped SolidColor(long) constructor in Compose UI.Graphics",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-12T20:13:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1457",
+      "number": 1457,
+      "title": "Bump external/xamarin-android-tools from `5165523` to `1fb68b6`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-06-12T20:01:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11646",
+      "number": 11646,
+      "title": "[ci] Update agentic workflows to claude-opus-4.8",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-12T19:56:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11645",
+      "number": 11645,
+      "title": "Bump gh-aw from v0.74.8 to v0.79.6",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-12T19:45:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35068",
+      "number": 35068,
+      "title": "Bridge DI-registered Essentials implementations to static facades",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-06-12T19:34:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1460",
+      "number": 1460,
+      "title": "Upgrade gh-aw to v0.79.6 and recompile workflows",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-12T19:30:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1456",
+      "number": 1456,
+      "title": "[JniValueManager] Make TryConstructPeer virtual",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-12T19:06:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/388",
+      "number": 388,
+      "title": "Upgrade gh-aw to v0.79.6 and recompile workflows",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-12T19:05:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35896",
       "number": 35896,
       "title": "[Inflight/Candidate] Revert - Fix Changing Shell.NavBarIsVisible does not update the nav bar",
@@ -65301,7 +65431,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-12T17:00:45.749Z",
+  "lastUpdated": "2026-06-13T00:48:54.395Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
