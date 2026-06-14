@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35663",
+      "number": 35663,
+      "title": "Make GenerateMsixCert work without admin on subsequent runs",
+      "repo": "dotnet/maui",
+      "author": "akoeplinger",
+      "mergedAt": "2026-06-13T21:51:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35542",
+      "number": 35542,
+      "title": "[iOS, Mac] Fix Shell back button history menu does not update after runtime change",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-06-13T20:21:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35505",
+      "number": 35505,
+      "title": "Bump Magick.NET-Q8-AnyCPU from 14.12.0 to 14.13.1",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-06-13T17:28:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4157",
       "number": 4157,
       "title": "Build Tizen native dependencies in a Docker container (#4154)",
@@ -65441,7 +65471,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-13T16:31:41.414Z",
+  "lastUpdated": "2026-06-14T00:47:56.914Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
