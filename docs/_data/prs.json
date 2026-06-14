@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35596",
+      "number": 35596,
+      "title": "Reduce boolean boxes across the framework",
+      "repo": "dotnet/maui",
+      "author": "pictos",
+      "mergedAt": "2026-06-14T13:02:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35663",
       "number": 35663,
       "title": "Make GenerateMsixCert work without admin on subsequent runs",
@@ -65471,7 +65481,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-14T09:07:14.087Z",
+  "lastUpdated": "2026-06-14T16:33:00.740Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
