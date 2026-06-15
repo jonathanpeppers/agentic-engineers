@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35858",
+      "number": 35858,
+      "title": "Extract shared versioning module, add -CloseFixedIssues flag, and earliest-release-wins milestone validation",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-15T17:15:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25379",
+      "number": 25379,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-15T16:31:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11641",
+      "number": 11641,
+      "title": "Bump System.CodeDom from 10.0.8 to 10.0.9",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-15T16:06:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11654",
+      "number": 11654,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-15T15:42:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11655",
+      "number": 11655,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-15T15:41:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11642",
+      "number": 11642,
+      "title": "Bump System.IO.Hashing from 10.0.8 to 10.0.9",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-15T15:30:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25668",
+      "number": 25668,
+      "title": "Bump dotnet/arcade/.github/workflows/inter-branch-merge-base.yml from b6ed8ef7f3251d0b67ac2428c06253d0ba328e97 to 0a80b038bcc0d76b2f26c7f22062942de75779e6",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-06-15T15:27:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25669",
+      "number": 25669,
+      "title": "Bump actions/checkout from 6.0.2 to 6.0.3",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-06-15T15:26:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11653",
+      "number": 11653,
+      "title": "Bump external/xamarin-android-tools from `1fb68b6` to `d705142`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-15T14:08:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35916",
+      "number": 35916,
+      "title": "Fix OnNavigatedTo not firing after PopModalAsync when tab is changed inside modal",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-06-15T11:13:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-tools/pull/389",
       "number": 389,
       "title": "[ci] Update agentic workflows to claude-opus-4.8",
@@ -65511,7 +65611,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-15T10:09:15.494Z",
+  "lastUpdated": "2026-06-15T17:40:20.825Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
