@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-tools/pull/389",
+      "number": 389,
+      "title": "[ci] Update agentic workflows to claude-opus-4.8",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-15T09:15:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1459",
+      "number": 1459,
+      "title": "Remove NuGet dependency grouping from Dependabot config",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-15T09:14:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35045",
       "number": 35045,
       "title": "Support shared/custom Platforms folder mappings in SingleProject",
@@ -65491,7 +65511,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-15T00:50:06.212Z",
+  "lastUpdated": "2026-06-15T10:09:15.494Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
