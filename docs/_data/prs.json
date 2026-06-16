@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11649",
+      "number": 11649,
+      "title": "Add XML documentation to Android.Graphics.Color static component-accessor methods",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-15T22:03:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11651",
+      "number": 11651,
+      "title": "Use Properties.Resources.XA0002 instead of hardcoded string in GetMonoPlatformJar",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-15T22:02:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25684",
+      "number": 25684,
+      "title": "[CI] Run ./configure after provisioning in the simulator test stage",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-15T21:43:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25682",
+      "number": 25682,
+      "title": "[tests] Await async cancellation in SecProtocolMetadataTest to avoid a hang",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-15T21:43:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25688",
+      "number": 25688,
+      "title": "[dotnet] Fix the .NET 10 MSI minor-version computation for Xcode 27 and later",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-15T21:43:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25681",
+      "number": 25681,
+      "title": "[bgen] Propagate simulator availability attributes to smart-enum field accessors",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-15T21:42:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4167",
+      "number": 4167,
+      "title": "Update harfbuzz to 14.2.1",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-15T21:18:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/257",
+      "number": 257,
+      "title": "Update harfbuzz to 14.2.1",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-15T21:16:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35874",
+      "number": 35874,
+      "title": "Restrict /review rerun eligibility to author activity",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-15T20:46:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35661",
+      "number": 35661,
+      "title": "Skip request-interception tests that hit echo.free.beeceptor.com",
+      "repo": "dotnet/maui",
+      "author": "akoeplinger",
+      "mergedAt": "2026-06-15T20:11:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35923",
+      "number": 35923,
+      "title": " [Windows] Fix AspectFit image fills container regression causing UI test failures on candidate branch",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-06-15T20:02:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35920",
+      "number": 35920,
+      "title": "[iOS] Fix EditorScrollingWhenEnclosedInBorder test failure on candidate branch",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-06-15T19:58:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33786",
+      "number": 33786,
+      "title": "[Windows] FlyoutPage: Fix CollapsedPaneWidth mapping and updates",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-15T19:51:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32664",
+      "number": 32664,
+      "title": "[iOS][CV2] Fix Rotating the Simulator causes the text on the collection view to disappear.",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-15T19:46:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11486",
+      "number": 11486,
+      "title": "[TrimmableTypeMap] Add trimmable DotNetRun cases",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-15T17:58:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11647",
+      "number": 11647,
+      "title": "[build] Add shared DownloadFileWithRetry target and use it for SDK downloads",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-15T17:45:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35858",
       "number": 35858,
       "title": "Extract shared versioning module, add -CloseFixedIssues flag, and earliest-release-wins milestone validation",
@@ -65611,7 +65771,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-15T17:40:20.825Z",
+  "lastUpdated": "2026-06-16T00:55:01.360Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
