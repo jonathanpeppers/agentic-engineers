@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25637",
+      "number": 25637,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-16T07:39:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25683",
+      "number": 25683,
+      "title": "[msbuild] Make inlined dlfcn native symbol references weak + dlsym fallback",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-16T01:41:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25686",
+      "number": 25686,
+      "title": "[runtime] Use method_getTypeEncoding instead of the deprecated method_getDescription",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-16T01:40:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11649",
       "number": 11649,
       "title": "Add XML documentation to Android.Graphics.Color static component-accessor methods",
@@ -65771,7 +65801,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-16T00:55:01.360Z",
+  "lastUpdated": "2026-06-16T09:49:32.126Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
