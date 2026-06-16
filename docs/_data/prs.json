@@ -1,6 +1,246 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25692",
+      "number": 25692,
+      "title": "[tests] Clean up Configure.cs a bit.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-16T17:34:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4171",
+      "number": 4171,
+      "title": "Unify API changelog + release-notes versioning via shared versions.json",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-16T17:25:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1473",
+      "number": 1473,
+      "title": "Revert org-billed Copilot CLI opt-in and restore max-ai-credits to -1",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-16T17:16:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4143",
+      "number": 4143,
+      "title": "Migrate test suite from xUnit v2 to xUnit v3 (#4139)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-16T16:22:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25646",
+      "number": 25646,
+      "title": "[devops] Don't clean ACES bots.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-16T16:13:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25650",
+      "number": 25650,
+      "title": "[tests] Add a few missing warning filters.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-16T15:22:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1472",
+      "number": 1472,
+      "title": "Fix PR reviewer auth: cap max-ai-credits at 100M instead of -1",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-16T15:18:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25702",
+      "number": 25702,
+      "title": "[release/10.0.1xx] [tests] Ignore introspection TypoTest until #25397 is resolved",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-16T15:02:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1471",
+      "number": 1471,
+      "title": "Disable daily AIC guardrail for PR reviewer workflow",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-16T14:51:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25680",
+      "number": 25680,
+      "title": "[dotnet] Quote MlaunchPath in generated mobile run scripts",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-16T14:33:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35933",
+      "number": 35933,
+      "title": "[ci] Forward-port simulator runtime provisioning fix from preview5",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-16T14:30:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1469",
+      "number": 1469,
+      "title": "Use GITHUB_TOKEN for Copilot CLI inference in agentic workflows",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-16T13:56:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/200",
+      "number": 200,
+      "title": "feat: add maui port check command",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-16T13:48:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11656",
+      "number": 11656,
+      "title": "[Xamarin.Android.Build.Tasks] Remove dead InstantRun leftovers",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-16T13:33:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11665",
+      "number": 11665,
+      "title": "[Tests] Remove dead GetInnerHandlerType helper",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-16T13:18:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25691",
+      "number": 25691,
+      "title": " [xcode27.0] Backport #24420 and #24515",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-16T13:13:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35898",
+      "number": 35898,
+      "title": "Fix Windows Shell tests failure in June 8 Candidate",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-16T13:08:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11662",
+      "number": 11662,
+      "title": "Bump external/xamarin-android-tools from `d705142` to `c7e7f5e`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-16T12:56:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1468",
+      "number": 1468,
+      "title": "[Java.Interop] Make JavaProxyObject.RegisterNativeMembers private again",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-16T12:40:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/327",
+      "number": 327,
+      "title": "Enable major roll-forward for the MAUI CLI tool",
+      "repo": "dotnet/maui-labs",
+      "author": "vitek-karas",
+      "mergedAt": "2026-06-16T11:26:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25695",
+      "number": 25695,
+      "title": "[tests] Ignore introspection TypoTest until #25397 is resolved",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-16T11:21:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/330",
+      "number": 330,
+      "title": "Update .NET SDK to 10.0.109",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-06-16T11:21:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35932",
+      "number": 35932,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-06-16T10:46:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25583",
+      "number": 25583,
+      "title": "[net11.0] R2R-compile only System.Private.CoreLib for Debug CoreCLR mobile builds",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-06-16T09:56:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25637",
       "number": 25637,
       "title": "[net11.0] Update dependencies from dotnet/macios",
@@ -65801,7 +66041,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-16T09:49:32.126Z",
+  "lastUpdated": "2026-06-16T17:43:48.799Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
