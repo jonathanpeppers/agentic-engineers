@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35807",
+      "number": 35807,
+      "title": "Release readiness skill — SR + Preview (supersedes #35754)",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-17T16:36:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/390",
+      "number": 390,
+      "title": "Bump gh-aw to v0.79.8 and disable AIC guardrails on reviewer workflow",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-17T14:35:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25678",
+      "number": 25678,
+      "title": "[mtouch] Guard RunRegistrar calls with platform ifdef checks",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-17T14:33:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11680",
+      "number": 11680,
+      "title": "[skills] Update tests skill for MTP device tests + docs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-17T14:30:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4179",
+      "number": 4179,
+      "title": "release-notes: restore in-flight -unreleased naming + per-preview rollup (R1/R2/R3)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-17T13:51:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11675",
+      "number": 11675,
+      "title": "Bump MSTest to 4.2.3 in androidtest template",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-17T13:23:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25706",
+      "number": 25706,
+      "title": "[src] Fix numerous API typos and improve the introspection typo test. Fixes #25397.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-17T12:46:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35940",
+      "number": 35940,
+      "title": "[inflight/candidate] Revert Android Shell safe area nav bar inset fixes ",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-06-17T12:03:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35946",
+      "number": 35946,
+      "title": "[WIP] [Android] Fix CollectionView KeepScrollOffset regressed after PR #29255",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-06-17T11:55:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35883",
+      "number": 35883,
+      "title": "[iOS 26] Fix Shell TitleView not resizing on device rotation",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-06-17T11:50:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11673",
+      "number": 11673,
+      "title": "[Tests] Enable SubscribeToAppDomainUnhandledException on CoreCLR",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-17T11:34:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11677",
+      "number": 11677,
+      "title": "Remove stale commented-out input-size-limit code in AssemblyCompression.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-17T11:29:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25704",
+      "number": 25704,
+      "title": "[docs] Improve XML docs for SystemConfigurationException",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-17T10:34:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/329",
       "number": 329,
       "title": "bump: PreReleaseVersionIteration 10 → 11",
@@ -66231,7 +66361,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-17T09:39:41.312Z",
+  "lastUpdated": "2026-06-17T17:04:01.832Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
