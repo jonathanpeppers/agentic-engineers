@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4177",
+      "number": 4177,
+      "title": "[docs] Unify changelog + release-notes generation: stable rollups and local skia links",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-17T00:09:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4174",
+      "number": 4174,
+      "title": "release-notes: fix --all timeout and migrate all pages to the metadata block",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-16T22:08:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1440",
+      "number": 1440,
+      "title": "[generator] Phase 2: Kotlin @JvmInline value class projection",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-16T21:55:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1470",
+      "number": 1470,
+      "title": "[generator] Stop generating dead Java.Interop.__TypeRegistrations",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-16T21:51:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11622",
+      "number": 11622,
+      "title": "Bump external/Java.Interop from `b881d21` to `6820a9cb`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-16T21:50:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35713",
+      "number": 35713,
+      "title": "Style skill validation results comment",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-16T19:37:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11659",
+      "number": 11659,
+      "title": "[gh-aw] disable AI-credit guardrails (max-daily / max-ai)",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-16T19:32:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11667",
+      "number": 11667,
+      "title": "[Mono.Android] Remove dead Java.Interop.__TypeRegistrations plumbing",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-16T19:32:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25654",
+      "number": 25654,
+      "title": "[dotnet] Put type-map.txt into the linker cache directory.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-16T18:01:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25662",
+      "number": 25662,
+      "title": "[dotnet] Use desktop MSBuild task assemblies in VS for all platforms",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-06-16T17:52:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25618",
+      "number": 25618,
+      "title": "[tools] Simplify the creation of the list of frameworks a bit.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-16T17:45:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25692",
       "number": 25692,
       "title": "[tests] Clean up Configure.cs a bit.",
@@ -66041,7 +66151,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-16T17:43:48.799Z",
+  "lastUpdated": "2026-06-17T00:49:40.570Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
