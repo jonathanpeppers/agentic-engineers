@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/329",
+      "number": 329,
+      "title": "bump: PreReleaseVersionIteration 10 → 11",
+      "repo": "dotnet/maui-labs",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-17T09:36:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25657",
+      "number": 25657,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-17T08:50:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25586",
+      "number": 25586,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-17T08:44:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25633",
+      "number": 25633,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260603175250477 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-06-17T08:37:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25679",
+      "number": 25679,
+      "title": "[tests] Update MSBuild.StructuredLogger to 2.2.243",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-17T07:48:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25703",
+      "number": 25703,
+      "title": "[xcode27.0] Merge main into xcode27.0",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-17T02:03:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1452",
+      "number": 1452,
+      "title": "Reduce generated JNI callback IL size",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-17T01:26:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1454",
+      "number": 1454,
+      "title": "[TrimmableTypeMap] Make adjustments to the base JniValueManager and JniTypeManager to make implementing the trimmable type map easier",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-17T01:25:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4177",
       "number": 4177,
       "title": "[docs] Unify changelog + release-notes generation: stable rollups and local skia links",
@@ -66151,7 +66231,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-17T00:49:40.570Z",
+  "lastUpdated": "2026-06-17T09:39:41.312Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
