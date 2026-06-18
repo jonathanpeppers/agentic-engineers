@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4188",
+      "number": 4188,
+      "title": "Add Chromium release heads-up to the security-audit skill",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-17T22:34:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4186",
+      "number": 4186,
+      "title": "Remove deprecated .NET Interactive (Polyglot Notebooks) support",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-17T22:30:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1469",
+      "number": 1469,
+      "title": "Rebuild Compose.Material3.Android to pick up CornerBasedShape APIs (#1452)",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-17T20:41:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35974",
+      "number": 35974,
+      "title": "Add `environment: gh-aw-agents` to remaining workflows",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-17T20:38:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35972",
+      "number": 35972,
+      "title": "Resolve SR sub-patch milestones from the earliest containing tag",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-17T20:34:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4185",
+      "number": 4185,
+      "title": "docs: refresh Skia adoption claims with verified product list",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-17T20:17:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35951",
+      "number": 35951,
+      "title": "Add `environment:` gating to write/spend-capable gh-aw workflows + recompile all to v0.79.8",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-17T20:00:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35942",
+      "number": 35942,
+      "title": "ci(skills): migrate skill-eval suite from skill-validator to Vally",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-17T19:39:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25705",
+      "number": 25705,
+      "title": "[tests] Replace httpbin.org with an in-proc HTTP server to improve reliability.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-17T19:20:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1474",
+      "number": 1474,
+      "title": "Scope ANDROID_TEAM_PAT to weekly-stable-updates environment",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-17T19:05:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1473",
+      "number": 1473,
+      "title": "Stable Updates 20260615",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-17T19:04:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11685",
+      "number": 11685,
+      "title": "[gh-aw] Eliminate magic GH_AW_* secret references from lock files",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-17T19:04:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1475",
+      "number": 1475,
+      "title": "Scope gh-aw workflow secrets to GITHUB_TOKEN",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-17T19:03:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/391",
+      "number": 391,
+      "title": "Scope gh-aw GitHub tokens to suppress magic fallback secret names",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-17T19:03:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11678",
+      "number": 11678,
+      "title": "Bump external/Java.Interop from `6820a9c` to `f1dd87d`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-17T19:02:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25710",
+      "number": 25710,
+      "title": "[docs] Improve XML docs for StatusCodeError",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-17T18:45:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25652",
+      "number": 25652,
+      "title": "[assembly-preparer] Create a new tool to replace pre-mark custom linker steps.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-17T17:36:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35807",
       "number": 35807,
       "title": "Release readiness skill — SR + Preview (supersedes #35754)",
@@ -66361,7 +66531,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-17T17:04:01.832Z",
+  "lastUpdated": "2026-06-18T00:50:06.732Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
