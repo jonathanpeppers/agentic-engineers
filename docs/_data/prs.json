@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25526",
+      "number": 25526,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-18T09:05:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25724",
+      "number": 25724,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14405986",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-18T08:25:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25725",
+      "number": 25725,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14406892",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-18T08:22:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35922",
+      "number": 35922,
+      "title": "[SourceGen] Don't emit INPC handlers for static type references in C# XAML expressions",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-06-18T08:07:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25716",
+      "number": 25716,
+      "title": "Bump dotnet/arcade/.github/workflows/inter-branch-merge-base.yml from 0a80b038bcc0d76b2f26c7f22062942de75779e6 to 5f63985fe82894604956e653d43c161ebbc1b576",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-06-18T07:22:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25718",
+      "number": 25718,
+      "title": "[release/10.0.1xx] [dotnet] Use desktop MSBuild task assemblies in VS for all platforms",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-18T06:45:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4188",
       "number": 4188,
       "title": "Add Chromium release heads-up to the security-audit skill",
@@ -66531,7 +66591,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-18T00:50:06.732Z",
+  "lastUpdated": "2026-06-18T09:31:44.570Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
