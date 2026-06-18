@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25696",
+      "number": 25696,
+      "title": "Downgrade MT2255 warning to a log message Fixes #25670",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-18T17:01:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11696",
+      "number": 11696,
+      "title": "Bump external/Java.Interop from `f1dd87d` to `e6dd7b4`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-18T16:02:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25731",
+      "number": 25731,
+      "title": "[tests] Use Regex instead of string interpolation for Xcode location warning filter",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-18T15:42:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11699",
+      "number": 11699,
+      "title": "[release/10.0.1xx] [xabt] use a response file when calling `java r8.jar`",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-06-18T15:41:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4184",
+      "number": 4184,
+      "title": "[docs] Unify API-diff + release-notes into one agentic workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-18T14:47:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35895",
+      "number": 35895,
+      "title": "Hide `/review`, `/review rerun`, and `/review tests` command comments as resolved",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-18T14:45:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/332",
+      "number": 332,
+      "title": "build(deps): Bump dotnet-sdk from 10.0.109 to 10.0.301",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-06-18T13:59:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25727",
+      "number": 25727,
+      "title": "[CI] Tighten the needed network calls to comply with network restrictions",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-18T13:50:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32726",
+      "number": 32726,
+      "title": "[CV2][Mac] Fix Vertical List page slows down when resizing the window",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-18T13:49:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25729",
+      "number": 25729,
+      "title": "[xcode27.0] Baseline update for Xcode 27.0 Beta 1 (v2)",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-18T13:46:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11691",
+      "number": 11691,
+      "title": "Add backport workflow for cherry-picking PRs to release branches",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-18T13:38:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35688",
+      "number": 35688,
+      "title": "Fix Android ToolbarItem badge positioning",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-06-18T13:09:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11684",
+      "number": 11684,
+      "title": "Remove legacy projects importing Xamarin.Android.CSharp.targets",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-18T12:59:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11697",
+      "number": 11697,
+      "title": "Bump external/xamarin-android-tools from `c7e7f5e` to `132f790`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-18T12:57:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35988",
+      "number": 35988,
+      "title": "[net 11] Revert - Refactor the HybridWebView and properly support complex parameters",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-06-18T12:00:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35969",
+      "number": 35969,
+      "title": "Fix [ci-scan-net11] Android UI test visual regressions for Shell and Material3 TabbedPage (net11.0)",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-06-18T11:58:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25526",
       "number": 25526,
       "title": "[net11.0] Merge main into net11.0.",
@@ -66591,7 +66751,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-18T09:31:44.570Z",
+  "lastUpdated": "2026-06-18T17:04:47.299Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
