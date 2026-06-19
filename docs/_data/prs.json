@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4196",
+      "number": 4196,
+      "title": "Make API-diff changelog generation host-independent + regenerate 4.147/4.148/4.150 changelogs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-19T08:15:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25735",
+      "number": 25735,
+      "title": "Revert \"[net11.0] R2R-compile only System.Private.CoreLib for Debug CoreCLR mobile builds\"",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-19T07:25:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25640",
+      "number": 25640,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260604055240542 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-06-19T07:06:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4197",
+      "number": 4197,
+      "title": "Fix docs.cake moniker collision dropping iOS GL API docs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-19T01:11:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25740",
       "number": 25740,
       "title": "[release/10.0.1xx] Backport #25600 and #25727 to fix signing",
@@ -66891,7 +66931,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-19T00:54:14.701Z",
+  "lastUpdated": "2026-06-19T09:36:59.970Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
