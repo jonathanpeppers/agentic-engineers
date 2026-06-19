@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25740",
+      "number": 25740,
+      "title": "[release/10.0.1xx] Backport #25600 and #25727 to fix signing",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-18T20:27:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36005",
+      "number": 36005,
+      "title": "Revert `environment:` gating on review-trigger.yml",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-18T20:25:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11687",
+      "number": 11687,
+      "title": "Enable nullable reference types in JdkPackage.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-18T20:23:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11689",
+      "number": 11689,
+      "title": "[build] Fix `tools//<file>` paths in Microsoft.Android.Sdk pack",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-18T20:22:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11693",
+      "number": 11693,
+      "title": "[build] skip DownloadOneFileWithRetry on no-op builds",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-18T20:21:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1477",
+      "number": 1477,
+      "title": "Bump external/xamarin-android-tools from `5165523` to `132f790`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-06-18T20:20:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4192",
+      "number": 4192,
+      "title": "docs: generate frameworks docs from output/nugets, latest-only monikers",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-18T20:06:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3919",
+      "number": 3919,
+      "title": "Update docs submodule to latest main",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-06-18T19:51:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32529",
+      "number": 32529,
+      "title": "[iOS] Fix ScrollView with RTL FlowDirection and Horizontal Orientation scrolls in the wrong direction",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-18T19:31:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25741",
+      "number": 25741,
+      "title": "[xcode27.0] Merge main into xcode27.0",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-18T19:08:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25649",
+      "number": 25649,
+      "title": "[tests] Remove the 'UseSystem' option.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-18T18:16:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25730",
+      "number": 25730,
+      "title": "[docs] Improve XML docs for StatusCode",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-18T17:52:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4193",
+      "number": 4193,
+      "title": "[infra] Move release-notes Prepare into its own job (verbose, disk-managed, artifact handoff)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-18T17:50:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35971",
+      "number": 35971,
+      "title": "Surface p/0 PRs as Preview blockers; drop stale below-watermark SR branches from the tracker matrix",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-18T17:45:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25696",
       "number": 25696,
       "title": "Downgrade MT2255 warning to a log message Fixes #25670",
@@ -66751,7 +66891,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-18T17:04:47.299Z",
+  "lastUpdated": "2026-06-19T00:54:14.701Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
