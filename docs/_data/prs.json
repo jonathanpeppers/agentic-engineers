@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36006",
+      "number": 36006,
+      "title": "Surface p/0-labelled PRs targeting SR branches as release blockers (SR lane parity with Preview)",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-19T16:31:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35878",
+      "number": 35878,
+      "title": "[mobile] .NET 11 mobile runtime configuration updates",
+      "repo": "dotnet/maui",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-06-19T16:20:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36003",
+      "number": 36003,
+      "title": "Fix Skill Validation results comment: define missing agentCount + harden comment posting",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-19T16:13:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36004",
+      "number": 36004,
+      "title": "Deflake release-readiness recency test: remove wall-clock-dependent live assertions, add deterministic fixture coverage",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-19T16:07:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35964",
+      "number": 35964,
+      "title": "[Android] Fix  crash in Label FormattedText span position recalculation with MaxLines/TailTruncation",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-06-19T13:22:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35841",
+      "number": 35841,
+      "title": "[Android] Fix WebView.CanGoBack() returning true on first navigated page due to synthetic about:blank history entry",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-06-19T13:17:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35840",
+      "number": 35840,
+      "title": "[Windows] Fix PlatformTicker.Windows.cs — IsRunning always returns false",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-06-19T13:08:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35873",
+      "number": 35873,
+      "title": "Fix memory leak when clearing shared PathSegments from PathFigure",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-19T12:59:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25745",
+      "number": 25745,
+      "title": "[dotnet] Add new mlaunch 1.1.127 assemblies to SignList.xml",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-19T12:27:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25709",
+      "number": 25709,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-19T11:50:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36019",
+      "number": 36019,
+      "title": "[ci-scan-net11] [Android] Resave Android UI test snapshots for ShouldHideHeaderWhenTitleEmpty and ShouldShowHeaderWhenTitleNotEmpty",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-06-19T11:38:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25739",
+      "number": 25739,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-19T11:08:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25726",
+      "number": 25726,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 14407478",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-19T10:29:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25746",
+      "number": 25746,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-19T09:38:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25656",
+      "number": 25656,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-19T09:37:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4196",
       "number": 4196,
       "title": "Make API-diff changelog generation host-independent + regenerate 4.147/4.148/4.150 changelogs",
@@ -66931,7 +67081,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-19T09:36:59.970Z",
+  "lastUpdated": "2026-06-19T16:50:29.351Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
