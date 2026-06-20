@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36016",
+      "number": 36016,
+      "title": "[Android] Fix Shell SearchHandler toolbar icon tint",
+      "repo": "dotnet/maui",
+      "author": "erikzhang",
+      "mergedAt": "2026-06-20T12:01:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35894",
+      "number": 35894,
+      "title": "[Windows] Throws ArgumentOutOfRangeException on WinUI when setting MaximumDate to null",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-06-20T11:59:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36029",
       "number": 36029,
       "title": "Fix release-readiness tracker warnings: filter cross-repo PR cross-references and drop invalid authorAssociation gh field",
@@ -67131,7 +67151,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-20T09:05:04.496Z",
+  "lastUpdated": "2026-06-20T16:33:05.506Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
