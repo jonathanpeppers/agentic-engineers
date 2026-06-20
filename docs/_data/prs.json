@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36029",
+      "number": 36029,
+      "title": "Fix release-readiness tracker warnings: filter cross-repo PR cross-references and drop invalid authorAssociation gh field",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-19T20:08:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36021",
+      "number": 36021,
+      "title": "Always minimize /review, /review rerun, and /review tests command comments once authorized",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-19T19:46:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36020",
+      "number": 36020,
+      "title": "[Net11]Skip request-interception tests that hit echo.free.beeceptor.com",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-06-19T19:17:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35970",
+      "number": 35970,
+      "title": "Revert PR #33584: restore BindableObject property-context lookup model",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-19T18:37:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36028",
+      "number": 36028,
+      "title": "Update rebase action",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-19T18:04:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36006",
       "number": 36006,
       "title": "Surface p/0-labelled PRs targeting SR branches as release blockers (SR lane parity with Preview)",
@@ -67081,7 +67131,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-19T16:50:29.351Z",
+  "lastUpdated": "2026-06-20T00:44:58.831Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
