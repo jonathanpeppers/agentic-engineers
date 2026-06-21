@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/29560",
+      "number": 29560,
+      "title": "[BlazorWebView] Fixed Allow force reload for URLs with dots in query parameters",
+      "repo": "dotnet/maui",
+      "author": "tw4",
+      "mergedAt": "2026-06-21T14:15:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29910",
+      "number": 29910,
+      "title": "Fix StrokeDashArray on Border does not reset when set to null ",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-21T14:13:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25715",
+      "number": 25715,
+      "title": "[dotnet] Add WaitForExit, StandardOutputPath, StandardErrorPath MSBuild properties. Fixes #24848",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-21T12:05:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25748",
+      "number": 25748,
+      "title": "[docs] Improve XML docs for SKCloudServiceSetupOptions",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-21T11:54:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25747",
+      "number": 25747,
+      "title": "Update reviewer skill: never request changes, always use COMMENT",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-21T11:54:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36016",
       "number": 36016,
       "title": "[Android] Fix Shell SearchHandler toolbar icon tint",
@@ -67151,7 +67201,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-21T09:16:38.948Z",
+  "lastUpdated": "2026-06-21T16:33:59.972Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
