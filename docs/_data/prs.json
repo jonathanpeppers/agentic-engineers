@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/32851",
+      "number": 32851,
+      "title": "[iOS]Fix Shadow Property Incorrectly Modifies Visual Transform Matrix for Border, ContentView, Layouts, and SwipeView",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-21T22:02:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/29800",
+      "number": 29800,
+      "title": "Fixed [Windows] KeepScrollOffset Behavior Not Working as Expected in CarouselView",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-06-21T20:21:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35838",
+      "number": 35838,
+      "title": "Fix s_currentTweener++ in AnimationExtensions is not thread-safe, producing duplicate animation IDs",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-06-21T19:37:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35154",
+      "number": 35154,
+      "title": "[Android] Restore OnBackButtonPressed interception support when using OnBackPressedDispatcher ",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-06-21T19:23:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34463",
+      "number": 34463,
+      "title": "Fix safe area CSS in Blazor Hybrid templates for Android",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-21T19:01:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/29560",
       "number": 29560,
       "title": "[BlazorWebView] Fixed Allow force reload for URLs with dots in query parameters",
@@ -67201,7 +67251,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-21T16:33:59.972Z",
+  "lastUpdated": "2026-06-22T00:49:16.043Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
