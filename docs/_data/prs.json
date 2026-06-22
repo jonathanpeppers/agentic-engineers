@@ -1,6 +1,356 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25755",
+      "number": 25755,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260620053547244 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-06-22T17:27:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4195",
+      "number": 4195,
+      "title": "[v4] Promote remaining pre-v4 obsoletes to error and trim obsolete enums from the ref assembly",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-06-22T16:45:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25766",
+      "number": 25766,
+      "title": "Bump dotnet/arcade/.github/workflows/inter-branch-merge-base.yml from 5f63985fe82894604956e653d43c161ebbc1b576 to bace0c94c5ec24d81dc66d1adfb5ce44edb218e6",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-06-22T16:33:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25720",
+      "number": 25720,
+      "title": "[net11.0] [dotnet] Remove workaround for dotnet/sdk#52480",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-22T16:12:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25712",
+      "number": 25712,
+      "title": "[net11.0] 'dotnet watch' works again now, so enable the corresponding tests.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-22T16:10:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25723",
+      "number": 25723,
+      "title": "Expose application artifacts",
+      "repo": "dotnet/macios",
+      "author": "Redth",
+      "mergedAt": "2026-06-22T16:08:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1475",
+      "number": 1475,
+      "title": "Enable real signing on main branch",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-22T16:01:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25765",
+      "number": 25765,
+      "title": "[gh-aw] Eliminate magic GH_AW_* secret references from lock files",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-22T15:43:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/xcsync/pull/247",
+      "number": 247,
+      "title": "Cleanup unused workflows",
+      "repo": "dotnet/xcsync",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-22T15:24:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35955",
+      "number": 35955,
+      "title": "Fix rerun review scanner dispatch (batch decisions + harden PR-not-found guard)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-22T15:00:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25717",
+      "number": 25717,
+      "title": "[localization] Include template JSON files in OneLocBuild configuration. Fixes #20717",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-22T15:00:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25761",
+      "number": 25761,
+      "title": "[code-radiator] Skip branches with closed milestones and close stale PRs",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-22T14:50:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11701",
+      "number": 11701,
+      "title": "[ci] Fix network isolation requirements",
+      "repo": "dotnet/android",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-22T14:34:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34007",
+      "number": 34007,
+      "title": "[Testing] Feature matrix UITest Cases for MenuBarItem Control",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-06-22T14:31:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25751",
+      "number": 25751,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-22T14:27:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36031",
+      "number": 36031,
+      "title": "Sanitize upstream titles in release-readiness tracker tables (embedded newlines + unescaped pipes)",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-22T14:24:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35945",
+      "number": 35945,
+      "title": "Fixed VerifyImageAspect_CenterWithImageSourceFromUri failure",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-06-22T14:06:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25744",
+      "number": 25744,
+      "title": "[xcode26.6] Bump to Xcode 26.6 Release Candidate 2",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-22T14:03:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11705",
+      "number": 11705,
+      "title": "Bump external/Java.Interop from `e6dd7b4` to `498ef9a`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-22T14:01:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32522",
+      "number": 32522,
+      "title": "[Windows] Fix for MenuFlyoutItem displaying icon in monochrome instead of original colors",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-06-22T13:38:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35533",
+      "number": 35533,
+      "title": "[iOS] ScrollView: Fix landscape safe-area handling around the notch",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-06-22T13:27:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35848",
+      "number": 35848,
+      "title": "[iOS/Mac][CV2] Fix CarouselView2 freezes with infinite loop when IsScrollAnimated=False",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-06-22T13:23:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34510",
+      "number": 34510,
+      "title": "[Android] Shell Flyout: Apply safe-area insets to the flyout container",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-22T13:22:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11700",
+      "number": 11700,
+      "title": "[Xamarin.Android.Build.Tasks] warn XA0149 on legacy `__AndroidEnvironment__` resources",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-22T13:09:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34532",
+      "number": 34532,
+      "title": " [Android] CarouselView: Fix position jump when tapping non-Start aligned Entry",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-06-22T13:07:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33733",
+      "number": 33733,
+      "title": "Fix Picker reacts to data changes after the page is closed",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-22T13:05:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36058",
+      "number": 36058,
+      "title": "Revert Android CollectionView handler cleanup and scrolling performance fixes (#34534, #35379, #35536)",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-06-22T13:03:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1478",
+      "number": 1478,
+      "title": "[tests] Exclude value marshaler tests from trimmable typemap",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-22T12:53:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25736",
+      "number": 25736,
+      "title": "[xharness] Clean up ARM64 test variations.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-22T12:32:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25753",
+      "number": 25753,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-22T12:23:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36026",
+      "number": 36026,
+      "title": "Fix iOS Shell badge color bleed",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-06-22T12:15:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25752",
+      "number": 25752,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-22T12:05:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25714",
+      "number": 25714,
+      "title": "[dotnet] Add displayName to template symbols for localization. Fixes #20718.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-22T11:55:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25757",
+      "number": 25757,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260621053538722 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-06-22T11:45:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25732",
+      "number": 25732,
+      "title": "[msbuild] Copy inputs to the remote Mac in the CompileNativeCode task.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-22T10:47:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/32851",
       "number": 32851,
       "title": "[iOS]Fix Shadow Property Incorrectly Modifies Visual Transform Matrix for Border, ContentView, Layouts, and SwipeView",
@@ -67251,7 +67601,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-22T10:02:43.488Z",
+  "lastUpdated": "2026-06-22T17:32:50.994Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
