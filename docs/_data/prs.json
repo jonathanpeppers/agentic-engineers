@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4207",
+      "number": 4207,
+      "title": "[docs] Release-notes: main-only daily workflow + GitHub Release teaser playbook",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-23T16:46:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4218",
+      "number": 4218,
+      "title": "[api-docs] Stop merge from writing unfilled remarks scaffold to XML",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-23T16:38:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11683",
+      "number": 11683,
+      "title": "Map cancelled request body uploads to OperationCanceledException in AndroidMessageHandler",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-23T14:49:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35927",
+      "number": 35927,
+      "title": "Add CI Failure Fixer: branch-scoped main + net11.0 auto-fix workflows",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-23T14:21:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35891",
+      "number": 35891,
+      "title": "[Net 11]Fix SwipeItemView command leak",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-23T14:18:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1479",
+      "number": 1479,
+      "title": "[Java.Interop.Tools.Maven] Validate Artifact coordinates",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-23T14:14:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25771",
+      "number": 25771,
+      "title": "[tests] Print the path to the binlog when building a test project.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-23T14:14:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1480",
+      "number": 1480,
+      "title": "[Java.Interop.Tools.Maven] Assert resolved cache paths stay under CacheDirectory",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-23T14:14:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34598",
+      "number": 34598,
+      "title": "[iOS, MacCatalyst] CollectionView: Fix grid spacing updates for first row and column",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-06-23T14:08:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11715",
+      "number": 11715,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14456850",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-23T13:49:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11632",
+      "number": 11632,
+      "title": "[mobile] .NET 11 mobile runtime configuration updates",
+      "repo": "dotnet/android",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-06-23T13:47:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31913",
+      "number": 31913,
+      "title": "[Windows] Fix FilePicker Returns wrong ContentType for *.webp files",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-23T12:31:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11714",
+      "number": 11714,
+      "title": "Bump external/Java.Interop from `498ef9a` to `dba007b`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-23T12:29:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11695",
+      "number": 11695,
+      "title": "[Mono.Android.Export] Enable nullable reference types and remove MONOTOUCH guard in CodeWhen.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-23T12:28:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11710",
+      "number": 11710,
+      "title": "[Dependabot] Cover /src/proguard-android in gradle updates",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-23T11:48:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34445",
+      "number": 34445,
+      "title": "[iOS] Fix Font autoscaling does not work in realtime",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-06-23T11:43:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25778",
+      "number": 25778,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-23T11:27:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25780",
+      "number": 25780,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-23T11:27:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11709",
+      "number": 11709,
+      "title": "[Xamarin.Android.Build.Tasks] Skip library proguard.txt with disallowed global options",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-23T10:24:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11704",
+      "number": 11704,
+      "title": "[native] Skip cmake reconfigure on no-op builds",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-23T10:23:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25762",
       "number": 25762,
       "title": "[tools] Fix race condition in assembly-preparer Makefile",
@@ -67961,7 +68161,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-23T09:08:56.702Z",
+  "lastUpdated": "2026-06-23T16:50:23.684Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
