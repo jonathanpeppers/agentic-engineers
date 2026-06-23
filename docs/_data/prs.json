@@ -1,6 +1,96 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25762",
+      "number": 25762,
+      "title": "[tools] Fix race condition in assembly-preparer Makefile",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-23T08:38:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/345",
+      "number": 345,
+      "title": "Add products index to README",
+      "repo": "dotnet/maui-labs",
+      "author": "davidortinau",
+      "mergedAt": "2026-06-23T08:05:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/346",
+      "number": 346,
+      "title": "[ai-docs] docs: fix MauiLabs.sln → .slnx and add maui port to CLI description",
+      "repo": "dotnet/maui-labs",
+      "author": "github-actions",
+      "mergedAt": "2026-06-23T07:55:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25764",
+      "number": 25764,
+      "title": "[dotnet] Don't quote the 'RunCommand' property.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-23T07:38:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35999",
+      "number": 35999,
+      "title": "Bump Magick.NET-Q8-AnyCPU from 14.12.0 to 14.13.1",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-06-23T07:10:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25775",
+      "number": 25775,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-06-23T07:05:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25779",
+      "number": 25779,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-23T07:01:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25770",
+      "number": 25770,
+      "title": "[tests] Merge BuildIpaOnRemoteWindowsTest and ArchiveOnRemoteWindowsTest into one",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-23T03:03:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25776",
+      "number": 25776,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-23T02:00:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4211",
       "number": 4211,
       "title": "Fix release-branch skill integration-branch model and add bump-version helper",
@@ -67871,7 +67961,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-23T00:44:06.419Z",
+  "lastUpdated": "2026-06-23T09:08:56.702Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
