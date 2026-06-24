@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4231",
+      "number": 4231,
+      "title": "[docs] docs: regenerate API diffs and polish release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-06-23T22:56:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11585",
+      "number": 11585,
+      "title": "Bump Mono.Cecil from 0.11.5 to 0.11.6",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-23T22:32:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11713",
+      "number": 11713,
+      "title": "Enable nullable reference types in WaitForAppDetection.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-23T22:31:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4225",
+      "number": 4225,
+      "title": "docs: drop obsolete GrVkYcbcrConversionInfo page to fix Learn xref collision",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-23T21:57:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36066",
+      "number": 36066,
+      "title": "Surface nightly dogfood feed staleness at the top of release-readiness trackers",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-23T21:42:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25768",
+      "number": 25768,
+      "title": "[main] Bump mlaunch to support Xcode 27 Device Hub",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-23T21:05:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4224",
+      "number": 4224,
+      "title": "[docs] Regenerate API diffs and polish release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-06-23T20:49:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4221",
+      "number": 4221,
+      "title": "Fix integration test harness for .NET 10",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-23T20:30:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11723",
+      "number": 11723,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-23T20:10:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11722",
+      "number": 11722,
+      "title": "Fix SolutionBuilder nullability warnings",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-23T19:20:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25783",
+      "number": 25783,
+      "title": "[xtro] Fix computing the path to the assembly we're testing locally.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-23T19:00:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25750",
+      "number": 25750,
+      "title": "🤖 Merge 'main' => 'net11.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-06-23T18:25:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4220",
+      "number": 4220,
+      "title": "Add mono/skia counterpart branching to release-branch skill",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-23T18:21:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25774",
+      "number": 25774,
+      "title": "[docs] Improve XML docs for SKReceiptProperties",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-23T18:10:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4217",
+      "number": 4217,
+      "title": "[docs] Remove superseded doc-automation workflows from release/4.148.x",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-23T17:22:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11720",
+      "number": 11720,
+      "title": "Fix Android SDK installer build warnings",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-23T17:11:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11477",
+      "number": 11477,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-23T16:56:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4207",
       "number": 4207,
       "title": "[docs] Release-notes: main-only daily workflow + GitHub Release teaser playbook",
@@ -68161,7 +68331,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-23T16:50:23.684Z",
+  "lastUpdated": "2026-06-24T00:39:13.516Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
