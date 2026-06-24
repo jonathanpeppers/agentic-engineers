@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25711",
+      "number": 25711,
+      "title": "[tests] Revert workarounds for dotnet/runtime#123503. Fixes #24558.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-24T08:59:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25788",
+      "number": 25788,
+      "title": "[docs] Improve XML docs for MPSkipIntervalCommand",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-24T08:57:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35939",
+      "number": 35939,
+      "title": "Fix dogfood PR artifact retrieval for failed aggregate builds",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-06-24T08:40:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25784",
+      "number": 25784,
+      "title": "[devops] Run macOS tests on macOS Golden Gate 🌉",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-24T08:29:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/348",
+      "number": 348,
+      "title": "Check GTK version at startup",
+      "repo": "dotnet/maui-labs",
+      "author": "noiseonwires",
+      "mergedAt": "2026-06-24T08:24:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35462",
+      "number": 35462,
+      "title": "Fix ShellContent badge propagation",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-06-24T08:02:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11721",
+      "number": 11721,
+      "title": "Bump external/Java.Interop from `dba007b` to `7049364`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-24T07:04:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11711",
+      "number": 11711,
+      "title": "Centralize Gradle Maven repositories via shared eng/gradle/repositories.gradle",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-24T07:04:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25789",
+      "number": 25789,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-06-24T04:07:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25786",
+      "number": 25786,
+      "title": "[xcode27.0] Update to Xcode 27.0 Beta 2 and make sharpie aware of anyAppleOS",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-24T02:12:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25699",
+      "number": 25699,
+      "title": "[NSUrlSessionHandler] Surface cancelled requests with a better exception. Fixes #25667.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-24T01:06:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25749",
+      "number": 25749,
+      "title": "[tests] Replace make-based packaged macOS test runner with C# script",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-24T01:05:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4231",
       "number": 4231,
       "title": "[docs] docs: regenerate API diffs and polish release notes",
@@ -68331,7 +68451,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-24T00:39:13.516Z",
+  "lastUpdated": "2026-06-24T09:07:45.213Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
