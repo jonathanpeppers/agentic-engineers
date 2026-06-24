@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25790",
+      "number": 25790,
+      "title": "[msbuild] Don't let binding sidecar manifest metadata redirect native reference output paths",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-24T16:37:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4234",
+      "number": 4234,
+      "title": "Update docs submodule to latest main",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-06-24T15:53:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/259",
+      "number": 259,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-24T15:06:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36107",
+      "number": 36107,
+      "title": "[Inflight/Candidate][iOS] Fix for ShouldIgnoreBottomContentInsetForCollectionViewItems - Editor cells becoming invisible in CollectionView (CV1)",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-06-24T14:55:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33192",
+      "number": 33192,
+      "title": "[Android] ScrollView doesn't work in the Shell Flyout Header ",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-06-24T14:47:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1481",
+      "number": 1481,
+      "title": "Remove unnecessary DAM attributes",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-24T14:16:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25781",
+      "number": 25781,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-24T13:45:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34758",
+      "number": 34758,
+      "title": "[net11.0][Android] Implement handler based Shell architecture replacing legacy renderers",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-06-24T13:41:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25794",
+      "number": 25794,
+      "title": "[github] Change code radiator to create ready (non-draft) pull requests",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-24T13:26:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11724",
+      "number": 11724,
+      "title": "[installer] Suppress legacy XML doc warnings",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-24T13:13:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35987",
+      "number": 35987,
+      "title": "Make Permissions API testable",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-06-24T13:05:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11726",
+      "number": 11726,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14470110",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-24T12:58:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36063",
+      "number": 36063,
+      "title": "Fix BindableObject.GetLocalValueEnumerator() removed by #33584 breaks VS Live Property Explorer",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-24T12:51:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25672",
+      "number": 25672,
+      "title": "[mobile] .NET 11 mobile runtime configuration updates",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-06-24T12:15:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36095",
+      "number": 36095,
+      "title": "[inflight/candidate] Revert - Avoid layout diagnostics allocations without listeners (#35475)",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-24T12:08:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35960",
+      "number": 35960,
+      "title": "[iOS] Fix transparent Shell navigation bar appearing opaque after keyboard dismiss",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-06-24T11:58:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25787",
+      "number": 25787,
+      "title": "[net11.0] R2R-compile only System.Private.CoreLib for Debug CoreCLR arm64 builds",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-24T11:31:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35893",
+      "number": 35893,
+      "title": "Fix SearchHandler.QueryIcon, ClearIcon, and ClearPlaceholderIcon do not update dynamically at runtime",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-06-24T10:50:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25711",
       "number": 25711,
       "title": "[tests] Revert workarounds for dotnet/runtime#123503. Fixes #24558.",
@@ -68451,7 +68631,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-24T09:07:45.213Z",
+  "lastUpdated": "2026-06-24T16:45:19.998Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
