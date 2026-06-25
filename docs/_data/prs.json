@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25807",
+      "number": 25807,
+      "title": "[release/11.0.1xx-preview6] Bump mlaunch to support Xcode 27 Device Hub (#25768)",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-25T00:09:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/261",
+      "number": 261,
+      "title": "Add sk_imagefilter_new_crop C API",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-24T22:51:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36097",
+      "number": 36097,
+      "title": "Fix Path.Data and Path.RenderTransform visual tree leaks with shared resources",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-24T22:17:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36112",
+      "number": 36112,
+      "title": "Add new versions to bug report template",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-24T21:55:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4228",
+      "number": 4228,
+      "title": "Add SKImageFilter.CreateEmpty() method",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-24T21:41:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/260",
+      "number": 260,
+      "title": "Add sk_imagefilter_new_empty() C API",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-24T21:29:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4190",
+      "number": 4190,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-24T21:26:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36110",
+      "number": 36110,
+      "title": "Update net11.0 merge-flow target to release/11.0.1xx-preview6",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-24T20:12:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35364",
+      "number": 35364,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet, dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-24T20:07:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35870",
+      "number": 35870,
+      "title": "Remove MAUI compatibility package",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-06-24T20:05:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1482",
+      "number": 1482,
+      "title": "[ci] Bump hosted pool images to windows-2025 / macOS-15",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-24T19:54:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11725",
+      "number": 11725,
+      "title": "$(AndroidPackVersionSuffix)=preview.7; main is .NET 11 preview 7",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-24T19:47:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11636",
+      "number": 11636,
+      "title": "[build] Provision .NET SDK via standard scripts, drop xaprepare's installer",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-24T18:44:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25795",
+      "number": 25795,
+      "title": "[tests] Fix expected value for 'RunCommand' after #25764.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-24T18:41:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1477",
+      "number": 1477,
+      "title": "Weekly stable package update 20260623",
+      "repo": "dotnet/android-libraries",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-06-24T17:51:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25796",
+      "number": 25796,
+      "title": "[docs] Improve XML docs for MPVolumeSettings",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-24T17:43:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25800",
+      "number": 25800,
+      "title": "Bump dotnet/arcade/.github/workflows/inter-branch-merge-base.yml from bace0c94c5ec24d81dc66d1adfb5ce44edb218e6 to 0ee033f311c9e1aca360c18e0c3f7c2c61b7f2be",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-06-24T17:43:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25804",
+      "number": 25804,
+      "title": "[github] Update & recompile agentic workflows.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-24T17:42:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25790",
       "number": 25790,
       "title": "[msbuild] Don't let binding sidecar manifest metadata redirect native reference output paths",
@@ -68631,7 +68811,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-24T16:45:19.998Z",
+  "lastUpdated": "2026-06-25T00:44:24.634Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
