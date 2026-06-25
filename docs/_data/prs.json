@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36123",
+      "number": 36123,
+      "title": "[release/11.0.1xx-preview6] Bump dotnet/macios to 26.5.11714-net11-p6",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-25T16:28:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36067",
+      "number": 36067,
+      "title": "Converge /review tests with azdo-build-investigator via shared CI facts doc",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-25T16:27:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33025",
+      "number": 33025,
+      "title": "Fix the Aspire ServiceDefaults project template",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-25T16:24:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36089",
+      "number": 36089,
+      "title": "Don't unpack netstandard workload packs (fix nightly vs-workload.props MSB4019)",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-25T16:19:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36137",
+      "number": 36137,
+      "title": "Increment PreReleaseVersionIteration from 6 to 7",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-25T16:16:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35597",
+      "number": 35597,
+      "title": "[Windows][net11] Make Layout AutomationPeer public + opt-in for screen reader tree",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-06-25T16:02:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36080",
+      "number": 36080,
+      "title": "Fix rerun review scanner: dispatch review-trigger.yml instead of reimplementing AzDO",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-25T15:39:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35704",
+      "number": 35704,
+      "title": "Document automated PR review workflow",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-25T15:38:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11735",
+      "number": 11735,
+      "title": "Enable ManagedPeer native registration for LLVM typemap",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-25T15:03:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11733",
+      "number": 11733,
+      "title": "[xaprepare] Check in Ndk.projitems, remove generator",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-25T13:48:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1481",
+      "number": 1481,
+      "title": "Fix Material Slider ACW type erasure clash when implementing listener interfaces",
+      "repo": "dotnet/android-libraries",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-06-25T13:45:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25813",
+      "number": 25813,
+      "title": "[dependabot] Fix formatting of dependabot.yml.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-25T12:12:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25808",
+      "number": 25808,
+      "title": "[docs] Improve XML docs for MPNowPlayingInfo",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-25T12:11:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36073",
+      "number": 36073,
+      "title": "[iOS & Mac] Fix NullReferenceException in CollectionViewHandler2 after handler restore when property changes",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-06-25T12:05:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25809",
+      "number": 25809,
+      "title": "[ARKit] Bind new Xcode 27 APIs and deprecations",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-25T11:59:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25797",
+      "number": 25797,
+      "title": "[CI] Add workaround for dotnet/runtime#91987 (NuGet-Migrations race condition)",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-25T09:53:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25806",
+      "number": 25806,
+      "title": "[github] Set the agentic workflow's environment to 'gh-aw-environment'.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-25T09:42:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11731",
       "number": 11731,
       "title": "[xaprepare] Remove empty Scenario_AndroidTestDependencies and Scenario_EmulatorTestDependencies",
@@ -68831,7 +69001,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-25T09:07:17.717Z",
+  "lastUpdated": "2026-06-25T16:47:16.915Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
