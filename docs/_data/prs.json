@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4239",
+      "number": 4239,
+      "title": "Support release-branch targeting in Skia upstream sync (+ Opus 4.7, libc++ build fix)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-25T23:26:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33365",
+      "number": 33365,
+      "title": "GestureManager: Add handler-provided platform managers",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-25T22:31:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/393",
+      "number": 393,
+      "title": "Bump Microsoft.NET.Test.Sdk from 18.6.0 to 18.7.0",
+      "repo": "dotnet/android-tools",
+      "author": "dependabot",
+      "mergedAt": "2026-06-25T21:17:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/392",
+      "number": 392,
+      "title": "Bump GitInfo from 3.6.0 to 3.6.1",
+      "repo": "dotnet/android-tools",
+      "author": "dependabot",
+      "mergedAt": "2026-06-25T21:16:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25814",
+      "number": 25814,
+      "title": "[github] Code radiator: file an issue if PR creation fails",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-25T21:08:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36079",
+      "number": 36079,
+      "title": "[iOS/macCatalyst] Fix Entry cursor reset when typing with TextTransform",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-06-25T19:41:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34564",
+      "number": 34564,
+      "title": "[Android][Windows] Fix GraphicsView passing fractional dirtyRect dimensions to IDrawable.Draw",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-06-25T19:34:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4227",
+      "number": 4227,
+      "title": "Add SKColorFilter.CreateOverdraw() API",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-25T18:56:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/262",
+      "number": 262,
+      "title": "Add sk_colorfilter_new_overdraw C API",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-25T18:54:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4244",
+      "number": 4244,
+      "title": "Fix integration test harness Docker detection + command timeout, and release-testing skill filter syntax",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-25T18:07:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25760",
+      "number": 25760,
+      "title": "[devops] Use ACES pools for PRs.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-25T17:46:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25811",
+      "number": 25811,
+      "title": "[AudioToolbox] Bind new Xcode 27 AudioToolbox APIs.",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-25T17:32:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4243",
+      "number": 4243,
+      "title": "Dev/golden image tests followups",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-06-25T17:22:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4229",
+      "number": 4229,
+      "title": "Add SKImageFilter.CreateCrop() - Fixes #3938",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-25T17:12:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36123",
       "number": 36123,
       "title": "[release/11.0.1xx-preview6] Bump dotnet/macios to 26.5.11714-net11-p6",
@@ -69001,7 +69141,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-25T16:47:16.915Z",
+  "lastUpdated": "2026-06-26T00:45:36.217Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
