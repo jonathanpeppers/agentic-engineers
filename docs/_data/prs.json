@@ -1,6 +1,256 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25822",
+      "number": 25822,
+      "title": "[AuthenticationServices] Bind new macOS 27.0 APIs.",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-26T16:11:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34859",
+      "number": 34859,
+      "title": "Skip simulator install in official pack pipeline",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-26T15:48:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25834",
+      "number": 25834,
+      "title": "[github] Run 'gh aw upgrade'",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-26T15:42:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1447",
+      "number": 1447,
+      "title": "Remove Java.Runtime.Environment and keep Java.Interop tests running",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-26T15:19:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1483",
+      "number": 1483,
+      "title": "[Xamarin.Android.Tools.Bytecode] Support JSpecify nullness annotations",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-26T15:19:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25835",
+      "number": 25835,
+      "title": "[github] Remove the inter-branch-merge-flow workflow.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-26T15:17:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25824",
+      "number": 25824,
+      "title": "[AutomaticAssessmentConfiguration] Bind new Xcode 27 APIs",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-26T15:14:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25817",
+      "number": 25817,
+      "title": "Bump dotnet/arcade/.github/workflows/inter-branch-merge-base.yml from 0ee033f311c9e1aca360c18e0c3f7c2c61b7f2be to b076228a542025c4f879f254d38adb5cf34a2475",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-06-26T14:59:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1474",
+      "number": 1474,
+      "title": "Register JNI natives via blittable JniNativeMethod",
+      "repo": "dotnet/java-interop",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-26T13:45:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35924",
+      "number": 35924,
+      "title": "[Testing] Fixed Test case failure in PR 35716 - [06/08/2026] Candidate - 2",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-06-26T13:45:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1484",
+      "number": 1484,
+      "title": "[tests] Share + shrink api-24.xml.in fixture (~56 MiB → 393 KB)",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-26T13:33:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36125",
+      "number": 36125,
+      "title": "Fix AOT trim warnings on net11.0 (iOS + Android) for Integration tests AOT failure ",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-06-26T13:27:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36100",
+      "number": 36100,
+      "title": "[net11] Update test resource URL and resave test image",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-06-26T13:26:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36134",
+      "number": 36134,
+      "title": "Revert - Fix Entry clear button appearing dimmed compared to TextColor #35541",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-06-26T13:10:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11746",
+      "number": 11746,
+      "title": "[Mono.Android] Add XML docs to KeyCharacterMap convenience overloads",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-26T13:07:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30378",
+      "number": 30378,
+      "title": "[Mac] Fix Titlebar content is not aligned to left on fullscreen",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-26T12:50:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25819",
+      "number": 25819,
+      "title": "[docs] Improve XML docs for MPNowPlayingInfoCenter",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-26T12:37:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25785",
+      "number": 25785,
+      "title": "[devops] Move comment identifier to beginning of GitHub CI comments",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-26T12:15:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34791",
+      "number": 34791,
+      "title": "Update Windows App SDK to 1.8.260529003 and related dependencies",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-26T11:58:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11732",
+      "number": 11732,
+      "title": "[xaprepare] Remove redundant Configuration.Generated.props generation",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-26T09:10:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11736",
+      "number": 11736,
+      "title": "Tests: rename InstantRunTest to FastDevTest and drop duplicate",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-26T09:09:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11737",
+      "number": 11737,
+      "title": "[build] Remove orphan .in templates from build-tools/scripts/",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-26T09:09:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11739",
+      "number": 11739,
+      "title": "[aw] Replace 3 always-noop nightly-fix-finder categories",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-26T09:08:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11740",
+      "number": 11740,
+      "title": "[xaprepare] Remove unused tool runners and helper classes",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-26T09:07:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11742",
+      "number": 11742,
+      "title": "Add XML documentation to System.Linq.Extensions.ToEnumerable methods",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-26T09:06:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11747",
       "number": 11747,
       "title": "Bump external/xamarin-android-tools from `132f790` to `bcce35f`",
@@ -69151,7 +69401,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-26T09:07:10.479Z",
+  "lastUpdated": "2026-06-26T16:41:21.808Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
