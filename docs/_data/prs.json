@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11747",
+      "number": 11747,
+      "title": "Bump external/xamarin-android-tools from `132f790` to `bcce35f`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-26T09:05:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4239",
       "number": 4239,
       "title": "Support release-branch targeting in Skia upstream sync (+ Opus 4.7, libc++ build fix)",
@@ -69141,7 +69151,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-26T00:45:36.217Z",
+  "lastUpdated": "2026-06-26T09:07:10.479Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
