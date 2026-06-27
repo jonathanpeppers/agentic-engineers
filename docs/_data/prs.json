@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11760",
+      "number": 11760,
+      "title": "[xaprepare] Move CMake file generation into a dedicated MSBuild project",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-27T08:15:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11762",
+      "number": 11762,
+      "title": "[ci] Android PR Reviewer: restrict to COMMENT events only",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-27T01:41:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11763",
+      "number": 11763,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260626230714150 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-06-27T01:38:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4267",
       "number": 4267,
       "title": "Group release-notes site by support status (stable/preview) + audit drift check",
@@ -69561,7 +69591,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-27T00:42:58.778Z",
+  "lastUpdated": "2026-06-27T08:56:26.156Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
