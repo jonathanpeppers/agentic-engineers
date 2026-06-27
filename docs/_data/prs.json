@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4267",
+      "number": 4267,
+      "title": "Group release-notes site by support status (stable/preview) + audit drift check",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-26T22:58:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25826",
+      "number": 25826,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-06-26T22:17:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4260",
+      "number": 4260,
+      "title": "ci: regroup and rename GitHub Actions workflows; prune dead ones",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-26T21:41:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11738",
+      "number": 11738,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-26T21:08:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4247",
+      "number": 4247,
+      "title": "perf(SKSurface): cache the Canvas wrapper across calls",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-06-26T19:52:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11423",
+      "number": 11423,
+      "title": "Enable android-arm NativeAOT pack wiring",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-26T19:51:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1485",
+      "number": 1485,
+      "title": "Bump external/xamarin-android-tools from `5165523` to `bcce35f`",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-06-26T19:32:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11750",
+      "number": 11750,
+      "title": "[TrimmableTypeMap] Extract JavaMarshal registered peer tracking",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-26T19:23:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11752",
+      "number": 11752,
+      "title": "[TrimmableTypeMap] Fix trimmable manifest generation parity",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-26T19:17:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34854",
+      "number": 34854,
+      "title": "Remove disabled darc-pub-dotnet-android NuGet feed",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-26T19:09:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34797",
+      "number": 34797,
+      "title": "Add branch guard to merge-net11-to-release workflow",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-26T19:09:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4254",
+      "number": 4254,
+      "title": "Add a main (tip) mode to the Skia upstream sync",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-26T18:13:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11755",
+      "number": 11755,
+      "title": "Disable failing weak reference leak test",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-26T18:06:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11758",
+      "number": 11758,
+      "title": "[tests] Verbose apkdiff output for BuildReleaseArm64 regressions",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-26T18:05:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34629",
+      "number": 34629,
+      "title": "Fix CI pipeline build warnings (RS0016/RS0017, XA1006, duplicate splash, XAML)",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-06-26T17:33:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1483",
+      "number": 1483,
+      "title": "20260626 alignment bumps",
+      "repo": "dotnet/android-libraries",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-06-26T17:12:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25822",
       "number": 25822,
       "title": "[AuthenticationServices] Bind new macOS 27.0 APIs.",
@@ -69401,7 +69561,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-26T16:41:21.808Z",
+  "lastUpdated": "2026-06-27T00:42:58.778Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
