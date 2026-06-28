@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11756",
+      "number": 11756,
+      "title": "[androidsdk] Fix SDK extraction incrementality",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-28T01:47:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36188",
       "number": 36188,
       "title": "Update net11.0 merge-flow target to release/11.0.1xx-preview6",
@@ -69621,7 +69631,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-28T00:44:13.021Z",
+  "lastUpdated": "2026-06-28T09:04:37.366Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
