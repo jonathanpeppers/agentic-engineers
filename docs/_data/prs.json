@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36188",
+      "number": 36188,
+      "title": "Update net11.0 merge-flow target to release/11.0.1xx-preview6",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-27T20:46:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11766",
+      "number": 11766,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14507177",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-06-27T20:23:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34351",
+      "number": 34351,
+      "title": "Fix Shell Navigating event not firing on ShellContent change",
+      "repo": "dotnet/maui",
+      "author": "jpd21122012",
+      "mergedAt": "2026-06-27T17:47:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11760",
       "number": 11760,
       "title": "[xaprepare] Move CMake file generation into a dedicated MSBuild project",
@@ -69591,7 +69621,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-27T16:25:20.175Z",
+  "lastUpdated": "2026-06-28T00:44:13.021Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
