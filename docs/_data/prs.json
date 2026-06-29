@@ -1,6 +1,426 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25849",
+      "number": 25849,
+      "title": "[build] Fix NuGet migration race condition workaround",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-29T16:51:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4271",
+      "number": 4271,
+      "title": "Bind SKPaint.GetFastBounds",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-29T16:41:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36140",
+      "number": 36140,
+      "title": "Run milestone management automatically on release tag push",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-29T16:36:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1486",
+      "number": 1486,
+      "title": "Fix Material Slider ACW implementor build failure (#1484)",
+      "repo": "dotnet/android-libraries",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-06-29T16:20:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25777",
+      "number": 25777,
+      "title": "[AppKit] Add bindings for the new APIs in Xcode 27.",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-29T16:08:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25828",
+      "number": 25828,
+      "title": "[AVFoundation] Bind Xcode 27 APIs",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-29T16:07:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11769",
+      "number": 11769,
+      "title": "[TrimmableTypeMap] Use non-generic JavaPeerProxy base for interface proxies (NativeAOT)",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-29T15:59:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36195",
+      "number": 36195,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-preview6'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-06-29T15:55:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4258",
+      "number": 4258,
+      "title": "Harden Skia-sync conflict policy, allow durable gn args, and split skill vs workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-29T15:40:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36184",
+      "number": 36184,
+      "title": "[release/11.0.1xx-preview6] Bump dotnet/dotnet to preview.6.26325.125 (BAR 320350) and remove sdk#54779 workaround",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-29T15:33:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/271",
+      "number": 271,
+      "title": "Add sk_paint_compute_fast_bounds C API",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-29T15:15:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4262",
+      "number": 4262,
+      "title": "[skia-sync] Merge upstream chrome/m148 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-29T15:08:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/268",
+      "number": 268,
+      "title": "[skia-sync] Merge upstream chrome/m148",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-29T15:00:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36186",
+      "number": 36186,
+      "title": "[net11.0] Bump dotnet/dotnet (VMR) to preview.6.26325.125 (BAR 320350) and remove sdk#54779 workaround",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-06-29T14:59:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4269",
+      "number": 4269,
+      "title": "Fix small-sigma raster blur regression (define SK_AVOID_SLOW_RASTER_PIPELINE_BLURS)",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-06-29T14:58:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11670",
+      "number": 11670,
+      "title": "[skills] Update CI status skill for public pipeline",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-29T14:51:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11796",
+      "number": 11796,
+      "title": "[TrimmableTypeMap] Complete trimmable manifest generation parity",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-29T14:48:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11789",
+      "number": 11789,
+      "title": "[TrimmableTypeMap] Generate the typemap before the NativeAOT inner build so the IDE Compile→Sign flow works",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-29T14:47:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35912",
+      "number": 35912,
+      "title": "[Windows] Make Layout AutomationPeer internal + opt-in for screen reader tree",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-29T14:45:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11749",
+      "number": 11749,
+      "title": "[TrimmableTypeMap] Fix inherited generic base typemap refs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-29T14:44:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11764",
+      "number": 11764,
+      "title": "[TrimmableTypeMap] Improve trimmable typemap build incrementality",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-29T14:41:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35155",
+      "number": 35155,
+      "title": "Fix Shell flyout item template does not update selected visuals after DynamicResource changes",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-29T14:32:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31376",
+      "number": 31376,
+      "title": "[iOS] Fix RefreshView causes CollectionView scroll position to reset",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-29T14:32:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36150",
+      "number": 36150,
+      "title": "Shapes: Fix TransformGroup child subscription leaks",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-06-29T14:29:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11785",
+      "number": 11785,
+      "title": "Fix misleading XA4243 error when more than one JavaArtifact is specified",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-29T14:13:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11794",
+      "number": 11794,
+      "title": "[TrimmableTypeMap] Honor AndroidApplicationJavaClass for the JCW base and manifest",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-29T13:56:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25832",
+      "number": 25832,
+      "title": "[docs] Improve XML docs for WKWindowFeatures",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-29T13:49:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11787",
+      "number": 11787,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-29T13:35:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11798",
+      "number": 11798,
+      "title": "[TrimmableTypeMap] Keep user AndroidJavaSource Java under R8 shrinking",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-29T13:27:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25847",
+      "number": 25847,
+      "title": "[code-radiator] Allow pushing protected files in cross-branch merges",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-29T13:11:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11791",
+      "number": 11791,
+      "title": "[TrimmableTypeMap] Don't stage shrunk assemblies into the shared runtime pack on NativeAOT",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-29T13:00:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11761",
+      "number": 11761,
+      "title": "[tests] Fix CA1416 root cause in test projects instead of suppressing it",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-29T12:59:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11779",
+      "number": 11779,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260628103145587 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-06-29T12:56:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11793",
+      "number": 11793,
+      "title": "Disable flaky incremental build timing test",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-29T12:53:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11800",
+      "number": 11800,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260629103311397 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-06-29T12:52:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30625",
+      "number": 30625,
+      "title": "[iOS] Fix WebView.Reload() with HtmlWebViewSource returns WebNavigationResult.Failure in Navigated event",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-29T11:53:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25772",
+      "number": 25772,
+      "title": "[msbuild] Improve interactive simulator selection by showing running simulators first. Fixes #25701",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-29T11:51:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25782",
+      "number": 25782,
+      "title": "[bgen] Cache attribute lookups to reduce memory allocations",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-29T11:42:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35897",
+      "number": 35897,
+      "title": "[Android] Fix: TapGestureRecognizer not firing on horizontal ScrollView",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-06-29T11:29:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36202",
+      "number": 36202,
+      "title": "[Testing] Fixed Test case failure in PR 35716 - [06/08/2026] Candidate - 3",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-06-29T11:02:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35852",
+      "number": 35852,
+      "title": "[Inflight Regression] Revert - Refactor the HybridWebView and properly support complex parameters",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-06-29T11:01:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25805",
+      "number": 25805,
+      "title": "[msbuild] Always build referenced extension projects by default",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-29T10:49:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-libraries/pull/1480",
       "number": 1480,
       "title": "Use Claude Opus 4.8 for weekly stable updates agent",
@@ -69691,7 +70111,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-29T09:37:03.524Z",
+  "lastUpdated": "2026-06-29T17:02:15.440Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
