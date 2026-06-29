@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1480",
+      "number": 1480,
+      "title": "Use Claude Opus 4.8 for weekly stable updates agent",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-29T07:14:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25842",
       "number": 25842,
       "title": "🤖 Merge 'main' => 'xcode27.0'",
@@ -69681,7 +69691,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-29T00:45:30.976Z",
+  "lastUpdated": "2026-06-29T09:37:03.524Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
