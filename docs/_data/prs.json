@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25842",
+      "number": 25842,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-06-28T19:41:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36161",
+      "number": 36161,
+      "title": "[Android] Fix ActivityStateManager leaking lifecycle callbacks on Activity recreation",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-06-28T18:41:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36159",
+      "number": 36159,
+      "title": "[CV2][iOS] Fix MeasureFirstItem measuring non-first cells",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-28T18:36:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36139",
       "number": 36139,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -69651,7 +69681,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-28T16:27:37.232Z",
+  "lastUpdated": "2026-06-29T00:45:30.976Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
