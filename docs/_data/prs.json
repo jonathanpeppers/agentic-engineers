@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4284",
+      "number": 4284,
+      "title": "Add embedded image/font selectors to SkiaFiddle",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-30T00:33:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4285",
+      "number": 4285,
+      "title": "ci(docs): stop the PR-author cache from re-triggering the docs pipeline",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-29T23:58:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4283",
+      "number": 4283,
+      "title": "[docs] Regenerate API diffs and polish release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-06-29T23:29:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34299",
+      "number": 34299,
+      "title": "Fix Picker selection when SelectedItem is removed from ItemsSource",
+      "repo": "dotnet/maui",
+      "author": "jpd21122012",
+      "mergedAt": "2026-06-29T22:33:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11753",
+      "number": 11753,
+      "title": "[TrimmableTypeMap] Add trimmable array proxy mapping",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-29T22:00:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4282",
+      "number": 4282,
+      "title": "Add milestone sync script aligned to Chrome release schedule",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-29T19:58:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25846",
+      "number": 25846,
+      "title": "[release/10.0.1xx] [msbuild] Always build referenced extension projects by default",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-29T19:53:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25852",
+      "number": 25852,
+      "title": "[main] Update to use stable Xcode 26.6",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-29T19:20:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25851",
+      "number": 25851,
+      "title": "[release/10.0.1xx] Update to use stable Xcode 26.6",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-29T18:59:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25855",
+      "number": 25855,
+      "title": "[docs] Improve XML docs for WebActionMouseButton",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-29T18:04:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/394",
+      "number": 394,
+      "title": "Migrate GH-AW reviewer to PAT pool",
+      "repo": "dotnet/android-tools",
+      "author": "vitek-karas",
+      "mergedAt": "2026-06-29T17:51:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25857",
+      "number": 25857,
+      "title": "[github] [Required] MSBuild properties must only be non-nullable if they're strings or arrays.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-29T17:35:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35677",
+      "number": 35677,
+      "title": "Enhance MauiBot AI summary review output + support net11-targeting PRs",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-06-29T17:21:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25853",
+      "number": 25853,
+      "title": "[release/11.0.1xx-preview6] Update to use stable Xcode 26.6",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-29T17:03:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25849",
       "number": 25849,
       "title": "[build] Fix NuGet migration race condition workaround",
@@ -70111,7 +70251,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-29T17:02:15.440Z",
+  "lastUpdated": "2026-06-30T00:43:40.301Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
