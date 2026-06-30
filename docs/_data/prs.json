@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25829",
+      "number": 25829,
+      "title": "[tests] Skip macOS/Mac Catalyst tests on mismatched beta macOS versions",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T08:14:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25848",
+      "number": 25848,
+      "title": "[msbuild] Only run _CreateInstaller target for desktop platforms",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T07:54:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25856",
+      "number": 25856,
+      "title": "[tools] Honor the 'ProductException.Warning' field if nothing has been configured for an exception.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T07:51:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25831",
+      "number": 25831,
+      "title": "[aw] Increase Code Radiator safe-outputs patch limit to prevent ENOBUFS on large merge PRs",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-30T07:42:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25801",
+      "number": 25801,
+      "title": "Bump actions/checkout from 6.0.2 to 7.0.0",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-06-30T07:41:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25815",
+      "number": 25815,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T06:48:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11814",
+      "number": 11814,
+      "title": "Bump external/xamarin-android-tools from `bcce35f` to `367724d`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-06-30T04:56:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11803",
+      "number": 11803,
+      "title": "[xaprepare] Remove vestigial OS dependency provisioning",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-30T04:22:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11778",
+      "number": 11778,
+      "title": "[Mono.AndroidTools] Enable nullable reference types in AdbSyncNotification.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-30T04:21:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11786",
+      "number": 11786,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-30T04:20:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25868",
+      "number": 25868,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-30T03:11:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25865",
+      "number": 25865,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-06-30T02:37:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25869",
+      "number": 25869,
+      "title": "[release/11.0.1xx-preview6] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-06-30T01:58:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11751",
+      "number": 11751,
+      "title": "[TrimmableTypeMap] Skip unresolvable trimmable typemap peers",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-30T01:54:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11805",
+      "number": 11805,
+      "title": "[release/11.0.1xx-preview6] Enable ManagedPeer native registration for LLVM typemap",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-06-30T01:53:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4284",
       "number": 4284,
       "title": "Add embedded image/font selectors to SkiaFiddle",
@@ -70251,7 +70401,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-30T00:43:40.301Z",
+  "lastUpdated": "2026-06-30T09:08:16.131Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
