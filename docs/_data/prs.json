@@ -1,6 +1,326 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25880",
+      "number": 25880,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T16:37:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11811",
+      "number": 11811,
+      "title": "Fix flaky `DebuggingTest.ApplicationRunsWithoutDebugger`: increase activity-start timeout from 30s to 150s",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-30T16:27:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11772",
+      "number": 11772,
+      "title": "Remove redundant null-forgiving operator in MamJsonParser.ReadClassRewrites",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-30T16:09:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25837",
+      "number": 25837,
+      "title": "[sharpie] Emit correct nullability for block/delegate parameters",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T15:49:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11757",
+      "number": 11757,
+      "title": "[gh-aw] Migrate workflows to Copilot PAT Pool",
+      "repo": "dotnet/android",
+      "author": "vitek-karas",
+      "mergedAt": "2026-06-30T15:22:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25742",
+      "number": 25742,
+      "title": "[msbuild/tools] Move post-trimming custom trimmer steps to a post-ILLink MSBuild task.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T14:56:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32531",
+      "number": 32531,
+      "title": "[Android] Fix ScrollView scroll position changes unexpectedly when Orientation is set to Horizontal and FlowDirection is RTL at runtime",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-30T14:52:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32874",
+      "number": 32874,
+      "title": "[iOS][CV2] Fix CollectionView2 on iOS iPad jumps/scrolls randomly when item size changes",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-30T14:51:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4292",
+      "number": 4292,
+      "title": "docs: add \"AI in SkiaSharp\" site page",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-30T14:45:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1488",
+      "number": 1488,
+      "title": "Stable Updates 20260629",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-30T14:45:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25872",
+      "number": 25872,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T14:27:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25812",
+      "number": 25812,
+      "title": "[build] We can build the dotnet/ directory without Xcode.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T14:18:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25858",
+      "number": 25858,
+      "title": "[scripts] Improve 'run-packaged-macos-tests' to write diagnostic output to the test's output instead of the Console.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T14:17:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25859",
+      "number": 25859,
+      "title": "[docs] Improve XML docs for WebNavigationPolicyEventArgs",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T14:16:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4291",
+      "number": 4291,
+      "title": "docs: add release cadence section to releases index",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-30T14:16:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25862",
+      "number": 25862,
+      "title": "[xharness] Use 'dotnet build -getProperty:...' instead of temporary PropertyInspector project",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T14:16:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25863",
+      "number": 25863,
+      "title": "[dotnet] Add 'Desktop' classification to Mac Catalyst and macOS templates. Fixes #15136.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T14:15:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31790",
+      "number": 31790,
+      "title": "[Android] CarouselView: Fix touch interception to delegate vertical swipes to nested views",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-06-30T14:00:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11807",
+      "number": 11807,
+      "title": "Fix flaky AllProjectsHaveSameOutputDirectory on Windows via delete-with-retry",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-30T13:46:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/395",
+      "number": 395,
+      "title": "Address #394 review: drop dead gh-aw step and stale maintenance workflow",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-30T13:31:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11788",
+      "number": 11788,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-30T13:04:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11813",
+      "number": 11813,
+      "title": "Enable nullable reference types in AndroidDiskInformation.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-30T13:00:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25854",
+      "number": 25854,
+      "title": "[release/11.0.1xx-preview6] [msbuild] Always build referenced extension projects by default",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T12:54:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11799",
+      "number": 11799,
+      "title": "[TrimmableTypeMap] Java.Interop bump and update to ValueManagers and TypeManagers",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-30T12:48:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11816",
+      "number": 11816,
+      "title": "[ci] Fail fast and retry transient failures on 'extract workload packs'",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-06-30T12:45:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11817",
+      "number": 11817,
+      "title": "[build] Add escalating backoff between download retry attempts",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-06-30T12:45:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11820",
+      "number": 11820,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260630103205663 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-06-30T12:44:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11765",
+      "number": 11765,
+      "title": "[release/11.0.1xx-preview6] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-06-30T12:43:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4242",
+      "number": 4242,
+      "title": "api-docs skill: dual-purpose docs add + review (references + scripts)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-30T12:41:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25870",
+      "number": 25870,
+      "title": "[net11.0] [dotnet] Set DOTNET_MODIFIABLE_ASSEMBLIES environment variable for CoreCLR",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-06-30T11:15:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36227",
+      "number": 36227,
+      "title": "[Testing] Fixed Test case failure in PR 35716 - [06/08/2026] Candidate - 4",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-06-30T10:57:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36152",
+      "number": 36152,
+      "title": "Revert - Fix Android stale ContainerView root leak #35372",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-06-30T10:46:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25829",
       "number": 25829,
       "title": "[tests] Skip macOS/Mac Catalyst tests on mismatched beta macOS versions",
@@ -70401,7 +70721,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-30T09:08:16.131Z",
+  "lastUpdated": "2026-06-30T16:45:09.458Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
