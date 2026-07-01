@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11782",
+      "number": 11782,
+      "title": "Bump external/Java.Interop from `8d54473` to `6ec1345`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-07-01T08:40:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11823",
+      "number": 11823,
+      "title": "[gh-aw] Bump gh-aw setup action to v0.81.6 across PAT pool workflows",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-01T08:40:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34350",
+      "number": 34350,
+      "title": "Add IViewScreenshot for third-party screenshot extensibility",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-07-01T08:31:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25320",
+      "number": 25320,
+      "title": "Add `dotnet test` integration tests for all Apple platforms",
+      "repo": "dotnet/macios",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-01T08:17:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36237",
+      "number": 36237,
+      "title": "[release/11.0.1xx-preview6] Bump dotnet/macios to 26.5.11717-net11-p6 (BAR 320913)",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-01T08:08:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25738",
+      "number": 25738,
+      "title": "Fix 'dotnet watch' with sandboxed Mac Catalyst apps",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-01T07:52:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36153",
+      "number": 36153,
+      "title": "Remove Essentials.AI from dotnet/maui",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-01T07:22:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36185",
+      "number": 36185,
+      "title": "Fix /review tests device-test confirmation to use anonymous Helix /workitems endpoint",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-01T02:36:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4299",
       "number": 4299,
       "title": "Update README.md",
@@ -70851,7 +70931,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-01T00:45:53.387Z",
+  "lastUpdated": "2026-07-01T09:09:57.197Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
