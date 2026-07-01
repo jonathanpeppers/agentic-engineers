@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25898",
+      "number": 25898,
+      "title": "Bump zizmorcore/zizmor-action from 0.5.6 to 0.5.7",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-07-01T16:37:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11744",
+      "number": 11744,
+      "title": "Merge dotnet/java-interop into external/Java.Interop with full history",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-01T15:56:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36214",
+      "number": 36214,
+      "title": "[Android] Fix status bar icon contrast with custom colorPrimary",
+      "repo": "dotnet/maui",
+      "author": "jpd21122012",
+      "mergedAt": "2026-07-01T15:56:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36240",
+      "number": 36240,
+      "title": "Fix AdaptiveTrigger memory leak when VisualStateGroups are replaced after attach",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-07-01T15:14:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36231",
+      "number": 36231,
+      "title": "Fix: WebView inside SwipeView not responding to swipe gestures on Android",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-07-01T14:19:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25875",
+      "number": 25875,
+      "title": "[tests] Mark tests inconclusive on premature response termination. Fixes #25873",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-01T14:06:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35805",
+      "number": 35805,
+      "title": "[iOS] Fix MediaPicker FullPath for PHPicker results",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-01T13:59:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11838",
+      "number": 11838,
+      "title": "[ci] Free disk space before post-job cache save on public Linux agents",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-01T13:54:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11809",
+      "number": 11809,
+      "title": "[FastDeploy] Retry first run-as query to absorb post-install data-dir race (XA0137)",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-01T13:15:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25885",
+      "number": 25885,
+      "title": "Fix flaky SecProtocolMetadataTest.TlsDefaults -- ServerName is null. Fixes #25877",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-01T13:14:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11831",
+      "number": 11831,
+      "title": "[ci] Retry on-device install, fail fast, diagnose failures, always capture logcat",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-01T13:13:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3788",
+      "number": 3788,
+      "title": "[externals] Bump skia submodule to drop SK_BUILD_FOR_WASM redef",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-07-01T13:02:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11829",
+      "number": 11829,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14538736",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-07-01T12:59:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11836",
+      "number": 11836,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260701103145083 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-07-01T12:57:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/204",
+      "number": 204,
+      "title": "drop redundant SK_BUILD_FOR_WASM define",
+      "repo": "mono/skia",
+      "author": "ramezgerges",
+      "mergedAt": "2026-07-01T12:57:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35821",
+      "number": 35821,
+      "title": "Add Binding converter culture support",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-01T12:44:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25494",
+      "number": 25494,
+      "title": "[msbuild] Fix app crash at launch when _ExportSymbolsExplicitly=false. Fixes #25491",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-01T11:05:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25878",
+      "number": 25878,
+      "title": "[runtime] Read debugging environment variables on the main thread to avoid a race.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-01T11:05:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25892",
+      "number": 25892,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-01T10:50:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25888",
+      "number": 25888,
+      "title": "[github] Adapt GH-AW workflows to the PAT pool",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-01T09:38:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11782",
       "number": 11782,
       "title": "Bump external/Java.Interop from `8d54473` to `6ec1345`",
@@ -70931,7 +71131,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-01T09:09:57.197Z",
+  "lastUpdated": "2026-07-01T16:47:47.228Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
