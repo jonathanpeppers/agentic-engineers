@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4299",
+      "number": 4299,
+      "title": "Update README.md",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-30T23:33:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4294",
+      "number": 4294,
+      "title": "[skia-sync] Update skia to milestone 151",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-30T23:31:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/274",
+      "number": 274,
+      "title": "[skia-sync] Merge upstream chrome/m151",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-30T22:40:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35850",
+      "number": 35850,
+      "title": "Route Android HybridWebView JS->.NET messages through HTTP intercept",
+      "repo": "dotnet/maui",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-30T22:36:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4298",
+      "number": 4298,
+      "title": "[docs] docs: regenerate API diffs and polish release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-06-30T22:29:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35863",
+      "number": 35863,
+      "title": "Fix Android nested gesture ownership",
+      "repo": "dotnet/maui",
+      "author": "AdamEssenmacher",
+      "mergedAt": "2026-06-30T22:25:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4297",
+      "number": 4297,
+      "title": "docs: restore release cadence section in releases index, driven by Chrome's schedule",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-06-30T21:50:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11824",
+      "number": 11824,
+      "title": "[release/11.0.1xx-preview6] [androidsdk] Fix SDK extraction incrementality",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-06-30T21:03:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11743",
+      "number": 11743,
+      "title": "Migrate nuget-msi-convert to v5.yml (WiX 6)",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-30T20:22:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34737",
+      "number": 34737,
+      "title": "[Mac]Clear button not hidden when text is cleared",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-06-30T19:46:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11821",
+      "number": 11821,
+      "title": "[xaprepare] Use Microsoft.SourceLink.GitHub instead of hand-rolled SourceLink.json",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-06-30T19:44:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4296",
+      "number": 4296,
+      "title": "[docs] Regenerate API diffs and polish release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-06-30T19:39:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25879",
+      "number": 25879,
+      "title": "[net11.0] Pass excluded user assemblies to crossgen2 as references for Debug R2R",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-06-30T16:52:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25880",
       "number": 25880,
       "title": "[net11.0] Merge main into net11.0.",
@@ -70721,7 +70851,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-06-30T16:45:09.458Z",
+  "lastUpdated": "2026-07-01T00:45:53.387Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
