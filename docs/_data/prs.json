@@ -1,6 +1,196 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1492",
+      "number": 1492,
+      "title": "Fix Java-generic name-clash in AdLoadCallback subclasses (issue #1491)",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-02T16:27:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11730",
+      "number": 11730,
+      "title": "Replace AssemblyStore compression algorithm LZ4 with Zstd",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-02T16:09:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11953",
+      "number": 11953,
+      "title": "Re-add a Mono Android test leg",
+      "repo": "dotnet/android",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-07-02T15:45:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11956",
+      "number": 11956,
+      "title": "[xaprepare] Move Configuration.OperatingSystem.props JDK values to JdkInfo.props",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-02T15:44:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25891",
+      "number": 25891,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-07-02T14:20:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4310",
+      "number": 4310,
+      "title": "Remove skiasharp-docker service connection from native bootstrapper",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-02T14:02:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/305",
+      "number": 305,
+      "title": "Bump Xamarin.Android.Tools.AndroidSdk to 1.0.189-preview.58",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-07-02T13:50:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25906",
+      "number": 25906,
+      "title": "[skills] Improve macios-binding-creator skill ",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-02T13:31:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34972",
+      "number": 34972,
+      "title": "[Build] Skip XamlC when no XAML files need XamlC processing",
+      "repo": "dotnet/maui",
+      "author": "davidnguyen-tech",
+      "mergedAt": "2026-07-02T13:25:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36300",
+      "number": 36300,
+      "title": "[Testing] Fixed Test case failure in PR 35716 - [06/08/2026] Candidate - 5",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-07-02T13:22:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11950",
+      "number": 11950,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14551619",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-07-02T12:57:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11954",
+      "number": 11954,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260702103232721 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-07-02T12:51:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4313",
+      "number": 4313,
+      "title": "Sweep docs staging for open PRs inactive over 3 months",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-02T12:11:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36296",
+      "number": 36296,
+      "title": "Fix build failure caused by Issue36154",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-07-02T11:41:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4311",
+      "number": 4311,
+      "title": "[docs] Regenerate API diffs and polish release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-02T11:21:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31820",
+      "number": 31820,
+      "title": "[Enhancement] Added support for customizing the window title with configurable font attributes",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-07-02T11:20:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25904",
+      "number": 25904,
+      "title": "[docs] Improve XML docs for TWRequestMethod",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-02T11:15:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36270",
+      "number": 36270,
+      "title": " Fix iOS 26 UI test failures in Picker, DatePicker, and TimePicker tests ",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-07-02T11:15:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4306",
+      "number": 4306,
+      "title": "[skia-sync] Drive upstream sync from versions.json with a run-number rotation",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-02T10:48:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36074",
       "number": 36074,
       "title": "Use MVVM Toolkit partial properties in templates",
@@ -71391,7 +71581,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-02T09:05:06.316Z",
+  "lastUpdated": "2026-07-02T16:36:05.169Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
