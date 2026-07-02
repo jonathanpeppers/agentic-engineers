@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25902",
+      "number": 25902,
+      "title": "[devops] Switch CI builds to use ACES pool",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-01T23:56:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11945",
+      "number": 11945,
+      "title": "[xaprepare] Remove BuildInfo / GitRunner.Blame orphans left by #11826",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-01T22:46:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11946",
+      "number": 11946,
+      "title": "[xaprepare] Delete redundant Windows JdkInfo.props generator",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-01T22:36:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35949",
+      "number": 35949,
+      "title": "Fix for GetPosition truncates fractional coordinates to integers In OnTapped Event on iOS and MacCatalyst",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-07-01T22:26:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34615",
+      "number": 34615,
+      "title": "[Testing] Refactoring Feature Matrix UITest Cases for Editor Control",
+      "repo": "dotnet/maui",
+      "author": "LogishaSelvarajSF4525",
+      "mergedAt": "2026-07-01T22:17:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25791",
+      "number": 25791,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-01T22:16:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25884",
+      "number": 25884,
+      "title": "[templates] Add Framework parameter to project templates. Fixes #17319",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-01T21:34:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11943",
+      "number": 11943,
+      "title": "[external/Java.Interop] Remove standalone-repo scaffolding after merge",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-01T21:12:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25889",
+      "number": 25889,
+      "title": "[UIKit] Bind new Xcode 27 (iOS 27) UIKit APIs",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-01T21:07:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11942",
+      "number": 11942,
+      "title": "Merge Java.Interop .github/ into dotnet/android after repo unification",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-01T20:19:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25886",
+      "number": 25886,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-01T20:18:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25894",
+      "number": 25894,
+      "title": "[dotnet] Enable AOT generic instantiation deduplication when PrepareAssemblies=true",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-01T20:12:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11825",
+      "number": 11825,
+      "title": "[xaprepare] Move cgmanifest.json generation from xaprepare to YAML",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-01T20:04:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25903",
+      "number": 25903,
+      "title": "[github-actions] Ignore gh-aw-managed actions in dependabot config",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-01T19:46:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25901",
+      "number": 25901,
+      "title": "[docs] Improve XML docs for TWTweetComposeViewControllerResult",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-01T19:35:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25896",
+      "number": 25896,
+      "title": "Use bundle patch format for code-radiator merge PRs",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-01T18:29:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11832",
+      "number": 11832,
+      "title": "[tests] Capture device state on device-test failure",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-01T17:59:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11826",
+      "number": 11826,
+      "title": "[xaprepare] Move XABuildConfig generation to AndroidBuildConfig.dll",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-01T16:57:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25898",
       "number": 25898,
       "title": "Bump zizmorcore/zizmor-action from 0.5.6 to 0.5.7",
@@ -71131,7 +71311,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-01T16:47:47.228Z",
+  "lastUpdated": "2026-07-02T00:43:12.290Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
