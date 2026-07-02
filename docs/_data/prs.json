@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36074",
+      "number": 36074,
+      "title": "Use MVVM Toolkit partial properties in templates",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-02T08:54:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34869",
+      "number": 34869,
+      "title": "Feature/blazorwebview wpf composition control opt in",
+      "repo": "dotnet/maui",
+      "author": "mobiletonster",
+      "mergedAt": "2026-07-02T08:43:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36235",
+      "number": 36235,
+      "title": "[Android] Map: Apply custom Pin.ImageSource for clustered single pins",
+      "repo": "dotnet/maui",
+      "author": "kevin68",
+      "mergedAt": "2026-07-02T08:10:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34641",
+      "number": 34641,
+      "title": "Add SaveToGallery option to MediaPickerOptions for capture operations",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-02T08:08:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11944",
+      "number": 11944,
+      "title": "[external/Java.Interop] Drop nested xamarin-android-tools submodule",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-02T07:17:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25883",
+      "number": 25883,
+      "title": "[apidiff] Handle Xcode version mismatch in API diff comparison",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-02T06:37:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25907",
+      "number": 25907,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-02T05:51:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25893",
+      "number": 25893,
+      "title": "[net11.0] Exclude user assemblies from the Debug R2R input hash",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-07-02T05:37:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25902",
       "number": 25902,
       "title": "[devops] Switch CI builds to use ACES pool",
@@ -71311,7 +71391,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-02T00:43:12.290Z",
+  "lastUpdated": "2026-07-02T09:05:06.316Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
