@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4312",
+      "number": 4312,
+      "title": "[skia-sync] Merge upstream chrome/m151 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-02T22:27:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/278",
+      "number": 278,
+      "title": "[skia-sync] Merge upstream chrome/m151",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-02T21:56:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4322",
+      "number": 4322,
+      "title": "[docs] docs: regenerate API diffs and polish release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-02T21:52:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11801",
+      "number": 11801,
+      "title": "[TrimmableTypeMap] Reflection-free TrimmableTypeMapType/ValueManager",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-02T20:55:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1493",
+      "number": 1493,
+      "title": "Restore Change/StartTrackingTouch/StopTrackingTouch events on Slider and RangeSlider",
+      "repo": "dotnet/android-libraries",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-07-02T20:47:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-native-tools/pull/44",
+      "number": 44,
+      "title": "Remove unused MLIR VSCode extension during build",
+      "repo": "dotnet/android-native-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-02T20:29:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11802",
+      "number": 11802,
+      "title": "[TrimmableTypeMap] Match n_* callback boolean/char to each binding's real signature",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-02T19:58:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36232",
+      "number": 36232,
+      "title": "Fix GeometryGroup.Children.Clear() leaking shared child geometries",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-02T19:52:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3991",
+      "number": 3991,
+      "title": "Remove unnecessary `unsafe` modifier from GRContextOptions",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-02T19:41:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4304",
+      "number": 4304,
+      "title": "Update docs submodule to latest main",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-02T19:35:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4321",
+      "number": 4321,
+      "title": "[docs-site] Skip PR staging previews for non-site file changes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-02T19:32:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4318",
+      "number": 4318,
+      "title": "[docs-site] Add \"Moving faster with AI\" dashboard to the AI page",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-02T17:13:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-libraries/pull/1492",
       "number": 1492,
       "title": "Fix Java-generic name-clash in AdLoadCallback subclasses (issue #1491)",
@@ -71581,7 +71701,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-02T16:36:05.169Z",
+  "lastUpdated": "2026-07-03T00:35:59.577Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
