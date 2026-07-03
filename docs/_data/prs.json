@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11959",
+      "number": 11959,
+      "title": "[xaprepare] Delete Configuration.OperatingSystem.props generator and xaprepare project",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-03T07:06:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11957",
+      "number": 11957,
+      "title": "[ci] Fix Java.Interop test lanes on internal 1ES pipeline",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-03T06:54:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11961",
+      "number": 11961,
+      "title": "[docs] Reword terms flagged by PoliCheck",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-03T06:53:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4312",
       "number": 4312,
       "title": "[skia-sync] Merge upstream chrome/m151 bug fixes",
@@ -71701,7 +71731,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-03T00:35:59.577Z",
+  "lastUpdated": "2026-07-03T09:04:45.690Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
