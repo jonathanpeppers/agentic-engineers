@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4325",
+      "number": 4325,
+      "title": "Update docs submodule to latest main",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-03T15:20:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4327",
+      "number": 4327,
+      "title": "Auto-apply milestone labels in the Skia sync workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-03T15:17:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25912",
+      "number": 25912,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-03T14:53:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33335",
+      "number": 33335,
+      "title": "[iOS] Fix Shell Flyout SafeArea Rendering",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-03T14:22:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36305",
+      "number": 36305,
+      "title": "[iOS] Respect InputTransparent when updating UserInteractionEnabled",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-03T13:58:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25713",
+      "number": 25713,
+      "title": "[msbuild] Resolve Content and BundleResource items using the main project's location. Fixes 23898.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-03T13:46:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-native-tools/pull/43",
+      "number": 43,
+      "title": "Publish per-OS toolchain archives in addition to the combined one",
+      "repo": "dotnet/android-native-tools",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-03T13:44:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25914",
+      "number": 25914,
+      "title": "[msbuild] Fix building binding projects with 'dotnet build /t:Compile'",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-03T13:10:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25909",
+      "number": 25909,
+      "title": "[dotnet] Default PublishTrimmed=false when there's nothing for the trimmer to do.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-03T12:22:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25541",
+      "number": 25541,
+      "title": "[bgen] Propagate nullability information for generic type arguments. Fixes #16860",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-03T12:13:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25876",
+      "number": 25876,
+      "title": "[net11.0] Fix R2R composite build for resource/framework name collisions and re-enable the x64 CoreLib composite root",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-07-03T11:44:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11959",
       "number": 11959,
       "title": "[xaprepare] Delete Configuration.OperatingSystem.props generator and xaprepare project",
@@ -71731,7 +71841,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-03T09:04:45.690Z",
+  "lastUpdated": "2026-07-03T16:31:53.912Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
