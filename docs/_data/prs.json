@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4344",
+      "number": 4344,
+      "title": "[release-notes] Relocate and remodel the polish TEMPLATE into the skill",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-04T00:05:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4343",
+      "number": 4343,
+      "title": "[release-notes] Slim breaking-change guidance to restore the full page render",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-03T23:25:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4341",
+      "number": 4341,
+      "title": "[release-notes] Never drop the Breaking Changes section; size it to the break",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-03T22:04:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4337",
+      "number": 4337,
+      "title": "[release-notes] Itemize breaking diffs during polish; add 4.148.0 notes sidecar",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-03T21:00:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36280",
+      "number": 36280,
+      "title": "[Android] Fix Entry password visibility when using Keyboard.Password",
+      "repo": "dotnet/maui",
+      "author": "jpd21122012",
+      "mergedAt": "2026-07-03T20:17:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4334",
+      "number": 4334,
+      "title": "release-notes: manual notes sidecar + AI-summarized breaking changes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-03T19:16:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36290",
+      "number": 36290,
+      "title": "[Android] Map: Unsubscribe removed pins from PropertyChanged to avoid leaking the handler",
+      "repo": "dotnet/maui",
+      "author": "kevin68",
+      "mergedAt": "2026-07-03T19:06:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25908",
+      "number": 25908,
+      "title": "Re-enable the MonoVM test variations",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-07-03T18:19:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4329",
+      "number": 4329,
+      "title": "Auto-apply milestone labels to the mono/skia sync PR too (#4317)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-03T17:23:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25913",
+      "number": 25913,
+      "title": "[templates] Use DOTNET_TFM placeholder and add TFM update script",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-03T16:48:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4325",
       "number": 4325,
       "title": "Update docs submodule to latest main",
@@ -71841,7 +71941,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-03T16:31:53.912Z",
+  "lastUpdated": "2026-07-04T00:34:53.189Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
