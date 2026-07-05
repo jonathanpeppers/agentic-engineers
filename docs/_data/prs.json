@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36236",
+      "number": 36236,
+      "title": "[net11.0] Bump dotnet/macios to 26.5.11717-net11-p6 (BAR 320913)",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-05T15:37:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36268",
+      "number": 36268,
+      "title": "Add public-safe preview release readiness gate to dependency-flow skill",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-05T15:36:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4344",
       "number": 4344,
       "title": "[release-notes] Relocate and remodel the polish TEMPLATE into the skill",
@@ -71941,7 +71961,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-05T09:02:37.793Z",
+  "lastUpdated": "2026-07-05T16:23:38.222Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
