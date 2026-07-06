@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36204",
+      "number": 36204,
+      "title": "Use PAT pool for agentic workflows",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-05T23:04:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36057",
+      "number": 36057,
+      "title": "Fix for PathGeometry.Figures.Clear() leaks when clearing shared PathFigure instances",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-07-05T22:48:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36398",
+      "number": 36398,
+      "title": "Fix milestone workflow crash when the target milestone doesn't exist yet",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-05T20:21:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36172",
+      "number": 36172,
+      "title": "Release-readiness: cross-major preview leak fix, milestone blocker, E2E refresh, and hoisted candidate-PR section",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-05T20:19:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/31672",
+      "number": 31672,
+      "title": "[Android] CarouselView: Fix scroll to last item after data reset in loop mode",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-07-05T16:43:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36236",
       "number": 36236,
       "title": "[net11.0] Bump dotnet/macios to 26.5.11717-net11-p6 (BAR 320913)",
@@ -71961,7 +72011,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-05T16:23:38.222Z",
+  "lastUpdated": "2026-07-06T00:37:27.719Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
