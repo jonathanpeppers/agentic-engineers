@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36088",
+      "number": 36088,
+      "title": "Document nightly/inflight official build for CI-failure routing",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-06T05:12:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36204",
       "number": 36204,
       "title": "Use PAT pool for agentic workflows",
@@ -72011,7 +72021,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-06T00:37:27.719Z",
+  "lastUpdated": "2026-07-06T09:23:01.584Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
