@@ -1,6 +1,316 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25921",
+      "number": 25921,
+      "title": "[tests] Take a screenshot on test timeout in run-packaged-macos-tests",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-06T17:00:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25924",
+      "number": 25924,
+      "title": "[CI] Show better message when macOS tests can't run due to build failure",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-06T17:00:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25925",
+      "number": 25925,
+      "title": "Fix code-radiator ENOBUFS on net11.0: ensure proper merge commit after conflict resolution",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-06T16:59:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25926",
+      "number": 25926,
+      "title": "[docs] Improve XML docs for QLPreviewPanel",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-06T16:10:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25937",
+      "number": 25937,
+      "title": "Fix flaky BitmapContextTest.CreateAdaptive_2 and _3 on iOS. Fixes #25387",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-06T16:09:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25887",
+      "number": 25887,
+      "title": "Migrate nuget-msi-convert to v5.yml (WiX 6)",
+      "repo": "dotnet/macios",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-06T15:40:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11974",
+      "number": 11974,
+      "title": "[Tests] Retry flaky InstallAndroidDependenciesTest download",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T14:25:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11963",
+      "number": 11963,
+      "title": "Add XML documentation to generic FragmentManager helper methods",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-06T14:24:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11971",
+      "number": 11971,
+      "title": "[TrimmableTypeMap] Remove InvokerType from JavaPeerProxy",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T14:17:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11969",
+      "number": 11969,
+      "title": "[Java.Interop] Keep transitive System.IO.Hashing out of tool output",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T14:16:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/337",
+      "number": 337,
+      "title": "Stream live progress for `maui android install` package downloads",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-07-06T14:13:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35716",
+      "number": 35716,
+      "title": "June 8th, Candidate",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-06T14:09:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11804",
+      "number": 11804,
+      "title": "[Mono.Android] Root Mono.Android.Export from the [Export]/[ExportField] loader, not the attributes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T14:08:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11833",
+      "number": 11833,
+      "title": "[tests] Stream on-device test results to MTP as they finish",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T14:04:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11172",
+      "number": 11172,
+      "title": "Enable CoreCLR runtime pack for android-arm (armeabi-v7a)",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T14:03:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11955",
+      "number": 11955,
+      "title": "[Xamarin.Android.Build.Tests] Fix build warnings",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T14:02:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11968",
+      "number": 11968,
+      "title": "[Microsoft.Android.Build.Tasks] Make AssemblyStore zstd compression level configurable",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T14:01:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11966",
+      "number": 11966,
+      "title": "[tests] Fail fast when the emulator package manager service is wedged",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T13:59:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11972",
+      "number": 11972,
+      "title": "[tests] Re-enable AndroidMessageHandler ServerCertificateCustomValidationCallback tests",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T13:44:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11977",
+      "number": 11977,
+      "title": "Fix build warnings in jnienv-gen project",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T13:43:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11981",
+      "number": 11981,
+      "title": "[tests] Improve trimmer warning diagnostics",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T13:42:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11978",
+      "number": 11978,
+      "title": "Fix build warnings in Xamarin.ProjectTools",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T13:41:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11980",
+      "number": 11980,
+      "title": "Fix build warnings in MSBuildDeviceIntegration project",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T13:40:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11985",
+      "number": 11985,
+      "title": "[TrimmableTypeMap] Fix trimmable primitive and alias arrays",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-06T13:00:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25928",
+      "number": 25928,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-06T12:43:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/308",
+      "number": 308,
+      "title": "Expose simulator extras (privacy, appearance, status-bar, openurl, push, location, add-media, screenshot, record-video) via `maui apple simulator`",
+      "repo": "dotnet/maui-labs",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-06T12:31:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/336",
+      "number": 336,
+      "title": "Fix API 37 system image parsing in Android provider",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-07-06T12:29:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36111",
+      "number": 36111,
+      "title": "Add closed-fix-unlinked regression classification to release-readiness",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-06T12:12:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25653",
+      "number": 25653,
+      "title": "[AVFoundation] Fix signature for LoadTrack*/LoadTracks* methods. Fixes #25606",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-06T11:32:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36065",
+      "number": 36065,
+      "title": "[Testing] SafeArea Feature Matrix Test Cases for ContentView",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-07-06T10:17:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36263",
+      "number": 36263,
+      "title": "[iOS/MacCatalyst] Fix ActivityIndicator frozen static frame when IsRunning is set to false",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-07-06T10:16:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36088",
       "number": 36088,
       "title": "Document nightly/inflight official build for CI-failure routing",
@@ -72021,7 +72331,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-06T09:23:01.584Z",
+  "lastUpdated": "2026-07-06T17:01:38.400Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
