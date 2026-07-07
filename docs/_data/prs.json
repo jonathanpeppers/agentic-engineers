@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25823",
+      "number": 25823,
+      "title": "[runtime] Initialize the output directory for crash reports before loading CoreCLR. Fixes #25820",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-07T08:57:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36424",
+      "number": 36424,
+      "title": "[Testing] Fixed Build error on inflight/ candidate PR 36411",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-07-07T08:13:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25948",
+      "number": 25948,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-07T07:15:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25947",
+      "number": 25947,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-07T07:02:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11992",
       "number": 11992,
       "title": "[main] Update dependencies from microsoft/testfx",
@@ -72461,7 +72501,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-07T00:37:47.017Z",
+  "lastUpdated": "2026-07-07T09:07:42.062Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
