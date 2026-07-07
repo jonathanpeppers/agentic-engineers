@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36297",
+      "number": 36297,
+      "title": "Update arcade to 11.0.0-beta.26330.112 WIX migration",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-07-07T16:42:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25957",
+      "number": 25957,
+      "title": "[docs] Improve XML docs for SKError",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-07T16:13:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25960",
+      "number": 25960,
+      "title": "[release/11.0.1xx-preview6] [build] Fix NuGet migration race condition workaround (#25849)",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-07T15:37:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25950",
+      "number": 25950,
+      "title": "[net11.0] Don't run GenerateR2RModuleRegistration remotely.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-07T15:14:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12002",
+      "number": 12002,
+      "title": "[TrimmableTypeMap] Bump WorkManager test's AndroidX to post-KMP-split versions",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-07T15:12:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25951",
+      "number": 25951,
+      "title": "[release/11.0.1xx-preview6] [net11.0] Don't run GenerateR2RModuleRegistration remotely.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-07T13:55:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25942",
+      "number": 25942,
+      "title": "[assembly-preparer] Subclass AssemblyModifierStep in ListExportedSymbols.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-07T13:55:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11669",
+      "number": 11669,
+      "title": "[Mono.Android] Compile RuntimeFeature into a single assembly to avoid conflict warnings",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-07T13:24:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/367",
+      "number": 367,
+      "title": "Fix EssentialsAI macOS SDK path without job variables",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-07T12:06:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25945",
+      "number": 25945,
+      "title": "[docs] Improve XML docs for SRAbsoluteTime, MPMediaItemArtwork, SKPaymentTransactionState, SKDownloadState, CGPDFPage, CGShading, CGLayer",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-07T11:59:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25910",
+      "number": 25910,
+      "title": "[tests] Add back the app size test to see if it's better now.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-07T11:58:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25953",
+      "number": 25953,
+      "title": "[xtro] Ensure the full report zip is uploaded even when xtro finds unclassified entries.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-07T11:51:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25940",
+      "number": 25940,
+      "title": "[msbuild] Support App Extensions on Mac Catalyst (fixes #17408)",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-07T11:50:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36421",
+      "number": 36421,
+      "title": "Fix passing of partial option",
+      "repo": "dotnet/maui",
+      "author": "BrzVlad",
+      "mergedAt": "2026-07-07T11:24:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/365",
+      "number": 365,
+      "title": "[ai-docs] docs: add dotnet11-transport NuGet feed to AI config files",
+      "repo": "dotnet/maui-labs",
+      "author": "github-actions",
+      "mergedAt": "2026-07-07T11:14:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36049",
+      "number": 36049,
+      "title": "[Testing] SafeArea Feature Matrix Test Cases for Border",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-07-07T11:10:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/364",
+      "number": 364,
+      "title": "Fix EssentialsAI macOS dotnet provisioning",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-07T11:04:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11991",
+      "number": 11991,
+      "title": "[nullable] Enable nullable reference types in `ItemWithID.cs`",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-07T10:10:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25823",
       "number": 25823,
       "title": "[runtime] Initialize the output directory for crash reports before loading CoreCLR. Fixes #25820",
@@ -72501,7 +72681,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-07T09:07:42.062Z",
+  "lastUpdated": "2026-07-07T16:47:40.071Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
