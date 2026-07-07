@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11992",
+      "number": 11992,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-06T23:10:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4330",
+      "number": 4330,
+      "title": "Add memory-leak-fixer skill + agentic workflow (self-testing dry-run PR trigger)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-06T23:02:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4345",
+      "number": 4345,
+      "title": "Optimize SKColor hex parsing and add ReadOnlySpan<char> overloads",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-06T22:48:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11995",
+      "number": 11995,
+      "title": "Fix misspelled MSBuild target in Turkish XA5207 localization",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-06T22:11:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11976",
+      "number": 11976,
+      "title": "Remove #region/#endregion directives from Android.Graphics.Color",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-06T21:17:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11997",
+      "number": 11997,
+      "title": "[release/11.0.1xx-preview6] Bump external/Java.Interop from `7049364` to `c24a8e9b`",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-06T20:55:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11994",
+      "number": 11994,
+      "title": "Fix XA0145 emulator boot-timeout message rendering literal placeholders",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-06T20:25:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1356",
+      "number": 1356,
+      "title": "Fix MediaContent-related API not being generated",
+      "repo": "dotnet/android-libraries",
+      "author": "marius-bughiu",
+      "mergedAt": "2026-07-06T19:41:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11993",
+      "number": 11993,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-06T19:13:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25936",
+      "number": 25936,
+      "title": "[CI] Handle missing Xcode gracefully in provision script. Fixes #25934",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-06T18:49:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4340",
+      "number": 4340,
+      "title": "Add cross-backend golden-image (visual regression) test harness",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-07-06T18:26:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4320",
+      "number": 4320,
+      "title": "[infra] Remove Apple certificate and provisioning profile steps from tests",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-06T17:41:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25911",
+      "number": 25911,
+      "title": "[msbuild] Validate extracted resource paths in UnpackLibraryResources",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-06T17:02:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25921",
       "number": 25921,
       "title": "[tests] Take a screenshot on test timeout in run-packaged-macos-tests",
@@ -72331,7 +72461,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-06T17:01:38.400Z",
+  "lastUpdated": "2026-07-07T00:37:47.017Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
