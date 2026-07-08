@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36433",
+      "number": 36433,
+      "title": "[release/11.0.1xx-preview6] Bump dotnet/dotnet (BAR 321614), dotnet/android (BAR 321622) and dotnet/macios (BAR 321780)",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-07-07T23:52:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25949",
+      "number": 25949,
+      "title": "[xcode27.0] Update to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-07T23:30:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11948",
+      "number": 11948,
+      "title": "Use AsyncTask thread-safe logging in GetMicrosoftNuGetPackagesMap",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-07T23:12:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11960",
+      "number": 11960,
+      "title": "[FastDeploy] Verify install with 'pm path' and diagnose disk space",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-07T22:12:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11834",
+      "number": 11834,
+      "title": "[ci] Make \"Linux > Build\" reruns recover from immutable-artifact collision",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-07T22:11:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12001",
+      "number": 12001,
+      "title": "[ci] Make Android SDK test setup downloads more resilient",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-07T21:51:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36342",
+      "number": 36342,
+      "title": "Add AI memory-leak scanner + fixer agentic workflows",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-07T21:34:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4366",
+      "number": 4366,
+      "title": "Bump to the next version (4.150.1) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-07T21:30:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12007",
+      "number": 12007,
+      "title": "[build] Remove debugger-libs submodule",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-07T21:25:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4365",
+      "number": 4365,
+      "title": "docs: close the version milestone on every release (not just stable)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-07T21:15:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12000",
+      "number": 12000,
+      "title": "[TrimmableTypeMap] Merge library .aar manifests on the legacy merger path",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-07T21:05:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12009",
+      "number": 12009,
+      "title": "[tests] Fix Xamarin.Android-Tests solution",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-07T21:01:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4362",
+      "number": 4362,
+      "title": "Add perf/* label taxonomy and wire memory-leak-fixer labeling",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-07T20:39:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4347",
+      "number": 4347,
+      "title": "[release-notes] Curate, group & format the polished notes (product-focus, banner, contributors, history floor)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-07T19:51:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/369",
+      "number": 369,
+      "title": "Increment pre-release version iteration from 11 to 12",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-07T19:30:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11987",
+      "number": 11987,
+      "title": "Use AsyncTask-safe `LogDebugMessage()` in `Aapt2LinkAssetPack`",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-07T18:42:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36410",
+      "number": 36410,
+      "title": "Never classify a CLOSED issue as open-on-main in release-readiness",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-07T17:41:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36409",
+      "number": 36409,
+      "title": "Keep release-readiness trackers fresh: 3h cadence, freshness banner, scoped event triggers",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-07T17:40:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4356",
+      "number": 4356,
+      "title": "Add focus_family override to memory-leak-fixer workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-07T17:14:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25959",
+      "number": 25959,
+      "title": "[build] Only report build failures, not successes",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-07T16:55:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36297",
       "number": 36297,
       "title": "Update arcade to 11.0.0-beta.26330.112 WIX migration",
@@ -72681,7 +72881,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-07T16:47:40.071Z",
+  "lastUpdated": "2026-07-08T00:31:33.782Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
