@@ -1,6 +1,306 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25964",
+      "number": 25964,
+      "title": "[docs] Improve XML docs for ModelAttribute",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-08T16:07:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36446",
+      "number": 36446,
+      "title": "Fix Copilot auth for leak scanner/fixer workflows via PAT pool",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-08T15:04:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36317",
+      "number": 36317,
+      "title": "ci-fix: self-watching keep-one-PR loop (up to 10 attempts, no per-attempt human hand-off)",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-08T13:33:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/373",
+      "number": 373,
+      "title": "Update arcade-sdk--channel \".NET 10.0.1xx SDK\"",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-07-08T12:07:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36319",
+      "number": 36319,
+      "title": "[Material 3] Make Material 3 Slider extension methods public",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-07-08T12:06:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36175",
+      "number": 36175,
+      "title": "Bump Magick.NET-Q8-AnyCPU from 14.13.1 to 14.14.0",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-07-08T12:05:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35065",
+      "number": 35065,
+      "title": "[main] Add Gradle cache to official pack pipeline",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-08T12:03:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25958",
+      "number": 25958,
+      "title": "[tests] Delete saved application state before executing test apps. Fixes #25922",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-08T11:55:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36295",
+      "number": 36295,
+      "title": "Re-add Mono device-tests smoke legs for Android and iOS",
+      "repo": "dotnet/maui",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-07-08T11:47:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25956",
+      "number": 25956,
+      "title": "[tests] Capture 'log stream' output during macOS test execution",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-08T11:38:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/334",
+      "number": 334,
+      "title": "Add .NET MAUI development skills",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-08T11:36:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36127",
+      "number": 36127,
+      "title": "[iOS/MacCatalyst] Fix CollectionView (CV2) expanding to fill available space when no items are present",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-07-08T11:28:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36072",
+      "number": 36072,
+      "title": "[Android] Fix blank gap when HasNavigationBar=false with SafeAreaEdges=None",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-07-08T11:18:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36369",
+      "number": 36369,
+      "title": "[leak-fix] Fix ListView.RefreshCommand memory leak (Fixes #36344)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-08T11:01:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36357",
+      "number": 36357,
+      "title": "[leak-fix] Fix SwipeItemView.Command memory leak (Fixes #36343)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-08T10:58:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36441",
+      "number": 36441,
+      "title": "Revert - [ci] Remove trimming workaround #33624",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-07-08T10:50:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25968",
+      "number": 25968,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-08T10:35:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25969",
+      "number": 25969,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-08T10:32:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24228",
+      "number": 24228,
+      "title": "[msbuild/dotnet] Fix remote Release builds when using plural RuntimeIdentifiers. Fixes #24046.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-08T10:19:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25944",
+      "number": 25944,
+      "title": "[assembly-preparer] Log per-step timings and whether each step modified assemblies.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-08T10:18:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25939",
+      "number": 25939,
+      "title": "[assembly-preparer] Use a trimmer feature switch for DynamicRegistrationSupported.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-08T10:17:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25961",
+      "number": 25961,
+      "title": "[xcode27.0] Merge remote-tracking branch main into xcode27.0",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-08T10:17:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25967",
+      "number": 25967,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-08T10:16:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25918",
+      "number": 25918,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-08T10:15:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25966",
+      "number": 25966,
+      "title": "[Signing] Singn unsigned libraries",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-08T10:09:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36241",
+      "number": 36241,
+      "title": "[XSG] Infer IAsyncRelayCommand for async [RelayCommand] members in compiled bindings",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-08T09:30:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36160",
+      "number": 36160,
+      "title": "[XEPR] Parenthesize ternaries inside interpolation holes",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-08T09:30:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/32914",
+      "number": 32914,
+      "title": "Fix #29459: Switching bindings now triggers propertyChanged correctly",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-08T09:08:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36165",
+      "number": 36165,
+      "title": "[SourceGen] Report correct location for expression parse errors",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-08T09:06:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36242",
+      "number": 36242,
+      "title": "[XSG] Avoid emitting internal AppThemeBinding constructor for netstandard source generation",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-08T09:05:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/295",
       "number": 295,
       "title": "feat: DevFlow Web Inspector with AJAX refresh and modal support",
@@ -72991,7 +73291,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-08T08:53:05.552Z",
+  "lastUpdated": "2026-07-08T16:32:53.322Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
