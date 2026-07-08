@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/295",
+      "number": 295,
+      "title": "feat: DevFlow Web Inspector with AJAX refresh and modal support",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-08T08:20:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/349",
+      "number": 349,
+      "title": "Fix non-retryable macOS screenshot failure when window not frontmost",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-07-08T08:04:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/352",
+      "number": 352,
+      "title": "Fix agent \"connection refused\" on localhost by trying both IPv4 and IPv6 loopback",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-07-08T08:04:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/353",
+      "number": 353,
+      "title": "fix(devflow): refuse ambiguous multi-agent targeting (CLI + MCP) — Fixes #343",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-07-08T08:04:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/363",
+      "number": 363,
+      "title": "Refactor AndroidDevFlowPortForwarder to use AdbRunner",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-07-08T08:04:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/368",
+      "number": 368,
+      "title": "Use live avdmanager device profiles in emulator create",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-07-08T08:03:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4361",
+      "number": 4361,
+      "title": "Add performance-fixer skill + make the benchmark harness AI-ready",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-08T07:49:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4364",
+      "number": 4364,
+      "title": "[release-notes] Banner scaffold + floor-line baseline fix (enable fully-CI regeneration)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-08T07:40:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/371",
+      "number": 371,
+      "title": "Harden and upgrade Expert Code Review workflow",
+      "repo": "dotnet/maui-labs",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-08T07:15:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12006",
+      "number": 12006,
+      "title": "[release/10.0.1xx] [ci] Fix macOS hosted image label on internal pipeline",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-08T02:15:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12005",
+      "number": 12005,
+      "title": "[ci] Fix macOS hosted image label on internal pipeline",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-08T02:14:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36433",
       "number": 36433,
       "title": "[release/11.0.1xx-preview6] Bump dotnet/dotnet (BAR 321614), dotnet/android (BAR 321622) and dotnet/macios (BAR 321780)",
@@ -72881,7 +72991,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-08T00:31:33.782Z",
+  "lastUpdated": "2026-07-08T08:53:05.552Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
