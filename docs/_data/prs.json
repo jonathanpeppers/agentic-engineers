@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25998",
+      "number": 25998,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-09T15:23:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36288",
+      "number": 36288,
+      "title": "[NET11] Update AndroidX package references to latest stable versions",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-07-09T13:55:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25983",
+      "number": 25983,
+      "title": "[AppKit] Update bindings up to Xcode 27 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-09T11:58:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25984",
+      "number": 25984,
+      "title": "[Accessibility] Update bindings up to Xcode 27 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-09T11:57:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25990",
+      "number": 25990,
+      "title": "[VideoToolbox] Update bindings up to Xcode 27 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-09T11:54:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25992",
+      "number": 25992,
+      "title": "[Vision] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-09T11:48:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25993",
+      "number": 25993,
+      "title": "[UserNotifications] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-09T11:47:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36416",
+      "number": 36416,
+      "title": "Fix FlexLayout measuring items wider than their arranged size",
+      "repo": "dotnet/maui",
+      "author": "Kas-code",
+      "mergedAt": "2026-07-09T11:32:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36462",
+      "number": 36462,
+      "title": "Bump dotnet/dotnet (BAR 321994) to blessed preview.6.26357.118",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-09T11:15:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36470",
+      "number": 36470,
+      "title": "[inflight regression] Fix Core.UnitTests/PickerTests fail in candidate PR 36411",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-09T11:07:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36334",
+      "number": 36334,
+      "title": "[inflight/current] [Windows/Mac] Fix Shell page title leaking into native window/status bar",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-09T11:03:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36326",
+      "number": 36326,
+      "title": "[iOS] Button: Fix text updates with CharacterSpacing",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-09T11:00:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36459",
+      "number": 36459,
+      "title": "[HotReload] Surface XAML Incremental Hot Reload diagnostics for IDE tooling",
+      "repo": "dotnet/maui",
+      "author": "noiseonwires",
+      "mergedAt": "2026-07-09T10:49:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36458",
+      "number": 36458,
+      "title": "Fix Shell.TitleView not being centered",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-07-09T10:49:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36467",
+      "number": 36467,
+      "title": " [inflight regression] Fix: ClearPlaceholderIconShouldHideWhenDisabled test fails in candidate ",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-07-09T10:09:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25988",
       "number": 25988,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
@@ -73421,7 +73571,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-09T09:11:46.281Z",
+  "lastUpdated": "2026-07-09T16:51:23.483Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
