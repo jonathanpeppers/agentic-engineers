@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25985",
+      "number": 25985,
+      "title": "[AutomaticAssessmentConfiguration] Update bindings up to Xcode 27 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-10T06:36:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25976",
+      "number": 25976,
+      "title": "[docs] Improve XML docs for ObjCException, NLLanguage, CFHTTPAuthentication, CFHTTPStream, EKParticipantType, EKErrorCode, EKWeekday",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-10T06:22:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25974",
+      "number": 25974,
+      "title": "[ci] Add /apply-gist workflow for updating expected app size files",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-10T06:22:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25978",
+      "number": 25978,
+      "title": "[dotnet] Show a clear error when PublishSingleFile is set. Fixes #16754",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-10T06:21:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25996",
+      "number": 25996,
+      "title": "[release/10.0.1xx] [build] Fix NuGet migration race condition workaround",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-10T06:21:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26025",
+      "number": 26025,
+      "title": "[release/11.0.1xx-preview6] Bump mlaunch to get retry fix.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-10T01:38:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12024",
       "number": 12024,
       "title": "Use AsyncTask thread-safe logging helpers in MavenDownload",
@@ -73701,7 +73761,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-10T00:37:19.746Z",
+  "lastUpdated": "2026-07-10T09:06:38.045Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
