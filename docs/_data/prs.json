@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12024",
+      "number": 12024,
+      "title": "Use AsyncTask thread-safe logging helpers in MavenDownload",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-09T22:23:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12028",
+      "number": 12028,
+      "title": "Remove logcat-parse",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-09T21:38:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12019",
+      "number": 12019,
+      "title": "[tests] Use blittable RegisterNatives in JNI callback tests",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-09T21:12:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12025",
+      "number": 12025,
+      "title": "[CoreCLR] Remove native runtime linking p/invoke override",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-09T21:11:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35944",
+      "number": 35944,
+      "title": "[Android] MediaPicker: Fix photo picker completion from child activities",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-07-09T21:01:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33183",
+      "number": 33183,
+      "title": "[iOS] Fix WebView GoBack/GoForward not working for HtmlWebViewSource",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-09T20:55:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36370",
+      "number": 36370,
+      "title": "[leak-fix] Fix BackButtonBehavior.Command memory leak (Fixes #36345)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-09T20:48:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36442",
+      "number": 36442,
+      "title": "[Windows] Fix: StrokeLineCap values have no effect on Windows platform  ",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-07-09T20:32:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36460",
+      "number": 36460,
+      "title": "Add gh-aw self-updater workflows (action-pin refresh + version updater)",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-09T20:31:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36213",
+      "number": 36213,
+      "title": "release-readiness: preview readiness — blessed-build source + subscription-wiring & feed-drift checks (evolve #36268)",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-09T20:24:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26007",
+      "number": 26007,
+      "title": "[UIKit] Update bindings up to Xcode 27 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-09T20:19:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12016",
+      "number": 12016,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14596794",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-07-09T17:33:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26003",
+      "number": 26003,
+      "title": "[xcode27.0] [tests] Generate test summary and HTML report when skipping due to beta version mismatch",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-09T17:02:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25998",
       "number": 25998,
       "title": "[net11.0] Merge main into net11.0.",
@@ -73571,7 +73701,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-09T16:51:23.483Z",
+  "lastUpdated": "2026-07-10T00:37:19.746Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
