@@ -1,6 +1,196 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36500",
+      "number": 36500,
+      "title": "Update new dotnet/dotnet barid 322330 and dotnet/macios barid 322326",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-07-10T15:55:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36509",
+      "number": 36509,
+      "title": "Stabilize Version 10.0.90",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-10T15:21:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36510",
+      "number": 36510,
+      "title": "Update PatchVersion from 90 to 100",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-10T15:21:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26037",
+      "number": 26037,
+      "title": "[tests] Disable the AppSizeTest on branches using an Xcode beta.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-10T14:40:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26032",
+      "number": 26032,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-10T13:48:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36506",
+      "number": 36506,
+      "title": "[release/10.0.1xx-sr9] Fix WebView SwipeView gestures on Android",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-10T13:33:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26031",
+      "number": 26031,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-10T13:05:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36499",
+      "number": 36499,
+      "title": "Fix WebView SwipeView gestures on Android",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-10T11:51:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26008",
+      "number": 26008,
+      "title": "[dotnet] Remove DOTNET_STARTUP_HOOKS 'env' workaround. Fixes #25799.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-10T11:32:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26001",
+      "number": 26001,
+      "title": "[tests] Add logging around screenshot capture in run-packaged-macos-tests",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-10T11:32:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26023",
+      "number": 26023,
+      "title": "[xcode27.0] [devops] Recognize the \"skipped, incorrect beta version\" test summary",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-10T11:30:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25997",
+      "number": 25997,
+      "title": "[Foundation] Don't load all frameworks on launch on macOS.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-10T11:28:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26002",
+      "number": 26002,
+      "title": "[devops] Fix typo: HAS_FAILED_APP_SIZE_BUNDLERS → HAS_FAILED_APP_SIZE_BUNDLES",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-10T11:26:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26016",
+      "number": 26016,
+      "title": "Bump mlaunch to get fix for #19587.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-10T11:23:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36480",
+      "number": 36480,
+      "title": "[tests] Re-enable Android memory-leak UI tests (#27411)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-10T11:15:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26030",
+      "number": 26030,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-10T10:50:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36498",
+      "number": 36498,
+      "title": "[release/10.0.1xx-sr9] Revert Shell flyout header layout on iOS",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-10T10:49:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26033",
+      "number": 26033,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-10T10:48:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36495",
+      "number": 36495,
+      "title": "Revert Shell flyout header layout on iOS",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-10T10:41:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25985",
       "number": 25985,
       "title": "[AutomaticAssessmentConfiguration] Update bindings up to Xcode 27 Beta 3",
@@ -73761,7 +73951,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-10T09:06:38.045Z",
+  "lastUpdated": "2026-07-10T16:42:15.592Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
