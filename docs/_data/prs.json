@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1495",
+      "number": 1495,
+      "title": "Stable Updates 20260706",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-10T22:19:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12022",
+      "number": 12022,
+      "title": "[tests] Use local servers for networking tests",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-10T22:17:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12032",
+      "number": 12032,
+      "title": "[tests] Disable flaky TryFindClass UTF-8 gref test",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-10T22:16:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/396",
+      "number": 396,
+      "title": "Bump Microsoft.CodeAnalysis.PublicApiAnalyzers from 4.14.0 to 5.6.0",
+      "repo": "dotnet/android-tools",
+      "author": "dependabot",
+      "mergedAt": "2026-07-10T22:15:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12034",
+      "number": 12034,
+      "title": "[build] Exclude SourceLink runtime assets to pin System.IO.Hashing",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-10T22:14:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26026",
+      "number": 26026,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-07-10T21:43:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4379",
+      "number": 4379,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-10T21:04:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4382",
+      "number": 4382,
+      "title": "[skia-sync] Merge upstream chrome/m151 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-10T21:04:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/282",
+      "number": 282,
+      "title": "[skia-sync] Merge upstream chrome/m151",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-10T20:44:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/281",
+      "number": 281,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-10T20:44:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4401",
+      "number": 4401,
+      "title": "Regenerate all release notes 1.x–4.x (v2 pipeline, HarfBuzz folded)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-10T16:46:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36500",
       "number": 36500,
       "title": "Update new dotnet/dotnet barid 322330 and dotnet/macios barid 322326",
@@ -73951,7 +74061,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-10T16:42:15.592Z",
+  "lastUpdated": "2026-07-11T00:30:00.868Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
