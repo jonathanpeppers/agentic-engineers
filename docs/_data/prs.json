@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4396",
+      "number": 4396,
+      "title": "[performance] Remove per-call char[4] allocation in SKFourByteTag.Parse",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-11T07:26:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4389",
+      "number": 4389,
+      "title": "release-notes & API diffs: incremental prepare.sh → render.sh pipeline (deterministic JSON core, thin prose, HarfBuzz folded)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-11T07:23:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-libraries/pull/1495",
       "number": 1495,
       "title": "Stable Updates 20260706",
@@ -74061,7 +74081,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-11T00:30:00.868Z",
+  "lastUpdated": "2026-07-11T08:34:53.124Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
