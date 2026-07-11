@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26038",
+      "number": 26038,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-11T14:07:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26015",
+      "number": 26015,
+      "title": "[Foundation] Fix NSCoder.Encode(byte[], offset, count, key) to honor offset/count",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-11T13:51:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26040",
+      "number": 26040,
+      "title": "[assembly-preparer] Fix IL2036 unresolved type in DynamicDependency with link-all. Fixes #26017",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-11T13:22:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26024",
+      "number": 26024,
+      "title": "[CI] Add build_macos_tests to publish-results stage dependencies",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-11T12:56:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26000",
+      "number": 26000,
+      "title": "[tests] Remove unused script.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-11T12:32:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26009",
+      "number": 26009,
+      "title": "[runtime] Use SYSTEM_CORELIB_DIRECTORY to locate System.Private.CoreLib.dll",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-11T12:31:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26010",
+      "number": 26010,
+      "title": "[dotnet-linker] Gate the TypeMap workaround for dotnet/runtime#127504 on .NET 10 and earlier. Fixes #25275",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-11T12:31:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26012",
+      "number": 26012,
+      "title": "[build] Hide stale build failure comment when a re-run succeeds",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-11T12:31:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26014",
+      "number": 26014,
+      "title": "[assembly-preparer] Don't run the preserve/optimize/mark steps when not trimming.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-11T12:31:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26022",
+      "number": 26022,
+      "title": "[assembly-preparer] Compute the method-override map lazily.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-11T12:30:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26036",
+      "number": 26036,
+      "title": "[docs] Improve XML docs for EKSourceType, EKAlarmProximity, EKEntityMask, EKEntityType, EKAlarmType",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-11T12:29:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4396",
       "number": 4396,
       "title": "[performance] Remove per-call char[4] allocation in SKFourByteTag.Parse",
@@ -74081,7 +74191,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-11T08:34:53.124Z",
+  "lastUpdated": "2026-07-11T16:18:20.984Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
