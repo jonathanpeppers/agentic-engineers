@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/25994",
+      "number": 25994,
+      "title": "[WebKit] Update bindings to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-12T00:02:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26034",
+      "number": 26034,
+      "title": "[ThreadNetwork] Update bindings up to Xcode 27 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-12T00:02:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36252",
+      "number": 36252,
+      "title": "[leak-fix] Fix IndicatorView.ItemsSource memory leak (Fixes #35775)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-11T20:00:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4388",
+      "number": 4388,
+      "title": "[performance] Read SKShaper glyph results via zero-copy spans (remove per-shape array copies)",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-11T17:32:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26038",
       "number": 26038,
       "title": "[net11.0] Merge main into net11.0.",
@@ -74191,7 +74231,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-11T16:18:20.984Z",
+  "lastUpdated": "2026-07-12T00:31:55.623Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
