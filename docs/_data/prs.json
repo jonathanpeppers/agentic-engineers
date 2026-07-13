@@ -1,6 +1,306 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11795",
+      "number": 11795,
+      "title": "[FastDev] Add faster FastDeploy2",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-13T16:19:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4376",
+      "number": 4376,
+      "title": "[performance] Make HarfBuzzSharp.Buffer.AddUtf8(string) allocation-free (pooled UTF-8 encode)",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-13T16:00:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4418",
+      "number": 4418,
+      "title": "[docs] regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-13T15:51:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11964",
+      "number": 11964,
+      "title": "Bump Microsoft.CodeAnalysis.BannedApiAnalyzers from 4.14.0 to 5.6.0",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-07-13T15:30:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11965",
+      "number": 11965,
+      "title": "Bump Microsoft.CodeAnalysis.PublicApiAnalyzers from 4.14.0 to 5.6.0",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-07-13T15:30:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4417",
+      "number": 4417,
+      "title": "release-notes workflow: use area/Docs label instead of the generic documentation",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-13T15:26:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12010",
+      "number": 12010,
+      "title": "[CoreCLR] Remove robin-map from p/invoke override",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-13T15:18:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4415",
+      "number": 4415,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-13T15:04:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26056",
+      "number": 26056,
+      "title": "[AVRouting] Update bindings to Xcode 27 beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-13T14:45:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26047",
+      "number": 26047,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-13T14:19:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26055",
+      "number": 26055,
+      "title": "[AVKit] Update bindings to Xcode 27 beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-13T14:12:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26028",
+      "number": 26028,
+      "title": "[Binding Creator] Enhance documentation for adding new frameworks and clarify Xtro checks",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-13T14:10:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26029",
+      "number": 26029,
+      "title": "[UniformTypeIdentifiers] Update bindings up to Xcode 27 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-13T14:10:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/327",
+      "number": 327,
+      "title": "Add ADB device tracking (host:track-devices) for real-time device monitoring",
+      "repo": "dotnet/android-tools",
+      "author": "rmarinho",
+      "mergedAt": "2026-07-13T13:54:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12037",
+      "number": 12037,
+      "title": "[tests] Disable flaky UnregisterFromRuntime peer-count test",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-13T13:38:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12015",
+      "number": 12015,
+      "title": "Remove `#region` directives from `Android.Runtime.XmlReaderPullParser`",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-13T13:37:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12036",
+      "number": 12036,
+      "title": "Remove null-forgiving operator (`!`) in `BaseTest.AssertApkSigned`",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-13T13:36:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12041",
+      "number": 12041,
+      "title": "[Mono.Android] Handle JNI failures during CoreCLR GC bridge processing",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-13T13:34:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12029",
+      "number": 12029,
+      "title": "Enable android-arm NativeAOT runtime packs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-13T13:30:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26046",
+      "number": 26046,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-13T13:17:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12003",
+      "number": 12003,
+      "title": "[Mono.Android] Fix build warnings in hand-written code",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-13T13:17:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11988",
+      "number": 11988,
+      "title": "[TrimmableTypeMap] Generator correctness fixes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-13T13:13:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11982",
+      "number": 11982,
+      "title": "[TrimmableTypeMap][NativeAOT] Auto-detect and scan runtime-only assemblies (fixes stripped runtime ACWs)",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-13T13:11:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12044",
+      "number": 12044,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260712103445943 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-07-13T13:05:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12045",
+      "number": 12045,
+      "title": "[TrimmableTypeMap] Emit empty stubs for trimmed per-assembly typemaps",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-13T13:04:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12043",
+      "number": 12043,
+      "title": "Remove unused using directives from Aapt2.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-13T13:02:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4414",
+      "number": 4414,
+      "title": "release-notes: delete prose on data change to force a full re-author (no stale pages)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-13T12:52:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26049",
+      "number": 26049,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-13T12:47:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12049",
+      "number": 12049,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-13T12:11:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36508",
+      "number": 36508,
+      "title": "Revert \"[iOS, MacCatalyst] CollectionView: Fix grid spacing updates for horizontal Item Spacing and Vertical Item Spacing - horizontally updating the spacing only applies to the second column",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-07-13T12:08:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12048",
       "number": 12048,
       "title": "Bump external/xamarin-android-tools from `367724d` to `f49df96`",
@@ -74311,7 +74611,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-13T09:06:32.264Z",
+  "lastUpdated": "2026-07-13T16:48:44.597Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
