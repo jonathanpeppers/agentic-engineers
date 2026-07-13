@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4411",
+      "number": 4411,
+      "title": "Restore import argparse dropped in #4410 (fixes release-notes workflow on main)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-12T19:08:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4408",
+      "number": 4408,
+      "title": "[performance] perf(HarfBuzzSharp): allocation-free Tag.Parse + ReadOnlySpan(char) overload",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-12T19:08:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4410",
+      "number": 4410,
+      "title": "Fix release-notes classifier mis-tagging skia-sync PRs; make path tags data-driven",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-12T18:48:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4409",
+      "number": 4409,
+      "title": "Add partner/agentic-workflows label to agentic workflow outputs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-12T18:47:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/25986",
       "number": 25986,
       "title": "[AVFoundation] Update bindings for Xcode 27 beta 3",
@@ -74261,7 +74301,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-12T16:20:26.844Z",
+  "lastUpdated": "2026-07-13T00:32:05.135Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
