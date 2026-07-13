@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12048",
+      "number": 12048,
+      "title": "Bump external/xamarin-android-tools from `367724d` to `f49df96`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-07-13T05:03:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4411",
       "number": 4411,
       "title": "Restore import argparse dropped in #4410 (fixes release-notes workflow on main)",
@@ -74301,7 +74311,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-13T00:32:05.135Z",
+  "lastUpdated": "2026-07-13T09:06:32.264Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
