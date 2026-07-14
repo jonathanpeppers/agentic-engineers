@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1490",
+      "number": 1490,
+      "title": "Fix grpc-core ServerListener.transportCreated drop breaking Firestore Java builds",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-14T15:32:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35986",
+      "number": 35986,
+      "title": "Shorten BindingSourceGen hint names",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-14T15:28:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26067",
+      "number": 26067,
+      "title": "[templates] Fix typo in the 'appliesTo' element",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-14T15:25:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12094",
+      "number": 12094,
+      "title": "[tests] Disable flaky InstallAndroidDependenciesTest",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-14T15:24:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11674",
+      "number": 11674,
+      "title": "Expose Android package output items",
+      "repo": "dotnet/android",
+      "author": "Redth",
+      "mergedAt": "2026-07-14T14:33:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12058",
+      "number": 12058,
+      "title": "Use a local HTTPS server in `SslTest.HttpsShouldWork`",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-14T14:26:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12100",
+      "number": 12100,
+      "title": "[NativeAOT] Preserve IGCUserPeer methods through R8",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-14T13:52:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12092",
+      "number": 12092,
+      "title": "[ci] Use 1ES outputs for Android Tools logs",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-14T13:51:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12099",
+      "number": 12099,
+      "title": "[tests] Use local servers for remaining networking tests",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-14T13:38:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12033",
+      "number": 12033,
+      "title": "[CoreCLR] dlopen()-based assembly store loading",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-14T13:33:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11989",
+      "number": 11989,
+      "title": "[TrimmableTypeMap][NativeAOT] Build plumbing fixes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-14T13:27:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12050",
+      "number": 12050,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-14T11:01:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12093",
+      "number": 12093,
+      "title": "[Microsoft.Android.Build.BaseTasks] Guard LogCodedError overloads",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-14T09:42:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3997",
+      "number": 3997,
+      "title": "Fix resource leak in SKImage.FromEncodedData(SKData, SKRectI)",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-14T08:51:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26039",
       "number": 26039,
       "title": "[assembly-preparer] Speed up InlineDlfcnMethodsStep.",
@@ -74921,7 +75061,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-14T08:44:47.000Z",
+  "lastUpdated": "2026-07-14T16:28:14.309Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
