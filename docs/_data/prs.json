@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26039",
+      "number": 26039,
+      "title": "[assembly-preparer] Speed up InlineDlfcnMethodsStep.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-14T08:10:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26059",
+      "number": 26059,
+      "title": "[docs] Improve XML docs for EKParticipantScheduleStatus and 19 other types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-14T07:27:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12095",
+      "number": 12095,
+      "title": "[build] Centralize Java.Interop Kotlin fixture repositories",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-14T06:35:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26004",
+      "number": 26004,
+      "title": "[msbuild] Restore library resources on incremental builds Fixes #5755",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-14T06:14:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25970",
+      "number": 25970,
+      "title": "[msbuild] Strip binding-embedded dynamic frameworks with 'strip -S -x'. Fixes #25952.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-14T06:14:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25962",
+      "number": 25962,
+      "title": "[msbuild] Deprecate NoBindingEmbedding=false in .NET 11, remove in .NET 12",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-14T06:14:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25975",
+      "number": 25975,
+      "title": "[msbuild] Fix simulator OS version comparison in GetAvailableDevices",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-14T06:13:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25999",
+      "number": 25999,
+      "title": "[dotnet] Fix inlined-dlfcn native symbol generation when the trimmer is skipped",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-14T06:13:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4430",
+      "number": 4430,
+      "title": "Bump to the next version (4.150.2) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-14T00:52:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12056",
+      "number": 12056,
+      "title": "[Mono.Android] Remove dead `ViewTreeObserver.cs`",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-14T00:47:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4429",
+      "number": 4429,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-14T00:31:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/skia/pull/283",
       "number": 283,
       "title": "[skia-sync] Merge upstream chrome/m150",
@@ -74811,7 +74921,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-14T00:28:23.094Z",
+  "lastUpdated": "2026-07-14T08:44:47.000Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
