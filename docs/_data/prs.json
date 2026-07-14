@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/skia/pull/283",
+      "number": 283,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-14T00:21:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4426",
+      "number": 4426,
+      "title": "Ignore sub-50 KB size diffs in the dashboard trend dots",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-13T23:35:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4424",
+      "number": 4424,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-13T23:28:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4425",
+      "number": 4425,
+      "title": "Clarify size dashboard columns and add coloured trend dots",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-13T23:27:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4422",
+      "number": 4422,
+      "title": "Add daily artifact size tracker workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-13T23:00:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4423",
+      "number": 4423,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-13T22:41:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4420",
+      "number": 4420,
+      "title": "Move 4.148.0 release-notes sidecar into _sources/ so the generator can see it",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-13T22:16:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12055",
+      "number": 12055,
+      "title": "[build] Restrict Maven authentication to mirror seeding",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-13T21:54:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-tools/pull/397",
+      "number": 397,
+      "title": "Merge android-tools into dotnet/android repository",
+      "repo": "dotnet/android-tools",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-13T21:30:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11998",
+      "number": 11998,
+      "title": "Merge dotnet/android-tools into external/xamarin-android-tools with full history",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-13T21:18:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36271",
+      "number": 36271,
+      "title": "Fix SwipeItem background not updating on AppTheme change",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-07-13T20:42:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12052",
+      "number": 12052,
+      "title": "[templates] Update androidtest to MSTest 4.3.2",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-13T20:19:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12053",
+      "number": 12053,
+      "title": "[main] Bump Microsoft.CodeAnalysis.BannedApiAnalyzers from 4.14.0 to 5.6.0",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-07-13T19:46:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12040",
+      "number": 12040,
+      "title": "[Mono.Android] Reduce JNI overhead in the CoreCLR GC bridge",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-13T19:45:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12054",
+      "number": 12054,
+      "title": "[main] Bump Microsoft.CodeAnalysis.PublicApiAnalyzers to 5.6.0",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-13T19:16:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12051",
+      "number": 12051,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-13T18:46:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/379",
+      "number": 379,
+      "title": "docs: add NuGet version badges to README package tables",
+      "repo": "dotnet/maui-labs",
+      "author": "jongalloway",
+      "mergedAt": "2026-07-13T17:54:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36503",
+      "number": 36503,
+      "title": "Fix for memory leak in Accelerometer.ReadingChanged/ShakeDetected by using weak event source",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-07-13T17:47:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26005",
+      "number": 26005,
+      "title": "[msbuild] Disable device-specific builds by default.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-13T17:17:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12047",
+      "number": 12047,
+      "title": "Add XML documentation for TextWatcher event args",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-13T16:56:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11795",
       "number": 11795,
       "title": "[FastDev] Add faster FastDeploy2",
@@ -74611,7 +74811,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-13T16:48:44.597Z",
+  "lastUpdated": "2026-07-14T00:28:23.094Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
