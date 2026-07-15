@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36415",
+      "number": 36415,
+      "title": "[Windows] WebAuthenticator: add protocol callback support via app activation",
+      "repo": "dotnet/maui",
+      "author": "IlGalvo",
+      "mergedAt": "2026-07-14T21:32:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36275",
+      "number": 36275,
+      "title": "[Testing] Refactoring Feature Matrix UITest Cases for Label Control",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-07-14T20:59:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26065",
+      "number": 26065,
+      "title": "[build] Speed up makefile parsing by dropping per-parse subprocesses",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-14T19:27:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26071",
+      "number": 26071,
+      "title": "[dotnet] Add Xcode 27.0 packages for .NET 10.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-14T19:09:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12060",
+      "number": 12060,
+      "title": "Report missing Fast Deployment packages as XA0132",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-14T19:06:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4437",
+      "number": 4437,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-14T18:52:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4436",
+      "number": 4436,
+      "title": "Release-notes JSON: switch previews to real git tag key + capture per-PR fixed issues",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-14T18:23:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26068",
+      "number": 26068,
+      "title": "[docs] Improve XML docs for UIImage, UIView, and 11 other types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-14T17:32:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26064",
+      "number": 26064,
+      "title": "[ci] Fix /apply-gist to read gists unauthenticated (the Actions token can't).",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-14T17:32:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26018",
+      "number": 26018,
+      "title": "[dotnet-linker] Gate the TypeMap proxy-attribute workaround to .NET 10 only. Fixes #25276",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-14T17:31:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26058",
+      "number": 26058,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-14T17:22:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36428",
+      "number": 36428,
+      "title": "[Android, iOS/Mac] Fix IsSwipeEnabled Not Working on CarouselView",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-07-14T16:33:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android-libraries/pull/1490",
       "number": 1490,
       "title": "Fix grpc-core ServerListener.transportCreated drop breaking Firestore Java builds",
@@ -75061,7 +75181,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-14T16:28:14.309Z",
+  "lastUpdated": "2026-07-15T00:26:01.860Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
