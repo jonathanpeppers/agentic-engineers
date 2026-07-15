@@ -1,6 +1,236 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36558",
+      "number": 36558,
+      "title": "[inflight regression] Fix: LifeCycleEvents Fire When Navigating Top Tabs test fails in candidate ",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-07-15T15:50:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36585",
+      "number": 36585,
+      "title": "Revert [Android] ScrollView doesn't work in the Shell Flyout Header",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-07-15T15:49:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36592",
+      "number": 36592,
+      "title": "Fix UsesReflectionBasedBindingsWhenCompilationOfBindingsWithSourceIsDisabled Xaml.UnitTests fails in candidate branch",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-07-15T15:48:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36564",
+      "number": 36564,
+      "title": "[iOS] Fix Span TapGestureRecognizer hitbox misalignment in FormattedString when font contains a STAT table",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-15T15:14:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36580",
+      "number": 36580,
+      "title": "Revert \"[iOS] ScrollView: Fix landscape safe-area handling around the notch\"",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-07-15T14:52:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26096",
+      "number": 26096,
+      "title": "[github] Stop radiating 'main' to 'net*.0' branches.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-15T14:48:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26101",
+      "number": 26101,
+      "title": "Bump actions/checkout from 4.2.2 to 7.0.0",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-07-15T14:47:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26102",
+      "number": 26102,
+      "title": "Bump actions/github-script from 7.0.1 to 9.0.0",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-07-15T14:46:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26035",
+      "number": 26035,
+      "title": "[StateReporting] Add bindings for the new StateReporting framework up to Xcode 27 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-15T14:35:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12101",
+      "number": 12101,
+      "title": "[ci] Add dnceng/internal pipeline",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-15T14:35:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12102",
+      "number": 12102,
+      "title": "[Mono.Android] Preserve HEAD requests on redirect in AndroidMessageHandler",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-15T14:16:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12013",
+      "number": 12013,
+      "title": "[CoreCLR] Replace xxhash with crc32",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-15T14:15:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36430",
+      "number": 36430,
+      "title": "[Windows]Fix ContentPresenter Throws System.ArgumentException When Dynamically Assigning RefreshView or ScrollView Content",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-15T14:00:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36287",
+      "number": 36287,
+      "title": "[iOS/Mac] Fix CarouselView Position and IndicatorView Not Updating When Moving to Next Item in CV2",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-07-15T13:58:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12111",
+      "number": 12111,
+      "title": "Use AsyncTask thread-safe debug logging in LinkNativeRuntime",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-15T13:28:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26080",
+      "number": 26080,
+      "title": "Add ReadyToRun configuration tests",
+      "repo": "dotnet/macios",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-07-15T13:04:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26042",
+      "number": 26042,
+      "title": "[msbuild] Detect Mono-only build properties when not using the Mono runtime",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-15T11:43:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26090",
+      "number": 26090,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-15T11:25:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26088",
+      "number": 26088,
+      "title": "[release/10.0.1xx] [dotnet] Add Xcode 27.0 packages for .NET 10.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-15T11:22:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26062",
+      "number": 26062,
+      "title": "[dotnet] Add icons to the project templates. Fixes #17169",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-15T11:20:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26078",
+      "number": 26078,
+      "title": "[dotnet] Add 'Microsoft.Win32.SystemEvents' back into SignList.xml.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-15T11:02:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12097",
+      "number": 12097,
+      "title": "Remove unused `using System.Linq` and `using System.Text` from CallbackCode.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-15T10:21:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12112",
+      "number": 12112,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14662473",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-07-15T10:19:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36415",
       "number": 36415,
       "title": "[Windows] WebAuthenticator: add protocol callback support via app activation",
@@ -75181,7 +75411,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-15T08:48:03.845Z",
+  "lastUpdated": "2026-07-15T16:31:56.802Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
