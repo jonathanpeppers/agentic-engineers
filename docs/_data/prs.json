@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36601",
+      "number": 36601,
+      "title": "ci-fix: allow src/AI/** in the fixer's file allowlist (unblocks net11 twin)",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-16T00:24:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36533",
+      "number": 36533,
+      "title": "Improve /review tests: Opus engine, multi-build base diff, and readable grouped comments",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-16T00:19:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4443",
+      "number": 4443,
+      "title": "[skia-sync] Merge upstream chrome/m151 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-15T23:14:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/285",
+      "number": 285,
+      "title": "[skia-sync] Merge upstream chrome/m151",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-15T22:58:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4445",
+      "number": 4445,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-15T22:54:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4444",
+      "number": 4444,
+      "title": "perf(benchmarks): make manual dispatch match the cron",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-15T22:53:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4438",
+      "number": 4438,
+      "title": "Add a cross-platform perf tracker: benchmarks, sizes, unified dashboard",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-15T22:21:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36215",
+      "number": 36215,
+      "title": "Fix SearchHandler.ShowsResults runtime updates across platforms",
+      "repo": "dotnet/maui",
+      "author": "jpd21122012",
+      "mergedAt": "2026-07-15T21:46:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26085",
+      "number": 26085,
+      "title": "[templates] Fix typo in the 'appliesTo' element",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-15T21:03:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36597",
+      "number": 36597,
+      "title": "[Windows] Address AppInstance activation lifecycle review feedback",
+      "repo": "dotnet/maui",
+      "author": "IlGalvo",
+      "mergedAt": "2026-07-15T20:30:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36461",
+      "number": 36461,
+      "title": "ci-fix: mark validated draft PRs ready when the fixed test goes green",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-15T20:26:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12030",
+      "number": 12030,
+      "title": "[TrimmableTypeMap] Add AOT-safe array and collection factories using MakeArrayType and MakeGenericType",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-15T20:11:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26093",
+      "number": 26093,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-07-15T19:29:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26086",
+      "number": 26086,
+      "title": "[BackgroundAssets] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-15T18:44:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11702",
+      "number": 11702,
+      "title": "[Mono.Android] CoreCLR: file/line in stack traces with FastDev",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-15T18:36:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1499",
+      "number": 1499,
+      "title": "Stable Updates 20260713",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-15T18:08:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26091",
+      "number": 26091,
+      "title": "[docs] Improve XML docs for MPSImageScale, NEFilterFlow, and 11 other types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-15T18:06:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12109",
+      "number": 12109,
+      "title": "Fix GridView.Adapter CA1416 false positive",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-15T17:45:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36558",
       "number": 36558,
       "title": "[inflight regression] Fix: LifeCycleEvents Fire When Navigating Top Tabs test fails in candidate ",
@@ -75411,7 +75591,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-15T16:31:56.802Z",
+  "lastUpdated": "2026-07-16T00:29:31.511Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
