@@ -1,6 +1,226 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1502",
+      "number": 1502,
+      "title": "Fix R8 stripping BaseOnChangeListener/BaseOnSliderTouchListener in Release builds",
+      "repo": "dotnet/android-libraries",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-07-16T16:04:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26057",
+      "number": 26057,
+      "title": "[AVSystemRouting] Update bindings to Xcode 27 beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-16T15:59:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12126",
+      "number": 12126,
+      "title": "[TrimmableTypeMap] Remove generated array proxy codegen and JavaPeerContainerFactory",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-16T15:55:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26124",
+      "number": 26124,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-07-16T15:44:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26120",
+      "number": 26120,
+      "title": "[CoreLocation] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-16T15:43:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36526",
+      "number": 36526,
+      "title": "[leak-fix] Fix GeometryGroup.Children memory leak (Fixes #36365)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-16T15:36:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26118",
+      "number": 26118,
+      "title": "[CoreNFC] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-16T15:05:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26121",
+      "number": 26121,
+      "title": "[CoreMedia] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-16T15:01:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/384",
+      "number": 384,
+      "title": "eng: publish Microsoft.Maui.ProfilingHelper from official pipeline",
+      "repo": "dotnet/maui-labs",
+      "author": "jongalloway",
+      "mergedAt": "2026-07-16T14:56:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36348",
+      "number": 36348,
+      "title": "[leak-test] Add memory-leak coverage for VerticalStackLayout family",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-16T14:49:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26114",
+      "number": 26114,
+      "title": "[CoreGraphics] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-16T14:17:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26084",
+      "number": 26084,
+      "title": "[BackgroundTasks] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-16T13:28:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26113",
+      "number": 26113,
+      "title": "[Cinematic] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-16T13:28:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26115",
+      "number": 26115,
+      "title": "[CloudKit] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-16T13:28:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26116",
+      "number": 26116,
+      "title": "[CoreBluetooth] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-16T13:28:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26082",
+      "number": 26082,
+      "title": "[tools] Skip resource stripping for (hot) reloadable assemblies. Fixes #26076",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-16T13:20:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26122",
+      "number": 26122,
+      "title": "[docs] Improve XML docs for CBCentralManager, HKAnchoredObjectQuery, and 5 other types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-16T13:17:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26128",
+      "number": 26128,
+      "title": "[code-radiator] Fix closed-milestone check that never worked",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-16T13:17:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12125",
+      "number": 12125,
+      "title": "[TrimmableTypeMap] Compile generated JCWs in place instead of copying to android/src",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-16T12:59:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12122",
+      "number": 12122,
+      "title": "Clean up and normalize in-tree Android Tools",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-16T12:56:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36513",
+      "number": 36513,
+      "title": "[leak-fix] Fix TableView.Root memory leak (Fixes #36355)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-16T12:44:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26126",
+      "number": 26126,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-16T11:39:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36601",
       "number": 36601,
       "title": "ci-fix: allow src/AI/** in the fixer's file allowlist (unblocks net11 twin)",
@@ -75591,7 +75811,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-16T08:47:27.826Z",
+  "lastUpdated": "2026-07-16T16:29:47.492Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
