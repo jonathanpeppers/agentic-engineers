@@ -1,6 +1,256 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12121",
+      "number": 12121,
+      "title": "[NativeAOT] Make the trimmable typemap the default",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-16T22:51:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26132",
+      "number": 26132,
+      "title": "[docs] Improve XML docs for AccountStoreOptions and AppKitThreadAccessException",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-16T22:40:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4463",
+      "number": 4463,
+      "title": "Fix benchmark -pr column silently downloading nightly for cflags-only native PRs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-16T22:02:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36559",
+      "number": 36559,
+      "title": "[Android] Fix: WebView clamping small CSS font sizes",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-07-16T21:37:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36294",
+      "number": 36294,
+      "title": "Fix FormattedString memory leak caused by shared Span",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-07-16T21:23:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36007",
+      "number": 36007,
+      "title": "Add analyze-sessions skill for session-driven agent improvement",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-16T20:51:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35998",
+      "number": 35998,
+      "title": "[Windows] Fix Dynamic ShellContent Title Updates at Runtime",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-16T20:50:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25963",
+      "number": 25963,
+      "title": "[dotnet] Fix `dotnet test` on macOS and Mac Catalyst templates",
+      "repo": "dotnet/macios",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-16T20:42:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26119",
+      "number": 26119,
+      "title": "[CoreMotion] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-16T20:41:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4461",
+      "number": 4461,
+      "title": "perf(site): publish the perf dashboard at a hidden /perf/ page",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-16T20:36:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4448",
+      "number": 4448,
+      "title": "perf(dashboard): grid-first redesign — groupable grid, selection→chart, OS/Δ filters",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-16T20:35:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4460",
+      "number": 4460,
+      "title": "[docs] regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-16T20:20:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36002",
+      "number": 36002,
+      "title": "Fix Copilot PR-reviewer prompts: unauthenticated gh reality + mandatory inline-findings.json write",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-16T20:19:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/30311",
+      "number": 30311,
+      "title": "[Windows] - Fix InputTransparent layouts losing background color visibility",
+      "repo": "dotnet/maui",
+      "author": "prakashKannanSf3972",
+      "mergedAt": "2026-07-16T19:57:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34354",
+      "number": 34354,
+      "title": "Fixed When focus is on entry and closing the app the \"object disposed exception is thrown in windows platform\"",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-07-16T19:43:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36487",
+      "number": 36487,
+      "title": "Fix Action Pin Refresh gh CLI authentication",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-16T19:43:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36483",
+      "number": 36483,
+      "title": "Fix two low-severity regex edge cases in release-readiness matchers (Copilot follow-ups from #36213)",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-16T19:42:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26041",
+      "number": 26041,
+      "title": "[msbuild] Copy the .dSYM to the publish directory when publishing",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-16T19:22:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12135",
+      "number": 12135,
+      "title": "[runtime] Set CoreCLR crash report directory on Android",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-16T19:20:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26097",
+      "number": 26097,
+      "title": "[dotnet] Make the RecommendedXcodeVersion MSBuild property public",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-16T19:10:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26013",
+      "number": 26013,
+      "title": "[dotnet] Set a default PublishRuntimeIdentifier again. Fixes #24547",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-16T19:09:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4458",
+      "number": 4458,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-16T19:01:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4457",
+      "number": 4457,
+      "title": "Update issue template version dropdowns",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-16T19:01:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4449",
+      "number": 4449,
+      "title": "Automate issue-template version dropdowns (daily refresh)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-16T18:40:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12061",
+      "number": 12061,
+      "title": "[build] Streamline BootstrapTasks and Prepare orchestration",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-16T16:32:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-libraries/pull/1502",
       "number": 1502,
       "title": "Fix R8 stripping BaseOnChangeListener/BaseOnSliderTouchListener in Release builds",
@@ -75811,7 +76061,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-16T16:29:47.492Z",
+  "lastUpdated": "2026-07-17T00:31:40.262Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
