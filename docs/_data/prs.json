@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/11967",
+      "number": 11967,
+      "title": "[CoreCLR] On-device decompressed AssemblyStore cache",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-17T08:22:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12136",
+      "number": 12136,
+      "title": "[coreclr] Add crash report build property",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-17T07:53:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4465",
+      "number": 4465,
+      "title": "Add LargeImageScaleBenchmark to track the #4421 CPU image-sampling slowdown",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-17T00:35:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12121",
       "number": 12121,
       "title": "[NativeAOT] Make the trimmable typemap the default",
@@ -76061,7 +76091,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-17T00:31:40.262Z",
+  "lastUpdated": "2026-07-17T08:44:37.554Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
