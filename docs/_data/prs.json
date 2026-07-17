@@ -1,6 +1,256 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4469",
+      "number": 4469,
+      "title": "Track benchmarks every 6h with per-run datetime data points",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-17T16:24:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12157",
+      "number": 12157,
+      "title": "[tests] Skip .NET 10 NativeAOT compatibility coverage",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-17T16:16:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26147",
+      "number": 26147,
+      "title": "[src] Fix GC-safety issues in a number of APIs.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-17T16:10:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26153",
+      "number": 26153,
+      "title": "[release/10.0.1xx] [Signing] Sign unsigned libraries",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-17T15:25:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26161",
+      "number": 26161,
+      "title": "[EnhancedLinkSecurity] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-17T15:18:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33919",
+      "number": 33919,
+      "title": "Fix font/splash assets missing on first build and when incremental outputs are deleted",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-17T14:26:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36243",
+      "number": 36243,
+      "title": "[Android] Fix for CurrentItem is updated incorrectly when the CarouselView is bound to an ObservableCollection with Loop = false",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-07-17T14:04:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36423",
+      "number": 36423,
+      "title": "[Testing] Refactoring Feature Matrix UITest Cases for Button Control",
+      "repo": "dotnet/maui",
+      "author": "LogishaSelvarajSF4525",
+      "mergedAt": "2026-07-17T14:01:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36431",
+      "number": 36431,
+      "title": "[Mac] Fix Prevent CollectionView scroll position reset on Mac Catalyst after Picker interaction",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-07-17T13:57:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12123",
+      "number": 12123,
+      "title": "[xabt] Add common application artifact metadata",
+      "repo": "dotnet/android",
+      "author": "Redth",
+      "mergedAt": "2026-07-17T13:43:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26155",
+      "number": 26155,
+      "title": "[DeviceDiscoveryExtension] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-17T12:31:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26152",
+      "number": 26152,
+      "title": "[build] Fix malformed Version.Details.xml",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-17T12:24:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26160",
+      "number": 26160,
+      "title": "[CoreTelephony] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-17T12:22:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26111",
+      "number": 26111,
+      "title": "[linker] Convert the Runtime.Arch optimization to a trimmer feature switch. Fixes #26106.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-17T12:21:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26154",
+      "number": 26154,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-17T12:05:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26157",
+      "number": 26157,
+      "title": "[CoreVideo] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-17T12:00:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26045",
+      "number": 26045,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-17T11:48:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26098",
+      "number": 26098,
+      "title": "[scripts] Rebuild generate-frameworks-constants when its linked tools/common sources change",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-17T11:19:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26099",
+      "number": 26099,
+      "title": "[tests] Add an iOS variation to the PerformanceTests.PrepareAssemblies_CoreCLR test.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-17T11:12:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26109",
+      "number": 26109,
+      "title": "[NativeAOT] Skip ILLink when using ILC + PrepareAssemblies",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-17T11:05:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26156",
+      "number": 26156,
+      "title": "[CryptoTokenKit] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-17T10:36:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26133",
+      "number": 26133,
+      "title": "[Accounts] Fix ACFacebookAudience.OnlyMe mapping in SetPermissions",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-17T10:19:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26108",
+      "number": 26108,
+      "title": "[linker] Skip RemoveUserResourcesSubStep when building for NativeAOT. Fixes #26063.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-17T10:14:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26149",
+      "number": 26149,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-07-17T09:46:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26060",
+      "number": 26060,
+      "title": "[templates] Update test templates to MSTest 4.3.2",
+      "repo": "dotnet/macios",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-17T09:41:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/11967",
       "number": 11967,
       "title": "[CoreCLR] On-device decompressed AssemblyStore cache",
@@ -76091,7 +76341,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-17T08:44:37.554Z",
+  "lastUpdated": "2026-07-17T16:27:09.390Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
