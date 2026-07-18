@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/378",
+      "number": 378,
+      "title": "Bump EssentialsAI preview version",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-18T16:11:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/391",
+      "number": 391,
+      "title": "Fix Arcade Android setup argument quoting",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-18T16:11:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36238",
+      "number": 36238,
+      "title": "Fixed HideSoftInputOnTapped=\"True\" on one page permanently affects all other pages if NavigatedFrom is never fired",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-07-18T15:39:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36544",
+      "number": 36544,
+      "title": "[inflight regression] Fix HybridWebView JS↔.NET bridge: Android request interception order and Windows NUL-character handling",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-07-18T14:55:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36586",
+      "number": 36586,
+      "title": "[Android] Fix RTL layout children shifting into display cutout after landscape rotation",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-07-18T13:00:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26112",
       "number": 26112,
       "title": "[CarPlay] Update bindings up to Xcode 27.0 Beta 3",
@@ -76641,7 +76691,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-18T08:35:09.614Z",
+  "lastUpdated": "2026-07-18T16:19:24.515Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
