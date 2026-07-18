@@ -1,6 +1,266 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12132",
+      "number": 12132,
+      "title": "[TrimmableTypeMap] Emit XA4212 for custom IJavaObject types on the trimmable path",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-17T23:29:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4480",
+      "number": 4480,
+      "title": "Expand SKMatrix tracking benchmarks for the managed-port surface (#4241)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-17T22:44:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4428",
+      "number": 4428,
+      "title": "Restore SK_ENABLE_LEGACY_SHADERCONTEXT to fix CPU raster perf regression (#4421)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-17T22:26:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26162",
+      "number": 26162,
+      "title": "[GameController] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-17T22:23:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26117",
+      "number": 26117,
+      "title": "[CoreImage] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-17T21:03:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4476",
+      "number": 4476,
+      "title": "Add regression-tracking benchmarks for common colour/interop paths",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-17T21:02:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26048",
+      "number": 26048,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-17T20:51:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12164",
+      "number": 12164,
+      "title": "Update Gradle projects with Dependabot",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-17T20:45:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36608",
+      "number": 36608,
+      "title": "[Windows]Fix: Label.FormattedText does not clear previous TextHighlighters",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-07-17T20:42:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36639",
+      "number": 36639,
+      "title": "Agentic-labeler: route AI-agent and platform labels correctly",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-17T20:30:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34962",
+      "number": 34962,
+      "title": "Add Trim/NativeAOT safety rules to code review skill",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-17T20:30:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12156",
+      "number": 12156,
+      "title": "[Native] Remove unused printf debugging helper",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-17T20:22:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12160",
+      "number": 12160,
+      "title": "[ci] Avoid emulator locale restart",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-17T20:14:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36616",
+      "number": 36616,
+      "title": "[Android] Fix flyout item TextColor not applied from Label styles",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-17T20:14:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4477",
+      "number": 4477,
+      "title": "Add chart time-window and smoothing-span controls to the perf dashboard",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-17T20:07:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/389",
+      "number": 389,
+      "title": "Fix official build SDK resolution",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-07-17T19:26:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36638",
+      "number": 36638,
+      "title": "Upgrade Vally CLI to 0.10.0",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-17T19:08:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12144",
+      "number": 12144,
+      "title": "Bump System.IO.Hashing from 10.0.9 to 10.0.10",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-07-17T19:07:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4459",
+      "number": 4459,
+      "title": "[WASM] Add Emscripten 5.0.6 static libraries for .NET 11",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-07-17T18:29:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4470",
+      "number": 4470,
+      "title": "[docs] regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-17T18:13:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4473",
+      "number": 4473,
+      "title": "Add robust smoothing + regression Status to the perf dashboard",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-17T18:12:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4472",
+      "number": 4472,
+      "title": "perf(sizes): fix size-history persistence (single-point overwrite)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-17T18:10:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36618",
+      "number": 36618,
+      "title": "Harden CI-fixer watch loop behavior",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-17T17:05:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26164",
+      "number": 26164,
+      "title": "[HealthKit] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-17T16:55:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26165",
+      "number": 26165,
+      "title": "[FileProvider] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-17T16:47:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26163",
+      "number": 26163,
+      "title": "[FSKit] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-17T16:36:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4469",
       "number": 4469,
       "title": "Track benchmarks every 6h with per-run datetime data points",
@@ -76341,7 +76601,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-17T16:27:09.390Z",
+  "lastUpdated": "2026-07-18T00:29:05.591Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
