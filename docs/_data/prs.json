@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26112",
+      "number": 26112,
+      "title": "[CarPlay] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-18T06:47:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26083",
+      "number": 26083,
+      "title": "[BrowserEngineKit] Add bindings up to Xcode 27.0 Beta 3 ",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-18T06:03:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26159",
+      "number": 26159,
+      "title": "[Foundation] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-18T05:45:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26123",
+      "number": 26123,
+      "title": "[CoreAudio] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-18T05:09:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12132",
       "number": 12132,
       "title": "[TrimmableTypeMap] Emit XA4212 for custom IJavaObject types on the trimmable path",
@@ -76601,7 +76641,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-18T00:29:05.591Z",
+  "lastUpdated": "2026-07-18T08:35:09.614Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
