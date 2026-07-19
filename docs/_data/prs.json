@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26170",
+      "number": 26170,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-07-18T18:27:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/378",
       "number": 378,
       "title": "Bump EssentialsAI preview version",
@@ -76691,7 +76701,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-18T16:19:24.515Z",
+  "lastUpdated": "2026-07-19T00:31:55.763Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
