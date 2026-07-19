@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36427",
+      "number": 36427,
+      "title": "[iOS, MacCatalyst] Fix Image and ImageButton BackgroundColor does not reset when set to null  ",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-19T14:12:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26170",
       "number": 26170,
       "title": "🤖 Merge 'main' => 'xcode27.0'",
@@ -76701,7 +76711,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-19T08:47:49.509Z",
+  "lastUpdated": "2026-07-19T16:19:58.334Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
