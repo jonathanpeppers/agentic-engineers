@@ -1,6 +1,246 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12154",
+      "number": 12154,
+      "title": "Resolve and refresh Android command-line tools by installed Pkg.Revision",
+      "repo": "dotnet/android",
+      "author": "rmarinho",
+      "mergedAt": "2026-07-20T15:54:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12163",
+      "number": 12163,
+      "title": "[main] Bump System.IO.Hashing to 10.0.10",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-20T15:42:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26100",
+      "number": 26100,
+      "title": "[tools] Fix invalid IL in generated CreateObject proxies for generic types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-20T15:35:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36091",
+      "number": 36091,
+      "title": "[ci-fix] De-flake SoftInputExtensionsPageTest with WaitForElement (Android API 30)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-20T14:31:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36673",
+      "number": 36673,
+      "title": "[inflight regression] Fix Shell UI tests are failing in Candidate PR",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-07-20T14:31:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12145",
+      "number": 12145,
+      "title": "[NativeAOT] Use indexed temporary peers in GC bridge",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-20T14:20:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12152",
+      "number": 12152,
+      "title": "[Java.Interop] Decouple built-in proxies from ManagedPeer",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-20T14:19:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12130",
+      "number": 12130,
+      "title": "Add XML documentation to DatePickerDialog.UpdateDate(DateTime)",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-20T14:02:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12141",
+      "number": 12141,
+      "title": "[NativeAOT] Use POSIX primitives for GC bridge processing",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-20T13:46:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12143",
+      "number": 12143,
+      "title": "Bump System.CodeDom from 10.0.9 to 10.0.10",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-07-20T13:45:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12140",
+      "number": 12140,
+      "title": "[Native] Add printf-style native logging",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-20T13:44:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12134",
+      "number": 12134,
+      "title": "Remove the `managed` typemap implementation",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-20T13:43:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26061",
+      "number": 26061,
+      "title": "[devops] Fix the AppSizeTest gist/PR-comment CI step to not rely on the 'gh' CLI.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-20T13:30:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12173",
+      "number": 12173,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14697648",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-07-20T13:04:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12166",
+      "number": 12166,
+      "title": "Bump junit:junit from 4.12 to 4.13.2 in /external/Java.Interop/tools/java-source-utils",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-07-20T13:02:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12176",
+      "number": 12176,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260719103308958 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-07-20T13:00:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12181",
+      "number": 12181,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-20T12:58:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12182",
+      "number": 12182,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260720103250531 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-07-20T12:57:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34338",
+      "number": 34338,
+      "title": "[XAML] Incremental XAML Hot Reload (source-generated patch chains)",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-20T12:42:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26135",
+      "number": 26135,
+      "title": "[xtro] Report extra/unknown managed selectors with no native declaration. Fixes #26053.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-20T10:59:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26173",
+      "number": 26173,
+      "title": "[MapKit] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-20T10:03:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26179",
+      "number": 26179,
+      "title": "[MediaPlayer] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-20T10:01:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26174",
+      "number": 26174,
+      "title": "[LinkSecurity] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-20T10:00:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26177",
+      "number": 26177,
+      "title": "[Messages] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-20T09:59:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26175",
       "number": 26175,
       "title": "[ImageIO] Update bindings up to Xcode 27.0 Beta 3",
@@ -76831,7 +77071,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-20T09:04:09.371Z",
+  "lastUpdated": "2026-07-20T16:31:25.001Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
