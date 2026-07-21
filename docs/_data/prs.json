@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26199",
+      "number": 26199,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-07-21T04:48:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36008",
       "number": 36008,
       "title": "ci(skills): show before→after eval scores on skill PRs",
@@ -77361,7 +77371,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-21T00:31:24.383Z",
+  "lastUpdated": "2026-07-21T08:54:54.513Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
