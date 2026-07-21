@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36672",
+      "number": 36672,
+      "title": "[inflight/Candidate] Fix Android Shell Flyout UI tests failure in Candidate PR #36411",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-21T14:40:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12188",
+      "number": 12188,
+      "title": "Fix PlatformTarget validation for RuntimeIdentifiers",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-21T14:08:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26193",
+      "number": 26193,
+      "title": "[NativeAOT] Complete \"Skip ILLink\" so ILC gets the prepared assemblies (gated to .NET 11+)",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-21T13:37:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12187",
+      "number": 12187,
+      "title": "[NativeAOT] Preserve nested Java class names in trimmable ACW maps",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-21T13:21:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1505",
+      "number": 1505,
+      "title": "Stable Updates 20260720",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-21T13:17:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12191",
+      "number": 12191,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14716841",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-07-21T13:10:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26142",
+      "number": 26142,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-21T13:00:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26209",
+      "number": 26209,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-21T12:03:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26199",
       "number": 26199,
       "title": "🤖 Merge 'main' => 'xcode27.0'",
@@ -77371,7 +77451,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-21T08:54:54.513Z",
+  "lastUpdated": "2026-07-21T16:31:07.808Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
