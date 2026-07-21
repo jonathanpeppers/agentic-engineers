@@ -1,6 +1,296 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36008",
+      "number": 36008,
+      "title": "ci(skills): show before→after eval scores on skill PRs",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-20T23:52:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4493",
+      "number": 4493,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-20T23:42:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4489",
+      "number": 4489,
+      "title": "[skia-sync] Merge upstream chrome/m151 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-20T23:40:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/286",
+      "number": 286,
+      "title": "[skia-sync] Merge upstream chrome/m151",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-20T23:17:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4488",
+      "number": 4488,
+      "title": "[WASM] Add preview-.NET WASM test job to catch exception-handling regressions",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-20T23:11:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4370",
+      "number": 4370,
+      "title": "[performance] Port SKColor -> SKColorF conversion to managed C#",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-20T22:08:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4385",
+      "number": 4385,
+      "title": "[performance] Port single-value SKPMColor premultiply/unpremultiply to managed C#",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-20T21:55:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36631",
+      "number": 36631,
+      "title": "[Testing] Feature Matrix UITest Cases for Shell SearchHandler",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-07-20T21:32:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36561",
+      "number": 36561,
+      "title": "Fix inconsistent Grouped CollectionView (GridItemsLayout) rendering on Windows and iOS/macOS",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-07-20T21:29:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4487",
+      "number": 4487,
+      "title": "[WASM] Fix net11 exception-handling mismatch in emsdk 5.0.6 native libs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-20T21:28:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12105",
+      "number": 12105,
+      "title": "[Mono.Android] Abort in-flight body I/O on response dispose",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-20T20:50:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12158",
+      "number": 12158,
+      "title": "[ci] Add signing to the internal pipeline",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-20T20:48:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12171",
+      "number": 12171,
+      "title": "Add XML documentation to named Color properties in Android.Graphics.Color",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-20T20:38:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26187",
+      "number": 26187,
+      "title": "[rgen] Scope UI namespace cache per-compilation to fix generator flakiness. Fixes #26184.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-20T20:26:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12179",
+      "number": 12179,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-20T20:23:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36607",
+      "number": 36607,
+      "title": "[Inflight/Candidate] Fix the Build errors when build src/Controls/samples/Controls.Sample/Maui.Controls.Sample.csproj in release.",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-07-20T20:21:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26186",
+      "number": 26186,
+      "title": "[monotouch-test] Fix TOCTOU race in SecProtocolMetadataTest.TlsDefaults. Fixes #25877.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-20T20:02:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12185",
+      "number": 12185,
+      "title": "[main] Bump System.CodeDom to 10.0.10",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-20T20:02:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12178",
+      "number": 12178,
+      "title": "Remove stale TODO comment in LlvmIrModule.MapStructure",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-20T20:01:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12175",
+      "number": 12175,
+      "title": "Remove unused using directives in CalculateLayoutCodeBehind.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-20T20:01:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12168",
+      "number": 12168,
+      "title": "Bump com.github.javaparser:javaparser-core from 3.18.0 to 3.28.2 in /external/Java.Interop/tools/java-source-utils",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-07-20T20:00:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12165",
+      "number": 12165,
+      "title": "Bump jvm from 2.0.21 to 2.4.10 in /external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/kotlin-gradle",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-07-20T20:00:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12142",
+      "number": 12142,
+      "title": "[NativeAOT] Reduce owning C++ standard library state",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-20T19:52:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12104",
+      "number": 12104,
+      "title": "[tools] Support current and legacy assembly stores",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-20T19:51:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35925",
+      "number": 35925,
+      "title": "Add automated regression-corpus scanner for the code-review skill",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-20T18:32:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36656",
+      "number": 36656,
+      "title": "Remove net10 branch automation",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-20T18:23:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36681",
+      "number": 36681,
+      "title": "[iOS] Fix: Carouselview restores stale Position over CurrentItem after off-screen ItemsSource Change",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-07-20T16:59:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12150",
+      "number": 12150,
+      "title": "[CoreCLR/NativeAOT] Migrate JNI reference logging to printf",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-20T16:57:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12153",
+      "number": 12153,
+      "title": "[Native] Migrate timing logging to printf",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-20T16:44:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12154",
       "number": 12154,
       "title": "Resolve and refresh Android command-line tools by installed Pkg.Revision",
@@ -77071,7 +77361,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-20T16:31:25.001Z",
+  "lastUpdated": "2026-07-21T00:31:24.383Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
