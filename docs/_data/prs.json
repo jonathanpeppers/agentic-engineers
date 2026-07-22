@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26168",
+      "number": 26168,
+      "title": "[xtro-sharpie] Handle typedef-level API_UNAVAILABLE on enums. Fixes #26166.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T08:23:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26203",
+      "number": 26203,
+      "title": "[NearbyInteraction] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-22T08:20:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26208",
+      "number": 26208,
+      "title": "[Network] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-22T07:49:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26188",
+      "number": 26188,
+      "title": "[tests] Truncate command output in DotNet.ExecuteCommand failure messages",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T07:24:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26220",
+      "number": 26220,
+      "title": "[docs] Improve XML docs for NSFontCollectionAction, AppKitFramework, SKReceiptRefreshRequest, NSBrowser, NSLevelIndicator, NSPopUpButton",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T06:52:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12198",
+      "number": 12198,
+      "title": "[tests] Use dotnet-public for CI package resolution",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-22T06:20:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26146",
+      "number": 26146,
+      "title": "[tests] Delete legacy mmptest suite and port two tests to tests/dotnet/UnitTests. Fixes #26145.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T03:18:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26180",
+      "number": 26180,
+      "title": "[MessageUI] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-22T02:37:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26207",
+      "number": 26207,
+      "title": "[MPSFunctions] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-22T02:08:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26158",
+      "number": 26158,
+      "title": "[CoreSpotlight] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-22T02:01:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26198",
+      "number": 26198,
+      "title": "[CI] Make 'Clean for remote tests' able to delete read-only directories",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T01:43:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26205",
+      "number": 26205,
+      "title": "[NetworkExtension] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-22T01:37:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26200",
+      "number": 26200,
+      "title": "[MultipeerConnectivity] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-22T01:28:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26202",
+      "number": 26202,
+      "title": "[MediaToolbox] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-22T01:17:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26144",
+      "number": 26144,
+      "title": "[devops] Fix apidiff GitHub comment step failing on git ancestry check Fixes #26107",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T01:07:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/272",
+      "number": 272,
+      "title": "Use FreeType for Nano Server font support.",
+      "repo": "mono/skia",
+      "author": "jeffska",
+      "mergedAt": "2026-07-22T00:57:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26204",
       "number": 26204,
       "title": "[MetalPerformanceShadersGraph] Update bindings up to Xcode 27.0 Beta 3",
@@ -77691,7 +77851,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-22T00:29:41.647Z",
+  "lastUpdated": "2026-07-22T08:53:48.590Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
