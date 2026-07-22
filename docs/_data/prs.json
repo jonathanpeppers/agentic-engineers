@@ -1,6 +1,256 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26238",
+      "number": 26238,
+      "title": "Bump zizmorcore/zizmor-action from 0.5.7 to 0.6.0",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-07-22T16:27:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26239",
+      "number": 26239,
+      "title": "Bump actions/setup-dotnet from 5.4.0 to 6.0.0",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-07-22T16:26:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26237",
+      "number": 26237,
+      "title": "[github] Pin concrete models in agentic workflows",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T16:25:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26229",
+      "number": 26229,
+      "title": "[docs] Improve XML docs for NSScreen, NSTextField, AudioUnitUtils, and 7 more types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T15:51:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26194",
+      "number": 26194,
+      "title": "[NativeAOT] Generate native registrar code after ILC for trimmable-static",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T15:43:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26216",
+      "number": 26216,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T15:24:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26230",
+      "number": 26230,
+      "title": "[CI] Collect issue-specific postmortem data",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T15:06:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36713",
+      "number": 36713,
+      "title": "Revert - Fix SwipeView Threshold changes width and offset of the side menu (when visible)",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-07-22T14:59:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4519",
+      "number": 4519,
+      "title": "Update DeviceRunners to 0.1.0-preview.12 for dotnet test --filter support",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-22T13:53:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36719",
+      "number": 36719,
+      "title": "Revert Incremental Hot Reload Sandbox demo",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-22T13:49:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libzipsharp/pull/158",
+      "number": 158,
+      "title": "[ci] Remove scheduled builds",
+      "repo": "dotnet/android-libzipsharp",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-22T13:29:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12167",
+      "number": 12167,
+      "title": "Bump com.github.javaparser:javaparser-symbol-solver-core from 3.18.0 to 3.28.2 in /external/Java.Interop/tools/java-source-utils",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-07-22T13:24:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12159",
+      "number": 12159,
+      "title": "[TrimmableTypeMap] SafeJavaCollectionFactory per-container construction",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-22T13:22:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12180",
+      "number": 12180,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-22T13:22:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12192",
+      "number": 12192,
+      "title": "[build] Fix stabilized SDK workload manifest path",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-22T13:20:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26232",
+      "number": 26232,
+      "title": "[tests] Stabilize NSPasteboard metadata detection Fixes #25446",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T12:57:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26231",
+      "number": 26231,
+      "title": "[github] Convert XML doc writer to a skill",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T12:08:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26228",
+      "number": 26228,
+      "title": "[github] Update Code Radiator model",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T12:07:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36720",
+      "number": 36720,
+      "title": "Fixed Fixed Build error on PR 36411",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-07-22T11:29:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36683",
+      "number": 36683,
+      "title": "[XAML] Fix XIHR DataTemplate emission for multi-set and scoped templates",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-22T11:06:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26094",
+      "number": 26094,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-22T10:06:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4510",
+      "number": 4510,
+      "title": "docs(release-testing): Test Properties + WASM workflow; harden milestone audit + wire into publish",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-22T10:02:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4509",
+      "number": 4509,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-22T09:44:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4280",
+      "number": 4280,
+      "title": "Use FreeType for Nano Server font support.",
+      "repo": "mono/SkiaSharp",
+      "author": "jeffska",
+      "mergedAt": "2026-07-22T09:36:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26095",
+      "number": 26095,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-22T08:54:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26168",
       "number": 26168,
       "title": "[xtro-sharpie] Handle typedef-level API_UNAVAILABLE on enums. Fixes #26166.",
@@ -77851,7 +78101,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-22T08:53:48.590Z",
+  "lastUpdated": "2026-07-22T16:31:22.036Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
