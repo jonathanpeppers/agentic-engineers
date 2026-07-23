@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12148",
+      "number": 12148,
+      "title": "[NativeAOT] Migrate runtime utility logging to printf",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-23T16:13:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12208",
+      "number": 12208,
+      "title": "[build] Default interpreter only for MonoVM",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-23T15:40:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36609",
+      "number": 36609,
+      "title": "[Testing] Fix for flaky UITests in Net11 CI",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-07-23T15:13:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36751",
+      "number": 36751,
+      "title": "[net11.0] Fix main merge build errors",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-23T15:09:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26251",
+      "number": 26251,
+      "title": "[xcode27.0] Bump to Xcode 27.0 Beta 4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-23T14:57:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26252",
+      "number": 26252,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-23T14:48:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12205",
+      "number": 12205,
+      "title": "[CoreCLR] Track libxamarin-app.so as a _BuildApkFastDev input",
+      "repo": "dotnet/android",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-07-23T12:43:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12209",
+      "number": 12209,
+      "title": "[ci] Run public pipeline nightly",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-23T12:36:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26249",
+      "number": 26249,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-07-23T11:59:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36255",
+      "number": 36255,
+      "title": "Update SkiaSharp to 4.150.1 and HarfBuzzSharp to 14.2.1.1",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-23T11:59:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26250",
+      "number": 26250,
+      "title": "[docs] Improve XML docs for AVPlayerItem, AVPlayerItemVideoOutput, CKRecord, CABasicAnimation, CAKeyFrameAnimation",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-23T11:05:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36740",
+      "number": 36740,
+      "title": "Add new versions to the bug report template",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-07-23T10:53:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12108",
+      "number": 12108,
+      "title": "[tools] Replace APK utilities with skill file apps",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-23T10:48:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36682",
+      "number": 36682,
+      "title": "[XAML] Enable Incremental Hot Reload by default in Debug",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-23T10:24:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12059",
       "number": 12059,
       "title": "Enable Android dependency install test retries",
@@ -78441,7 +78581,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-23T08:54:04.607Z",
+  "lastUpdated": "2026-07-23T16:32:17.691Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
