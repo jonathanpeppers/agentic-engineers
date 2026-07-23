@@ -1,6 +1,286 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/395",
+      "number": 395,
+      "title": "Upgrade SkiaSharp/HarfBuzz to 4.x, adopt Central Package Management, migrate to net10, release 4.0.0",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-23T00:18:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26247",
+      "number": 26247,
+      "title": "[monotouch-test] Assert instead of plain exception.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T23:56:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4455",
+      "number": 4455,
+      "title": "[memory-leak] Fix CoTaskMem pixel-buffer leak in SKImage.Create raster failure path",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-22T23:43:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4522",
+      "number": 4522,
+      "title": "[infra] Backport CI fixes to release/4.150.x (skiasharp-docker + Apple provisioning)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-22T23:42:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26206",
+      "number": 26206,
+      "title": "[MetalPerformanceShaders] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-22T23:33:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35093",
+      "number": 35093,
+      "title": "Improve XEXPR diagnostics for interpolated strings and lambda method groups",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-22T23:29:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36413",
+      "number": 36413,
+      "title": "[iOS] Entry: Fix Done accessory hit testing",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-07-22T23:25:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34637",
+      "number": 34637,
+      "title": "[Testing] Refactoring Feature Matrix UITest Cases for Shapes Control",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-07-22T23:11:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26242",
+      "number": 26242,
+      "title": "[tests] Add a sandboxed macOS 'dotnet watch' test case. Fixes #25816",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T23:00:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4523",
+      "number": 4523,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-22T22:22:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26243",
+      "number": 26243,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T22:08:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4498",
+      "number": 4498,
+      "title": "[performance] Avoid intermediate string allocation in GetEncodedText null-terminated path",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-22T21:48:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4512",
+      "number": 4512,
+      "title": "[performance] perf(SKRuntimeEffectUniforms): pre-size uniform lookup map to known count",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-22T21:48:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4514",
+      "number": 4514,
+      "title": "Update issue template version dropdowns",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-22T21:37:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36714",
+      "number": 36714,
+      "title": "[Windows] Fix: Border containing SwipeView causes native crash",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-07-22T21:28:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36727",
+      "number": 36727,
+      "title": "[ci-fix] De-flake RootViewSizeDoesntChangeAfterBackground: wait for restored layout to settle (refs #35738)",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-07-22T21:06:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26241",
+      "number": 26241,
+      "title": "[docs] Improve XML docs for PreserveAttribute, CLEnums, MKLocalSearch, and 12 more types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T20:53:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26131",
+      "number": 26131,
+      "title": "[src] Clean/consolidate runtime initialization code between platforms.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T20:13:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26087",
+      "number": 26087,
+      "title": "[tools] PreserveSmartEnumConversionsStep: emit root-descriptor XML instead of modifying (hot) reloadable assemblies. Fixes #26073",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T20:08:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4517",
+      "number": 4517,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-22T20:06:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36731",
+      "number": 36731,
+      "title": "Remove comment-triggered /review rerun",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-22T20:02:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/290",
+      "number": 290,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-22T19:59:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26235",
+      "number": 26235,
+      "title": "[xcode27.0] Merge main into xcode27.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T19:52:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26214",
+      "number": 26214,
+      "title": "[tests] Detect GC.KeepAlive kept-alive objects reached via a dup in HandleSafety",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T19:10:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36121",
+      "number": 36121,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet, dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-22T19:09:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36210",
+      "number": 36210,
+      "title": "Add producer-trace, over-restriction & coverage-adequacy review CHECKs (retro from #36185)",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-22T18:39:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12195",
+      "number": 12195,
+      "title": "Fix MarshalMethods startup logcat race in device test",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-22T17:40:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26233",
+      "number": 26233,
+      "title": "[tests] Relax SpecialFolder write access checks Fixes #26225",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-22T16:55:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26238",
       "number": 26238,
       "title": "Bump zizmorcore/zizmor-action from 0.5.7 to 0.6.0",
@@ -78101,7 +78381,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-22T16:31:22.036Z",
+  "lastUpdated": "2026-07-23T00:31:38.615Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
