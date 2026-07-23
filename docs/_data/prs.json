@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12059",
+      "number": 12059,
+      "title": "Enable Android dependency install test retries",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-23T06:12:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25979",
+      "number": 25979,
+      "title": "[msbuild] Copy dSYMs from xcframeworks next to the app's dSYM. Fixes #23076.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-23T05:42:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26189",
+      "number": 26189,
+      "title": "[msbuild] Show a helpful error when codesign fails with errSecInternalComponent. Fixes #26183.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-23T05:41:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26197",
+      "number": 26197,
+      "title": "[msbuild] Generate dSYM files by default on macOS/Mac Catalyst when using Native AOT. Fixes #21553",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-23T05:40:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26134",
+      "number": 26134,
+      "title": "[msbuild] Add an EnableCrashReport property to enable .NET crash reports. Fixes #26130",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-23T05:39:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26110",
+      "number": 26110,
+      "title": "Add common Apple application artifact metadata",
+      "repo": "dotnet/macios",
+      "author": "Redth",
+      "mergedAt": "2026-07-23T05:21:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp.Extended/pull/395",
       "number": 395,
       "title": "Upgrade SkiaSharp/HarfBuzz to 4.x, adopt Central Package Management, migrate to net10, release 4.0.0",
@@ -78381,7 +78441,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-23T00:31:38.615Z",
+  "lastUpdated": "2026-07-23T08:54:04.607Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
