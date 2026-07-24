@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4527",
+      "number": 4527,
+      "title": "Add SkiaSharp.Vulkan.Silk.NET package and run the Vulkan tests on Android + Linux",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-24T16:20:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12219",
+      "number": 12219,
+      "title": "[CoreCLR] Complete startup-aware lock initialization",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-24T15:22:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26284",
+      "number": 26284,
+      "title": "[AppManagedFeatures] Ignore Swift-only framework",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-24T15:09:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12222",
+      "number": 12222,
+      "title": "[tests] Restore GetObjectArray coverage",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-24T15:08:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26262",
+      "number": 26262,
+      "title": "[tests] Fix LinkedAwayGenericTypeAsOptionalMemberInProtocol keeping NSSet<T> alive",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-24T14:19:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26195",
+      "number": 26195,
+      "title": "[bgen] Support BindAs parameters in protocols",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-24T14:14:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12225",
+      "number": 12225,
+      "title": "[tests] Restore Java.Interop value manager coverage",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-24T14:12:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12220",
+      "number": 12220,
+      "title": "[Mono.Android] Move Android documentation notices",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-24T14:12:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12217",
+      "number": 12217,
+      "title": "[tests] Isolate parallel Kotlin Gradle state",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-24T14:11:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36666",
+      "number": 36666,
+      "title": "Automate visual failure comparisons in /review tests",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-24T13:45:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12212",
+      "number": 12212,
+      "title": "[xabt] Fix Windows long path directory removal",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-24T13:42:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12210",
+      "number": 12210,
+      "title": "[NativeAOT] Migrate shared GC logging to printf",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-24T13:41:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26261",
+      "number": 26261,
+      "title": "[runtime] Link away entry assembly registration. Fixes #10457",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-24T13:18:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26276",
+      "number": 26276,
+      "title": "[Security] Update bindings up to Xcode 27.0 Beta 4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-24T11:43:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35006",
+      "number": 35006,
+      "title": "Fix CS1612 for struct sub-property paths in C# expression source gen",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-24T11:13:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26289",
+      "number": 26289,
+      "title": "[docs] Improve XML docs for HMCharacteristicMetadata, HMCharacteristicProperties, INCallRecord, INIntentResolutionResult, MTKTextureLoaderOptions, GKGridGraph, UIDynamicAnimator, UINavigationBar, CGDataConsumer, ModelNotImplementedException, GKEntity, GKPolygonObstacle, SCNRenderer, UIKitThreadAccessException",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-24T10:27:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26271",
+      "number": 26271,
+      "title": "[xcode27.0] Update bindings up to Xcode 27.0 Beta 4 for already updated up to Beta 3 Frameworks",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-24T10:21:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36747",
       "number": 36747,
       "title": "[Windows] Fix COMException when changing Image BackgroundColor via binding after navigation",
@@ -78781,7 +78951,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-24T08:52:37.297Z",
+  "lastUpdated": "2026-07-24T16:33:11.788Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
