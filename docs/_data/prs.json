@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4528",
+      "number": 4528,
+      "title": "Convert all .sln solutions to .slnx format",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-23T23:31:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36699",
+      "number": 36699,
+      "title": "[iOS] Fix Button TextColor not updating when CharacterSpacing is set",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-07-23T23:03:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36748",
+      "number": 36748,
+      "title": "[Android] Fix ActivityIndicator remaining visible after IsRunning/IsVisible set to false",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-07-23T22:59:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4515",
+      "number": 4515,
+      "title": "Add containerized test legs (Azure Linux, Alpine/musl, Nano Server)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-23T22:24:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36497",
+      "number": 36497,
+      "title": "Add actionable SR backport, version-transition, and ship-Assessment feed guidance",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-23T19:03:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12213",
+      "number": 12213,
+      "title": "[tests] Ignore MarshalMethodsAppRuns on CoreCLR",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-23T18:00:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12214",
+      "number": 12214,
+      "title": "`$(AndroidPackVersionSuffix)=rc.1`",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-23T17:58:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26256",
+      "number": 26256,
+      "title": "[docs] Improve XML docs for 19 types (NSValue, MessageComposeResult, ABRecord, etc.)",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-23T17:32:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26219",
+      "number": 26219,
+      "title": "[ObjCRuntime] Allow native dynamic registrar removal. Fixes #16668",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-23T17:16:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26254",
+      "number": 26254,
+      "title": "[tests] Remove unnecessary conditional compilation symbol XAMMAC_TESTS.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-23T16:54:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12148",
       "number": 12148,
       "title": "[NativeAOT] Migrate runtime utility logging to printf",
@@ -78581,7 +78681,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-23T16:32:17.691Z",
+  "lastUpdated": "2026-07-24T00:28:44.757Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
