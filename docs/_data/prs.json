@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36747",
+      "number": 36747,
+      "title": "[Windows] Fix COMException when changing Image BackgroundColor via binding after navigation",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-07-24T08:14:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36755",
+      "number": 36755,
+      "title": " [Testing] Refactoring Feature Matrix UITest Cases for Image and ImageButton Controls",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-07-24T08:12:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36756",
+      "number": 36756,
+      "title": "[iOS] Add spacing below Done accessory button",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-07-24T08:08:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36312",
+      "number": 36312,
+      "title": "[iOS/MacCatalyst] Controls.Core: Enable MemoryAnalyzers",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-24T07:06:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26272",
+      "number": 26272,
+      "title": "[SensitiveContentAnalysis] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-24T06:52:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26275",
+      "number": 26275,
+      "title": "[PencilKit] Update bindings up to Xcode 27.0 Beta 4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-24T06:48:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35578",
+      "number": 35578,
+      "title": "[Windows] Border: Keyboard tap support for TapGestureRecognizer",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-07-24T06:43:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26274",
+      "number": 26274,
+      "title": "[SafariServices] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-24T06:29:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26266",
+      "number": 26266,
+      "title": "[docs] Improve XML docs for NSCollectionViewLayout, NSPasteboard, NSSharingService, ARPointCloud, CAMediaTimingFunction, CFType, CGPattern, AVAssetDownloadTask, AVOutputSettingsAssistant, CFMachPortContext, GKComponentSystem, HMCharacteristic",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-24T05:47:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26270",
+      "number": 26270,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-07-24T01:48:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4528",
       "number": 4528,
       "title": "Convert all .sln solutions to .slnx format",
@@ -78681,7 +78781,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-24T00:28:44.757Z",
+  "lastUpdated": "2026-07-24T08:52:37.297Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
