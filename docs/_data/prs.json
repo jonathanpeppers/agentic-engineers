@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26285",
+      "number": 26285,
+      "title": "[SharedWithYou] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-25T04:36:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26305",
+      "number": 26305,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-07-25T04:35:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4538",
       "number": 4538,
       "title": "[skia-sync] Merge upstream chrome/m151 bug fixes",
@@ -79111,7 +79131,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-25T00:33:01.527Z",
+  "lastUpdated": "2026-07-25T08:41:32.133Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
