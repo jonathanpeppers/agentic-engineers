@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4538",
+      "number": 4538,
+      "title": "[skia-sync] Merge upstream chrome/m151 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-24T22:14:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4543",
+      "number": 4543,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/m151",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-24T22:13:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4542",
+      "number": 4542,
+      "title": "Allow Skia submodule syncs to target another branch",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-24T22:12:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/294",
+      "number": 294,
+      "title": "[skia-sync] Merge upstream chrome/m151",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-24T22:03:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4531",
+      "number": 4531,
+      "title": "Execute Vulkan tests on the Windows CI leg (software SwiftShader ICD via preBuildStep)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-24T21:55:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4537",
+      "number": 4537,
+      "title": "Sync Skia submodule and cgmanifest",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-24T21:22:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4536",
+      "number": 4536,
+      "title": "Automate Skia submodule and cgmanifest sync",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-24T21:16:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36734",
+      "number": 36734,
+      "title": "Fix regression scanner attribution reads",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-24T21:14:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/293",
+      "number": 293,
+      "title": "Update pull_request_template.md",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-24T20:18:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4534",
+      "number": 4534,
+      "title": "Modernize the pull request template",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-24T20:06:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26286",
+      "number": 26286,
+      "title": "[SensorKit] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-24T20:06:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26278",
+      "number": 26278,
+      "title": "[ReplayKit] Update bindings up to Xcode 27.0 Beta 3",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-24T18:38:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26293",
+      "number": 26293,
+      "title": "[UIKit] Give priority to the UIMenuIdentifier overload of UIMenu.Create. Fixes #26267.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-24T18:23:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4533",
+      "number": 4533,
+      "title": "[docs] regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-24T17:45:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/326",
+      "number": 326,
+      "title": "Migrate Essentials AI device tests to DeviceRunners dotnet test",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-24T17:26:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/401",
+      "number": 401,
+      "title": "Update expert review model to Claude Opus 4.8",
+      "repo": "dotnet/maui-labs",
+      "author": "morning4coffe-dev",
+      "mergedAt": "2026-07-24T16:42:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4527",
       "number": 4527,
       "title": "Add SkiaSharp.Vulkan.Silk.NET package and run the Vulkan tests on Android + Linux",
@@ -78951,7 +79111,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-24T16:33:11.788Z",
+  "lastUpdated": "2026-07-25T00:33:01.527Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
