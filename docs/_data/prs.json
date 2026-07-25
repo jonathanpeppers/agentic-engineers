@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36786",
+      "number": 36786,
+      "title": "[automated] Merge branch 'main' => 'merge/main-to-net11.0'",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-25T10:37:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36773",
+      "number": 36773,
+      "title": "[Android] ban [Export] in the banned API analyzers",
+      "repo": "dotnet/maui",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-25T10:30:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36783",
+      "number": 36783,
+      "title": "Bump the aspnetcore group with 3 updates",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-07-25T09:47:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36628",
+      "number": 36628,
+      "title": "[inflight regression][iOS/macOS] Fix CollectionView, RefreshView, and ScrollView interaction state after IsEnabled toggles",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-07-25T09:39:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26285",
       "number": 26285,
       "title": "[SharedWithYou] Update bindings up to Xcode 27.0 Beta 3",
@@ -79131,7 +79171,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-25T08:41:32.133Z",
+  "lastUpdated": "2026-07-25T16:19:18.779Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
