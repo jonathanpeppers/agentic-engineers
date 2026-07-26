@@ -1,6 +1,96 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36507",
+      "number": 36507,
+      "title": "[Net11] [iOS/MacCatalyst] Migrate TabbedPage to handler architecture",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-07-26T11:26:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36737",
+      "number": 36737,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-26T10:47:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36379",
+      "number": 36379,
+      "title": "[ci-fix-net11] De-flake AOT warning baseline against volatile compiler-generated local-function ordinals",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-26T10:39:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36448",
+      "number": 36448,
+      "title": "[Material 3] Replace Material3 slider touch workaround and remove floating label",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-07-26T10:33:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36472",
+      "number": 36472,
+      "title": "[iOS/MacCatalyst] Fix Entry clear button appearing dimmed compared to TextColor",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-07-26T10:30:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36133",
+      "number": 36133,
+      "title": "[net11.0][Android] Fix StackNavigationManager binary break and ShellItemWrapperFragment OnDestroyView gap (follow-up #34758)",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-07-26T10:28:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36746",
+      "number": 36746,
+      "title": "Fix GradientBrush.GradientStops.Clear() leaks brushes when stops are shared",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-26T09:49:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36577",
+      "number": 36577,
+      "title": "[Windows] Fix Entry.Completed firing during IME candidate confirmation",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-07-26T09:48:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36209",
+      "number": 36209,
+      "title": "[Windows] Fix Modal page has a 32px title bar gap at the top in full-screen mode",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-26T09:45:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36027",
       "number": 36027,
       "title": "[ci-fix-net11] De-flake DropEventCoordinates: retry until the drop reports valid positive coordinates",
@@ -79211,7 +79301,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-26T08:48:54.425Z",
+  "lastUpdated": "2026-07-26T16:21:21.904Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
