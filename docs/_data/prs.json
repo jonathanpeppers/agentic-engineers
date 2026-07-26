@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36027",
+      "number": 36027,
+      "title": "[ci-fix-net11] De-flake DropEventCoordinates: retry until the drop reports valid positive coordinates",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-25T22:53:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36771",
+      "number": 36771,
+      "title": "Bump Magick.NET-Q8-AnyCPU from 14.14.0 to 14.15.0",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-07-25T22:32:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36787",
+      "number": 36787,
+      "title": "Fix inflight/current build breaks (duplicate MAUIX2017, obsolete AddCircle, Assert.IsTrue)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-25T22:23:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36733",
+      "number": 36733,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-25T22:18:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36786",
       "number": 36786,
       "title": "[automated] Merge branch 'main' => 'merge/main-to-net11.0'",
@@ -79171,7 +79211,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-25T16:19:18.779Z",
+  "lastUpdated": "2026-07-26T00:34:21.655Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
