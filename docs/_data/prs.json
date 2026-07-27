@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36677",
+      "number": 36677,
+      "title": "[iOS And Windows] Fix Entry IsPassword ignored when Keyboard is set to Password",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-07-27T08:52:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36603",
+      "number": 36603,
+      "title": "[Windows] Fix WebView appdir local-host detection and align its resource-access mode",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-27T08:13:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36640",
+      "number": 36640,
+      "title": "[Windows] Add AppInstance activation lifecycle hook and WebAuthenticator support",
+      "repo": "dotnet/maui",
+      "author": "IlGalvo",
+      "mergedAt": "2026-07-27T08:11:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36752",
+      "number": 36752,
+      "title": "[MacCatalyst] Fix page content clipped behind TitleBar on first navigation",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-07-27T08:05:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36776",
+      "number": 36776,
+      "title": "[iOS] Add legacy Done accessory compatibility switch",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-07-27T07:59:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35007",
+      "number": 35007,
+      "title": "Support xmlns prefixes and attached bindable properties in C# expressions",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-27T07:48:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36808",
       "number": 36808,
       "title": "[inflight] Fix netstandard build break: ReferenceEqualityComparer in GradientBrush",
@@ -79361,7 +79421,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-27T00:33:45.286Z",
+  "lastUpdated": "2026-07-27T09:07:39.244Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
