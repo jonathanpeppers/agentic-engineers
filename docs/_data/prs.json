@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26263",
+      "number": 26263,
+      "title": "[registrar] Omit CoreCLR callback entry points. Fixes #21732",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-27T16:41:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12243",
+      "number": 12243,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-27T15:32:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26306",
+      "number": 26306,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-27T14:43:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4545",
+      "number": 4545,
+      "title": "Add backend-neutral async RequestReadPixels to SKImage and SKSurface",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-27T14:38:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/295",
+      "number": 295,
+      "title": "Add C API for async rescale-and-read-pixels (SkImage/SkSurface/Ganesh)",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-27T14:33:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26307",
+      "number": 26307,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-27T14:26:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26279",
+      "number": 26279,
+      "title": "[CoreSpotlight] Update bindings up to Xcode 27.0 Beta 4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-27T14:24:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26277",
+      "number": 26277,
+      "title": "[PassKit] Update bindings up to Xcode 27.0 Beta 4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-27T14:17:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1506",
+      "number": 1506,
+      "title": "[Xamarin.Build.Download] Prevent interactive 7-Zip extraction hangs",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-27T13:48:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1507",
+      "number": 1507,
+      "title": "Fix native ad API not being generated for ads-mobile-sdk",
+      "repo": "dotnet/android-libraries",
+      "author": "marius-bughiu",
+      "mergedAt": "2026-07-27T13:30:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12227",
+      "number": 12227,
+      "title": "Move hardcoded Aapt2Compile warning string to Resources.resx for localization",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-27T12:30:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12211",
+      "number": 12211,
+      "title": "[NativeAOT] Migrate GC bridge logging to printf",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-27T12:29:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12231",
+      "number": 12231,
+      "title": "[build] fix `make prepare` on clean agents: empty `$(PkgMono_Unix)`",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-27T12:28:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12215",
+      "number": 12215,
+      "title": "[build] Move Android tools projects into src and tests",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-27T12:26:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36114",
+      "number": 36114,
+      "title": "[ci-fix-net11] De-flake Issue1939Test (intermittent macOS grouped-ListView failure)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-27T10:52:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36677",
       "number": 36677,
       "title": "[iOS And Windows] Fix Entry IsPassword ignored when Keyboard is set to Password",
@@ -79421,7 +79571,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-27T09:07:39.244Z",
+  "lastUpdated": "2026-07-27T16:43:08.135Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
