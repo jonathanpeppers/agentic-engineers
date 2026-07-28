@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26299",
+      "number": 26299,
+      "title": "[bgen] Emit XML documentation for generated events",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-27T20:05:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12238",
+      "number": 12238,
+      "title": "Remove redundant AsyncTask logging from LinkNativeRuntime",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-27T19:45:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36841",
+      "number": 36841,
+      "title": "Update net11.0 merge flow target to preview7",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-27T19:41:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26294",
+      "number": 26294,
+      "title": "[docs] Improve XML docs for CNContactFetchRequest, CIImageInitializationOptions, CVTime, NSInputStream, GKBehavior, GKState, NLLanguageRecognizer, NEHotspotHelperOptions, SCNScene, SLComposeViewController",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-27T19:27:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26300",
+      "number": 26300,
+      "title": "[tools] Strip resources from linked assemblies in Hot Reload + PrepareAssemblies builds.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-27T19:26:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12242",
+      "number": 12242,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-27T18:56:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36803",
+      "number": 36803,
+      "title": "[release-readiness] Fix next-cycle milestone after preview7 (rc1, not preview8)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-27T18:30:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36655",
+      "number": 36655,
+      "title": "[Extensibility] GestureManager: Expose factory and skip incompatible handlers",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-27T18:28:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12234",
+      "number": 12234,
+      "title": "Add XML documentation to SupportsGLTextureAttribute",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-27T18:12:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36221",
+      "number": 36221,
+      "title": "[ci-fix-net11] De-flake flaky DispatcherTests by resetting leaked ThreadStatic dispatcher flag",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-27T18:00:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12241",
+      "number": 12241,
+      "title": "Enable nullable reference types in RtxtWriter.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-27T17:14:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26263",
       "number": 26263,
       "title": "[registrar] Omit CoreCLR callback entry points. Fixes #21732",
@@ -79571,7 +79681,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-27T16:43:08.135Z",
+  "lastUpdated": "2026-07-28T00:31:01.100Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
