@@ -1,6 +1,326 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26311",
+      "number": 26311,
+      "title": "[docs] Add XML documentation to hand-written events",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T16:25:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34426",
+      "number": 34426,
+      "title": "[Android] Fix custom WebViewClient being overridden by MAUI handler mapper",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-07-28T16:17:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36328",
+      "number": 36328,
+      "title": "[Android] [ShellHandler] Extend existing device tests to cover both Renderer and Handler code paths",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-07-28T16:00:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36769",
+      "number": 36769,
+      "title": "[iOS] Fix ButtonHandler clearing custom UIButton styling when Background null",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-28T15:53:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36881",
+      "number": 36881,
+      "title": "[release/11.0.1xx-preview7] Turn XAML Incremental Hot Reload (XIHR) off by default",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-28T15:08:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26280",
+      "number": 26280,
+      "title": "[ScreenCaptureKit] Update bindings up to Xcode 27.0 Beta 4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-28T14:35:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26326",
+      "number": 26326,
+      "title": "[AVFoundation] Fix AVAudioSession.EndInterruption event unsubscription",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T14:34:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36832",
+      "number": 36832,
+      "title": "Turn XAML Incremental Hot Reload (XIHR) off by default",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-28T14:30:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36865",
+      "number": 36865,
+      "title": "Bump the aspnetcore group with 3 updates",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-07-28T14:29:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26322",
+      "number": 26322,
+      "title": "[tests] Upload AppSizeTest expected-file diffs instead of full files",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T14:22:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36873",
+      "number": 36873,
+      "title": "[Testing] Fix net11 CI failure in Picker UI test (Issue34971)",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-07-28T14:15:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26325",
+      "number": 26325,
+      "title": "[AVFoundation] Fix InputChannelsChanged event to remove handler on unsubscribe",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T14:14:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4561",
+      "number": 4561,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-28T13:50:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3968",
+      "number": 3968,
+      "title": "Add SkiaSharp bindings for the Graphite GPU backend (Vulkan/Metal/Dawn)",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-07-28T13:46:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26316",
+      "number": 26316,
+      "title": "[dotnet] Update Xcode 27.0 packages for .NET 10.",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-28T13:16:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26317",
+      "number": 26317,
+      "title": "[release/10.0.1xx] [dotnet] Update Xcode 27.0 packages for .NET 10.",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-28T13:16:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26309",
+      "number": 26309,
+      "title": "[devops] Provision Xcode from an immutable Azure Artifacts package instead of Provisionator",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-28T13:07:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12244",
+      "number": 12244,
+      "title": "[ci] cache Gradle distributions on MSBuild test agents",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-28T12:55:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12252",
+      "number": 12252,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14786451",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-07-28T12:54:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36860",
+      "number": 36860,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-preview7'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-28T12:32:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26310",
+      "number": 26310,
+      "title": "[docs] Clarify EnableOnDemandResources and EmbedOnDemandResources properties",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T12:21:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26292",
+      "number": 26292,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T12:21:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26314",
+      "number": 26314,
+      "title": "[docs] Improve XML docs for UISegmentedControl, VNUtils, CGVector, CIFilter, NSSecureCoding, MDLVertexFormatExtensions, UIBarItem, CNInstantMessageAddress, CNSocialProfile, NSPrintInfo",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T12:21:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26312",
+      "number": 26312,
+      "title": "[tests] Only force complete NativeAOT metadata when NUnit is referenced",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T12:21:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26302",
+      "number": 26302,
+      "title": "[msbuild] Don't turn missing Objective-C classes into hard link errors when inlining Class.GetHandle. Fixes #26268",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T12:20:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26295",
+      "number": 26295,
+      "title": "[tests] Fix IsLinkAll trimmer dataflow heuristic workaround",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T12:17:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26257",
+      "number": 26257,
+      "title": "[linker] Remove Foundation member attributes",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T12:17:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26321",
+      "number": 26321,
+      "title": "[tests] Don't crash macOS test runner on late log output",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-28T12:06:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/236",
+      "number": 236,
+      "title": "Add C API shim for the Graphite GPU backend (Vulkan/Metal/Dawn)",
+      "repo": "mono/skia",
+      "author": "ramezgerges",
+      "mergedAt": "2026-07-28T11:03:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/299",
+      "number": 299,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-28T11:03:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/414",
+      "number": 414,
+      "title": "[ai-docs] docs: add DevFlow Inspector.Tests to testing instructions",
+      "repo": "dotnet/maui-labs",
+      "author": "github-actions",
+      "mergedAt": "2026-07-28T09:41:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26315",
+      "number": 26315,
+      "title": "🤖 Merge 'main' => 'xcode27.0'",
+      "repo": "dotnet/macios",
+      "author": "github-actions",
+      "mergedAt": "2026-07-28T09:07:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/395",
       "number": 395,
       "title": "[ai-docs] docs: add Microsoft.Maui.ProfilingHelper to Cli product row in AGENTS.md",
@@ -79751,7 +80071,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-28T08:56:36.076Z",
+  "lastUpdated": "2026-07-28T16:33:40.882Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
