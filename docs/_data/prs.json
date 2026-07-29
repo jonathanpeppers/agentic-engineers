@@ -1,6 +1,286 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1510",
+      "number": 1510,
+      "title": "Stable Updates 20260727",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-29T15:42:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26320",
+      "number": 26320,
+      "title": "[release/11.0.1xx-preview7] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-29T15:40:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26340",
+      "number": 26340,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-29T14:31:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36885",
+      "number": 36885,
+      "title": "[ci-fix-net11] Resolve app theme dynamic resource from parent Application",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-29T14:02:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36842",
+      "number": 36842,
+      "title": "Harden CI-fixer discovery and safe-output transport",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-29T13:57:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36476",
+      "number": 36476,
+      "title": "[Testing] Fixed Test case failure in PR 36411 - [07/13/2026] Candidate - 1",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-07-29T13:10:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12216",
+      "number": 12216,
+      "title": "[CoreCLR] Stabilize Debug typemaps across C# rebuilds",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-29T13:04:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12255",
+      "number": 12255,
+      "title": "[skills] add gh-stack skill for stacked PRs",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-29T13:00:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36868",
+      "number": 36868,
+      "title": "[XAML] Fix local Debug build of Controls.Xaml.UnitTests (stale diagnostic suppressions)",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-29T12:58:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11424",
+      "number": 11424,
+      "title": "[Mono.Android] Mark JavaFinalize() as [Obsolete]",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-29T12:55:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12259",
+      "number": 12259,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260729103351773 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-07-29T12:54:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12199",
+      "number": 12199,
+      "title": "[tests] Route Maven and Gradle resolution through the dnceng mirror",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-29T12:54:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36849",
+      "number": 36849,
+      "title": "Apply the pr-finalize title/description recommendation to the PR",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-29T12:53:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36890",
+      "number": 36890,
+      "title": "Remove invalid CODEOWNERS configuration",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-29T12:49:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36900",
+      "number": 36900,
+      "title": "[ci-fix-net11] Fix net11 CI failure in Windows CollectionView UI tests ",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-07-29T12:45:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26081",
+      "number": 26081,
+      "title": "[dotnet-linker] Skip inlining Dlfcn in reloadable assemblies. Fixes #26075",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-29T12:37:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26337",
+      "number": 26337,
+      "title": "[docs] Improve XML docs for NSLayoutManager and MLMultiArray",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-29T12:37:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26290",
+      "number": 26290,
+      "title": "[src] Generate accessors for native binding constants",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-29T12:35:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26339",
+      "number": 26339,
+      "title": "Add gh-stack skill for stacked pull requests",
+      "repo": "dotnet/macios",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-29T12:34:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36855",
+      "number": 36855,
+      "title": "[ci-fix-net11] Remove obsolete UseWebAssemblyDebugging from Blazor solution template (refs #36846)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-29T12:11:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26296",
+      "number": 26296,
+      "title": "[msbuild] Use GetFileSystemEntries for remote-safe XCFramework dSYM discovery",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-29T11:11:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26253",
+      "number": 26253,
+      "title": "[msbuild] Strip framework metadata by default. Fixes #15724",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-29T11:11:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26244",
+      "number": 26244,
+      "title": "[msbuild] Return full paths from FilterStaticFrameworks. Fixes #19602",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-29T11:10:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26258",
+      "number": 26258,
+      "title": "[msbuild] Avoid concurrent Errors.designer.cs generation. Fixes #26246",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-29T11:07:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26341",
+      "number": 26341,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-29T10:58:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12251",
+      "number": 12251,
+      "title": "Fix copy-paste bug: targetSdkVersion gated on MinSdkVersion in CreateDynamicFeatureManifest",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-29T10:54:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12229",
+      "number": 12229,
+      "title": "[TrimmableTypeMap] Improve incremental build performance",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-07-29T10:53:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26333",
+      "number": 26333,
+      "title": "[xcode27.0] Merge main into xcode27.0",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-29T10:18:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36838",
       "number": 36838,
       "title": "[release/11.0.1xx-preview7] Update dependencies from dotnet/android, dotnet/dotnet, dotnet/macios",
@@ -80311,7 +80591,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-29T08:58:49.583Z",
+  "lastUpdated": "2026-07-29T16:31:07.457Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
