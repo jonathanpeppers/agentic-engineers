@@ -1,6 +1,246 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36838",
+      "number": 36838,
+      "title": "[release/11.0.1xx-preview7] Update dependencies from dotnet/android, dotnet/dotnet, dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-28T22:53:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26328",
+      "number": 26328,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T22:49:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4568",
+      "number": 4568,
+      "title": "[skia-sync] Merge upstream chrome/m151 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-28T22:32:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4571",
+      "number": 4571,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/m151",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-28T22:31:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/301",
+      "number": 301,
+      "title": "[skia-sync] Merge upstream chrome/m151",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-28T22:28:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36889",
+      "number": 36889,
+      "title": "Add Microsoft.Windows.SDK.BuildTools.WinApp dependency for Windows apps",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-28T22:05:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26329",
+      "number": 26329,
+      "title": "[release/10.0.1xx] [devops] Provision Xcode from an immutable Azure Artifacts package instead of Provisionator",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-28T22:02:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36891",
+      "number": 36891,
+      "title": "[Windows] Bump Windows App SDK, SDK BuildTools, WebView2 and Win2D",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-28T22:02:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36892",
+      "number": 36892,
+      "title": "[Sample] Remove obsolete Router.PreferExactMatches from gallery sample",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-28T22:01:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36848",
+      "number": 36848,
+      "title": "Harden net11 CI scanner coverage and issue metadata",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-28T21:41:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4550",
+      "number": 4550,
+      "title": "[performance] Optimize SKData.SaveTo to avoid the double buffer copy",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-28T21:40:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libzipsharp/pull/160",
+      "number": 160,
+      "title": "Point external/bzip2 submodule at GitLab instead of sourceware.org",
+      "repo": "dotnet/android-libzipsharp",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-28T21:19:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4563",
+      "number": 4563,
+      "title": "[docs] regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-07-28T21:05:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26298",
+      "number": 26298,
+      "title": "[bgen] Emit XML documentation for generated `*Appearance` class members",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T20:40:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36888",
+      "number": 36888,
+      "title": "[ci-fix-net11] Guard Blazor sample JS interop calls",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-28T20:34:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26143",
+      "number": 26143,
+      "title": "[ObjCRuntime] Use Type.GetMemberWithSameMetadataDefinitionAs to find closed generic members. Fixes #18355",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T20:24:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12248",
+      "number": 12248,
+      "title": "[Xamarin.Android.Build.Tasks] mostly R2R the main assembly",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-28T19:53:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26327",
+      "number": 26327,
+      "title": "[docs] Improve XML docs for CIVector, SCNText, UIDeviceOrientationExtensions, UISearchBar, and NSAttributedString",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T18:16:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36879",
+      "number": 36879,
+      "title": "[ci] Fix internal build: duplicate .cab signing + missing MicrosoftWixVersion",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-07-28T17:40:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36619",
+      "number": 36619,
+      "title": "[ci-fix-net11] Needs review: Fix CA1416 platform-compatibility build errors in Essentials (refs #36451)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-28T17:33:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36882",
+      "number": 36882,
+      "title": "[Net11] Fix Maui.Controls.Sample build fails with MAUIG2045",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-07-28T17:18:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26264",
+      "number": 26264,
+      "title": "[src] Move focused static initialization to fields",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-28T17:14:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36887",
+      "number": 36887,
+      "title": "Revert \"Fix SwipeItem IconImageSource color handling and rendering across platforms (#35632)\"",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-28T17:02:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34884",
+      "number": 34884,
+      "title": "Escalate Blast Radius probing for frequently-regressed component families",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-28T16:46:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26311",
       "number": 26311,
       "title": "[docs] Add XML documentation to hand-written events",
@@ -80071,7 +80311,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-28T16:33:40.882Z",
+  "lastUpdated": "2026-07-29T00:29:01.243Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
