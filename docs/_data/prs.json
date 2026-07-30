@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26141",
+      "number": 26141,
+      "title": "[tools] Convert IsARM64CallingConvention optimization to a trimmer feature switch Fixes #26105",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-30T08:46:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26358",
+      "number": 26358,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-30T06:36:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12261",
+      "number": 12261,
+      "title": "[Xamarin.Android.Build.Tasks] instrumentation-only apps + `dotnet run`",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-30T06:26:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libzipsharp/pull/159",
+      "number": 159,
+      "title": "[ci] Float .NET SDK versions and provision .NET in the Build stage",
+      "repo": "dotnet/android-libzipsharp",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-30T02:09:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4565",
       "number": 4565,
       "title": "Move public CI to dnceng agents and provision required tools",
@@ -80791,7 +80831,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-30T00:29:14.303Z",
+  "lastUpdated": "2026-07-30T08:55:53.986Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
