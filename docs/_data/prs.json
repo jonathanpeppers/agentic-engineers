@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4565",
+      "number": 4565,
+      "title": "Move public CI to dnceng agents and provision required tools",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-30T00:17:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4570",
+      "number": 4570,
+      "title": "Invoke vcvarsall only once before windows compilation",
+      "repo": "mono/SkiaSharp",
+      "author": "mmitche",
+      "mergedAt": "2026-07-30T00:02:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/306",
+      "number": 306,
+      "title": "Remove per-edge MSVC environment initialization",
+      "repo": "mono/skia",
+      "author": "mmitche",
+      "mergedAt": "2026-07-29T23:29:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36715",
+      "number": 36715,
+      "title": "[Revert][Android] Fix CollectionView inside disabled RefreshView blocks scroll",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-07-29T23:10:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36753",
+      "number": 36753,
+      "title": "[inflight regression][iOS] Fix CarouselView2 dropping scrolls after ItemsSource swap/reset",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-07-29T23:06:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36886",
+      "number": 36886,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-29T22:54:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36764",
+      "number": 36764,
+      "title": "[Testing] SafeArea Feature Matrix Test Cases for Grid",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-07-29T22:47:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36687",
+      "number": 36687,
+      "title": "Avoid duplicate startup refresh in .NET MAUI mobile template",
+      "repo": "dotnet/maui",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-29T22:45:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36920",
+      "number": 36920,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-preview7'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-29T22:38:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36908",
+      "number": 36908,
+      "title": "[release/11.0.1xx-preview7] Update to final blessed Preview 7 SDK/runtime",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-29T21:11:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36850",
+      "number": 36850,
+      "title": "Add report-only ci-scan stale tracking-issue reconciler",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-29T20:35:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26342",
+      "number": 26342,
+      "title": "[docs] Improve XML docs for NSCell, CTBaselineClass, MTProfessionalVideoWorkflow, NEVpnManager, INSetCarLockStatusIntent, CMCustomBlockAllocator",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-29T20:01:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34519",
+      "number": 34519,
+      "title": "Remove the TrimmerRootAssembly workaround from Controls targets (net11.0)",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-29T19:48:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36671",
+      "number": 36671,
+      "title": "[iOS/Mac] Fix UI becoming unresponsive when adding many Entry/Editor children to AbsoluteLayout",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-07-29T19:32:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26350",
+      "number": 26350,
+      "title": "[ci] Fix apply-gist workflow failing on gist diffs with CRLF line endings",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-29T19:27:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36760",
+      "number": 36760,
+      "title": "Improve release readiness tracker accuracy and post-ship guidance",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-29T19:15:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36785",
+      "number": 36785,
+      "title": "Fix /review tests screenshot publishing",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-29T18:44:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26348",
+      "number": 26348,
+      "title": "Bump actions/checkout from 7.0.0 to 7.0.1",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-07-29T18:03:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12260",
+      "number": 12260,
+      "title": "[release/11.0.1xx-preview7] [CoreCLR] Stabilize Debug typemaps across C# rebuilds",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-29T17:39:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36833",
+      "number": 36833,
+      "title": "[XAML] XIHR: deterministic content-hash versioning + always-emit UpdateComponent",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-07-29T17:38:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android-libraries/pull/1510",
       "number": 1510,
       "title": "Stable Updates 20260727",
@@ -80591,7 +80791,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-29T16:31:07.457Z",
+  "lastUpdated": "2026-07-30T00:29:14.303Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
