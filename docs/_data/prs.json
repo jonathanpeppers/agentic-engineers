@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4575",
+      "number": 4575,
+      "title": "Make GPU tests required; skip only when declared",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-31T03:04:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4603",
       "number": 4603,
       "title": "docs: note the Vulkan 1.1 Ganesh requirement in the 4.148.0 notes sidecar",
@@ -81261,7 +81271,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-31T00:32:51.277Z",
+  "lastUpdated": "2026-07-31T09:01:52.668Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
