@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36977",
+      "number": 36977,
+      "title": "[Testing] Fix for flaky UITests in Net11 CI",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-07-31T16:13:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26372",
+      "number": 26372,
+      "title": "[docs] Improve XML docs for CIAutoAdjustmentFilterOptions, PKAddPassButtonStyle, AVKitError, NSThread, INSetDefrosterSettingsInCarIntent, MPSCnnNeuronPReLU, and ILClassificationUIExtensionContext",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-31T14:50:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26369",
+      "number": 26369,
+      "title": "[src] Fix availability analyzer errors",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-31T14:49:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libzipsharp/pull/162",
+      "number": 162,
+      "title": "[git] Point external/bzip2 submodule at a GitHub mirror",
+      "repo": "dotnet/android-libzipsharp",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-31T14:03:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36952",
+      "number": 36952,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-preview7'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-31T13:53:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12277",
+      "number": 12277,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14829833",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-07-31T13:17:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12268",
+      "number": 12268,
+      "title": "Apply `*.runtimeconfig.dev.json` to CoreCLR apps",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-31T13:05:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12271",
+      "number": 12271,
+      "title": "[CoreCLR] Align AddPeer() peer-replacement rule with MonoVM",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-07-31T13:00:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36973",
+      "number": 36973,
+      "title": "Revert \"[release/11.0.1xx-preview7] Update dependencies from dotnet/macios\"",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-31T12:48:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36872",
+      "number": 36872,
+      "title": "[Windows] Fix Shell.Items.Clear() memory leak by disconnecting child handlers on removal",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-07-31T09:55:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36903",
+      "number": 36903,
+      "title": "[Android] Fix Shell singleton page rendering blank when re-pushed after absolute route reset",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-07-31T09:51:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36878",
+      "number": 36878,
+      "title": "Fix SwipeView Threshold changes width and offset of the side menu (when visible)",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-07-31T09:50:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36902",
+      "number": 36902,
+      "title": "[Net11][ci-fix-net11] [Android] Fix ShellContent not updating when Content property changes at runtime",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-07-31T09:49:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36965",
+      "number": 36965,
+      "title": "[release/11.0.1xx-preview7] Update dependencies from dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-31T09:40:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36957",
+      "number": 36957,
+      "title": "[Extensibility] SingleProject: Fix dual-path backend activation and Compile filtering",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-31T09:39:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36970",
+      "number": 36970,
+      "title": "Revert unintended Sandbox sample changes from route-template work",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-31T09:36:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4575",
       "number": 4575,
       "title": "Make GPU tests required; skip only when declared",
@@ -81271,7 +81431,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-31T09:01:52.668Z",
+  "lastUpdated": "2026-07-31T16:34:36.116Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
