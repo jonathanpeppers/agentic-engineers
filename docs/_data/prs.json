@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4603",
+      "number": 4603,
+      "title": "docs: note the Vulkan 1.1 Ganesh requirement in the 4.148.0 notes sidecar",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-31T00:08:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36730",
+      "number": 36730,
+      "title": "XAML Hot Reload: Improve incremental generation and coverage",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-07-30T22:56:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4595",
+      "number": 4595,
+      "title": "Bump to the next version (4.151.1) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-30T22:53:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36953",
+      "number": 36953,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-30T21:56:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36959",
+      "number": 36959,
+      "title": "[release/11.0.1xx-preview7] Update dependencies from dotnet/android",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-30T21:54:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36336",
+      "number": 36336,
+      "title": "[Maps] Support custom icons for cluster markers",
+      "repo": "dotnet/maui",
+      "author": "kevin68",
+      "mergedAt": "2026-07-30T21:50:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35110",
+      "number": 35110,
+      "title": "feat: Shell route templates with {param} path parameters",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-30T21:41:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26196",
+      "number": 26196,
+      "title": "[bgen] Add [FactoryMethod] support for failable initializers. Fixes #26167.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-30T19:45:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26351",
+      "number": 26351,
+      "title": "[dotnet-linker] Mark the generated type map assemblies as trimmable.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-30T19:44:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36799",
+      "number": 36799,
+      "title": "Add missing YAML frontmatter to find-regression-risk SKILL.md",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-30T19:20:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36654",
+      "number": 36654,
+      "title": "[Extensibility] SingleProject: Register neutral-TFM backends",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-30T18:56:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36653",
+      "number": 36653,
+      "title": "[Extensibility] Resizetizer: Enable external backend processing",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-30T18:56:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36950",
+      "number": 36950,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-preview7'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-07-30T17:54:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36658",
+      "number": 36658,
+      "title": "[Extensibility] BlazorWebView: Add custom platform handler registration",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-30T17:50:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36633",
+      "number": 36633,
+      "title": "[Extensibility] Controls: Restore public AlertManager interfaces",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-30T17:46:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35901",
+      "number": 35901,
+      "title": "[Extensibility] XAML: Expose GTK, macOS, and WPF in OnPlatform",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-07-30T17:45:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26354",
+      "number": 26354,
+      "title": "[docs] Improve XML docs for SCNGeometrySource, CVPixelBufferPool, INInteraction, GCExtendedGamepadSnapshotDataVersion, SCNMatrix4",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-30T17:28:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12265",
+      "number": 12265,
+      "title": "Add XML docs for Action-based Java.Lang.Thread constructors",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-07-30T17:08:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26355",
+      "number": 26355,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-30T16:41:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26370",
+      "number": 26370,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-07-30T16:41:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36947",
       "number": 36947,
       "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-preview7'",
@@ -81061,7 +81261,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-30T16:32:18.723Z",
+  "lastUpdated": "2026-07-31T00:32:51.277Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
