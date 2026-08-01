@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36919",
+      "number": 36919,
+      "title": "Address post-merge review findings on the PR finalize apply step",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-01T12:36:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36994",
+      "number": 36994,
+      "title": "Remove ineffective blanket integration-test retry",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-01T12:28:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36995",
+      "number": 36995,
+      "title": "[release/11.0.1xx-preview7] Update dependencies from dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-01T12:26:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36984",
       "number": 36984,
       "title": "[Resizetizer] Invalidate image outputs when platform type changes",
@@ -81531,7 +81561,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-01T08:47:09.705Z",
+  "lastUpdated": "2026-08-01T16:21:08.309Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
