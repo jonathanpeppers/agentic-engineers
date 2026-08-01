@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36984",
+      "number": 36984,
+      "title": "[Resizetizer] Invalidate image outputs when platform type changes",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-31T21:07:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36946",
+      "number": 36946,
+      "title": "[Windows] Fix NullReferenceException in FlexLayout.Layout when _root is null after detach",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-07-31T21:03:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36916",
+      "number": 36916,
+      "title": "Fix signature of sysctlbyname pinvoke",
+      "repo": "dotnet/maui",
+      "author": "BrzVlad",
+      "mergedAt": "2026-07-31T21:01:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36985",
+      "number": 36985,
+      "title": "[release/11.0.1xx-preview7] Align release SDK/runtime and component builds",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-31T20:15:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4605",
+      "number": 4605,
+      "title": "Run ganesh-gl on the Windows and Linux CI legs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-31T19:45:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4612",
+      "number": 4612,
+      "title": "Make binding generation deterministic across platforms",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-07-31T18:31:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26375",
+      "number": 26375,
+      "title": "[release/11.0.1xx-preview7] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-07-31T17:41:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36405",
+      "number": 36405,
+      "title": "Cache Brushes",
+      "repo": "dotnet/maui",
+      "author": "pictos",
+      "mergedAt": "2026-07-31T17:17:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26381",
+      "number": 26381,
+      "title": "[release/11.0.1xx-preview7] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-07-31T16:58:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36875",
+      "number": 36875,
+      "title": "Auto-merge clean inter-branch forward merges",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-07-31T16:41:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36977",
       "number": 36977,
       "title": "[Testing] Fix for flaky UITests in Net11 CI",
@@ -81431,7 +81531,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-07-31T16:34:36.116Z",
+  "lastUpdated": "2026-08-01T00:31:57.107Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
