@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36293",
+      "number": 36293,
+      "title": "[iOS] Map: Update pin icon when Pin.ImageSource changes at runtime",
+      "repo": "dotnet/maui",
+      "author": "kevin68",
+      "mergedAt": "2026-08-01T22:45:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36876",
+      "number": 36876,
+      "title": "[net11.0] Make pending internal APIs public per .NET 11 TODOs",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-08-01T22:36:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36277",
+      "number": 36277,
+      "title": "[iOS/Mac] Fix RightToLeft does not apply for FormattedText",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-08-01T22:32:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35892",
+      "number": 35892,
+      "title": "[Net11]Improve label mapping performance and ensure complete coverage including ToPlatform and subsequent property changes",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-01T22:21:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36912",
+      "number": 36912,
+      "title": "[XAML] XIHR: remove the now-dead __version field and StableContentHash",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-08-01T22:05:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36767",
+      "number": 36767,
+      "title": "[Android] Fix PickPhotosAsync remains pending when its activity is recreated while Photo Picker is open",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-08-01T21:41:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36911",
+      "number": 36911,
+      "title": "[ci-fix-net11] Fix TopTabUnselectedTextVisibleWhenSwitchingTabs visual regression on Android Material3",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-01T21:23:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36837",
+      "number": 36837,
+      "title": "[Essentials] Passkeys (WebAuthn/FIDO2) Essentials API",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-01T18:16:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36828",
+      "number": 36828,
+      "title": "[Windows]Fix: Label Formatted Text crashed with out of memory Exception",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-08-01T18:13:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36820",
+      "number": 36820,
+      "title": "[Android] SwipeItem Text and IconImageSource are vertically misaligned when SwipeView wraps CollectionView",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-08-01T18:07:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37007",
+      "number": 37007,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-01T18:05:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36742",
+      "number": 36742,
+      "title": "[Windows]Fix and Re-enable \"Handler Does Not Leak\" Device Tests for HybridWebView",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-08-01T17:51:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36109",
+      "number": 36109,
+      "title": "[NET11][iOS/MacCatalyst] Replace NavigationRenderer with NavigationViewHandler",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-08-01T17:27:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36200",
+      "number": 36200,
+      "title": "[net11.0] Update dependencies from dnceng/internal/dotnet-optimization",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-01T17:25:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35950",
+      "number": 35950,
+      "title": "Add Avalonia.Controls.Maui support to templates",
+      "repo": "dotnet/maui",
+      "author": "drasticactions",
+      "mergedAt": "2026-08-01T17:15:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34903",
+      "number": 34903,
+      "title": "Add Window.StatusBarTheme to control status bar icon appearance on mobile",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-01T17:07:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36992",
+      "number": 36992,
+      "title": "Fix bot-opened inter-branch merge policy matching",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-01T16:53:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37001",
+      "number": 37001,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-01T16:51:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36919",
       "number": 36919,
       "title": "Address post-merge review findings on the PR finalize apply step",
@@ -81561,7 +81741,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-01T16:21:08.309Z",
+  "lastUpdated": "2026-08-02T00:33:19.589Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
