@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36484",
+      "number": 36484,
+      "title": "[net11] Templates: remove Blazor render-mode workaround in maui-blazor-web",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-02T11:49:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36961",
+      "number": 36961,
+      "title": "[ci-fix-net11] Needs review: guard CA1416 iOS platform-availability APIs in Shell/NavigationPage handlers (refs #36181)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-02T11:43:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36949",
+      "number": 36949,
+      "title": "[ci-fix-net11][WIP] Fix Windows CV2 UITest failures ",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-02T11:25:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36741",
+      "number": 36741,
+      "title": "[iOS & Mac] Fix and Re-enable \"Handler Does Not Leak\" Device Tests for Stepper control",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-08-02T11:09:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36293",
       "number": 36293,
       "title": "[iOS] Map: Update pin icon when Pin.ImageSource changes at runtime",
@@ -81741,7 +81781,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-02T08:48:23.817Z",
+  "lastUpdated": "2026-08-02T16:21:11.944Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
