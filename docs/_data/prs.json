@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36695",
+      "number": 36695,
+      "title": "Fix and Re-enable ItemsSource and ScrollView Memory Leak Device Tests",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-08-02T22:12:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35846",
+      "number": 35846,
+      "title": "[iOS, Mac, Windows] Fix PlatformTicker does not respect animation accessibility setting",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-08-02T21:59:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36484",
       "number": 36484,
       "title": "[net11] Templates: remove Blazor render-mode workaround in maui-blazor-web",
@@ -81781,7 +81801,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-02T16:21:11.944Z",
+  "lastUpdated": "2026-08-03T00:32:45.208Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
