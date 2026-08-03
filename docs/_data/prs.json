@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12282",
+      "number": 12282,
+      "title": "Set APP_CONTEXT_BASE_DIRECTORY on CoreCLR and NativeAOT",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-03T15:58:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37036",
+      "number": 37036,
+      "title": "[net11.0] Flow merge validation CI fixes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-03T15:17:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37027",
+      "number": 37027,
+      "title": "[Net11][ci-fix-net11][Windows]Fixed HorizontalGridFooterExpand test failure",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-08-03T14:17:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37037",
+      "number": 37037,
+      "title": "[Android][Revert] TabbedPage automatic scrolling behavior",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-08-03T13:50:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36986",
+      "number": 36986,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-preview7'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-03T13:18:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36988",
+      "number": 36988,
+      "title": "[WIP] Fix Border with Shadow breaking descendant BackgroundColor updates on Android",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-08-03T12:50:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37029",
+      "number": 37029,
+      "title": " [ci-fix-net11] Fixed Build Error in net 11 branch",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-08-03T12:39:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37030",
+      "number": 37030,
+      "title": "[ci-fix-net11] Fix CS0115 build error in ModalHandlerTests.SetupBuilder override",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-08-03T12:38:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12279",
+      "number": 12279,
+      "title": "[LlvmIrGenerator] ~4x faster type map generation",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-03T11:06:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12278",
+      "number": 12278,
+      "title": "[CoreCLR] Set the RUNTIME_IDENTIFIER runtime property",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-03T11:06:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26374",
+      "number": 26374,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-03T10:12:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12288",
+      "number": 12288,
+      "title": "[tests] fix JcwGen `targetSdkVersion` and remove dead `.apk` test infra",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-03T10:10:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12283",
+      "number": 12283,
+      "title": "[FastDeploy2] fix `adb push` argument quoting on Windows",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-03T10:06:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12287",
+      "number": 12287,
+      "title": "[perf] guard the _AdditionalJavaStubDirectory glob in _FindJavaStubFiles",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-03T10:02:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12292",
+      "number": 12292,
+      "title": "fix: use thread-safe LogCodedWarning in Aapt2Compile.ProcessDirectory",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-03T09:53:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12290",
+      "number": 12290,
+      "title": "[Xamarin.Android.Build.Tasks] merge `targetSdkVersion` into existing `<uses-sdk>`",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-03T09:50:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36695",
       "number": 36695,
       "title": "Fix and Re-enable ItemsSource and ScrollView Memory Leak Device Tests",
@@ -81801,7 +81961,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-03T09:07:31.387Z",
+  "lastUpdated": "2026-08-03T16:49:17.537Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
