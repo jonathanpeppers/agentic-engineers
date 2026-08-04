@@ -1,6 +1,256 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26393",
+      "number": 26393,
+      "title": "[api] Improve xml docs for AVContentKeySession content key recipient methods",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T00:27:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26344",
+      "number": 26344,
+      "title": "[dotnet] Fix latent trimmable-static registrar bugs on non-NativeAOT runtimes",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T00:06:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12285",
+      "number": 12285,
+      "title": "[Xamarin.Android.Build.Tasks] more LLVM IR generator build perf",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-03T23:44:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37061",
+      "number": 37061,
+      "title": "[release/11.0.1xx-preview7] Stabilize Shell SafeArea tab UI test",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-03T23:04:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37051",
+      "number": 37051,
+      "title": "[release/11.0.1xx-preview7] Fix Android Window device test context",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-03T22:39:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37046",
+      "number": 37046,
+      "title": "[release/11.0.1xx-preview7] Align with blessed SDK build",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-03T22:12:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26361",
+      "number": 26361,
+      "title": "[Foundation] Improve NSObject_Disposer a bit.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-03T22:08:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35491",
+      "number": 35491,
+      "title": "Fix Shell.Background not working",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-08-03T21:16:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26379",
+      "number": 26379,
+      "title": "[docs] Improve XML docs for various types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-03T21:03:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37047",
+      "number": 37047,
+      "title": "[release/11.0.1xx-preview7] Forward status bar style through NavigationPage handler",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-03T21:00:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4355",
+      "number": 4355,
+      "title": "[memory-leak] Fix native use-after-free in SKRegion.SpanIterator (root the SKRegion)",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-03T20:50:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37042",
+      "number": 37042,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-preview7'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-03T20:50:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4630",
+      "number": 4630,
+      "title": "[performance] Cache HandleDictionary skip-registration reflection check",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-03T20:38:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37048",
+      "number": 37048,
+      "title": "[Android] Shell: Fix fragment teardown crash",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-03T20:28:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26380",
+      "number": 26380,
+      "title": "[net11.0] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-08-03T20:06:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12272",
+      "number": 12272,
+      "title": "[ILLink] trim unused Java-callable members",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-03T19:04:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12280",
+      "number": 12280,
+      "title": "[LlvmIrGenerator] emit c\"...\" literals for string blobs",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-03T19:04:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26297",
+      "number": 26297,
+      "title": "[tests] Skip event add/remove accessors in the documentation cecil-test",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-03T19:03:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26371",
+      "number": 26371,
+      "title": "[src] Use numeric values for the Runtime.Arch field substitution.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-03T18:55:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4558",
+      "number": 4558,
+      "title": "[memory-leak] Fix native use-after-free in SKPixmap.ExtractSubset and With* (root the pixel source)",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-03T18:42:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4622",
+      "number": 4622,
+      "title": "Update issue template version dropdowns",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-03T18:38:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4579",
+      "number": 4579,
+      "title": "Backport PR 3798 Fix Apple platform TFMs to use 26.0 for libraries and unversioned for apps",
+      "repo": "mono/SkiaSharp",
+      "author": "drasticactions",
+      "mergedAt": "2026-08-03T18:33:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26139",
+      "number": 26139,
+      "title": "[Hot Reload] ManagedRegistrarStep: emit UnmanagedCallersOnly trampolines into a companion assembly. Fixes #26074.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-03T17:12:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26234",
+      "number": 26234,
+      "title": "[tests] Diagnose NSUrlSession redirect stalls",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-03T17:10:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12293",
+      "number": 12293,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-03T17:01:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12282",
       "number": 12282,
       "title": "Set APP_CONTEXT_BASE_DIRECTORY on CoreCLR and NativeAOT",
@@ -81961,7 +82211,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-03T16:49:17.537Z",
+  "lastUpdated": "2026-08-04T00:32:36.597Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
