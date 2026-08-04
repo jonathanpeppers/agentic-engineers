@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4648",
+      "number": 4648,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-04T16:29:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/336",
+      "number": 336,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-04T16:24:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4654",
+      "number": 4654,
+      "title": "Backport review-skia-update skill to 4.151.x",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-04T16:11:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4652",
+      "number": 4652,
+      "title": "Backport review Skia update skill to 4.150.x",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-04T15:36:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4650",
+      "number": 4650,
+      "title": "Fix companion PR base selection in Skia update review",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-04T15:07:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1512",
+      "number": 1512,
+      "title": "Stable Updates 20260803",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-04T14:47:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26395",
+      "number": 26395,
+      "title": "Improve XML docs for eight types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T14:33:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26389",
+      "number": 26389,
+      "title": "[runtime] Use format attributes instead of ignoring -Wformat-nonliteral",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T14:33:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26366",
+      "number": 26366,
+      "title": "[HandleSafety] Recognize GC.KeepAlive with equivalent (non-identical) loads.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T14:32:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26365",
+      "number": 26365,
+      "title": "[src] Fix nullability for FieldAttribute.SymbolName and update xml docs.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T14:32:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26304",
+      "number": 26304,
+      "title": "[bgen] Emit XML documentation for generated *EventArgs members",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T14:31:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4573",
+      "number": 4573,
+      "title": "Improve automated Skia update analysis and validation",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-04T13:36:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26398",
+      "number": 26398,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T13:25:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37065",
+      "number": 37065,
+      "title": "Remove XF previewer fallback from TryGetResource",
+      "repo": "dotnet/maui",
+      "author": "albyrock87",
+      "mergedAt": "2026-08-04T13:22:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36676",
+      "number": 36676,
+      "title": "[Net11] [iOS/MacCatalyst] Migrate FlyoutPage to handler architecture",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-08-04T12:33:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36750",
+      "number": 36750,
+      "title": "Fix Switch ThumbColor Not Reset to Null",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-08-04T12:31:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26397",
       "number": 26397,
       "title": "[main] Update dependencies from dotnet/dotnet",
@@ -82241,7 +82401,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-04T08:57:58.112Z",
+  "lastUpdated": "2026-08-04T16:37:45.817Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
