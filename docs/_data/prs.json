@@ -1,6 +1,246 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4660",
+      "number": 4660,
+      "title": "Fix release-line Skia sync state preservation",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-04T23:49:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4664",
+      "number": 4664,
+      "title": "Allow selecting the Skia submodule source branch",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-04T23:44:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4663",
+      "number": 4663,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-04T23:43:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4665",
+      "number": 4665,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.150.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-04T23:43:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12267",
+      "number": 12267,
+      "title": "[main] Update dependencies from dotnet/dotnet, microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-04T23:35:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/341",
+      "number": 341,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-04T23:13:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37068",
+      "number": 37068,
+      "title": "Flatten inter-branch merge Policy Service rules",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-04T23:10:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37098",
+      "number": 37098,
+      "title": "[net11.0] Retarget release merge flow to RC1",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-04T22:29:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37081",
+      "number": 37081,
+      "title": "[release/11.0.1xx-preview7] Bundle test-only stabilizations",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-04T21:11:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37078",
+      "number": 37078,
+      "title": "[net11.0][Android][Revert] TabbedPage automatic scrolling behavior",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-08-04T21:02:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26399",
+      "number": 26399,
+      "title": "[docs] Improve XML docs for ten types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T18:18:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12298",
+      "number": 12298,
+      "title": "[build] Brand main builds with release suffix",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-04T18:12:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12297",
+      "number": 12297,
+      "title": "[workflows] Update gh-aw to v0.84.3",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-04T18:10:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4657",
+      "number": 4657,
+      "title": "Fix release-line Skia sync startup",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-04T18:06:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37095",
+      "number": 37095,
+      "title": "[release/11.0.1xx-preview7] Avoid null TypedBinding source during ancestor detach",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-04T17:56:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37087",
+      "number": 37087,
+      "title": "[Net11] Revert Improve label mapping performance and ensure complete coverage including ToPlatform and subsequent property changes",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-04T17:51:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37090",
+      "number": 37090,
+      "title": "[release/11.0.1xx-preview7] Suppress CA1416 for legacy iOS image scaling",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-04T17:39:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4651",
+      "number": 4651,
+      "title": "[skia-sync] Update skia to milestone 152",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-04T17:17:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/337",
+      "number": 337,
+      "title": "[skia-sync] Merge upstream chrome/m152",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-04T17:05:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26346",
+      "number": 26346,
+      "title": "[dotnet] Default to the trimmable-static registrar for NativeAOT on .NET 11",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T17:05:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26362",
+      "number": 26362,
+      "title": "[dotnet-linker] Don't preserve base type members for [Preserve (AllMembers = true)].",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T17:04:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26367",
+      "number": 26367,
+      "title": "[src] Generate remaining native constant accessors",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T17:03:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26376",
+      "number": 26376,
+      "title": "[src] Convert manual binding factories to [FactoryMethod]",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T17:02:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26377",
+      "number": 26377,
+      "title": "[src] Add missing nullability to strongly-typed dictionary parameters",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-04T17:02:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4648",
       "number": 4648,
       "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
@@ -82401,7 +82641,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-04T16:37:45.817Z",
+  "lastUpdated": "2026-08-05T00:30:50.062Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
