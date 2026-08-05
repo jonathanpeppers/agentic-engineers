@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/3969",
+      "number": 3969,
+      "title": "[tests] Enable Windows MAUI Appium tests",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-05T16:44:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37099",
+      "number": 37099,
+      "title": "Document nullable-oblivious PublicAPI markers",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-05T16:13:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26403",
+      "number": 26403,
+      "title": "[registrar] Look up trimmed-away protocol interface methods in the pre-trim assemblies.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-05T15:38:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26368",
+      "number": 26368,
+      "title": "[Hot Reload] Relocate generic registrar trampolines into the companion assembly",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-05T15:18:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26402",
+      "number": 26402,
+      "title": "[docs] Improve XML docs for ten types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-05T14:35:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26400",
+      "number": 26400,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-05T14:34:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4670",
+      "number": 4670,
+      "title": "Fix Skia sync no-work detection",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-05T14:27:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12300",
+      "number": 12300,
+      "title": "[tests] Avoid leaking fake emulator processes",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-05T13:44:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26363",
+      "number": 26363,
+      "title": "[dotnet-linker] Don't emit parameter names for generated proxy methods.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-05T13:25:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37112",
+      "number": 37112,
+      "title": "[inflight/candidate] [Android] Fix ActivityIndicator remaining visible after IsRunning/IsVisible set to false",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-05T13:01:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37113",
+      "number": 37113,
+      "title": "[inflight/candidate] [Android] Fix Shell singleton page rendering blank when re-pushed after absolute route reset",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-05T13:00:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37114",
+      "number": 37114,
+      "title": "[inflight/candidate] [WIP] Fix Border with Shadow breaking descendant BackgroundColor updates on Android",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-05T13:00:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37115",
+      "number": 37115,
+      "title": "[inflight/candidate] [Android][Revert] TabbedPage automatic scrolling behavior",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-05T13:00:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4671",
       "number": 4671,
       "title": "Bump to the next version (4.150.3) after release",
@@ -82691,7 +82821,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-05T10:30:16.972Z",
+  "lastUpdated": "2026-08-05T17:24:53.625Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
