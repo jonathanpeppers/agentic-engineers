@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4671",
+      "number": 4671,
+      "title": "Bump to the next version (4.150.3) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-05T01:24:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4672",
+      "number": 4672,
+      "title": "Bump to the next version (4.151.2) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-05T01:24:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4667",
+      "number": 4667,
+      "title": "[skia-sync] Merge upstream chrome/m151 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-05T00:38:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4668",
+      "number": 4668,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.151.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-05T00:36:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/342",
+      "number": 342,
+      "title": "[skia-sync] Merge upstream chrome/m151",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-05T00:31:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4660",
       "number": 4660,
       "title": "Fix release-line Skia sync state preservation",
@@ -82641,7 +82691,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-05T00:30:50.062Z",
+  "lastUpdated": "2026-08-05T10:30:16.972Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
