@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4691",
+      "number": 4691,
+      "title": "[release] Fix release status on Windows",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-06T01:56:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26140",
+      "number": 26140,
+      "title": "[linker] Convert the EnsureUIThread optimization to a trimmer feature switch. Fixes #26104.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-05T23:16:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26281",
+      "number": 26281,
+      "title": "[SecurityInterface] Update bindings up to Xcode 27.0 Beta 4",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-08-05T22:54:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4368",
+      "number": 4368,
+      "title": "infra: migrate public CI and NuGet feeds from Xamarin to dnceng",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-05T22:11:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37102",
+      "number": 37102,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-05T21:26:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35439",
+      "number": 35439,
+      "title": "Harden review-trigger workflow: env-var inputs, single-step token flow, pre-flight authorize job",
+      "repo": "dotnet/maui",
+      "author": "JanKrivanek",
+      "mergedAt": "2026-08-05T21:25:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26407",
+      "number": 26407,
+      "title": "[docs] Improve XML docs for ten types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-05T21:15:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37119",
+      "number": 37119,
+      "title": "[automated] Merge branch 'release/11.0.1xx-preview7' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-05T20:17:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26409",
+      "number": 26409,
+      "title": "[dotnet] Make trimmable-static the default registrar for CoreCLR too in .NET 11+.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-05T20:12:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4682",
+      "number": 4682,
+      "title": "[infra] Hard-wrap generated merge messages",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-05T20:02:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26404",
+      "number": 26404,
+      "title": "Bump zizmorcore/zizmor-action from 0.6.0 to 0.6.1",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-08-05T19:54:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12299",
+      "number": 12299,
+      "title": "[CoreCLR] support MAUI full ReadyToRun",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-05T19:41:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4679",
+      "number": 4679,
+      "title": "[infra] Upgrade agentic workflows to gh-aw v0.84.3",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-05T19:19:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36958",
+      "number": 36958,
+      "title": "Fix CI scanner manifest handoff and fingerprint casing",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-05T18:51:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37064",
+      "number": 37064,
+      "title": "[net11.0] Avoid build task staging races",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-05T18:50:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37039",
+      "number": 37039,
+      "title": "Make the PR-finalize symlink tests self-sufficient and drop a localized assertion",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-05T18:49:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4676",
+      "number": 4676,
+      "title": "Improve PR merge commit message generation",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-05T18:09:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26364",
+      "number": 26364,
+      "title": "[dotnet-linker] Only override `NSObjectProxyAttribute.LookupUnmanagedFunction` when the type actually has any `UnmanagedCallersOnly` methods to look up.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-05T18:04:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/3969",
       "number": 3969,
       "title": "[tests] Enable Windows MAUI Appium tests",
@@ -82821,7 +83001,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-05T17:24:53.625Z",
+  "lastUpdated": "2026-08-06T02:08:19.438Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
