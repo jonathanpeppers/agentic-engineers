@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37122",
+      "number": 37122,
+      "title": "Fix sample template seed initialization",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-06T10:15:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37133",
+      "number": 37133,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-06T09:06:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26411",
+      "number": 26411,
+      "title": "[xcode27.0] Merge main into xcode27.0",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-08-06T03:27:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4691",
       "number": 4691,
       "title": "[release] Fix release status on Windows",
@@ -83001,7 +83031,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-06T02:08:19.438Z",
+  "lastUpdated": "2026-08-06T10:34:08.872Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
