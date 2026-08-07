@@ -1,6 +1,266 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26419",
+      "number": 26419,
+      "title": "[docs] Improve XML docs for ten types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-06T23:42:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/421",
+      "number": 421,
+      "title": "Add AI chat conversation threads, restore, and retry",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-06T23:25:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/420",
+      "number": 420,
+      "title": "Harden AI chat default rendering and cancellation",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-06T23:25:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37163",
+      "number": 37163,
+      "title": "[release/11.0.1xx-preview7] [XAML] Re-enable Incremental Hot Reload by default in Debug",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-06T23:11:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37158",
+      "number": 37158,
+      "title": "Remove broken target matchers from inter-branch merge policy",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-06T21:55:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36707",
+      "number": 36707,
+      "title": "[CI] Move all gh-aw agentic workflows to GPT-5.6 Sol",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-06T21:24:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36772",
+      "number": 36772,
+      "title": "Upgrade gh-aw workflows to v0.85.4",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-06T20:55:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37152",
+      "number": 37152,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-06T20:40:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37157",
+      "number": 37157,
+      "title": "[XAML] Re-enable Incremental Hot Reload by default in Debug",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-08-06T20:39:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37057",
+      "number": 37057,
+      "title": "[net11.0] Make iOS image scaling deadlock-safe",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-06T20:32:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26418",
+      "number": 26418,
+      "title": "[registrar] Import the framework for NSObject types used in method signatures.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-06T20:09:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37155",
+      "number": 37155,
+      "title": "[automated] Restore Preview 7 merge history in net11.0",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-06T18:08:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37156",
+      "number": 37156,
+      "title": "Revert \"Remove XF previewer fallback from TryGetResource\"",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-06T18:06:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36934",
+      "number": 36934,
+      "title": "[iOS/MacCatalyst] DatePicker and TimePicker Background is not cleared when set to null at runtime",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-08-06T15:31:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37125",
+      "number": 37125,
+      "title": "Harden CI scanner issue payload normalization",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-06T15:15:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37141",
+      "number": 37141,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-06T14:27:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36935",
+      "number": 36935,
+      "title": "[Testing] Fixed Test case failure in PR 36411 - [07/13/2026] Candidate - 2",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-08-06T14:24:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26405",
+      "number": 26405,
+      "title": "[mono-api-html] Fix placeholder leak and add a test project",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-06T13:31:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26406",
+      "number": 26406,
+      "title": "[CI] Retry simulator runtime downloads on transient network failures. Fixes #26288",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-06T13:31:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26410",
+      "number": 26410,
+      "title": "[dotnet-linker] Relocate generic registrar trampolines into the companion assembly for Hot Reload",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-06T13:28:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26414",
+      "number": 26414,
+      "title": "[tools] Report warnings as warnings in ErrorHelper.ShowInternal.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-06T13:28:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26415",
+      "number": 26415,
+      "title": "[docs] Improve XML docs for ten types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-06T13:28:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4698",
+      "number": 4698,
+      "title": "Modernize the documentation site theme",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-06T13:16:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26259",
+      "number": 26259,
+      "title": "[runtime] Fix the alloc/init handle-reuse race in object_map (issue #25861)",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-06T12:24:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35710",
+      "number": 35710,
+      "title": "Add themed splash screen support",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-06T11:53:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4693",
+      "number": 4693,
+      "title": "[release] Fix release-testing device matrix",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-06T10:35:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37122",
       "number": 37122,
       "title": "Fix sample template seed initialization",
@@ -83031,7 +83291,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-06T10:34:08.872Z",
+  "lastUpdated": "2026-08-07T02:26:47.740Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
