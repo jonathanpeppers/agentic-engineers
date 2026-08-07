@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37136",
+      "number": 37136,
+      "title": "[HouseKeeping] Removed deprecated ViewCompat methods",
+      "repo": "dotnet/maui",
+      "author": "NirmalKumarYuvaraj",
+      "mergedAt": "2026-08-07T15:54:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37035",
+      "number": 37035,
+      "title": "[Net 11] Fix Windows Label Feature Matrix test failures",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-07T15:30:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36569",
+      "number": 36569,
+      "title": "Add preview workload installability readiness check",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-08-07T15:22:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37127",
+      "number": 37127,
+      "title": "[actions] Update GitHub Actions pins",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-07T15:13:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26425",
+      "number": 26425,
+      "title": "[msbuild] Fix duplicate E7184 resource code",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-07T14:16:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26423",
+      "number": 26423,
+      "title": "[docs] Improve XML docs for ten types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-07T13:58:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37181",
+      "number": 37181,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-07T13:37:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37184",
+      "number": 37184,
+      "title": "Fix candidate SafeArea Edge lane and flaky failures",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-08-07T13:36:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37189",
+      "number": 37189,
+      "title": "[inflight/candidate] Fix NullReferenceException in ApplyBindings when DefaultValueCreator mutates other BindableProperties",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-07T13:27:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37148",
+      "number": 37148,
+      "title": "Fix NullReferenceException in ApplyBindings when DefaultValueCreator mutates other BindableProperties",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-08-07T13:12:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37160",
+      "number": 37160,
+      "title": "[ci] Add net11.0 as production branch and drop net10.0 from nightly",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-08-07T11:58:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37161",
+      "number": 37161,
+      "title": "[ci] Exclude dead net10.0 branch from nightly official build",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-08-07T11:56:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37178",
+      "number": 37178,
+      "title": "[Net11] Resaved ShellBackgroundSupportsGradientBrush iOS images",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-08-07T11:47:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35463",
+      "number": 35463,
+      "title": "[Android] Make system chrome follow MAUI bar colors (opt-in)",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-07T11:40:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37159",
       "number": 37159,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -83311,7 +83451,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-07T08:53:56.549Z",
+  "lastUpdated": "2026-08-07T16:49:12.554Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
