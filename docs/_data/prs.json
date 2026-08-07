@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37159",
+      "number": 37159,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-07T08:03:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26408",
+      "number": 26408,
+      "title": "[net11.0] Merge main into net11.0.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-07T04:37:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26419",
       "number": 26419,
       "title": "[docs] Improve XML docs for ten types",
@@ -83291,7 +83311,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-07T02:26:47.740Z",
+  "lastUpdated": "2026-08-07T08:53:56.549Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
