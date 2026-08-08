@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37146",
+      "number": 37146,
+      "title": "[Android] RadioButton border does not clear when BorderColor, BorderWidth, or CornerRadius are reset to default values",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-08-07T21:51:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34559",
+      "number": 34559,
+      "title": "Add configurable ResizeQuality for Resizetizer",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-07T17:42:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37193",
+      "number": 37193,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-07T17:20:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37136",
       "number": 37136,
       "title": "[HouseKeeping] Removed deprecated ViewCompat methods",
@@ -83451,7 +83481,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-07T16:49:12.554Z",
+  "lastUpdated": "2026-08-08T01:14:50.308Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
