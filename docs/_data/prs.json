@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37094",
+      "number": 37094,
+      "title": "[Android] Add full ReadyToRun opt-in",
+      "repo": "dotnet/maui",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-08T14:14:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36698",
+      "number": 36698,
+      "title": "[iOS & Mac] Fix and Re-enable \"Cells Do Not Leak\" and \"Handler Does Not Leak\" Device Tests",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-08-08T12:59:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37056",
+      "number": 37056,
+      "title": "Fix stale Android permission requests after off-main-thread failures",
+      "repo": "dotnet/maui",
+      "author": "jpd21122012",
+      "mergedAt": "2026-08-08T10:25:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37206",
+      "number": 37206,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-08T10:00:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37110",
+      "number": 37110,
+      "title": "[NET11][Android] Fix temporary top gap after keyboard dismissal in Shell",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-08T09:49:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37146",
       "number": 37146,
       "title": "[Android] RadioButton border does not clear when BorderColor, BorderWidth, or CornerRadius are reset to default values",
@@ -83481,7 +83531,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-08T08:34:39.206Z",
+  "lastUpdated": "2026-08-08T16:27:35.308Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
