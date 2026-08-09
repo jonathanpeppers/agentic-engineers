@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35053",
+      "number": 35053,
+      "title": "[Android] BlazorWebView: Simplify Blazor startup scripts",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-09T10:37:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36572",
+      "number": 36572,
+      "title": "[Android] MediaPicker: Stop overwriting picked source files",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-09T10:26:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35706",
+      "number": 35706,
+      "title": "[BlazorWebView] Add opt-in static content caching",
+      "repo": "dotnet/maui",
+      "author": "Kebechet",
+      "mergedAt": "2026-08-09T10:21:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36511",
+      "number": 36511,
+      "title": "[iOS] NavigationPage: Fix large-title collapse for wrapped scroll content",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-09T10:19:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37094",
       "number": 37094,
       "title": "[Android] Add full ReadyToRun opt-in",
@@ -83531,7 +83571,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-09T08:36:19.513Z",
+  "lastUpdated": "2026-08-09T16:29:01.148Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
