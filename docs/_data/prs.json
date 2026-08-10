@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12326",
+      "number": 12326,
+      "title": "Enable nullable analysis in LayoutAttribute.Partial.cs",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-10T16:48:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36939",
+      "number": 36939,
+      "title": "[Testing] Refactoring Feature Matrix UITest Cases for Switch Control",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-08-10T15:37:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37254",
+      "number": 37254,
+      "title": "[iOS] Fix Unsubscribe replaced Shell flyout footer from MeasureInvalidated",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-10T15:16:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/396",
+      "number": 396,
+      "title": "Add native control inspection to DevFlow",
+      "repo": "dotnet/maui-labs",
+      "author": "morning4coffe-dev",
+      "mergedAt": "2026-08-10T15:11:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12308",
+      "number": 12308,
+      "title": "More thorough check of framework description for .NET 6+",
+      "repo": "dotnet/android",
+      "author": "Chagrins",
+      "mergedAt": "2026-08-10T14:26:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12312",
+      "number": 12312,
+      "title": "[nightly-fix-finder] Open fixes as pull requests",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-10T14:24:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12316",
+      "number": 12316,
+      "title": "[Xamarin.Android.Build.Tasks] Use resolved NDK for AOT",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-10T14:24:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12317",
+      "number": 12317,
+      "title": "Remove legacy machine.config resource",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-10T14:23:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1513",
+      "number": 1513,
+      "title": "Use GPT-5.6 Sol for weekly stable updates",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-10T13:52:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12306",
+      "number": 12306,
+      "title": "Add XML documentation for DatePicker DateTime properties",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-10T13:52:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12321",
+      "number": 12321,
+      "title": "[XABT] Allow disabling binding XML documentation",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-10T13:51:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12319",
+      "number": 12319,
+      "title": "[android-tools] Align command-line tool discovery order",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-10T13:51:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12311",
+      "number": 12311,
+      "title": "[Mono.Android] Deprecate removed constructors",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-10T13:50:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37260",
+      "number": 37260,
+      "title": "[net11.0][iOS] Fix CS8604 build break in BlazorWebViewHandler header marshaling",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-08-10T12:24:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12328",
+      "number": 12328,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260809103222429 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-08-10T12:21:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12327",
+      "number": 12327,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260808103632179 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-08-10T12:20:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37049",
       "number": 37049,
       "title": "[Android] SafeArea: Apply insets to views attached during IME animations",
@@ -83581,7 +83741,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-10T09:14:35.602Z",
+  "lastUpdated": "2026-08-10T16:50:25.750Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
