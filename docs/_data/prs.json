@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26429",
+      "number": 26429,
+      "title": "[xcode27] Update baseline to use Xcode 27 beta 5",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-08-11T15:51:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/775",
+      "number": 775,
+      "title": "Update .NET 11 samples to Preview 7",
+      "repo": "dotnet/maui-samples",
+      "author": "davidortinau",
+      "mergedAt": "2026-08-11T15:45:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12324",
+      "number": 12324,
+      "title": "[debugging] Retry JDWP process lookup",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T15:03:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37283",
+      "number": 37283,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-11T14:52:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12339",
+      "number": 12339,
+      "title": "[ci] Bootstrap Nightly Fix Finder tooling",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T14:36:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12322",
+      "number": 12322,
+      "title": "Wake device before launching Android apps",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T14:35:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12330",
+      "number": 12330,
+      "title": "Move MarshalMethodsAssemblyRewriter warning into resources",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-11T13:36:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37232",
+      "number": 37232,
+      "title": "[Android] Picker: Restore horizontal scrolling for selected text",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-11T13:24:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37288",
+      "number": 37288,
+      "title": "[net11.0] Resolve conflicts from main merge #37283",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-11T12:43:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12341",
+      "number": 12341,
+      "title": "[fix-finder] docs: document Bitmap pixel access APIs",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-08-11T12:39:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37273",
+      "number": 37273,
+      "title": "[Mono] update .NET 11 AOT profiles",
+      "repo": "dotnet/maui",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T12:21:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37313",
+      "number": 37313,
+      "title": "[main] [Android] Fix scrolling performance in shadowed containers",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-11T12:20:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37312",
+      "number": 37312,
+      "title": "[release/10.0.1xx-sr10] [Android] Fix scrolling performance in shadowed containers",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-11T12:20:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37291",
+      "number": 37291,
+      "title": "[Android] Fix scrolling performance in shadowed containers",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-11T12:08:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37060",
       "number": 37060,
       "title": "[iOS] ScrollView: Clamp ScrollTo requests against AdjustedContentInset",
@@ -83811,7 +83951,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-11T08:49:11.315Z",
+  "lastUpdated": "2026-08-11T16:53:50.252Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
