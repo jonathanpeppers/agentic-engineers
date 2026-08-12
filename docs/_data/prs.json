@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12342",
+      "number": 12342,
+      "title": "[XABT] Fix stale shrunk assemblies in the llvm-ir typemap path",
+      "repo": "dotnet/android",
+      "author": "BrzVlad",
+      "mergedAt": "2026-08-11T23:44:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12350",
+      "number": 12350,
+      "title": "[Mono] Update System.Native p/invoke table",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T23:41:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37154",
+      "number": 37154,
+      "title": "[Windows] Map: Fix crash when leaving a page",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-11T23:10:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12351",
+      "number": 12351,
+      "title": "[tests] Avoid JSInterop package downgrade",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T21:48:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12338",
+      "number": 12338,
+      "title": "[tests] Keep XASdk restores on approved feeds",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T20:40:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12352",
+      "number": 12352,
+      "title": "GitHub Actions: Isolate Copilot code review setup",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T20:36:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12323",
+      "number": 12323,
+      "title": "[CoreCLR] Validate Java package and type names",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T19:52:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/776",
+      "number": 776,
+      "title": "Add .NET 11 Passkeys sample",
+      "repo": "dotnet/maui-samples",
+      "author": "davidortinau",
+      "mergedAt": "2026-08-11T19:39:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12333",
+      "number": 12333,
+      "title": "[Java.Interop] Fix inherited JCW interfaces",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T19:24:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12313",
+      "number": 12313,
+      "title": "[java-runtime] Improve native library load diagnostics",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T19:23:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/777",
+      "number": 777,
+      "title": "Add .NET 11 Shell route templates sample",
+      "repo": "dotnet/maui-samples",
+      "author": "davidortinau",
+      "mergedAt": "2026-08-11T19:11:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12336",
+      "number": 12336,
+      "title": "[ci] Prevent isolated NuGet access",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T19:09:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12346",
+      "number": 12346,
+      "title": "[CA1310] Specify StringComparison in SdkManager.Licenses.cs",
+      "repo": "dotnet/android",
+      "author": "mauroa",
+      "mergedAt": "2026-08-11T19:08:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/779",
+      "number": 779,
+      "title": "Use Xcode 26.6 in CI",
+      "repo": "dotnet/maui-samples",
+      "author": "davidortinau",
+      "mergedAt": "2026-08-11T18:56:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-samples/pull/778",
+      "number": 778,
+      "title": "Pin .NET 11 Preview 7 SDK in PR CI",
+      "repo": "dotnet/maui-samples",
+      "author": "davidortinau",
+      "mergedAt": "2026-08-11T18:01:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12320",
+      "number": 12320,
+      "title": "Improve Maven POM resolution errors",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T17:31:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12315",
+      "number": 12315,
+      "title": "[Mono.Android] Prevent premature JNI handle collection",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T17:29:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12345",
+      "number": 12345,
+      "title": "[github] Rename Android review skill for Copilot discovery",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T17:27:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12344",
+      "number": 12344,
+      "title": "[gh-aw] Allow documentation sites in nightly fix finder",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T17:26:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12318",
+      "number": 12318,
+      "title": "[Microsoft.Android.Run] Await app shutdown on Ctrl+C",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-11T17:06:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26429",
       "number": 26429,
       "title": "[xcode27] Update baseline to use Xcode 27 beta 5",
@@ -83951,7 +84151,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-11T16:53:50.252Z",
+  "lastUpdated": "2026-08-12T01:27:52.770Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
