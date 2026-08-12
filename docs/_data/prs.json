@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4772",
+      "number": 4772,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-12T16:43:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12349",
+      "number": 12349,
+      "title": "[workflows] Update gh-aw to v0.86.2",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T15:49:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12340",
+      "number": 12340,
+      "title": "[generator] Honor metadata JNI signature overrides",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T15:07:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12335",
+      "number": 12335,
+      "title": "[ci] Use repo NuGet config for template smoke build",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T14:57:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/359",
+      "number": 359,
+      "title": "Fix GTK action sheet button handling",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-12T14:25:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37350",
+      "number": 37350,
+      "title": "[net11.0] Fix PublicAPI analyzer errors (RS0024, RS0050) from stale merge",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-08-12T13:22:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37344",
+      "number": 37344,
+      "title": "[ci-scan-fix]  Fix for flaky TextInEditorShouldScroll UITest in CI",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-08-12T13:19:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37352",
+      "number": 37352,
+      "title": "[main] [ci-fix] De-flake RootViewSizeDoesntChangeAfterBackground: wait for restored layout to settle (refs #35738)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-12T13:05:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12355",
+      "number": 12355,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14946954",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-08-12T12:59:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37339",
+      "number": 37339,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-12T12:34:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37257",
+      "number": 37257,
+      "title": "[net11] ResourceDictionary: Preserve lazy factories during resource propagation",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-08-12T12:28:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37265",
+      "number": 37265,
+      "title": "[iOS/Mac Catalyst] Fix stale MapElementId left on other map elements after updating one",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-08-12T12:23:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36211",
+      "number": 36211,
+      "title": "Add \"Input and Path Correctness\" review dimension to maui-expert-reviewer",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-12T10:46:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37194",
+      "number": 37194,
+      "title": "Fix CI scanner evidence recurrence",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-12T09:50:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37276",
+      "number": 37276,
+      "title": "[Android] Entry: Expose SemanticProperties.Description as ContentDescription",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-12T09:42:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37330",
+      "number": 37330,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-12T09:19:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12342",
       "number": 12342,
       "title": "[XABT] Fix stale shrunk assemblies in the llvm-ir typemap path",
@@ -84151,7 +84311,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-12T09:07:30.817Z",
+  "lastUpdated": "2026-08-12T16:53:15.209Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
