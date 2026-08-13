@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12370",
+      "number": 12370,
+      "title": "Bump external/android-api-docs from `d382c5b` to `13f462f`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-13T15:37:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37365",
+      "number": 37365,
+      "title": "[ci-fix-net11] De-flake AbsoluteLayout tests: wait for destination readiness (refs #36397)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-13T13:34:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12369",
+      "number": 12369,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260813103436111 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-08-13T13:25:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37342",
+      "number": 37342,
+      "title": "[.NET 11] Fix Material3 failures in net 11 branch",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-08-13T12:06:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37357",
+      "number": 37357,
+      "title": "[net11.0] Fix Learn API documentation findings",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-13T11:40:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/429",
+      "number": 429,
+      "title": "Add dependabot config for AzDO",
+      "repo": "dotnet/maui-labs",
+      "author": "akoeplinger",
+      "mergedAt": "2026-08-13T10:38:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37377",
+      "number": 37377,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-13T09:39:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37378",
+      "number": 37378,
+      "title": "[Inflight/Current] Fixed the build failure caused by missing changes during the rebase of Inflight/Current with main.",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-08-13T09:38:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12367",
       "number": 12367,
       "title": "Fix CodeBehind NuGet config placement",
@@ -84511,7 +84591,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-13T09:07:28.540Z",
+  "lastUpdated": "2026-08-13T16:52:13.446Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
