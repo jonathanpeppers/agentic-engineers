@@ -52,6 +52,7 @@ jobs:
             
             // List of repos to track
             const repos = [
+              { owner: 'dotnet', repo: 'android-api-docs' },
               { owner: 'dotnet', repo: 'android-libzipsharp' },
               { owner: 'dotnet', repo: 'android-libraries' },
               { owner: 'dotnet', repo: 'android-native-tools' },
