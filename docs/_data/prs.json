@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4774",
+      "number": 4774,
+      "title": "[docs] regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-12T21:05:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26245",
+      "number": 26245,
+      "title": "[runtime] Generate trusted platform assemblies at build time Fixes #16744",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-12T20:48:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26420",
+      "number": 26420,
+      "title": "[msbuild] Reword the message about using DEVELOPER_DIR or XcodeLocation to choose Xcode.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-12T20:46:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37143",
+      "number": 37143,
+      "title": "[Android] SwipeView: Execute SwipeItem commands with TalkBack",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-08-12T19:59:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37252",
+      "number": 37252,
+      "title": "[Testing] Refactoring Feature Matrix UITest Cases for TimePicker Control",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-08-12T19:56:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37249",
+      "number": 37249,
+      "title": "[net11.0] Update dependencies from dnceng/internal/dotnet-optimization",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-12T19:55:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12364",
+      "number": 12364,
+      "title": "[generator] Remove deprecated Xamarin fallback paths",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T19:47:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37354",
+      "number": 37354,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-12T19:15:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37359",
+      "number": 37359,
+      "title": " [Compilation fix][Inflight] Fix PublicAPI.Unshipped.txt duplicate entries and missing MEM0002 suppressions in inflight/Current",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-08-12T19:14:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12360",
+      "number": 12360,
+      "title": "[tests] Make activity start detection resilient",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T19:13:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12359",
+      "number": 12359,
+      "title": "[tests] Make DotNetPublish pack assertions deterministic",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T18:11:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12361",
+      "number": 12361,
+      "title": "[tests] Improve apkdiff invocation reliability",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T17:33:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12358",
+      "number": 12358,
+      "title": "[tests] Prevent duplicate logcat messages in uncaught exception test",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T17:32:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12357",
+      "number": 12357,
+      "title": "[tests] Keep GetObjectArray peer alive",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T17:32:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12356",
+      "number": 12356,
+      "title": "[NativeAOT] Let SDK select ILCompiler version",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T17:31:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12354",
+      "number": 12354,
+      "title": "[Java.Interop] Cache peer activation constructors",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T17:31:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1515",
+      "number": 1515,
+      "title": "Stable Updates 20260810",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-12T17:22:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4772",
       "number": 4772,
       "title": "[docs] Regenerate API diffs and release notes",
@@ -84311,7 +84481,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-12T16:53:15.209Z",
+  "lastUpdated": "2026-08-13T01:29:28.743Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
