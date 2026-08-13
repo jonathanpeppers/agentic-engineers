@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12367",
+      "number": 12367,
+      "title": "Fix CodeBehind NuGet config placement",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T04:08:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12365",
+      "number": 12365,
+      "title": "[Java.Interop] Make JNI function pointers unconditional",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T03:22:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12363",
+      "number": 12363,
+      "title": "[build] Add explicit fast deployment property",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T03:21:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4774",
       "number": 4774,
       "title": "[docs] regenerate API diffs and release notes",
@@ -84481,7 +84511,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-13T01:29:28.743Z",
+  "lastUpdated": "2026-08-13T09:07:28.540Z",
   "repos": [
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
