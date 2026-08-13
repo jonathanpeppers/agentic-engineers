@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/353",
+      "number": 353,
+      "title": "Document Android.Service.Wallpaper APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T18:53:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/347",
+      "number": 347,
+      "title": "Document Android.Service.Media APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T18:39:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/348",
+      "number": 348,
+      "title": "Document Android.AdServices.Signals APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T18:33:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/351",
+      "number": 351,
+      "title": "Document Java.Math APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T18:21:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/349",
+      "number": 349,
+      "title": "Document Android.Content.PM.Verify.Domain APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T18:19:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37401",
+      "number": 37401,
+      "title": "[Controls] Remove unused DropResult property",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-13T18:18:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/346",
+      "number": 346,
+      "title": "Document Java.Nio.Charset APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T18:09:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12368",
+      "number": 12368,
+      "title": "[tests] Route XASdk Maven dependency through public feed",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T18:08:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/339",
+      "number": 339,
+      "title": "Document Android.Content.Res.Loader APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T17:32:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/341",
+      "number": 341,
+      "title": "Document Javax.Xml.Validation APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T17:30:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/342",
+      "number": 342,
+      "title": "Document Javax.Sql APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T17:19:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/340",
+      "number": 340,
+      "title": "Document Android.SE.Omapi infrastructure members",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T17:11:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/338",
+      "number": 338,
+      "title": "Document Android.OS.Flagging APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T17:11:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/335",
+      "number": 335,
+      "title": "Document Android.AdServices.AppSetIds APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T16:32:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/333",
+      "number": 333,
+      "title": "Document Dalvik.Annotation APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T16:19:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12370",
       "number": 12370,
       "title": "Bump external/android-api-docs from `d382c5b` to `13f462f`",
@@ -8,6 +158,36 @@
       "author": "dependabot",
       "mergedAt": "2026-08-13T15:37:49Z",
       "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/334",
+      "number": 334,
+      "title": "Add XML documentation for Java.Security.Interfaces",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T14:38:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/337",
+      "number": 337,
+      "title": "Document Java.Nio.Channels.Spi APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T14:24:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/336",
+      "number": 336,
+      "title": "Document Java.Util.Streams APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-13T14:24:36Z",
+      "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
     {
@@ -81,6 +261,16 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/332",
+      "number": 332,
+      "title": "Auto Publish – main to live - 2026-08-13 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-08-13T05:15:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12367",
       "number": 12367,
       "title": "Fix CodeBehind NuGet config placement",
@@ -111,12 +301,142 @@
       "mauiReviewerUsed": false
     },
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/330",
+      "number": 330,
+      "title": "Document Android.OS.Vibrators APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T22:14:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/327",
+      "number": 327,
+      "title": "Document Java.Util.Prefs APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T22:12:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/331",
+      "number": 331,
+      "title": "Document Android.Net.Ssl APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T22:06:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/329",
+      "number": 329,
+      "title": "Document Android.DeviceLock APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T22:06:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/328",
+      "number": 328,
+      "title": "Add XML documentation for Android.Sax",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T22:06:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/322",
+      "number": 322,
+      "title": "Document Android.Net.Rtp APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T21:32:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/325",
+      "number": 325,
+      "title": "Refine Apache HTTP utility documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T21:32:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/326",
+      "number": 326,
+      "title": "Correct SDK sandbox provider documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T21:32:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/324",
+      "number": 324,
+      "title": "Correct assist classification documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T21:32:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/323",
+      "number": 323,
+      "title": "Document Android.AdServices.AdIds APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T21:32:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/321",
+      "number": 321,
+      "title": "Document Javax.Security.Auth APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T21:31:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4774",
       "number": 4774,
       "title": "[docs] regenerate API diffs and release notes",
       "repo": "mono/SkiaSharp",
       "author": "github-actions",
       "mergedAt": "2026-08-12T21:05:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/320",
+      "number": 320,
+      "title": "Document Javax.Security.Cert APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T20:55:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/319",
+      "number": 319,
+      "title": "Document Android.AdServices APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T20:55:48Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -177,6 +497,56 @@
       "repo": "dotnet/android",
       "author": "jonathanpeppers",
       "mergedAt": "2026-08-12T19:47:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/318",
+      "number": 318,
+      "title": "Document Java.Lang.Ref APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T19:43:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/317",
+      "number": 317,
+      "title": "Document Android.App.SdkSandbox.SdkProvider APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T19:43:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/316",
+      "number": 316,
+      "title": "Document Javax.Annotation.Processing APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T19:43:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/315",
+      "number": 315,
+      "title": "Document Org.Apache.Http.Client.Utils APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T19:43:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/314",
+      "number": 314,
+      "title": "Document Android.Service.Assist.Classification APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-12T19:43:30Z",
       "copilotAuthored": true,
       "mauiReviewerUsed": false
     },
@@ -1111,6 +1481,16 @@
       "mauiReviewerUsed": true
     },
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/40",
+      "number": 40,
+      "title": "Auto Publish – main to live - 2026-08-08 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-08-08T05:21:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37146",
       "number": 37146,
       "title": "[Android] RadioButton border does not clear when BorderColor, BorderWidth, or CornerRadius are reset to default values",
@@ -1119,6 +1499,36 @@
       "mergedAt": "2026-08-07T21:51:52Z",
       "copilotAuthored": false,
       "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/39",
+      "number": 39,
+      "title": "Fill Android.Accounts documentation placeholders",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-07T20:06:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/38",
+      "number": 38,
+      "title": "Complete StartCommandResult API documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-07T20:06:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/37",
+      "number": 37,
+      "title": "[METADATA UPDATE][Merge by 2026-08-03] Global ms.service and ms.subservice metadata update",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-08-07T19:39:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
     },
     {
       "url": "https://github.com/dotnet/maui/pull/34559",
@@ -84591,8 +85001,9 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-13T16:52:13.446Z",
+  "lastUpdated": "2026-08-13T19:19:36.770Z",
   "repos": [
+    "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
     "dotnet/android-libraries",
     "dotnet/android-native-tools",
