@@ -1,6 +1,196 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/389",
+      "number": 389,
+      "title": "Document Java.Net cookie policies",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T08:00:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/377",
+      "number": 377,
+      "title": "Document SSLPermission constructors",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T07:57:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/430",
+      "number": 430,
+      "title": "build(deps): Bump dotnet-sdk from 10.0.301 to 10.0.400",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-08-14T07:46:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/373",
+      "number": 373,
+      "title": "Document accessibility request types",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T07:22:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/371",
+      "number": 371,
+      "title": "Document Java.IO object stream protocols",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T07:21:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/379",
+      "number": 379,
+      "title": "Document ICollection IsEmpty result",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T06:49:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/378",
+      "number": 378,
+      "title": "Document RunnableScheduledFuture periodic status",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T06:48:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/374",
+      "number": 374,
+      "title": "Document Java.Nio overview",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T06:48:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/369",
+      "number": 369,
+      "title": "Document Java.Time namespace",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T06:48:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/376",
+      "number": 376,
+      "title": "Document Base64 decode return value",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T06:48:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/375",
+      "number": 375,
+      "title": "Document Org.W3c.Dom APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T06:48:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/368",
+      "number": 368,
+      "title": "Document Java.Net socket options",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T06:48:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/381",
+      "number": 381,
+      "title": "Auto Publish – main to live - 2026-08-14 05:01 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-08-14T05:23:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/366",
+      "number": 366,
+      "title": "Document ColorMatrix and Paint APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T03:10:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/360",
+      "number": 360,
+      "title": "Document Android.Views APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T02:33:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/358",
+      "number": 358,
+      "title": "Document Android.Widget APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T02:33:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/364",
+      "number": 364,
+      "title": "Document Android.App APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T02:08:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/363",
+      "number": 363,
+      "title": "Document Android.OS APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T01:42:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/356",
+      "number": 356,
+      "title": "Document Android.Graphics APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-14T01:42:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/365",
       "number": 365,
       "title": "Document delayed audio focus result",
@@ -85211,7 +85401,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-14T01:28:26.801Z",
+  "lastUpdated": "2026-08-14T09:03:32.334Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
