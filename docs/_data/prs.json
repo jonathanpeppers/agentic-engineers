@@ -1,6 +1,96 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36443",
+      "number": 36443,
+      "title": "Fix Color equality regression for derived types by sealing the record",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-08-15T15:56:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37033",
+      "number": 37033,
+      "title": "[iOS] Fix for SafeAreaEdges not respected per-edge when parent and child handle different edges",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-08-15T15:34:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37176",
+      "number": 37176,
+      "title": "Fix MauiXaml will generate source for every xaml file without respect to its condition by configuration/target",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-08-15T15:32:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37390",
+      "number": 37390,
+      "title": "[leak-scan] Fix: ShellContent.Content shared Page.PropertyChanged retains prior ShellContent instances",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-08-15T15:17:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/481",
+      "number": 481,
+      "title": "Document core Android.Text.Method transformations",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-15T14:32:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/441",
+      "number": 441,
+      "title": "Document MethodHandle reference kinds",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-15T14:32:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12389",
+      "number": 12389,
+      "title": "[release/10.0.1xx] Improve PerformanceTest reliability",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-15T14:05:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12393",
+      "number": 12393,
+      "title": "[release/10.0.1xx] Exclude NUnitLite from PoliCheck",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-15T14:04:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12398",
+      "number": 12398,
+      "title": "[fix-finder] Enable nullable annotations for GetGdbSymbols",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-08-15T14:04:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/515",
       "number": 515,
       "title": "Document Org.Apache.Http.Entity",
@@ -86811,7 +86901,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-15T08:21:55.679Z",
+  "lastUpdated": "2026-08-15T16:18:58.887Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
