@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12403",
+      "number": 12403,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-17T13:25:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37542",
+      "number": 37542,
+      "title": "Revert - Fix Shell.BackgroundColor not applied to bottom TabBar",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-17T13:22:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12400",
+      "number": 12400,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 14989097",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-08-17T13:06:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12401",
+      "number": 12401,
+      "title": "Bump external/android-api-docs from `13f462f` to `1020acc`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-17T13:05:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/513",
       "number": 513,
       "title": "Document Apache HTTP authentication APIs",
@@ -87641,7 +87681,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-17T08:37:21.328Z",
+  "lastUpdated": "2026-08-17T16:21:33.114Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
