@@ -1,6 +1,256 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/629",
+      "number": 629,
+      "title": "Document Photo Picker parcelable APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T00:10:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/637",
+      "number": 637,
+      "title": "Document USB configuration metadata",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T00:09:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/636",
+      "number": 636,
+      "title": "Document Android location accuracy requirements",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T00:09:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/630",
+      "number": 630,
+      "title": "Document MBMS download request metadata",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T00:09:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/625",
+      "number": 625,
+      "title": "Document inspector API contracts",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T00:09:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/623",
+      "number": 623,
+      "title": "Document Javax.Xml.Parsers APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T23:24:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/621",
+      "number": 621,
+      "title": "Document ScanResult ranging capabilities",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T23:24:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/628",
+      "number": 628,
+      "title": "Document Java.Net HTTP status values",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T22:28:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/627",
+      "number": 627,
+      "title": "Document PrintAttributes builder options",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T22:28:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/588",
+      "number": 588,
+      "title": "Document StructStatVfs filesystem fields",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T22:27:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/592",
+      "number": 592,
+      "title": "Document Dalvik bytecode invocation opcodes",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T21:28:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/578",
+      "number": 578,
+      "title": "Document Settings Preferences result types",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T21:28:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/591",
+      "number": 591,
+      "title": "Document System.Drawing.Point APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T21:26:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/604",
+      "number": 604,
+      "title": "Document Org.W3c.Dom.LS APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T21:25:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/579",
+      "number": 579,
+      "title": "Document Java NIO file attributes",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T21:25:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/603",
+      "number": 603,
+      "title": "Document Android ranging session APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T21:25:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/596",
+      "number": 596,
+      "title": "Document DelegateLastClassLoader APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T21:24:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/573",
+      "number": 573,
+      "title": "Document CheckBoxPreference overrides",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T21:24:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4800",
+      "number": 4800,
+      "title": "Add Darc package publishing and retrieval",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-17T20:52:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12378",
+      "number": 12378,
+      "title": "[build] Stabilize Android define constant ordering",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T20:51:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/575",
+      "number": 575,
+      "title": "Document CompletionInfo input methods",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T20:42:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/406",
+      "number": 406,
+      "title": "Run the DevFlow agent in plain .NET apps, with no MAUI references",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-08-17T19:47:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12402",
+      "number": 12402,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-17T19:20:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37408",
+      "number": 37408,
+      "title": "Add public-safe release handoff generation",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-17T17:06:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12377",
+      "number": 12377,
+      "title": "[Java.Interop] Avoid locks for cached JNI member lookups",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-17T16:33:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12403",
       "number": 12403,
       "title": "[main] Update dependencies from microsoft/testfx",
@@ -87681,7 +87931,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-17T16:21:33.114Z",
+  "lastUpdated": "2026-08-18T00:57:45.582Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
