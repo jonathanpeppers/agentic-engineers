@@ -1,6 +1,286 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37565",
+      "number": 37565,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-18T16:16:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/615",
+      "number": 615,
+      "title": "Document network slice enum APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T16:13:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/600",
+      "number": 600,
+      "title": "Document Java.Util.Concurrent.Locks",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T16:13:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12412",
+      "number": 12412,
+      "title": "[build] Fail incomplete Maven artifact mirroring",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T16:13:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37587",
+      "number": 37587,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-18T16:11:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36657",
+      "number": 36657,
+      "title": "[Extensibility] Essentials: Bridge DI implementations to static facades",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-18T16:07:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36884",
+      "number": 36884,
+      "title": "[NET 11] SwipeItem: Add explicit IconColor and TextColor",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-18T15:54:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37546",
+      "number": 37546,
+      "title": "Fix effective visibility propagation",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-18T15:43:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/602",
+      "number": 602,
+      "title": "Document NfcAdapter NDEF push methods",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T15:11:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/599",
+      "number": 599,
+      "title": "Document concurrent async waits",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T15:11:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/598",
+      "number": 598,
+      "title": "Document Apache HTTP client helpers",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T15:11:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/523",
+      "number": 523,
+      "title": "Document Apache HTTP implementation namespaces",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T15:10:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/434",
+      "number": 434,
+      "title": "fix(devflow): invoke API crashes on Android when any DevFlowAction exists",
+      "repo": "dotnet/maui-labs",
+      "author": "aritchie",
+      "mergedAt": "2026-08-18T14:45:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/431",
+      "number": 431,
+      "title": "feat(devflow): real gesture injection — pinch, rotate, pan, swipe, double-tap, long-press",
+      "repo": "dotnet/maui-labs",
+      "author": "aritchie",
+      "mergedAt": "2026-08-18T14:45:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/477",
+      "number": 477,
+      "title": "Document Provider property map operations",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T14:19:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/624",
+      "number": 624,
+      "title": "Document Android.Test annotations",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T14:19:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36915",
+      "number": 36915,
+      "title": "Add local net11 official build readiness checks",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-18T13:52:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37568",
+      "number": 37568,
+      "title": "Fix race in WeakEventProxy field access",
+      "repo": "dotnet/maui",
+      "author": "baaaaif",
+      "mergedAt": "2026-08-18T13:24:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36568",
+      "number": 36568,
+      "title": "[ci] Replace custom NuGet.org publishing with 1ES.PublishNuget",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-18T13:14:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12408",
+      "number": 12408,
+      "title": "[tests] use dotnet/android-samples raw URL for ActionBarSherlock zip",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T13:03:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/11552",
+      "number": 11552,
+      "title": "Fix BuildArchive updates for existing jar entries",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-18T13:03:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/451",
+      "number": 451,
+      "title": "Document Java XML transform source metadata",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T13:03:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/437",
+      "number": 437,
+      "title": "[ai-docs] docs: update AI config files for Agent.Abstractions architecture split",
+      "repo": "dotnet/maui-labs",
+      "author": "github-actions",
+      "mergedAt": "2026-08-18T12:47:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12416",
+      "number": 12416,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260818103557606 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-08-18T12:43:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1522",
+      "number": 1522,
+      "title": "Stable Updates 20260817",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-18T12:41:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12413",
+      "number": 12413,
+      "title": "[fix-finder] Clarify Parameter default interface compatibility",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-08-18T12:40:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4802",
+      "number": 4802,
+      "title": "build: onboard Arcade infrastructure",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-18T12:14:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12414",
+      "number": 12414,
+      "title": "Bump external/android-api-docs from `1020acc` to `d7220e6`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-18T11:42:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/642",
       "number": 642,
       "title": "Auto Publish – main to live - 2026-08-18 05:01 UTC",
@@ -88051,7 +88331,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-18T08:31:04.129Z",
+  "lastUpdated": "2026-08-18T16:25:45.880Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
