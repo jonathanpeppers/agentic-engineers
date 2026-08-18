@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/642",
+      "number": 642,
+      "title": "Auto Publish – main to live - 2026-08-18 05:01 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-08-18T05:19:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12388",
+      "number": 12388,
+      "title": "[Mono.Android] Bind API-37.1",
+      "repo": "dotnet/android",
+      "author": "jonpryor",
+      "mergedAt": "2026-08-18T02:05:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12407",
+      "number": 12407,
+      "title": "Make AndroidTypeMapImplementation public",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-18T01:45:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/632",
+      "number": 632,
+      "title": "Document Android.Telecom namespace",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T01:45:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/622",
+      "number": 622,
+      "title": "Document Apache HTTP SSL APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T01:45:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/617",
+      "number": 617,
+      "title": "Fix SAX parser factory feature documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T01:45:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/635",
+      "number": 635,
+      "title": "Document XmlPullParserFactory values",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T01:37:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/641",
+      "number": 641,
+      "title": "Document geomagnetic field measurements",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T01:33:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/633",
+      "number": 633,
+      "title": "Document XML datatype namespace",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T01:32:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/639",
+      "number": 639,
+      "title": "Document SpeechRecognizer errors",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T01:31:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12397",
+      "number": 12397,
+      "title": "[release/10.0.1xx] Route Gradle dependencies through dotnet-public-maven",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T01:26:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12410",
+      "number": 12410,
+      "title": "`$(AndroidPackVersionSuffix)=rc.2`",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T01:25:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/629",
       "number": 629,
       "title": "Document Photo Picker parcelable APIs",
@@ -87931,7 +88051,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-18T00:57:45.582Z",
+  "lastUpdated": "2026-08-18T08:31:04.129Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
