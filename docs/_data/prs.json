@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12409",
+      "number": 12409,
+      "title": "[Mono.Android] Avoid lock for activation constructor cache",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T08:15:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/188",
+      "number": 188,
+      "title": "Remove Publish-Build-Assets variable group from main",
+      "repo": "dotnet/macios-devtools",
+      "author": "missymessa",
+      "mergedAt": "2026-08-19T07:57:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/655",
+      "number": 655,
+      "title": "Auto Publish – main to live - 2026-08-19 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-08-19T05:24:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12427",
+      "number": 12427,
+      "title": "Bump com.android.tools.build:manifest-merger from 32.2.1 to 32.3.1 in /src/manifestmerger",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-19T03:53:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37607",
       "number": 37607,
       "title": "Use WIF for OneLocBuild feed access",
@@ -88891,7 +88931,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-19T00:58:36.554Z",
+  "lastUpdated": "2026-08-19T08:32:44.153Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
