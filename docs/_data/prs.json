@@ -1,6 +1,566 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37607",
+      "number": 37607,
+      "title": "Use WIF for OneLocBuild feed access",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T23:03:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37608",
+      "number": 37608,
+      "title": "Address OneLocBuild review feedback",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T23:01:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37609",
+      "number": 37609,
+      "title": "[release/11.0.1xx-rc1] Use WIF for OneLocBuild feed access",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T23:01:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37610",
+      "number": 37610,
+      "title": "[release/11.0.1xx-preview7] Use WIF for OneLocBuild feed access",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T23:01:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37611",
+      "number": 37611,
+      "title": "[release/11.0.1xx-preview6] Use WIF for OneLocBuild feed access",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T23:00:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37612",
+      "number": 37612,
+      "title": "[release/11.0.1xx-preview5] Use WIF for OneLocBuild feed access",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T23:00:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37613",
+      "number": 37613,
+      "title": "[release/10.0.1xx-sr10] Use WIF for OneLocBuild feed access",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T23:00:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37614",
+      "number": 37614,
+      "title": "[release/10.0.1xx-sr9] Use WIF for OneLocBuild feed access",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T23:00:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37615",
+      "number": 37615,
+      "title": "[release/10.0.1xx-sr8] Use WIF for OneLocBuild feed access",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T23:00:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37616",
+      "number": 37616,
+      "title": "[release/10.0.1xx-sr7] Use WIF for OneLocBuild feed access",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T23:00:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37392",
+      "number": 37392,
+      "title": "[Windows] InputTransparent: Respect wrapper view hit testing",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-18T22:55:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37310",
+      "number": 37310,
+      "title": "Fix and Re-enable \"Window Does Not Leak\" and \"Does Not Leak\" Memory Leak Device Test",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-08-18T22:46:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/570",
+      "number": 570,
+      "title": "Document Java runtime namespace",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T22:14:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/527",
+      "number": 527,
+      "title": "Document Apache HTTP cookie implementations",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T22:14:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37593",
+      "number": 37593,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-18T21:50:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37597",
+      "number": 37597,
+      "title": "Remove Publish-Build-Assets variable group from release/11.0.1xx-preview7",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T21:45:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37596",
+      "number": 37596,
+      "title": "Remove Publish-Build-Assets variable group from release/11.0.1xx-preview6",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T21:45:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37595",
+      "number": 37595,
+      "title": "Remove Publish-Build-Assets variable group from release/11.0.1xx-preview5",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T21:45:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37594",
+      "number": 37594,
+      "title": "Remove Publish-Build-Assets variable group from release/10.0.1xx-sr10",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T21:44:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37592",
+      "number": 37592,
+      "title": "Remove Publish-Build-Assets variable group from release/10.0.1xx-sr9",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T21:44:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37591",
+      "number": 37591,
+      "title": "Remove Publish-Build-Assets variable group from release/10.0.1xx-sr8",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T21:44:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37590",
+      "number": 37590,
+      "title": "Remove Publish-Build-Assets variable group from release/10.0.1xx-sr7",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T21:44:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37589",
+      "number": 37589,
+      "title": "Remove Publish-Build-Assets variable group from main",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T21:44:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1528",
+      "number": 1528,
+      "title": "[Xamarin.Build.Download] Add Google Maven repository override",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T21:39:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/556",
+      "number": 556,
+      "title": "Document Apache cookie spec factory",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T21:22:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/569",
+      "number": 569,
+      "title": "Document MatrixCursor RowBuilder APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T21:22:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/568",
+      "number": 568,
+      "title": "Import source-backed Android.Telephony documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T21:21:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/540",
+      "number": 540,
+      "title": "Document Android.Telephony.Ims namespace",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T21:21:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12428",
+      "number": 12428,
+      "title": "Bump com.android.tools:common from 32.2.1 to 32.3.1 in /src/manifestmerger",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-18T20:30:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/576",
+      "number": 576,
+      "title": "Document Java logging binding members",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T20:25:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12424",
+      "number": 12424,
+      "title": "[build] Serialize Gradle wrapper projects",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T20:24:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/634",
+      "number": 634,
+      "title": "Document Animation callbacks",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T20:23:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1526",
+      "number": 1526,
+      "title": "[ci] Stop lint Maven Central traffic",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T20:23:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1529",
+      "number": 1529,
+      "title": "[ci] Apply CFSClean environment settings",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T20:23:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/589",
+      "number": 589,
+      "title": "Document Apache HTTP client methods",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T20:22:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12423",
+      "number": 12423,
+      "title": "Bump com.android.library from 9.2.1 to 9.3.1 in /tests/CodeGen-Binding/Xamarin.Android.LibraryProjectZip-LibBinding/java/JavaLib",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-18T20:16:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12425",
+      "number": 12425,
+      "title": "[dependabot] Disable Gradle update cooldown",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T20:06:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/590",
+      "number": 590,
+      "title": "Document Java.Time Instant APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T19:32:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1527",
+      "number": 1527,
+      "title": "[ci] Route API diff through dotnet-public",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T19:32:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/638",
+      "number": 638,
+      "title": "Document Android Window splash screen",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T19:32:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/586",
+      "number": 586,
+      "title": "Document Org.Apache.Http.Client.Protocol",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T19:32:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/577",
+      "number": 577,
+      "title": "Document Java reflection annotation APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T19:32:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12420",
+      "number": 12420,
+      "title": "[release/10.0.1xx] Use approved feed for .NET tools",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T18:54:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/644",
+      "number": 644,
+      "title": "Update API docs for Android 36.1",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T18:47:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37578",
+      "number": 37578,
+      "title": "[ci-fix-net11] Needs review: synchronize RefreshView footer taps (refs #37560)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-18T18:45:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/585",
+      "number": 585,
+      "title": "Document Org.Apache.Http.Client.Params",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T18:38:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/460",
+      "number": 460,
+      "title": "Document LoggingPermission constructor",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T18:38:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4801",
+      "number": 4801,
+      "title": "Combine SkiaSharp Native and Package pipelines",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-18T18:31:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37588",
+      "number": 37588,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-18T18:06:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/613",
+      "number": 613,
+      "title": "Document Media Session playback flags",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T17:51:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/587",
+      "number": 587,
+      "title": "Document JsonReader token values",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T17:51:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/640",
+      "number": 640,
+      "title": "Document JDBC connection properties",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T17:51:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/528",
+      "number": 528,
+      "title": "Document Apache HTTP implementations",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T17:51:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/xcsync/pull/248",
+      "number": 248,
+      "title": "Remove Publish-Build-Assets variable group from main",
+      "repo": "dotnet/xcsync",
+      "author": "missymessa",
+      "mergedAt": "2026-08-18T17:23:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12411",
+      "number": 12411,
+      "title": "[dependabot] Expose Google Maven to Gradle updater",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T16:47:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1523",
+      "number": 1523,
+      "title": "Bootstrap Arcade tooling metadata",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-18T16:36:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37565",
       "number": 37565,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -88331,7 +88891,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-18T16:25:45.880Z",
+  "lastUpdated": "2026-08-19T00:58:36.554Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
