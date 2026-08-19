@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12415",
+      "number": 12415,
+      "title": "[build] Increase release assembly store compression",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-19T14:43:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12230",
+      "number": 12230,
+      "title": "[Build] Make universal APK generation incremental",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-19T14:41:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12419",
+      "number": 12419,
+      "title": "[build] Use trimmable typemaps when PublishAot is enabled",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-19T14:05:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/647",
+      "number": 647,
+      "title": "Add Android.Telephony XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T13:57:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/649",
+      "number": 649,
+      "title": "Import Android.Graphics API documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T13:57:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1524",
+      "number": 1524,
+      "title": "Publish filtered signed packages through BAR",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T13:29:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12374",
+      "number": 12374,
+      "title": "Add update-androidsdk-packages skill and skill-runner workflow",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T13:09:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/646",
+      "number": 646,
+      "title": "Add XML documentation for Android.Opengl",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T13:07:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12371",
+      "number": 12371,
+      "title": "[build] Update stable Android SDK packages",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T13:07:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/651",
+      "number": 651,
+      "title": "Add XML documentation for Java.Time",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T12:44:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/648",
+      "number": 648,
+      "title": "Add XML documentation for Android.App.AppSearch",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T12:43:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/654",
+      "number": 654,
+      "title": "Document Android.Provider APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T12:42:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/650",
+      "number": 650,
+      "title": "Add Android.Media XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T12:42:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12433",
+      "number": 12433,
+      "title": "Bump external/android-api-docs from `d7220e6` to `36b9a9a`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-19T12:41:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12434",
+      "number": 12434,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15017869",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-08-19T12:40:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12435",
+      "number": 12435,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260819103315401 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-08-19T12:39:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12409",
       "number": 12409,
       "title": "[Mono.Android] Avoid lock for activation constructor cache",
@@ -88931,7 +89091,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-19T08:32:44.153Z",
+  "lastUpdated": "2026-08-19T16:25:45.229Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
