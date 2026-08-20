@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/656",
+      "number": 656,
+      "title": "Auto Publish – main to live - 2026-08-20 05:01 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-08-20T05:19:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4714",
+      "number": 4714,
+      "title": "Improve NuGet package READMEs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-20T02:40:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4690",
+      "number": 4690,
+      "title": "[performance] perf(harfbuzz): avoid defensive Feature[] copy in Font.Shape",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-20T01:11:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4752",
+      "number": 4752,
+      "title": "[performance] Remove per-call char boxing in SKFourByteTag/Tag ToString",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-20T01:08:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4820",
       "number": 4820,
       "title": "Bump to the next version (4.151.3) after release",
@@ -89301,7 +89341,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-20T00:58:14.695Z",
+  "lastUpdated": "2026-08-20T08:32:03.937Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
