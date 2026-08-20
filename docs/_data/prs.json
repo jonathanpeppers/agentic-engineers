@@ -1,6 +1,216 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4820",
+      "number": 4820,
+      "title": "Bump to the next version (4.151.3) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-20T00:30:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4821",
+      "number": 4821,
+      "title": "Bump to the next version (4.150.4) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-20T00:29:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4808",
+      "number": 4808,
+      "title": "[skia-sync] Merge upstream chrome/m152 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-20T00:16:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/346",
+      "number": 346,
+      "title": "[skia-sync] Merge upstream chrome/m152",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-20T00:09:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4704",
+      "number": 4704,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-20T00:07:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4692",
+      "number": 4692,
+      "title": "[skia-sync] Merge upstream chrome/m151 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-19T23:59:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/344",
+      "number": 344,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-19T23:57:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/343",
+      "number": 343,
+      "title": "[skia-sync] Merge upstream chrome/m151",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-19T23:52:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37606",
+      "number": 37606,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-19T22:51:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37420",
+      "number": 37420,
+      "title": "Expose gesture recognizer dispatch APIs",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-19T22:45:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1530",
+      "number": 1530,
+      "title": "[ci] Enable BAR publishing for real-signed builds",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T22:14:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12422",
+      "number": 12422,
+      "title": "Bump com.android.application from 9.2.1 to 9.3.1 in /src/proguard-android",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-19T22:01:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37409",
+      "number": 37409,
+      "title": "[iOS] ScrollView: Complete element scroll requests inside collapsed branches",
+      "repo": "dotnet/maui",
+      "author": "albyrock87",
+      "mergedAt": "2026-08-19T21:38:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/645",
+      "number": 645,
+      "title": "Add Android.Icu.Lang XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T20:50:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12432",
+      "number": 12432,
+      "title": "Group Dependabot updates by Gradle project",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T19:29:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12444",
+      "number": 12444,
+      "title": "[tests] Verify System.IO.Hashing 11 with NativeAOT",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T19:28:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/393",
+      "number": 393,
+      "title": "build(deps-dev): Bump ws from 8.20.0 to 8.21.1 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-08-19T19:24:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12431",
+      "number": 12431,
+      "title": "[dependabot] Ignore Arcade SDK updates",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-19T18:51:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/442",
+      "number": 442,
+      "title": "Remove Publish-Build-Assets variable group from main",
+      "repo": "dotnet/maui-labs",
+      "author": "missymessa",
+      "mergedAt": "2026-08-19T18:46:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12440",
+      "number": 12440,
+      "title": "[TrimmableTypeMap] Skip redundant assembly reference scans",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-19T17:36:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12441",
+      "number": 12441,
+      "title": "Prevent Android reviewer Azure CLI permission denials",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-19T17:20:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12415",
       "number": 12415,
       "title": "[build] Increase release assembly store compression",
@@ -89091,7 +89301,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-19T16:25:45.229Z",
+  "lastUpdated": "2026-08-20T00:58:14.695Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
