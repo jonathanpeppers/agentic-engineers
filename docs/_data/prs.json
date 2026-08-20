@@ -1,6 +1,226 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12429",
+      "number": 12429,
+      "title": "Bump com.android.tools:r8 from 9.1.31 to 9.4.14 in /src/r8",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-20T15:51:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/418",
+      "number": 418,
+      "title": "fix(cli): scope device list to the requested platform's providers",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-08-20T15:30:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/438",
+      "number": 438,
+      "title": "Split DevFlow Driver into portable protocol client and platform driver packages",
+      "repo": "dotnet/maui-labs",
+      "author": "JanKrivanek",
+      "mergedAt": "2026-08-20T15:23:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37424",
+      "number": 37424,
+      "title": "[Windows] Fix Border clipping for transformed content",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-20T14:58:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37426",
+      "number": 37426,
+      "title": "[Essentials] WebAuthenticator: Centralize request lifecycle handling",
+      "repo": "dotnet/maui",
+      "author": "IlGalvo",
+      "mergedAt": "2026-08-20T14:55:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37639",
+      "number": 37639,
+      "title": "Fix AnimationManager.Dispose — retained ticker keeps disposed manager and callbacks alive",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-08-20T14:49:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/448",
+      "number": 448,
+      "title": "build(deps-dev): Bump undici from 7.28.0 to 7.29.0 in /src/DevFlow/js",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-08-20T14:17:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/449",
+      "number": 449,
+      "title": "build(deps-dev): Bump js-yaml from 4.3.0 to 4.3.1 in /src/DevFlow/js",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-08-20T14:16:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/447",
+      "number": 447,
+      "title": "build(deps-dev): Bump fast-uri from 3.1.3 to 3.1.5 in /src/DevFlow/js",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-08-20T14:15:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12450",
+      "number": 12450,
+      "title": "[build] Do not modify assemblies in the NuGet package cache",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-20T14:00:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/397",
+      "number": 397,
+      "title": "Add shared DevFlow Inspector for browser, VS Code, and Copilot Canvas",
+      "repo": "dotnet/maui-labs",
+      "author": "morning4coffe-dev",
+      "mergedAt": "2026-08-20T14:00:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12446",
+      "number": 12446,
+      "title": "[NativeAOT] Remove std::format from host compilation",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-20T13:59:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12455",
+      "number": 12455,
+      "title": "[native] Fix concurrent FastTiming event storage",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-20T13:58:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37645",
+      "number": 37645,
+      "title": "Fix memory leak in BindingDiagnostics.BindingFailed by backing the static event with WeakEventManager",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-08-20T13:57:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37650",
+      "number": 37650,
+      "title": "Fix to Improve CollectionView2 Resilience During Item Index Resolution",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-08-20T13:56:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37660",
+      "number": 37660,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-20T13:53:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37663",
+      "number": 37663,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-20T13:52:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37672",
+      "number": 37672,
+      "title": "Revert - [iOS & Mac] Fix and Re-enable \"Cells Do Not Leak\" and \"Handler Does Not Leak\" Device Tests",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-08-20T13:51:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37669",
+      "number": 37669,
+      "title": "[Candidate] Fix Build failure in MauiBlazorWebView DeviceTests",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-08-20T13:33:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/412",
+      "number": 412,
+      "title": "Add cross-platform layout diagnostics to MAUI DevFlow",
+      "repo": "dotnet/maui-labs",
+      "author": "morning4coffe-dev",
+      "mergedAt": "2026-08-20T09:55:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12457",
+      "number": 12457,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15032703",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-08-20T09:53:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12456",
+      "number": 12456,
+      "title": "Bump external/android-api-docs from `36b9a9a` to `287e3f8`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-20T09:52:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/656",
       "number": 656,
       "title": "Auto Publish – main to live - 2026-08-20 05:01 UTC",
@@ -89341,7 +89561,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-20T08:32:03.937Z",
+  "lastUpdated": "2026-08-20T16:29:11.322Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
