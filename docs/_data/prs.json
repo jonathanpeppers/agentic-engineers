@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4710",
+      "number": 4710,
+      "title": "[memory-leak] Dispose SKStreamAsset in ToHarfBuzzBlob non-memory-backed path",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-20T23:04:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4705",
+      "number": 4705,
+      "title": "Update docs submodule to latest main",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-20T23:03:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4697",
+      "number": 4697,
+      "title": "Update issue template version dropdowns",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-20T23:02:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4834",
+      "number": 4834,
+      "title": "Bump HarfBuzzSharp to 14.2.1.200 for M152",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-20T22:49:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4835",
+      "number": 4835,
+      "title": "Use M151 HarfBuzzSharp version bucket for 4.151.2",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-20T22:48:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4833",
+      "number": 4833,
+      "title": "Reserve HarfBuzzSharp versions by Skia milestone",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-20T22:39:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4832",
+      "number": 4832,
+      "title": "Move HarfBuzzSharp into the M151 revision bucket",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-20T22:38:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37678",
+      "number": 37678,
+      "title": "[ci-fix-net11] Needs review: hold drag over target before release (refs #37561)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-20T21:47:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37676",
+      "number": 37676,
+      "title": "[ci-fix-net11] Needs review: enable nullable context for SwipeItem tests (refs #37629)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-20T21:46:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37642",
+      "number": 37642,
+      "title": "[net11] [Android] Fix Shell toolbar showing a hamburger icon instead of a back arrow",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-08-20T21:41:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37666",
+      "number": 37666,
+      "title": "[iOS] ScrollView: Complete every superseded or dropped scroll request's task",
+      "repo": "dotnet/maui",
+      "author": "albyrock87",
+      "mergedAt": "2026-08-20T21:39:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37686",
+      "number": 37686,
+      "title": "[ci] Fix empty conditional block breaking internal pipeline YAML",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-08-20T21:37:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4815",
+      "number": 4815,
+      "title": "[performance] Build Android on Linux and reduce native/package CI overhead",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-20T21:27:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1531",
+      "number": 1531,
+      "title": "[build] Serialize pose detection projects",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-20T19:06:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1520",
+      "number": 1520,
+      "title": "Prevent duplicate ML Kit barcode-scanning AAR packaging",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-20T17:28:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37685",
+      "number": 37685,
+      "title": "Add current .NET MAUI versions to bug template",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-20T17:15:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37447",
+      "number": 37447,
+      "title": "Fix Copilot CLI path for agentic workflows",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-20T16:41:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12429",
       "number": 12429,
       "title": "Bump com.android.tools:r8 from 9.1.31 to 9.4.14 in /src/r8",
@@ -89561,7 +89731,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-20T16:29:11.322Z",
+  "lastUpdated": "2026-08-21T01:02:03.879Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
