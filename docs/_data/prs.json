@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12020",
+      "number": 12020,
+      "title": "[ci] Add MAUI full R2R android-arm Helix test",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-21T15:59:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12310",
+      "number": 12310,
+      "title": "[FastDeploy2] Clean orphan staging files",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-21T15:51:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37708",
+      "number": 37708,
+      "title": "[iOS] Restore SoftInput layout after modal dismissal",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-21T15:46:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12468",
+      "number": 12468,
+      "title": "[release/11.0.1xx-rc1] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-21T15:45:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37709",
+      "number": 37709,
+      "title": "[Android] Fix OnBackButtonPressed on root pages",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-21T15:44:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4838",
+      "number": 4838,
+      "title": "Publish Android symbols through Arcade",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-21T15:42:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37710",
+      "number": 37710,
+      "title": "[Android] Fix Material 3 status bar icon contrast",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-21T15:42:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37711",
+      "number": 37711,
+      "title": "Fix workload paths when SDK directory lacks separator",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-21T15:29:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12438",
+      "number": 12438,
+      "title": "[build] Pass class files directly to D8 and R8",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-21T14:13:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1532",
+      "number": 1532,
+      "title": "[ci] Publish stable BAR assets to isolated feeds",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-21T13:42:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12448",
+      "number": 12448,
+      "title": "[build] Avoid staging unchanged framework assemblies",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-21T13:01:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12418",
+      "number": 12418,
+      "title": "[Mono.Android] Enumify, stabilize API-37.1",
+      "repo": "dotnet/android",
+      "author": "jonpryor",
+      "mergedAt": "2026-08-21T12:51:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37382",
+      "number": 37382,
+      "title": "Fix memory leak in VisualDiagnostics.VisualTreeChanged by backing the static event with WeakEventManager",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-08-21T12:48:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12475",
+      "number": 12475,
+      "title": "Bump external/android-api-docs from `287e3f8` to `0210b1e`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-21T09:11:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12470",
+      "number": 12470,
+      "title": "Avoid copying transitive task dependencies",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-21T09:06:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12471",
+      "number": 12471,
+      "title": "[ci] Bound logcat capture time",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-21T08:52:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12463",
       "number": 12463,
       "title": "[release/11.0.1xx-rc1] Fix incremental APK archives and NuGet cache writes",
@@ -89741,7 +89901,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-21T08:35:02.125Z",
+  "lastUpdated": "2026-08-21T16:27:21.012Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
