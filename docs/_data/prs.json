@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4842",
+      "number": 4842,
+      "title": "Align .NET SDK, workload, and container pins",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-22T02:17:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4841",
       "number": 4841,
       "title": "Restore SkiaSharp.Vulkan.Silk.NET package production",
@@ -89971,7 +89981,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-22T00:58:43.744Z",
+  "lastUpdated": "2026-08-22T08:23:30.976Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
