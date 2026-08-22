@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37731",
+      "number": 37731,
+      "title": "[release/10.0.1xx-sr10] Update SkiaSharp to 4.150.1",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-22T14:41:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37730",
+      "number": 37730,
+      "title": "[release/10.0.1xx-sr10] Fix Material 3 status bar contrast",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-22T14:41:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37729",
+      "number": 37729,
+      "title": "[release/10.0.1xx-sr10] Fix Android root-page back handling",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-22T14:41:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37728",
+      "number": 37728,
+      "title": "[release/10.0.1xx-sr10] Fix per-edge iOS safe area handling",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-22T14:41:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37727",
+      "number": 37727,
+      "title": "[release/10.0.1xx-sr10] Align Android SwipeItem content",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-22T14:41:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37726",
+      "number": 37726,
+      "title": "[release/10.0.1xx-sr10] Preserve custom iOS button styling",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-22T14:40:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37725",
+      "number": 37725,
+      "title": "[release/10.0.1xx-sr10] Fix dynamic ContentPresenter assignment",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-22T14:40:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37724",
+      "number": 37724,
+      "title": "[release/10.0.1xx-sr10] Fix MediaPicker completion from child activities",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-22T14:40:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4842",
       "number": 4842,
       "title": "Align .NET SDK, workload, and container pins",
@@ -89981,7 +90061,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-22T08:23:30.976Z",
+  "lastUpdated": "2026-08-22T16:17:54.010Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
