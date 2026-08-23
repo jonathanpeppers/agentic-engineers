@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37671",
+      "number": 37671,
+      "title": "Harden gesture recognizer dispatch API contracts",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-22T21:09:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37626",
+      "number": 37626,
+      "title": "[ci-fix-net11] De-flake CollectionView header/footer tests with isolated fixture state (refs #36722)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-22T18:52:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37742",
+      "number": 37742,
+      "title": "[ci-fix] De-flake SafeAreaPerEdgeValidation with keyboard waits (refs #37557)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-22T18:51:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37741",
+      "number": 37741,
+      "title": "[ci-fix] De-flake SafeAreaNoWhiteSpaceAfterKeyboardDismissAndEdgeToggle with keyboard waits (refs #37556)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-22T18:50:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37731",
       "number": 37731,
       "title": "[release/10.0.1xx-sr10] Update SkiaSharp to 4.150.1",
@@ -90061,7 +90101,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-22T16:17:54.010Z",
+  "lastUpdated": "2026-08-23T01:03:08.524Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
