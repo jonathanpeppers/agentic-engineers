@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12445",
+      "number": 12445,
+      "title": "[build] Disable CoreCLR ReadyToRun without trimming",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-24T08:36:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12442",
+      "number": 12442,
+      "title": "[skill-runner] update-androidsdk-packages: refresh stable SDK packages",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-08-24T08:34:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12460",
+      "number": 12460,
+      "title": "[ci] Upgrade and automate gh-aw workflows",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-24T08:31:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12466",
+      "number": 12466,
+      "title": "[Xamarin.Android.Tools.AndroidSdk] Parse the new Android CLI `sdkmanager --list` format",
+      "repo": "dotnet/android",
+      "author": "mauroa",
+      "mergedAt": "2026-08-24T08:29:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37671",
       "number": 37671,
       "title": "Harden gesture recognizer dispatch API contracts",
@@ -90101,7 +90141,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-24T01:00:36.827Z",
+  "lastUpdated": "2026-08-24T08:42:04.168Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
