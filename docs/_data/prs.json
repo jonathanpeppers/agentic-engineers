@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36444",
+      "number": 36444,
+      "title": "[XAML SourceGen] Make compiled bindings null-tolerant for intermediate members",
+      "repo": "dotnet/maui",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-24T16:10:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37764",
+      "number": 37764,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-24T15:34:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/xcsync/pull/251",
+      "number": 251,
+      "title": "[github] Remove autoformat.",
+      "repo": "dotnet/xcsync",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-24T15:29:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12476",
+      "number": 12476,
+      "title": "[installer] Refresh Android SDK manifest",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-24T15:22:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37688",
+      "number": 37688,
+      "title": "[release/11.0.1xx-rc1] Align with blessed SDK build",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-24T14:12:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37387",
+      "number": 37387,
+      "title": "[Windows] CarouselView: Fix mouse-wheel snapping",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-24T13:55:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37404",
+      "number": 37404,
+      "title": "[iOS] Fix pull-to-refresh not working when CollectionView is empty",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-24T13:53:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12482",
+      "number": 12482,
+      "title": "Bump external/android-api-docs from `0210b1e` to `31260d9`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-24T13:44:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12447",
+      "number": 12447,
+      "title": "[build] Avoid archiving extracted library resources",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-24T13:43:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12462",
+      "number": 12462,
+      "title": "Allow all Azure CLI commands in Android PR Reviewer",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-24T13:41:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12481",
+      "number": 12481,
+      "title": "[fix-finder] Localize missing NDK toolchain warning",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-08-24T13:33:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12485",
+      "number": 12485,
+      "title": "[main] Update dependencies from microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-24T13:31:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12469",
+      "number": 12469,
+      "title": "[release/10.0.1xx] Complete Maven feed backport",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-24T13:30:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12445",
       "number": 12445,
       "title": "[build] Disable CoreCLR ReadyToRun without trimming",
@@ -90141,7 +90271,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-24T08:42:04.168Z",
+  "lastUpdated": "2026-08-24T16:31:19.405Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
