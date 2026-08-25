@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26451",
+      "number": 26451,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260819053807749 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-08-25T08:21:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26448",
+      "number": 26448,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260818053657337 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-08-25T08:09:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26437",
+      "number": 26437,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-25T08:06:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26450",
+      "number": 26450,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260818173756944 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-08-25T08:06:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26440",
+      "number": 26440,
+      "title": "Bump zizmorcore/zizmor-action from 0.6.1 to 0.6.2",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-08-25T07:51:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/658",
+      "number": 658,
+      "title": "Auto Publish – main to live - 2026-08-25 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-08-25T05:20:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/652",
+      "number": 652,
+      "title": "Add XML documentation for Android.Icu.Text",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-25T01:22:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12484",
       "number": 12484,
       "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
@@ -90341,7 +90411,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-25T01:00:24.664Z",
+  "lastUpdated": "2026-08-25T08:36:26.072Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
