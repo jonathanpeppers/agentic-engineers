@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12484",
+      "number": 12484,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-24T23:12:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37785",
+      "number": 37785,
+      "title": "Update .NET 11 template bot artwork",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-24T21:59:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12493",
+      "number": 12493,
+      "title": "Centralize agentic workflow firewall allowlist",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-24T20:10:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12421",
+      "number": 12421,
+      "title": "[Mono.Android] Bind API-37.2 Beta 3",
+      "repo": "dotnet/android",
+      "author": "jonpryor",
+      "mergedAt": "2026-08-24T19:44:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12480",
+      "number": 12480,
+      "title": "[release/11.0.1xx-rc1] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-24T19:42:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37783",
+      "number": 37783,
+      "title": "Use the latest version of Mono.Cecil.",
+      "repo": "dotnet/maui",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-24T18:25:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/653",
+      "number": 653,
+      "title": "Add Health Connect data type documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-24T17:41:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36444",
       "number": 36444,
       "title": "[XAML SourceGen] Make compiled bindings null-tolerant for intermediate members",
@@ -90271,7 +90341,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-24T16:31:19.405Z",
+  "lastUpdated": "2026-08-25T01:00:24.664Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
