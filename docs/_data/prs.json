@@ -1,6 +1,266 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37770",
+      "number": 37770,
+      "title": "[Android] Map: Recluster on a single zoom step",
+      "repo": "dotnet/maui",
+      "author": "kevin68",
+      "mergedAt": "2026-08-25T15:27:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26332",
+      "number": 26332,
+      "title": "[msbuild] Merge runtimeconfig.dev.json into the runtime configuration. Fixes #26330",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-25T15:22:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/xcsync/pull/250",
+      "number": 250,
+      "title": "[eng] Update Microsoft.DotNet.Arcade.Sdk.",
+      "repo": "dotnet/xcsync",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-25T15:17:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/xcsync/pull/249",
+      "number": 249,
+      "title": "Use any feed to get the workloads.",
+      "repo": "dotnet/xcsync",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-25T15:14:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/xcsync/pull/252",
+      "number": 252,
+      "title": "Don't create devcerts anymore.",
+      "repo": "dotnet/xcsync",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-25T15:12:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37749",
+      "number": 37749,
+      "title": "[ci] Prevent scheduled workflows from running in forks",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-25T14:24:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37774",
+      "number": 37774,
+      "title": "[Android] Map: Stop reloading a pin's icon on every cluster pass",
+      "repo": "dotnet/maui",
+      "author": "kevin68",
+      "mergedAt": "2026-08-25T14:06:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37810",
+      "number": 37810,
+      "title": "Revert \"[iOS] NavigationPage: Fix large-title collapse for wrapped scroll content (#36511)\"",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-08-25T14:02:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26458",
+      "number": 26458,
+      "title": "Bump to the latest v8 version of System.Security.Cryptography.Xml.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-25T13:44:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/xcsync/pull/253",
+      "number": 253,
+      "title": "[ci] Make the whole job use a single .NET installation",
+      "repo": "dotnet/xcsync",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-25T13:37:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12228",
+      "number": 12228,
+      "title": "[NativeAOT] Trim unused typemap Java code in Release",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-25T13:34:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37786",
+      "number": 37786,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-25T13:32:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12113",
+      "number": 12113,
+      "title": "[Java.Interop] Map nullable byte jagged arrays to java.lang.Byte",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-25T13:31:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12247",
+      "number": 12247,
+      "title": "[native] Remove Android time-zone change monitoring",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-25T13:30:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37793",
+      "number": 37793,
+      "title": "[net11.0] Fix Blazor template asset assertion",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-25T13:30:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12494",
+      "number": 12494,
+      "title": "[build] Copy NDK redistributables when creating runtime packs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-25T13:30:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12492",
+      "number": 12492,
+      "title": "[tests] Read FastTiming dump from file",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-25T13:27:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12508",
+      "number": 12508,
+      "title": "Remove duplicate CoreCLR runtime test lane",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-25T13:25:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37765",
+      "number": 37765,
+      "title": "[iOS] Fix for ScrollView SafeAreaEdges=\"Container\" Double Safe-Area Reservation Causing Phantom Scroll Range",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-08-25T13:14:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12505",
+      "number": 12505,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15085521",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-08-25T13:12:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12503",
+      "number": 12503,
+      "title": "[fix-finder] Remove stale XBC workaround comment",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-08-25T13:11:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12451",
+      "number": 12451,
+      "title": "Fix NativeAOT custom release configurations",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-25T12:58:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37702",
+      "number": 37702,
+      "title": "[net 11]Fix build failure screenshots",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-08-25T11:15:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37784",
+      "number": 37784,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-25T11:00:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12133",
+      "number": 12133,
+      "title": "[NativeAOT] Use XAJavaInterop1 codegen target and unify GC bridge",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-25T09:03:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12114",
+      "number": 12114,
+      "title": "Guard primitive array value-manager routing",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-25T09:02:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26451",
       "number": 26451,
       "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260819053807749 to main",
@@ -90411,7 +90671,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-25T08:36:26.072Z",
+  "lastUpdated": "2026-08-25T16:31:36.515Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
