@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12520",
+      "number": 12520,
+      "title": "[tests] Use approved feed for analyzer references",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-25T22:55:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1536",
+      "number": 1536,
+      "title": "[ci] Keep NuGet revocation checks offline",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-25T21:47:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12502",
+      "number": 12502,
+      "title": "[aw] Enable local diff checks in Android PR Reviewer",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-08-25T21:42:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-samples/pull/12",
+      "number": 12,
+      "title": "Fix link to User Notifications article.",
+      "repo": "dotnet/macios-samples",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-25T20:05:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4846",
+      "number": 4846,
+      "title": "Generate Apple native symbol packages during pack",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-25T19:23:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/657",
+      "number": 657,
+      "title": "docs: add Android.Content.PM XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-25T18:26:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37755",
+      "number": 37755,
+      "title": "Add badge support to TabbedPage",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-25T17:18:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37812",
+      "number": 37812,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-25T17:17:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37814",
+      "number": 37814,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-25T17:15:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12115",
+      "number": 12115,
+      "title": "[JNIEnv] Support sbyte jagged arrays",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-25T17:11:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12497",
+      "number": 12497,
+      "title": "Fix typemap proxy metadata field ownership",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-25T17:09:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12509",
+      "number": 12509,
+      "title": "[Native] Restore indexed GC temporary peers",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-25T17:07:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37770",
       "number": 37770,
       "title": "[Android] Map: Recluster on a single zoom step",
@@ -90671,7 +90791,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-25T16:31:36.515Z",
+  "lastUpdated": "2026-08-26T01:02:16.101Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
