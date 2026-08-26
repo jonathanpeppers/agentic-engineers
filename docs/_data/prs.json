@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37680",
+      "number": 37680,
+      "title": "[Android] Fix Screenshot.CaptureAsync deadlock for synchronous UI-thread callers",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-08-26T16:37:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37837",
+      "number": 37837,
+      "title": "[iOS] ScrollView: Complete element scroll requests inside collapsed branches",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-08-26T16:04:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37841",
+      "number": 37841,
+      "title": "[iOS] SafeArea: Skip initial connection invalidation",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-08-26T16:02:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37842",
+      "number": 37842,
+      "title": "ViewHandler: Skip null ToolTip initialization",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-08-26T16:02:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4803",
+      "number": 4803,
+      "title": "Migrate CI to dnceng with Arcade shipping and transport",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-26T16:00:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12521",
+      "number": 12521,
+      "title": "[fix-finder] Remove null-forgiving fallback in MAM parser",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-08-26T15:02:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12522",
+      "number": 12522,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15101912",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-08-26T14:52:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12511",
+      "number": 12511,
+      "title": "[Native] Join paths without dynamic strings",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-26T14:38:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12512",
+      "number": 12512,
+      "title": "Test trimmable typemap behavior at runtime",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-26T14:19:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37267",
+      "number": 37267,
+      "title": "[iOS/Mac] Fix Image not enlarging to explicit HeightRequest/WidthRequest",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-08-26T13:02:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37648",
+      "number": 37648,
+      "title": "[Windows] Fixed : WebView CanGoBack Returns true when it Shouldn't  ",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-08-26T12:58:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37818",
+      "number": 37818,
+      "title": "[net11.0] Fix Windows build: add missing 'using static AssertHelpers' to TabbedPageTests.Windows.cs",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-26T08:53:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/659",
       "number": 659,
       "title": "Auto Publish – main to live - 2026-08-26 05:01 UTC",
@@ -90861,7 +90981,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-26T08:37:32.865Z",
+  "lastUpdated": "2026-08-26T16:44:47.386Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
