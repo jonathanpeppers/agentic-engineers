@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/659",
+      "number": 659,
+      "title": "Auto Publish – main to live - 2026-08-26 05:01 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-08-26T05:19:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26434",
+      "number": 26434,
+      "title": "[Photos] Update bindings up to Xcode 27.0 Beta 5",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-08-26T03:52:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26438",
+      "number": 26438,
+      "title": "[Bindings] Update multiple frameworks up to Xcode 27.0 Beta 5",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-08-26T03:52:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26436",
+      "number": 26436,
+      "title": "[CoreGraphics] Update bindings up to Xcode 27.0 Beta 5",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-08-26T03:50:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26435",
+      "number": 26435,
+      "title": "[Intents] Update bindings up to Xcode 27.0 Beta 5",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-08-26T03:50:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26433",
+      "number": 26433,
+      "title": "[FSKit] Update bindings up to Xcode 27.0 Beta 5",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-08-26T03:50:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26432",
+      "number": 26432,
+      "title": "[AutomaticAssessmentConfiguration] Update bindings up to Xcode 27.0 Beta 5",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-08-26T03:49:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12520",
       "number": 12520,
       "title": "[tests] Use approved feed for analyzer references",
@@ -90791,7 +90861,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-26T01:02:16.101Z",
+  "lastUpdated": "2026-08-26T08:37:32.865Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
