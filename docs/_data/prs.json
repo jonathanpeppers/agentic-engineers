@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libzipsharp/pull/164",
+      "number": 164,
+      "title": "[ci] Update .NET SDK channel to 10.0",
+      "repo": "dotnet/android-libzipsharp",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-26T22:56:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37852",
+      "number": 37852,
+      "title": "[net11.0] Use Helix job monitor for unit tests",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-26T22:18:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4872",
+      "number": 4872,
+      "title": "[4.150.x] Onboard Arcade infrastructure",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-26T22:11:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4871",
+      "number": 4871,
+      "title": "[4.151.x] Onboard Arcade infrastructure",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-26T22:08:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37856",
+      "number": 37856,
+      "title": "[release-readiness] Add RC release support",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-26T22:06:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4878",
+      "number": 4878,
+      "title": "[release/4.152.0-rc.1] [CI] Route release builds to servicing pools",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-08-26T21:08:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4877",
+      "number": 4877,
+      "title": "[CI] Route release builds to servicing pools",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-26T21:00:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4875",
+      "number": 4875,
+      "title": "[4.152 RC1] Merge main into release branch",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-26T20:50:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12528",
+      "number": 12528,
+      "title": "[Mono.Android] Suppress DSA client-certificate compatibility alert",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-26T20:38:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12526",
+      "number": 12526,
+      "title": "[android-tools] Suppress Google SDK SHA-1 checksum alert",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-26T20:37:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12478",
+      "number": 12478,
+      "title": "[xabt] build with & allow android projects to use JDK 25",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-26T19:58:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12525",
+      "number": 12525,
+      "title": "Run public CI for all PRs",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-26T19:23:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37816",
+      "number": 37816,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-26T18:49:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37850",
+      "number": 37850,
+      "title": "Update Aspire branding and links in MAUI template",
+      "repo": "dotnet/maui",
+      "author": "IEvangelist",
+      "mergedAt": "2026-08-26T18:22:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37680",
       "number": 37680,
       "title": "[Android] Fix Screenshot.CaptureAsync deadlock for synchronous UI-thread callers",
@@ -90981,7 +91121,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-26T16:44:47.386Z",
+  "lastUpdated": "2026-08-27T06:58:24.888Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
