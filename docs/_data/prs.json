@@ -1,6 +1,266 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12500",
+      "number": 12500,
+      "title": "[build] Recommend latest supported JDK in workload metadata",
+      "repo": "dotnet/android",
+      "author": "Redth",
+      "mergedAt": "2026-08-27T18:43:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37908",
+      "number": 37908,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-27T18:10:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37879",
+      "number": 37879,
+      "title": "[iOS] Fix MediaPicker throwing UIKitThreadAccessException when picking 2+ items",
+      "repo": "dotnet/maui",
+      "author": "pierre-galaup",
+      "mergedAt": "2026-08-27T17:46:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12531",
+      "number": 12531,
+      "title": "[release/11.0.1xx-rc1] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-27T17:12:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12527",
+      "number": 12527,
+      "title": "[android-tools] Fix ZIP extraction containment",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-27T17:10:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12529",
+      "number": 12529,
+      "title": "Bump to dotnet/lz4/net11.0@69f1e9a4",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-27T17:10:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37898",
+      "number": 37898,
+      "title": "[net11.0] Fix literal-to-DynamicResource hot reload",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-08-27T16:59:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37902",
+      "number": 37902,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-27T16:35:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37900",
+      "number": 37900,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-27T16:33:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37859",
+      "number": 37859,
+      "title": "[Resizetizer] Stop deleting generated images behind symlinked paths",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-08-27T16:27:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37857",
+      "number": 37857,
+      "title": "[Essentials] Make Locale constructible by external TextToSpeech backends",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-08-27T16:26:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37854",
+      "number": 37854,
+      "title": "Add ViewHandler.SetContainerView so external platform backends can manage ContainerView",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-08-27T16:24:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12532",
+      "number": 12532,
+      "title": "[fix-finder] Remove redundant widget ID null suppressions",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-08-27T14:42:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37111",
+      "number": 37111,
+      "title": "[Testing] Refactoring Feature Matrix UITest Cases for Entry Control",
+      "repo": "dotnet/maui",
+      "author": "LogishaSelvarajSF4525",
+      "mergedAt": "2026-08-27T14:41:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26461",
+      "number": 26461,
+      "title": "[devops] Vendor Maestro changelog tool",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-27T14:30:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37428",
+      "number": 37428,
+      "title": "[Windows] ScrollView: Prevent automatic Entry focus",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-27T14:25:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12513",
+      "number": 12513,
+      "title": "Remove local strings from timing",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-27T14:25:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37772",
+      "number": 37772,
+      "title": "[Android] Fix incorrect top padding when translating views offscreen",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-27T14:20:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37805",
+      "number": 37805,
+      "title": "[Flaky] Fixed the Issue34975 flaky issue",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-08-27T14:17:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37807",
+      "number": 37807,
+      "title": "[iOS] Fix custom cluster icons never being applied on Map",
+      "repo": "dotnet/maui",
+      "author": "kevin68",
+      "mergedAt": "2026-08-27T14:17:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37873",
+      "number": 37873,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-27T14:02:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37860",
+      "number": 37860,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-27T13:51:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12496",
+      "number": 12496,
+      "title": "[Mono] Fix JLO lookup for packaged MAUI satellite assemblies",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-27T13:47:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12538",
+      "number": 12538,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260827103419634 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-08-27T13:47:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26356",
+      "number": 26356,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-27T09:25:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26454",
+      "number": 26454,
+      "title": "[release/11.0.1xx-rc.1] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-27T07:42:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-libzipsharp/pull/164",
       "number": 164,
       "title": "[ci] Update .NET SDK channel to 10.0",
@@ -91121,7 +91381,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-27T06:58:24.888Z",
+  "lastUpdated": "2026-08-27T18:46:46.525Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
