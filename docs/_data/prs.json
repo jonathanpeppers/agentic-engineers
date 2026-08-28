@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37885",
+      "number": 37885,
+      "title": "[10.0.101] Fix the SR10 test failures",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-08-28T07:12:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37921",
+      "number": 37921,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-27T22:57:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37861",
+      "number": 37861,
+      "title": "[net11.0] Make LongPressGestureRecognizer dispatch API public for platform backends",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-08-27T22:53:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37862",
+      "number": 37862,
+      "title": "[net11.0] Add public Shell flyout item template contract for external backends",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-08-27T22:49:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37864",
+      "number": 37864,
+      "title": "[net11.0] Add public IImageSourcePaint contract for external platform backends",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-08-27T22:43:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37920",
+      "number": 37920,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-27T22:37:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37769",
+      "number": 37769,
+      "title": "[Android] Map: Keep the custom pin icon when a pin leaves a cluster",
+      "repo": "dotnet/maui",
+      "author": "kevin68",
+      "mergedAt": "2026-08-27T22:08:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37880",
+      "number": 37880,
+      "title": "[Android] Prevent vertical scroll in horizontal ScrollView",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-08-27T22:02:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37904",
+      "number": 37904,
+      "title": "[Windows] Enable external file drops in BlazorWebView",
+      "repo": "dotnet/maui",
+      "author": "danroth27",
+      "mergedAt": "2026-08-27T21:57:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37919",
+      "number": 37919,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-27T21:55:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37916",
+      "number": 37916,
+      "title": "[Resizetizer] Never place a path through an unstatable directory",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-08-27T21:53:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37918",
+      "number": 37918,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-27T21:52:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37917",
+      "number": 37917,
+      "title": "[net11.0] Temporarily disable Helix Job Monitor",
+      "repo": "dotnet/maui",
+      "author": "garath",
+      "mergedAt": "2026-08-27T21:49:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37907",
+      "number": 37907,
+      "title": "Update Vally to 0.14.0",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-08-27T21:46:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12539",
+      "number": 12539,
+      "title": "[build] Deduplicate Android tooling defaults",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-27T21:22:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1537",
+      "number": 1537,
+      "title": "Pin Protobuf JavaLite to 3.25.8",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-27T18:51:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12500",
       "number": 12500,
       "title": "[build] Recommend latest supported JDK in workload metadata",
@@ -91381,7 +91541,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-27T18:46:46.525Z",
+  "lastUpdated": "2026-08-28T08:46:30.449Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
