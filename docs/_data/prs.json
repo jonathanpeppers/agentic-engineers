@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37973",
+      "number": 37973,
+      "title": "[Resizetizer] Reenable integration tests",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-29T16:27:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37941",
+      "number": 37941,
+      "title": "[Android] Remove obsolete XA4218 workaround",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-29T16:20:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37939",
+      "number": 37939,
+      "title": "[iOS] Remove obsolete environment variable workaround",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-29T16:18:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37926",
+      "number": 37926,
+      "title": "[Resizetizer] Make stale-output cleanup identity-bound",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-08-29T16:17:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37747",
+      "number": 37747,
+      "title": "Fix OneLocBuild authentication and duplicate handoff",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-08-29T16:12:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37979",
+      "number": 37979,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-29T14:28:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12549",
       "number": 12549,
       "title": "[NativeAOT] Forward JCW Java annotations",
@@ -92041,7 +92101,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-29T13:34:13.948Z",
+  "lastUpdated": "2026-08-29T19:07:20.150Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
