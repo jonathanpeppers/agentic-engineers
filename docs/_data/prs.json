@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12549",
+      "number": 12549,
+      "title": "[NativeAOT] Forward JCW Java annotations",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-29T10:05:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4893",
+      "number": 4893,
+      "title": "[4.150.3] Merge release/4.150.x Arcade infrastructure",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-29T01:33:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4894",
+      "number": 4894,
+      "title": "Restore release/4.151.x ancestry for 4.151.2",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-29T01:32:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4892",
+      "number": 4892,
+      "title": "[4.151.2] Merge Arcade release infrastructure",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-29T01:24:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37978",
       "number": 37978,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -92001,7 +92041,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-29T00:21:49.802Z",
+  "lastUpdated": "2026-08-29T13:34:13.948Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
