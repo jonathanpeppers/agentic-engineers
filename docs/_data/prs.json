@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37955",
+      "number": 37955,
+      "title": "Use SkiaSharp arc drawing API",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-30T12:47:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37942",
+      "number": 37942,
+      "title": "[iOS/MacCatalyst] Map bicycling navigation to cycling directions",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-30T12:46:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37999",
+      "number": 37999,
+      "title": "[ci-fix] De-flake ShellContentShouldRespectSafeAreaEdges_After_Navigation: wait before tap (refs #37653)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-30T12:41:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38002",
+      "number": 38002,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-30T12:40:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37991",
       "number": 37991,
       "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
@@ -92161,7 +92201,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-30T03:18:40.776Z",
+  "lastUpdated": "2026-08-30T13:29:25.661Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
