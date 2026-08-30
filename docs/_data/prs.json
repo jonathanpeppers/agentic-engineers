@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37991",
+      "number": 37991,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-29T22:38:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37855",
+      "number": 37855,
+      "title": "[net11.0] Add platform-neutral handler contracts for external platform backends",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-08-29T21:59:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37954",
+      "number": 37954,
+      "title": "[Android] CollectionView: Fix grouped EmptyView updates",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-29T21:50:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37946",
+      "number": 37946,
+      "title": "[.NET 11] Make overdue handler mapper APIs public",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-29T21:36:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37976",
+      "number": 37976,
+      "title": "[Android] Geolocation: Select providers explicitly on API 34",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-29T21:33:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37987",
+      "number": 37987,
+      "title": "[ci-fix-net11] Needs review: wait for portrait TitleView layout after rotation (refs #37825)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-29T21:29:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37973",
       "number": 37973,
       "title": "[Resizetizer] Reenable integration tests",
@@ -92101,7 +92161,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-29T19:07:20.150Z",
+  "lastUpdated": "2026-08-30T03:18:40.776Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
