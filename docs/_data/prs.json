@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12605",
+      "number": 12605,
+      "title": "[Mono.Android] Bind API-37.2 Beta 4",
+      "repo": "dotnet/android",
+      "author": "jonpryor",
+      "mergedAt": "2026-08-31T20:29:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26494",
+      "number": 26494,
+      "title": "[msbuild] Fix transient issue with the System.Security.Cryptography.Xml package by manually including it.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-31T18:39:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/660",
+      "number": 660,
+      "title": "Import exact Java documentation for Java.Interop",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-31T17:51:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1539",
+      "number": 1539,
+      "title": "Bump current XBD packages for fixed AAR packaging",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-31T17:05:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12598",
       "number": 12598,
       "title": "Optimize trimmable typemap generation",
@@ -92531,7 +92571,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-31T15:47:23.399Z",
+  "lastUpdated": "2026-08-31T21:16:53.684Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
