@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38009",
+      "number": 38009,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-30T21:59:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37950",
+      "number": 37950,
+      "title": "[Android] Remove ImageButton shapeable image shim",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-30T20:43:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37974",
+      "number": 37974,
+      "title": "[BlazorWebView] Fix dispatcher exception propagation",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-08-30T20:38:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38008",
       "number": 38008,
       "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
@@ -92221,7 +92251,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-30T19:00:39.860Z",
+  "lastUpdated": "2026-08-31T03:14:03.313Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
