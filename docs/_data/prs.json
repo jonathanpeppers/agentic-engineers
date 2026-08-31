@@ -1,6 +1,286 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12598",
+      "number": 12598,
+      "title": "Optimize trimmable typemap generation",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-31T15:40:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12554",
+      "number": 12554,
+      "title": "Bump the manifestmerger-dependencies group in /src/manifestmerger with 2 updates",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-31T14:02:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26480",
+      "number": 26480,
+      "title": "[xharness] Cap test output into the html report.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-31T14:00:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26462",
+      "number": 26462,
+      "title": "[devops] Run macOS tests for Mac Catalyst-only builds",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-31T13:56:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26469",
+      "number": 26469,
+      "title": "[release/10.0.1xx] Bump to the latest v8 version of System.Security.Cryptography.Xml.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-31T13:55:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26460",
+      "number": 26460,
+      "title": "Use the same Mono.Cecil version everywhere (0.11.6).",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-08-31T13:55:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12564",
+      "number": 12564,
+      "title": "[typemap] Preserve exported constructor throws metadata",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-31T13:47:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12517",
+      "number": 12517,
+      "title": "Replace simple CLR local strings",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-08-31T13:39:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34926",
+      "number": 34926,
+      "title": "[Xaml] Fix static C# expressions using global usings",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-08-31T13:39:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38038",
+      "number": 38038,
+      "title": "[release/11.0.1xx-rc1] Update Android MIBC profiles",
+      "repo": "dotnet/maui",
+      "author": "davidnguyen-tech",
+      "mergedAt": "2026-08-31T13:35:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37307",
+      "number": 37307,
+      "title": "[iOS] Horizontal CollectionView jumps to beginning",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-08-31T13:33:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37813",
+      "number": 37813,
+      "title": "Fix Picker memory leak caused by ItemsSource collection subscription",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-31T13:29:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37949",
+      "number": 37949,
+      "title": "[10.0.101] Fix the SR10 test failures",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-08-31T13:25:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37960",
+      "number": 37960,
+      "title": "[Windows-inflight/10.0.101] Fix Device test failing in the PR 37746",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-31T13:24:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38019",
+      "number": 38019,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-31T13:22:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38021",
+      "number": 38021,
+      "title": "[inflight/candidate] [Windows] Fix Device test failing in the PR 37746",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-08-31T13:20:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12591",
+      "number": 12591,
+      "title": "Bump external/android-api-docs from `0048e1b` to `46b2aab`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-08-31T13:17:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12590",
+      "number": 12590,
+      "title": "[fix-finder] Remove region directives from Mono.Options",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-08-31T13:16:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38037",
+      "number": 38037,
+      "title": "[release/11.0.1xx-rc1] Update MAUI branding to RC1",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-31T13:13:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12584",
+      "number": 12584,
+      "title": "[release/11.0.1xx-rc1] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-31T12:53:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12586",
+      "number": 12586,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15146666",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-08-31T12:52:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12588",
+      "number": 12588,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260829103236175 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-08-31T12:52:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12582",
+      "number": 12582,
+      "title": "[build] Replace Android tools GitInfo versioning",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-31T09:35:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12583",
+      "number": 12583,
+      "title": "[fix-finder] Enable nullable annotations in resource suppressor",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-08-31T08:35:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12594",
+      "number": 12594,
+      "title": "[main] Update dependencies from dotnet/dotnet, microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-08-31T07:45:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12580",
+      "number": 12580,
+      "title": "Make GoogleV2 dependency test deterministic and offline",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-31T07:42:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12578",
+      "number": 12578,
+      "title": "Forward debugger ports for dotnet run",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-31T07:40:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12579",
+      "number": 12579,
+      "title": "Remove legacy installer packaging",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-08-31T06:03:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38009",
       "number": 38009,
       "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
@@ -92251,7 +92531,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-31T03:14:03.313Z",
+  "lastUpdated": "2026-08-31T15:47:23.399Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
