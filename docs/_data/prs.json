@@ -1,6 +1,276 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26518",
+      "number": 26518,
+      "title": "Change the prerelease branch to be 'main'.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-01T18:27:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38075",
+      "number": 38075,
+      "title": "Update PatchVersion from 100 to 101",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-01T18:17:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37746",
+      "number": 37746,
+      "title": "[release/10.0.1xx-sr10] Integrate .NET MAUI 10.0.101 VS insertion payload",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-01T18:06:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37995",
+      "number": 37995,
+      "title": "Tests: remove dedicated ListView coverage",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-01T18:05:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26514",
+      "number": 26514,
+      "title": "[xcode27.0] main into xcode27.0",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-01T17:56:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38074",
+      "number": 38074,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-01T17:13:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37689",
+      "number": 37689,
+      "title": "[Net12] Shell: Add static query parameters to ShellContent",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-01T17:04:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26497",
+      "number": 26497,
+      "title": "[devops] Add a timeout to the 'Show Bot Info' step.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-01T17:04:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38072",
+      "number": 38072,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-01T16:53:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37771",
+      "number": 37771,
+      "title": "Fix BackButtonBehavior.Command CanExecuteChanged memory leak",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-09-01T16:40:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37802",
+      "number": 37802,
+      "title": "[net11] [iOS][Testing] Extend NavigationPage device tests to run against both NavigationRenderer and NavigationViewHandler",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-09-01T16:34:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37853",
+      "number": 37853,
+      "title": "Add public modal navigation extensibility seam for external platform backends",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-09-01T16:25:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37858",
+      "number": 37858,
+      "title": "[BlazorWebView] Public API for external BlazorWebView backends",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-09-01T16:24:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38027",
+      "number": 38027,
+      "title": "[Windows] TextBox: Cache template ScrollViewer",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-01T16:21:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12624",
+      "number": 12624,
+      "title": "[build] Fix assembly architecture mismatch message",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-01T16:18:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12625",
+      "number": 12625,
+      "title": "[xabt] Default Java (JDWP) debugging to disabled",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-01T16:15:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26511",
+      "number": 26511,
+      "title": "Merge 'net11.0' into 'main'.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-01T15:40:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26508",
+      "number": 26508,
+      "title": "[release/10.0.1xx] [dotnet] Update Xcode 27.0 packages for .NET 10",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-01T15:22:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26507",
+      "number": 26507,
+      "title": "[release/11.0.1xx-rc.1] Merge net11.0 into release/11.0.1xx-rc.1",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-01T14:54:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1534",
+      "number": 1534,
+      "title": "Update stable dependencies for 20260824",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-01T14:53:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38041",
+      "number": 38041,
+      "title": "[release/11.0.1xx-rc1] Update Android dependency and fix manifest resolution",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-01T14:33:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12612",
+      "number": 12612,
+      "title": "[Tests] Define managed object proxy contract",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-01T14:22:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/464",
+      "number": 464,
+      "title": "Align Android driver with Xamarin.Android.Tools.AndroidSdk",
+      "repo": "dotnet/maui-labs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-01T14:21:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36835",
+      "number": 36835,
+      "title": "[Android] Add native element registrations for DevFlow",
+      "repo": "dotnet/maui",
+      "author": "morning4coffe-dev",
+      "mergedAt": "2026-09-01T14:05:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12603",
+      "number": 12603,
+      "title": "Fix debugging task test SDK state leak",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-01T13:54:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12606",
+      "number": 12606,
+      "title": "[AndroidSdk] Avoid warnings for emulator diagnostics",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-01T13:53:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12613",
+      "number": 12613,
+      "title": "[build] Error on marshal methods with ReadyToRun",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-01T13:48:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12592",
       "number": 12592,
       "title": "[skill-runner] update-androidsdk-packages: update platform 37.2 to stable",
@@ -92781,7 +93051,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-01T13:01:01.593Z",
+  "lastUpdated": "2026-09-01T19:10:36.161Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
