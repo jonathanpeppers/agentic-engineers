@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12604",
+      "number": 12604,
+      "title": "[build] Mark AndroidSdk package as prerelease",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-01T00:33:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26502",
+      "number": 26502,
+      "title": "[xcode27.0] Merge main into xcode27.0",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-01T00:05:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38045",
+      "number": 38045,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-31T22:28:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37182",
+      "number": 37182,
+      "title": "[Android/iOS] Fix Label background not clearing when set to null",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-08-31T22:17:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37899",
+      "number": 37899,
+      "title": "[XAML] CollectionView: Update realized cells on first hot reload",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-08-31T22:06:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38044",
+      "number": 38044,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc1'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-08-31T22:01:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38029",
+      "number": 38029,
+      "title": "[Android] MediaPicker: Stop overwriting picked source files",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-08-31T21:36:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38039",
+      "number": 38039,
+      "title": "[net11.0] Expose safe area contract for custom views",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-08-31T21:32:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12605",
       "number": 12605,
       "title": "[Mono.Android] Bind API-37.2 Beta 4",
@@ -92571,7 +92651,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-08-31T21:16:53.684Z",
+  "lastUpdated": "2026-09-01T03:17:37.521Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
