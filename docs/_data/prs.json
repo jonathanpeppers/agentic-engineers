@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26476",
+      "number": 26476,
+      "title": "[msbuild] Embed app extensions even when ReferenceOutputAssembly is false. Fixes #26453",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T11:45:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26260",
+      "number": 26260,
+      "title": "[msbuild] Optimize PNG, property list and localization bundle resources for all platforms. Fixes #20129",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T11:44:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26495",
+      "number": 26495,
+      "title": "[bgen] Fix invalid code generation for delegate parameters without [BlockCallback]/[CCallback]. Fixes #10015.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T11:44:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26466",
+      "number": 26466,
+      "title": "[AppKit] Improve XML documentation for application and animation enums",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T11:25:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26464",
+      "number": 26464,
+      "title": "[src] Correct NSApplication nullability Fixes #26449",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T11:24:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26477",
+      "number": 26477,
+      "title": "[dotnet] Detect when the RuntimeIdentifier is changed too late in the build",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T11:24:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12628",
+      "number": 12628,
+      "title": "[r8-obfuscation] Add R8 JNI mapping primitives",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-02T11:23:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26526",
+      "number": 26526,
+      "title": "[xcode27.0] [tests] Misc CodeQL fixes/ignores.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T11:18:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26021",
+      "number": 26021,
+      "title": "[Foundation] Implement NSUrlSessionHandler proxy support. Fixes #14632",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T11:11:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/426",
+      "number": 426,
+      "title": "Document the DevFlow Agent API",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-02T10:14:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/375",
+      "number": 375,
+      "title": "Split MAUI skills into app and tooling plugins",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-02T10:09:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/461",
+      "number": 461,
+      "title": "feat: Add Xcode compatibility check with auto-fix to maui doctor",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-02T10:06:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/466",
+      "number": 466,
+      "title": "Publish the macOS AppKit project template",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-02T10:06:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12596",
+      "number": 12596,
+      "title": "[typemap] Validate exported Java fields",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-02T09:52:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26522",
+      "number": 26522,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-02T08:53:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26506",
+      "number": 26506,
+      "title": "[tests] Misc CodeQL fixes/ignores.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T06:53:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26459",
+      "number": 26459,
+      "title": "[github] Rename macios-reviewer skill to code-review",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T06:41:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4912",
       "number": 4912,
       "title": "[skills] Close pr-commit-message gaps found in release message reviews",
@@ -93171,7 +93341,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-02T02:36:00.714Z",
+  "lastUpdated": "2026-09-02T12:29:19.954Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
