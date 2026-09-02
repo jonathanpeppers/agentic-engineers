@@ -1,6 +1,286 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/37882",
+      "number": 37882,
+      "title": "[net 11] [Windows] Fix failing Windows geocoding concurrency test",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-09-02T17:30:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37894",
+      "number": 37894,
+      "title": "[net11] [iOS] [Testing] Extend FlyoutPage device tests to run against both PhoneFlyoutPageRenderer and FlyoutViewHandler",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-09-02T17:11:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37797",
+      "number": 37797,
+      "title": "[iOS] Fix TimePicker forcing en-US culture on iOS instead of device culture",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-09-02T16:48:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38078",
+      "number": 38078,
+      "title": "Fix HybridWebView message handling across platforms",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-02T16:33:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38079",
+      "number": 38079,
+      "title": "[Android] BlazorWebView: Resolve intent links through browsable activities",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-02T16:33:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38095",
+      "number": 38095,
+      "title": "[ci-scan-net11] Fix for Windows DragEvents UI test times out waiting for DragOver",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-09-02T16:30:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38096",
+      "number": 38096,
+      "title": "Revert #36503: Weak event handling for Accelerometer events",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-09-02T16:30:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38097",
+      "number": 38097,
+      "title": "[Android] Route Issue36543 to SafeAreaEdges UI tests",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-02T16:29:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26535",
+      "number": 26535,
+      "title": "Document ten AppKit enum types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T16:25:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38110",
+      "number": 38110,
+      "title": "[iOS] Obsolete NavigationRenderer DidRotate override",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-02T16:24:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38120",
+      "number": 38120,
+      "title": "Bump Magick.NET-Q8-AnyCPU from 14.14.0 to 14.15.0",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-09-02T16:20:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26020",
+      "number": 26020,
+      "title": "[msbuild] Fix multiple resource prefixes support. Fixes #20968",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T15:28:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/xcsync/pull/254",
+      "number": 254,
+      "title": "Use supported Windows pipeline image",
+      "repo": "dotnet/xcsync",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T15:12:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26529",
+      "number": 26529,
+      "title": "[dotnet-linker] Escape explicit interface member names",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T14:58:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26538",
+      "number": 26538,
+      "title": "[xcode27.0][Signing] Sign new Xamarin.Messaging dependencies",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-02T14:57:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38102",
+      "number": 38102,
+      "title": "Document UIWindow GetWindow extensions",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-02T14:11:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38104",
+      "number": 38104,
+      "title": "[iOS] Fix modal presentation style availability check",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-02T14:09:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38105",
+      "number": 38105,
+      "title": "Remove stale input transparency test TODO",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-02T14:07:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38107",
+      "number": 38107,
+      "title": "[net11.0] Obsolete unused iOS image source extensions",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-02T14:00:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38108",
+      "number": 38108,
+      "title": "Clarify legacy Shell renderer arrange no-ops",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-02T14:00:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38109",
+      "number": 38109,
+      "title": "[ci-scan] Fix for Issue24996 ChangingTranslationShouldNotCauseLayoutPassOnAncestors failure on Mac",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-09-02T13:59:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12637",
+      "number": 12637,
+      "title": "[fix-finder] Remove null-forgiving operator from JDK discovery",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-02T13:40:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26532",
+      "number": 26532,
+      "title": "[xharness] Bump assembly-preparer test timeout to 30 minutes.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T13:37:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12523",
+      "number": 12523,
+      "title": "[NativeAOT] Stop linking and shipping libc++ and libunwind",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-02T13:20:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26527",
+      "number": 26527,
+      "title": "[xcode27.0] [msbuild] Bump Messaging to get updated dependencies.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T13:17:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12626",
+      "number": 12626,
+      "title": "Use debug.dotnet properties for CoreCLR and NativeAOT",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-02T13:12:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12638",
+      "number": 12638,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15180440",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-02T13:11:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26523",
+      "number": 26523,
+      "title": "[release/10.0.1xx] [dotnet] Update Xcode 27.0 packages for .NET 10.",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-02T13:08:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26476",
       "number": 26476,
       "title": "[msbuild] Embed app extensions even when ReferenceOutputAssembly is false. Fixes #26453",
@@ -93341,7 +93621,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-02T12:29:19.954Z",
+  "lastUpdated": "2026-09-02T19:11:08.405Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
