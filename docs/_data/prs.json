@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4912",
+      "number": 4912,
+      "title": "[skills] Close pr-commit-message gaps found in release message reviews",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-01T23:40:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4910",
+      "number": 4910,
+      "title": "[infra] Align release ecosystem references with dnceng",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-01T23:13:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/404",
+      "number": 404,
+      "title": "Add InventoryAsCode metadata",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-01T22:56:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38025",
+      "number": 38025,
+      "title": "[iOS] Migrate deprecated Browser, FilePicker, and font APIs",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-01T22:42:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38063",
+      "number": 38063,
+      "title": "Fix SetDynamicResource does not update the Background property of the Label",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-09-01T22:38:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38081",
+      "number": 38081,
+      "title": "Fix SR10 official pipeline YAML",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-01T22:12:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4907",
+      "number": 4907,
+      "title": "[release] Resolve BAR packages for release approval",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-01T21:47:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12498",
+      "number": 12498,
+      "title": "[typemap] Make trimmable typemap ACWs conditional",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-01T21:35:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26520",
+      "number": 26520,
+      "title": "[release/11.0.1xx-rc.1] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-01T21:15:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26489",
+      "number": 26489,
+      "title": "[dotnet] Remove obsolete R2R output path workaround. Fixes #25721.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-01T20:17:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26515",
+      "number": 26515,
+      "title": "Bump mlaunch to get 'dotnet test' fix.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-01T19:36:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26517",
+      "number": 26517,
+      "title": "[release/11.0.1xx-rc.1] Bump mlaunch to get 'dotnet test' fix.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-01T19:33:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26518",
       "number": 26518,
       "title": "Change the prerelease branch to be 'main'.",
@@ -93051,7 +93171,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-01T19:10:36.161Z",
+  "lastUpdated": "2026-09-02T02:36:00.714Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
