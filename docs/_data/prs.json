@@ -1,6 +1,266 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/xcsync/pull/255",
+      "number": 255,
+      "title": "Update dependencies from dotnet/arcade.",
+      "repo": "dotnet/xcsync",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-03T11:37:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38155",
+      "number": 38155,
+      "title": "[main] Remove accidental net11 changes from #37995",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-03T11:37:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4949",
+      "number": 4949,
+      "title": "[release] Align releases with Chromium cadence markers",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T09:49:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4951",
+      "number": 4951,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-03T09:49:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/467",
+      "number": 467,
+      "title": "build(deps-dev): Bump fast-uri from 3.1.5 to 3.1.7 in /src/DevFlow/js",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-09-03T07:17:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12569",
+      "number": 12569,
+      "title": "[typemap] Reject duplicate generated JCW names",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T06:00:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12534",
+      "number": 12534,
+      "title": "[native] Remove std::format from the CoreCLR host",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T05:58:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26519",
+      "number": 26519,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-03T05:29:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26542",
+      "number": 26542,
+      "title": "[release/10.0.1xx] [dotnet] Update Xcode 27.0 packages for .NET 10.",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-03T05:29:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4927",
+      "number": 4927,
+      "title": "[skia-sync] Merge upstream chrome/m153 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T05:11:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4950",
+      "number": 4950,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/m153",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-03T05:06:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/350",
+      "number": 350,
+      "title": "[skia-sync] Merge upstream chrome/m153",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T05:02:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12629",
+      "number": 12629,
+      "title": "[r8-obfuscation] Add PE metadata rebuild substrate",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T05:00:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12649",
+      "number": 12649,
+      "title": "[tests] Copy installer runtime dependencies",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-03T04:59:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4948",
+      "number": 4948,
+      "title": "Skip release branches for same-milestone Skia updates",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T04:58:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4925",
+      "number": 4925,
+      "title": "[skia-sync] Merge upstream chrome/m152 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T04:47:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4947",
+      "number": 4947,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.152.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-03T04:45:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/349",
+      "number": 349,
+      "title": "[skia-sync] Merge upstream chrome/m152",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T04:39:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26547",
+      "number": 26547,
+      "title": "[AppKit] Document ten more AppKit enum types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-03T04:23:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4944",
+      "number": 4944,
+      "title": "[release] Fix milestone due-date normalization",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T04:17:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4942",
+      "number": 4942,
+      "title": "Simplify release workflows and split release documentation",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T04:11:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4941",
+      "number": 4941,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-03T04:06:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4933",
+      "number": 4933,
+      "title": "Cover Push-ReleaseTag and run the release-notes tests in CI",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T03:00:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4930",
+      "number": 4930,
+      "title": "Guard the docs-sync force push with an explicit lease",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T02:59:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4939",
+      "number": 4939,
+      "title": "Run the automation tooling tests in CI",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T02:58:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4938",
+      "number": 4938,
+      "title": "Fix release notes versions JSON",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T02:49:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4937",
       "number": 4937,
       "title": "Update issue template version dropdowns",
@@ -93861,7 +94121,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-03T02:42:40.038Z",
+  "lastUpdated": "2026-09-03T12:32:08.671Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
