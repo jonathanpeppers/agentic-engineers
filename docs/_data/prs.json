@@ -1,6 +1,376 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12633",
+      "number": 12633,
+      "title": "[Mono.Android] Enumify, stabilize API-37.2",
+      "repo": "dotnet/android",
+      "author": "jonpryor",
+      "mergedAt": "2026-09-03T18:18:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38158",
+      "number": 38158,
+      "title": " [XAML] Fix unmatched OnPlatform default handling in XamlC and SourceGen ",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-09-03T17:13:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12646",
+      "number": 12646,
+      "title": "[r8] Include build metadata in app bundles",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-03T16:48:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12541",
+      "number": 12541,
+      "title": "[native] Replace std::mutex with pthread_mutex_t in the CoreCLR host",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T16:41:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12630",
+      "number": 12630,
+      "title": "[r8-obfuscation] Rewrite managed JNI metadata from R8 mappings",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T16:37:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12560",
+      "number": 12560,
+      "title": "[native] Drop std::binary_semaphore and the last string in the DSO loader",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T16:37:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37803",
+      "number": 37803,
+      "title": "[net11] [iOS] [Testing]Extend TabbedPage device tests to run against both TabbedRenderer and TabbedViewHandler",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-09-03T16:34:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38101",
+      "number": 38101,
+      "title": "Fix SwipeView memory leak when Content is shared across instances",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-09-03T16:33:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26552",
+      "number": 26552,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-03T16:28:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38154",
+      "number": 38154,
+      "title": "[iOS] Read NavPage once in SetStatusBarStyle so the null guard is effective",
+      "repo": "dotnet/maui",
+      "author": "tomcurran",
+      "mergedAt": "2026-09-03T16:26:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26550",
+      "number": 26550,
+      "title": "[msbuild] Copy WriteLinesToFile output to Windows",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-03T16:17:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26548",
+      "number": 26548,
+      "title": "[AppKit] Document ten more AppKit enum types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-03T16:17:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26491",
+      "number": 26491,
+      "title": "[tests] Re-enable MAUI tests now that MAUI supports .NET 11.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-03T16:17:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26551",
+      "number": 26551,
+      "title": "[dotnet] Remove stale template packs when installing. Fixes #26540.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-03T16:16:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12641",
+      "number": 12641,
+      "title": "[ci] Fix MAUI R2R Helix submissions for fork PRs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T16:00:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12663",
+      "number": 12663,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-03T15:59:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12644",
+      "number": 12644,
+      "title": "[tests] Add Android interop benchmarks and reduce JNI overhead",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T15:58:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26488",
+      "number": 26488,
+      "title": "[msbuild] Show a better error for invalid SupportedOSPlatformVersion values. Fixes #23626",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-03T15:53:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26501",
+      "number": 26501,
+      "title": "[msbuild] Bump Messaging to get updated dependencies.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-03T15:49:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26481",
+      "number": 26481,
+      "title": "[msbuild] Embed on-demand resource asset packs in the app bundle for the simulator. Fixes #26218",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-03T15:48:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12650",
+      "number": 12650,
+      "title": "[typemap] Fix trimmable peer creation race",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T15:45:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12651",
+      "number": 12651,
+      "title": "[fix-finder] Enable nullable in NDK platforms helper",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-03T15:28:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4883",
+      "number": 4883,
+      "title": "[CI] Simplify artifact downloads to exact build IDs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T14:43:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12657",
+      "number": 12657,
+      "title": "[runtime] Reduce registered peer storage allocations",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T14:42:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4952",
+      "number": 4952,
+      "title": "[docs] docs: regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-03T14:42:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38141",
+      "number": 38141,
+      "title": "Fix problem with null VirtualView in BlazorWebViewHandler on iOS",
+      "repo": "dotnet/maui",
+      "author": "JimmyPun610",
+      "mergedAt": "2026-09-03T14:22:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38117",
+      "number": 38117,
+      "title": "[net11] [Windows] Fix CollectionView ScrollTo MakeVisible behavior",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-09-03T14:17:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38058",
+      "number": 38058,
+      "title": "[net11.0][Android] Fix safe-area layout after hiding Shell and NavigationPage toolbars ",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-09-03T14:11:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38028",
+      "number": 38028,
+      "title": "[Testing] Fixed Test case failure in PR 37393 - Candidate - 2  ",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-09-03T14:10:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12599",
+      "number": 12599,
+      "title": "Skip unchanged trimmable typemap assembly emission",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T13:17:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12585",
+      "number": 12585,
+      "title": "[typemap] Match legacy JCW interface declarations",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T13:16:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12608",
+      "number": 12608,
+      "title": "[tests] Cover WebView JavaScript annotations",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T13:14:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12551",
+      "number": 12551,
+      "title": "[native] Replace the bundled properties map with a linked list",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T13:11:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12568",
+      "number": 12568,
+      "title": "[native] Fix a JNI reference leak and drop new[] from jstring_array_wrapper",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T12:49:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12566",
+      "number": 12566,
+      "title": "[tests] Cover virtual callbacks during construction",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T12:46:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26521",
+      "number": 26521,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-03T12:44:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12660",
+      "number": 12660,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260903103237719 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-03T12:31:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/xcsync/pull/255",
       "number": 255,
       "title": "Update dependencies from dotnet/arcade.",
@@ -94121,7 +94491,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-03T12:32:08.671Z",
+  "lastUpdated": "2026-09-03T19:03:40.424Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
