@@ -1,6 +1,246 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4937",
+      "number": 4937,
+      "title": "Update issue template version dropdowns",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-03T02:30:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4924",
+      "number": 4924,
+      "title": "Update issue template version dropdowns",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-03T02:27:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4931",
+      "number": 4931,
+      "title": "Fix a paths-ignore typo and pin the rebase checkout",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T02:26:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4936",
+      "number": 4936,
+      "title": "Update 4.152 release support tier",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T02:25:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4934",
+      "number": 4934,
+      "title": "Update 4.151 release support tier",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T02:24:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4932",
+      "number": 4932,
+      "title": "Fix the ci-status workflow registry and guard it with a test",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T02:24:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4922",
+      "number": 4922,
+      "title": "[infra] Fix cached Copilot CLI workflow startup",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-02T23:39:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37080",
+      "number": 37080,
+      "title": "Fix irregular placement of views with margins",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-09-02T22:43:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4920",
+      "number": 4920,
+      "title": "[release] Automate support tier updates",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-02T22:14:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38049",
+      "number": 38049,
+      "title": "[net11.0] Obsolete legacy CollectionView handler APIs",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-02T22:12:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38126",
+      "number": 38126,
+      "title": "[inflight/candidate] Backport BlazorWebView and HybridWebView fixes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-02T22:11:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37975",
+      "number": 37975,
+      "title": "[Android] Configure image drag support for BlazorWebView",
+      "repo": "dotnet/maui",
+      "author": "danroth27",
+      "mergedAt": "2026-09-02T22:11:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4918",
+      "number": 4918,
+      "title": "Add guarded Skia update landing workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-02T22:03:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12544",
+      "number": 12544,
+      "title": "[tests] Route XBD Google Maven downloads through mirror",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-02T21:23:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12648",
+      "number": 12648,
+      "title": "[ci] Remove BuildSummary phase",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-02T21:21:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26539",
+      "number": 26539,
+      "title": "[AppKit] Document ten AppKit enum types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T21:11:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12643",
+      "number": 12643,
+      "title": "[ci] Enable CFSClean network isolation",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-02T21:08:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12647",
+      "number": 12647,
+      "title": "[release/10.0.1xx] Bump R8 to 9.4.17",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-02T20:54:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4826",
+      "number": 4826,
+      "title": "[skia-sync] Update skia to milestone 153",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-02T20:35:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4919",
+      "number": 4919,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/m153",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-02T20:32:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/348",
+      "number": 348,
+      "title": "[skia-sync] Merge upstream chrome/m153",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-02T20:26:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1541",
+      "number": 1541,
+      "title": "Apply CFSClean network isolation to AndroidX pipelines",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-02T20:24:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12620",
+      "number": 12620,
+      "title": "Fix reference file logging to avoid logcat output",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-02T19:38:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26541",
+      "number": 26541,
+      "title": "[devops] Don't be lenient with bash failures.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-02T19:37:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37882",
       "number": 37882,
       "title": "[net 11] [Windows] Fix failing Windows geocoding concurrency test",
@@ -93621,7 +93861,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-02T19:11:08.405Z",
+  "lastUpdated": "2026-09-03T02:42:40.038Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
