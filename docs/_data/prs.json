@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/36821",
+      "number": 36821,
+      "title": "[iOS/Mac Catalyst] Add native element registrations for DevFlow",
+      "repo": "dotnet/maui",
+      "author": "morning4coffe-dev",
+      "mergedAt": "2026-09-03T23:10:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38127",
+      "number": 38127,
+      "title": "[Android] Validate physical paths returned by pickers",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T22:13:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37658",
+      "number": 37658,
+      "title": "[ci] Enable non-workload NuGet releases",
+      "repo": "dotnet/maui",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-03T22:11:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37895",
+      "number": 37895,
+      "title": "Fix x:Reference binding updates during XAML Hot Reload",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-09-03T22:04:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38124",
+      "number": 38124,
+      "title": "[net11.0] Sync external dependency pins with RC1",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-03T22:00:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4945",
+      "number": 4945,
+      "title": "[skia-sync] Update skia to milestone 154",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T20:10:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4961",
+      "number": 4961,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/m154",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-03T19:59:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/351",
+      "number": 351,
+      "title": "[skia-sync] Merge upstream chrome/m154",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-03T19:49:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12664",
+      "number": 12664,
+      "title": "[aw] Add missing Android PR reviewer tools",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-03T19:07:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12609",
+      "number": 12609,
+      "title": "[tests] Cover AppCompat Java alias casts",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-03T19:06:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12633",
       "number": 12633,
       "title": "[Mono.Android] Enumify, stabilize API-37.2",
@@ -94491,7 +94591,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-03T19:03:40.424Z",
+  "lastUpdated": "2026-09-04T02:39:45.041Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
