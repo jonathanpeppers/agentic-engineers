@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/xcsync/pull/256",
+      "number": 256,
+      "title": "Bump .NET and NuGet dependencies",
+      "repo": "dotnet/xcsync",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-04T11:22:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26530",
+      "number": 26530,
+      "title": "[registrar] Reject model classes used as generic arguments. Fixes #21256",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-04T11:21:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26498",
+      "number": 26498,
+      "title": "[xtro-sharpie] Fix ProtocolAttribute native name lookup",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-04T11:19:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26475",
+      "number": 26475,
+      "title": "[dotnet] Report a clear error for PublishReadyToRunComposite=false. Fixes #26456.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-04T11:19:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26468",
+      "number": 26468,
+      "title": "[dotnet] Don't claim dynamic code is unsupported when using CoreCLR. Fixes #26430",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-04T11:16:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12619",
+      "number": 12619,
+      "title": "[typemap] Reduce Java-to-managed proxy lookup allocations",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-04T07:20:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12597",
+      "number": 12597,
+      "title": "[typemap] Diagnose unsupported export signatures",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-04T07:20:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/36821",
       "number": 36821,
       "title": "[iOS/Mac Catalyst] Add native element registrations for DevFlow",
@@ -94591,7 +94661,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-04T02:39:45.041Z",
+  "lastUpdated": "2026-09-04T12:27:39.567Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
