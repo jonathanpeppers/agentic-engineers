@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/4992",
+      "number": 4992,
+      "title": "[migration] Make docs submodule sync portable",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-05T01:21:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4974",
+      "number": 4974,
+      "title": "Bump playwright from 1.49.0 to 1.55.1 in the WASM smoke harnesses",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-04T23:51:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4978",
+      "number": 4978,
+      "title": "[CI] Tighten fixer workflow scan gates",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-04T23:42:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3759",
+      "number": 3759,
+      "title": "Bump playwright from 1.49.0 to 1.55.1 in /samples/Gallery/Uno/scripts",
+      "repo": "mono/SkiaSharp",
+      "author": "dependabot",
+      "mergedAt": "2026-09-04T22:38:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/3766",
+      "number": 3766,
+      "title": "Bump playwright from 1.49.0 to 1.55.1 in /samples/SkiaFiddle/scripts",
+      "repo": "mono/SkiaSharp",
+      "author": "dependabot",
+      "mergedAt": "2026-09-04T22:22:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12552",
+      "number": 12552,
+      "title": "[native] Replace the AndroidSystem path statics with a POD buffer",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-04T22:19:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38152",
+      "number": 38152,
+      "title": "Keep one DynamicResource registration per specificity",
+      "repo": "dotnet/maui",
+      "author": "otretiak",
+      "mergedAt": "2026-09-04T22:15:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4972",
+      "number": 4972,
+      "title": "[CI] Tier GPT-5.6 models and sync skill-creator",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-04T22:09:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38204",
+      "number": 38204,
+      "title": "Fix app crash when loading large URI images",
+      "repo": "dotnet/maui",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-04T21:51:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38206",
+      "number": 38206,
+      "title": "[net11.0] Polish Apple CollectionView test cleanup",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-04T21:50:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4971",
+      "number": 4971,
+      "title": "[release-notes] Carry manual notes through cumulative rollups",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-04T21:36:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4970",
+      "number": 4970,
+      "title": "[release/4.153.x] [migration] Adopt the Arcade backport workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-04T21:22:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4966",
+      "number": 4966,
+      "title": "[migration] Adopt the Arcade backport workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-04T21:20:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12669",
+      "number": 12669,
+      "title": "[release/10.0.1xx] [r8] Include build metadata in app bundles",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-04T21:11:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4962",
+      "number": 4962,
+      "title": "[CI] Correct network isolation and reduce build dependencies",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-04T20:57:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26335",
       "number": 26335,
       "title": "[msbuild] Generate C code for runtimeconfig properties (CoreCLR). Fixes #26334",
@@ -94921,7 +95071,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-04T18:47:11.388Z",
+  "lastUpdated": "2026-09-05T02:41:01.450Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
