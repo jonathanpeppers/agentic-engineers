@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26510",
+      "number": 26510,
+      "title": "[linker] Only generate NSObject factories for generic types. Fixes #25232.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-05T10:25:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4991",
+      "number": 4991,
+      "title": "[skia-sync] Use shared task for Phase 03 review",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-05T09:08:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4992",
       "number": 4992,
       "title": "[migration] Make docs submodule sync portable",
@@ -95071,7 +95091,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-05T02:41:01.450Z",
+  "lastUpdated": "2026-09-05T11:34:11.553Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
