@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5014",
+      "number": 5014,
+      "title": "[gh-aw] Recompile workflows with v0.88.2",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-05T17:18:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37843",
+      "number": 37843,
+      "title": "VisualElement: Avoid duplicate initial mappings",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-09-05T14:12:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38214",
+      "number": 38214,
+      "title": "[Android] Prevent fragment crashes during Shell and FlyoutPage root replacement",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-05T13:52:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26510",
       "number": 26510,
       "title": "[linker] Only generate NSObject factories for generic types. Fixes #25232.",
@@ -95091,7 +95121,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-05T11:34:11.553Z",
+  "lastUpdated": "2026-09-05T17:53:01.029Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
