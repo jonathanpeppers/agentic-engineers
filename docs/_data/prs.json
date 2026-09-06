@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/34833",
+      "number": 34833,
+      "title": "Add OneLocBuild via Arcade template to ci-official pipeline",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-09-05T21:55:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/33961",
+      "number": 33961,
+      "title": "[ci] Re-enable previous-framework template tests",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-09-05T21:54:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12570",
+      "number": 12570,
+      "title": "[native] Remove the libc++ dependencies from the CoreCLR host's startup path",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-05T21:31:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5020",
+      "number": 5020,
+      "title": "Bump to the next version (4.152.1) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-05T19:43:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5018",
+      "number": 5018,
+      "title": "Update 4.153 release support tier",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-05T18:40:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5014",
       "number": 5014,
       "title": "[gh-aw] Recompile workflows with v0.88.2",
@@ -95121,7 +95171,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-05T17:53:01.029Z",
+  "lastUpdated": "2026-09-06T02:38:10.781Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
