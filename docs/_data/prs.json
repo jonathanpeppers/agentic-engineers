@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/35707",
+      "number": 35707,
+      "title": "Replace androidsdk.tool with Microsoft.Maui.Cli for Android provisioning",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-09-06T13:54:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/34833",
       "number": 34833,
       "title": "Add OneLocBuild via Arcade template to ci-official pipeline",
@@ -95171,7 +95181,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-06T11:54:22.157Z",
+  "lastUpdated": "2026-09-06T17:58:23.856Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
