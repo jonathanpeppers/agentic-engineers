@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/475",
+      "number": 475,
+      "title": "Scope release feed compliance to Comet configuration",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-07T13:23:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12700",
+      "number": 12700,
+      "title": "[main] Update dependencies from dotnet/dotnet, microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-07T12:16:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26565",
+      "number": 26565,
+      "title": "[AppKit] Document ten enum types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-07T11:44:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26531",
+      "number": 26531,
+      "title": "[CoreNFC] Add missing nullability on NSError parameters in callbacks.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-07T11:42:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26478",
+      "number": 26478,
+      "title": "[runtime] Replace stale object map entries when completing deferred registration",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-07T11:37:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26568",
+      "number": 26568,
+      "title": "[xcode27.0-net11.0] Merge main into xcode27.0-net11.0",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-07T11:37:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/474",
+      "number": 474,
+      "title": "Isolate Comet NuGet package sources",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-07T11:32:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12545",
+      "number": 12545,
+      "title": "[native] Remove the libc++ dependencies from the CoreCLR host's timing",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-07T11:19:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12674",
+      "number": 12674,
+      "title": "Bump com.android.application from 9.3.2 to 9.4.0 in /src/proguard-android",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-09-07T11:17:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12694",
+      "number": 12694,
+      "title": "[fix-finder] Enable nullable analysis for RunActivity",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-07T11:16:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12567",
+      "number": 12567,
+      "title": "[typemap] Diagnose unsupported constructor shapes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-07T11:15:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/472",
+      "number": 472,
+      "title": "Stabilize DevFlow UI retry test",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-07T08:38:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12698",
+      "number": 12698,
+      "title": "[fix-finder] Remove unused imports from Adb task",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-07T07:00:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5025",
       "number": 5025,
       "title": "Update 4.154 release support tier",
@@ -95201,7 +95331,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-07T02:35:57.141Z",
+  "lastUpdated": "2026-09-07T13:54:55.172Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
