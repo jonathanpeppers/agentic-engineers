@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5025",
+      "number": 5025,
+      "title": "Update 4.154 release support tier",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-06T22:52:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5024",
+      "number": 5024,
+      "title": "[release-notes] Align rollup boundaries and prerelease links",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-06T22:48:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/35707",
       "number": 35707,
       "title": "Replace androidsdk.tool with Microsoft.Maui.Cli for Android provisioning",
@@ -95181,7 +95201,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-06T17:58:23.856Z",
+  "lastUpdated": "2026-09-07T02:35:57.141Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
