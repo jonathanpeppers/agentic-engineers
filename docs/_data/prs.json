@@ -1,6 +1,316 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/662",
+      "number": 662,
+      "title": "Add Android.Views.InputMethods XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-08T18:46:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12689",
+      "number": 12689,
+      "title": "[aw] Refresh nightly fix finder categories",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-08T18:39:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12720",
+      "number": 12720,
+      "title": "[android-tools] Move SM02729 suppression to reported line",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-08T18:38:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/483",
+      "number": 483,
+      "title": "build(deps-dev): Bump typescript from 5.9.3 to 7.0.2 in /src/DevFlow/js",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-09-08T18:24:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26572",
+      "number": 26572,
+      "title": "[tests] Render an empty string for function pointers when computing DocIds.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-08T18:18:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26578",
+      "number": 26578,
+      "title": "[.github] Misc updates .NET 9/10 -> .NET 11.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-08T18:17:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26570",
+      "number": 26570,
+      "title": "Disable .NET CLI telemetry",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-08T18:16:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26573",
+      "number": 26573,
+      "title": "[AppKit] Document ten enum types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-08T18:16:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24249",
+      "number": 24249,
+      "title": "[tools] Add a tool to launch processes disclaming responsibility.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-08T18:16:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38345",
+      "number": 38345,
+      "title": "Restore lazy trigger specificity allocation",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-08T18:07:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37437",
+      "number": 37437,
+      "title": "[iOS] CollectionView2: Fix layout for dynamically rebuilt item content",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-08T17:28:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12675",
+      "number": 12675,
+      "title": "Bump com.android.library from 9.3.2 to 9.4.0 in /tests/CodeGen-Binding/Xamarin.Android.LibraryProjectZip-LibBinding/java/JavaLib",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-09-08T16:41:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12695",
+      "number": 12695,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260906103242184 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-08T16:40:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12571",
+      "number": 12571,
+      "title": "[native] Remove libc++ dependencies from the CoreCLR assembly store",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-08T16:32:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38301",
+      "number": 38301,
+      "title": "Merge .NET MAUI 10 SR10 servicing changes into main",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-08T16:31:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37034",
+      "number": 37034,
+      "title": "[NET11] [iOS/MacCatalyst] Add an opt-in Shell handler implementation",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-09-08T16:18:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26566",
+      "number": 26566,
+      "title": "[msbuild] Renumber duplicate error",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-08T15:25:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5046",
+      "number": 5046,
+      "title": "[docs] docs: regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-08T15:10:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12631",
+      "number": 12631,
+      "title": "[r8-obfuscation] Rewrite trimmable typemap JNI metadata",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-08T14:40:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38314",
+      "number": 38314,
+      "title": "[Flaky-fix] Fix for flaky test (PickerShouldDismissWhenClickOnOutside) UI test in Maccatalyst",
+      "repo": "dotnet/maui",
+      "author": "LogishaSelvarajSF4525",
+      "mergedAt": "2026-09-08T14:28:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5044",
+      "number": 5044,
+      "title": "ci: explain Pages staging opt-in",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-08T14:24:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38299",
+      "number": 38299,
+      "title": "[Testing] SafeArea Feature Matrix Test Cases for ScrollView",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-09-08T14:18:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38318",
+      "number": 38318,
+      "title": "Update dotnet/dotnet dependency to the latest 10.0.1xx SDK.",
+      "repo": "dotnet/maui",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-08T14:11:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38191",
+      "number": 38191,
+      "title": "[Testing] Refactoring Feature Matrix UITest Cases for SearchBar Control",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-09-08T14:09:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1543",
+      "number": 1543,
+      "title": "Stable Updates 20260907",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-08T14:00:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12682",
+      "number": 12682,
+      "title": "[Java.Interop] Bump generator's minimum API level to 24 and wire it through a CLI option",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-08T13:36:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/482",
+      "number": 482,
+      "title": "build(deps-dev): Bump @types/node from 20.19.43 to 26.4.0 in /src/DevFlow/js",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-09-08T13:35:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/452",
+      "number": 452,
+      "title": "Catch npm supply-chain gaps before they merge",
+      "repo": "dotnet/maui-labs",
+      "author": "morning4coffe-dev",
+      "mergedAt": "2026-09-08T13:18:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12690",
+      "number": 12690,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15239261",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-08T13:12:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12702",
+      "number": 12702,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260907103215126 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-08T13:11:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12691",
+      "number": 12691,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260905103229221 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-08T13:09:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5038",
       "number": 5038,
       "title": "ci: make Pages staging opt-in",
@@ -95601,7 +95911,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-08T12:35:09.052Z",
+  "lastUpdated": "2026-09-08T19:13:43.928Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
