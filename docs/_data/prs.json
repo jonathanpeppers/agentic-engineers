@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5033",
+      "number": 5033,
+      "title": "[release] Fix GitHub Release summary convergence",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-07T22:57:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26240",
+      "number": 26240,
+      "title": "[msbuild] Add AppManifestEntry build items. Fixes #12788",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-07T22:12:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26567",
+      "number": 26567,
+      "title": "[tests] Add MaxSupportedOSPlatformVersion regression test project",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-07T20:23:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5010",
+      "number": 5010,
+      "title": "[CI] Fail closed fixer dry runs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-07T19:51:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/4995",
       "number": 4995,
       "title": "[performance] Promote performance fixer to GPT-5.6 Sol",
@@ -95501,7 +95541,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-07T19:33:38.898Z",
+  "lastUpdated": "2026-09-08T02:48:49.933Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
