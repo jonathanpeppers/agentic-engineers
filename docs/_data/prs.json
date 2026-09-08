@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5038",
+      "number": 5038,
+      "title": "ci: make Pages staging opt-in",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-08T10:01:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5043",
+      "number": 5043,
+      "title": "[release] Order unreleased notes before releases",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-08T10:00:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/477",
+      "number": 477,
+      "title": "[ai-docs] Add missing DevFlow.Client.Tests to testing instructions",
+      "repo": "dotnet/maui-labs",
+      "author": "github-actions",
+      "mergedAt": "2026-09-08T09:52:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/479",
+      "number": 479,
+      "title": "Fix bundled DevFlow skill resources",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-08T09:01:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12701",
+      "number": 12701,
+      "title": "[Java.Interop] Lazily allocate peer member caches",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-08T07:36:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12614",
+      "number": 12614,
+      "title": "[tests] Cover interface-valued Java collections",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-08T07:24:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5033",
       "number": 5033,
       "title": "[release] Fix GitHub Release summary convergence",
@@ -95541,7 +95601,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-08T02:48:49.933Z",
+  "lastUpdated": "2026-09-08T12:35:09.052Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
