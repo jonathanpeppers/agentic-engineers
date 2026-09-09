@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38289",
+      "number": 38289,
+      "title": "[leak-scan] Fix:  DependencyResolver.ResolveUsing — process-global resolver strongly retains its delegate target",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-09-09T17:36:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12734",
+      "number": 12734,
+      "title": "[aw] Recompile all workflows with gh-aw v0.88.7",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-09T17:33:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26556",
+      "number": 26556,
+      "title": "[dotnet] Select partial registrar for untrimmed simulators",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-09T17:08:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/668",
+      "number": 668,
+      "title": "Add XML documentation for Android.Bluetooth",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-09T17:05:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/667",
+      "number": 667,
+      "title": "Add XML documentation for Android.Views.TextClassifiers",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-09T17:05:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/666",
+      "number": 666,
+      "title": "Add Android.Telecom XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-09T17:04:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38339",
+      "number": 38339,
+      "title": "[iOS] Fix Button Content Overlap in RTL Layout",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-09-09T16:37:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26586",
+      "number": 26586,
+      "title": "Bump zizmorcore/zizmor-action from 0.6.2 to 0.6.3",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-09-09T16:13:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26583",
+      "number": 26583,
+      "title": "[release/11.0.1xx-rc.1] Downgrade to the last public version of .NET 11 RC 1 earlier than the released version.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-09T15:15:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-samples/pull/359",
+      "number": 359,
+      "title": "Add Android 37.1 HTTP request timing sample",
+      "repo": "dotnet/android-samples",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-09T14:43:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-samples/pull/360",
+      "number": 360,
+      "title": "Add Android 37.2 backdrop effects sample",
+      "repo": "dotnet/android-samples",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-09T14:43:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38348",
+      "number": 38348,
+      "title": "Avoid unnecessary closure allocations on synchronous paths",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-09T14:37:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12733",
+      "number": 12733,
+      "title": "[aw] Allow Android reviewer C++ compiler probes",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-09T14:19:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12725",
+      "number": 12725,
+      "title": "[Java.Interop] Reduce string member-cache miss overhead",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-09T14:18:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12728",
+      "number": 12728,
+      "title": "Bump Android product version to 37.2",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-09T14:17:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12741",
+      "number": 12741,
+      "title": "[tests] Fix duplicate MockBuildEngine constructor",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-09T14:16:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26443",
+      "number": 26443,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-09T14:09:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12735",
+      "number": 12735,
+      "title": "[aw] Extend Android PR Reviewer timeout",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-09T13:03:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12739",
+      "number": 12739,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260909103223669 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-09T12:59:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12738",
+      "number": 12738,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15256827",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-09T12:58:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12724",
       "number": 12724,
       "title": "[typemap] Reduce generator allocations with modern .NET APIs",
@@ -96061,7 +96261,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-09T12:40:44.393Z",
+  "lastUpdated": "2026-09-09T19:02:08.436Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
