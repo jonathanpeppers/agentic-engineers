@@ -1,6 +1,96 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5047",
+      "number": 5047,
+      "title": "[skia-sync] Merge upstream chrome/m152 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-09T01:04:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/358",
+      "number": 358,
+      "title": "[skia-sync] Merge upstream chrome/m152",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-09T00:56:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/664",
+      "number": 664,
+      "title": "Add Android.Text XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-09T00:43:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12706",
+      "number": 12706,
+      "title": "[flaky-ci] Pin test slicer to repo-local runtime",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-08T22:01:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38349",
+      "number": 38349,
+      "title": "Bump MicrosoftMauiPreviousDotNetReleasedVersion to 10.0.101",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-08T21:56:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12572",
+      "number": 12572,
+      "title": "[native] Stop linking libc++ into the CoreCLR and NativeAOT runtimes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-08T20:51:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/663",
+      "number": 663,
+      "title": "Add Android.Media.TV XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-08T19:43:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12607",
+      "number": 12607,
+      "title": "[typemap] Preserve supported Unicode JCW names",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-08T19:39:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12678",
+      "number": 12678,
+      "title": "[xabt] Move trimmable typemap tasks to net11",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-08T19:38:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/662",
       "number": 662,
       "title": "Add Android.Views.InputMethods XML documentation",
@@ -95911,7 +96001,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-08T19:13:43.928Z",
+  "lastUpdated": "2026-09-09T02:48:48.327Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
