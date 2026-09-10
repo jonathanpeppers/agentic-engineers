@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/672",
+      "number": 672,
+      "title": "Add Android.Text.Style XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-10T18:20:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38381",
+      "number": 38381,
+      "title": "[ci-fix] De-flake DisplayAlert navigation with push completion (refs #38016)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-10T17:25:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38409",
+      "number": 38409,
+      "title": "[XAML] Fix classless app resource Hot Reload",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-09-10T16:37:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38022",
+      "number": 38022,
+      "title": "Fix for handler leaks by traversing non-IView Shell nodes in DisconnectHandlers()",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-09-10T16:35:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38414",
+      "number": 38414,
+      "title": "[XAML] Add ENC1002 regression coverage",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-09-10T16:32:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12737",
+      "number": 12737,
+      "title": "[fix-finder] Localize missing Java wrapper XML error",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-10T15:13:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37935",
+      "number": 37935,
+      "title": "[Android] Fix for safe area flicker during keyboard dismissal",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-09-10T14:29:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38385",
+      "number": 38385,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-10T14:27:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38390",
+      "number": 38390,
+      "title": "Bump the skiasharp group with 1 update",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-09-10T14:22:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38393",
+      "number": 38393,
+      "title": "Bumps Syncfusion.Maui.Toolkit dependency to version 1.0.11",
+      "repo": "dotnet/maui",
+      "author": "PaulAndersonS",
+      "mergedAt": "2026-09-10T14:21:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/34864",
+      "number": 34864,
+      "title": "Add a dependency-free C# UI option to the MAUI app template",
+      "repo": "dotnet/maui",
+      "author": "davidortinau",
+      "mergedAt": "2026-09-10T14:19:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38392",
+      "number": 38392,
+      "title": "[Testing] Fixed Test case failure in PR 37393 - [08/10/2026] Candidate",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-09-10T14:17:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12730",
+      "number": 12730,
+      "title": "[native] Preserve borrowed NativeAOT JNI references",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-10T14:06:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12716",
+      "number": 12716,
+      "title": "[flaky-ci] Isolate JavaSideActivation GREF leak check",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-10T14:05:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12668",
+      "number": 12668,
+      "title": "[r8] Add configurable private-member obfuscation and optimization",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-10T13:31:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12744",
+      "number": 12744,
+      "title": "[ci] Diagnose logcat capture failures and retry the task once",
+      "repo": "dotnet/android",
+      "author": "mmitche",
+      "mergedAt": "2026-09-10T13:23:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12748",
+      "number": 12748,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260910103233100 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-10T13:22:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12747",
+      "number": 12747,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15273079",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-10T13:14:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/471",
       "number": 471,
       "title": "Clarify DevFlow Inspector setup across hosts",
@@ -96351,7 +96531,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-10T12:39:49.334Z",
+  "lastUpdated": "2026-09-10T18:54:45.349Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
