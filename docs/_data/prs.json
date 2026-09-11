@@ -1,6 +1,216 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38455",
+      "number": 38455,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-11T18:14:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38453",
+      "number": 38453,
+      "title": "Add .NET 10 SR11 to bug report versions",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-11T18:13:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26594",
+      "number": 26594,
+      "title": "[Metal] Update bindings up to Xcode 27.0 RC1",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-11T17:06:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/674",
+      "number": 674,
+      "title": "Add XML documentation for Android.Service.Autofill",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-11T17:06:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26598",
+      "number": 26598,
+      "title": "[AVFoundation] Update bindings up to Xcode 27.0 RC1",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-11T17:06:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26596",
+      "number": 26596,
+      "title": "[HealthKit] Update bindings up to Xcode 27.0 RC1",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-11T16:34:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37393",
+      "number": 37393,
+      "title": "August 10th, Candidate",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-11T16:32:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5056",
+      "number": 5056,
+      "title": "Split generated P/Invoke bindings into per-type files",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-11T16:20:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12756",
+      "number": 12756,
+      "title": "Bump jvm from 2.4.10 to 2.4.20 in /external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/kotlin-gradle",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-09-11T15:11:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38195",
+      "number": 38195,
+      "title": "[Android]Fix for Android BlazorWebView crash when opening image links in a new window",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-09-11T14:15:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1544",
+      "number": 1544,
+      "title": "[build] serialize Windows library builds",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-11T14:15:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38362",
+      "number": 38362,
+      "title": "[Android] Fix blurry Material 3 images when scaled",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-09-11T14:08:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38398",
+      "number": 38398,
+      "title": "[Mac] Fix window freeze during repeated resizing",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-09-11T14:07:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38399",
+      "number": 38399,
+      "title": " [Testing] Refactoring Feature Matrix UITest Cases for IndicatorView Control",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-09-11T14:06:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38430",
+      "number": 38430,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-11T14:05:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38416",
+      "number": 38416,
+      "title": "[Android] Fix TalkBack forward-swipe navigation in Task and Project Details",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-09-11T13:57:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5057",
+      "number": 5057,
+      "title": "Generate HarfBuzz bindings from the DEPS-pinned source",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-11T13:55:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38438",
+      "number": 38438,
+      "title": "[.Net 11] Fix obsolete ExifInterface.TagIso usage",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-09-11T13:54:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38423",
+      "number": 38423,
+      "title": "[release/11.0.1xx-rc2] Update MAUI prerelease version to RC2",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-11T13:52:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12759",
+      "number": 12759,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15289853",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-11T13:31:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12763",
+      "number": 12763,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260911093129150 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-11T13:20:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12731",
       "number": 12731,
       "title": "[native] Harden CoreCLR environment override parsing",
@@ -96731,7 +96941,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-11T12:32:19.831Z",
+  "lastUpdated": "2026-09-11T18:56:45.344Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
