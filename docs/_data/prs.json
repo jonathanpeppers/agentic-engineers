@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/673",
+      "number": 673,
+      "title": "Add Android.Icu.Util XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-11T00:34:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12749",
+      "number": 12749,
+      "title": "[Java.Interop] Use .NET 11 assembly version",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-10T23:34:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12755",
+      "number": 12755,
+      "title": "[tests] Restore MockBuildEngine warning constructor",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-10T23:32:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26591",
+      "number": 26591,
+      "title": "[xcode27.0] Update baseline to Xcode 27.0 RC 1",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-10T23:30:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/24710",
+      "number": 24710,
+      "title": "[tools/msbuild] Add support for mergeable libraries. Fixes #20262.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-10T21:38:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26563",
+      "number": 26563,
+      "title": "[msbuild] Add diagnostic logging for native reference resource resolution (#24564)",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-10T21:37:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12729",
+      "number": 12729,
+      "title": "[native] Keep DSO callback state alive after timeout",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-10T21:00:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12752",
+      "number": 12752,
+      "title": "[release/10.0.1xx] Backport selective R8 obfuscation and optimization",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-10T20:53:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12714",
+      "number": 12714,
+      "title": "[flaky-ci] Classify pre-TLS failures in trusted certificate test",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-10T20:37:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12718",
+      "number": 12718,
+      "title": "[flaky-ci] Stabilize BenchmarkDotNet device test results",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-10T20:10:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12711",
+      "number": 12711,
+      "title": "[flaky-ci] Retry transient ADB install failures",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-10T20:10:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/676",
+      "number": 676,
+      "title": "Import XML documentation for smaller namespaces",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-10T19:46:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/675",
+      "number": 675,
+      "title": "Add Android.AdServices.OnDevicePersonalization XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-10T19:36:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12751",
+      "number": 12751,
+      "title": "[aw] Scope Nightly Fix Finder validation",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-10T18:55:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/672",
       "number": 672,
       "title": "Add Android.Text.Style XML documentation",
@@ -96531,7 +96671,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-10T18:54:45.349Z",
+  "lastUpdated": "2026-09-11T02:43:36.148Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
