@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38484",
+      "number": 38484,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-12T17:34:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38480",
+      "number": 38480,
+      "title": "[release/10.0.1xx-sr11] [iOS/MacCatalyst] Fix Editor and CarouselView remaining non-interactive after IsEnabled toggle",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-12T17:05:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38481",
+      "number": 38481,
+      "title": "[release/10.0.1xx-sr11] [iOS] Fix MediaPicker throwing UIKitThreadAccessException when picking 2+ items",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-12T17:05:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38482",
+      "number": 38482,
+      "title": "[release/10.0.1xx-sr11] [Android] Fix ArgumentOutOfRangeException when removing items from grouped CollectionView",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-12T17:03:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38483",
+      "number": 38483,
+      "title": "[release/10.0.1xx-sr11] [Android] Fix Keyboard=\"Numeric\" Entry no longer accepts OS-locale decimal separator",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-12T17:03:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38485",
+      "number": 38485,
+      "title": "[main] [Android] Fix Keyboard=\"Numeric\" Entry no longer accepts OS-locale decimal separator",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-12T17:02:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38486",
+      "number": 38486,
+      "title": "[main] [Android] Fix ArgumentOutOfRangeException when removing items from grouped CollectionView",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-12T17:01:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38487",
+      "number": 38487,
+      "title": "[main] [iOS/MacCatalyst] Fix Editor and CarouselView remaining non-interactive after IsEnabled toggle",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-12T17:01:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38488",
+      "number": 38488,
+      "title": "[main] [iOS] Fix MediaPicker throwing UIKitThreadAccessException when picking 2+ items",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-12T17:00:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37732",
+      "number": 37732,
+      "title": "Shard CollectionView UI tests using historical timings",
+      "repo": "dotnet/maui",
+      "author": "mmitche",
+      "mergedAt": "2026-09-12T16:36:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38464",
+      "number": 38464,
+      "title": "Prepare SR11 for servicing packages",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-12T16:30:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26597",
+      "number": 26597,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-12T14:51:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26602",
       "number": 26602,
       "title": "[xcode27.0-net11.0] Merge remote-tracking branch xcode27.0 into xcode27.0-net11.0",
@@ -97111,7 +97231,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-12T11:56:17.529Z",
+  "lastUpdated": "2026-09-12T18:02:59.410Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
