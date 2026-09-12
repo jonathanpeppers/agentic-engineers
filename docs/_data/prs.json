@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5074",
+      "number": 5074,
+      "title": "Exclude DocsMedia transport packages from SignCheck",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-12T02:42:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26601",
+      "number": 26601,
+      "title": "[xcode27.0-net11.0] Merge main into xcode27.0-net11.0",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-12T01:23:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26600",
+      "number": 26600,
+      "title": "[tests] Prevent harness window animations from starving dispatch callbacks",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-12T01:22:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26592",
+      "number": 26592,
+      "title": "[Cinematic] Update bindings up to Xcode 27.0 RC1",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-11T23:39:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26599",
+      "number": 26599,
+      "title": "[CoreMedia] Update bindings up to Xcode 27.0 RC1",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-11T23:39:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37829",
+      "number": 37829,
+      "title": "Implement maui-multiproject support for Avalonia.Controls.Maui",
+      "repo": "dotnet/maui",
+      "author": "drasticactions",
+      "mergedAt": "2026-09-11T22:31:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38197",
+      "number": 38197,
+      "title": "[iOS] Fix Infinite Measure Looping on iOS",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-09-11T22:25:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38460",
+      "number": 38460,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-11T22:12:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38454",
+      "number": 38454,
+      "title": "Update PatchVersion from 110 to 120",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-11T22:08:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38456",
+      "number": 38456,
+      "title": "Add .NET 11 RC1 to bug report versions",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-11T22:07:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12758",
+      "number": 12758,
+      "title": "Bump System.IO.Hashing from 10.0.11 to 10.0.12",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-09-11T21:30:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12757",
+      "number": 12757,
+      "title": "Bump System.CodeDom from 10.0.11 to 10.0.12",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-09-11T21:29:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5071",
+      "number": 5071,
+      "title": "Publish API documentation media",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-11T20:31:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5066",
+      "number": 5066,
+      "title": "Restore NuGet XML documentation sidecars",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-11T20:26:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5073",
+      "number": 5073,
+      "title": "Update docs submodule to latest main",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-11T19:52:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38455",
       "number": 38455,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -96941,7 +97091,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-11T18:56:45.344Z",
+  "lastUpdated": "2026-09-12T02:52:58.219Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
