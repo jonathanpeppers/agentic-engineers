@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38489",
+      "number": 38489,
+      "title": "[release/10.0.1xx-sr11] Restore SoftInput modal dismissal regression coverage",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-13T17:31:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36541",
+      "number": 36541,
+      "title": "[Mac] Fixed the Issue with the TitleBar TrailingContent not being properly aligned",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-09-13T17:18:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38515",
+      "number": 38515,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-13T15:51:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38467",
+      "number": 38467,
+      "title": "[Android] Fix off-screen WebView crash without changing generic view handlers",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-13T15:43:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38506",
+      "number": 38506,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-13T15:38:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38466",
+      "number": 38466,
+      "title": "[main] Backport #37708 regression coverage (conflict fallback)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-13T15:36:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38491",
+      "number": 38491,
+      "title": "Fix UI test compilation after CollectionView sharding",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-13T15:36:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38484",
       "number": 38484,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -97231,7 +97301,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-13T13:04:29.445Z",
+  "lastUpdated": "2026-09-13T18:30:10.574Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
