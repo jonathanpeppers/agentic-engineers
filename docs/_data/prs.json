@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12774",
+      "number": 12774,
+      "title": "[fix-finder] [xabt] Use XA4264 when ACW wrapper XML is missing",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-14T13:38:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12776",
+      "number": 12776,
+      "title": "[fix-finder] Update pull request guidance link",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-14T13:37:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12775",
+      "number": 12775,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260913103224163 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-14T13:36:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12771",
+      "number": 12771,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15304751",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-14T13:33:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12773",
+      "number": 12773,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260912103225623 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-14T13:28:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12777",
+      "number": 12777,
+      "title": "Bump external/android-api-docs from `eb93ede` to `b5c16eb`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-09-14T13:23:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12781",
+      "number": 12781,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260914103252385 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-14T13:23:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38524",
+      "number": 38524,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-14T12:18:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38489",
       "number": 38489,
       "title": "[release/10.0.1xx-sr11] Restore SoftInput modal dismissal regression coverage",
@@ -97301,7 +97381,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-14T03:05:42.510Z",
+  "lastUpdated": "2026-09-14T14:41:13.082Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
