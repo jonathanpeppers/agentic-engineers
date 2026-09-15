@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26605",
+      "number": 26605,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-15T09:15:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12780",
+      "number": 12780,
+      "title": "[CoreCLR] Remove assembly store decompression cache",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-15T09:11:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12712",
+      "number": 12712,
+      "title": "[flaky-ci] Stabilize AndroidMessageHandler cancellation rewind test",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-15T09:08:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12769",
       "number": 12769,
       "title": "Bump System.IO.Hashing to 10.0.12",
@@ -97511,7 +97541,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-15T03:07:51.990Z",
+  "lastUpdated": "2026-09-15T13:05:56.976Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
