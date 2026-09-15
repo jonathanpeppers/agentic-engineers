@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5087",
+      "number": 5087,
+      "title": "Add transport package build tag",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-15T18:25:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26607",
+      "number": 26607,
+      "title": "[main] Merge xcode27.0-net11.0 into main",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-15T17:51:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/192",
+      "number": 192,
+      "title": "Bump to .NET 10.0.112.",
+      "repo": "dotnet/macios-devtools",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-15T17:50:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/191",
+      "number": 191,
+      "title": "[main] Update dependencies from dotnet/arcade",
+      "repo": "dotnet/macios-devtools",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-15T17:49:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12709",
+      "number": 12709,
+      "title": "[flaky-ci] Isolate TryFindClass JNI leak checks",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-15T17:28:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38538",
+      "number": 38538,
+      "title": "[net11.0] Fix Skia dependencies and Android CI blockers",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-15T16:27:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12787",
+      "number": 12787,
+      "title": "[fix-finder] [installer] Enable nullable annotations for JdkArchive",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-15T15:53:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12768",
+      "number": 12768,
+      "title": "Bump System.CodeDom from 10.0.11 to 10.0.12",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-15T14:55:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12789",
+      "number": 12789,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15328072",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-15T14:54:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5080",
+      "number": 5080,
+      "title": "Align documentation system with compiler XML",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-15T14:36:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5053",
+      "number": 5053,
+      "title": "Remove legacy API docs generation from SkiaSharp",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-15T14:33:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5064",
+      "number": 5064,
+      "title": "Enable compiler XML documentation",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-15T14:25:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38315",
+      "number": 38315,
+      "title": "Fix MultiBinding Strong Target Reference Leak",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-09-15T14:12:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38565",
+      "number": 38565,
+      "title": "[release/10.0.1xx-sr11] [Testing] Fix for DisplayAlertAsyncShouldNotCrashWhenPageUnloaded UITests failure",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-15T14:11:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5078",
+      "number": 5078,
+      "title": "Move API documentation into C# comments and normalize BOMs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-15T14:08:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38564",
+      "number": 38564,
+      "title": "[Testing] Fix for DisplayAlertAsyncShouldNotCrashWhenPageUnloaded UITests failure",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-09-15T14:04:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26606",
+      "number": 26606,
+      "title": "[release/10.0.1xx] Merge xcode27.0 into release/10.0.1xx",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-15T13:11:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26554",
+      "number": 26554,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-15T13:05:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26605",
       "number": 26605,
       "title": "[main] Update dependencies from dotnet/macios",
@@ -97541,7 +97721,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-15T13:05:56.976Z",
+  "lastUpdated": "2026-09-15T19:29:14.559Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
