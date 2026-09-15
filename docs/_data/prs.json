@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12769",
+      "number": 12769,
+      "title": "Bump System.IO.Hashing to 10.0.12",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-15T01:24:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38540",
+      "number": 38540,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc2'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-14T22:56:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38462",
+      "number": 38462,
+      "title": "Target RC2 for automated net11.0 release merges",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-14T22:38:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38536",
+      "number": 38536,
+      "title": "[net11.0] Update shipping dependencies to .NET 11 RC.1",
+      "repo": "dotnet/maui",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-14T21:56:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/xcsync/pull/258",
+      "number": 258,
+      "title": "Use System.Diagnostics.Process in Scripts",
+      "repo": "dotnet/xcsync",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-14T20:46:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12770",
+      "number": 12770,
+      "title": "[fix-finder] Enable nullable annotations in Android SDK Platform helper",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-14T20:18:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/xcsync/pull/257",
       "number": 257,
       "title": "[main] Update dependencies from dotnet/arcade",
@@ -97451,7 +97511,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-14T20:08:00.407Z",
+  "lastUpdated": "2026-09-15T03:07:51.990Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
