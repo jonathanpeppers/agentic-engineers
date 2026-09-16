@@ -1,6 +1,396 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26642",
+      "number": 26642,
+      "title": "[AccessorySetupKit] Add XML docs for enum types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-16T19:09:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5101",
+      "number": 5101,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/m154",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-16T18:56:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/359",
+      "number": 359,
+      "title": "[skia-sync] Merge upstream chrome/m154",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-16T18:53:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5062",
+      "number": 5062,
+      "title": "[skia-sync] Merge upstream chrome/m153 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-16T18:44:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/682",
+      "number": 682,
+      "title": "Update generated API obsoletion attributes",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-16T18:37:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12790",
+      "number": 12790,
+      "title": "Update repository links to dotnet/android",
+      "repo": "dotnet/android",
+      "author": "RoderickIveans",
+      "mergedAt": "2026-09-16T18:35:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5099",
+      "number": 5099,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.153.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-16T18:32:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/360",
+      "number": 360,
+      "title": "[skia-sync] Merge upstream chrome/m153",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-16T18:27:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26640",
+      "number": 26640,
+      "title": "[release/10.0.1xx] [VideoToolbox] Strongly type compression log transfer functions",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-16T18:22:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26638",
+      "number": 26638,
+      "title": "[VideoToolbox] Strongly type compression log transfer functions",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-16T18:22:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26616",
+      "number": 26616,
+      "title": "[msbuild] Fix transitive AOT incremental invalidation. Fixes #26608",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-16T18:02:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26613",
+      "number": 26613,
+      "title": "[dotnet] Avoid redundant ReadyToRun compilation",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-16T17:58:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26618",
+      "number": 26618,
+      "title": "[release/10.0.1xx] [msbuild] Fix transitive AOT incremental invalidation. Fixes #26608",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-16T17:56:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5069",
+      "number": 5069,
+      "title": "[skia-sync] Merge upstream chrome/m152 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-16T17:54:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5098",
+      "number": 5098,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.152.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-16T17:52:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/361",
+      "number": 361,
+      "title": "[skia-sync] Merge upstream chrome/m152",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-16T17:50:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38600",
+      "number": 38600,
+      "title": "[release/10.0.1xx-sr11] [Mac] Fix VoiceOver does not announce initial ComboBox state in Task and Project Details",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-16T17:35:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26645",
+      "number": 26645,
+      "title": "[introspection] Update for recent changes in macOS 27.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-16T17:27:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38404",
+      "number": 38404,
+      "title": "[leak-scan] Routing.s_implicitPageRoutes — cancelled Shell push retains the page",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-09-16T17:23:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38595",
+      "number": 38595,
+      "title": "[Mac] Fix VoiceOver does not announce initial ComboBox state in Task and Project Details",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-09-16T17:20:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38572",
+      "number": 38572,
+      "title": "Limit skill evaluation configuration options",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-09-16T17:18:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38598",
+      "number": 38598,
+      "title": "Use CollectionView2 for test GroupedCollectionViewRemovalsUseCurrentAdapterPositions",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-09-16T17:11:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26647",
+      "number": 26647,
+      "title": "[release/10.0.1xx] [introspection] Update for recent changes in macOS 27.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-16T17:05:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/193",
+      "number": 193,
+      "title": "Support devicectl JSON version 5",
+      "repo": "dotnet/macios-devtools",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-16T16:48:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/669",
+      "number": 669,
+      "title": "docs: import Android.Hardware.Camera2 XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-16T16:22:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5089",
+      "number": 5089,
+      "title": "[skia-sync] Merge upstream chrome/m151 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-16T16:00:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5097",
+      "number": 5097,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.151.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-16T15:57:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/365",
+      "number": 365,
+      "title": "[skia-sync] Merge upstream chrome/m151",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-16T15:48:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12808",
+      "number": 12808,
+      "title": "Fix Windows mdoc framework-root path",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-16T15:47:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5083",
+      "number": 5083,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-16T15:33:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5096",
+      "number": 5096,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.150.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-16T15:31:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5050",
+      "number": 5050,
+      "title": "Bump to the next version (4.152.2) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-16T15:31:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/363",
+      "number": 363,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-16T15:20:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26644",
+      "number": 26644,
+      "title": "Bump zizmorcore/zizmor-action from 0.6.3 to 0.6.4",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-09-16T15:13:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12791",
+      "number": 12791,
+      "title": "[net] Make authentication modules trimmable",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-16T15:10:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12788",
+      "number": 12788,
+      "title": "Bump external/android-api-docs from `b5c16eb` to `3141a66`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-09-16T14:54:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26632",
+      "number": 26632,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-16T13:37:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26629",
+      "number": 26629,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-16T13:17:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26589",
+      "number": 26589,
+      "title": "[AppKit] Complete XML documentation for enums",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-16T13:14:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26633",
       "number": 26633,
       "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260916054702063 to main",
@@ -97941,7 +98331,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-16T13:02:52.866Z",
+  "lastUpdated": "2026-09-16T19:20:51.882Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
