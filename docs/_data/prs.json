@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5091",
+      "number": 5091,
+      "title": "Author view API remarks as Markdown",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-16T02:14:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26620",
+      "number": 26620,
+      "title": "[tests] Ignore the Pasteboard_ImagesTest test.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-16T01:22:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38574",
+      "number": 38574,
+      "title": "Fix inflight/current BlazorWebView and UI-test build failures",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-15T22:30:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38569",
+      "number": 38569,
+      "title": "[Windows] WebView: Guard failed WebView2 initialization",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-15T21:57:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26617",
+      "number": 26617,
+      "title": "Bump Xamarin.MacDev to latest.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-15T21:31:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12779",
+      "number": 12779,
+      "title": "[main] Update dependencies from dotnet/dotnet, microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-15T21:02:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26611",
+      "number": 26611,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-15T20:54:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26580",
+      "number": 26580,
+      "title": "[Touch.Unit] Fix deadlock between the runner's console output and NUnit's console capture. Fixes #26537.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-15T20:21:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26585",
+      "number": 26585,
+      "title": "[tests] Avoid DispatchGroup console deadlock. Fixes #26537",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-15T20:21:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26587",
+      "number": 26587,
+      "title": "[dotnet] Use the existing '$(_BundlerDebug)' property instead of the '$(Configuration)' property to determine whether R2R assemblies are filtered or not.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-15T20:21:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26588",
+      "number": 26588,
+      "title": "[localization] Preserve Windows paths in LocProject.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-15T20:20:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5087",
       "number": 5087,
       "title": "Add transport package build tag",
@@ -97721,7 +97831,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-15T19:29:14.559Z",
+  "lastUpdated": "2026-09-16T03:04:16.785Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
