@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38629",
+      "number": 38629,
+      "title": "[release/10.0.1xx-sr11] [Testing] Fix for ScrollViewInitialOffsetInGridRow UITests failure",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-17T11:33:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38621",
+      "number": 38621,
+      "title": "[Testing] Fix for ScrollViewInitialOffsetInGridRow UITests failure",
+      "repo": "dotnet/maui",
+      "author": "HarishKumarSF4517",
+      "mergedAt": "2026-09-17T11:29:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38338",
+      "number": 38338,
+      "title": "[iOS] Fix CollectionView Label Truncation with MeasureFirstItem",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-09-17T11:21:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38402",
+      "number": 38402,
+      "title": "[iOS] Fix modal page content not shown on subsequent navigation for singleton lifetime pages",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-09-17T11:20:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38608",
+      "number": 38608,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-17T11:08:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26651",
+      "number": 26651,
+      "title": "[CoreSpotlight] Strongly type the search delegate protection class (.NET 10)",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-17T10:37:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26649",
+      "number": 26649,
+      "title": "[CoreSpotlight] Strongly type the search delegate protection class",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-17T10:37:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12804",
+      "number": 12804,
+      "title": "Rename solution/workspace to Microsoft.Android",
+      "repo": "dotnet/android",
+      "author": "RoderickIveans",
+      "mergedAt": "2026-09-17T07:22:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12812",
+      "number": 12812,
+      "title": "[fix-finder] Enable nullable annotations for LLVM attribute set",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-17T06:35:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/692",
+      "number": 692,
+      "title": "Auto Publish – main to live - 2026-09-17 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-09-17T05:22:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/691",
       "number": 691,
       "title": "Add Android Keystore API documentation",
@@ -98491,7 +98591,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-17T03:08:17.385Z",
+  "lastUpdated": "2026-09-17T13:00:20.790Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
