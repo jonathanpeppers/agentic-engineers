@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38636",
+      "number": 38636,
+      "title": "[Android] Prevent AppBar lift target crash under GC pressure",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-17T18:29:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12811",
+      "number": 12811,
+      "title": "Remove ignored native image assembly-store aliases",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-17T18:11:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12793",
+      "number": 12793,
+      "title": "[TrimmableTypeMap] Trim value-type dictionary instantiations",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-17T14:31:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/680",
+      "number": 680,
+      "title": "[API 37.1] Regenerate .NET for Android API documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-17T13:15:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38629",
       "number": 38629,
       "title": "[release/10.0.1xx-sr11] [Testing] Fix for ScrollViewInitialOffsetInGridRow UITests failure",
@@ -98591,7 +98631,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-17T13:00:20.790Z",
+  "lastUpdated": "2026-09-17T19:30:18.083Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
