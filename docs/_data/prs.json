@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5116",
+      "number": 5116,
+      "title": "[skia-sync] Merge upstream chrome/m153 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-18T18:36:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5134",
+      "number": 5134,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.153.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-18T18:30:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/368",
+      "number": 368,
+      "title": "[skia-sync] Merge upstream chrome/m153",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-18T18:27:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38440",
+      "number": 38440,
+      "title": "[Net11][Android][ShellHandler]Fix Navigation stops working when changing Window[0].Page from Shell",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-09-18T18:04:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5117",
+      "number": 5117,
+      "title": "[skia-sync] Merge upstream chrome/m152 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-18T17:55:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5133",
+      "number": 5133,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.152.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-18T17:52:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/369",
+      "number": 369,
+      "title": "[skia-sync] Merge upstream chrome/m152",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-18T17:46:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38637",
+      "number": 38637,
+      "title": "[Windows]Fix TabBar transition animation not completing",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-09-18T17:32:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38593",
+      "number": 38593,
+      "title": "Fix default styles for derived NavigationPage and TabbedPage ",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-09-18T17:30:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5113",
+      "number": 5113,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-18T17:14:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5132",
+      "number": 5132,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.150.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-18T17:12:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/366",
+      "number": 366,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-18T17:07:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38664",
+      "number": 38664,
+      "title": "[release/10.0.1xx-sr11] [iOS/MacCatalyst] Adopt scene lifecycle and AppActions dispatch",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-18T17:00:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37147",
+      "number": 37147,
+      "title": "[Android] Restore native theme colors instead of hardcoded defaults for Shell/TabbedPage appearance under Material 3",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-09-18T16:57:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38655",
+      "number": 38655,
+      "title": "[ci-fix-net11] De-flake bottom-sheet CollectionView readiness wait (refs #36383)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-18T16:55:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38601",
+      "number": 38601,
+      "title": "[iOS/MacCatalyst] Adopt scene lifecycle and AppActions dispatch",
+      "repo": "dotnet/maui",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-18T16:54:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38613",
       "number": 38613,
       "title": "Trim unused XAML runtime code from linked apps",
@@ -98891,7 +99051,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-18T12:39:38.384Z",
+  "lastUpdated": "2026-09-18T18:50:29.841Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
