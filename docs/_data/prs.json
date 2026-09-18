@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38613",
+      "number": 38613,
+      "title": "Trim unused XAML runtime code from linked apps",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-18T11:38:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38444",
+      "number": 38444,
+      "title": "Fix memory leak when removing VisualState state triggers",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-09-18T11:33:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38630",
+      "number": 38630,
+      "title": "[Core] Preserve attributed handler constructors during trimming",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-18T11:25:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38646",
+      "number": 38646,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-18T11:19:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12803",
+      "number": 12803,
+      "title": "[fix-finder] Localize unsupported Java reference error",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-18T09:30:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12818",
+      "number": 12818,
+      "title": "[fix-finder] Remove redundant null-forgiving operator",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-18T05:31:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/693",
+      "number": 693,
+      "title": "Auto Publish – main to live - 2026-09-18 05:01 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-09-18T05:26:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5120",
       "number": 5120,
       "title": "[release/4.153.x] Fix BinSkim BA2007 for libHarfBuzzSharp by scoping C4244/C4267 suppression",
@@ -98821,7 +98891,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-18T02:55:51.091Z",
+  "lastUpdated": "2026-09-18T12:39:38.384Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
