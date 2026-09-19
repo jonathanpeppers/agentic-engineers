@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38640",
+      "number": 38640,
+      "title": "Consolidate test-failure review into one skill",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-18T22:41:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38615",
+      "number": 38615,
+      "title": "Controls: Remove Regex from ShadowTypeConverter",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-18T22:34:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38587",
+      "number": 38587,
+      "title": "[Android] Fix Material 3 Editor expanding to MaximumHeightRequest",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-09-18T22:16:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38661",
+      "number": 38661,
+      "title": "[XSG] Infer generic type for OnIdiom markup extensions",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-18T22:13:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12708",
+      "number": 12708,
+      "title": "[flaky-ci] Make logcat capture bounded and non-gating",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-18T21:35:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5114",
+      "number": 5114,
+      "title": "[skia-sync] Merge upstream chrome/m154 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-18T21:03:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26656",
+      "number": 26656,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-18T20:50:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5136",
+      "number": 5136,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/m154",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-18T20:35:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/367",
+      "number": 367,
+      "title": "[skia-sync] Merge upstream chrome/m154",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-18T20:33:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1546",
+      "number": 1546,
+      "title": "Stable Android library updates for September 14, 2026",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-18T19:46:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12795",
+      "number": 12795,
+      "title": "[Java.Interop] Use native UTF-8 JNI remaps",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-18T19:13:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12819",
+      "number": 12819,
+      "title": "Bump com.android.tools:r8 from 9.4.17 to 9.4.24 in /src/r8",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-09-18T18:50:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12816",
+      "number": 12816,
+      "title": "[Mono.Android] Align CoreCLR activation caching with Mono",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-18T18:50:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5116",
       "number": 5116,
       "title": "[skia-sync] Merge upstream chrome/m153 bug fixes",
@@ -99051,7 +99181,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-18T18:50:29.841Z",
+  "lastUpdated": "2026-09-19T02:53:55.574Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
