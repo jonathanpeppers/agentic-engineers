@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38665",
+      "number": 38665,
+      "title": "[Android] Fix SafeArea navigation insets and keyboard test polling",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-19T12:01:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38573",
+      "number": 38573,
+      "title": "Add static-only skill validation mode",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-09-19T12:00:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38650",
+      "number": 38650,
+      "title": "[CI] OneLoc: Resolve MirrorBranch during template expansion",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-09-19T11:58:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38673",
+      "number": 38673,
+      "title": "[net11.0] Update dependencies from dotnet/android",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-19T11:49:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38640",
       "number": 38640,
       "title": "Consolidate test-failure review into one skill",
@@ -99181,7 +99221,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-19T02:53:55.574Z",
+  "lastUpdated": "2026-09-19T12:14:39.408Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
