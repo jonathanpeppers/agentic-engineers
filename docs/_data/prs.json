@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38689",
+      "number": 38689,
+      "title": "Fix test-failure review baseline, discovery, and reporting",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-19T22:44:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38665",
       "number": 38665,
       "title": "[Android] Fix SafeArea navigation insets and keyboard test polling",
@@ -99221,7 +99231,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-19T18:21:59.574Z",
+  "lastUpdated": "2026-09-20T03:06:05.736Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
