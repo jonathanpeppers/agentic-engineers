@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26417",
+      "number": 26417,
+      "title": "[Hot Reload] Add assembly modification safety net. Fixes #26072",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-21T14:34:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12610",
+      "number": 12610,
+      "title": "[tests] Cover interface method desugaring parity",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-21T13:39:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12842",
+      "number": 12842,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260921103332077 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-21T13:20:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12837",
+      "number": 12837,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260920103314424 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-21T13:11:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12832",
+      "number": 12832,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15387055",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-21T12:35:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12831",
+      "number": 12831,
+      "title": "[fix-finder] Remove null-forgiving operator from activity names",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-21T12:34:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12836",
+      "number": 12836,
+      "title": "[fix-finder] Document NotificationManager.FromContext",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-21T12:33:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38653",
+      "number": 38653,
+      "title": "[Android] Prevent CollectionView EmptyView crash after handler disconnect",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-09-21T11:48:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26648",
+      "number": 26648,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260916175308982 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-09-21T11:39:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38692",
+      "number": 38692,
+      "title": "Fix Windows device-test Helix SDK version resolution",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-21T11:35:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38728",
+      "number": 38728,
+      "title": "[net11] Fix obsolete CollectionViewHandler usage in SwipeView tests",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-09-21T11:23:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38720",
+      "number": 38720,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-21T11:20:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38725",
+      "number": 38725,
+      "title": "[net11.0] Update dependencies from dnceng/internal/dotnet-optimization",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-21T11:07:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38724",
+      "number": 38724,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-21T11:06:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12838",
+      "number": 12838,
+      "title": "[fix-finder] Fix Java properties default encoding",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-21T09:04:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38702",
       "number": 38702,
       "title": "[net11.0] Update dependencies from dotnet/dotnet",
@@ -99251,7 +99401,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-21T03:03:02.842Z",
+  "lastUpdated": "2026-09-21T14:48:07.224Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
