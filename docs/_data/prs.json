@@ -1,6 +1,266 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5159",
+      "number": 5159,
+      "title": "[release/4.154.x] [CI] Route public macOS jobs to AcesShared",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-22T19:13:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5158",
+      "number": 5158,
+      "title": "[release/4.153.x] [CI] Route public macOS jobs to AcesShared",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-22T19:13:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5157",
+      "number": 5157,
+      "title": "[release/4.152.x] [CI] Route public macOS jobs to AcesShared",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-22T19:12:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5146",
+      "number": 5146,
+      "title": "[CI] Route public macOS jobs to AcesShared",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-22T18:29:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38787",
+      "number": 38787,
+      "title": "Align Apple RC2 dependency packages",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-22T18:20:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38763",
+      "number": 38763,
+      "title": "Bump the aspnetcore group with 3 updates",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-09-22T17:28:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38759",
+      "number": 38759,
+      "title": "[net11.0] Update dependencies from dotnet/android",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-22T17:27:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38761",
+      "number": 38761,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-22T17:25:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38762",
+      "number": 38762,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc2'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-22T17:25:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38764",
+      "number": 38764,
+      "title": "[Testing] Restore the Done automation ID in iOS 26 UI tests",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-09-22T17:24:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38767",
+      "number": 38767,
+      "title": "[Testing] Fix CollectionView header/footer failures and Material 3 TimePicker snapshots in net 11 branch",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-09-22T17:22:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38784",
+      "number": 38784,
+      "title": "[inflight/candidate] Revert deferred Android Loaded event (#38769)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-22T17:18:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38769",
+      "number": 38769,
+      "title": "Revert - [Android] Fix control size properties not available during Loaded event",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-09-22T17:11:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38770",
+      "number": 38770,
+      "title": "[net11.0][Android] Update UITest snapshot baselines for Shell and NavigationPage toolbar hide scenarios",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-09-22T17:09:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1548",
+      "number": 1548,
+      "title": "Update stable Android libraries for September 21, 2026",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-22T16:58:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/418",
+      "number": 418,
+      "title": "Update dependencies to latest mirrored versions",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-22T16:10:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5135",
+      "number": 5135,
+      "title": "Update harfbuzz to 14.4.0",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-22T16:00:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12858",
+      "number": 12858,
+      "title": "[fix-finder] Remove null-forgiving operator from MavenDownload",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-22T15:56:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/370",
+      "number": 370,
+      "title": "Update harfbuzz to 14.4.0",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-22T15:53:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12343",
+      "number": 12343,
+      "title": "Avoid keepalive-only finally blocks in generated bindings",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-22T15:30:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12843",
+      "number": 12843,
+      "title": "Add trim-aware runtime EventSource foundation",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-22T15:29:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12813",
+      "number": 12813,
+      "title": "[trimmable-type-map] Avoid unused XML references",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-22T15:28:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12864",
+      "number": 12864,
+      "title": "$(AndroidPackVersionSuffix)=preview.1; main is 37.99.x",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-22T15:27:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12856",
+      "number": 12856,
+      "title": "[aw] Pin Android reviewer Copilot CLI",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-22T15:16:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12863",
+      "number": 12863,
+      "title": "[CoreCLR] Avoid main-thread dispatch for unknown P/Invokes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-22T14:29:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12782",
+      "number": 12782,
+      "title": "[CoreCLR/NativeAOT] Use a no-GC region during Android startup",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-22T13:07:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12859",
       "number": 12859,
       "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15411024",
@@ -99861,7 +100121,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-22T13:02:31.652Z",
+  "lastUpdated": "2026-09-22T19:31:41.345Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
