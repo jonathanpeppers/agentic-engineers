@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12859",
+      "number": 12859,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15411024",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-22T12:42:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12707",
+      "number": 12707,
+      "title": "[flaky-ci] Isolate Gradle state in CI",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-22T12:02:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26673",
+      "number": 26673,
+      "title": "[github] Require AI content disclosure.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-22T10:35:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12839",
+      "number": 12839,
+      "title": "Fix API 37 generated namespace casing",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-09-22T08:08:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26670",
+      "number": 26670,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-22T07:54:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12841",
+      "number": 12841,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-22T07:28:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12857",
+      "number": 12857,
+      "title": "[main] Update dependencies from dotnet/android",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-22T07:03:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/513",
+      "number": 513,
+      "title": "[ai-docs] docs: Update AGENTS.md to document maui ai command",
+      "repo": "dotnet/maui-labs",
+      "author": "github-actions",
+      "mergedAt": "2026-09-22T06:32:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26646",
+      "number": 26646,
+      "title": "[Touch.Unit] Preserve console output without retaining Console.Out",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-22T05:39:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/695",
+      "number": 695,
+      "title": "Auto Publish – main to live - 2026-09-22 05:01 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-09-22T05:22:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp.Extended/pull/414",
       "number": 414,
       "title": "Enforce warnings as errors repository-wide",
@@ -99761,7 +99861,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-22T03:02:34.252Z",
+  "lastUpdated": "2026-09-22T13:02:31.652Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
