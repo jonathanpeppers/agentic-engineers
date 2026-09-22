@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/414",
+      "number": 414,
+      "title": "Enforce warnings as errors repository-wide",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-22T02:59:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/416",
+      "number": 416,
+      "title": "Differentiate CI prerelease labels by source",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-22T02:28:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/417",
+      "number": 417,
+      "title": "Adopt the SkiaSharp documentation theme",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-22T02:03:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/413",
+      "number": 413,
+      "title": "Improve NuGet package documentation",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-22T01:05:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/694",
+      "number": 694,
+      "title": "Fix Health Connect DataTypes namespace casing",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-21T23:58:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/411",
+      "number": 411,
+      "title": "Remove obsolete agent skills",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-21T23:48:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/412",
+      "number": 412,
+      "title": "Move engineering generators",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-21T23:47:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/403",
+      "number": 403,
+      "title": "Adopt native Arcade and dnceng pipeline topology",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-21T23:42:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5153",
+      "number": 5153,
+      "title": "[release] Detect stale transition sync pull requests",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-21T23:30:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5151",
+      "number": 5151,
+      "title": "Bump to the next version (4.152.3) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-21T23:21:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5150",
+      "number": 5150,
+      "title": "Bump to the next version (4.153.1) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-21T23:21:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5149",
+      "number": 5149,
+      "title": "Bump to the next version (4.151.5) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-21T23:21:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5148",
+      "number": 5148,
+      "title": "Bump to the next version (4.150.5) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-21T23:20:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5081",
+      "number": 5081,
+      "title": "[skia-sync] Update skia to milestone 155",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-21T23:18:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/362",
+      "number": 362,
+      "title": "[skia-sync] Merge upstream chrome/m155",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-21T23:15:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5138",
+      "number": 5138,
+      "title": "[release] Create missing shipped milestones automatically",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-21T23:07:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12846",
+      "number": 12846,
+      "title": "[Xamarin.Android.Build.Tasks] Remove R8 assembly rewriter",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-21T20:49:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12834",
       "number": 12834,
       "title": "[Mono.Android] Fix handwritten build warnings",
@@ -99591,7 +99761,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-21T20:14:48.984Z",
+  "lastUpdated": "2026-09-22T03:02:34.252Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
