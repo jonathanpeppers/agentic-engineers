@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12871",
+      "number": 12871,
+      "title": "[xabt] Remove legacy FastDeploy",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-23T13:07:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12888",
+      "number": 12888,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15427542",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-23T13:05:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26682",
+      "number": 26682,
+      "title": "[release/10.0.1xx][messaging] Added missing indirect dependencies after Xamarin.Messaging and SSH.NET updates",
+      "repo": "dotnet/macios",
+      "author": "mauroa",
+      "mergedAt": "2026-09-23T11:13:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38439",
+      "number": 38439,
+      "title": " Fix [leak-scan] VisualStateGroupList.Clear — removed groups keep triggers attached",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-09-23T10:38:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38738",
+      "number": 38738,
+      "title": "Fix TransformGroup memory leak with shared TransformCollection",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-09-23T10:34:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38712",
+      "number": 38712,
+      "title": "Improve error message xaml sg",
+      "repo": "dotnet/maui",
+      "author": "pictos",
+      "mergedAt": "2026-09-23T10:33:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38614",
+      "number": 38614,
+      "title": "[iOS]Fix CollectionView items not rendered properly when SelectedItem assigned in ApplyQueryAttributes",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-09-23T10:30:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38786",
+      "number": 38786,
+      "title": "[main] Update Arcade to remove OneLoc PAT fallback",
+      "repo": "dotnet/maui",
+      "author": "missymessa",
+      "mergedAt": "2026-09-23T10:22:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12883",
+      "number": 12883,
+      "title": "[release/11.0.1xx-rc2] [build] Avoid duplicate extension runtime packs",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-23T05:54:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/415",
+      "number": 415,
+      "title": "Remove obsolete root public pipeline",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-23T03:57:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/422",
+      "number": 422,
+      "title": "Add public API compatibility validation",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-23T03:50:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12881",
       "number": 12881,
       "title": "[release/11.0.1xx-rc2] Fix JNI jchar marshalling on CoreCLR",
@@ -100241,7 +100351,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-23T03:02:43.280Z",
+  "lastUpdated": "2026-09-23T13:17:46.161Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
