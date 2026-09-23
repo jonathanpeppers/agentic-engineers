@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/515",
+      "number": 515,
+      "title": "Fix structured JSON streaming for growing fields",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-23T19:02:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38816",
+      "number": 38816,
+      "title": "[net11-rc2] Update bundled .NET 10 MAUI SDK and templates to 10.0.110",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-23T18:43:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38817",
+      "number": 38817,
+      "title": "[net11] Update bundled .NET 10 MAUI SDK and templates to 10.0.110",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-23T18:43:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12874",
+      "number": 12874,
+      "title": "[native] Remove bundled libunwind",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-23T17:27:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12899",
+      "number": 12899,
+      "title": "Bump com.android.library from 9.4.0 to 9.4.1 in /tests/CodeGen-Binding/Xamarin.Android.LibraryProjectZip-LibBinding/java/JavaLib",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-09-23T17:19:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38815",
+      "number": 38815,
+      "title": "[Inflight/Candidate] [iOS] Fix for CollectionView layout issue after iOS device rotation",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-23T16:25:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38771",
+      "number": 38771,
+      "title": "[Inflight/Current] [iOS]Fix for CollectionView layout issue after iOS device rotation",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-09-23T16:20:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38803",
+      "number": 38803,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-23T16:16:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12898",
+      "number": 12898,
+      "title": "Bump com.android.application from 9.4.0 to 9.4.1 in /src/proguard-android",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-09-23T16:13:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12897",
+      "number": 12897,
+      "title": "Bump the manifestmerger-dependencies group in /src/manifestmerger with 2 updates",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-09-23T16:12:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38806",
+      "number": 38806,
+      "title": "[net11] Forward-port CI provisioning and raster cleanup fixes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-23T16:11:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12860",
+      "number": 12860,
+      "title": "Move CoreCLR reference accounting and logging to C#",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-23T16:11:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12772",
+      "number": 12772,
+      "title": "[Mono.Android] Return registered peers after activation",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-23T14:31:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38788",
+      "number": 38788,
+      "title": "[RC2] Fix CI dependency and provisioning blockers",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-23T14:30:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26681",
+      "number": 26681,
+      "title": "[messaging] Added missing indirect dependencies after Xamarin.Messaging and SSH.NET updates",
+      "repo": "dotnet/macios",
+      "author": "mauroa",
+      "mergedAt": "2026-09-23T13:45:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12886",
+      "number": 12886,
+      "title": "[flaky-ci] Recover corrupt cached Android SDK archives",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-23T13:25:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12871",
       "number": 12871,
       "title": "[xabt] Remove legacy FastDeploy",
@@ -100351,7 +100511,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-23T13:17:46.161Z",
+  "lastUpdated": "2026-09-23T19:25:13.802Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
