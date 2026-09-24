@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12909",
+      "number": 12909,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260924103446453 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-24T12:59:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12908",
+      "number": 12908,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15443784",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-24T12:40:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12904",
+      "number": 12904,
+      "title": "[release/11.0.1xx-rc2] [build] Use command-line tools 21.0 by default",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-24T12:38:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38550",
+      "number": 38550,
+      "title": "[leak-scan] Fix VisualState trigger lifecycle when states are added or removed",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-09-24T11:46:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38768",
+      "number": 38768,
+      "title": "[leak scan] Fix handler collection retention memory leak",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-09-24T11:42:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38798",
+      "number": 38798,
+      "title": "[Android] Fix WebView inside a ScrollView blocking page scrolling when the WebView has nothing to scroll",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-09-24T11:41:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38814",
+      "number": 38814,
+      "title": "Fix GeometryHelper flatteners generating NaN points when segment count truncates to 0",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-09-24T11:35:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26652",
+      "number": 26652,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-24T11:08:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26676",
+      "number": 26676,
+      "title": "[ImageIO] Keep metadata alive while enumerating tags. Fixes #26545",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-24T10:31:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26687",
+      "number": 26687,
+      "title": "[build] Fix concurrent SDK version generation. Fixes #26685",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-24T10:30:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26574",
+      "number": 26574,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-24T09:12:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/493",
+      "number": 493,
+      "title": "Fix physical Android startup trace lifecycle",
+      "repo": "dotnet/maui-labs",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-24T08:32:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12875",
       "number": 12875,
       "title": "[xabt] Remove Mono AOT and interpreter infrastructure",
@@ -100571,7 +100691,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-24T02:54:06.976Z",
+  "lastUpdated": "2026-09-24T13:07:32.479Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
