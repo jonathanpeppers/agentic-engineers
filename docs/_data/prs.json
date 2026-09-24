@@ -1,6 +1,66 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12875",
+      "number": 12875,
+      "title": "[xabt] Remove Mono AOT and interpreter infrastructure",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-23T21:29:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12896",
+      "number": 12896,
+      "title": "[build] Use command-line tools 21.0 by default",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-23T20:54:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12884",
+      "number": 12884,
+      "title": "Allow Android PR Reviewer to run any dotnet command",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-23T20:48:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12849",
+      "number": 12849,
+      "title": "Add GC bridge EventSource timing",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-23T20:12:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12885",
+      "number": 12885,
+      "title": "[fix-finder] Document SensorManager.FromContext",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-23T19:46:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12902",
+      "number": 12902,
+      "title": "[build] Retry transient Gradle distribution downloads",
+      "repo": "dotnet/android",
+      "author": "premun",
+      "mergedAt": "2026-09-23T19:41:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/515",
       "number": 515,
       "title": "Fix structured JSON streaming for growing fields",
@@ -100511,7 +100571,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-23T19:25:13.802Z",
+  "lastUpdated": "2026-09-24T02:54:06.976Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
