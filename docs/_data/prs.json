@@ -1,6 +1,216 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38850",
+      "number": 38850,
+      "title": "docs: fix Helix queues and device-test pipeline path in DevelopmentTips",
+      "repo": "dotnet/maui",
+      "author": "ZainnQureshii",
+      "mergedAt": "2026-09-24T19:03:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/xcsync/pull/259",
+      "number": 259,
+      "title": "[main] Update dependencies from dotnet/arcade",
+      "repo": "dotnet/xcsync",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-24T18:55:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26677",
+      "number": 26677,
+      "title": "[AppKit] Add XML docs for ten delegates",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-24T18:54:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12907",
+      "number": 12907,
+      "title": "[release/11.0.1xx-rc2] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-24T18:48:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38445",
+      "number": 38445,
+      "title": "[Material3] Fix tab selection indicator color on theme change",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-09-24T18:20:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26690",
+      "number": 26690,
+      "title": "Delete MonoVM app-size baselines",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-24T18:07:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26691",
+      "number": 26691,
+      "title": "Remove redundant app size registrar variants",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-24T18:06:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26689",
+      "number": 26689,
+      "title": "Remove disabled Mono VM build and test paths",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-24T18:05:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26671",
+      "number": 26671,
+      "title": "[tests] Use child view controller containment in TestRuntime.RunAsync",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-24T18:04:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26668",
+      "number": 26668,
+      "title": "[Foundation] Avoid racing native NSUrlSessionTask cleanup in NSUrlSessionHandler. Fixes #20345.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-24T18:04:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26636",
+      "number": 26636,
+      "title": "[msbuild] Stop building universal macOS 27 apps by default. Fixes #25675.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-24T18:03:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38844",
+      "number": 38844,
+      "title": "[Net11] Fix Map DeviceTests failures and included the Windows map implementation code ",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-09-24T17:28:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38657",
+      "number": 38657,
+      "title": "[Leak scan] Fix MauiHotReloadHelper.currentViews — disabled unregister leaves views rooted",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-09-24T17:24:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38743",
+      "number": 38743,
+      "title": "[leak scan] Fix image-source service collection retention leak",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-09-24T17:22:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38744",
+      "number": 38744,
+      "title": "Fix PathFigure memory leak with shared PathSegmentCollection",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-09-24T17:21:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12851",
+      "number": 12851,
+      "title": "Add trimmable typemap EventSource timing",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-24T16:50:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26637",
+      "number": 26637,
+      "title": "[msbuild] Update ComputeInstructionSet for Xcode 27. Fixes #24653",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-24T16:14:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26641",
+      "number": 26641,
+      "title": "[msbuild] Add extra arguments for ibtool and actool. Fixes #25677.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-24T16:13:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12824",
+      "number": 12824,
+      "title": "[Microsoft.Android.Build.Tasks] Read linked typemap keys",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-24T14:58:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12876",
+      "number": 12876,
+      "title": "[xabt] Unify assembly store implementation",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-24T14:27:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26643",
+      "number": 26643,
+      "title": "[msbuild] Support devicectl JSON version 5. Fixes #26482.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-24T14:05:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12909",
       "number": 12909,
       "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260924103446453 to main",
@@ -100691,7 +100901,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-24T13:07:32.479Z",
+  "lastUpdated": "2026-09-24T19:46:13.500Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
