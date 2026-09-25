@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38854",
+      "number": 38854,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc2'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-24T22:23:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38853",
+      "number": 38853,
+      "title": "[RC2] Temporarily use GoldenGate for build, UI and device pipelines",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-24T22:13:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38850",
       "number": 38850,
       "title": "docs: fix Helix queues and device-test pipeline path in DevelopmentTips",
@@ -100901,7 +100921,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-24T19:46:13.500Z",
+  "lastUpdated": "2026-09-25T03:10:15.414Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
