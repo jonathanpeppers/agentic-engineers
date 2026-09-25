@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26634",
+      "number": 26634,
+      "title": "[docs] Clarify .NET 11 runtime-specific build properties",
+      "repo": "dotnet/macios",
+      "author": "vitek-karas",
+      "mergedAt": "2026-09-25T12:41:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26716",
+      "number": 26716,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 15447602",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-25T11:48:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38857",
+      "number": 38857,
+      "title": "[RC2] Stabilize trimmed device tests and flyout layout assertions",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-25T11:03:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38855",
+      "number": 38855,
+      "title": "[RC2] Keep Appium execution on compatible macOS images",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-25T11:00:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38827",
+      "number": 38827,
+      "title": "[net11] Fix Helix payload and device-test failures",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-25T10:59:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38854",
       "number": 38854,
       "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc2'",
@@ -100921,7 +100971,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-25T03:10:15.414Z",
+  "lastUpdated": "2026-09-25T13:13:08.058Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
