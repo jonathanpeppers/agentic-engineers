@@ -1,6 +1,236 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26731",
+      "number": 26731,
+      "title": "[release/11.0.1xx-rc.2] [msbuild] Stop building universal macOS 27 apps by default. Fixes #25675.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-25T19:39:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26740",
+      "number": 26740,
+      "title": "[release/10.0.1xx] [ci] Warn when enabling Windows long paths is denied. Fixes #26667",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-25T18:18:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38864",
+      "number": 38864,
+      "title": "[net11] Retain Issue32983 bottom sheet content for the fixture lifetime",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-25T17:03:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38863",
+      "number": 38863,
+      "title": "[net11] Locate Issue33287 ready back button by accessibility ID",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-25T17:03:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38861",
+      "number": 38861,
+      "title": "[net11] Isolate child-activity photo picker UI tests",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-25T17:03:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12903",
+      "number": 12903,
+      "title": "[build] Remove obsolete Android workload dependencies",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T16:58:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12900",
+      "number": 12900,
+      "title": "Fix FastDev assembly file-size narrowing on 32-bit Android",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-25T16:57:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12924",
+      "number": 12924,
+      "title": "[release/11.0.1xx-rc2] [Xamarin.Android.Tools.AndroidSdk] Include PDB in package",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-25T16:55:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26736",
+      "number": 26736,
+      "title": "[release/11.0.1xx-rc.2] [tests] Update expected sizes for the AppSizeTest.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-25T16:27:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12877",
+      "number": 12877,
+      "title": "[diagnostics] Remove Mono-specific runtime plumbing",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T15:27:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12906",
+      "number": 12906,
+      "title": "Unify Android run targets",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T15:26:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5155",
+      "number": 5155,
+      "title": "Use pointer-based GLES interop signatures",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-25T15:14:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38859",
+      "number": 38859,
+      "title": "[net11] Preserve the active SDK workload manifest band",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-25T15:04:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26694",
+      "number": 26694,
+      "title": "[UIKit] Use modern appearance containment selectors. Fixes #3230",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-25T15:02:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26697",
+      "number": 26697,
+      "title": "[ci] Warn when enabling Windows long paths is denied. Fixes #26667",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-25T15:01:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26732",
+      "number": 26732,
+      "title": "[release/11.0.1xx-rc.2] [docs] Clarify .NET 11 runtime-specific build properties",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-25T15:00:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38892",
+      "number": 38892,
+      "title": "[RC2] Temporarily use GoldenGate for official macOS pack",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-25T14:50:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38858",
+      "number": 38858,
+      "title": "[net11][iOS] Require completed template smoke runs instead of timeout success",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-25T14:49:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38789",
+      "number": 38789,
+      "title": "Restore isolated Vally evaluation workspace",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-09-25T14:33:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38878",
+      "number": 38878,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc2'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-25T14:31:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12922",
+      "number": 12922,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260925103210740 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-25T13:46:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12920",
+      "number": 12920,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15458560",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-25T13:24:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12913",
+      "number": 12913,
+      "title": "[Xamarin.Android.Tools.AndroidSdk] Include PDB in package",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T13:13:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26634",
       "number": 26634,
       "title": "[docs] Clarify .NET 11 runtime-specific build properties",
@@ -100971,7 +101201,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-25T13:13:08.058Z",
+  "lastUpdated": "2026-09-25T19:47:35.573Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
