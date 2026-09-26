@@ -1,6 +1,326 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/717",
+      "number": 717,
+      "title": "Add Android.Transitions XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T03:09:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/720",
+      "number": 720,
+      "title": "Add Android.Service.Notification XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T02:59:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/718",
+      "number": 718,
+      "title": "Add Android.Hardware.Usb documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T02:48:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/714",
+      "number": 714,
+      "title": "Add Android.Media.Browse documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T02:01:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/715",
+      "number": 715,
+      "title": "Add Android.Widget.PhotoPicker XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T01:56:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/716",
+      "number": 716,
+      "title": "Add Android.Speech API documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T01:40:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/712",
+      "number": 712,
+      "title": "Add Android.Credentials XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T01:37:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/713",
+      "number": 713,
+      "title": "Add XML documentation for Android.Nfc",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T01:37:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/710",
+      "number": 710,
+      "title": "Add XML documentation for Android.Views.Accessibility",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T01:11:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/711",
+      "number": 711,
+      "title": "Add Java.Nio XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T01:11:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/707",
+      "number": 707,
+      "title": "Document Android.Media.Session APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T00:50:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/709",
+      "number": 709,
+      "title": "Add Java.Security XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T00:50:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/708",
+      "number": 708,
+      "title": "Document Android.Net.Http APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T00:50:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/702",
+      "number": 702,
+      "title": "Document Android.Animation APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T23:48:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/703",
+      "number": 703,
+      "title": "Document Android.Security.Keystore APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T23:42:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/705",
+      "number": 705,
+      "title": "Document Java.IO APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T23:39:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26708",
+      "number": 26708,
+      "title": "[release/10.0.1xx] [msbuild] Support devicectl JSON version 5. Fixes #26482.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-25T23:38:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/706",
+      "number": 706,
+      "title": "Add XML documentation for Android.Hardware.Camera2",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T23:27:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/704",
+      "number": 704,
+      "title": "Add XML documentation for Java.Net",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T23:24:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12918",
+      "number": 12918,
+      "title": "[xabt] Honor requested RIDs during Fast Deployment ABI selection",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-25T23:08:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38896",
+      "number": 38896,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc2'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-25T22:52:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/701",
+      "number": 701,
+      "title": "Document Android.Database APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T22:35:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38862",
+      "number": 38862,
+      "title": "[net11] Stabilize CollectionView Kiwi MakeVisible scroll test",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-25T22:18:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38893",
+      "number": 38893,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-25T22:17:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/699",
+      "number": 699,
+      "title": "Add XML documentation for Android.Graphics.Drawables",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T21:51:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/698",
+      "number": 698,
+      "title": "Add XML documentation for Android.Database.Sqlite",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T21:51:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/697",
+      "number": 697,
+      "title": "Add Android.Locations XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T21:50:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/696",
+      "number": 696,
+      "title": "Fix importer self-test when framework index count changes",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T21:50:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/700",
+      "number": 700,
+      "title": "Add XML documentation for Android.Util",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T21:49:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12806",
+      "number": 12806,
+      "title": "[docs] Scope Mono AOT settings for .NET 11",
+      "repo": "dotnet/android",
+      "author": "vitek-karas",
+      "mergedAt": "2026-09-25T21:07:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12915",
+      "number": 12915,
+      "title": "[Xamarin.Android.Build.Tasks] Remove legacy manifest merger",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-25T21:00:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12685",
+      "number": 12685,
+      "title": "[generator] Remove class_ref compatibility getters",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-25T20:41:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26731",
       "number": 26731,
       "title": "[release/11.0.1xx-rc.2] [msbuild] Stop building universal macOS 27 apps by default. Fixes #25675.",
@@ -101201,7 +101521,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-25T19:47:35.573Z",
+  "lastUpdated": "2026-09-26T03:14:34.477Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
