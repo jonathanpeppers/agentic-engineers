@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12911",
+      "number": 12911,
+      "title": "[build] Remove binary runtime config parser",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-26T15:46:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12670",
+      "number": 12670,
+      "title": "[generator] Reuse more code to reduce UCO sizes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-26T15:45:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12825",
+      "number": 12825,
+      "title": "[Microsoft.Android.Build.Tasks] Read NativeAOT typemap keys",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-26T14:57:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12853",
+      "number": 12853,
+      "title": "Deprecate Android.Runtime.TimingLogger",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-26T14:55:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26751",
+      "number": 26751,
+      "title": "[Signing] Sign newly bundled mlaunch assemblies",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-26T14:11:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38906",
       "number": 38906,
       "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet",
@@ -101761,7 +101811,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-26T12:38:28.634Z",
+  "lastUpdated": "2026-09-26T18:57:29.803Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
