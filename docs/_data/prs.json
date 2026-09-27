@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38918",
+      "number": 38918,
+      "title": "[net11.0] Stabilize focused visual UI flakes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-27T17:23:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38923",
+      "number": 38923,
+      "title": "[release/11.0.1xx-rc2] Update dependencies from dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-27T17:18:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26715",
+      "number": 26715,
+      "title": "[release/11.0.1xx-rc.2] [msbuild] Update ComputeInstructionSet for Xcode 27. Fixes #24653",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-27T17:08:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/743",
       "number": 743,
       "title": "Auto Publish – main to live - 2026-09-27 05:00 UTC",
@@ -101921,7 +101951,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-27T13:29:52.524Z",
+  "lastUpdated": "2026-09-27T19:29:11.866Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
