@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/743",
+      "number": 743,
+      "title": "Auto Publish – main to live - 2026-09-27 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-09-27T05:22:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26712",
+      "number": 26712,
+      "title": "[release/11.0.1xx-rc.2] [messaging] Added missing indirect dependencies after Xamarin.Messaging and SSH.NET updates",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-27T05:07:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26709",
       "number": 26709,
       "title": "[release/11.0.1xx-rc.2] [msbuild] Support devicectl JSON version 5. Fixes #26482.",
@@ -101901,7 +101921,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-27T03:22:05.569Z",
+  "lastUpdated": "2026-09-27T13:29:52.524Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
