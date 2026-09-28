@@ -1,6 +1,166 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26755",
+      "number": 26755,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260927173621746 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-09-28T16:19:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38887",
+      "number": 38887,
+      "title": "Fix Shell flyout visual-state re-entrancy hang",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-09-28T16:08:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38805",
+      "number": 38805,
+      "title": "[iOS] Fix Shell navigation operations under the native More tab",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-09-28T16:05:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38946",
+      "number": 38946,
+      "title": "Fix PathGeometry leak with shared PathFigureCollection",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-09-28T16:04:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38879",
+      "number": 38879,
+      "title": "[Candidate][iOS/Mac Catalyst] Shell: Fix FlyoutHeader minimum-height UI test setup",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-09-28T16:04:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12928",
+      "number": 12928,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15479485",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-28T14:06:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12930",
+      "number": 12930,
+      "title": "[tests] Prune unsupported Android cases and consolidate redundant tests",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-28T14:02:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12937",
+      "number": 12937,
+      "title": "[fix-finder] Remove unused JarToXml helper",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-28T13:54:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12932",
+      "number": 12932,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260927103324330 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-28T13:52:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12807",
+      "number": 12807,
+      "title": "[docs] Update Android API and RID guidance for .NET 11",
+      "repo": "dotnet/android",
+      "author": "vitek-karas",
+      "mergedAt": "2026-09-28T13:52:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12941",
+      "number": 12941,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260928103200473 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-28T13:34:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26760",
+      "number": 26760,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260928055125100 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-09-28T12:43:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38271",
+      "number": 38271,
+      "title": "Fix SwipeMenuItems were rendered to the full width of the SwipeView instead of their measured width on Android, iOS, and macOS",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-09-28T11:39:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38943",
+      "number": 38943,
+      "title": "[release/11.0.1xx-rc2] Update dependencies from dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-28T11:27:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26754",
+      "number": 26754,
+      "title": "[main] Update .NET 10 Xcode 27.0 SDK dependencies to 27.0.10722",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-28T10:29:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26684",
+      "number": 26684,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-28T10:18:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26737",
       "number": 26737,
       "title": "[msbuild] Update the ilrepack tool.",
@@ -101971,7 +102131,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-28T03:19:21.219Z",
+  "lastUpdated": "2026-09-28T16:24:19.469Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
