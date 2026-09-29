@@ -1,6 +1,276 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/38971",
+      "number": 38971,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc2'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-28T22:21:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38970",
+      "number": 38970,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-28T22:18:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38960",
+      "number": 38960,
+      "title": "[Windows] Fix doubled CollectionView item spacing",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-28T22:15:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5183",
+      "number": 5183,
+      "title": "Update macOS ARM64 Ganesh GL DiagonalLines golden from CI",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-28T21:59:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38964",
+      "number": 38964,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc2'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-28T21:59:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5177",
+      "number": 5177,
+      "title": "[4.152] Use macOS 15 for native Apple CI builds",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-28T21:58:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5179",
+      "number": 5179,
+      "title": "[4.153] Use macOS 15 for package native builds",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-28T21:58:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5180",
+      "number": 5180,
+      "title": "[4.154] Use macOS 15 for native Apple CI builds",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-28T21:58:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5181",
+      "number": 5181,
+      "title": "Use macOS 15 for official native Apple builds",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-28T21:58:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38967",
+      "number": 38967,
+      "title": "[ci] Support SkiaSharp package releases",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-28T21:50:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12943",
+      "number": 12943,
+      "title": "[docs] Restore XA4256 and XA4257 diagnostic pages",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-28T21:27:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12861",
+      "number": 12861,
+      "title": "Move non-Mono GC bridge processing to managed code",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-28T21:13:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26734",
+      "number": 26734,
+      "title": "[registrar] Preserve timestamps of unchanged registrar type maps",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-28T20:46:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5178",
+      "number": 5178,
+      "title": "Remove unused copilot-cli local action",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-28T20:03:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26692",
+      "number": 26692,
+      "title": "[tests] Prevent concurrent MonoTouch.Dialog builds. Fixes #26688",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-28T19:28:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5162",
+      "number": 5162,
+      "title": "Disable RAW and DNG image decoding",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-28T18:46:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12936",
+      "number": 12936,
+      "title": "Allow standalone Git inspection in Android PR Reviewer",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-28T18:39:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38958",
+      "number": 38958,
+      "title": "[iOS/Mac Catalyst] Resizetizer: Support Icon Composer MauiIcon bundles",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-28T18:12:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/373",
+      "number": 373,
+      "title": "Disable DNG SDK and PIEX source downloads",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-28T18:04:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26761",
+      "number": 26761,
+      "title": "[builds] Update our capabilities.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-28T18:01:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12683",
+      "number": 12683,
+      "title": "[generator] Stop emitting IntDefinitionAttribute and remove dead javadoc-to-mdoc tool",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-28T17:50:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38723",
+      "number": 38723,
+      "title": "[WinUI] Fix CollectionView accessibility and focus restoration using ItemsRepeater",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-09-28T17:19:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26733",
+      "number": 26733,
+      "title": "[registrar] Cache registrar callback and protocol method lookups",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-28T17:17:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38961",
+      "number": 38961,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc2'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-28T17:16:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26744",
+      "number": 26744,
+      "title": "[docs] Add a document on how to minimize app size.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-28T16:52:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26741",
+      "number": 26741,
+      "title": "[runtime] Ensure the runtime contract header exists before compiling runtime.m",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-28T16:48:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26493",
+      "number": 26493,
+      "title": "[src] Fix GC-safety issues in four CoreFoundation APIs",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-28T16:45:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26755",
       "number": 26755,
       "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260927173621746 to main",
@@ -102131,7 +102401,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-28T16:24:19.469Z",
+  "lastUpdated": "2026-09-29T03:56:37.385Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
