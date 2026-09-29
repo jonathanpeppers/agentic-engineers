@@ -1,6 +1,306 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5190",
+      "number": 5190,
+      "title": "[release/4.154.x] Disable RAW and DNG image decoding",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T14:29:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5187",
+      "number": 5187,
+      "title": "[release/4.153.x] Disable RAW and DNG image decoding",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T14:29:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5188",
+      "number": 5188,
+      "title": "[release/4.152.x] Disable RAW and DNG image decoding",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T14:29:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5186",
+      "number": 5186,
+      "title": "[release/4.151.x] Disable RAW and DNG image decoding",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T14:28:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5184",
+      "number": 5184,
+      "title": "[release/4.150.x] Disable RAW and DNG image decoding",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T14:28:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/380",
+      "number": 380,
+      "title": "[release/4.154.x] Disable DNG SDK and PIEX source downloads",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T13:52:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/379",
+      "number": 379,
+      "title": "[release/4.153.x] Disable DNG SDK and PIEX source downloads",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T13:51:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/378",
+      "number": 378,
+      "title": "[release/4.152.x] Disable DNG SDK and PIEX source downloads",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T13:51:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/377",
+      "number": 377,
+      "title": "[release/4.151.x] Disable DNG SDK and PIEX source downloads",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T13:51:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/376",
+      "number": 376,
+      "title": "[release/4.150.x] Disable DNG SDK and PIEX source downloads",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T13:51:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12947",
+      "number": 12947,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15499387",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-29T13:25:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12948",
+      "number": 12948,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260929103345703 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-29T13:24:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/544",
+      "number": 544,
+      "title": "Add AI CI infrastructure and Apple device tests",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T12:00:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26765",
+      "number": 26765,
+      "title": "[HandleSafety] Fix the AddressBook toNative converter handle safety.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-29T11:23:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26747",
+      "number": 26747,
+      "title": "[build] Avoid registrar compilation for MVID-only edits. Fixes #26728",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-29T11:21:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26702",
+      "number": 26702,
+      "title": "[xtro] Check nullability in named delegate signatures",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-29T11:20:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26743",
+      "number": 26743,
+      "title": "[tests] Remove Mono-only .NET build tests and interpreted test fixtures",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-29T11:20:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/543",
+      "number": 543,
+      "title": "Honor Apple Intelligence tool mode and cancellation",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T11:06:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38980",
+      "number": 38980,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc2'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-29T10:44:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/546",
+      "number": 546,
+      "title": "Scope profiling helper injection to the selected app project",
+      "repo": "dotnet/maui-labs",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-29T10:04:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/533",
+      "number": 533,
+      "title": "Fix WPF Shell page content missing from DevFlow inspection",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-29T09:57:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/534",
+      "number": 534,
+      "title": "Fix GTK template package versions and Essentials initialization",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-29T09:57:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/535",
+      "number": 535,
+      "title": "Fix GTK DevFlow backend dependencies and startup",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-29T09:56:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/537",
+      "number": 537,
+      "title": "Fix DevFlow XAML source generation for plain .NET and macOS targets",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-29T09:41:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/536",
+      "number": 536,
+      "title": "Fix WPF template restore and application bootstrap",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-29T09:40:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/541",
+      "number": 541,
+      "title": "Fix GTK4 CSS property preservation and pixel font sizes",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-29T09:39:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/542",
+      "number": 542,
+      "title": "build(deps-dev): Bump fast-uri from 3.1.6 to 3.1.8 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-09-29T09:01:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26576",
+      "number": 26576,
+      "title": "[msbuild] Discard any simulators we get from devicectl in the GetAvailableDevices task.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-29T05:49:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/744",
+      "number": 744,
+      "title": "Auto Publish – main to live - 2026-09-29 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-09-29T05:23:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/739",
+      "number": 739,
+      "title": "Add Android.App.Backup XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-29T03:56:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/38971",
       "number": 38971,
       "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc2'",
@@ -102401,7 +102701,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-29T03:56:37.385Z",
+  "lastUpdated": "2026-09-29T14:34:30.807Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
