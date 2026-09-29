@@ -1,6 +1,196 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26711",
+      "number": 26711,
+      "title": "[scripts] Add labeled backport checker",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-29T19:52:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26766",
+      "number": 26766,
+      "title": "[tests] Recognize wrapped network-loss errors. Fixes #26763",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-29T19:50:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38969",
+      "number": 38969,
+      "title": "[Android] Fix O(n²) layout cost in CollectionView GridItemsLayout (SpacingItemDecoration + ObservableGroupedSource)",
+      "repo": "dotnet/maui",
+      "author": "unrateddi",
+      "mergedAt": "2026-09-29T18:57:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26614",
+      "number": 26614,
+      "title": "[bgen] Remove source compilation support",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-29T18:43:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5206",
+      "number": 5206,
+      "title": "Bump to the next version (4.150.6) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T18:40:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5205",
+      "number": 5205,
+      "title": "Bump to the next version (4.153.2) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T18:39:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5204",
+      "number": 5204,
+      "title": "Bump to the next version (4.151.6) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T18:39:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5203",
+      "number": 5203,
+      "title": "Bump to the next version (4.152.4) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T18:39:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26698",
+      "number": 26698,
+      "title": "[msbuild] Inline MSBuild localization resources in the task assembly",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-29T18:37:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/25977",
+      "number": 25977,
+      "title": "[dotnet] Add DeployToDevice MSBuild target for 'dotnet run' support",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-29T18:35:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/749",
+      "number": 749,
+      "title": "Add Android.InputMethodServices XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-29T17:30:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/748",
+      "number": 748,
+      "title": "Add Java.Nio.FileNio XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-29T17:10:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/747",
+      "number": 747,
+      "title": "Add XML documentation for Android.Hardware.Input",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-29T17:09:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/745",
+      "number": 745,
+      "title": "Add XML documentation for Android.Preferences",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-29T17:08:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/746",
+      "number": 746,
+      "title": "Add XML documentation for Android.Net.Nsd",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-29T16:29:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5196",
+      "number": 5196,
+      "title": "[skia-sync] Merge upstream chrome/m155 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T16:12:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/381",
+      "number": 381,
+      "title": "[skia-sync] Merge upstream chrome/m155",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T16:07:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5192",
+      "number": 5192,
+      "title": "Update 4.155 release support tier",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T15:18:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5191",
+      "number": 5191,
+      "title": "Update 4.153 release support tier",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-29T15:14:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5190",
       "number": 5190,
       "title": "[release/4.154.x] Disable RAW and DNG image decoding",
@@ -102701,7 +102891,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-29T14:34:30.807Z",
+  "lastUpdated": "2026-09-29T20:25:24.615Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
