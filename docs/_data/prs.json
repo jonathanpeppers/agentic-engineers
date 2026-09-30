@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12916",
+      "number": 12916,
+      "title": "Migrate debugging tasks off legacy Android tooling",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-30T20:12:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12950",
+      "number": 12950,
+      "title": "Keep generated AAPT2 rules in R8 inputs on incremental builds",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-30T19:56:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12957",
+      "number": 12957,
+      "title": "[tests] Make APK size decreases inconclusive",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-30T19:52:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12955",
+      "number": 12955,
+      "title": "[release/11.0.1xx] [native] Clarify normal FastDev assembly loading logs",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-30T19:51:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12959",
+      "number": 12959,
+      "title": "[release/11.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-30T19:50:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39025",
+      "number": 39025,
+      "title": "Preserve packed-ref access in isolated Vally workspace",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-09-30T18:35:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39010",
+      "number": 39010,
+      "title": "Revert \"[Mac] Fix VoiceOver announcement for actionable CollectionView items\"",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-30T18:28:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39029",
+      "number": 39029,
+      "title": "Remove only legacy /review rerun queue and scanner",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-30T18:28:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12931",
+      "number": 12931,
+      "title": "[tests] Replace trimmable typemap generator suites with on-device coverage",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-30T18:15:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12956",
+      "number": 12956,
+      "title": "[Xamarin.Android.Build.Tasks] Reject legacy AOT disable on CoreCLR",
+      "repo": "dotnet/android",
+      "author": "vitek-karas",
+      "mergedAt": "2026-09-30T17:38:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26787",
+      "number": 26787,
+      "title": "[github] Require localizable build messages in Copilot and reviewer guidance",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-30T16:21:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12887",
+      "number": 12887,
+      "title": "Default Android type maps to trimmable",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-30T15:56:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26742",
+      "number": 26742,
+      "title": "[tests] Update the size-comparison tests.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-30T15:42:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12939",
+      "number": 12939,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-30T15:37:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12687",
+      "number": 12687,
+      "title": "[generator] Eliminate generated ThresholdType and ThresholdClass overrides",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-30T15:02:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5225",
       "number": 5225,
       "title": "Update issue template version dropdowns",
@@ -103451,7 +103601,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-30T14:32:53.554Z",
+  "lastUpdated": "2026-09-30T20:29:39.039Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
