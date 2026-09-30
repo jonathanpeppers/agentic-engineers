@@ -1,6 +1,286 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5225",
+      "number": 5225,
+      "title": "Update issue template version dropdowns",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-30T14:14:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5220",
+      "number": 5220,
+      "title": "[docs] docs: regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-30T14:13:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38825",
+      "number": 38825,
+      "title": "[Essentials] Add ShareTextRequest.PreviewImage for share sheet previews",
+      "repo": "dotnet/maui",
+      "author": "edgiardina",
+      "mergedAt": "2026-09-30T13:56:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12949",
+      "number": 12949,
+      "title": "[native] Clarify normal FastDev assembly loading logs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-30T13:24:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12952",
+      "number": 12952,
+      "title": "Bump external/android-api-docs from `91b6d9a` to `3efe740`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-09-30T13:15:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12954",
+      "number": 12954,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20260930103306861 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-09-30T13:12:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12953",
+      "number": 12953,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15515362",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-30T13:11:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12951",
+      "number": 12951,
+      "title": "[fix-finder] Remove null suppressions from SDK path getters",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-09-30T11:58:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39012",
+      "number": 39012,
+      "title": "[inflight/current] [Mac] Fix VoiceOver announcement for actionable CollectionView items",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-30T11:04:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37674",
+      "number": 37674,
+      "title": "[Mac] Fix VoiceOver announcement for actionable CollectionView items",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-09-30T10:50:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38804",
+      "number": 38804,
+      "title": "Fix ShellItem.MenuItem memory leak caused by implicit wrapper",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-09-30T10:46:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38842",
+      "number": 38842,
+      "title": "[XSG] Make global xmlns generation deterministic",
+      "repo": "dotnet/maui",
+      "author": "noiseonwires",
+      "mergedAt": "2026-09-30T10:20:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39000",
+      "number": 39000,
+      "title": "[net11.0] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-30T10:11:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38662",
+      "number": 38662,
+      "title": "[iOS] Replace managed KVO observers with a Swift-owned observation to fix a crash in -[UIView dealloc] on iOS 17",
+      "repo": "dotnet/maui",
+      "author": "albyrock87",
+      "mergedAt": "2026-09-30T10:03:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39001",
+      "number": 39001,
+      "title": "[release/11.0.1xx-rc2] Update dependencies from dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-09-30T10:00:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39003",
+      "number": 39003,
+      "title": "[automated] Merge branch 'net11.0' => 'release/11.0.1xx-rc2'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-09-30T10:00:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26784",
+      "number": 26784,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 15513310",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-09-30T07:52:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26767",
+      "number": 26767,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20260928180231785 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-09-30T07:52:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26776",
+      "number": 26776,
+      "title": "[ApiDiff] Bump stable ApiDiff NuGet reference packages",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-09-30T07:50:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/497",
+      "number": 497,
+      "title": "Fix AppKit crash when quitting with open windows",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-09-30T07:45:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12945",
+      "number": 12945,
+      "title": "[ci] Validate region-only fixes without a full build",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-30T07:21:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12854",
+      "number": 12854,
+      "title": "Remove native FastTiming",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-09-30T06:53:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5086",
+      "number": 5086,
+      "title": "Fix empty font manager on Linux NoDependencies builds (#4303)",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-09-30T05:42:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/770",
+      "number": 770,
+      "title": "Auto Publish – main to live - 2026-09-30 05:01 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-09-30T05:25:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5128",
+      "number": 5128,
+      "title": "Update issue template version dropdowns",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-09-30T05:02:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5213",
+      "number": 5213,
+      "title": "Ignore template comments in release issue reconciliation",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-30T04:33:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26729",
+      "number": 26729,
+      "title": "[devops] Skip building pull requests that only change automatic translations.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-30T04:18:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/364",
+      "number": 364,
+      "title": "Restore directory-scanning default font manager for no-fontconfig builds (mono/SkiaSharp#4303)",
+      "repo": "mono/skia",
+      "author": "ramezgerges",
+      "mergedAt": "2026-09-30T04:11:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5185",
       "number": 5185,
       "title": "Document chat-driven publishing and improve release build selection",
@@ -103171,7 +103451,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-30T03:44:22.133Z",
+  "lastUpdated": "2026-09-30T14:32:53.554Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
