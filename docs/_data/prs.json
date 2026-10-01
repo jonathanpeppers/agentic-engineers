@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12974",
+      "number": 12974,
+      "title": "[release/11.0.1xx] Keep generated AAPT2 rules in R8 inputs on incremental builds",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-01T19:42:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12927",
+      "number": 12927,
+      "title": "Remove legacy Android tooling assemblies",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T19:38:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12960",
+      "number": 12960,
+      "title": "[release/11.0.1xx] Reject legacy AOT disable on CoreCLR",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T19:37:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/787",
+      "number": 787,
+      "title": "Import official Android.Net.Eap documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T19:33:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12976",
+      "number": 12976,
+      "title": "[xabt] Skip legacy scans for trimmable typemaps",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T19:19:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/612",
+      "number": 612,
+      "title": "Improve skill evaluation workflow",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-01T19:01:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5245",
+      "number": 5245,
+      "title": "Order Skia sync milestone before optional branch input",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-01T18:03:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12964",
+      "number": 12964,
+      "title": "[fix-finder] [androidsdk] Remove null suppression from SDK filtering",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-01T18:02:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp.Extended/pull/441",
+      "number": 441,
+      "title": "Delete .github/workflows/docs-deploy-fork-pr.yml",
+      "repo": "mono/SkiaSharp.Extended",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-01T17:53:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5208",
+      "number": 5208,
+      "title": "Integrate m155 core fork cleanup after Windows and Tizen updates",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-01T16:52:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/385",
+      "number": 385,
+      "title": "Restore upstream m155 compiler constructs on current Skia integration tip",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-01T16:42:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26672",
+      "number": 26672,
+      "title": "[Foundation] Reuse managed wrappers during constructor chaining",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-01T16:19:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26727",
+      "number": 26727,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-01T15:57:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26778",
+      "number": 26778,
+      "title": "[dotnet] Cache ReadyToRun input hashes across incremental builds",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-01T15:27:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26719",
+      "number": 26719,
+      "title": "[cecil-tests] Validate that types don't claim to be supported on platforms where they don't exist",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-01T15:24:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/800",
       "number": 800,
       "title": "Import Android.Icu.Math enum and comparison documentation",
@@ -104201,7 +104351,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-01T15:03:09.425Z",
+  "lastUpdated": "2026-10-01T20:46:10.559Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
