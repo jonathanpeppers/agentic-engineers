@@ -1,6 +1,246 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/782",
+      "number": 782,
+      "title": "Import official Android.Service.Settings.Preferences documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T03:36:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/780",
+      "number": 780,
+      "title": "Import official XML documentation for Java.Time.Zone",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T03:33:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/775",
+      "number": 775,
+      "title": "Import official XML documentation for Android.Security",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T02:48:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/773",
+      "number": 773,
+      "title": "Import official XML documentation for Android.Telephony.Euicc",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T02:48:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/772",
+      "number": 772,
+      "title": "Import official XML documentation for Android.Media.Midi",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T02:48:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/778",
+      "number": 778,
+      "title": "Import official XML documentation for Android.Ranging.Ble.CS",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T02:47:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/777",
+      "number": 777,
+      "title": "Import official documentation for Android.AdServices.Common",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T02:47:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/779",
+      "number": 779,
+      "title": "Import official Android.Security.Identity XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T00:43:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/776",
+      "number": 776,
+      "title": "Import official Android.App.Wallpaper XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T00:42:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12944",
+      "number": 12944,
+      "title": "[Xamarin.Android.Build.Tasks] Remove obsolete Mono build code",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T00:04:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5235",
+      "number": 5235,
+      "title": "Enable Tizen 10 GCC 14.2 builds and packaging on m155",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-30T23:42:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/387",
+      "number": 387,
+      "title": "Enable Tizen 10 GCC 14.2 on the m155 Skia fork",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-09-30T22:47:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39036",
+      "number": 39036,
+      "title": "Use GPT-6.1 Sol for gh-aw workflows",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-30T21:56:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39031",
+      "number": 39031,
+      "title": "[release/11.0.1xx-rc2] Bump SDK to 11.0.100-rc.2.26478.115",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-09-30T21:56:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/766",
+      "number": 766,
+      "title": "Add Android.AdServices.Measurement documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-30T21:46:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26615",
+      "number": 26615,
+      "title": "[bgen] Route output through IToolLog",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-30T21:37:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26764",
+      "number": 26764,
+      "title": "[tests] Test workload package signing-list coverage",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-30T21:37:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26701",
+      "number": 26701,
+      "title": "[AppKit] Correct callback nullability. Fixes #26678",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-30T21:37:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26773",
+      "number": 26773,
+      "title": "[HandleSafety] Fix the CoreGraphics.CGColorSpace.Create* known failures.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-30T21:36:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38324",
+      "number": 38324,
+      "title": "Add /review performance GitHub Agentic Workflow for PR benchmarks",
+      "repo": "dotnet/maui",
+      "author": "morning4coffe-dev",
+      "mergedAt": "2026-09-30T21:17:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26786",
+      "number": 26786,
+      "title": "[tools] Skip scanning the platform assembly in the InlineDlfcnMethods step.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-09-30T21:14:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1552",
+      "number": 1552,
+      "title": "Stable dependency updates for 2026-09-28",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-30T21:03:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12958",
+      "number": 12958,
+      "title": "[release/11.0.1xx] Use stable 37.2.x branding",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-09-30T20:51:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1554",
+      "number": 1554,
+      "title": "Bind stable Camera Viewfinder Compose and View artifacts",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-09-30T20:46:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12916",
       "number": 12916,
       "title": "Migrate debugging tasks off legacy Android tooling",
@@ -103601,7 +103841,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-09-30T20:29:39.039Z",
+  "lastUpdated": "2026-10-01T03:50:53.855Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
