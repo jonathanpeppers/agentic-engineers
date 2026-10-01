@@ -1,6 +1,366 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/800",
+      "number": 800,
+      "title": "Import Android.Icu.Math enum and comparison documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T14:44:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/802",
+      "number": 802,
+      "title": "Import official health unit comparable documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T14:44:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/783",
+      "number": 783,
+      "title": "Import official Android.Net.Wifi.Rtt XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T13:54:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12967",
+      "number": 12967,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15531000",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-01T13:43:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12973",
+      "number": 12973,
+      "title": "[ci] Remove Mono coverage",
+      "repo": "dotnet/android",
+      "author": "kotlarmilos",
+      "mergedAt": "2026-10-01T13:36:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26683",
+      "number": 26683,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-01T13:20:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/570",
+      "number": 570,
+      "title": "build(deps-dev): Bump markdown-it from 14.3.0 to 14.3.2 in /src/DevFlow/js",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-10-01T13:12:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/568",
+      "number": 568,
+      "title": "build(deps-dev): Bump brace-expansion from 5.0.9 to 5.0.12 in /src/DevFlow/js",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-10-01T12:56:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/611",
+      "number": 611,
+      "title": "build(deps-dev): Bump hono from 4.13.5 to 4.13.9 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-10-01T12:56:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/567",
+      "number": 567,
+      "title": "build(deps-dev): Bump ip-address from 10.7.0 to 10.7.2 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-10-01T12:53:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/569",
+      "number": 569,
+      "title": "build(deps-dev): Bump undici from 7.29.0 to 7.29.1 in /src/DevFlow/js",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-10-01T12:53:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/610",
+      "number": 610,
+      "title": "build(deps-dev): Bump @grpc/grpc-js from 1.14.4 to 1.14.5 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-10-01T12:52:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5238",
+      "number": 5238,
+      "title": "Modernize Windows native toolchains independently of Skia core changes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-01T12:50:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/511",
+      "number": 511,
+      "title": "Fix \"sdkmanager not found. Run BootstrapAsync first.\" on Windows (#366)",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-10-01T12:39:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/573",
+      "number": 573,
+      "title": "Fix WPF and GTK Essentials static facade registration",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-01T12:36:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/571",
+      "number": 571,
+      "title": "Fix AppKit dynamic layout child command routing",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-01T12:35:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/516",
+      "number": 516,
+      "title": "Add a cross-platform AI playground for chat, embeddings, and images",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-01T12:31:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/607",
+      "number": 607,
+      "title": "Fix malformed JSON when a primitive follows a partial value",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-01T12:26:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39016",
+      "number": 39016,
+      "title": "[net11.0] Add opt-in Move support to drag and drop",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-01T10:53:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39034",
+      "number": 39034,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-01T10:47:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39032",
+      "number": 39032,
+      "title": "Don't set UseInterpreter for iOS or Mac Catalyst.",
+      "repo": "dotnet/maui",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-01T10:43:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39037",
+      "number": 39037,
+      "title": "Restore expandable /review performance comments",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-01T10:41:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26791",
+      "number": 26791,
+      "title": "[Network] Document ten network state and result enums",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-01T09:30:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/799",
+      "number": 799,
+      "title": "Import official Android.App.AppSearch.Observers documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T08:40:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/796",
+      "number": 796,
+      "title": "Import safe BLE RSSI ranging XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T08:10:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/790",
+      "number": 790,
+      "title": "Import official IKE exception enum documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T06:24:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26794",
+      "number": 26794,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 15525310",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-01T06:18:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/792",
+      "number": 792,
+      "title": "Import official Android.Gestures return documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T05:45:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/795",
+      "number": 795,
+      "title": "Auto Publish – main to live - 2026-10-01 05:01 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-10-01T05:37:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/791",
+      "number": 791,
+      "title": "Import official Android.OS.Health TimerStat documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T05:14:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/781",
+      "number": 781,
+      "title": "Add official-source Android.Net.IpSec.Ike documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T05:13:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/789",
+      "number": 789,
+      "title": "Import official Android.Service.Controls.Actions documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T05:05:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/771",
+      "number": 771,
+      "title": "Add official XML documentation for Android.Service.Dreams",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T04:21:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/774",
+      "number": 774,
+      "title": "Import official XML documentation for Android.Service.Controls",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T04:12:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/784",
+      "number": 784,
+      "title": "Import exact Android.Content.OM parcel documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T03:54:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/785",
+      "number": 785,
+      "title": "Import official Android.Locations.Provider documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T03:54:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/782",
       "number": 782,
       "title": "Import official Android.Service.Settings.Preferences documentation",
@@ -103841,7 +104201,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-01T03:50:53.855Z",
+  "lastUpdated": "2026-10-01T15:03:09.425Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
