@@ -1,6 +1,346 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/614",
+      "number": 614,
+      "title": "Fix DevFlow property reads through hidden MAUI handler properties",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T14:04:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/578",
+      "number": 578,
+      "title": "Render native AppKit Shell tabs",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T13:45:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/594",
+      "number": 594,
+      "title": "Fix GTK window minimum size and resize reflow",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T13:45:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12975",
+      "number": 12975,
+      "title": "[xabt] Keep AAPT2 rules under the captured working directory",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T13:34:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12977",
+      "number": 12977,
+      "title": "[release/11.0.1xx] Bump to dotnet/android-api-docs/main@3efe740",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T13:31:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12982",
+      "number": 12982,
+      "title": "Bump external/android-api-docs from `3efe740` to `ba8785f`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-02T13:29:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12987",
+      "number": 12987,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261002103225025 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-02T13:27:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/586",
+      "number": 586,
+      "title": "Fix WPF and AppKit Shell section switching",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T13:08:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/593",
+      "number": 593,
+      "title": "Fix GTK Picker selection during item replacement",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T13:07:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/584",
+      "number": 584,
+      "title": "Fix WPF CollectionView item accessible names",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T12:47:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/500",
+      "number": 500,
+      "title": "Add reusable Java/Kotlin Android bindings skill",
+      "repo": "dotnet/maui-labs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T12:46:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/613",
+      "number": 613,
+      "title": "Enforce AI disclosure on documentation workflow issues and PRs",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T12:41:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/576",
+      "number": 576,
+      "title": "Fix GTK Shell section pushed-page rendering",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T12:40:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/585",
+      "number": 585,
+      "title": "[WPF] Refresh Shell navigation after runtime item changes",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T12:19:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/575",
+      "number": 575,
+      "title": "Restore WPF, GTK and AppKit dialog registration on MAUI 10.0.70+",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T12:18:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/527",
+      "number": 527,
+      "title": "Support reflection-disabled Native AOT in DevFlow transports and logging",
+      "repo": "dotnet/maui-labs",
+      "author": "davidortinau",
+      "mergedAt": "2026-10-02T12:00:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/528",
+      "number": 528,
+      "title": "Fix CLI recording device selection and clarify DevFlow tooling guidance",
+      "repo": "dotnet/maui-labs",
+      "author": "davidortinau",
+      "mergedAt": "2026-10-02T11:55:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/574",
+      "number": 574,
+      "title": "Fix AppKit Picker showing an item when unselected",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T11:51:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38750",
+      "number": 38750,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 1095: Build ID 3093589",
+      "repo": "dotnet/maui",
+      "author": "dotnet-oneloc-localization",
+      "mergedAt": "2026-10-02T11:49:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39077",
+      "number": 39077,
+      "title": "Fix ARGB value for MediumPurple color",
+      "repo": "dotnet/maui",
+      "author": "TomasGnG",
+      "mergedAt": "2026-10-02T11:37:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/583",
+      "number": 583,
+      "title": "[WPF] Keep native window titles owned by Window.Title",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T11:36:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/581",
+      "number": 581,
+      "title": "Fix WPF alert button labels and one-button dialogs",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T11:35:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/580",
+      "number": 580,
+      "title": "Fix WPF CollectionView updates from observable sources",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T11:34:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/579",
+      "number": 579,
+      "title": "Fix WPF MauiAsset logical paths in build and publish output",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T11:34:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/577",
+      "number": 577,
+      "title": "Keep GTK async UI continuations on the main thread",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T11:33:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/572",
+      "number": 572,
+      "title": "Fix AppKit bundling of MAUI images, fonts, and raw assets",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-02T11:32:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39066",
+      "number": 39066,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-02T11:24:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39063",
+      "number": 39063,
+      "title": "[Android] CollectionView GridItemsLayout: resolve span index and row from the items source instead of walking every position",
+      "repo": "dotnet/maui",
+      "author": "unrateddi",
+      "mergedAt": "2026-10-02T11:08:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/797",
+      "number": 797,
+      "title": "Import official Android.App.Blob parcel and expiry documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T10:28:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/786",
+      "number": 786,
+      "title": "Import official Android.Nfc.CardEmulators documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T09:22:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/793",
+      "number": 793,
+      "title": "Enrich Android.Media.Browse subscription documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T08:34:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/788",
+      "number": 788,
+      "title": "Import official XML documentation for Android.Service.Controls.Templates",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T07:13:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12978",
+      "number": 12978,
+      "title": "[build, native] Remove unused non-docs Git submodules",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T07:10:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/814",
+      "number": 814,
+      "title": "Auto Publish – main to live - 2026-10-02 05:01 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-10-02T05:23:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/810",
       "number": 810,
       "title": "Import audited Android.Media.TV.Ads documentation",
@@ -104451,7 +104791,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-02T03:48:36.591Z",
+  "lastUpdated": "2026-10-02T14:25:02.623Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
