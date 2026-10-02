@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26827",
+      "number": 26827,
+      "title": "[release/11.0.1xx] [tests] Prevent concurrent MonoTouch.Dialog builds. Fixes #26688",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-02T20:01:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26828",
+      "number": 26828,
+      "title": "[release/11.0.1xx] [msbuild] Discard any simulators we get from devicectl in the GetAvailableDevices task.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-02T20:01:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26812",
+      "number": 26812,
+      "title": "[github] Update & recompile agentic workflows.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-02T19:56:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26814",
+      "number": 26814,
+      "title": "[Network] Document ten Network protocol and interface enums",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-02T19:55:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/819",
+      "number": 819,
+      "title": "Add Android.Graphics.Text enum summaries",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T18:54:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/817",
+      "number": 817,
+      "title": "Import audited PDF content DescribeContents documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T18:53:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-samples/pull/11",
+      "number": 11,
+      "title": "Add ComposerIcons sample for .icon (Icon Composer) app icons",
+      "repo": "dotnet/macios-samples",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-02T18:52:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39082",
+      "number": 39082,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-02T18:22:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39083",
+      "number": 39083,
+      "title": "[Maps] Update the pins mapper once per ItemsSource change",
+      "repo": "dotnet/maui",
+      "author": "kevin68",
+      "mergedAt": "2026-10-02T17:31:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39092",
+      "number": 39092,
+      "title": "Wait for SwipeView command result before UI assertion",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-02T17:25:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/818",
+      "number": 818,
+      "title": "Add Android.Media.Metrics session and editing builder documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T16:56:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/816",
+      "number": 816,
+      "title": "Document ten AppFunctions enabled-state and error enum fields",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T16:55:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/815",
+      "number": 815,
+      "title": "Import ten Android.Mtp EventCode summaries",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T15:43:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/194",
+      "number": 194,
+      "title": "[main] Update dependencies from dotnet/arcade",
+      "repo": "dotnet/macios-devtools",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-02T14:54:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26803",
+      "number": 26803,
+      "title": "[Network] Document ten additional Network enumerations",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-02T14:54:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26807",
+      "number": 26807,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 15536063",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-02T14:31:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26808",
+      "number": 26808,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20261001175219662 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-10-02T14:31:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26809",
+      "number": 26809,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20261002054923281 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-10-02T14:30:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/614",
       "number": 614,
       "title": "Fix DevFlow property reads through hidden MAUI handler properties",
@@ -104791,7 +104971,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-02T14:25:02.623Z",
+  "lastUpdated": "2026-10-02T20:17:56.752Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
