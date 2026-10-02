@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/810",
+      "number": 810,
+      "title": "Import audited Android.Media.TV.Ads documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-02T01:24:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12847",
+      "number": 12847,
+      "title": "[runtime] Extend JNI remapping support",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-01T22:35:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/804",
+      "number": 804,
+      "title": "Import official Android.Net.Wifi.Hotspot2.Pps documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T22:14:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39056",
+      "number": 39056,
+      "title": "Stabilize CollectionView header and Shell flyout UI tests",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-01T21:59:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5236",
+      "number": 5236,
+      "title": "Add focused MSBuild package-consumer tests and a post-package CI stage",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-01T21:54:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/805",
+      "number": 805,
+      "title": "Import official Android.Companion.Virtual documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T21:50:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/803",
+      "number": 803,
+      "title": "Import official Android.AdServices.Topics builder documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T21:35:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/769",
+      "number": 769,
+      "title": "Add Android.App.Admin XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T21:31:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/794",
+      "number": 794,
+      "title": "Import official Android.Util.Proto documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T21:30:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/798",
+      "number": 798,
+      "title": "Import audited Android.Service.QuickSettings documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-01T21:20:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12974",
       "number": 12974,
       "title": "[release/11.0.1xx] Keep generated AAPT2 rules in R8 inputs on incremental builds",
@@ -104351,7 +104451,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-01T20:46:10.559Z",
+  "lastUpdated": "2026-10-02T03:48:36.591Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
