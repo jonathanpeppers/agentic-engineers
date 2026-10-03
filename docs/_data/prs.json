@@ -1,6 +1,236 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39113",
+      "number": 39113,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-03T18:33:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39096",
+      "number": 39096,
+      "title": "Stop agentic workflows filing [aw] Failed jobs issues they opted out of",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-03T18:29:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/809",
+      "number": 809,
+      "title": "Import verified Android.Health.Connect.ChangeLog documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T17:44:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/808",
+      "number": 808,
+      "title": "Import official Android.App.Slices documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T17:43:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39111",
+      "number": 39111,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-03T17:10:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39095",
+      "number": 39095,
+      "title": "Fix locale-dependent crash in issue-triage query-issues.ps1",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-03T16:46:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/821",
+      "number": 821,
+      "title": "Import Android.Hardware.Lights documentation fragments (Tracks #119)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T15:54:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/820",
+      "number": 820,
+      "title": "Import Android.Net.Wifi.P2p.Nsd reference fragments",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T15:54:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/828",
+      "number": 828,
+      "title": "docs: import MBMS DescribeContents documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T15:22:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/827",
+      "number": 827,
+      "title": "Document ContentCapture Parcelable describeContents",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T15:22:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26821",
+      "number": 26821,
+      "title": "[release/11.0.1xx] [dotnet] Cache ReadyToRun input hashes across incremental builds",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T15:11:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/829",
+      "number": 829,
+      "title": "Document HostUsiVersion descriptor contents",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T15:06:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/826",
+      "number": 826,
+      "title": "Import Quick Access Wallet DescribeContents documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T15:04:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26820",
+      "number": 26820,
+      "title": "[release/11.0.1xx] [tools] Skip scanning the platform assembly in the InlineDlfcnMethods step.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T14:56:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26818",
+      "number": 26818,
+      "title": "[release/10.0.1xx] [ApiDiff] Bump stable ApiDiff NuGet reference packages",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T14:46:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26825",
+      "number": 26825,
+      "title": "[release/11.0.1xx] [registrar] Preserve timestamps of unchanged registrar type maps",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T14:28:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/823",
+      "number": 823,
+      "title": "Add TV interactive enum summaries",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T14:27:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/822",
+      "number": 822,
+      "title": "Import carrier receive and send result summaries",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T14:27:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26819",
+      "number": 26819,
+      "title": "[release/10.0.1xx] [CI] Build using macOS 27.0 Golden Gate",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T14:24:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26824",
+      "number": 26824,
+      "title": "[release/11.0.1xx] [build] Avoid registrar compilation for MVID-only edits. Fixes #26728",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T13:53:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/812",
+      "number": 812,
+      "title": "Import verified Android.Service.Chooser documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T13:50:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26815",
+      "number": 26815,
+      "title": "[release/11.0.1xx] Bump mlaunch.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T13:36:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26822",
+      "number": 26822,
+      "title": "[release/11.0.1xx] [ApiDiff] Bump stable ApiDiff NuGet reference packages",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T13:08:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26797",
       "number": 26797,
       "title": "[Network] Fix NWBrowseResult interface enumeration callback ABI",
@@ -105151,7 +105381,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-03T12:59:57.430Z",
+  "lastUpdated": "2026-10-03T18:58:07.144Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
