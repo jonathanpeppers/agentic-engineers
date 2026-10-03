@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26832",
+      "number": 26832,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20261002175118371 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-10-02T20:30:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26827",
       "number": 26827,
       "title": "[release/11.0.1xx] [tests] Prevent concurrent MonoTouch.Dialog builds. Fixes #26688",
@@ -104971,7 +104981,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-02T20:17:56.752Z",
+  "lastUpdated": "2026-10-03T03:33:07.828Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
