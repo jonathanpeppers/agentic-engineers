@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26797",
+      "number": 26797,
+      "title": "[Network] Fix NWBrowseResult interface enumeration callback ABI",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T12:37:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26795",
+      "number": 26795,
+      "title": "[CoreFoundation] Fix DispatchQueue.Submit callback state lifetime",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T12:28:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26796",
+      "number": 26796,
+      "title": "[Network] Retain borrowed content context metadata during callbacks",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T12:26:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26798",
+      "number": 26798,
+      "title": "[Network] Correct NWEstablishmentReport enumeration callback return values.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T12:25:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26800",
+      "number": 26800,
+      "title": "[Network] Fix WebSocket response header bindings",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T12:25:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26810",
+      "number": 26810,
+      "title": "[registrar] Detect open generic proxy types correctly",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T12:24:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26816",
+      "number": 26816,
+      "title": "Bump mlaunch. Fixes #26674.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T12:23:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26833",
+      "number": 26833,
+      "title": "[scripts] Recognize inherited backport commits",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T12:23:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26835",
+      "number": 26835,
+      "title": "[release/11.0.1xx] [Foundation] Reuse managed wrappers during constructor chaining",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-03T12:20:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/811",
+      "number": 811,
+      "title": "Import safe Android.Ranging.Oob reference documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T11:27:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38710",
+      "number": 38710,
+      "title": "Add maintainer-triggered issue regression tracing",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-03T11:24:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39094",
+      "number": 39094,
+      "title": "Fix stale GC assertion aggregation after bounded collection waits",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-03T11:16:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/807",
+      "number": 807,
+      "title": "Import official Android.App.Assist XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T05:50:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/801",
+      "number": 801,
+      "title": "Import official Android.Ranging.Raw documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T05:32:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/825",
+      "number": 825,
+      "title": "Auto Publish – main to live - 2026-10-03 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-10-03T05:19:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/824",
+      "number": 824,
+      "title": "Import Wi-Fi RTT DescribeContents documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T04:45:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/806",
+      "number": 806,
+      "title": "Import official Android.App.People XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T03:34:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26832",
       "number": 26832,
       "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20261002175118371 to main",
@@ -104981,7 +105151,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-03T03:33:07.828Z",
+  "lastUpdated": "2026-10-03T12:59:57.430Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
