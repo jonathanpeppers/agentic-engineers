@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39120",
+      "number": 39120,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-04T11:31:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/830",
+      "number": 830,
+      "title": "Auto Publish – main to live - 2026-10-04 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-10-04T05:18:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-libraries/pull/1555",
       "number": 1555,
       "title": "[ci] Enable Default Deny network isolation",
@@ -105461,7 +105481,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-04T04:01:52.946Z",
+  "lastUpdated": "2026-10-04T13:38:38.881Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
