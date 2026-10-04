@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/547",
+      "number": 547,
+      "title": "Isolate profiling build outputs per session",
+      "repo": "dotnet/maui-labs",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-04T15:10:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/39120",
       "number": 39120,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -105481,7 +105491,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-04T13:38:38.881Z",
+  "lastUpdated": "2026-10-04T18:59:20.961Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
