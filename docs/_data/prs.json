@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-libraries/pull/1555",
+      "number": 1555,
+      "title": "[ci] Enable Default Deny network isolation",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T23:37:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libzipsharp/pull/165",
+      "number": 165,
+      "title": "Enable default-deny networking for the 1ES pipeline",
+      "repo": "dotnet/android-libzipsharp",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-03T23:36:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39115",
+      "number": 39115,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-03T22:53:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39107",
+      "number": 39107,
+      "title": "Increase encoded-URL WebView navigation timeout",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-03T22:22:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12983",
+      "number": 12983,
+      "title": "[Microsoft.Android.Build.BaseTasks] Remove unused K4os reference",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-03T20:47:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12969",
+      "number": 12969,
+      "title": "[xabt] Recover missing AAPT2 keep rules from incremental caches",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-03T20:29:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12962",
+      "number": 12962,
+      "title": "[Microsoft.Android.Build.Tasks] Write assembly-store ELF libraries in managed code",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-03T20:22:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12889",
+      "number": 12889,
+      "title": "Remove legacy LLVM IR type map build pipeline",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-03T20:07:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/39113",
       "number": 39113,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -105381,7 +105461,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-03T18:58:07.144Z",
+  "lastUpdated": "2026-10-04T04:01:52.946Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
