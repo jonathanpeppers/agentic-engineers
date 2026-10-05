@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26823",
+      "number": 26823,
+      "title": "[release/11.0.1xx] [CI] Build using macOS 27.0 Golden Gate",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-04T23:17:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39130",
+      "number": 39130,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-04T22:39:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39129",
+      "number": 39129,
+      "title": "Shell UI tests: Keep flyout height reference visible",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-04T22:25:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12827",
+      "number": 12827,
+      "title": "[MSBuild] Add retained typemap rule generation pipeline",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-04T20:43:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/547",
       "number": 547,
       "title": "Isolate profiling build outputs per session",
@@ -105491,7 +105531,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-04T18:59:20.961Z",
+  "lastUpdated": "2026-10-05T03:47:00.391Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
