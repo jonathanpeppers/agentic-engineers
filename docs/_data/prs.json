@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/12989",
+      "number": 12989,
+      "title": "[release/11.0.1xx] [xabt] Keep AAPT2 rules under the captured working directory",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-05T16:26:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5272",
+      "number": 5272,
+      "title": "Add local-only workload package inventory helper",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-05T16:03:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13001",
+      "number": 13001,
+      "title": "[native] Remove unused debugger, netlink, and bundle logging",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-05T16:00:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12761",
+      "number": 12761,
+      "title": "[tests] Enable compiler warnings-as-errors for Mono.Android tests",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-05T15:59:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12991",
+      "number": 12991,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15566374",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-05T15:26:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12980",
+      "number": 12980,
+      "title": "Bump com.android.tools:r8 from 9.4.24 to 9.4.28 in /src/r8",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-05T15:23:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12996",
+      "number": 12996,
+      "title": "Bump external/android-api-docs from `ba8785f` to `e0c4842`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-05T15:21:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5259",
+      "number": 5259,
+      "title": "Allow Skia sync safe outputs to target release branches",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-10-05T14:56:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5260",
+      "number": 5260,
+      "title": "Allow release-notes validation commands in workflow",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-10-05T14:56:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26826",
+      "number": 26826,
+      "title": "[release/11.0.1xx] [registrar] Cache registrar callback and protocol method lookups",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-05T14:05:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12961",
+      "number": 12961,
+      "title": "[build] Remove Newtonsoft.Json dependencies",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-05T12:33:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39139",
+      "number": 39139,
+      "title": "[net11.0] Update dependencies from dnceng/internal/dotnet-optimization",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-05T11:14:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39141",
+      "number": 39141,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-05T11:12:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39128",
+      "number": 39128,
+      "title": "UI tests: Wait for Options before checking Editor vertical alignment",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-05T11:08:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12890",
+      "number": 12890,
+      "title": "Remove legacy native typemap runtime support",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-05T06:37:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26823",
       "number": 26823,
       "title": "[release/11.0.1xx] [CI] Build using macOS 27.0 Golden Gate",
@@ -105531,7 +105681,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-05T03:47:00.391Z",
+  "lastUpdated": "2026-10-05T16:44:44.962Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
