@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13013",
+      "number": 13013,
+      "title": "[Mono.Android] Default to SocketsHttpHandler in .NET 12",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-06T12:38:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12848",
+      "number": 12848,
+      "title": "[Xamarin.Android.Build.Tasks] Generate R8 JNI remapping tables",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-06T11:49:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26839",
+      "number": 26839,
+      "title": "[xcode27.1] Merge 'release/10.0.1xx' into xcode27.1",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-06T11:37:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39153",
+      "number": 39153,
+      "title": "[Android] Don't throw when a PanUpdated handler removes the view as the pan starts",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-10-06T11:07:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39173",
+      "number": 39173,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-06T11:06:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39147",
+      "number": 39147,
+      "title": "Automate CI-fix Azure DevOps validation",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-10-06T10:38:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39137",
+      "number": 39137,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-06T10:35:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39171",
+      "number": 39171,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-06T10:32:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39152",
+      "number": 39152,
+      "title": "[iOS] Ignore a pending Shell back navigation after the section renderer is disposed",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-10-06T10:32:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39151",
+      "number": 39151,
+      "title": "[Android] Keep CarouselView Position when CurrentItem isn't in the ItemsSource",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-10-06T10:31:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39154",
+      "number": 39154,
+      "title": "Fix Helix localization tests to use packaged template data",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-10-06T10:28:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13007",
+      "number": 13007,
+      "title": "Bump external/android-api-docs from `e0c4842` to `c0e9d57`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-06T10:10:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12894",
+      "number": 12894,
+      "title": "Drop JVM-only Java.Interop test runs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-06T10:09:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13011",
+      "number": 13011,
+      "title": "[ci] Remove redundant CoreCLRTrimmable test lane",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-06T10:07:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/625",
+      "number": 625,
+      "title": "build(deps-dev): Bump proxy-addr from 2.0.7 to 2.0.8 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-10-06T09:29:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12970",
+      "number": 12970,
+      "title": "[xabt] Route NativeAOT linking and native stripping through NDK",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-06T09:19:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/405",
+      "number": 405,
+      "title": "Prepare Xcode 27 builds for Essentials AI",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-06T08:58:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12926",
+      "number": 12926,
+      "title": "[skills] Improve CI flake triage and targeted retries",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-06T06:52:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/12963",
       "number": 12963,
       "title": "[Xamarin.Android.Build.Tasks] Remove LibZipSharp",
@@ -105991,7 +106171,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-06T04:35:06.581Z",
+  "lastUpdated": "2026-10-06T14:41:55.751Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
