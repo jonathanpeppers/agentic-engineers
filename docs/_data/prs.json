@@ -1,6 +1,216 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13008",
+      "number": 13008,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15580123",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-06T20:10:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13017",
+      "number": 13017,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261006103218074 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-06T18:17:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13018",
+      "number": 13018,
+      "title": "[Java.Interop] Remove reflection-backed JNI managers",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-06T18:15:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39191",
+      "number": 39191,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-06T18:08:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39065",
+      "number": 39065,
+      "title": "Add /issue triage agentic workflow for manual issue labels",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-06T17:21:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39099",
+      "number": 39099,
+      "title": "Restore automatic expiration of agentic workflow issues",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-06T17:20:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39121",
+      "number": 39121,
+      "title": "Issue regression tracing: Bound evidence and preflight version gaps",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-06T17:20:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38193",
+      "number": 38193,
+      "title": "[Testing] Refactoring Feature Matrix UITest Cases for SwipeView Control",
+      "repo": "dotnet/maui",
+      "author": "LogishaSelvarajSF4525",
+      "mergedAt": "2026-10-06T17:13:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39145",
+      "number": 39145,
+      "title": "[Testing] Preserve build failures when binlogs end inside a GUID",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-06T17:10:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39175",
+      "number": 39175,
+      "title": "Select a Picker SelectedItem that was set before its ItemsSource",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-10-06T17:10:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39186",
+      "number": 39186,
+      "title": "Throw a clear exception when a Shell route doesn't create a Page",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-10-06T17:05:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13015",
+      "number": 13015,
+      "title": "[Mono.Android] Release transferred JNI inputs on exceptions",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-06T16:13:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5287",
+      "number": 5287,
+      "title": "[skia-sync] Merge upstream chrome/m152 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-06T15:35:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5294",
+      "number": 5294,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.152.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-06T15:32:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5265",
+      "number": 5265,
+      "title": "[skia-sync] Merge upstream chrome/m153 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-06T15:28:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5253",
+      "number": 5253,
+      "title": "[skia-sync] Merge upstream chrome/m154 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-06T15:27:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13014",
+      "number": 13014,
+      "title": "[tests] Complete GC bridge accounting in JNI leak measurements",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-06T15:15:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/395",
+      "number": 395,
+      "title": "[skia-sync] Merge upstream chrome/m152",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-06T15:00:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5286",
+      "number": 5286,
+      "title": "[skia-sync] Merge upstream chrome/m155 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-06T14:55:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5258",
+      "number": 5258,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-06T14:52:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/394",
+      "number": 394,
+      "title": "[skia-sync] Merge upstream chrome/m155",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-06T14:50:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13013",
       "number": 13013,
       "title": "[Mono.Android] Default to SocketsHttpHandler in .NET 12",
@@ -106171,7 +106381,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-06T14:41:55.751Z",
+  "lastUpdated": "2026-10-06T20:45:57.997Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
