@@ -1,6 +1,286 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/582",
+      "number": 582,
+      "title": "Fix GTK ContentView child transforms",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-07T14:13:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13024",
+      "number": 13024,
+      "title": "[Xamarin.Android.Build.Tasks] Remove typemap implementation selector",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-07T14:09:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/629",
+      "number": 629,
+      "title": "Fix chat model IDs and streaming transcript boundaries",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-07T13:38:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/599",
+      "number": 599,
+      "title": "GTK4: fix double free when scaling or rotating off-origin views",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-07T13:23:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/595",
+      "number": 595,
+      "title": "Fix WPF registered font and glyph resolution",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-07T13:05:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/617",
+      "number": 617,
+      "title": "Fix WPF FlexLayout measurement dispatch",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-07T13:01:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/619",
+      "number": 619,
+      "title": "Fix DevFlow percent-encoded HTTP route parameters",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-07T12:38:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/638",
+      "number": 638,
+      "title": "build(deps-dev): Bump @modelcontextprotocol/sdk from 1.30.0 to 1.31.0 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-10-07T12:37:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/615",
+      "number": 615,
+      "title": "Fix GTK window and page allocation notifications",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-07T12:36:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/596",
+      "number": 596,
+      "title": "Fix WPF Shell native tab navigation with item templates",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-07T12:36:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/616",
+      "number": 616,
+      "title": "Fix WPF and GTK filesystem directory creation",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-07T12:34:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12999",
+      "number": 12999,
+      "title": "[main] Update dependencies from dotnet/dotnet, microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-07T12:12:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13026",
+      "number": 13026,
+      "title": "[tests] Remove duplicate first-build PDB check",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-07T12:01:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38367",
+      "number": 38367,
+      "title": "[net 11] [Windows] Fix excessive spacing in untemplated CollectionView vertical grids",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-10-07T10:28:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38888",
+      "number": 38888,
+      "title": "[iOS] Fix RTL FlyoutBehavior.Locked detail pane layout",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-10-07T10:27:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39005",
+      "number": 39005,
+      "title": "[Inflight/Current] [Windows] Fix CollectionView selection crash during handler disconnection",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-10-07T10:24:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13027",
+      "number": 13027,
+      "title": "[tests] Remove duplicate Release embedded-DEX cases",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-07T10:10:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38801",
+      "number": 38801,
+      "title": "[Android] Fix TabbedPage: Selected tab icon loses SelectedTabColor after rebuilding Children",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-10-07T10:07:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38808",
+      "number": 38808,
+      "title": "[Android] Prevent unnecessary CollectionView item recreation on Header/Footer updates",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-10-07T10:06:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38985",
+      "number": 38985,
+      "title": "[Android] ScrollView: Apply runtime padding updates immediately",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-10-07T10:03:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39199",
+      "number": 39199,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-07T10:00:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39209",
+      "number": 39209,
+      "title": "Bump the aspnetcore group with 3 updates",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-10-07T10:00:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13029",
+      "number": 13029,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15594893",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-07T09:27:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13028",
+      "number": 13028,
+      "title": "Bump external/android-api-docs from `c0e9d57` to `5644f39`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-07T09:27:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13019",
+      "number": 13019,
+      "title": "[tests] Move core JNI tests into the Android device suite",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-07T09:21:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12972",
+      "number": 12972,
+      "title": "[CoreCLR] Move assembly-store runtime state out of generated native data",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-07T08:41:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13003",
+      "number": 13003,
+      "title": "[native] Move logging category parsing into shared host startup",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-07T07:51:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12829",
+      "number": 12829,
+      "title": "[R8] Activate retained typemap rules and retire DGML generation",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-07T04:51:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26841",
       "number": 26841,
       "title": "[xcode27.1-net11.0] Update to Xcode 27.1 Release Candidate 1",
@@ -106431,7 +106711,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-07T04:00:37.416Z",
+  "lastUpdated": "2026-10-07T15:01:43.662Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
