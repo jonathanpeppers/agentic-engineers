@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/630",
+      "number": 630,
+      "title": "Add trace-grouped AI diagnostics to the Chat Playground",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-07T19:24:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5296",
+      "number": 5296,
+      "title": "Migrate Basic sample host solution filters to SLNX",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-07T19:20:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5295",
+      "number": 5295,
+      "title": "Retire redundant release-testing and validate-samples skills",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-07T19:18:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39232",
+      "number": 39232,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-07T18:03:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39201",
+      "number": 39201,
+      "title": "Keep /issue triage reports artifact-only while applying real labels",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-07T17:56:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39193",
+      "number": 39193,
+      "title": "[Android] Keep EmptyViewAdapter view types from matching the items adapter's",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-10-07T17:16:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39228",
+      "number": 39228,
+      "title": "[iOS] Fix CarouselView template selector crash during cell reconfigur…",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-10-07T16:45:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39060",
+      "number": 39060,
+      "title": "[Inflight/Candidate] [Windows] Fix ScrollView handler leak in device test",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-10-07T16:37:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39181",
+      "number": 39181,
+      "title": "[Android] Don't throw when a modal NavigationPage is dismissed while it's navigating",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-10-07T16:33:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39183",
+      "number": 39183,
+      "title": "[Android] Don't throw an IllegalArgumentException for every page popped from a NavigationPage",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-10-07T16:32:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39185",
+      "number": 39185,
+      "title": "[inflight-regression] Fix runtime XAML binding regression with trimming",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-10-07T16:32:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/582",
       "number": 582,
       "title": "Fix GTK ContentView child transforms",
@@ -106711,7 +106821,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-07T15:01:43.662Z",
+  "lastUpdated": "2026-10-07T20:58:35.276Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
