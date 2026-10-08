@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39235",
+      "number": 39235,
+      "title": "Resolve successfully handled /issue triage command comments",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-07T22:20:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/623",
+      "number": 623,
+      "title": "Add Apple Foundation Models image input to Essentials.AI",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-07T20:59:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/630",
       "number": 630,
       "title": "Add trace-grouped AI diagnostics to the Chat Playground",
@@ -106821,7 +106841,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-07T20:58:35.276Z",
+  "lastUpdated": "2026-10-08T04:13:38.477Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
