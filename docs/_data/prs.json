@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39252",
+      "number": 39252,
+      "title": "[inflight/current] Fix BlazorWebView root component subscriptions on disconnect (#39247)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-08T11:27:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39062",
+      "number": 39062,
+      "title": "[iOS/MacCatalyst] Fix NavigationRenderer toolbar items losing custom tint on IsEnabled changes",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-10-08T11:26:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38840",
+      "number": 38840,
+      "title": "[Candidate Failure]Fix x_Array_Parsed test Failure",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-10-08T11:13:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39242",
+      "number": 39242,
+      "title": "[ci-fix-net11] Needs review: avoid empty interpreter version evaluation (refs #39223)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-08T10:38:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39239",
+      "number": 39239,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-08T10:37:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39247",
+      "number": 39247,
+      "title": "Fix BlazorWebView root component subscriptions on disconnect",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-10-08T10:32:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39245",
+      "number": 39245,
+      "title": "Bump the windowsappsdk group with 1 update",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-10-08T10:31:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39230",
+      "number": 39230,
+      "title": "[iOS] Center FontImageSource glyphs on iOS 26 without changing font metrics",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-08T10:30:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/39235",
       "number": 39235,
       "title": "Resolve successfully handled /issue triage command comments",
@@ -106841,7 +106921,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-08T04:13:38.477Z",
+  "lastUpdated": "2026-10-08T15:10:11.297Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
