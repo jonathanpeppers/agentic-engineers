@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13041",
+      "number": 13041,
+      "title": "[build] Remove unsafe managed-memory access from hashing",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-08T20:03:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13032",
+      "number": 13032,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261007103220371 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-08T19:09:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39213",
+      "number": 39213,
+      "title": "[Android] Fix ScrollToAsync UI-thread livelock caused by the MapRequestScrollTo retry loop",
+      "repo": "dotnet/maui",
+      "author": "philipag",
+      "mergedAt": "2026-10-08T17:36:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39249",
+      "number": 39249,
+      "title": "[Android] Fix Shape clipping after display density changes",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-10-08T17:29:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5302",
+      "number": 5302,
+      "title": "Fix GTK4 tests and internal CI build failures",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-08T17:07:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13038",
+      "number": 13038,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15610032",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-08T15:50:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13037",
+      "number": 13037,
+      "title": "[fix-finder] Preserve large bundle configuration numbers",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-08T15:34:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39253",
+      "number": 39253,
+      "title": "Fix Windows Button flicker during transparent background transitions",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-10-08T15:27:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39260",
+      "number": 39260,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-08T15:21:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39250",
+      "number": 39250,
+      "title": "Keep /issue triage threat detection to one canonical verdict",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-08T15:17:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39251",
+      "number": 39251,
+      "title": "Revert \"Fix BlazorWebView root component subscriptions on disconnect\"",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-08T15:16:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39254",
+      "number": 39254,
+      "title": "[inflight/candidate] [iOS] Fix CarouselView template selector crash during cell reconfiguration",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-08T15:16:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/39252",
       "number": 39252,
       "title": "[inflight/current] Fix BlazorWebView root component subscriptions on disconnect (#39247)",
@@ -106921,7 +107041,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-08T15:10:11.297Z",
+  "lastUpdated": "2026-10-08T20:59:54.013Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
