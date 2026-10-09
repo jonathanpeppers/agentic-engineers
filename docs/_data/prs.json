@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5306",
+      "number": 5306,
+      "title": "Update .NET 11 preview pins and WASM native assets",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-09T01:19:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5307",
+      "number": 5307,
+      "title": "Simplify generic SDK and workload provisioning",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-08T22:37:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13041",
       "number": 13041,
       "title": "[build] Remove unsafe managed-memory access from hashing",
@@ -107041,7 +107061,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-08T20:59:54.013Z",
+  "lastUpdated": "2026-10-09T04:18:51.071Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
