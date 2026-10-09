@@ -1,6 +1,286 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/480",
+      "number": 480,
+      "title": "Document all CLI command groups in AI docs audit",
+      "repo": "dotnet/maui-labs",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-10-09T13:22:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/650",
+      "number": 650,
+      "title": "Use GoldenGate Xcode 27 image for EssentialsAI official builds",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-09T13:21:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/649",
+      "number": 649,
+      "title": "Fix macOS AppKit default menu localization",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-09T13:21:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/404",
+      "number": 404,
+      "title": "Expose Apple Intelligence token usage through M.E.AI",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-09T13:21:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13042",
+      "number": 13042,
+      "title": "[Unsafe] Type-check JNI callback delegates",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-09T12:45:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13048",
+      "number": 13048,
+      "title": "Add TypeMaps reference project to solution",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-09T12:16:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13016",
+      "number": 13016,
+      "title": "[Java.Interop] Release native peer control blocks on finalization",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-09T12:16:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13049",
+      "number": 13049,
+      "title": "Set Microsoft.Android.slnx as the default solution for VSCode devkit",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-09T12:16:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12692",
+      "number": 12692,
+      "title": "[Xamarin.Android.Build.Tasks] Wire opt-in R8 runtime remapping",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-09T11:52:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39168",
+      "number": 39168,
+      "title": "Fix XAML hot-reload id desync on x:Name changes and reorders",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-10-09T11:07:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39246",
+      "number": 39246,
+      "title": "[Mac]Fix initial blank page in I6_Vertical_Item_Spacing_Page on iOS 27",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-10-09T11:06:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13047",
+      "number": 13047,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15626223",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-09T10:58:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38843",
+      "number": 38843,
+      "title": " [Testing] Fixed Test case failure in PR 38782- Candidate - 1",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-10-09T10:47:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39271",
+      "number": 39271,
+      "title": "[inflight-Regression] [iOS] Fix CollectionView Items Disappearing After Orientation Change",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-10-09T10:46:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39264",
+      "number": 39264,
+      "title": "[iOS] Shell: call base in ShellItemRenderer.TraitCollectionDidChange so UIKit re-evaluates More",
+      "repo": "dotnet/maui",
+      "author": "chucksmith",
+      "mergedAt": "2026-10-09T10:13:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39266",
+      "number": 39266,
+      "title": "[ci-fix-net11] De-flake landscape Grid tests: wait for rotated geometry (refs #39226)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-09T10:11:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/646",
+      "number": 646,
+      "title": "Fix ABI/TFM selection for profiling MIBC references",
+      "repo": "dotnet/maui-labs",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-09T07:47:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/647",
+      "number": 647,
+      "title": "Fix profiling result JSON serialization",
+      "repo": "dotnet/maui-labs",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-09T07:47:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/648",
+      "number": 648,
+      "title": "Harden DevFlow recording startup and Android native taps",
+      "repo": "dotnet/maui-labs",
+      "author": "davidortinau",
+      "mergedAt": "2026-10-09T07:46:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/609",
+      "number": 609,
+      "title": "Add Xcode 27 MAUI migration skill with execution evaluations",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-09T07:44:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/640",
+      "number": 640,
+      "title": "Fix AppKit ContentView clipping and transformed text redraw",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-09T07:43:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13045",
+      "number": 13045,
+      "title": "Bump jvm from 2.4.20 to 2.4.21 in /external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/kotlin-gradle",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-09T07:36:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/639",
+      "number": 639,
+      "title": "[AppKit] Respect TapGestureRecognizer buttons",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-09T07:30:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/645",
+      "number": 645,
+      "title": "Use ACES Xcode 27 pool for EssentialsAI",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-09T07:11:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/643",
+      "number": 643,
+      "title": "Fix GTK4 BlazorWebView query-string requests",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-09T07:10:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/642",
+      "number": 642,
+      "title": "Fix WPF grouped CollectionView selection",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-09T07:10:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/591",
+      "number": 591,
+      "title": "Parent WPF and GTK CollectionView template views for DevFlow discovery",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-09T07:09:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/641",
+      "number": 641,
+      "title": "Fix AppKit CollectionView vertical grid row overlap",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-09T07:08:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5306",
       "number": 5306,
       "title": "Update .NET 11 preview pins and WASM native assets",
@@ -107061,7 +107341,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-09T04:18:51.071Z",
+  "lastUpdated": "2026-10-09T14:55:45.904Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
