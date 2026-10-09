@@ -1,6 +1,146 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5317",
+      "number": 5317,
+      "title": "Preserve canonical producer build identity across midnight",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-09T18:37:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/652",
+      "number": 652,
+      "title": "Correct DevFlow schemas and specs to match existing runtime",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-09T18:22:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39286",
+      "number": 39286,
+      "title": "[Android] Fix numeric Entry decimal-point input in comma-decimal cultures",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-10-09T17:36:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/657",
+      "number": 657,
+      "title": "Fix duplicate GTK package assets in DARC publishing",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-09T16:13:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/656",
+      "number": 656,
+      "title": "Fix WPF CollectionView grouped selection CI failures",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-09T16:12:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39287",
+      "number": 39287,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-09T16:11:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/351",
+      "number": 351,
+      "title": "Add application menu inspection and invocation to DevFlow (#339)",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-10-09T16:09:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/350",
+      "number": 350,
+      "title": "Fix preferences list to enumerate native stores across MAUI and Native Essentials",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-10-09T16:08:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36474",
+      "number": 36474,
+      "title": "[Android] Fix stale bottom safe area after Shell tab navigation with TabBarIsVisible=False",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-10-09T16:07:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39047",
+      "number": 39047,
+      "title": "[iOS] Editor can't be scrolled after rotating simulator.",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-10-09T15:59:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39276",
+      "number": 39276,
+      "title": "Expose citation-safe prose to /issue triage",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-09T15:56:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39262",
+      "number": 39262,
+      "title": "Adopt Xcode 27 for .NET 11 Apple builds",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-09T15:55:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39236",
+      "number": 39236,
+      "title": "Improve regression-trace evidence collection",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-09T15:55:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13043",
+      "number": 13043,
+      "title": "[Unsafe] Guard JNI string lengths",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-09T15:26:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/480",
       "number": 480,
       "title": "Document all CLI command groups in AI docs audit",
@@ -107341,7 +107481,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-09T14:55:45.904Z",
+  "lastUpdated": "2026-10-09T20:30:59.067Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
