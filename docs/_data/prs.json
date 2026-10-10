@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13054",
+      "number": 13054,
+      "title": "[Java.Interop] Remove unused Mono native validation dependencies",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-10T11:17:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13058",
+      "number": 13058,
+      "title": "[Java.Interop] Retire obsolete expression-marshaling contracts",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-10T09:24:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13055",
+      "number": 13055,
+      "title": "[Xamarin.Android.Build.Tasks] Remove unused assembly codegen state",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-10T07:37:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13052",
+      "number": 13052,
+      "title": "Honor DoNotRegister for Java.Lang.Throwable handles",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-10T06:14:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13056",
+      "number": 13056,
+      "title": "[Java.Interop] Simplify single-backend binding generation",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-10T05:50:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13057",
+      "number": 13057,
+      "title": "[Java.Interop] Remove orphaned internal JNI runtime helpers",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-10T05:31:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12844",
+      "number": 12844,
+      "title": "[Microsoft.Android.Build.Tasks] Move R8 remapping task to modern assembly",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-10T05:15:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13053",
       "number": 13053,
       "title": "[Unsafe] Guard primitive array lease indexers",
@@ -107521,7 +107591,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-10T04:04:00.249Z",
+  "lastUpdated": "2026-10-10T14:11:01.054Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
