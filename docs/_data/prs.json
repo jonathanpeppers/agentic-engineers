@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13033",
+      "number": 13033,
+      "title": "[Xamarin.Android.Build.Tasks] Package JNI remapping in data-only ELF",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-11T17:05:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/39305",
       "number": 39305,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -107631,7 +107641,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-11T14:35:33.088Z",
+  "lastUpdated": "2026-10-11T19:53:44.315Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
