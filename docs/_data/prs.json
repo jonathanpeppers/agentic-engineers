@@ -1,6 +1,356 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13060",
+      "number": 13060,
+      "title": "[Java.Interop] Simplify single-style JCW generation",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-12T17:12:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13062",
+      "number": 13062,
+      "title": "[r8] Retain field names for safe inherited JNI lookup",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-12T16:53:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13072",
+      "number": 13072,
+      "title": "[native] Remove obsolete application configuration scaffolding",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-12T16:40:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/839",
+      "number": 839,
+      "title": "Document Private Compute query builders",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-12T16:31:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39313",
+      "number": 39313,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-12T14:40:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39329",
+      "number": 39329,
+      "title": "[inflight/candidate] Fix Windows CollectionView selection crash",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-12T14:39:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39328",
+      "number": 39328,
+      "title": "[inflight/candidate] Fix runtime XAML trimming regression",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-12T14:39:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39327",
+      "number": 39327,
+      "title": "[inflight/candidate] Fix iOS CollectionView selection during Shell navigation",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-12T14:38:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39326",
+      "number": 39326,
+      "title": "[inflight/candidate] Fix Android WebView blocking parent scrolling",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-12T14:38:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39330",
+      "number": 39330,
+      "title": "[inflight/candidate] Fix iOS PageSheet ScrollView flicker",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-12T14:38:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39331",
+      "number": 39331,
+      "title": "[inflight/candidate] Fix Shell flyout VisualState hang",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-12T14:37:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39335",
+      "number": 39335,
+      "title": "[inflight/candidate] [Android] Backport grid spacing regression fix for #38925",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-12T14:37:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39336",
+      "number": 39336,
+      "title": "[inflight/candidate] Backport Android safe-area resize fix (#36474)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-12T14:36:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12820",
+      "number": 12820,
+      "title": "[Xamarin.Android.Build.Tasks] Remove NativeAOT preview warning",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-12T14:21:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/486",
+      "number": 486,
+      "title": "Expand DevFlow layout diagnostics and add a docked Inspector workspace",
+      "repo": "dotnet/maui-labs",
+      "author": "morning4coffe-dev",
+      "mergedAt": "2026-10-12T14:17:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5308",
+      "number": 5308,
+      "title": "Build and validate generated samples in isolated test workspaces",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-12T14:01:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13005",
+      "number": 13005,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261005103226807 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-12T13:44:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12992",
+      "number": 12992,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261003103204523 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-12T13:43:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13050",
+      "number": 13050,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261009103222999 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-12T13:42:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13077",
+      "number": 13077,
+      "title": "[release/11.0.1xx] Preserve AAR consumer rules on cache hits",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-12T13:42:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13059",
+      "number": 13059,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15650671",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-12T13:42:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/476",
+      "number": 476,
+      "title": "Improve DevFlow Inspector UX, source editing, and tooling reliability",
+      "repo": "dotnet/maui-labs",
+      "author": "morning4coffe-dev",
+      "mergedAt": "2026-10-12T13:28:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/663",
+      "number": 663,
+      "title": "Improve Xcode 27 scene migration skill from real-app feedback",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-12T13:15:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/666",
+      "number": 666,
+      "title": "Bump MAUI Labs to preview 13 and Essentials.AI to preview 7",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-12T13:15:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13069",
+      "number": 13069,
+      "title": "[Xamarin.Android.Build.Tasks] Remove LLVM codegen and binutils",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-12T11:32:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/498",
+      "number": 498,
+      "title": "fix: don't pack the Blazor project's PRI (MSB3030)",
+      "repo": "dotnet/maui-labs",
+      "author": "fourwhey",
+      "mergedAt": "2026-10-12T11:15:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39322",
+      "number": 39322,
+      "title": "[inflight/candidate] [iOS] Fix CollectionView items disappearing after orientation change",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-12T10:49:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39321",
+      "number": 39321,
+      "title": "[inflight/candidate] [iOS] Make toolbar items ready for vertical presentation",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-12T10:49:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39318",
+      "number": 39318,
+      "title": "[inflight/candidate] [iOS] Editor can't be scrolled after rotating simulator.",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-12T10:48:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39320",
+      "number": 39320,
+      "title": "[inflight/candidate] Backport iOS Shell More re-evaluation fix (#39264)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-12T10:48:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39319",
+      "number": 39319,
+      "title": "[inflight/candidate] [Mac]Fix initial blank page in I6_Vertical_Item_Spacing_Page on iOS 27",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-12T10:48:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39219",
+      "number": 39219,
+      "title": "[iOS] Fix ScrollView introduces flickering in bottom sheets with .NET 10",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-10-12T10:34:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/507",
+      "number": 507,
+      "title": "build(deps-dev): Bump @vscode/vsce from 3.9.2 to 4.0.0 in /src/DevFlow/js",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-10-12T07:48:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13061",
+      "number": 13061,
+      "title": "[Xamarin.Android.Build.Tasks] Keep AAR rules on cache hits",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-12T07:10:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13034",
+      "number": 13034,
+      "title": "[CoreCLR] Load bootstrap configuration from binary blobs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-12T06:50:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13033",
       "number": 13033,
       "title": "[Xamarin.Android.Build.Tasks] Package JNI remapping in data-only ELF",
@@ -107641,7 +107991,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-12T04:03:27.942Z",
+  "lastUpdated": "2026-10-12T17:17:56.093Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
