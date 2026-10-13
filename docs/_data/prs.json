@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5312",
+      "number": 5312,
+      "title": "Run generated browser samples with Playwright",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-13T20:46:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13122",
+      "number": 13122,
+      "title": "[Java.Interop] Retire JavaTypeScanner and unused Cecil helpers",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T20:08:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13120",
+      "number": 13120,
+      "title": "[installer] Remove Kajabity Java properties dependency",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T20:06:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13113",
+      "number": 13113,
+      "title": "[Java.Interop] Remove unused parameter-name importer",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T19:54:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26853",
+      "number": 26853,
+      "title": "[release/11.0.1xx] [msbuild] Fix plist incremental build inputs. Fixes #26700.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-13T19:13:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13119",
+      "number": 13119,
+      "title": "[Microsoft.Android.Templates] Add framework selection",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T18:56:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13111",
+      "number": 13111,
+      "title": "[Mono.Android.Export] Remove the legacy export assembly",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T18:55:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/844",
+      "number": 844,
+      "title": "Import AppFunctions API 37 documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T17:27:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/838",
+      "number": 838,
+      "title": "Add Android HID device documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T17:15:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/832",
+      "number": 832,
+      "title": "Add InputMethodManager animation documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T17:08:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/841",
+      "number": 841,
+      "title": "Add Android.Security.Net.Config API 37 documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T17:08:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/833",
+      "number": 833,
+      "title": "Add VibrationEffect Builder documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T17:05:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/843",
+      "number": 843,
+      "title": "Add DeviceRadioState policy documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T17:01:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/835",
+      "number": 835,
+      "title": "Add AppInteractionSession builder documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T17:00:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/842",
+      "number": 842,
+      "title": "Document ContentSafety builder API",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T16:59:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/836",
+      "number": 836,
+      "title": "Add PeopleContract query builder documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T16:59:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13103",
+      "number": 13103,
+      "title": "[Microsoft.Android.Runtime.NativeAOT] Remove unused JreRuntime setup code",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T16:45:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26851",
+      "number": 26851,
+      "title": "And then there were two.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-13T16:34:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13106",
+      "number": 13106,
+      "title": "Remove unused vendored Bionic sources",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T16:33:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26817",
+      "number": 26817,
+      "title": "[release/11.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-13T16:07:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/39364",
       "number": 39364,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -108521,7 +108721,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-13T15:32:00.958Z",
+  "lastUpdated": "2026-10-13T20:58:14.137Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
