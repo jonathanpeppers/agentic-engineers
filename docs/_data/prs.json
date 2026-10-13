@@ -1,6 +1,216 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5052",
+      "number": 5052,
+      "title": "[performance] Optimize managed SKImage pixel copies",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-13T04:53:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5060",
+      "number": 5060,
+      "title": "[performance] perf(HarfBuzzSharp): pool UTF-32 encoding buffer",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-13T04:49:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5230",
+      "number": 5230,
+      "title": "[performance] Remove feature-string heap allocation without changing decoding",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-13T04:47:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5327",
+      "number": 5327,
+      "title": "[memory-leak] Release borrowed front-buffered streams on dispose",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-13T04:42:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5343",
+      "number": 5343,
+      "title": "[docs] docs: regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-13T04:40:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5339",
+      "number": 5339,
+      "title": "Partition Samples CI by typed execution target",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-13T04:15:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5341",
+      "number": 5341,
+      "title": "Refactor test jobs into execution-family templates",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-13T03:30:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13080",
+      "number": 13080,
+      "title": "[Java.Interop] Retire obsolete Java wrapper scaffolding",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-12T22:42:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5323",
+      "number": 5323,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-12T20:37:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5337",
+      "number": 5337,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.150.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-12T20:06:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13086",
+      "number": 13086,
+      "title": "[ci] Enable Default Deny network isolation",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-12T19:54:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13044",
+      "number": 13044,
+      "title": "[fix-finder] Localize bundle config processing warning",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-12T19:52:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/397",
+      "number": 397,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-12T19:46:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1557",
+      "number": 1557,
+      "title": "Update stable Android dependencies for 20261005",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-10-12T19:38:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13073",
+      "number": 13073,
+      "title": "[build] Consolidate Android NDK tooling",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-12T19:36:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5333",
+      "number": 5333,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-12T19:28:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5335",
+      "number": 5335,
+      "title": "Bump to the next version (4.154.1) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-12T19:26:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5334",
+      "number": 5334,
+      "title": "Bump to the next version (4.152.5) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-12T19:26:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5336",
+      "number": 5336,
+      "title": "Bump to the next version (4.153.3) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-12T19:26:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13046",
+      "number": 13046,
+      "title": "Bump com.android.tools:r8 from 9.4.28 to 9.5.23 in /src/r8",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-12T17:48:45Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13068",
+      "number": 13068,
+      "title": "[tests] Remove flaky retained-GREF positive controls",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-12T17:48:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13060",
       "number": 13060,
       "title": "[Java.Interop] Simplify single-style JCW generation",
@@ -107991,7 +108201,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-12T17:17:56.093Z",
+  "lastUpdated": "2026-10-13T05:12:51.487Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
