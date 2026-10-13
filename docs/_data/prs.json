@@ -1,6 +1,326 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39364",
+      "number": 39364,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-13T14:43:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39332",
+      "number": 39332,
+      "title": "Fix agentic workflow evidence and runtime contracts",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-13T14:42:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39189",
+      "number": 39189,
+      "title": "Add /review gate without replacing full review",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-13T14:41:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39333",
+      "number": 39333,
+      "title": "[aw] Run action-pin refresh in trusted pre-agent setup",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-13T14:39:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13009",
+      "number": 13009,
+      "title": "[Xamarin.Android.Build.Tasks] Log NativeAOT preview as information in .NET 11",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T14:32:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/35885",
+      "number": 35885,
+      "title": "[Windows] Shell: Apply TabBarDisabledColor to disabled tabs",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-10-13T14:01:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39015",
+      "number": 39015,
+      "title": "Update CollectionView2 behavior to achieve SingleSelectionFocusFollow functionality",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-10-13T13:58:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13112",
+      "number": 13112,
+      "title": "[native] Remove native Java.Interop support library",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T13:49:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39315",
+      "number": 39315,
+      "title": "[Android] Shell: Defer inactive content until first selection",
+      "repo": "dotnet/maui",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T13:44:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39357",
+      "number": 39357,
+      "title": "[inflight/candidate] [Mac] Fix blank content in RefreshView with CollectionView during scrolling",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-13T13:43:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13087",
+      "number": 13087,
+      "title": "[release/10.0.1xx] Use canonical Google repository URL",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T13:38:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13084",
+      "number": 13084,
+      "title": "Fix skill-runner PR uniqueness checks through gh-proxy",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-10-13T13:37:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/667",
+      "number": 667,
+      "title": "Add Linux sensors",
+      "repo": "dotnet/maui-labs",
+      "author": "cedric56",
+      "mergedAt": "2026-10-13T13:24:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13091",
+      "number": 13091,
+      "title": "[build] Remove unused tooling and typemap generator code",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T13:24:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13102",
+      "number": 13102,
+      "title": "[src-ThirdParty] Remove unused CRC32.NET source",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T13:24:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13101",
+      "number": 13101,
+      "title": "Remove obsolete NET conditional guards",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T13:20:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13092",
+      "number": 13092,
+      "title": "[Mono.Android] Remove always-enabled JAVA_INTEROP conditionals",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T13:16:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13100",
+      "number": 13100,
+      "title": "[jnienv-gen] Remove the obsolete raw JNI backend",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T13:15:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13099",
+      "number": 13099,
+      "title": "[release/11.0.1xx] [Microsoft.Android.Build.BaseTasks] Guard against null parent directory in GetNativeLibraryAbi",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-13T13:15:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13114",
+      "number": 13114,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261013103228904 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-13T13:13:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39352",
+      "number": 39352,
+      "title": "[Mac] Fix blank content in RefreshView with CollectionView during scrolling",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-10-13T11:03:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39217",
+      "number": 39217,
+      "title": "[Inflight/Candidate] Stabilize Looped CarouselView Collection Override Device Test",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-10-13T10:29:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39349",
+      "number": 39349,
+      "title": "[net11.0] Update dependencies from dotnet/android",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-13T10:28:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39348",
+      "number": 39348,
+      "title": "[ci-fix-net11] Needs review: scroll to RefreshView footer before tapping (refs #39224)",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-13T10:25:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13098",
+      "number": 13098,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15664329",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-13T09:39:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13076",
+      "number": 13076,
+      "title": "[main] Update dependencies from dotnet/dotnet, microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-13T07:33:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13094",
+      "number": 13094,
+      "title": "[Java.Interop] Remove legacy TypeNameMapGenerator",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T07:04:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13064",
+      "number": 13064,
+      "title": "[Microsoft.Android.Build.BaseTasks] Guard against null parent directory in GetNativeLibraryAbi",
+      "repo": "dotnet/android",
+      "author": "AustinAviv",
+      "mergedAt": "2026-10-13T07:00:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13097",
+      "number": 13097,
+      "title": "[release/11.0.1xx] Bump R8 from 9.4.24 to 9.5.23",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T06:57:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13096",
+      "number": 13096,
+      "title": "[bundletool] Shrink and optimize downloaded JAR with ProGuard",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-13T06:20:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13095",
+      "number": 13095,
+      "title": "[Xamarin.Android.Build.Tasks] Remove orphaned Cecil helpers",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-13T06:18:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/845",
+      "number": 845,
+      "title": "Auto Publish – main to live - 2026-10-13 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-10-13T05:22:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5052",
       "number": 5052,
       "title": "[performance] Optimize managed SKImage pixel copies",
@@ -108201,7 +108521,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-13T05:12:51.487Z",
+  "lastUpdated": "2026-10-13T15:32:00.958Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
