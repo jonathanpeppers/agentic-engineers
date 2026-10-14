@@ -1,6 +1,306 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/671",
+      "number": 671,
+      "title": "Fix WebView actions executing twice during result recovery",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-14T18:53:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/692",
+      "number": 692,
+      "title": "Stabilize raw-touch gesture fixture viewport readiness",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-14T18:52:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/857",
+      "number": 857,
+      "title": "Document AudioManager assistant audio APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-14T18:34:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/856",
+      "number": 856,
+      "title": "Document trusted presentation thresholds",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-14T18:26:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13133",
+      "number": 13133,
+      "title": "[Build.Tasks] Use SDK-defined Java version requirements",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-14T18:22:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13109",
+      "number": 13109,
+      "title": "[Mono.Android] Report obsolete APIs as compile errors",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-14T18:19:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/848",
+      "number": 848,
+      "title": "Document Health Connect Device UDI",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-14T18:14:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13138",
+      "number": 13138,
+      "title": "[Java.Interop] Remove obsolete desktop sample and timing project",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-14T18:12:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13116",
+      "number": 13116,
+      "title": "[Mono.Android] Remove internal P/Invokes and simplify startup",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-14T18:06:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/849",
+      "number": 849,
+      "title": "Document AppSearch delete propagation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-14T18:04:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/847",
+      "number": 847,
+      "title": "Document display engagement APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-14T17:58:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/852",
+      "number": 852,
+      "title": "Document RemoteViews draw instructions bytes",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-14T17:55:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/851",
+      "number": 851,
+      "title": "Document CarrierConfig API 37 fields",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-14T17:55:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/850",
+      "number": 850,
+      "title": "Document Android.Graphics API 37 members",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-14T17:54:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/854",
+      "number": 854,
+      "title": "Document ContentSafety service APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-14T17:54:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/855",
+      "number": 855,
+      "title": "Document API 37 Context services",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-14T17:54:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/846",
+      "number": 846,
+      "title": "Document GATT connection thresholds",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-14T17:53:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39368",
+      "number": 39368,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-14T17:50:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39386",
+      "number": 39386,
+      "title": "Stop posting review-in-progress skip comments",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-14T16:27:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39389",
+      "number": 39389,
+      "title": "[inflight/candidate] [iOS 27] Fix TitleView sizing before navigation bar layout (#39285)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-14T16:20:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39359",
+      "number": 39359,
+      "title": "Shard Shell UI tests into two CI lanes on all platforms",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-10-14T16:15:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39388",
+      "number": 39388,
+      "title": "[inflight/candidate] Fix Resizetizer System.Memory compatibility for SVG filters and text",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-14T16:12:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39387",
+      "number": 39387,
+      "title": "[inflight/candidate] [Android] Fix CollectionView selection with pointer gestures (#37952)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-14T16:12:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26862",
+      "number": 26862,
+      "title": "[github] Update & recompile agentic workflows.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-14T16:10:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39342",
+      "number": 39342,
+      "title": "Fix Resizetizer System.Memory compatibility for SVG filters and text",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-10-14T15:56:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37952",
+      "number": 37952,
+      "title": "[Android] Fix CollectionView item selection not triggered when using PointerGestureRecognizer",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-10-14T15:55:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26852",
+      "number": 26852,
+      "title": "[release/11.0.1xx] [dotnet] Preserve parameter names in remote Windows iOS builds. Fixes #26680",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-14T15:31:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39360",
+      "number": 39360,
+      "title": "[iOS] Fix iOS 26 blank page on rapid Shell tab re-selection",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-10-14T14:47:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39382",
+      "number": 39382,
+      "title": "Remove automatic review-start PR comments",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-14T14:08:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13134",
+      "number": 13134,
+      "title": "[fix-finder] Update Java binding documentation link",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-14T13:54:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26861",
       "number": 26861,
       "title": "[github] Don't specify the effort, it doesn't work with all models.",
@@ -109021,7 +109321,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-14T13:17:28.792Z",
+  "lastUpdated": "2026-10-14T19:57:04.059Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
