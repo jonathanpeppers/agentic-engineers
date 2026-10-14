@@ -1,6 +1,196 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26861",
+      "number": 26861,
+      "title": "[github] Don't specify the effort, it doesn't work with all models.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-14T13:13:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13137",
+      "number": 13137,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261014093120659 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-14T13:10:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39373",
+      "number": 39373,
+      "title": "Fix nested OnPlatform and OnIdiom source generation",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-10-14T13:10:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/488",
+      "number": 488,
+      "title": "Make pinch, pan and swipe reach controls that own their touch handling",
+      "repo": "dotnet/maui-labs",
+      "author": "aritchie",
+      "mergedAt": "2026-10-14T13:10:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13136",
+      "number": 13136,
+      "title": "Set a valid temporary directory for .NET on CI",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-14T12:57:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13139",
+      "number": 13139,
+      "title": "[Documentation] Fix MonoAndroidAssetPrefix to MonoAndroidAssetsPrefix typo",
+      "repo": "dotnet/android",
+      "author": "Mliybs",
+      "mergedAt": "2026-10-14T12:56:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39381",
+      "number": 39381,
+      "title": "[inflight/candidate] [Android][Windows] Fix blank page after restoring Window.Page",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-14T12:52:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39274",
+      "number": 39274,
+      "title": "[Android][Windows]Fix blank page when navigating back after changing Window.Page",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-10-14T12:52:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38659",
+      "number": 38659,
+      "title": "[iOS 26] Fix TabbedPage tab bar layout",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-10-14T12:38:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26859",
+      "number": 26859,
+      "title": "[tests] Update expected sizes.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-14T12:18:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26856",
+      "number": 26856,
+      "title": "[release/11.0.1xx] [msbuild] Update the ilrepack tool.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-14T11:23:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39279",
+      "number": 39279,
+      "title": "[Inflight/Candidate][Android] Fix for Android page disconnection during Loaded root replacement",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-10-14T10:20:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39353",
+      "number": 39353,
+      "title": "Fix memory leak when replacing IndicatorView.IndicatorTemplate",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-10-14T10:10:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39285",
+      "number": 39285,
+      "title": "[iOS 27]Fix TitleView sizing when the navigation bar has not been laid out",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-10-14T10:07:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39370",
+      "number": 39370,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-14T10:04:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/677",
+      "number": 677,
+      "title": "Run DevFlow integration CI automatically and repair platform reliability",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-14T08:03:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26858",
+      "number": 26858,
+      "title": "[release/10.0.1xx] [Foundation] Implement NSUrlSessionHandler proxy support. Fixes #14632",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-14T06:52:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26857",
+      "number": 26857,
+      "title": "[release/10.0.1xx] [msbuild] Update the ilrepack tool.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-14T06:46:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/858",
+      "number": 858,
+      "title": "Auto Publish – main to live - 2026-10-14 05:01 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-10-14T05:19:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/834",
       "number": 834,
       "title": "Import Android.Security.AuthenticationPolicy documentation",
@@ -108831,7 +109021,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-14T03:18:33.267Z",
+  "lastUpdated": "2026-10-14T13:17:28.792Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
