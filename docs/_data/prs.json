@@ -1,6 +1,216 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5359",
+      "number": 5359,
+      "title": "Update CI Node.js to 24.x",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-15T17:05:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13145",
+      "number": 13145,
+      "title": "[mt msbuild] Remove shared Android SDK discovery state",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-15T17:04:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13157",
+      "number": 13157,
+      "title": "[release/11.0.1xx] Fix AndroidMessageHandler upload I/O exception translation",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-15T16:36:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39344",
+      "number": 39344,
+      "title": "[Android] Fix ImageButton not rendering when CornerRadius is larger than half its size",
+      "repo": "dotnet/maui",
+      "author": "KirkPatrickJunsay",
+      "mergedAt": "2026-10-15T16:25:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26883",
+      "number": 26883,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 15698022",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-15T16:12:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39377",
+      "number": 39377,
+      "title": "[iOS] Fix vertical CarouselView Position synchronization",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-10-15T15:59:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39410",
+      "number": 39410,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-15T15:50:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39408",
+      "number": 39408,
+      "title": "Fix Gate discovery for screenshot baselines and HostApp-only changes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-15T15:46:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26882",
+      "number": 26882,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 15697920",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-15T14:32:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26842",
+      "number": 26842,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-15T14:23:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39405",
+      "number": 39405,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-15T14:12:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13135",
+      "number": 13135,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15680425",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-15T13:47:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13146",
+      "number": 13146,
+      "title": "Bump external/android-api-docs from `5644f39` to `3a7c1e9`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-15T13:47:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13151",
+      "number": 13151,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261015103235335 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-15T13:46:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26849",
+      "number": 26849,
+      "title": "[Templates] Align framework selection with Android and MAUI",
+      "repo": "dotnet/macios",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-15T13:43:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39404",
+      "number": 39404,
+      "title": "Minimize Azure Pipelines command and success comments",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-15T13:39:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26872",
+      "number": 26872,
+      "title": "[msbuild] Keep embedded codesign stamps inside the intermediate directory. Fixes #26867",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-15T13:21:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/695",
+      "number": 695,
+      "title": "Extract DevFlow CLI operation groups and add real-app coverage",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-15T13:13:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26788",
+      "number": 26788,
+      "title": "[dotnet] Drop x64 iOS and tvOS simulator support. Fixes #26665",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-15T13:09:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26880",
+      "number": 26880,
+      "title": "[github] Update & recompile agentic workflows.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-15T13:03:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26868",
+      "number": 26868,
+      "title": "[HandleSafety] Fix CoreImage known failures",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-15T13:02:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26863",
       "number": 26863,
       "title": "[runtime] Avoid weak-reference deadlocks during fork. Fixes #26844",
@@ -110551,7 +110761,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-15T13:02:59.989Z",
+  "lastUpdated": "2026-10-15T19:40:02.884Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
