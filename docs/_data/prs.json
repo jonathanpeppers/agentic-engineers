@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26866",
+      "number": 26866,
+      "title": "[release/11.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-16T17:58:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39409",
+      "number": 39409,
+      "title": "Fix Grid definition and nested-grid position invalidation",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-16T17:23:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39396",
+      "number": 39396,
+      "title": "[Inflight/Candidate][iOS] Fix for unnecessary arrange passes in CollectionView2",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-10-16T17:12:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39346",
+      "number": 39346,
+      "title": "[Android] Fix SearchHandler toolbar icon tint when Shell.ForegroundColor is set on a TabBar, Tab, or ShellContent",
+      "repo": "dotnet/maui",
+      "author": "edgiardina",
+      "mergedAt": "2026-10-16T17:07:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39431",
+      "number": 39431,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-16T17:02:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39255",
+      "number": 39255,
+      "title": " [iOS] Fix SafeAreaEdges on a CollectionView/CarouselView item template root is ignored when the root has a Shadow ",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-10-16T17:00:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39314",
+      "number": 39314,
+      "title": "[Android] Fix SwipeItem tap with fixed-width SwipeView content",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-10-16T16:55:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26838",
+      "number": 26838,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20261003055201437 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-10-16T16:52:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26769",
+      "number": 26769,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-16T16:52:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26843",
+      "number": 26843,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-16T16:43:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26893",
+      "number": 26893,
+      "title": "[release/11.0.1xx] Merge Xcode 27.1 into release/11.0.1xx",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-16T16:40:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39361",
+      "number": 39361,
+      "title": "[Testing] Fixed Test case failure in PR 38782- Candidate - 2",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-10-16T16:40:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26892",
+      "number": 26892,
+      "title": "[release/10.0.1xx] Merge Xcode 27.1 into release/10.0.1xx",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-16T16:39:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39418",
+      "number": 39418,
+      "title": "Add new versions to the bug report template",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-10-16T16:38:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/444",
+      "number": 444,
+      "title": "Add Microsoft.Maui.Testing package and mauitest template",
+      "repo": "dotnet/maui-labs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-16T15:18:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/710",
+      "number": 710,
+      "title": "Add explicit CLI self-update and daily update notices",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-16T14:16:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13162",
+      "number": 13162,
+      "title": "[fix-finder] Remove stale jarsigner FIXME",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-16T13:51:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/1070",
       "number": 1070,
       "title": "Document ApplicationStartInfo source event timestamp",
@@ -112091,7 +112261,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-16T12:59:35.570Z",
+  "lastUpdated": "2026-10-16T19:14:42.908Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
