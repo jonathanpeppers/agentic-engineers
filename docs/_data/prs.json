@@ -1,6 +1,106 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5361",
+      "number": 5361,
+      "title": "Stabilize browser screenshots and stable Uno startup in sample CI",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-17T00:39:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5376",
+      "number": 5376,
+      "title": "[docs] docs: regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-17T00:34:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5379",
+      "number": 5379,
+      "title": "Make Skia sync validation fail reliably and preserve attempt logs",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-17T00:33:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39425",
+      "number": 39425,
+      "title": "[NET 11] Fix source-generated XAML diagnostic paths for ordinary and linked files",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-10-16T22:51:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39419",
+      "number": 39419,
+      "title": "[.NET 11] Fix Blazor template framework selection with --Empty",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-10-16T22:45:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39378",
+      "number": 39378,
+      "title": "[Graphics] PlatformImage: Read PNG dimensions from IHDR",
+      "repo": "dotnet/maui",
+      "author": "Nacl-HCl",
+      "mergedAt": "2026-10-16T22:41:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39366",
+      "number": 39366,
+      "title": "[Android] Fix stretched Shell back button icon when IconOverride is not square",
+      "repo": "dotnet/maui",
+      "author": "KirkPatrickJunsay",
+      "mergedAt": "2026-10-16T22:39:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37319",
+      "number": 37319,
+      "title": "Fix Rectangle Rendering as a Thin Line for Small Heights",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-10-16T22:23:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13171",
+      "number": 13171,
+      "title": "[Xamarin.Android.Build.Tasks] Remove unused MD2 implementation",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-16T20:05:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26877",
+      "number": 26877,
+      "title": "[release/11.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-16T19:30:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26866",
       "number": 26866,
       "title": "[release/11.0.1xx] Update dependencies from dotnet/macios",
@@ -112261,7 +112361,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-16T19:14:42.908Z",
+  "lastUpdated": "2026-10-17T02:45:56.472Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
