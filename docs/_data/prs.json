@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5389",
+      "number": 5389,
+      "title": "[docs] docs: regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-18T00:37:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5386",
+      "number": 5386,
+      "title": "Allow sample HTTP requests thirty seconds to complete",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-18T00:36:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39415",
+      "number": 39415,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet, dotnet/macios",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-17T23:33:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5352",
+      "number": 5352,
+      "title": "Fix Linux HarfBuzz symbol preemption",
+      "repo": "mono/SkiaSharp",
+      "author": "VirgilMing",
+      "mergedAt": "2026-10-17T23:05:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5378",
+      "number": 5378,
+      "title": "Remove unused web assets and scope reviewed CodeQL findings",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-17T21:35:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5383",
+      "number": 5383,
+      "title": "Raise Apple deployment minimums",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-17T21:32:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/403",
+      "number": 403,
+      "title": "Raise Apple deployment defaults",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-17T21:29:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5387",
+      "number": 5387,
+      "title": "[tests] Raise GPU golden outlier allowance to 3%",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-17T21:23:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5366",
       "number": 5366,
       "title": "Add native artifact tests and dedicated Linux CI",
@@ -112381,7 +112461,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-17T18:07:15.315Z",
+  "lastUpdated": "2026-10-18T02:47:43.114Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
