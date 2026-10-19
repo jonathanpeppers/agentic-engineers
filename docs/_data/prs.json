@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13093",
+      "number": 13093,
+      "title": "[Xamarin.Android.Build.Tasks] Separate CoreCLR bootstrap",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-19T15:13:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/716",
+      "number": 716,
+      "title": "build(deps-dev): Bump @bradygaster/squad-cli from 0.13.0 to 1.0.0 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-10-19T15:03:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/712",
+      "number": 712,
+      "title": "Fix PowerShell quoting in the Windows CLI updater",
+      "repo": "dotnet/maui-labs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-19T15:02:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13178",
+      "number": 13178,
+      "title": "[skill-runner] update-androidsdk-packages",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-19T14:02:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13161",
+      "number": 13161,
+      "title": "[Build.Tasks] Remove legacy Android tooling resolution",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-19T11:42:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39459",
+      "number": 39459,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-19T11:38:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39457",
+      "number": 39457,
+      "title": "Fix leak-fixer evidence filtering before bot trust evaluation",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-19T11:35:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39422",
+      "number": 39422,
+      "title": "[iOS] Reconstruct MAUI view peers from native handles",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-19T11:34:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39430",
+      "number": 39430,
+      "title": "Fix iOS BlazorWebView callbacks after disconnection",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-10-19T10:51:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39452",
+      "number": 39452,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-19T10:36:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39455",
+      "number": 39455,
+      "title": "Update the Avalonia.Controls.Maui template version to RC2",
+      "repo": "dotnet/maui",
+      "author": "jsuarezruiz",
+      "mergedAt": "2026-10-19T10:35:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13105",
+      "number": 13105,
+      "title": "[Unsafe] Prepare JNI and runtime memory-safety contracts",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-19T10:00:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13104",
+      "number": 13104,
+      "title": "[Unsafe][generator] Prepare safe managed binding contracts",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-19T10:00:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13078",
+      "number": 13078,
+      "title": "[Unsafe] Opt tooling into updated C# memory-safety rules",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-19T10:00:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13177",
+      "number": 13177,
+      "title": "Bump external/android-api-docs from `7f61730` to `c561708`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-19T09:14:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13128",
+      "number": 13128,
+      "title": "[Mono.Android] Obsolete JNI delegate wrapping in .NET 11",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-19T07:37:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26871",
+      "number": 26871,
+      "title": "[Network] Correct Ethernet channel state callbacks. Fixes #26789",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-19T06:25:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26894",
+      "number": 26894,
+      "title": "[main] Merge Xcode 27.1 into main",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-19T05:12:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/39441",
       "number": 39441,
       "title": "[net11.0] Update Windows App SDK, build tools, and WebView2",
@@ -112471,7 +112651,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-19T03:00:35.855Z",
+  "lastUpdated": "2026-10-19T15:14:24.126Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
