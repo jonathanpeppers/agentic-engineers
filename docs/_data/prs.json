@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26911",
+      "number": 26911,
+      "title": "[release/11.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-19T20:28:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39472",
+      "number": 39472,
+      "title": "[inflight/candidate][iOS] Fix ScrollView PageSheet detection without reverting the flicker fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-19T19:55:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39473",
+      "number": 39473,
+      "title": "[net11.0] Enable stable GA packaging",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-19T19:48:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/706",
+      "number": 706,
+      "title": "Fix Playground drawers and consolidate diagnostics defaults",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-19T19:04:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/691",
+      "number": 691,
+      "title": "Stabilize Windows Inspector loading and polling regressions",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-10-19T19:03:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/674",
+      "number": 674,
+      "title": "Fix WebView failure propagation and preserve useful errors",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-19T18:57:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/694",
+      "number": 694,
+      "title": "Remove misleading WebView network alias",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-19T18:54:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/718",
+      "number": 718,
+      "title": "Use SHA-256 identifiers with at least 128 retained bits",
+      "repo": "dotnet/maui-labs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-19T18:51:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13180",
+      "number": 13180,
+      "title": "[release/11.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-19T18:17:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/713",
+      "number": 713,
+      "title": "Fix Android SDK inventory with Command-line Tools 23",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-10-19T17:55:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39421",
+      "number": 39421,
+      "title": "[CI-Improvement]Retry only failing UI-test categories across all platforms",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-10-19T16:58:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39429",
+      "number": 39429,
+      "title": "[Windows] Fix excessive blank space between CollectionView grid items",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-10-19T16:52:03Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/717",
+      "number": 717,
+      "title": "Make Linux SecureStorage throw PlatformNotSupportedException",
+      "repo": "dotnet/maui-labs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-19T16:27:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13093",
       "number": 13093,
       "title": "[Xamarin.Android.Build.Tasks] Separate CoreCLR bootstrap",
@@ -112651,7 +112781,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-19T15:14:24.126Z",
+  "lastUpdated": "2026-10-19T20:51:26.287Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
