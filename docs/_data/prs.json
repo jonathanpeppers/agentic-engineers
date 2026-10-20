@@ -1,6 +1,126 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13212",
+      "number": 13212,
+      "title": "[release/11.0.1xx] [Xamarin.Installer.Build.Tasks] Validate OpenJDK downloads",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-20T13:11:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26926",
+      "number": 26926,
+      "title": "[docs] Update docs after reviews in the dotnet/docs-mobile repo.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-20T12:23:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26924",
+      "number": 26924,
+      "title": "[yaml] Enable policheck",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-20T12:21:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38778",
+      "number": 38778,
+      "title": "Update PatchVersion from 120 to 130",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-20T10:47:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39490",
+      "number": 39490,
+      "title": "Prepare SR12 for servicing packages",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-20T10:47:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39494",
+      "number": 39494,
+      "title": "Add 10.0.120 to bug report version dropdowns",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-20T10:47:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38782",
+      "number": 38782,
+      "title": "September 22nd, Candidate — .NET 10 SR12 (10.0.120)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-20T10:10:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39480",
+      "number": 39480,
+      "title": "[net11.0] Update dependencies from dotnet/android",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-20T10:08:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39482",
+      "number": 39482,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-20T10:06:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13172",
+      "number": 13172,
+      "title": "[Xamarin.Installer.Build.Tasks] Validate OpenJDK downloads",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-20T08:57:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13209",
+      "number": 13209,
+      "title": "Bump external/android-api-docs from `c561708` to `1ccdb53`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-20T08:03:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13201",
+      "number": 13201,
+      "title": "[Xamarin.Android.Build.Tasks] Remove remaining shared API-version state",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-20T06:55:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26891",
       "number": 26891,
       "title": "[CI] Configure nightly CodeQL languages and tracing boundaries",
@@ -112821,7 +112941,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-20T03:10:25.808Z",
+  "lastUpdated": "2026-10-20T13:15:47.042Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
