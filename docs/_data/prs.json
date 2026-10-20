@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5395",
+      "number": 5395,
+      "title": "Extract shared Apple and Android device test infrastructure",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-20T19:26:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13195",
+      "number": 13195,
+      "title": "[Microsoft.Android.Build.Tasks] Register all net11.0 tasks with conditional Runtime=\"NET\" UsingTask",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-20T19:16:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26873",
+      "number": 26873,
+      "title": "[Foundation] Add synchronous span byte-buffer APIs",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-20T18:02:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26923",
+      "number": 26923,
+      "title": "[main] Bump API Diff to latest Stable",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-20T18:02:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26898",
+      "number": 26898,
+      "title": "[templates] Fix MSTest test-host relaunch. Fixes #26890",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-20T17:52:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39498",
+      "number": 39498,
+      "title": "[Windows][net11] Release MSIX dependency locks during Helix deployment",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-20T17:52:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26901",
+      "number": 26901,
+      "title": "[tests] Detect and remove redundant OS version guards.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-20T17:46:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39489",
+      "number": 39489,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-20T17:43:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26910",
+      "number": 26910,
+      "title": "[msbuild] Explain codesign failures caused by extended attributes. Fixes #5202",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-20T17:40:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13173",
+      "number": 13173,
+      "title": "[fix-finder] Remove null-forgiving Maven cache default",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-20T16:59:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26921",
+      "number": 26921,
+      "title": "[release/11.0.1xx] Bump API Diff to latest Stable and backport test fix ",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-20T16:16:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26922",
+      "number": 26922,
+      "title": "[release/10.0.1xx] Bump API Diff to latest Stable and backport test fix ",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-20T16:16:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1566",
+      "number": 1566,
+      "title": "Update configuration and generate governance files",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-10-20T16:15:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13208",
+      "number": 13208,
+      "title": "[fix-finder] Fix AIDL parcelable deserialization",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-20T15:47:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13197",
+      "number": 13197,
+      "title": "[build] Remove unused System.IO.Hashing from runtime packs and build tasks",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-20T15:04:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13156",
+      "number": 13156,
+      "title": "[Unsafe][Java.Interop] Retain JNI callback registration owners",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-20T14:46:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39475",
+      "number": 39475,
+      "title": "Fix Leak Fixer validation shell permissions",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-20T14:29:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26905",
+      "number": 26905,
+      "title": "[publish] Copy dSYMs before disconnecting remote builds",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-20T14:19:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26907",
+      "number": 26907,
+      "title": "[CoreGraphics] Add documentation for CoreGraphics enums",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-20T14:00:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13215",
+      "number": 13215,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261020103206413 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-20T13:50:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13212",
       "number": 13212,
       "title": "[release/11.0.1xx] [Xamarin.Installer.Build.Tasks] Validate OpenJDK downloads",
@@ -112941,7 +113141,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-20T13:15:47.042Z",
+  "lastUpdated": "2026-10-20T19:48:36.587Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
