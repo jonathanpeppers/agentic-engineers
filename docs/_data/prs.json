@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13164",
+      "number": 13164,
+      "title": "Bump com.android.tools:r8 from 9.5.23 to 9.5.26 in /src/r8",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-20T23:44:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39470",
+      "number": 39470,
+      "title": "Fix typed bindings invoking generated getters with missing ancestor sources",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-20T22:59:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39426",
+      "number": 39426,
+      "title": "[iOS] Fix splash screen image not appearing ",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-10-20T22:57:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39398",
+      "number": 39398,
+      "title": "Update iOS orientation handling to use UIDevice.CurrentDevice",
+      "repo": "dotnet/maui",
+      "author": "jgold6",
+      "mergedAt": "2026-10-20T22:55:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39281",
+      "number": 39281,
+      "title": "Make CodeBehind generator incremental to fix EnC rude edits on x:Name changes",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-10-20T22:47:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/37032",
+      "number": 37032,
+      "title": " [iOS/MacCatalyst] Fixed  CollectionView: Preserve visible position when item spacing changes",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-10-20T22:46:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39497",
+      "number": 39497,
+      "title": "[WPF] Fix BlazorWebView disposal hanging when cleanup awaits JS interop",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-10-20T22:42:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13216",
+      "number": 13216,
+      "title": "Allow Android PR Reviewer to submit inline findings and summary",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-10-20T22:16:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13181",
+      "number": 13181,
+      "title": "[main] Update dependencies from dotnet/dotnet, microsoft/testfx",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-20T22:09:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26935",
+      "number": 26935,
+      "title": "Address PoliCheck Severity 1 findings and wording typos",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-20T21:45:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13217",
+      "number": 13217,
+      "title": "Use the supported GPT-6.1 model alias for Android PR Reviewer",
+      "repo": "dotnet/android",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-10-20T20:46:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5395",
       "number": 5395,
       "title": "Extract shared Apple and Android device test infrastructure",
@@ -113141,7 +113251,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-20T19:48:36.587Z",
+  "lastUpdated": "2026-10-21T03:05:01.480Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
