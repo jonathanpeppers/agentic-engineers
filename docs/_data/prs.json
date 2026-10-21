@@ -1,6 +1,196 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13221",
+      "number": 13221,
+      "title": "[docs] Refresh Java.Interop build and interop guidance",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-21T19:52:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13182",
+      "number": 13182,
+      "title": "[native] Require opt-in for assembly loading logs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-21T19:33:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13225",
+      "number": 13225,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261021103303733 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-21T19:26:39Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13227",
+      "number": 13227,
+      "title": "[ci] Move signing jobs to the current MicroBuild pool",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-21T19:25:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26915",
+      "number": 26915,
+      "title": "[xharness] Replace empty log links with a marker. Fixes #6077",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T19:24:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13228",
+      "number": 13228,
+      "title": "[ci] Prevent MAUI from changing the Android build number",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-21T18:52:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39513",
+      "number": 39513,
+      "title": "[Windows] Fix EmptyViewTemplate not displayed when ItemsSource is set to Null  ",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-10-21T17:04:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39512",
+      "number": 39512,
+      "title": "[Windows] Fix WebView rendering alongside HybridWebView",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-10-21T17:00:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39484",
+      "number": 39484,
+      "title": "[iOS/Mac] Fix Button with gradient Background ignores CornerRadius",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-10-21T16:59:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39462",
+      "number": 39462,
+      "title": "[Android] Fix Shell Renderer Content Layout in RTL Locked Mode",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-10-21T16:58:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26906",
+      "number": 26906,
+      "title": "[msbuild] Diagnose remote task requests without an application name",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T15:47:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26904",
+      "number": 26904,
+      "title": "[msbuild] Read artifact metadata locally on Windows. Fixes #26847",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T15:46:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26855",
+      "number": 26855,
+      "title": "[Network] Fix WebSocket client request handler binding",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T15:46:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26932",
+      "number": 26932,
+      "title": "[bgen] Resolve library paths for every smart enum field. Fixes #5228",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T15:46:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26931",
+      "number": 26931,
+      "title": "[CI] Stop scheduling RGen test suites",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T15:46:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26951",
+      "number": 26951,
+      "title": "[ci] Increase the Push NuGets job timeout to 120 minutes",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T15:45:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26950",
+      "number": 26950,
+      "title": "[release/11.0.1xx] [templates] Fix MSTest test-host relaunch. Fixes #26890",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T15:20:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26896",
+      "number": 26896,
+      "title": "[Security] Use a secure RNG to create a password.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T14:43:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26947",
+      "number": 26947,
+      "title": " [xcode27.2] Update baseline to Xcode 27.2 Release Candidate 2 (.NET 10)",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-21T14:39:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/39520",
       "number": 39520,
       "title": "[automated] Merge branch 'main' => 'net11.0'",
@@ -113431,7 +113621,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-21T13:23:17.899Z",
+  "lastUpdated": "2026-10-21T19:54:15.426Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
