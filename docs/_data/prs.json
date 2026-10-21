@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39520",
+      "number": 39520,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-21T12:23:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39469",
+      "number": 39469,
+      "title": "[iOS]Fix for HybridWebView JavaScript Evaluation Exceptions and Incomplete Requests",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-10-21T12:21:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39519",
+      "number": 39519,
+      "title": "[ci] Remove unused SDK insertion templates",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-21T12:15:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39458",
+      "number": 39458,
+      "title": "[iOS] Prevent NavigationRenderer pop continuation from accessing a disposed renderer",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-10-21T12:14:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39508",
+      "number": 39508,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-21T12:08:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38441",
+      "number": 38441,
+      "title": "[iOS/Mac] Fix CollectionView2 height not updating when ItemsSource changes",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-10-21T12:06:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/196",
+      "number": 196,
+      "title": "Add PhysicalDeviceService for devicectl-backed physical device discovery",
+      "repo": "dotnet/macios-devtools",
+      "author": "rmarinho",
+      "mergedAt": "2026-10-21T12:04:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26942",
+      "number": 26942,
+      "title": "[release/10.0.1xx] Backport Windows bootstrap fix (#26930)",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-21T11:57:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26943",
+      "number": 26943,
+      "title": "[release/11.0.1xx] Backport Windows bootstrap fix (#26930)",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-21T11:56:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39412",
+      "number": 39412,
+      "title": "[Windows] Fix crash when clicking a tab with sub tabs in the Shell TabBar overflow menu",
+      "repo": "dotnet/maui",
+      "author": "Empiree",
+      "mergedAt": "2026-10-21T11:29:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/36226",
+      "number": 36226,
+      "title": "[Android] Enable native edge-to-edge and fix dynamic system bar icon colors",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-10-21T11:10:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26865",
+      "number": 26865,
+      "title": "[release/11.0.1xx] [tests] Restore LLVM AOT for dont link tests. Fixes #26467",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T10:27:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26897",
+      "number": 26897,
+      "title": "[WebKit] Preserve native defaults for unhandled policy events. Fixes #4214",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T09:42:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26887",
+      "number": 26887,
+      "title": "[Bindings] Connect renamed enums to their native names",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T09:39:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26930",
+      "number": 26930,
+      "title": "[devops] Fix PowerShell provisioning for Windows CI",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-21T09:24:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26934",
+      "number": 26934,
+      "title": "[release/11.0.1xx] [docs] Update docs after reviews in the dotnet/docs-mobile repo.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T07:42:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26945",
+      "number": 26945,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 15752471",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-21T07:30:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13130",
+      "number": 13130,
+      "title": "[Mono.Android] Retire JNI delegate wrapping, retain legacy API",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-21T06:38:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13164",
       "number": 13164,
       "title": "Bump com.android.tools:r8 from 9.5.23 to 9.5.26 in /src/r8",
@@ -113251,7 +113431,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-21T03:05:01.480Z",
+  "lastUpdated": "2026-10-21T13:23:17.899Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
