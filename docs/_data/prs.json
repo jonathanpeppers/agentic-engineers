@@ -1,6 +1,156 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/26973",
+      "number": 26973,
+      "title": "[xcode27.2-net11.0] Update baseline to Xcode 27.2 Release Candidate 1 (.NET 11)",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-22T13:21:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13230",
+      "number": 13230,
+      "title": "[release/10.0.1xx] [ci] Move signing jobs to the current MicroBuild pool",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-22T13:17:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26962",
+      "number": 26962,
+      "title": "Address reviewed PoliCheck terminology findings",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-22T13:03:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13219",
+      "number": 13219,
+      "title": "[fix-finder] Fix AIDL null identifier exception details",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-22T12:56:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13231",
+      "number": 13231,
+      "title": "[release/11.0.1xx] [ci] Prevent MAUI from changing the Android build number",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-22T12:54:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13236",
+      "number": 13236,
+      "title": "[fix-finder] Remove region directives from IXmlResourceParser",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-22T12:53:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13183",
+      "number": 13183,
+      "title": "[Unsafe][Java.Interop] Prepare managed peer construction",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-22T12:52:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13237",
+      "number": 13237,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261022103156808 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-22T12:52:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13233",
+      "number": 13233,
+      "title": "[ci] Use GPT-6.1 Sol and upgrade gh-aw to v0.92.0",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-22T12:51:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39522",
+      "number": 39522,
+      "title": "Fix CI-fixer empty-queue PowerShell module discovery",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-22T09:59:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26965",
+      "number": 26965,
+      "title": "[release/11.0.1xx] [msbuild] Read artifact metadata locally on Windows. Fixes #26847",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-22T08:22:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26900",
+      "number": 26900,
+      "title": "[msbuild] Bump System.Security.Cryptography.Xml to 8.0.5.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-22T07:37:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26902",
+      "number": 26902,
+      "title": "[macOS] Warn when UseNativeHttpHandler has no effect. Fixes #26878",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-22T07:33:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/745",
+      "number": 745,
+      "title": "build(deps-dev): Bump @modelcontextprotocol/sdk from 1.31.0 to 1.32.1 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-10-22T07:22:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13224",
+      "number": 13224,
+      "title": "Preserve explicit Java exports during full trimming",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-22T05:52:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5391",
       "number": 5391,
       "title": "Run Android samples with owned Appium sessions",
@@ -113691,7 +113841,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-22T03:03:37.106Z",
+  "lastUpdated": "2026-10-22T13:24:07.056Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
