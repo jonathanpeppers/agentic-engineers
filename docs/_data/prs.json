@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5391",
+      "number": 5391,
+      "title": "Run Android samples with owned Appium sessions",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-22T02:12:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39532",
+      "number": 39532,
+      "title": "Address contextual PoliCheck findings",
+      "repo": "dotnet/maui",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-21T22:07:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13204",
+      "number": 13204,
+      "title": "[Xamarin.Installer.AndroidSDK] Stop on archive checksum failures",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-21T21:35:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13218",
+      "number": 13218,
+      "title": "[xabt] Invalidate linker cache when Android properties change",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-21T21:35:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26949",
+      "number": 26949,
+      "title": "[eng] Don't duplicate values between Version.props and Version.Details.props.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-21T19:58:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13223",
+      "number": 13223,
+      "title": "[Java.Interop] Remove unused tooling assemblies and package pins",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-21T19:55:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13222",
+      "number": 13222,
+      "title": "[Java.Interop] Remove obsolete standalone build infrastructure",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-21T19:54:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13221",
       "number": 13221,
       "title": "[docs] Refresh Java.Interop build and interop guidance",
@@ -113621,7 +113691,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-21T19:54:15.426Z",
+  "lastUpdated": "2026-10-22T03:03:37.106Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
