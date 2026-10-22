@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13238",
+      "number": 13238,
+      "title": "[release/11.0.1xx] Fix NativeAOT fatal exception termination",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-22T18:39:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13234",
+      "number": 13234,
+      "title": "[release/11.0.1xx] [Xamarin.Installer.AndroidSDK] Stop on archive checksum failures",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-22T17:45:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39547",
+      "number": 39547,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-22T17:28:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39543",
+      "number": 39543,
+      "title": "[Windows] Fix CollectionView CV2 retention after dynamic removal",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-10-22T17:25:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39530",
+      "number": 39530,
+      "title": "Remove obsolete Graphics projects",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-10-22T17:23:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39525",
+      "number": 39525,
+      "title": "[Windows] Avoid CollectionView GroupHeaderStyleSelector accumulation",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-10-22T17:16:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39529",
+      "number": 39529,
+      "title": "[Testing] Stabilize GC aggregation fixture lifetimes on Mono",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-22T17:13:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39526",
+      "number": 39526,
+      "title": "[Android]Fix for Android ImageButton Border Visibility and Update Test Snapshots for Issue",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-10-22T17:13:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26981",
+      "number": 26981,
+      "title": "[docs] Fix internal document link.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-22T17:08:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/38911",
+      "number": 38911,
+      "title": "[iOS] Use window scene display for layout decisions",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-22T17:00:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39218",
+      "number": 39218,
+      "title": "Add probability-scored duplicate issue detection",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-22T16:57:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/741",
+      "number": 741,
+      "title": "Inspector: show an Updating hint on the Preview while it refreshes after a tap",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-10-22T16:07:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26929",
+      "number": 26929,
+      "title": "[devops] Remove unused script.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-22T16:02:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13229",
+      "number": 13229,
+      "title": "[release/11.0.1xx] [ci] Move signing jobs to the current MicroBuild pool",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-22T15:35:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/743",
+      "number": 743,
+      "title": "List connected physical iOS devices in `maui device list`",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-10-22T15:20:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5412",
+      "number": 5412,
+      "title": "[ci] Address contextual PoliCheck findings",
+      "repo": "mono/SkiaSharp",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-22T14:14:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5414",
+      "number": 5414,
+      "title": "Use a pinned Alpine CDN package for native bootstrap",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-22T14:13:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26976",
+      "number": 26976,
+      "title": "[release/10.0.1xx] [eng] Don't duplicate values between Version.props and Version.Details.props.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-22T14:07:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5415",
+      "number": 5415,
+      "title": "Run sample hosts over explicit loopback HTTP",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-22T14:06:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26982",
+      "number": 26982,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 15775660",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-22T14:01:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/26973",
       "number": 26973,
       "title": "[xcode27.2-net11.0] Update baseline to Xcode 27.2 Release Candidate 1 (.NET 11)",
@@ -113841,7 +114041,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-22T13:24:07.056Z",
+  "lastUpdated": "2026-10-22T19:42:56.418Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
