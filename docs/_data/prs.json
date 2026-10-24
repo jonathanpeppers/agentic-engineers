@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39607",
+      "number": 39607,
+      "title": "[release/11.0.1xx] Update Android dependencies and fix CI blockers",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-24T17:07:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/37836",
       "number": 37836,
       "title": "Handlers: Add opt-in initialization attribution",
@@ -115391,7 +115401,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-24T12:25:29.964Z",
+  "lastUpdated": "2026-10-24T18:33:19.741Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
