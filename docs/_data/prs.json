@@ -1,6 +1,76 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/399",
+      "number": 399,
+      "title": "Add `maui android port` command group (issue #197, gap 4)",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-10-23T23:34:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/403",
+      "number": 403,
+      "title": "Wire Android cmdline-tools resolver API into maui CLI",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-10-23T23:34:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1147",
+      "number": 1147,
+      "title": "Complete .NET runtime documentation in five namespaces",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-23T23:03:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39533",
+      "number": 39533,
+      "title": "[iOS] Collapse CollectionView group headers when their content is hidden",
+      "repo": "dotnet/maui",
+      "author": "carloshenriquecarniatto",
+      "mergedAt": "2026-10-23T22:35:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39576",
+      "number": 39576,
+      "title": "Avoid redundant boxing in coerceValue lambdas for value-type",
+      "repo": "dotnet/maui",
+      "author": "pictos",
+      "mergedAt": "2026-10-23T22:27:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13198",
+      "number": 13198,
+      "title": "[build] Move CreateAssemblyStore to Microsoft.Android.Build.Tasks",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-23T21:31:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1146",
+      "number": 1146,
+      "title": "Complete PDF selection runtime documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-23T20:00:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13240",
       "number": 13240,
       "title": "[tests] Cover fatal managed exception termination on main",
@@ -115211,7 +115281,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-23T19:44:51.185Z",
+  "lastUpdated": "2026-10-24T03:03:21.695Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
