@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/738",
+      "number": 738,
+      "title": "build(deps-dev): Bump hono from 4.13.9 to 4.13.13 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-10-25T07:48:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/39607",
       "number": 39607,
       "title": "[release/11.0.1xx] Update Android dependencies and fix CI blockers",
@@ -115401,7 +115411,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-25T02:57:40.234Z",
+  "lastUpdated": "2026-10-25T13:00:06.324Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
