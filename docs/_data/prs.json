@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39636",
+      "number": 39636,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-25T22:33:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39622",
+      "number": 39622,
+      "title": "[Windows] Restore native binding metadata baseline to fix maui-pr",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-25T22:22:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/738",
       "number": 738,
       "title": "build(deps-dev): Bump hono from 4.13.9 to 4.13.13 in /src/Comet",
@@ -115411,7 +115431,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-25T18:41:44.522Z",
+  "lastUpdated": "2026-10-26T02:56:30.401Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
