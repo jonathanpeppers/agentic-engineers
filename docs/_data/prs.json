@@ -1,6 +1,266 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39691",
+      "number": 39691,
+      "title": "[net11] Fix culture-dependent FontSize design-time validation",
+      "repo": "dotnet/maui",
+      "author": "noiseonwires",
+      "mergedAt": "2026-10-27T13:50:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39694",
+      "number": 39694,
+      "title": "[inflight/current] Fix culture-dependent FontSize design-time validation",
+      "repo": "dotnet/maui",
+      "author": "noiseonwires",
+      "mergedAt": "2026-10-27T13:49:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39695",
+      "number": 39695,
+      "title": "[NET11] [Android][Test Failure] Fix HybridWebView remains attached to its parent after handler disconnect",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-10-27T13:47:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1149",
+      "number": 1149,
+      "title": "Fill repeated .NET binding documentation and complete five namespaces",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-27T13:44:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13242",
+      "number": 13242,
+      "title": "[Microsoft.Android.Sdk.TrimmableTypeMap] Fix Java overrides",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-27T13:43:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26989",
+      "number": 26989,
+      "title": "[release/10.0.1xx] [msbuild] Detect legacy UIKit lifecycle apps built against SDK 27",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-27T13:26:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13264",
+      "number": 13264,
+      "title": "[release/11.0.1xx] [native] Fix assembly store initialization race",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-27T13:22:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13167",
+      "number": 13167,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15826164",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-27T13:16:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27018",
+      "number": 27018,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20261024055151065 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-10-27T12:53:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26936",
+      "number": 26936,
+      "title": "[msbuild] Detect legacy UIKit lifecycle apps built against SDK 27",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-27T12:25:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/752",
+      "number": 752,
+      "title": "Fix macOS backend build warnings",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-10-27T12:19:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13110",
+      "number": 13110,
+      "title": "[Build] Replace resource designer signing helpers with .NET APIs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-27T11:07:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5433",
+      "number": 5433,
+      "title": "[tests] Stabilize golden capture retries and Uno drawing sample test",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-27T10:51:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5390",
+      "number": 5390,
+      "title": "Align Windows library dependencies with MAUI 9 and 10",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-27T10:49:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5403",
+      "number": 5403,
+      "title": "Remove obsolete libmicrohttpd notice",
+      "repo": "mono/SkiaSharp",
+      "author": "Saad-elnagar",
+      "mergedAt": "2026-10-27T10:12:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39687",
+      "number": 39687,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-27T10:02:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39683",
+      "number": 39683,
+      "title": "Bump the aspnetcore group with 3 updates",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-10-27T09:58:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39686",
+      "number": 39686,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-27T09:58:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39501",
+      "number": 39501,
+      "title": "[iOS, Catalyst] Fix IndicatorView not visible when applying RTL FlowDirection with IndicatorTemplate  ",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-10-27T09:46:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39621",
+      "number": 39621,
+      "title": "[Testing] Launch UI fixtures directly instead of navigating through the gallery",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-27T09:43:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26977",
+      "number": 26977,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20261022055329018 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-10-27T09:27:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27011",
+      "number": 27011,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20261023055009918 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-10-27T08:57:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13268",
+      "number": 13268,
+      "title": "Bump external/android-api-docs from `8359fdf` to `9ae59ce`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-27T07:36:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13243",
+      "number": 13243,
+      "title": "[Xamarin.Android.Build.Tasks] Support MT in four transform tasks",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-27T07:35:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13246",
+      "number": 13246,
+      "title": "[release/11.0.1xx] Backport translations and dependency updates",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-27T07:32:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13149",
+      "number": 13149,
+      "title": "[Mono.Android] Remove Mono.Android.Runtime assembly",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-27T07:03:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13257",
       "number": 13257,
       "title": "[release/11.0.1xx] Update dependencies from dotnet/dotnet",
@@ -115791,7 +116051,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-27T03:29:16.331Z",
+  "lastUpdated": "2026-10-27T13:53:51.057Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
