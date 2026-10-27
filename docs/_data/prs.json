@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13257",
+      "number": 13257,
+      "title": "[release/11.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-26T22:37:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39541",
+      "number": 39541,
+      "title": "Fix Shell Flyout item ordering when CurrentItem is set in XAML",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-10-26T21:56:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39672",
+      "number": 39672,
+      "title": "[Android] SafeArea: let empty insets reach tracked views so SoftInput padding resets",
+      "repo": "dotnet/maui",
+      "author": "kevin68",
+      "mergedAt": "2026-10-26T21:54:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39427",
+      "number": 39427,
+      "title": "[Testing] Android shell renderer lane",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-10-26T21:43:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13260",
+      "number": 13260,
+      "title": "[build] Fix SDK skill queries for extras and legacy docs",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-26T20:55:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13265",
       "number": 13265,
       "title": "[tests] Remove SDK resolution timing assertion",
@@ -115741,7 +115791,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-26T20:52:22.193Z",
+  "lastUpdated": "2026-10-27T03:29:16.331Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
