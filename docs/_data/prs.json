@@ -1,6 +1,486 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/skia/pull/411",
+      "number": 411,
+      "title": "[skia-sync] Merge upstream chrome/m156",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T20:39:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27102",
+      "number": 27102,
+      "title": "[release/11.0.1xx] [WebKit] Preserve native defaults for unhandled policy events. Fixes #4214",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-28T20:27:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1223",
+      "number": 1223,
+      "title": "Complete Java.Util.Jar documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-28T20:21:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1251",
+      "number": 1251,
+      "title": "Complete Android.Nfc.Tech documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-28T20:19:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1509",
+      "number": 1509,
+      "title": "[release/10.0.1xx] Support JSpecify nullness annotations",
+      "repo": "dotnet/java-interop",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-28T20:18:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27106",
+      "number": 27106,
+      "title": "[msbuild] Escape filesystem entries used in app bundle cleanup. Fixes #20058",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-28T20:09:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27124",
+      "number": 27124,
+      "title": "[tests] Update expected sizes.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-28T20:08:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13200",
+      "number": 13200,
+      "title": "[build] Clean up completed startup-data migration",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-28T20:06:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1230",
+      "number": 1230,
+      "title": "Complete Android.Service.Carrier documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-28T20:05:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13281",
+      "number": 13281,
+      "title": "[native] Simplify NativeAOT host and remove unused shared library",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-28T20:05:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1249",
+      "number": 1249,
+      "title": "Complete Android.Media.Metrics XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-28T19:48:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/java-interop/pull/1505",
+      "number": 1505,
+      "title": "Bump Microsoft.SourceLink.GitHub from 10.0.300 to 10.0.403",
+      "repo": "dotnet/java-interop",
+      "author": "dependabot",
+      "mergedAt": "2026-10-28T18:52:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27084",
+      "number": 27084,
+      "title": "[release/10.0.1xx] Revert macOS and Mac Catalyst minimum OS version bumps. Fixes #27041",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-28T18:51:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13288",
+      "number": 13288,
+      "title": "[release/10.0.1xx] [tests] Use repository NuGet feeds",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-28T18:33:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13299",
+      "number": 13299,
+      "title": "[release/11.0.1xx] [Java.Interop] Dispose unregistered peers normally",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-28T18:28:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13298",
+      "number": 13298,
+      "title": "[docs] Hide PR template guidance from rendered descriptions",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-28T18:18:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13279",
+      "number": 13279,
+      "title": "[release/10.0.1xx] [native] Fix assembly store initialization race",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-28T18:15:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5377",
+      "number": 5377,
+      "title": "Build SkiaSharp.Views.Uno.WinUI against Uno Platform 7",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-10-28T18:00:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27101",
+      "number": 27101,
+      "title": "[release/11.0.1xx] [msbuild] Diagnose remote task requests without an application name",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-28T17:44:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5485",
+      "number": 5485,
+      "title": "[CI] Add .azuredevops/** to cache exclude list in repo-deps.json",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T17:39:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5481",
+      "number": 5481,
+      "title": "Disable AzDO dependabot",
+      "repo": "mono/SkiaSharp",
+      "author": "akoeplinger",
+      "mergedAt": "2026-10-28T17:17:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5482",
+      "number": 5482,
+      "title": "Update 4.154 release support tier",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T17:17:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39734",
+      "number": 39734,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-28T17:09:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39738",
+      "number": 39738,
+      "title": "Use GPT-6.1 Sol for test failure reviews",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-10-28T17:08:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13294",
+      "number": 13294,
+      "title": "[release/11.0.1xx] [Java.Interop] Release native peer control blocks on finalization",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-10-28T16:58:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13293",
+      "number": 13293,
+      "title": "[Mono.Android] Fix .NET 10 peer control-block lifetime leaks",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-28T16:53:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27099",
+      "number": 27099,
+      "title": "[release/10.0.1xx] Address reviewed PoliCheck terminology findings",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-28T16:18:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27120",
+      "number": 27120,
+      "title": "Bump zizmorcore/zizmor-action from 0.6.4 to 0.7.1",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-10-28T16:13:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27095",
+      "number": 27095,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 15842862",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-28T16:10:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27104",
+      "number": 27104,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-28T16:09:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5462",
+      "number": 5462,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T16:07:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5463",
+      "number": 5463,
+      "title": "[skia-sync] Merge upstream chrome/m152 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T16:07:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5455",
+      "number": 5455,
+      "title": "[skia-sync] Merge upstream chrome/m154 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T16:06:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5394",
+      "number": 5394,
+      "title": "[skia-sync] Merge upstream chrome/m155 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T16:06:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5397",
+      "number": 5397,
+      "title": "[skia-sync] Merge upstream chrome/m156 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T16:06:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5474",
+      "number": 5474,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.152.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-28T15:39:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5473",
+      "number": 5473,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.154.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-28T15:38:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5472",
+      "number": 5472,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.150.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-28T15:36:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5471",
+      "number": 5471,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/m156",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-28T15:34:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5470",
+      "number": 5470,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.155.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-28T15:34:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/410",
+      "number": 410,
+      "title": "[skia-sync] Merge upstream chrome/m152",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T15:32:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/408",
+      "number": 408,
+      "title": "[skia-sync] Merge upstream chrome/m154",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T15:32:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5465",
+      "number": 5465,
+      "title": "[4.150.6] Backport pinned Alpine CDN bootstrap fix",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T15:30:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13287",
+      "number": 13287,
+      "title": "[Xamarin.Android.Build.Tasks] Move simple task logic to targets",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-28T15:28:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/406",
+      "number": 406,
+      "title": "[skia-sync] Merge upstream chrome/m156",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T15:27:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/405",
+      "number": 405,
+      "title": "[skia-sync] Merge upstream chrome/m155",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T15:27:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/409",
+      "number": 409,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-28T15:26:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13280",
+      "number": 13280,
+      "title": "[tests] Use repository feeds in DotNetCLI.New",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-28T15:07:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/java-interop/pull/1507",
       "number": 1507,
       "title": "Bump NUnit3TestAdapter from 4.6.0 to 6.3.1",
@@ -117891,7 +118371,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-28T14:48:43.354Z",
+  "lastUpdated": "2026-10-28T20:45:00.559Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
