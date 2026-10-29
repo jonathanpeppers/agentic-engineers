@@ -1,6 +1,136 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/769",
+      "number": 769,
+      "title": "build(deps-dev): Bump @hono/node-server from 2.1.1 to 2.1.5 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-10-29T20:19:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/761",
+      "number": 761,
+      "title": "Preserve sibling XAML source after Inspector Text edits",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-10-29T20:04:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/760",
+      "number": 760,
+      "title": "Refresh Inspector previews promptly and preserve pending feedback",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-10-29T20:04:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26972",
+      "number": 26972,
+      "title": "[msbuild] Use PhysicalDeviceService from Xamarin.MacDev to discover physical devices. Fixes #26968.",
+      "repo": "dotnet/macios",
+      "author": "rmarinho",
+      "mergedAt": "2026-10-29T19:19:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39673",
+      "number": 39673,
+      "title": "[net11] Fix test failures on .NET 11",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-10-29T16:53:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13310",
+      "number": 13310,
+      "title": "[tests] Bound SharedPreferences asynchronous write pressure",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-29T16:23:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1255",
+      "number": 1255,
+      "title": "Complete Android.Nfc documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-29T16:22:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1268",
+      "number": 1268,
+      "title": "Complete Android.AccessibilityServices documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-29T16:09:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1258",
+      "number": 1258,
+      "title": "Complete Java.Lang.Invoke documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-29T16:08:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1270",
+      "number": 1270,
+      "title": "Complete Java.Nio.Channels documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-29T16:07:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39736",
+      "number": 39736,
+      "title": "[Android] Resave ShellBackgroundColorIsApplied snapshot",
+      "repo": "dotnet/maui",
+      "author": "HarishwaranVijayakumar",
+      "mergedAt": "2026-10-29T15:43:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27134",
+      "number": 27134,
+      "title": "[release/11.0.1xx] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-29T15:20:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1253",
+      "number": 1253,
+      "title": "Complete Java.Time.Temporal documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-29T15:05:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/1267",
       "number": 1267,
       "title": "Complete Java.Net documentation",
@@ -119061,7 +119191,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-29T14:55:00.384Z",
+  "lastUpdated": "2026-10-29T20:49:08.439Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
