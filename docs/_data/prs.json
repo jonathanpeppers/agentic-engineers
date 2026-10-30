@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5510",
+      "number": 5510,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/m156",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-30T01:35:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5506",
+      "number": 5506,
+      "title": "Fix StringUtilities.GetUnicodeCharacterCode and GetString validation",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-30T01:15:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/413",
+      "number": 413,
+      "title": "[skia-sync] Merge upstream chrome/m156",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-30T01:00:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5477",
+      "number": 5477,
+      "title": "Clarify release audits with shipment, branch readiness and sync tables",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-30T00:55:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13316",
+      "number": 13316,
+      "title": "[xabt] Enable `-mt` for `<ReadAndroidManifest/>`",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-29T21:15:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/769",
       "number": 769,
       "title": "build(deps-dev): Bump @hono/node-server from 2.1.1 to 2.1.5 in /src/Comet",
@@ -119191,7 +119241,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-29T20:49:08.439Z",
+  "lastUpdated": "2026-10-30T04:07:24.491Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
