@@ -1,6 +1,256 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13323",
+      "number": 13323,
+      "title": "[xabt] Enable MT execution for ResolveAndroidTooling",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-30T19:34:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13317",
+      "number": 13317,
+      "title": "[xabt] Enable MT Java library selection",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-30T19:24:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27185",
+      "number": 27185,
+      "title": "[release/10.0.1xx] [yaml] Enable policheck",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-30T19:10:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5529",
+      "number": 5529,
+      "title": "[docs] Regenerate API diffs and release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-30T18:08:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1269",
+      "number": 1269,
+      "title": "Complete Android.Database.Sqlite documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-30T17:32:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1215",
+      "number": 1215,
+      "title": "Complete Android.Widget.PhotoPicker documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-30T17:27:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27145",
+      "number": 27145,
+      "title": "[tests] Use temporary directory in DocumentTest/FileCoordinatorTest and launch packaged macOS tests with spawner. Fixes #27138",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-30T17:17:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1256",
+      "number": 1256,
+      "title": "Complete Android.Appwidget documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-30T16:31:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39771",
+      "number": 39771,
+      "title": "[Net11] Restricted Flaky test cases",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-10-30T16:23:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39774",
+      "number": 39774,
+      "title": "Prepare SR13 for servicing packages",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-10-30T16:23:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39766",
+      "number": 39766,
+      "title": "[Net11] Resaved ShellColorsResetOnNavigation Mac image",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-10-30T16:21:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1568",
+      "number": 1568,
+      "title": "Stable Updates 20261026",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-10-30T15:56:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27215",
+      "number": 27215,
+      "title": "[release/11.0.1xx] Bump the .NET 10 dependency to Xcode 27.2",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-30T15:51:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27201",
+      "number": 27201,
+      "title": "[release/10.0.1xx] [tests] Use temporary directory in DocumentTest/FileCoordinatorTest and launch packaged macOS tests with spawner. Fixes #27138",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-30T15:46:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/778",
+      "number": 778,
+      "title": "Fix Android SDK handoff to Gradle in EssentialsAI release builds",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-30T15:42:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13330",
+      "number": 13330,
+      "title": "Bump System.CodeDom from 10.0.13 to 10.0.14",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-30T15:37:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13190",
+      "number": 13190,
+      "title": "[Unsafe][generator] Prepare safe managed binding contracts",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-30T15:23:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27182",
+      "number": 27182,
+      "title": "[release/11.0.1xx] Update to stable version of Xcode 27.2",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-10-30T15:14:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27200",
+      "number": 27200,
+      "title": "[release/11.0.1xx] [tests] Use temporary directory in DocumentTest/FileCoordinatorTest and launch packaged macOS tests with spawner. Fixes #27138",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-30T15:13:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13335",
+      "number": 13335,
+      "title": "[Mono.Android] Fix AbstractSpliterator.TryAdvance JNI dispatch",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-30T15:10:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13340",
+      "number": 13340,
+      "title": "[Mono.Android] Fix JavaCollection<T>.Remove() JNI signature",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-30T15:09:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13329",
+      "number": 13329,
+      "title": "Bump com.android.library from 9.4.1 to 9.5.0 in /tests/CodeGen-Binding/Xamarin.Android.LibraryProjectZip-LibBinding/java/JavaLib",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-30T15:08:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13338",
+      "number": 13338,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261030103256421 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-30T15:02:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13321",
+      "number": 13321,
+      "title": "[xabt] Enable MT duplicate Java library checks",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-30T15:02:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13322",
+      "number": 13322,
+      "title": "[xabt] Enable MT for ValidateJavaVersion",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-30T14:51:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13320",
       "number": 13320,
       "title": "[xabt] Replace Google SDK requirement task with XML",
@@ -119441,7 +119691,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-30T14:46:47.933Z",
+  "lastUpdated": "2026-10-30T20:20:36.412Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
