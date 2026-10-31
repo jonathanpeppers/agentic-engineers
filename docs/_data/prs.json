@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/780",
+      "number": 780,
+      "title": "Reuse Android artifacts in EssentialsAI official builds",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-31T12:34:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13346",
+      "number": 13346,
+      "title": "[tests] Correct Instrumentation.onCreate() support declaration",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-31T12:02:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13341",
+      "number": 13341,
+      "title": "[native] Remove unused C++ helpers",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-31T11:29:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13348",
+      "number": 13348,
+      "title": "[Mono.Android] Release Vibrate JNI arrays when SetField throws",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-31T11:24:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13343",
+      "number": 13343,
+      "title": "[Mono.Android] Bind SparseArray<T>.Append() to append()",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-31T11:24:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39742",
+      "number": 39742,
+      "title": "[release/11.0.1xx] Align SDK dependencies and restore test execution",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-10-31T10:56:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13359",
+      "number": 13359,
+      "title": "[NativeAOT] Initialize the device startup time zone offset",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-31T10:30:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39781",
+      "number": 39781,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-10-31T10:09:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1288",
+      "number": 1288,
+      "title": "Auto Publish – main to live - 2026-10-31 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-10-31T05:20:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5549",
+      "number": 5549,
+      "title": "[docs] Refresh unreleased 4.150.8 and 4.156.0 release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-31T04:07:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5446",
+      "number": 5446,
+      "title": "Add OneFuzz integration and local coverage-guided fuzzing",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-31T04:02:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5548",
       "number": 5548,
       "title": "Show generation timestamps on release notes pages",
@@ -119931,7 +120041,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-31T03:51:14.557Z",
+  "lastUpdated": "2026-10-31T14:15:30.851Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
