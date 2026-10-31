@@ -1,6 +1,246 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5548",
+      "number": 5548,
+      "title": "Show generation timestamps on release notes pages",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-31T03:42:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5547",
+      "number": 5547,
+      "title": "[docs] Refresh release notes for 4.156 and 4.150.7",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-31T03:31:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5543",
+      "number": 5543,
+      "title": "[skia-sync] Merge upstream chrome/m150 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-31T03:30:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5546",
+      "number": 5546,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.150.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-31T03:25:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/417",
+      "number": 417,
+      "title": "[skia-sync] Merge upstream chrome/m150",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-31T03:23:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5517",
+      "number": 5517,
+      "title": "[skia-sync] Merge upstream chrome/m156 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-31T03:13:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5544",
+      "number": 5544,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/m156",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-31T03:09:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/415",
+      "number": 415,
+      "title": "[skia-sync] Merge upstream chrome/m156",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-31T03:06:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1287",
+      "number": 1287,
+      "title": "Fill verified Parcelable and Java enum documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-31T02:45:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1570",
+      "number": 1570,
+      "title": "[ci] Fix MicroBuild test signing environment conflict",
+      "repo": "dotnet/android-libraries",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-31T02:18:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5541",
+      "number": 5541,
+      "title": "[docs] Refresh 4.156.0 unreleased notes and collected evidence",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-31T02:14:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5537",
+      "number": 5537,
+      "title": "[Build] Use Windows SDK rc.exe instead of downloading Chromium rc.exe in ANGLE build",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-31T01:41:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5469",
+      "number": 5469,
+      "title": "Guard .NET 11 WASM archives against legacy setjmp symbols",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-10-31T01:39:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5484",
+      "number": 5484,
+      "title": "Remove duplicate @ prefix from issueAuthor in GitOps",
+      "repo": "mono/SkiaSharp",
+      "author": "akoeplinger",
+      "mergedAt": "2026-10-31T01:36:35Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5539",
+      "number": 5539,
+      "title": "[docs] Refresh v3 and v4 release notes from collected evidence",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-10-31T01:36:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5507",
+      "number": 5507,
+      "title": "Improve release-note evidence and automated PR publication",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-31T01:04:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5514",
+      "number": 5514,
+      "title": "Support Xcode 27 Apple builds while retaining Xcode 26 CI",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-10-31T00:55:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26990",
+      "number": 26990,
+      "title": "[release/10.0.1xx] [NativeAOT] Backport embedded native resource exclusions to .NET 10. Fixes #26970.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-10-30T22:29:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/779",
+      "number": 779,
+      "title": "Fix Java SDK handoff to Gradle in EssentialsAI Windows releases",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-10-30T21:17:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13344",
+      "number": 13344,
+      "title": "[tests] Correct Activity.onCreate() support declaration",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-30T21:09:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13357",
+      "number": 13357,
+      "title": "[CoreCLR] Enable DateTimeOffset.Now startup fast path",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-30T21:08:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13324",
+      "number": 13324,
+      "title": "[Xamarin.Android.Build.Tasks] Skip uninstall for new app bundles",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-10-30T21:01:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13328",
+      "number": 13328,
+      "title": "Bump com.android.application from 9.4.1 to 9.5.0 in /src/proguard-android",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-30T20:52:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13327",
+      "number": 13327,
+      "title": "Bump the manifestmerger-dependencies group in /src/manifestmerger with 2 updates",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-10-30T20:51:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13323",
       "number": 13323,
       "title": "[xabt] Enable MT execution for ResolveAndroidTooling",
@@ -119691,7 +119931,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-30T20:20:36.412Z",
+  "lastUpdated": "2026-10-31T03:51:14.557Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
