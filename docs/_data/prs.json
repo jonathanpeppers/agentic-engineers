@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13364",
+      "number": 13364,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261031103220567 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-10-31T17:36:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13361",
+      "number": 13361,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15883592",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-10-31T17:35:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13191",
+      "number": 13191,
+      "title": "[Unsafe] Prepare JNI and runtime memory-safety contracts",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-31T14:48:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui-labs/pull/780",
       "number": 780,
       "title": "Reuse Android artifacts in EssentialsAI official builds",
@@ -120041,7 +120071,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-31T14:15:30.851Z",
+  "lastUpdated": "2026-10-31T19:41:04.352Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
