@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13315",
+      "number": 13315,
+      "title": "[Java.Interop] Simplify local unsafe expression contexts",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-31T22:08:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13355",
+      "number": 13355,
+      "title": "[native] Remove unused CoreCLR startup arguments",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-10-31T21:16:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13364",
       "number": 13364,
       "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261031103220567 to main",
@@ -120071,7 +120091,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-10-31T19:41:04.352Z",
+  "lastUpdated": "2026-11-01T04:00:26.617Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
