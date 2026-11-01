@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39779",
+      "number": 39779,
+      "title": "[net11] Restore promotion builds and native test coverage",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-01T11:21:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13315",
       "number": 13315,
       "title": "[Java.Interop] Simplify local unsafe expression contexts",
@@ -120091,7 +120101,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-01T04:00:26.617Z",
+  "lastUpdated": "2026-11-01T14:41:36.755Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
