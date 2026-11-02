@@ -1,6 +1,276 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5382",
+      "number": 5382,
+      "title": "Validate font buffers and integrate native fork cleanup",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-02T15:12:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13351",
+      "number": 13351,
+      "title": "[native] Look up the assembly store by its known path",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-02T15:07:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13349",
+      "number": 13349,
+      "title": "[native] Build the FastDev TPA list with open_memstream",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-02T15:05:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/404",
+      "number": 404,
+      "title": "Remove obsolete WinRT patches and fix native lifetime bugs",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-02T15:02:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13347",
+      "number": 13347,
+      "title": "[Mono.Android] Extend AbstractSpliterator.TryAdvance() regression coverage",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-02T15:01:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13369",
+      "number": 13369,
+      "title": "Bump external/android-api-docs from `9ae59ce` to `940a572`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-11-02T14:54:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13332",
+      "number": 13332,
+      "title": "[docs] Add concise unsafe C# coding guidance",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-02T14:53:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13366",
+      "number": 13366,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15887584",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-11-02T14:50:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39825",
+      "number": 39825,
+      "title": "[Net11]  Restrict VerifyShellSearch_CharacterSpacing Tests",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-11-02T14:16:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39827",
+      "number": 39827,
+      "title": "Resave the image of VerifyCollectionViewContentWithIconImageSwipeItem in iOS 18.5",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-11-02T14:14:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39830",
+      "number": 39830,
+      "title": "Fix Windows debugging failure with .NET 10 SR13",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-11-02T14:12:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39474",
+      "number": 39474,
+      "title": "[api] Mark .NET 11 GA APIs as shipped",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-02T14:11:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39818",
+      "number": 39818,
+      "title": "Bump microsoft.maui.cli from 0.1.0-preview.10.26274.3 to 0.1.0-preview.14.26531.2",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-02T11:44:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39815",
+      "number": 39815,
+      "title": "Bump Microsoft.DotNet.Arcade.Sdk from 11.0.0-beta.26514.118 to 11.0.0-beta.26531.101",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-02T11:42:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39813",
+      "number": 39813,
+      "title": "Bump Microsoft.CodeAnalysis.BannedApiAnalyzers from 4.14.0 to 5.6.0",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-02T11:41:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39822",
+      "number": 39822,
+      "title": "Bump powershell from 7.4.0 to 7.6.9",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-02T11:40:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39821",
+      "number": 39821,
+      "title": "Bump Mono.ApiTools.MSBuildTasks from 0.4.0 to 0.6.0",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-02T11:37:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39820",
+      "number": 39820,
+      "title": "Bump Microsoft.VisualStudio.DesignTools.Extensibility from 17.5.33428.366 to 17.10.34916.79",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-02T11:37:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39816",
+      "number": 39816,
+      "title": "Bump Microsoft.DotNet.Build.Tasks.Feed from 11.0.0-beta.26514.118 to 11.0.0-beta.26531.101",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-02T11:35:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39811",
+      "number": 39811,
+      "title": "Bump Markdig from 0.31.0 to 1.5.0",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-02T11:34:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39810",
+      "number": 39810,
+      "title": "Bump Magick.NET-Q8-AnyCPU from 14.15.0 to 15.0.0",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-02T11:34:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13192",
+      "number": 13192,
+      "title": "[Unsafe][Java.Interop] Opt into updated C# memory-safety rules",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-02T11:34:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39808",
+      "number": 39808,
+      "title": "Bump api-tools from 1.3.5 to 1.4.1",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-02T11:30:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39809",
+      "number": 39809,
+      "title": "Bump cake.tool from 4.0.0 to 6.3.0",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-02T11:30:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39804",
+      "number": 39804,
+      "title": "Bump the skiasharp group with 1 update",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-02T11:29:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39688",
+      "number": 39688,
+      "title": "[net11.0] Promote .NET 11 to main for SR1",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-02T10:09:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13362",
+      "number": 13362,
+      "title": "[native] Remove OSBridge abstraction",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-02T08:11:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5557",
       "number": 5557,
       "title": "[docs] Refresh unreleased 4.156.0 release notes",
@@ -120111,7 +120381,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-02T04:04:22.447Z",
+  "lastUpdated": "2026-11-02T17:44:39.592Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
