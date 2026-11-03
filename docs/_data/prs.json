@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/27229",
+      "number": 27229,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20261031173535570 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-11-02T21:45:56Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39833",
+      "number": 39833,
+      "title": "[Windows] Shell: Port SR13 disabled-foreground crash fix to main",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-02T20:17:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39807",
+      "number": 39807,
+      "title": "[api] Mark .NET 11 GA APIs as shipped on main",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-02T19:19:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5382",
       "number": 5382,
       "title": "Validate font buffers and integrate native fork cleanup",
@@ -120381,7 +120411,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-02T17:44:39.592Z",
+  "lastUpdated": "2026-11-03T05:05:45.172Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
