@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13342",
+      "number": 13342,
+      "title": "[Mono.Android] Correct CellInfo getter availability",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-03T17:33:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39856",
+      "number": 39856,
+      "title": "[iOS/Mac][Revert] CollectionView2 height-update fix (#38441)",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-11-03T16:10:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/39854",
       "number": 39854,
       "title": "[release/11.0.1xx][tests] Backport Apple integration toolchains and SwipeView analyzer fix",
@@ -120701,7 +120721,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-03T15:46:37.401Z",
+  "lastUpdated": "2026-11-03T21:28:14.674Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
