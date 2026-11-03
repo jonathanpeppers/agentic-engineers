@@ -1,6 +1,296 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39854",
+      "number": 39854,
+      "title": "[release/11.0.1xx][tests] Backport Apple integration toolchains and SwipeView analyzer fix",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-03T15:45:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13358",
+      "number": 13358,
+      "title": "[native] Load JNI shared libraries via NativeLibraryHelper",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-03T15:38:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39855",
+      "number": 39855,
+      "title": "[iOS/Mac][Revert] CollectionView2 height-update fix (#38441)",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-11-03T15:30:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5577",
+      "number": 5577,
+      "title": "Fix DWriteCore custom-font data lifetime",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-03T15:00:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39853",
+      "number": 39853,
+      "title": "[main] Backport release/11.0.1xx test fixes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-03T14:56:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5580",
+      "number": 5580,
+      "title": "Sync Skia submodule and cgmanifest into mattleibow-dwritecore-font-lifetime",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-03T14:55:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/418",
+      "number": 418,
+      "title": "Release custom font data with its DirectWrite factory",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-03T14:50:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39832",
+      "number": 39832,
+      "title": "[ci] Use matching Xcode for previous-framework Apple integration tests",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-03T14:48:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39735",
+      "number": 39735,
+      "title": "[CI] Include Build Insights reports in test-review context",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-11-03T14:41:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39805",
+      "number": 39805,
+      "title": "[ci] Prepare main for .NET 11 SR1 and retire net11 merge routes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-03T14:40:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13374",
+      "number": 13374,
+      "title": "Bump external/android-api-docs from `940a572` to `e4380b2`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-11-03T14:28:59Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39791",
+      "number": 39791,
+      "title": "[release/11.0.1xx][tests] Backport offline WebView history fixture",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-03T14:21:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39787",
+      "number": 39787,
+      "title": "[release/11.0.1xx][Tests] Observe handled Flyout back before cleanup",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-03T14:21:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39740",
+      "number": 39740,
+      "title": "Test direct CI scanner validation reconciliation",
+      "repo": "dotnet/maui",
+      "author": "PureWeen",
+      "mergedAt": "2026-11-03T14:19:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39784",
+      "number": 39784,
+      "title": "[release/11.0.1xx][tests] Stabilize HybridWebView GC and iframe readiness fixtures",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-03T13:46:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39840",
+      "number": 39840,
+      "title": "Only treat On as a RelayCommand method prefix when CommunityToolkit strips it",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-03T13:42:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27235",
+      "number": 27235,
+      "title": "[CoreGraphics] Allow CGDataProvider to use a null release callback.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-03T12:57:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/785",
+      "number": 785,
+      "title": "build(deps-dev): Bump @bradygaster/squad-cli from 1.0.0 to 1.1.0 in /src/Comet in the comet-js group",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-11-03T12:39:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/788",
+      "number": 788,
+      "title": "Parse DevFlow numeric CLI options with invariant culture",
+      "repo": "dotnet/maui-labs",
+      "author": "RaphaelFakhri",
+      "mergedAt": "2026-11-03T12:38:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13368",
+      "number": 13368,
+      "title": "[AndroidSdk] Report failed Unix file renames",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-03T10:21:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13353",
+      "number": 13353,
+      "title": "[native] Reuse generated CoreCLR DSO aliases",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-03T09:05:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13356",
+      "number": 13356,
+      "title": "[native] Reuse native compression for CRC32 hashes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-03T09:03:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39846",
+      "number": 39846,
+      "title": "[Revert] Bump Magick.NET-Q8-AnyCPU from 14.15.0 to 15.0.0 (#39810)",
+      "repo": "dotnet/maui",
+      "author": "NafeelaNazhir",
+      "mergedAt": "2026-11-03T08:56:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39836",
+      "number": 39836,
+      "title": "[.NET 11] Resaved Base image for ShellSearchHandlerFeatureTests in windows",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-11-03T08:50:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39842",
+      "number": 39842,
+      "title": "Bump Microsoft.DotNet.Build.Tasks.Feed from 11.0.0-beta.26531.101 to 11.0.0-beta.26552.106",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-03T08:47:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39843",
+      "number": 39843,
+      "title": "Bump Microsoft.DotNet.Helix.Sdk from 11.0.0-beta.26514.118 to 11.0.0-beta.26552.106",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-03T08:47:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27183",
+      "number": 27183,
+      "title": "[main] Update to stable version of Xcode 27.2",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-11-03T08:42:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27228",
+      "number": 27228,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20261031053845132 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-11-03T08:35:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27232",
+      "number": 27232,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20261101053540531 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-11-03T08:34:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/27229",
       "number": 27229,
       "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20261031173535570 to main",
@@ -120411,7 +120701,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-03T05:05:45.172Z",
+  "lastUpdated": "2026-11-03T15:46:37.401Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
