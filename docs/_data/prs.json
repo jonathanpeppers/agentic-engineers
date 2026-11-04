@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13397",
+      "number": 13397,
+      "title": "[ci] Isolate Unix .NET CLI first-run state",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-04T20:10:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13396",
+      "number": 13396,
+      "title": "[build] Remove obsolete VS Code launch and task configuration",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-04T19:33:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13381",
+      "number": 13381,
+      "title": "[Xamarin.Android.Build.Tasks] Remove three unused tasks",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-04T16:10:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5565",
+      "number": 5565,
+      "title": "Specify cdecl for generated LibraryImport bindings",
+      "repo": "mono/SkiaSharp",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-11-04T16:08:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13389",
       "number": 13389,
       "title": "[tools] Remove unused MAM JSON-to-XML executable",
@@ -121261,7 +121301,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-04T15:56:14.648Z",
+  "lastUpdated": "2026-11-04T21:42:21.212Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
