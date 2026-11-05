@@ -1,6 +1,276 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39945",
+      "number": 39945,
+      "title": "[Release candidate] 11.0.1xx SR1",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-05T15:54:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39940",
+      "number": 39940,
+      "title": "[Sandbox visual-2ad2e0af] Release candidate 11.0.1xx SR2",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-11-05T15:06:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39938",
+      "number": 39938,
+      "title": "[Sandbox visual-2ad2e0af] Release candidate 11.0.1xx SR1",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-11-05T15:02:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13394",
+      "number": 13394,
+      "title": "[tools] Remove unused standalone developer utilities",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-05T14:35:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39933",
+      "number": 39933,
+      "title": "[Sandbox merge-2ad2e0af] Release candidate 11.0.1xx SR3",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-05T14:33:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13399",
+      "number": 13399,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261105103129571 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-11-05T14:21:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39926",
+      "number": 39926,
+      "title": "[Release candidate] 11.0.1xx SR3",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-11-05T14:19:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39927",
+      "number": 39927,
+      "title": "[Next release preview] 11.0.1xx SR4",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-11-05T14:19:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39924",
+      "number": 39924,
+      "title": "[Release candidate] 11.0.1xx SR2",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-11-05T14:13:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39897",
+      "number": 39897,
+      "title": "Update Magick.NET to 14.17.2 while preserving screenshot comparison scores",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-05T13:51:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5615",
+      "number": 5615,
+      "title": "Update .NET SDK to 10.0.403",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-05T12:59:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/826",
+      "number": 826,
+      "title": "Remove host-side SkiaSharp from CLI screenshots",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-11-05T12:40:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13311",
+      "number": 13311,
+      "title": "[TrimmableTypeMap] Validate generated top-level Java identifiers",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-05T12:24:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1572",
+      "number": 1572,
+      "title": "Stable Updates 20261102",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-11-05T11:01:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5612",
+      "number": 5612,
+      "title": "[skia-sync] Merge upstream chrome/m157 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-05T10:56:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5616",
+      "number": 5616,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/m157",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-05T10:54:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13036",
+      "number": 13036,
+      "title": "[Java.Interop] Replace legacy CRC64 tables with System.IO.Hashing",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-05T10:48:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/430",
+      "number": 430,
+      "title": "[skia-sync] Merge upstream chrome/m157",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-05T10:45:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13380",
+      "number": 13380,
+      "title": "[tools] Remove standalone typemap and assembly-store tooling",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-05T10:00:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13390",
+      "number": 13390,
+      "title": "[tests] Remove duplicate integration builds and one CI lane",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-05T09:57:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13393",
+      "number": 13393,
+      "title": "[build] Remove the remaining external/Java.Interop layout",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-05T09:47:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13398",
+      "number": 13398,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15931348",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-11-05T09:46:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/815",
+      "number": 815,
+      "title": "Use GPT-5.6 Sol for PR documentation checks",
+      "repo": "dotnet/maui-labs",
+      "author": "PureWeen",
+      "mergedAt": "2026-11-05T09:33:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/814",
+      "number": 814,
+      "title": "Pin AI documentation audit to GPT-5.6 Sol",
+      "repo": "dotnet/maui-labs",
+      "author": "PureWeen",
+      "mergedAt": "2026-11-05T09:32:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/813",
+      "number": 813,
+      "title": "Replace Gemini agent models with GPT equivalents",
+      "repo": "dotnet/maui-labs",
+      "author": "PureWeen",
+      "mergedAt": "2026-11-05T09:29:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39890",
+      "number": 39890,
+      "title": "Support consistent XAML type references",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-05T08:56:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39908",
+      "number": 39908,
+      "title": "Bump Markdig from 1.5.0 to 1.5.1",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-05T08:45:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5608",
       "number": 5608,
       "title": "Run scheduled packaging builds weekly on Sundays",
@@ -121331,7 +121601,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-05T04:52:59.696Z",
+  "lastUpdated": "2026-11-05T16:01:59.765Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
