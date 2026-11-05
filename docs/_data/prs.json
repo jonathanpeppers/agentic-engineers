@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5608",
+      "number": 5608,
+      "title": "Run scheduled packaging builds weekly on Sundays",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-05T01:31:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5609",
+      "number": 5609,
+      "title": "Preserve upstream formatting during Skia updates",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-05T01:30:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5607",
+      "number": 5607,
+      "title": "Batch packaging CI and move daily builds off peak",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-05T01:16:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13397",
       "number": 13397,
       "title": "[ci] Isolate Unix .NET CLI first-run state",
@@ -121301,7 +121331,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-04T21:42:21.212Z",
+  "lastUpdated": "2026-11-05T04:52:59.696Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
