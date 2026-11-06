@@ -1,6 +1,86 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/40006",
+      "number": 40006,
+      "title": "[Sandbox next-2ad2e0af] Release candidate 11.0.1xx SR2",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-06T21:12:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40004",
+      "number": 40004,
+      "title": "[Sandbox next-2ad2e0af] Release candidate 11.0.1xx SR1",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-06T21:10:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39976",
+      "number": 39976,
+      "title": "Reenable remaining localization tests with hermetic Helix inputs",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-11-06T20:37:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39977",
+      "number": 39977,
+      "title": "[docs] Explain workload set and Visual Studio insertion handoff",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-11-06T19:28:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39987",
+      "number": 39987,
+      "title": "Remove obsolete IL6001 warning suppression",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-11-06T19:25:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39980",
+      "number": 39980,
+      "title": "Use country/region consistently in Locale documentation",
+      "repo": "dotnet/maui",
+      "author": "jfversluis",
+      "mergedAt": "2026-11-06T19:25:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39912",
+      "number": 39912,
+      "title": "[Testing] [macOS] Fix screenshot masking and scaling for Retina (high-DPI) displays",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-11-06T19:21:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39978",
+      "number": 39978,
+      "title": "Enable MAUI Labs in the official release pipeline",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-11-06T16:03:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/27249",
       "number": 27249,
       "title": "[tests] Fix full-chain SecTrust evaluation failures",
@@ -122011,7 +122091,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-06T15:37:50.607Z",
+  "lastUpdated": "2026-11-06T21:14:59.076Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
