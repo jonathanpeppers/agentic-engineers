@@ -1,6 +1,196 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/27249",
+      "number": 27249,
+      "title": "[tests] Fix full-chain SecTrust evaluation failures",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-06T14:04:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13412",
+      "number": 13412,
+      "title": "[tools] Remove legacy illinkanalyzer launcher",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-06T13:00:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13407",
+      "number": 13407,
+      "title": "[build] Remove unused diagnostic resources",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-06T12:52:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13410",
+      "number": 13410,
+      "title": "[tools] Remove unused vswhere wrapper",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-06T12:29:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13411",
+      "number": 13411,
+      "title": "[docs] Remove outdated CLR hosting notes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-06T12:25:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13314",
+      "number": 13314,
+      "title": "[CoreCLR] Reuse writable assembly-store images across probes",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-06T11:41:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13408",
+      "number": 13408,
+      "title": "[FastDeploy] Preserve run-as command exit status",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-06T11:40:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13402",
+      "number": 13402,
+      "title": "Enforce ConfigureAwait in shared Android tooling libraries",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-06T11:38:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13406",
+      "number": 13406,
+      "title": "[tests] Restore previous Android SDK device coverage on .NET 12",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-06T11:37:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13403",
+      "number": 13403,
+      "title": "[AndroidSdk] Enable GPU acceleration for new AVDs",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-06T11:37:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5554",
+      "number": 5554,
+      "title": "Update harfbuzz to 15.0.0",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-06T11:21:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/419",
+      "number": 419,
+      "title": "Update harfbuzz to 15.0.0",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-06T10:10:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39968",
+      "number": 39968,
+      "title": "[Sandbox forward-2ad2e0af] Forward servicing fixes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-06T08:35:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39964",
+      "number": 39964,
+      "title": "[Sandbox config2-15d039f6] Release candidate 11.0.1xx SR2",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-11-06T08:29:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39962",
+      "number": 39962,
+      "title": "[Sandbox config2-15d039f6] Release candidate 11.0.1xx SR1",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-11-06T08:26:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39958",
+      "number": 39958,
+      "title": "[Sandbox config-15d039f6] Release candidate 11.0.1xx SR1",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-11-06T08:16:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39903",
+      "number": 39903,
+      "title": "[release/11.0.1xx] Update dependencies from dotnet/android",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-06T07:59:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39955",
+      "number": 39955,
+      "title": "Bump microsoft.maui.cli from 0.1.0-preview.14.26553.1 to 0.1.0-preview.14.26555.4",
+      "repo": "dotnet/maui",
+      "author": "dependabot",
+      "mergedAt": "2026-11-06T07:58:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39928",
+      "number": 39928,
+      "title": "[XAML] Refresh implicit styles after incremental Hot Reload setter edits",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-06T07:55:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5634",
       "number": 5634,
       "title": "[skia-sync] Update skia to milestone 158",
@@ -121821,7 +122011,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-06T04:52:45.053Z",
+  "lastUpdated": "2026-11-06T15:37:50.607Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
