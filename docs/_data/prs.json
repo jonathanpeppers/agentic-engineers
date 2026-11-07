@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13417",
+      "number": 13417,
+      "title": "[build] Keep Net11 manifest MSI versions above previews",
+      "repo": "dotnet/android",
+      "author": "Redth",
+      "mergedAt": "2026-11-06T23:08:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40010",
+      "number": 40010,
+      "title": "[Windows] Keep stable manifest MSI versions above previews",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-11-06T23:05:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40008",
+      "number": 40008,
+      "title": "[Sandbox next-2ad2e0af] Release candidate 11.0.1xx SR3",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-06T21:21:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/40006",
       "number": 40006,
       "title": "[Sandbox next-2ad2e0af] Release candidate 11.0.1xx SR2",
@@ -122091,7 +122121,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-06T21:14:59.076Z",
+  "lastUpdated": "2026-11-07T04:22:39.957Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
