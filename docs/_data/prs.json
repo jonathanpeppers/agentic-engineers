@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/40034",
+      "number": 40034,
+      "title": "[Sandbox phasefinal-2ad2e0af] Release candidate 11.0.1xx SR2",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-07T11:41:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40033",
+      "number": 40033,
+      "title": "[Servicing] 11.0.1xx SR1",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-07T11:41:15Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40031",
+      "number": 40031,
+      "title": "[Sandbox phasefinal-2ad2e0af] Release candidate 11.0.1xx SR1",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-07T11:39:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40024",
+      "number": 40024,
+      "title": "[Sandbox phaseplain-2ad2e0af] Release candidate 11.0.1xx SR1",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-07T11:37:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40021",
+      "number": 40021,
+      "title": "[Sandbox phase-2ad2e0af] Release candidate 11.0.1xx SR2",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-07T11:34:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40020",
+      "number": 40020,
+      "title": "[Servicing] 11.0.1xx SR1",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-07T11:32:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40018",
+      "number": 40018,
+      "title": "[Sandbox phase-2ad2e0af] Release candidate 11.0.1xx SR1",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-07T11:28:51Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39982",
+      "number": 39982,
+      "title": "Reenable FileVersion tests using Arcade build metadata",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-11-07T11:07:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40017",
+      "number": 40017,
+      "title": "[Testing] Update Mac Layout screenshot baselines and exclude crash-prone tests",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-11-07T11:06:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39981",
+      "number": 39981,
+      "title": "[Windows] Switch: Restore hover feedback for custom OnColor",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-11-07T11:05:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39986",
+      "number": 39986,
+      "title": "Add delayed BindableLayout context coverage across XAML inflators and Mac Catalyst",
+      "repo": "dotnet/maui",
+      "author": "rmarinho",
+      "mergedAt": "2026-11-07T11:03:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13417",
       "number": 13417,
       "title": "[build] Keep Net11 manifest MSI versions above previews",
@@ -122121,7 +122231,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-07T04:22:39.957Z",
+  "lastUpdated": "2026-11-07T14:38:22.881Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
