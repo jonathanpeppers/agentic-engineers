@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/832",
+      "number": 832,
+      "title": "Report AppKit focus state through IView.IsFocused",
+      "repo": "dotnet/maui-labs",
+      "author": "aritchie",
+      "mergedAt": "2026-11-07T16:33:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/40034",
       "number": 40034,
       "title": "[Sandbox phasefinal-2ad2e0af] Release candidate 11.0.1xx SR2",
@@ -122231,7 +122241,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-07T14:38:22.881Z",
+  "lastUpdated": "2026-11-07T19:50:41.216Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
