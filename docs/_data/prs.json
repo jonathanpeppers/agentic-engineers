@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/40040",
+      "number": 40040,
+      "title": "[Release candidate] 11.0.1xx SR1",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-08T18:11:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40049",
+      "number": 40049,
+      "title": "[release] Clarify PR routing and repair release preparation",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-08T15:40:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40047",
+      "number": 40047,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-08T15:30:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/39913",
       "number": 39913,
       "title": "[release] Automate versioned cuts, SR stabilization, and next lanes",
@@ -122261,7 +122291,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-08T14:43:39.153Z",
+  "lastUpdated": "2026-11-08T20:07:09.678Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
