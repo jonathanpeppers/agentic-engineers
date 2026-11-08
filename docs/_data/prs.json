@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39913",
+      "number": 39913,
+      "title": "[release] Automate versioned cuts, SR stabilization, and next lanes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-08T10:44:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/40042",
       "number": 40042,
       "title": "[release] Derive prerelease labels and SR stabilization from source branches",
@@ -122251,7 +122261,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-08T04:05:53.603Z",
+  "lastUpdated": "2026-11-08T14:43:39.153Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
