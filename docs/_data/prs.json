@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui-labs/pull/833",
+      "number": 833,
+      "title": "Close modals when reseting window page",
+      "repo": "dotnet/maui-labs",
+      "author": "lucacivale",
+      "mergedAt": "2026-11-09T04:11:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40057",
+      "number": 40057,
+      "title": "[release] Decouple servicing progress from manual tags",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-08T23:35:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/40040",
       "number": 40040,
       "title": "[Release candidate] 11.0.1xx SR1",
@@ -122291,7 +122311,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-08T20:07:09.678Z",
+  "lastUpdated": "2026-11-09T04:22:01.190Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
