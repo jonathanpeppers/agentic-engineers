@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13444",
+      "number": 13444,
+      "title": "[build] Remove unused checked-build and native build settings",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T15:53:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40113",
+      "number": 40113,
+      "title": "[release] Replace automatic stabilization regex with an explicit boolean",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-10T13:41:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13447",
+      "number": 13447,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 15977964",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-11-10T13:15:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5683",
+      "number": 5683,
+      "title": "[docs] Refresh 4.156–4.158 release notes and unreleased pages",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-10T10:01:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13436",
+      "number": 13436,
+      "title": "[Xamarin.Android.Build.Debugging.Tasks] Enable -mt app detection",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T09:01:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/1310",
       "number": 1310,
       "title": "Auto Publish – main to live - 2026-11-10 05:00 UTC",
@@ -123261,7 +123311,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-10T05:46:33.165Z",
+  "lastUpdated": "2026-11-10T16:02:00.759Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
