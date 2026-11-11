@@ -1,6 +1,476 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/39715",
+      "number": 39715,
+      "title": "Parse CSS transform values with the invariant culture",
+      "repo": "dotnet/maui",
+      "author": "johnkaram02",
+      "mergedAt": "2026-11-11T22:19:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39717",
+      "number": 39717,
+      "title": "Support single-value scale() and translate() in CSS transform",
+      "repo": "dotnet/maui",
+      "author": "johnkaram02",
+      "mergedAt": "2026-11-11T22:06:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39759",
+      "number": 39759,
+      "title": "[NET11][Android] [ShellHandler] Fix ScrollView crash when reparenting native content",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-11-11T22:05:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39778",
+      "number": 39778,
+      "title": "[NET 11][iOS] Fix CollectionView sizing with unbounded cross-axis constraints",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-11-11T22:04:10Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39795",
+      "number": 39795,
+      "title": "[Android] Fix doubled Content-Type header in BlazorWebView and HybridWebView responses",
+      "repo": "dotnet/maui",
+      "author": "Kebechet",
+      "mergedAt": "2026-11-11T22:03:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39826",
+      "number": 39826,
+      "title": "Fix resource additions in SourceGen Hot Reload",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-11T21:59:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39837",
+      "number": 39837,
+      "title": "Don't fire Appearing again for a page that isn't the CurrentPage anymore",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-11T21:56:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27300",
+      "number": 27300,
+      "title": "Bump actions/setup-dotnet from 6.0.0 to 6.1.0",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-11-11T21:55:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27301",
+      "number": 27301,
+      "title": "Bump zizmorcore/zizmor-action from 0.8.0 to 0.8.1",
+      "repo": "dotnet/macios",
+      "author": "dependabot",
+      "mergedAt": "2026-11-11T21:55:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39838",
+      "number": 39838,
+      "title": "Attach a PlatformBehavior once its element has both a handler and is loaded",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-11T21:54:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39839",
+      "number": 39839,
+      "title": "Let a Style set Shell.FlyoutBackgroundColor",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-11T21:52:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5688",
+      "number": 5688,
+      "title": "[skia-sync] Merge upstream chrome/m157 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-11T21:51:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39851",
+      "number": 39851,
+      "title": "[iOS, Windows] Fix for Shell navigating from a modal results in navigation bar color disappearing",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-11-11T21:49:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39861",
+      "number": 39861,
+      "title": "[iOS] MauiCALayer: export initWithLayer: so presentation layer copies get a managed peer",
+      "repo": "dotnet/maui",
+      "author": "Kebechet",
+      "mergedAt": "2026-11-11T21:47:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39873",
+      "number": 39873,
+      "title": "[Android] Fix Picker title color does not reset when TitleColor is cleared",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-11-11T21:44:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5699",
+      "number": 5699,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.157.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-11T21:28:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/445",
+      "number": 445,
+      "title": "[skia-sync] Merge upstream chrome/m157",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-11T21:10:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40159",
+      "number": 40159,
+      "title": "[ci] Restore stable runtime manifests from NuGet.org",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-11T21:05:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39883",
+      "number": 39883,
+      "title": "[Android, iOS] Fix SearchHandler Query updates and CharacterSpacing",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-11-11T21:01:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39901",
+      "number": 39901,
+      "title": "[Android] Open a SwipeView even when a partial swipe marked it as open",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-11T20:54:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39948",
+      "number": 39948,
+      "title": "[Android] Add cancellation handling in image loading",
+      "repo": "dotnet/maui",
+      "author": "Transis-Felipe",
+      "mergedAt": "2026-11-11T20:52:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40124",
+      "number": 40124,
+      "title": "[Android] Sync the navigation stack when the platform pops without a request",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-11T20:32:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40125",
+      "number": 40125,
+      "title": "Resolve x:Static through implicit xmlns in XAML SourceGen",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-11T20:27:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40148",
+      "number": 40148,
+      "title": "Fix nested markup extension keys in DynamicResource XAML source generation",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-11-11T20:19:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40150",
+      "number": 40150,
+      "title": "[iOS/Mac] Keep an HtmlWebViewSource.BaseUrl with a scheme as a URL",
+      "repo": "dotnet/maui",
+      "author": "Kebechet",
+      "mergedAt": "2026-11-11T19:34:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40157",
+      "number": 40157,
+      "title": "[XAML] Add executable null-intermediate binding regression coverage",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-11T19:32:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5687",
+      "number": 5687,
+      "title": "[skia-sync] Merge upstream chrome/m156 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-11T19:04:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5698",
+      "number": 5698,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.156.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-11T18:57:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13150",
+      "number": 13150,
+      "title": "[Build.Tasks] Emit resource designers with System.Reflection.Metadata",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-11T18:31:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/444",
+      "number": 444,
+      "title": "[skia-sync] Merge upstream chrome/m156",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-11T18:29:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5697",
+      "number": 5697,
+      "title": "[docs] Refresh release notes for 4.157 and 4.158",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-11T17:57:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1331",
+      "number": 1331,
+      "title": "Document Android.Net.Wifi.P2p",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-11T17:46:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13458",
+      "number": 13458,
+      "title": "[Microsoft.Android.Build.Tasks] Move FastDeploy task",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-11T17:39:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5695",
+      "number": 5695,
+      "title": "Restore stable support metadata and keep retirement manual",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-11T17:11:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13482",
+      "number": 13482,
+      "title": "[Xamarin.Android.Build.Tasks] Split ABI values in MSBuild",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-11T17:11:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1327",
+      "number": 1327,
+      "title": "Document Android.AdServices.OnDevicePersonalization",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-11T17:07:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1330",
+      "number": 1330,
+      "title": "Document Android.AdServices.AdSelection APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-11T16:57:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5691",
+      "number": 5691,
+      "title": "[docs] Refresh 4.156.0 stable release notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-11T16:40:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5689",
+      "number": 5689,
+      "title": "Update 4.156 release support tier",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-11T16:40:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5690",
+      "number": 5690,
+      "title": "Update issue template version dropdowns",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-11T16:39:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1336",
+      "number": 1336,
+      "title": "Complete Android.Graphics.Drawables documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-11T16:35:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1325",
+      "number": 1325,
+      "title": "Complete Android.Companion XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-11T16:32:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1335",
+      "number": 1335,
+      "title": "Complete Android.InputMethodServices documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-11T16:30:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13455",
+      "number": 13455,
+      "title": "[Xamarin.Installer.AndroidSDK] Read add-on manifests as properties",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-11T16:16:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39911",
+      "number": 39911,
+      "title": " [Windows] Fix FontImageSource crash during layout with bitmap decoding",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-11-11T16:13:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40135",
+      "number": 40135,
+      "title": "[Android] Fix immediate modal pop leaving dialog visible after non-animated push",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-11-11T16:07:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40154",
+      "number": 40154,
+      "title": "[iOS/MacCatalyst] Adopt scene lifecycle in Sandbox and HostApp, and update bug-report versions",
+      "repo": "dotnet/maui",
+      "author": "Tamilarasan-Paranthaman",
+      "mergedAt": "2026-11-11T16:04:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/1333",
       "number": 1333,
       "title": "Complete Android.Locations XML documentation",
@@ -123921,7 +124391,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-11T15:48:43.437Z",
+  "lastUpdated": "2026-11-11T22:27:03.496Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
