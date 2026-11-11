@@ -1,6 +1,446 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1326",
+      "number": 1326,
+      "title": "Complete Android.Bluetooth.LE XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-11T02:38:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39953",
+      "number": 39953,
+      "title": "Fix DataTrigger/BindingCondition for null initial values",
+      "repo": "dotnet/maui",
+      "author": "fmazzant",
+      "mergedAt": "2026-11-11T00:43:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39902",
+      "number": 39902,
+      "title": "Resolve the Shell appearance from the top non-modal page",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-11T00:39:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1323",
+      "number": 1323,
+      "title": "Add documentation campaign skill",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T22:41:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39920",
+      "number": 39920,
+      "title": "[iOS] Announce selection state for Tags and Icons using VoiceOver",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-11-10T22:02:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39954",
+      "number": 39954,
+      "title": "Support Binding.DoNothing in data bindings",
+      "repo": "dotnet/maui",
+      "author": "fmazzant",
+      "mergedAt": "2026-11-10T21:54:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39970",
+      "number": 39970,
+      "title": "Fix MultiBinding context inheritance on BindingContext",
+      "repo": "dotnet/maui",
+      "author": "fmazzant",
+      "mergedAt": "2026-11-10T21:50:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40052",
+      "number": 40052,
+      "title": "[Android] Shell: Don't throw when resuming the fragment of a removed ShellSection",
+      "repo": "dotnet/maui",
+      "author": "Dreamescaper",
+      "mergedAt": "2026-11-10T21:44:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40100",
+      "number": 40100,
+      "title": "[Android] Keep tracking a swipe when the pointer leaves the SwipeView bounds",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-10T21:40:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40101",
+      "number": 40101,
+      "title": "Pop one page per '..' segment on absolute Shell routes",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-10T21:39:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40102",
+      "number": 40102,
+      "title": "Sync gesture recognizers added during base construction into the composite collection",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-10T21:36:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13463",
+      "number": 13463,
+      "title": "[Mono.Android] Use efficient locks for private synchronization",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T21:36:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13462",
+      "number": 13462,
+      "title": "[Xamarin.Android.Build.Tasks] Clean up temporary files on failure",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T21:35:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40103",
+      "number": 40103,
+      "title": "Defer unresolved BasedOn static resources in loading resource dictionaries",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-10T21:27:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1321",
+      "number": 1321,
+      "title": "Complete Android.Icu.Number documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T21:20:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40128",
+      "number": 40128,
+      "title": "[iOS 26+] Fix NavigationPage.TitleView vertical offset and clipping",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-11-10T21:17:04Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40132",
+      "number": 40132,
+      "title": "Fix custom Shape.PathForBounds dispatch regression",
+      "repo": "dotnet/maui",
+      "author": "sheiksyedm",
+      "mergedAt": "2026-11-10T21:15:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39971",
+      "number": 39971,
+      "title": "Prevent SelectedIndex/SelectedItem update loops in Picker",
+      "repo": "dotnet/maui",
+      "author": "fmazzant",
+      "mergedAt": "2026-11-10T20:59:34Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40122",
+      "number": 40122,
+      "title": "[net11.0] Update dependencies from dotnet/android, dotnet/dotnet",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-10T20:57:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1320",
+      "number": 1320,
+      "title": "Complete Android.App.AppFunctions XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T20:27:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13158",
+      "number": 13158,
+      "title": "[release/11.0.1xx] Fix PE timestamp for deterministic resource designer assemblies",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-11-10T20:18:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13450",
+      "number": 13450,
+      "title": "[Xamarin.Android.Build.Tasks] Reduce aapt2 table allocations",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T19:45:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13456",
+      "number": 13456,
+      "title": "[runtime, tooling] Simplify argument validation",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T19:42:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13449",
+      "number": 13449,
+      "title": "[generator] Avoid repeated dictionary lookups",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T19:39:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13448",
+      "number": 13448,
+      "title": "[Xamarin.Android.Tools.Bytecode] Avoid float/double byte arrays",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T19:35:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13193",
+      "number": 13193,
+      "title": "[release/11.0.1xx] [Xamarin.Android.Build.Tasks] Remove LibZipSharp",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T19:34:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13405",
+      "number": 13405,
+      "title": "[release/11.0.1xx][TrimmableTypeMap] Validate generated top-level Java identifiers",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T19:33:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13360",
+      "number": 13360,
+      "title": "[release/11.0.1xx][CoreCLR] Supply the device time zone offset during initialization",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T19:30:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1316",
+      "number": 1316,
+      "title": "Complete Android.App.Usage XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T19:27:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1317",
+      "number": 1317,
+      "title": "Complete Android.App.Job XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T19:27:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1322",
+      "number": 1322,
+      "title": "Complete Android.Views.TextClassifiers documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T19:26:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1319",
+      "number": 1319,
+      "title": "Complete Android.Security XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T19:26:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1315",
+      "number": 1315,
+      "title": "Complete Android.Media.Quality XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T19:26:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1318",
+      "number": 1318,
+      "title": "Complete Android.App.SdkSandbox documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T19:25:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1313",
+      "number": 1313,
+      "title": "Complete Android.AdServices.CustomAudiences documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T19:25:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1312",
+      "number": 1312,
+      "title": "Complete Android.Hardware.Display documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T19:25:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1314",
+      "number": 1314,
+      "title": "Complete Android.Ranging XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T19:25:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1311",
+      "number": 1311,
+      "title": "Complete Android.AdServices.Common documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T19:24:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13454",
+      "number": 13454,
+      "title": "[Xamarin.Android.Build.Tasks] Drop redundant runtime packages",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T18:48:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13439",
+      "number": 13439,
+      "title": "[tests] Enable caller-unsafe rules in Android benchmarks",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T18:48:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13442",
+      "number": 13442,
+      "title": "[Xamarin.Android.Build.Tasks] Enable ProcessAssemblies with -mt",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-10T18:40:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13452",
+      "number": 13452,
+      "title": "[installer] Replace Polly with a small retry loop",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T18:40:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13453",
+      "number": 13453,
+      "title": "[generator] Remove malformed annotation XML fallback",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T18:39:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13460",
+      "number": 13460,
+      "title": "[build] Move BuildAppBundle to Microsoft.Android.Build.Tasks",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-10T18:38:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13444",
       "number": 13444,
       "title": "[build] Remove unused checked-build and native build settings",
@@ -123311,7 +123751,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-10T16:02:00.759Z",
+  "lastUpdated": "2026-11-11T04:26:41.042Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
