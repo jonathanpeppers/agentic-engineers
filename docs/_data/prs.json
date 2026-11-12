@@ -1,6 +1,186 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/27310",
+      "number": 27310,
+      "title": "Bump Xamarin.MacDev to get .NET 10 bump.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-12T16:26:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27309",
+      "number": 27309,
+      "title": "Bump the .NET 11 / Xcode 27.2 dependency to the stable version.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-12T16:26:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-libraries/pull/1576",
+      "number": 1576,
+      "title": "Update stable Android dependencies for 2026-11-09",
+      "repo": "dotnet/android-libraries",
+      "author": "copilot-swe-agent",
+      "mergedAt": "2026-11-12T16:25:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5700",
+      "number": 5700,
+      "title": "Retire .NET 8 WASM and obsolete Emscripten workarounds",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-12T15:09:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/446",
+      "number": 446,
+      "title": "Restore upstream ranges after retiring emsdk 3.1.34",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-12T15:03:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13514",
+      "number": 13514,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 17928: Build ID 16005855",
+      "repo": "dotnet/android",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-11-12T14:52:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40168",
+      "number": 40168,
+      "title": "[Ci] Windows Cv1 lane Shared setup",
+      "repo": "dotnet/maui",
+      "author": "Ahamed-Ali",
+      "mergedAt": "2026-11-12T13:19:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40158",
+      "number": 40158,
+      "title": "[Testing] Fix for flaky UITests in CI",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-11-12T13:17:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39180",
+      "number": 39180,
+      "title": "[Android][iOS]Fix Incorrect Menu Item Width and Swipe Distance in Execute Mode in Android and IOS ",
+      "repo": "dotnet/maui",
+      "author": "KarthikRajaKalaimani",
+      "mergedAt": "2026-11-12T13:05:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39491",
+      "number": 39491,
+      "title": "[Android]Fix KeepItemsInView mode not scrolling to first item on collection update",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-11-12T12:03:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39493",
+      "number": 39493,
+      "title": "[iOS]Fix KeepItemsInView mode not scrolling to first item on collection update",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-11-12T11:56:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39877",
+      "number": 39877,
+      "title": "[iOS, MacCatalyst] Fix Shell flyout header layout when bound text changes",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-11-12T11:50:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39881",
+      "number": 39881,
+      "title": "[Android] CollectionView: refuse reorder moves onto headers and footers",
+      "repo": "dotnet/maui",
+      "author": "schinkenwuerfel",
+      "mergedAt": "2026-11-12T11:49:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40171",
+      "number": 40171,
+      "title": "[XSG] Warn about ambiguous xmlns type references at codegen time",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-12T11:31:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40170",
+      "number": 40170,
+      "title": "[XAML] Generate global xmlns mappings from C# global usings",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-12T11:23:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27184",
+      "number": 27184,
+      "title": "LEGO: Pull request from lego/hb_5df43909-4a19-4f55-bc3f-9ea8fccf3c82_20261030053558873 to main",
+      "repo": "dotnet/macios",
+      "author": "csigs",
+      "mergedAt": "2026-11-12T11:16:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27231",
+      "number": 27231,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-12T09:28:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27270",
+      "number": 27270,
+      "title": "[docs] Update docs according to final version in dotnet/docs-mobile.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-12T09:27:49Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/1346",
       "number": 1346,
       "title": "Auto Publish – main to live - 2026-11-12 05:00 UTC",
@@ -124501,7 +124681,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-12T05:32:03.014Z",
+  "lastUpdated": "2026-11-12T16:31:46.460Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
