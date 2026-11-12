@@ -1,6 +1,116 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1346",
+      "number": 1346,
+      "title": "Auto Publish – main to live - 2026-11-12 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-11-12T05:23:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5702",
+      "number": 5702,
+      "title": "[skia-sync] Merge upstream chrome/m158 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-12T02:29:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5704",
+      "number": 5704,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/m158",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-12T02:28:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5701",
+      "number": 5701,
+      "title": "[skia-sync] Merge upstream chrome/m155 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-12T02:28:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5703",
+      "number": 5703,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.155.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-12T02:27:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/448",
+      "number": 448,
+      "title": "[skia-sync] Merge upstream chrome/m158",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-12T02:25:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/447",
+      "number": 447,
+      "title": "[skia-sync] Merge upstream chrome/m155",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-12T02:12:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13497",
+      "number": 13497,
+      "title": "[Xamarin.Android.Build.Tasks] Replace AndroidAdb with <Exec/>",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-11T23:41:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/198",
+      "number": 198,
+      "title": "Add new PDictionary.TryOpenFile overloads that returns the error in case of failure.",
+      "repo": "dotnet/macios-devtools",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-11T22:59:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/199",
+      "number": 199,
+      "title": "Bump to .NET 10.0.115",
+      "repo": "dotnet/macios-devtools",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-11T22:41:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13490",
+      "number": 13490,
+      "title": "[Xamarin.Android.Build.Tasks] Remove dead legacy binding documentation and jar2xml paths",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-11T22:33:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/39715",
       "number": 39715,
       "title": "Parse CSS transform values with the invariant culture",
@@ -124391,7 +124501,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-11T22:27:03.496Z",
+  "lastUpdated": "2026-11-12T05:32:03.014Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
