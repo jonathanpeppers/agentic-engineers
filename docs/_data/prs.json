@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/40258",
+      "number": 40258,
+      "title": "[Testing] Preserve scroll offset during CollectionView infinite loading",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-14T18:53:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40252",
+      "number": 40252,
+      "title": "[Testing] Enable metadata updates in Helix unit-test work items",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-14T18:40:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40257",
+      "number": 40257,
+      "title": "Add news entry for .NET MAUI in 2026",
+      "repo": "dotnet/maui",
+      "author": "davidortinau",
+      "mergedAt": "2026-11-14T18:39:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/40183",
       "number": 40183,
       "title": "[Shell] Recompute relative pops after awaiting pending navigations",
@@ -127621,7 +127651,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-14T14:43:51.481Z",
+  "lastUpdated": "2026-11-14T20:20:56.400Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
