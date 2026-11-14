@@ -1,6 +1,176 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/40183",
+      "number": 40183,
+      "title": "[Shell] Recompute relative pops after awaiting pending navigations",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-14T12:21:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40184",
+      "number": 40184,
+      "title": "Clear the modal root page's toolbar when NavigationPage detaches",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-14T12:20:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40221",
+      "number": 40221,
+      "title": "[iOS] Keep Shell tab switches from flashing the default white canvas",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-14T12:18:22Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40231",
+      "number": 40231,
+      "title": "[XSG] Add Hot Reload regression tests for nested content containers (#36256)",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-14T12:12:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40235",
+      "number": 40235,
+      "title": "[XSG] XIHR: recover from rude edits that fail to compile",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-14T11:53:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40250",
+      "number": 40250,
+      "title": "[XSG] Resolve StyleSheet Source resource path at compile time",
+      "repo": "dotnet/maui",
+      "author": "KitKeen",
+      "mergedAt": "2026-11-14T11:48:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40246",
+      "number": 40246,
+      "title": "[Testing] End AppInfo predecessor setup before checking collection",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-14T11:33:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40245",
+      "number": 40245,
+      "title": "[Testing] Correct iOS 18.5 landscape SearchBar keyboard baseline",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-14T11:22:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40247",
+      "number": 40247,
+      "title": "[iOS] Stabilize Shell clear-icon screenshot caret state",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-14T11:21:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40248",
+      "number": 40248,
+      "title": "[Android][Testing] Keep Issue7556 flyout actions reachable",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-14T11:20:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40249",
+      "number": 40249,
+      "title": "[Android] Avoid keyboard on programmatic read-only focus",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-14T11:20:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1510",
+      "number": 1510,
+      "title": "Complete Android.Service.PersonalContext.Insight.Interaction documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-14T05:31:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1514",
+      "number": 1514,
+      "title": "Document Android.Util.Function namespace",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-14T05:30:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1513",
+      "number": 1513,
+      "title": "Document System.IO.Hashing APIs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-14T05:30:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1512",
+      "number": 1512,
+      "title": "Complete Microsoft.Android.Runtime XML documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-14T05:30:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1511",
+      "number": 1511,
+      "title": "Complete Android.Service.PersonalContext.Understander documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-14T05:29:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1515",
+      "number": 1515,
+      "title": "Auto Publish – main to live - 2026-11-14 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-11-14T05:18:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/1509",
       "number": 1509,
       "title": "Complete Android.Ranging.Wifi.PD documentation",
@@ -127451,7 +127621,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-14T04:43:29.268Z",
+  "lastUpdated": "2026-11-14T14:43:51.481Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
