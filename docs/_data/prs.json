@@ -1,6 +1,16 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/40188",
+      "number": 40188,
+      "title": "[Android] Fix Label LineHeight adding extra space below the first line",
+      "repo": "dotnet/maui",
+      "author": "marcelomoresco",
+      "mergedAt": "2026-11-15T19:00:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5757",
       "number": 5757,
       "title": "Sync Skia submodule and cgmanifest into skia-sync/m159",
@@ -127841,7 +127851,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-15T15:15:47.081Z",
+  "lastUpdated": "2026-11-15T20:45:35.715Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
