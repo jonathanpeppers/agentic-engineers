@@ -1,6 +1,46 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android/pull/13550",
+      "number": 13550,
+      "title": "[ci] Fix macOS MSBuild test discovery; remove overlapping tests and one lane per OS",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-14T23:57:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40256",
+      "number": 40256,
+      "title": "[Android] Limit animated SoftInput padding to the keyboard overlap",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-14T21:55:23Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40255",
+      "number": 40255,
+      "title": "[Android] Don't animate the Shell item pager when switching Shell items",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-14T21:52:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40254",
+      "number": 40254,
+      "title": "[iOS] Guard NavigationRenderer status bar queries before the first page is set",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-14T21:44:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/40258",
       "number": 40258,
       "title": "[Testing] Preserve scroll offset during CollectionView infinite loading",
@@ -127651,7 +127691,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-14T20:20:56.400Z",
+  "lastUpdated": "2026-11-15T04:33:43.297Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
