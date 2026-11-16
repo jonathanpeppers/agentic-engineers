@@ -1,6 +1,96 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/40263",
+      "number": 40263,
+      "title": "[SourceGen] Fix xmlns prefix expansion and TypedBinding emission in C# expressions",
+      "repo": "dotnet/maui",
+      "author": "KitKeen",
+      "mergedAt": "2026-11-16T00:26:17Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40272",
+      "number": 40272,
+      "title": "[Android] Read the soft input mode from the window that hosts the view",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-16T00:25:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40182",
+      "number": 40182,
+      "title": "[Shell] Make literal global route matching independent of registration order",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-15T21:48:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40270",
+      "number": 40270,
+      "title": "[XAML] Don't instantiate markup in x:DataType other than x:Type or x:Null",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-15T21:42:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40271",
+      "number": 40271,
+      "title": "[iOS] Clear the keyboard scroll flag when SoftInput handles the keyboard",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-15T21:40:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5742",
+      "number": 5742,
+      "title": "[skia-sync] Merge upstream chrome/m156 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-15T21:00:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5748",
+      "number": 5748,
+      "title": "[skia-sync] Merge upstream chrome/m157 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-15T21:00:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5739",
+      "number": 5739,
+      "title": "[skia-sync] Merge upstream chrome/m158 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-15T20:59:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5741",
+      "number": 5741,
+      "title": "[skia-sync] Merge upstream chrome/m159 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-15T20:58:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/40188",
       "number": 40188,
       "title": "[Android] Fix Label LineHeight adding extra space below the first line",
@@ -127851,7 +127941,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-15T20:45:35.715Z",
+  "lastUpdated": "2026-11-16T04:31:15.156Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
