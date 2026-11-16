@@ -1,6 +1,206 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1517",
+      "number": 1517,
+      "title": "Document intended PackageManager activity-options query",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-16T17:50:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13569",
+      "number": 13569,
+      "title": "Bump external/android-api-docs from `97d1641` to `9aeed91`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-11-16T17:30:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13470",
+      "number": 13470,
+      "title": "[Build.Tasks] Move `<JavaDependencyVerification/>` to Microsoft.Android.Build.Tasks",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-16T17:01:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27064",
+      "number": 27064,
+      "title": "[runtime] Remove MonoVM-specific native runtime implementation",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-16T16:58:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13564",
+      "number": 13564,
+      "title": "[Mono.Android] Remove empty bridge object finalizers",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-16T16:53:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13555",
+      "number": 13555,
+      "title": "[Microsoft.Android.Build.Tasks] Recognize low-storage install errors",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-16T16:13:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13496",
+      "number": 13496,
+      "title": "[Xamarin.Android.Build.Tasks] Replace CreateResgenManifest with WriteLinesToFile",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-16T16:10:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13557",
+      "number": 13557,
+      "title": "[build] Skip empty preview platform in WorkloadDependencies.json",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-16T16:08:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/867",
+      "number": 867,
+      "title": "Essentials.AI: deploy the Apple bridge to iOS 15 / macOS 12 with availability gates",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-11-16T15:53:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27331",
+      "number": 27331,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-16T15:25:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/12985",
+      "number": 12985,
+      "title": "[tests] Use .NET 11 Process APIs in host test helpers",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-16T15:09:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13567",
+      "number": 13567,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261115113235235 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-11-16T14:12:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13566",
+      "number": 13566,
+      "title": "LEGO: Pull request from juno/hb_6dddf33b-c6da-43d8-ac04-14d2c339cb00_20261114113421005 to main",
+      "repo": "dotnet/android",
+      "author": "csigs",
+      "mergedAt": "2026-11-16T14:12:28Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40273",
+      "number": 40273,
+      "title": "[net11] Recover lost Android emulator before UI test retry",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-16T11:45:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40280",
+      "number": 40280,
+      "title": "[Testing] Make header/footer retries independent of test order",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-16T11:44:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40275",
+      "number": 40275,
+      "title": "[candidate] Make NUnit UI assertion polling retry-safe",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-16T11:43:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40286",
+      "number": 40286,
+      "title": "[Windows] Make DatePicker event test date-independent",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-16T11:41:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40281",
+      "number": 40281,
+      "title": "[main] Update dependencies from dotnet/xharness",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-16T11:40:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40282",
+      "number": 40282,
+      "title": "[net11.0] Update dependencies from dnceng/internal/dotnet-optimization",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-16T11:11:27Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26952",
+      "number": 26952,
+      "title": "[release/11.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-16T07:20:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/40263",
       "number": 40263,
       "title": "[SourceGen] Fix xmlns prefix expansion and TypedBinding emission in C# expressions",
@@ -127941,7 +128141,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-16T04:31:15.156Z",
+  "lastUpdated": "2026-11-16T17:51:36.986Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
