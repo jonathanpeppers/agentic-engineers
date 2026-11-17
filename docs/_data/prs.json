@@ -1,6 +1,496 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5795",
+      "number": 5795,
+      "title": "Pin Linux x86 Docker base images to last working digests",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-17T17:16:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5794",
+      "number": 5794,
+      "title": "[docs] Refresh unreleased notes for 4.156.2 through 4.159.0",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-17T17:12:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5788",
+      "number": 5788,
+      "title": "Fix docs/Pages deployment for the existing Uno 7 WASM layout",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-17T16:57:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/461",
+      "number": 461,
+      "title": "[m155] Backport CVE-2026-126871 and CVE-2026-126882 fixes",
+      "repo": "mono/skia",
+      "author": "ramezgerges",
+      "mergedAt": "2026-11-17T16:48:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13446",
+      "number": 13446,
+      "title": "[Xamarin.Android.Build.Tasks] Skip unchanged AAB installs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-17T16:02:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5787",
+      "number": 5787,
+      "title": "[docs] Refresh 4.159.0 unreleased notes for custom meshes and rendering fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-17T16:00:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5790",
+      "number": 5790,
+      "title": "[release/4.157.x] Pin Linux x86 Docker base images to last working digests",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-17T15:59:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5792",
+      "number": 5792,
+      "title": "[release/4.155.x] Pin Linux x86 Docker base images to last working digests",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-17T15:59:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5789",
+      "number": 5789,
+      "title": "[release/4.156.x] Pin Linux x86 Docker base images to last working digests",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-17T15:58:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5791",
+      "number": 5791,
+      "title": "[release/4.158.x] Pin Linux x86 Docker base images to last working digests",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-17T15:58:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/817",
+      "number": 817,
+      "title": "DevFlow Inspector: formalize versioned frames and coordinate spaces",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-11-17T15:35:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40338",
+      "number": 40338,
+      "title": "[Testing] Serialize dispatcher stub timer ticks",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-17T15:20:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13474",
+      "number": 13474,
+      "title": "[xabt] Move GetAssetPacks to Microsoft.Android.Build.Tasks",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-17T15:08:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40335",
+      "number": 40335,
+      "title": "[Windows] Fix CollectionView gesture compilation",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-17T15:08:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27346",
+      "number": 27346,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-17T15:00:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13434",
+      "number": 13434,
+      "title": "[tests] Migrate Android runtime tests to MSTest/MTP",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-17T14:35:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/883",
+      "number": 883,
+      "title": "Bump Essentials.AI to preview 9",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-11-17T14:26:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13472",
+      "number": 13472,
+      "title": "[Xamarin.Android.Build.Tasks] Replace ValidateJavaVersion with MSBuild targets",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-17T14:21:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13531",
+      "number": 13531,
+      "title": "[androidtest] Support `dotnet test --list-tests`",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T14:18:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5783",
+      "number": 5783,
+      "title": "Update issue template version dropdowns",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-17T14:17:00Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5782",
+      "number": 5782,
+      "title": "[docs] Refresh unreleased notes for 4.156.2 through 4.159.0",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-17T14:16:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13588",
+      "number": 13588,
+      "title": "Bump external/android-api-docs from `9aeed91` to `b6c8521`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-11-17T14:15:02Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5649",
+      "number": 5649,
+      "title": "Build Apple device frameworks from the device archive only",
+      "repo": "mono/SkiaSharp",
+      "author": "kdpkke",
+      "mergedAt": "2026-11-17T14:11:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5760",
+      "number": 5760,
+      "title": "Add the SKMesh API (custom vertex-mesh drawing)",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-17T14:09:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26986",
+      "number": 26986,
+      "title": "[UIKit] Mark UIScreen.MainScreen as deprecated in version 26.0. Fixes #26980",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-17T13:08:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40320",
+      "number": 40320,
+      "title": "[ci] Restore official runtime manifests from transferred packages",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-17T12:45:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/456",
+      "number": 456,
+      "title": "Add SkMesh C API (sk_mesh_*, sk_canvas_draw_mesh)",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-17T12:29:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40324",
+      "number": 40324,
+      "title": "[Android][ShellHandler] Keep ShellSection top tabs hidden when returning to a section with a pushed page",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-11-17T11:54:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39974",
+      "number": 39974,
+      "title": "Fix BoxView redraw after WidthRequest and HeightRequest changes on iOS and MacCatalyst",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-11-17T11:53:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40283",
+      "number": 40283,
+      "title": "[Android] [ShellHandler] Fix crash on resume after replacing Shell while app is backgrounded",
+      "repo": "dotnet/maui",
+      "author": "Vignesh-SF3580",
+      "mergedAt": "2026-11-17T11:46:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40153",
+      "number": 40153,
+      "title": "[Windows] Fix FontImageSource Does Not Support System Fonts",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-11-17T11:42:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39917",
+      "number": 39917,
+      "title": "Fix CollectionView tap event bubbling on iOS and Windows",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-11-17T11:26:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40307",
+      "number": 40307,
+      "title": "[Android] Fix TapGestureRecognizer not firing when a View.Touch handler sets Handled to false",
+      "repo": "dotnet/maui",
+      "author": "marcelomoresco",
+      "mergedAt": "2026-11-17T11:22:50Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-samples/pull/19",
+      "number": 19,
+      "title": "Fix notification sample README",
+      "repo": "dotnet/macios-samples",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-17T11:21:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40326",
+      "number": 40326,
+      "title": "[XSG] Fix CS0117 for StyleSheet Source by resolving the resource path at generation time",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-17T11:19:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40309",
+      "number": 40309,
+      "title": "[Android] Pass the requested accuracy to the location provider on API 34+",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-17T11:15:19Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40311",
+      "number": 40311,
+      "title": "Re-enable the Issue2266 UI test on Android and cover FlyoutPage toolbar re-entry",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-17T11:12:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40312",
+      "number": 40312,
+      "title": "Automate current candidate mirroring for official nightlies",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-17T11:12:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40325",
+      "number": 40325,
+      "title": "[Controls] Don't let Application resources override MainPage's own resources",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-17T11:09:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40327",
+      "number": 40327,
+      "title": "Fix Disabled visual state sticking when keyed and implicit styles both set VisualStateGroups",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-17T11:07:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27349",
+      "number": 27349,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-17T10:19:16Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27328",
+      "number": 27328,
+      "title": "[devops] Add clickable link to the app size diff gist.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-17T10:13:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27330",
+      "number": 27330,
+      "title": "[Docs] Document ten API enum types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-17T10:03:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/863",
+      "number": 863,
+      "title": "build(deps-dev): Bump hono from 4.13.13 to 4.13.16 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-11-17T09:50:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/850",
+      "number": 850,
+      "title": "build(deps-dev): Bump @hono/node-server from 2.1.5 to 2.1.6 in /src/Comet",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-11-17T09:50:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/703",
+      "number": 703,
+      "title": "Add native Gemini Nano structured output",
+      "repo": "dotnet/maui-labs",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-17T09:39:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/869",
+      "number": 869,
+      "title": "Essentials.AI: accept nullable \"type\" arrays in Apple's strict schema transform",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-11-17T09:39:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13561",
+      "number": 13561,
+      "title": "[Xamarin.Android.Build.Tasks] Enable multithreaded ResolveSdks",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T09:18:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27348",
+      "number": 27348,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 14411: Build ID 16048854",
+      "repo": "dotnet/macios",
+      "author": "vs-mobiletools-engineering-service2",
+      "mergedAt": "2026-11-17T08:01:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/1518",
       "number": 1518,
       "title": "Auto Publish – main to live - 2026-11-17 05:00 UTC",
@@ -128571,7 +129061,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-17T06:17:07.218Z",
+  "lastUpdated": "2026-11-17T17:19:58.837Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
