@@ -1,6 +1,1006 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1590",
+      "number": 1590,
+      "title": "Auto Publish – main to live - 2026-11-18 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-11-18T05:39:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1581",
+      "number": 1581,
+      "title": "Fix documentation errors in Android.Views.Autofill and ContentCapture (R066)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T05:18:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1579",
+      "number": 1579,
+      "title": "Fix documentation errors in Android.Media.TV.Ads and Android.Media.TV.Interactive (R069)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T05:04:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1575",
+      "number": 1575,
+      "title": "Fix documentation errors in Android.App.PermissionUI, Android.App.PersonalContext, Android.App.PersonalContext.Insight.Interaction (R060)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T04:03:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1574",
+      "number": 1574,
+      "title": "Fix documentation errors in Camera2.Params, Display and Fingerprints (R062)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T04:02:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1576",
+      "number": 1576,
+      "title": "Fix documentation errors in Android.Media (R061)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T04:02:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1577",
+      "number": 1577,
+      "title": "Fix documentation errors in Android.Graphics.Pdf.Models (R064)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T04:01:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1573",
+      "number": 1573,
+      "title": "Fix documentation errors in Java.Util (R059)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T03:25:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1571",
+      "number": 1571,
+      "title": "Fix documentation errors in Android.App.AppSearch (R057)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T03:24:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1572",
+      "number": 1572,
+      "title": "Fix documentation errors in Android.Views.TextService and Android.Views.Translation (R058)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T03:24:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1570",
+      "number": 1570,
+      "title": "Fix documentation errors in Android.Locations (R055)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T03:20:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1569",
+      "number": 1569,
+      "title": "Fix documentation errors in Java.Lang.Invoke and Java.Lang.Reflect (R052)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T03:20:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1568",
+      "number": 1568,
+      "title": "Fix documentation errors in Android.Telephony.Mbms and Android.Telephony.Satellite (R053)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T03:20:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1565",
+      "number": 1565,
+      "title": "Fix documentation errors in Android.Service.Settings.Preferences and Android.Service.Wallpaper (R051)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T03:19:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1567",
+      "number": 1567,
+      "title": "Fix documentation errors in Android.OS.Storage.Operations, Android.OS.Strictmode and Android.OS.Vibrators (R054)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T03:19:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1566",
+      "number": 1566,
+      "title": "Fix documentation errors in Android.AgentIcon (R056)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T03:18:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1563",
+      "number": 1563,
+      "title": "Fix documentation errors in Android.Media (R049)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T03:02:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1562",
+      "number": 1562,
+      "title": "Fix documentation errors in Android.Bluetooth (R048)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T03:02:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1564",
+      "number": 1564,
+      "title": "Fix documentation errors in Android.Views (R046)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T03:02:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1559",
+      "number": 1559,
+      "title": "Fix documentation errors in Android.App.PersonalContext.Understander and related namespaces (R047)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T02:20:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1557",
+      "number": 1557,
+      "title": "Fix documentation errors in Android.Media (R043)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T02:19:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1554",
+      "number": 1554,
+      "title": "Fix documentation errors in Android.Content.PM (R037)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T02:17:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1561",
+      "number": 1561,
+      "title": "Fix documentation errors in Android.Icu.Text (R045)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T02:16:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1558",
+      "number": 1558,
+      "title": "Fix documentation errors in Android.App.Admin (R041)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T02:15:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1560",
+      "number": 1560,
+      "title": "Fix documentation errors in Android.Icu.Number and Android.Icu.Util (R044)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T02:15:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1556",
+      "number": 1556,
+      "title": "Fix documentation errors in Android.Service.Autofill and Android.Service.Chooser (R042)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T02:13:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1555",
+      "number": 1555,
+      "title": "Fix documentation errors in Android.Graphics (R040)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T02:13:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1553",
+      "number": 1553,
+      "title": "Fix documentation errors in Android.Telephony (R039)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T02:13:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1552",
+      "number": 1552,
+      "title": "Fix documentation errors in Android.Views.TextClassifiers (R034)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T01:22:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1541",
+      "number": 1541,
+      "title": "Fix documentation errors in Android.Telephony (R036)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T01:22:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1548",
+      "number": 1548,
+      "title": "Fix documentation errors in Android.Security namespaces (R032)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T01:21:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1544",
+      "number": 1544,
+      "title": "Fix documentation errors in Android.App.PersonalContext.Hint (R025)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T01:20:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1551",
+      "number": 1551,
+      "title": "Fix documentation errors in Java.Time.Chrono, Format, Temporal and Zone (R027)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T01:11:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1546",
+      "number": 1546,
+      "title": "Fix documentation errors in Android.Media.TV (R026)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T01:09:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1550",
+      "number": 1550,
+      "title": "Fix documentation errors in Org.Apache.Http.Conn.Params and Org.Apache.Http.Impl (R028)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T01:05:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1549",
+      "number": 1549,
+      "title": "Fix documentation errors in Android.Net.Dns/Eap/Http (R024)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T01:05:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1547",
+      "number": 1547,
+      "title": "Fix documentation errors in Android.Media (R031)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T01:03:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1545",
+      "number": 1545,
+      "title": "Fix documentation errors in Android.App.PersonalContext.Hint (R029)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T01:03:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1543",
+      "number": 1543,
+      "title": "Fix documentation errors in Android.App.PersonalContext.Insight (R030)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T01:03:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1542",
+      "number": 1542,
+      "title": "Fix documentation errors in Android.Service.PersonalContext.Understander (R033)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T01:03:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1540",
+      "number": 1540,
+      "title": "Add --repair-docs importer mode and fix 2268 recurring doc errors",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T00:27:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13596",
+      "number": 13596,
+      "title": "[release/11.0.1xx] Update System.Security.Cryptography.Xml to 10.0.15",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T00:01:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40346",
+      "number": 40346,
+      "title": "[Testing] Wait for navigation events before asserting in Mac Navigation UI tests",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-17T23:55:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40348",
+      "number": 40348,
+      "title": "[iOS/Mac] Keep Button caption visible when its Text changes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-17T23:54:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40349",
+      "number": 40349,
+      "title": "[Windows] Render shape shadow masks offscreen so captures keep shadowed shapes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-17T23:53:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40350",
+      "number": 40350,
+      "title": "[Testing] Run ActivityStateManager Init device test on the main thread",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-17T23:53:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1538",
+      "number": 1538,
+      "title": "Fix documentation errors in Android.Views (R015)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T23:18:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1539",
+      "number": 1539,
+      "title": "Fix documentation errors in Android.Views (R020)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T23:18:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1537",
+      "number": 1537,
+      "title": "Fix documentation errors in Org.Apache.Http.Impl namespaces (R023)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T23:17:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13577",
+      "number": 13577,
+      "title": "[Xamarin.Android.Tools.Bytecode] Use Kotlin metadata for nullability",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T23:15:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13598",
+      "number": 13598,
+      "title": "[release/11.0.1xx] [Xamarin.Android.Build.Tasks] Fix 5-part JDK versions (#13524)",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T23:14:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1533",
+      "number": 1533,
+      "title": "Fix documentation errors in Android.Health.Connect.DataTypes (R013)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T23:13:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1536",
+      "number": 1536,
+      "title": "Fix documentation errors in Android.Views.InputMethods (R019)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T23:13:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1532",
+      "number": 1532,
+      "title": "Fix documentation errors in Android.App.AppSearch (R017)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T23:13:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1535",
+      "number": 1535,
+      "title": "Fix documentation errors in Android.Media.Audiofx, Browse, Effect, Metrics and Midi (R016)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T23:12:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1534",
+      "number": 1534,
+      "title": "Fix documentation errors in Android.Net IPsec, NSD, RTP, SIP, SSL, and VCN namespaces (R014)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T23:12:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1531",
+      "number": 1531,
+      "title": "Fix documentation errors in Android (R021)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T23:12:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1530",
+      "number": 1530,
+      "title": "Fix documentation errors in Java.Util.Jar, Logging, Prefs, RandomGenerators, Regex and Streams (R022)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T23:12:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13600",
+      "number": 13600,
+      "title": "[ci] Submit Gradle dependency graphs to GitHub",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T22:40:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1529",
+      "number": 1529,
+      "title": "Fix documentation errors in Android.Net (R007)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T22:30:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13587",
+      "number": 13587,
+      "title": "[Xamarin.Android.Build.Tasks] Enable `-mt` `<LinkAssembliesNoShrink/>`",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T22:08:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1519",
+      "number": 1519,
+      "title": "Fix documentation errors in Android.Health.Connect.DataTypes (R010)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T22:04:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1521",
+      "number": 1521,
+      "title": "Fix documentation errors in Android Resource types (R004)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T22:03:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1527",
+      "number": 1527,
+      "title": "Fix documentation errors in Java.Lang (R012)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T22:03:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1520",
+      "number": 1520,
+      "title": "Fix documentation errors in Android.Telephony (R009)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T22:03:05Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5803",
+      "number": 5803,
+      "title": "Bump to the next version (4.155.3) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-17T22:02:46Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1528",
+      "number": 1528,
+      "title": "Fix documentation errors in Java.Time (R001)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T22:02:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1522",
+      "number": 1522,
+      "title": "Fix documentation errors in Android.Telephony.Cdma/Data/Emergency/Euicc/Gsm/Ims (R011)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T22:01:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1523",
+      "number": 1523,
+      "title": "Fix documentation errors in Android.AdServices namespaces (R006)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T22:01:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1525",
+      "number": 1525,
+      "title": "Fix documentation errors in Android.AdServices.Measurement, .OnDevicePersonalization, .Signals, .Topics (R008)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T22:01:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1526",
+      "number": 1526,
+      "title": "Fix documentation errors in Android.Service namespaces (R005)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T21:58:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1524",
+      "number": 1524,
+      "title": "Fix documentation errors in Android.Icu.Lang and Android.Icu.Math (R002)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T21:56:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13597",
+      "number": 13597,
+      "title": "Bump com.android.tools:r8 from 9.5.32 to 9.5.33 in /src/r8",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-11-17T21:55:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5801",
+      "number": 5801,
+      "title": "[docs] Regenerate release notes for 4.156–4.159",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-17T21:46:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5797",
+      "number": 5797,
+      "title": "[4.155] Backport four Skia CVE fixes and the emdawnwebgpu link fix (#5316)",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-11-17T21:46:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5798",
+      "number": 5798,
+      "title": "Bump to the next version (4.157.1) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-17T21:40:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5799",
+      "number": 5799,
+      "title": "Bump to the next version (4.156.3) after release",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-17T21:40:18Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/465",
+      "number": 465,
+      "title": "[m155] Restore both original CVE backport histories without file changes",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-17T21:37:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5784",
+      "number": 5784,
+      "title": "Remove Linux x86 native build and packaging",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-17T21:24:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5796",
+      "number": 5796,
+      "title": "[docs] Refresh 4.159.0 unreleased notes",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-17T21:21:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13504",
+      "number": 13504,
+      "title": "[Microsoft.Android.Build.BaseTasks] Add MultithreadedAndroidToolTask",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-17T21:20:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13595",
+      "number": 13595,
+      "title": "[build] Update MSBuild and cryptography packages",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-17T21:07:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13575",
+      "number": 13575,
+      "title": "[release/11.0.1xx] [build] Skip empty preview platform in WorkloadDependencies.json",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-11-17T21:00:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13515",
+      "number": 13515,
+      "title": "[Microsoft.Android.Build.Tasks] Move the AAPT2 tasks and use the .NET 11 Process APIs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-17T20:55:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/462",
+      "number": 462,
+      "title": "[m155] Backport four Skia CVE fixes and the emdawnwebgpu GN hook",
+      "repo": "mono/skia",
+      "author": "ramezgerges",
+      "mergedAt": "2026-11-17T20:50:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40345",
+      "number": 40345,
+      "title": "[Testing] Preserve literal XHarness result paths",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-17T20:39:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13441",
+      "number": 13441,
+      "title": "[Mono.Android] Enable C# memory-safety rules v2",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-17T19:45:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40343",
+      "number": 40343,
+      "title": "[Testing] Report fresh XHarness native device-test results",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-17T19:44:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40339",
+      "number": 40339,
+      "title": "[release/10.0.1xx-sr14] Avoid notifying collected command targets",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-17T19:44:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40310",
+      "number": 40310,
+      "title": "[iOS] Raise ProcessTerminated and reload the WebView when its content process dies",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-17T19:43:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40316",
+      "number": 40316,
+      "title": "[Android] Fix RemainingItemsThresholdReached for looping CarouselView and a single item under a Header",
+      "repo": "dotnet/maui",
+      "author": "marcelomoresco",
+      "mergedAt": "2026-11-17T19:35:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40329",
+      "number": 40329,
+      "title": "[XSG] XIHR: roll back rude edits that only fail type checking",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-17T19:34:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39516",
+      "number": 39516,
+      "title": "[Resizetizer] Stop shipping unused System.ObjectModel and UnmanagedMemoryStream shims",
+      "repo": "dotnet/maui",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-17T19:32:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39517",
+      "number": 39517,
+      "title": "Enforce CA5394 (insecure randomness) for shipping code",
+      "repo": "dotnet/maui",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-17T19:31:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40330",
+      "number": 40330,
+      "title": "[XSG] XIHR: keep the pending patch across throwaway compilations with different C#",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-17T19:24:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40333",
+      "number": 40333,
+      "title": "[Shell] Keep the toolbar appearance when the theme changes while a modal page is open",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-17T19:16:25Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40336",
+      "number": 40336,
+      "title": "[iOS] Restore the RefreshView scroll offset only for refreshes started in code",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-17T19:14:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40340",
+      "number": 40340,
+      "title": "[Android][Testing] Keep the Issue2266 flyout menu clear of system bars",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-17T19:13:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40341",
+      "number": 40341,
+      "title": "[Testing] Restore fixture state after TestSetup session recreation",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-17T19:06:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5793",
+      "number": 5793,
+      "title": "[4.155] Backport CVE-2026-126871 and CVE-2026-126882 Skia fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-11-17T17:25:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5795",
       "number": 5795,
       "title": "Pin Linux x86 Docker base images to last working digests",
@@ -129061,7 +130061,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-17T17:19:58.837Z",
+  "lastUpdated": "2026-11-18T05:43:42.563Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
