@@ -1,6 +1,336 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5835",
+      "number": 5835,
+      "title": "[4.155] Pass -sUSE_WEBGPU to Uno WASM heads only on net8.0",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-11-19T05:27:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1593",
+      "number": 1593,
+      "title": "Auto Publish – main to live - 2026-11-19 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-11-19T05:18:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5679",
+      "number": 5679,
+      "title": "Enable inset texture sampling and align Tizen blur configuration",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-19T02:29:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5145",
+      "number": 5145,
+      "title": "[samples] Restore the Uno Gallery to the Windows solution (#3945)",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-11-19T02:00:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5293",
+      "number": 5293,
+      "title": "Add a modern shared pixel-comparison API for tests",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-19T00:32:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40406",
+      "number": 40406,
+      "title": "[Build] Give the build-task restore its own NuGet project extensions path (APT2260)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-18T23:35:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13619",
+      "number": 13619,
+      "title": "[build] Bump Microsoft Build of OpenJDK to 25.0.5.1",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-18T23:24:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13624",
+      "number": 13624,
+      "title": "[Mono.Android] Hide generated typemap infrastructure",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-18T22:21:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40395",
+      "number": 40395,
+      "title": "[Testing] Remove the temporary CarouselView request-ordering diagnostic",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-18T21:26:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40394",
+      "number": 40394,
+      "title": "[Testing] Wait for the deferred CarouselView override scroll request on Windows",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-18T21:20:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13621",
+      "number": 13621,
+      "title": "[Xamarin.Android.Tools] Quote sdkmanager package IDs",
+      "repo": "dotnet/android",
+      "author": "rmarinho",
+      "mergedAt": "2026-11-18T21:08:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13609",
+      "number": 13609,
+      "title": "[Microsoft.Android.Build.Tasks] Stream llvm-objdump output again",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-18T21:04:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/895",
+      "number": 895,
+      "title": "Install Microsoft Build of OpenJDK",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-11-18T20:18:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13620",
+      "number": 13620,
+      "title": "[Mono.Android] Use trim-safe WriteEvent in RuntimeEventSource",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-18T20:11:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40365",
+      "number": 40365,
+      "title": "[Candidate/11 sr2] Fixed the device test failure on the Windows platform",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-11-18T19:55:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40354",
+      "number": 40354,
+      "title": "[net11] Update dependencies from dotnet/android, dotnet/dotnet",
+      "repo": "dotnet/maui",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-18T19:40:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40389",
+      "number": 40389,
+      "title": "[Android] Let ScrollView content scroll under safe-area padding",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-18T19:38:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40384",
+      "number": 40384,
+      "title": "[iOS] Keep the page below an opaque navigation bar in landscape",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-18T19:37:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40392",
+      "number": 40392,
+      "title": "Fix x:Code support in XAML source generation",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-18T19:36:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40391",
+      "number": 40391,
+      "title": "[net11] Keep elevated Appium npm install out of the user's npm cache",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-18T19:36:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40376",
+      "number": 40376,
+      "title": "[Essentials] Fix TextToSpeech range error messages for Pitch and Rate",
+      "repo": "dotnet/maui",
+      "author": "farisbasha",
+      "mergedAt": "2026-11-18T19:30:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27363",
+      "number": 27363,
+      "title": "[xcode27.3] Support Xcode AEA archives during provisioning",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-11-18T19:30:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40378",
+      "number": 40378,
+      "title": "[XIHR] Patch from the applied generation after throwaway generator runs",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-18T19:28:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40379",
+      "number": 40379,
+      "title": "Enable XAML source generator line info by default",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-18T19:28:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13614",
+      "number": 13614,
+      "title": "[Xamarin.Android.Build.Tasks] Remove RunWithLogging",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-18T18:06:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5830",
+      "number": 5830,
+      "title": "[docs] Refresh 4.159 unreleased notes and release metadata",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-18T17:49:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27351",
+      "number": 27351,
+      "title": "[tests] Use a TcpListener-based server for the NSUrlSessionHandler redirect tests. Fixes #26221",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-18T17:23:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27368",
+      "number": 27368,
+      "title": "[release/10.0.1xx] [UIKit] Mark UIScreen.MainScreen as deprecated in version 26.0. Fixes #26980",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-18T17:04:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27359",
+      "number": 27359,
+      "title": "[tools] Remove obsolete Mono startup generation",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-18T17:04:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27160",
+      "number": 27160,
+      "title": "[scripts/check-backports] Improve performance and output.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-18T17:04:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27358",
+      "number": 27358,
+      "title": "[build] Remove the obsolete Mono AOT build pipeline",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-18T17:03:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27244",
+      "number": 27244,
+      "title": "[msbuild] Restore library bundle resources on incremental builds. Fixes #27233",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-18T17:02:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27079",
+      "number": 27079,
+      "title": "[UIKit] Fix `UIScreenEdgePanGestureRecognizer(Action<UIScreenEdgePanGestureRecognizer>)` constructor. Fixes #27066",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-18T17:02:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5829",
       "number": 5829,
       "title": "Fix release-note contributor credits",
@@ -130601,7 +130931,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-18T16:55:03.057Z",
+  "lastUpdated": "2026-11-19T05:42:24.079Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
