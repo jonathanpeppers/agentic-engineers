@@ -1,6 +1,386 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1693",
+      "number": 1693,
+      "title": "Auto Publish – main to live - 2026-11-21 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-11-21T05:22:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40486",
+      "number": 40486,
+      "title": "[candidate] Revert #40457: window destroy disconnect crashes Controls device tests",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-20T23:38:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13689",
+      "number": 13689,
+      "title": "[release/11.0.1xx] [Xamarin.Android.Build.Tasks] Split ABI values in MSBuild",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-20T21:50:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13630",
+      "number": 13630,
+      "title": "[ci-status] Run az.cmd through cmd.exe on Windows",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-20T21:30:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13666",
+      "number": 13666,
+      "title": "[build] Update platform-tools to 37.0.3",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-20T21:28:10Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13690",
+      "number": 13690,
+      "title": "[release/11.0.1xx] [Build.Tasks] Replace Dalvik collection with MSBuild items",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-20T20:57:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13683",
+      "number": 13683,
+      "title": "[release/11.0.1xx] [AndroidSdk] Add explicit emulator process environment",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-20T20:56:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40485",
+      "number": 40485,
+      "title": "[CI] /review run-tests: report and retry Microsoft Entra sign-in failures",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-20T20:55:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13681",
+      "number": 13681,
+      "title": "[Tests] Re-enable unhandled exception event test on NativeAOT",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-20T20:54:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13685",
+      "number": 13685,
+      "title": "[ci] Omit empty filters when running sliced tests",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-20T20:47:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13680",
+      "number": 13680,
+      "title": "[tests] Re-enable tests and clean up stale TODOs",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-20T20:37:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40484",
+      "number": 40484,
+      "title": "[Testing] Use ShardedTestCategory for Issue37360 to fix MAUI0003 iOS UI-test build break",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-20T20:11:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13686",
+      "number": 13686,
+      "title": "[release/11.0.1xx] [Xamarin.Android.Build.Tasks] Replace GetAppSettingsDirectory",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-11-20T20:08:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39979",
+      "number": 39979,
+      "title": "[Windows] Fix Windows Shell flyout selection after canceled navigation",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-11-20T19:32:53Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40418",
+      "number": 40418,
+      "title": "[XSG] Hot reload: refresh keyed and Class style consumers on setter edits",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-20T19:31:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40295",
+      "number": 40295,
+      "title": "[Android] Fix ShellRenderer blank content when navigating from a modal",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-11-20T19:30:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40366",
+      "number": 40366,
+      "title": "[iOS] Fix Shell cross-tab modal navigation",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-11-20T19:29:26Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40368",
+      "number": 40368,
+      "title": "[Windows][CV1] Fix RemainingItemsThresholdReached Not Firing with GridItemsLayout in CollectionView",
+      "repo": "dotnet/maui",
+      "author": "devanathan-vaithiyanathan",
+      "mergedAt": "2026-11-20T19:27:01Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40420",
+      "number": 40420,
+      "title": "[Android] [Shell] Fix toolbar title and appearance after tab navigation",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-11-20T19:19:42Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40429",
+      "number": 40429,
+      "title": "[iOS, Mac] Preserve horizontal scroll position during RefreshView refresh",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-11-20T19:16:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40452",
+      "number": 40452,
+      "title": "[iOS] Don't destroy an already destroyed window in WillTerminate",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-20T19:12:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40453",
+      "number": 40453,
+      "title": "Subscribe orientation and rotation state triggers to DeviceDisplay weakly",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-20T19:11:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40456",
+      "number": 40456,
+      "title": "[Android] BlazorWebView: Support fullscreen web content",
+      "repo": "dotnet/maui",
+      "author": "Kebechet",
+      "mergedAt": "2026-11-20T19:09:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40457",
+      "number": 40457,
+      "title": "Window: Disconnect page handlers when the window is destroyed",
+      "repo": "dotnet/maui",
+      "author": "Kebechet",
+      "mergedAt": "2026-11-20T19:05:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40461",
+      "number": 40461,
+      "title": "[Android] Selected Tab Icon Uses Stale Cached Tint After Asynchronous Icon Loading",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-11-20T19:02:55Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40472",
+      "number": 40472,
+      "title": "[Android]Fix for Checkbox color state list does not match disabled, unchecked, pressed state",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-11-20T19:01:47Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40479",
+      "number": 40479,
+      "title": "[Shell] Send NavigatedFrom to the page the navigation left when Navigated navigates again",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-20T18:58:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40480",
+      "number": 40480,
+      "title": "[Android] Invalidate the shadowed WrapperView without posting a managed Runnable",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-20T18:56:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13682",
+      "number": 13682,
+      "title": "[release/11.0.1xx] [FastDeploy] Suppress unchanged-file logs by default",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-11-20T18:56:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13687",
+      "number": 13687,
+      "title": "[release/11.0.1xx] [ci] Disable release-drop status reporting",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-11-20T18:55:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13688",
+      "number": 13688,
+      "title": "[release/10.0.1xx] [ci] Disable release-drop status reporting",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-11-20T18:54:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40483",
+      "number": 40483,
+      "title": "[CI] /review run-tests: wait for GitHub to refresh a stale test-merge commit",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-20T18:52:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1692",
+      "number": 1692,
+      "title": "Add scripted --repair-docs patterns for mechanical doc noise",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-20T18:00:55Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios-devtools/pull/203",
+      "number": 203,
+      "title": "Fix plist parsing after long-form boolean elements",
+      "repo": "dotnet/macios-devtools",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-20T17:41:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40468",
+      "number": 40468,
+      "title": "[CI] /review run-tests: queue targeted runs without extra Azure DevOps permissions, plus rollout fixes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-20T17:24:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13672",
+      "number": 13672,
+      "title": "[tests] Refresh BuildReleaseArm64 APK references",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-20T17:06:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1691",
+      "number": 1691,
+      "title": "Correct Android permission and notification documentation",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-20T17:04:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13678",
+      "number": 13678,
+      "title": "[ci] Disable release-drop status reporting",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-20T16:53:40Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android/pull/13673",
       "number": 13673,
       "title": "Bump external/android-api-docs from `d293871` to `ef3794c`",
@@ -132381,7 +132761,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-20T16:39:14.121Z",
+  "lastUpdated": "2026-11-21T05:24:20.347Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
