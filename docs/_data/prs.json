@@ -1,6 +1,56 @@
 {
   "prs": [
     {
+      "url": "https://github.com/mono/SkiaSharp/pull/5827",
+      "number": 5827,
+      "title": "Fix win-x64 crash on libjpeg/libpng longjmp error recovery",
+      "repo": "mono/SkiaSharp",
+      "author": "SimonCropp",
+      "mergedAt": "2026-11-21T19:30:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27400",
+      "number": 27400,
+      "title": "[xcode27.3] Update bindings to Xcode 27.3 Beta 2",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-11-21T19:15:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5846",
+      "number": 5846,
+      "title": "Tests: dispose the ToData() snapshots",
+      "repo": "mono/SkiaSharp",
+      "author": "taublast",
+      "mergedAt": "2026-11-21T19:06:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/830",
+      "number": 830,
+      "title": "Measure AppKit ScrollView content in GetDesiredSize",
+      "repo": "dotnet/maui-labs",
+      "author": "aritchie",
+      "mergedAt": "2026-11-21T18:34:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/865",
+      "number": 865,
+      "title": "Restore minimized and closed AppKit windows (ActivateWindow, Dock reopen)",
+      "repo": "dotnet/maui-labs",
+      "author": "aritchie",
+      "mergedAt": "2026-11-21T18:31:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/40492",
       "number": 40492,
       "title": "[CI] /review run-tests: fall back to an AZDO_TRIGGER_PAT secret when Entra sign-in is blocked",
@@ -132791,7 +132841,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-21T15:53:10.259Z",
+  "lastUpdated": "2026-11-21T21:25:32.234Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
