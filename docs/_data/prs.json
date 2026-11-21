@@ -1,6 +1,36 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/40492",
+      "number": 40492,
+      "title": "[CI] /review run-tests: fall back to an AZDO_TRIGGER_PAT secret when Entra sign-in is blocked",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-21T13:56:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5843",
+      "number": 5843,
+      "title": "Fix SKRuntimeEffectUniforms starting with uninitialized memory; Reset() clears in place",
+      "repo": "mono/SkiaSharp",
+      "author": "taublast",
+      "mergedAt": "2026-11-21T12:44:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13704",
+      "number": 13704,
+      "title": "[fix-finder] [generator] Enable nullable checking in GeneratedEnumAttr",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-11-21T07:00:13Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/1693",
       "number": 1693,
       "title": "Auto Publish – main to live - 2026-11-21 05:00 UTC",
@@ -132761,7 +132791,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-21T05:24:20.347Z",
+  "lastUpdated": "2026-11-21T15:53:10.259Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
