@@ -1,6 +1,26 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/maui/pull/40473",
+      "number": 40473,
+      "title": "[Candidate/11 sr2] Added the base image for the iOS platform",
+      "repo": "dotnet/maui",
+      "author": "TamilarasanSF4853",
+      "mergedAt": "2026-11-22T15:30:13Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40504",
+      "number": 40504,
+      "title": "[CI] /review run-tests: dispatch maui-pr-uitests through a run-tests/* branch, since Entra blocks the Azure DevOps sign-in",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-22T12:39:52Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/mono/SkiaSharp/pull/5827",
       "number": 5827,
       "title": "Fix win-x64 crash on libjpeg/libpng longjmp error recovery",
@@ -132841,7 +132861,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-22T04:49:26.779Z",
+  "lastUpdated": "2026-11-22T15:52:42.475Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
