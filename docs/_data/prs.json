@@ -1,6 +1,246 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/macios/pull/27431",
+      "number": 27431,
+      "title": "[xcode27.3-net11.0] Bump to Xcode 27 .3 Beta 2",
+      "repo": "dotnet/macios",
+      "author": "dalexsoto",
+      "mergedAt": "2026-11-24T07:52:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27395",
+      "number": 27395,
+      "title": "[release/10.0.1xx] [msbuild] Restore library bundle resources on incremental builds. Fixes #27233",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T07:05:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1782",
+      "number": 1782,
+      "title": "Auto Publish – main to live - 2026-11-24 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-11-24T05:40:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/750",
+      "number": 750,
+      "title": "Migrate maui-labs to .NET 11",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-11-24T02:19:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27367",
+      "number": 27367,
+      "title": "[release/11.0.1xx] [UIKit] Mark UIScreen.MainScreen as deprecated in version 26.0. Fixes #26980",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T00:56:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13731",
+      "number": 13731,
+      "title": "[release/11.0.1xx] [Xamarin.Android.Build.Tasks] Skip RID-inner device checks",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-23T22:41:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13733",
+      "number": 13733,
+      "title": "[release/11.0.1xx] [Xamarin.Android.Build.Tasks] Move simple task logic to targets",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-23T22:40:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13735",
+      "number": 13735,
+      "title": "[Java.Interop-Tests] Enable C# memory-safety rules v2",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-23T22:37:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27391",
+      "number": 27391,
+      "title": "[release/10.0.1xx] [UIKit] Fix `UIScreenEdgePanGestureRecognizer(Action<UIScreenEdgePanGestureRecognizer>)` constructor. Fixes #27066",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-23T22:34:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13647",
+      "number": 13647,
+      "title": "Remove unused defines and always-true preprocessor guards",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-23T22:28:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13720",
+      "number": 13720,
+      "title": "[tests] Isolate JNI reference assertions",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-23T22:26:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13703",
+      "number": 13703,
+      "title": "[tests] Replace GradleFBProj with a local Gradle library test",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-23T21:39:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26919",
+      "number": 26919,
+      "title": "[WidgetKit] Add timeline reload APIs. Fixes #9215",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-23T21:31:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27344",
+      "number": 27344,
+      "title": "[registrar] Preserve trimmed model protocol conformance. Fixes #27332",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-23T21:31:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27373",
+      "number": 27373,
+      "title": "[tools] Fix P/Invoke wrapper generation when parameter names are empty Fixes #27371",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-23T21:31:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27396",
+      "number": 27396,
+      "title": "[msbuild] Bump to latest Messaging version.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-23T21:31:11Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27428",
+      "number": 27428,
+      "title": "[dotnet] Compute _RelativeAppBundlePath correctly when the app bundle is on a different drive than the project. #27407",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-23T21:31:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13724",
+      "number": 13724,
+      "title": "[Mono.Android] Map collection constructors from open definitions",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-23T21:25:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40544",
+      "number": 40544,
+      "title": "[ci] Count behavioral changes in the expert review summary",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-23T21:11:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13721",
+      "number": 13721,
+      "title": "[Mono.Android] Remove the JNIEnv trimming suppression",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-23T20:39:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40532",
+      "number": 40532,
+      "title": "[docs] Document following public rewrites in the internal mirror",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-23T20:22:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/839",
+      "number": 839,
+      "title": "Move community platform backends to .NET 11 GA (GTK, AppKit, WPF) with .NET 10 compatibility",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-11-23T20:16:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40541",
+      "number": 40541,
+      "title": "Add Behavioral Change Disclosure dimension to the MAUI expert reviewer",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-23T20:00:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27425",
+      "number": 27425,
+      "title": "[release/11.0.1xx] [tests] Skip the NSSpellChecker constructor test in introspection on macOS 27.2.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-23T19:55:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/maui/pull/40540",
       "number": 40540,
       "title": "[ci] Remove /review performance workflow",
@@ -134211,7 +134451,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-23T19:47:09.620Z",
+  "lastUpdated": "2026-11-24T08:06:55.427Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
