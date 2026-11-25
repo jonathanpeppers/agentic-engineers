@@ -1,6 +1,966 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1792",
+      "number": 1792,
+      "title": "Fix documentation errors in Android.Hardware (R095, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T23:56:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1797",
+      "number": 1797,
+      "title": "Fix AppFunctions documentation errors (R108, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T23:56:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1794",
+      "number": 1794,
+      "title": "Fix documentation errors in Android.App.PrivateCompute (R105, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T23:55:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1798",
+      "number": 1798,
+      "title": "Fix HPKE documentation errors (R113, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T23:54:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1785",
+      "number": 1785,
+      "title": "Fix documentation errors in Android.Health.Connect (R093, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T23:53:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1796",
+      "number": 1796,
+      "title": "Fix Android Ranging documentation errors (R107, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T23:51:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/470",
+      "number": 470,
+      "title": "[skia-sync] Merge upstream chrome/m159",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-24T23:25:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13767",
+      "number": 13767,
+      "title": "[build] Track Helix SDK with Maestro on .NET 11",
+      "repo": "dotnet/android",
+      "author": "akoeplinger",
+      "mergedAt": "2026-11-24T23:18:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1790",
+      "number": 1790,
+      "title": "Fix Android.Text and Android.Text.Format docs (R098, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T23:10:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1793",
+      "number": 1793,
+      "title": "Fix Java NIO documentation errors (R094, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T23:10:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1791",
+      "number": 1791,
+      "title": "Fix Android.Provider documentation errors (R097, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T23:07:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1784",
+      "number": 1784,
+      "title": "Review Android Inline and Photo Picker docs",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T23:06:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1788",
+      "number": 1788,
+      "title": "Fix Android usage and wallpaper docs (R102, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T23:04:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1787",
+      "number": 1787,
+      "title": "Fix documentation errors in Android.Health.Connect.DataTypes (R103, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T23:04:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1786",
+      "number": 1786,
+      "title": "Fix Android speech documentation errors (R100, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T23:01:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1789",
+      "number": 1789,
+      "title": "Fix documentation errors in Android.Content.PM (R096, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T22:59:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1783",
+      "number": 1783,
+      "title": "Fix Android Bluetooth documentation errors (R104, pass 2)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T22:19:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40591",
+      "number": 40591,
+      "title": "[ci] /review run-tests: standard /review comment layout; fix MAI Code 2",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-24T22:10:29Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40582",
+      "number": 40582,
+      "title": "Document that forward PRs must never use long-lived branches as head",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-24T22:01:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40584",
+      "number": 40584,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 1095: Build ID 3145178",
+      "repo": "dotnet/maui",
+      "author": "dotnet-oneloc-localization",
+      "mergedAt": "2026-11-24T21:59:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40590",
+      "number": 40590,
+      "title": "[release/10.0.1xx-sr14] [iOS] Prevent Shell tab switch flashes",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-24T21:58:17Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40589",
+      "number": 40589,
+      "title": "[release/10.0.1xx-sr14] [iOS] Recover WebView after content process termination",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-24T21:57:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13707",
+      "number": 13707,
+      "title": "[tests] Improve WebView bridge and TabLayout device tests",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-24T21:34:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13737",
+      "number": 13737,
+      "title": "[CodeGen-Binding] Enable C# memory-safety rules v2",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-24T21:16:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13729",
+      "number": 13729,
+      "title": "[tests] Retire allocation contexts before measuring allocations",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-24T21:14:20Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13723",
+      "number": 13723,
+      "title": "[Mono.Android] Map mixed dictionary constructors from exemplars",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-24T21:12:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13730",
+      "number": 13730,
+      "title": "[release/11.0.1xx] [Xamarin.Android.Build.Tasks] Support MT in four transform tasks",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T20:38:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40545",
+      "number": 40545,
+      "title": "[ci] /review run-tests, run-ui-tests and run-device-tests; MAI Code 2 as the second model",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-24T20:20:24Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40527",
+      "number": 40527,
+      "title": "[iOS] Mirror RTL children within the safe area the parent arranges them in",
+      "repo": "dotnet/maui",
+      "author": "MykhailoDav",
+      "mergedAt": "2026-11-24T20:08:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13741",
+      "number": 13741,
+      "title": "[release/11.0.1xx] Prefer non-generic types in LLVM IR typemaps",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T20:01:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40517",
+      "number": 40517,
+      "title": "[iOS] Fix for Editor vertical text alignment lost after device rotation",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-11-24T19:58:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40523",
+      "number": 40523,
+      "title": "[Android]Fix for Android predictive back callback not refreshing when the selected TabbedPage changes",
+      "repo": "dotnet/maui",
+      "author": "BagavathiPerumal",
+      "mergedAt": "2026-11-24T19:57:54Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40369",
+      "number": 40369,
+      "title": "[Windows]Fix application title foreground not updating on theme changes",
+      "repo": "dotnet/maui",
+      "author": "Shalini-Ashokan",
+      "mergedAt": "2026-11-24T19:52:40Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13751",
+      "number": 13751,
+      "title": "[release/11.0.1xx] [tests] Backport bounded-copy upload test",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T19:48:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/786",
+      "number": 786,
+      "title": "Fix DevFlow VSIX packaging and npm security vulnerabilities",
+      "repo": "dotnet/maui-labs",
+      "author": "dependabot",
+      "mergedAt": "2026-11-24T19:32:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27416",
+      "number": 27416,
+      "title": "[ci] Remove label-based test configuration",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T19:02:06Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27386",
+      "number": 27386,
+      "title": "[src] Remove Mono-only product runtime branches",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T18:59:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13736",
+      "number": 13736,
+      "title": "[Mono.Android-Tests] Enable C# memory-safety rules v2",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-24T18:58:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27443",
+      "number": 27443,
+      "title": "[release/11.0.1xx] [tools] Fix P/Invoke wrapper generation when parameter names are empty. Fixes #27371",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T18:57:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27408",
+      "number": 27408,
+      "title": "[main] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-24T18:49:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13756",
+      "number": 13756,
+      "title": "[skills] Align code-review MSBuild rules with multithreaded tasks",
+      "repo": "dotnet/android",
+      "author": "PureWeen",
+      "mergedAt": "2026-11-24T18:33:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27445",
+      "number": 27445,
+      "title": "[main] Update dependencies from dotnet/macios",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-24T18:27:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27435",
+      "number": 27435,
+      "title": "[release/11.0.1xx] [msbuild] Bump to latest Messaging version.",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T18:25:08Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27394",
+      "number": 27394,
+      "title": "[release/10.0.1xx] [Foundation] Wake response stream reads without polling. Fixes #10113",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T18:10:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27442",
+      "number": 27442,
+      "title": "[release/10.0.1xx] [Foundation] Fix native reference leak in NSString constructors. Fixes #27042",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T18:05:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27355",
+      "number": 27355,
+      "title": "[dotnet] Use RootMode=Visible for app extensions. Fixes #27342",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T17:02:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27380",
+      "number": 27380,
+      "title": "[runtime] Remove Mono runtime-pack and binary runtimeconfig packaging",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T17:01:54Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27423",
+      "number": 27423,
+      "title": "[msbuild] Fix plist resource truncation. Fixes #27414",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T16:13:37Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27434",
+      "number": 27434,
+      "title": "[release/11.0.1xx] [dotnet] Compute _RelativeAppBundlePath correctly when the app bundle is on a different drive than the project. #27407",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T16:05:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27441",
+      "number": 27441,
+      "title": "[release/10.0.1xx] [UIKit] Bind UIBarButtonItemStyle.Prominent. Fixes #27234",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T15:44:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27438",
+      "number": 27438,
+      "title": "[release/11.0.1xx] [Foundation] Fix native reference leak in NSString constructors. Fixes #27042",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T15:44:21Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27437",
+      "number": 27437,
+      "title": "[release/11.0.1xx] [UIKit] Bind UIBarButtonItemStyle.Prominent. Fixes #27234",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T15:42:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27271",
+      "number": 27271,
+      "title": "[docs] Document the 'Registrar' MSBuild property",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T15:41:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13750",
+      "number": 13750,
+      "title": "[build] Track Microsoft.DotNet.Helix.Sdk with Maestro",
+      "repo": "dotnet/android",
+      "author": "akoeplinger",
+      "mergedAt": "2026-11-24T15:32:51Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/913",
+      "number": 913,
+      "title": "Install .NET 10 test runtimes in official pipeline",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-11-24T15:17:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/914",
+      "number": 914,
+      "title": "Fix Inspector and EssentialsAI CI races",
+      "repo": "dotnet/maui-labs",
+      "author": "jfversluis",
+      "mergedAt": "2026-11-24T15:16:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13571",
+      "number": 13571,
+      "title": "[release/11.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/android",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-24T15:15:33Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13656",
+      "number": 13656,
+      "title": "[Mono.Android] Fix IL3050 in NativeAOT apps and correct trimming waivers",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-24T15:12:44Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5844",
+      "number": 5844,
+      "title": "[4.155] Backport the remaining 25 Skia CVE fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "ramezgerges",
+      "mergedAt": "2026-11-24T14:54:09Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5838",
+      "number": 5838,
+      "title": "[skia-sync] Merge upstream chrome/m157 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-24T14:50:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5837",
+      "number": 5837,
+      "title": "[skia-sync] Merge upstream chrome/m156 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-24T14:49:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5839",
+      "number": 5839,
+      "title": "[skia-sync] Merge upstream chrome/m158 bug fixes",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-24T14:46:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13739",
+      "number": 13739,
+      "title": "[release/11.0.1xx] [Java.Interop] Account for local throwable references",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-24T14:43:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40577",
+      "number": 40577,
+      "title": "[Forward fixes] net11 to main",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-24T14:43:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5857",
+      "number": 5857,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.156.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-24T14:35:14Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5858",
+      "number": 5858,
+      "title": "Sync Skia submodule and cgmanifest into skia-sync/release-4.157.x",
+      "repo": "mono/SkiaSharp",
+      "author": "github-actions",
+      "mergedAt": "2026-11-24T14:34:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13740",
+      "number": 13740,
+      "title": "[release/10.0.1xx] [R8] Preserve bound Java fields",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T14:23:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13743",
+      "number": 13743,
+      "title": "[release/11.0.1xx] [Build.Tasks] Use SDK-defined Java version requirements",
+      "repo": "dotnet/android",
+      "author": "github-actions",
+      "mergedAt": "2026-11-24T14:21:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40571",
+      "number": 40571,
+      "title": "[Release state] Advance 11.0.1xx to SR3",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-11-24T14:07:20Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40578",
+      "number": 40578,
+      "title": "[net11] Fix CollectionView crash during incremental loading",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-24T14:00:16Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/469",
+      "number": 469,
+      "title": "[skia-sync] Merge upstream chrome/m158",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-24T13:48:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/468",
+      "number": 468,
+      "title": "[skia-sync] Merge upstream chrome/m157",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-24T13:47:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/467",
+      "number": 467,
+      "title": "[skia-sync] Merge upstream chrome/m156",
+      "repo": "mono/skia",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-24T13:46:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40481",
+      "number": 40481,
+      "title": "[iOS/MacCatalyst] Fix CollectionView crash during incremental loading",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-11-24T13:43:05Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40572",
+      "number": 40572,
+      "title": "[SR2][iOS/MacCatalyst] Fix horizontal Grid CollectionView intrinsic height",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-24T13:36:48Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27392",
+      "number": 27392,
+      "title": "[release/11.0.1xx] [UIKit] Fix `UIScreenEdgePanGestureRecognizer(Action<UIScreenEdgePanGestureRecognizer>)` constructor. Fixes #27066",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T13:32:04Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40574",
+      "number": 40574,
+      "title": "[net11][iOS/MacCatalyst] Fix horizontal Grid CollectionView intrinsic height",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-24T13:26:08Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27393",
+      "number": 27393,
+      "title": "[release/11.0.1xx] [msbuild] Restore library bundle resources on incremental builds. Fixes #27233",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T13:12:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40566",
+      "number": 40566,
+      "title": "[release] Recover from squash-merged CI normalization PRs",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-24T13:10:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/skia/pull/471",
+      "number": 471,
+      "title": "[m155] Backport the remaining 25 Skia CVE fixes",
+      "repo": "mono/skia",
+      "author": "ramezgerges",
+      "mergedAt": "2026-11-24T12:44:12Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40565",
+      "number": 40565,
+      "title": "[Release housekeeping] 11.0.1xx SR3 CI normalization",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-24T12:43:07Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/5809",
+      "number": 5809,
+      "title": "Modernize Tahoe CI to Xcode 26.6 and .NET 10.0.404",
+      "repo": "mono/SkiaSharp",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-24T12:33:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13748",
+      "number": 13748,
+      "title": "Bump external/android-api-docs from `ba49e6e` to `5c4a650`",
+      "repo": "dotnet/android",
+      "author": "dependabot",
+      "mergedAt": "2026-11-24T12:17:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13742",
+      "number": 13742,
+      "title": "[tests] Add test for Java-created SparseArray peer type",
+      "repo": "dotnet/android",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-24T12:16:56Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27399",
+      "number": 27399,
+      "title": "[Docs] Document ten PDFKit, ExternalAccessory, and SafariServices enum types",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T12:15:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40564",
+      "number": 40564,
+      "title": "[Servicing] 11.0.1xx SR2",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-11-24T12:11:36Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40563",
+      "number": 40563,
+      "title": "[Release housekeeping] 11.0.1xx SR3 CI normalization",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-11-24T12:10:38Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40116",
+      "number": 40116,
+      "title": "[Release candidate] 11.0.1xx SR2",
+      "repo": "dotnet/maui",
+      "author": "github-actions",
+      "mergedAt": "2026-11-24T12:02:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40542",
+      "number": 40542,
+      "title": "[ci] Use the agent image's pinned Xcode for internal macOS jobs",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-24T11:45:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27410",
+      "number": 27410,
+      "title": "[release/10.0.1xx] Update dependencies from dotnet/dotnet",
+      "repo": "dotnet/macios",
+      "author": "dotnet-maestro",
+      "mergedAt": "2026-11-24T11:44:44Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/911",
+      "number": 911,
+      "title": "Cli: Add Android Emulator headless support using --no-window option",
+      "repo": "dotnet/maui-labs",
+      "author": "MFinkBK",
+      "mergedAt": "2026-11-24T11:32:01Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/912",
+      "number": 912,
+      "title": "Bump MAUI Labs preview to 15 and Essentials.AI to 10",
+      "repo": "dotnet/maui-labs",
+      "author": "rmarinho",
+      "mergedAt": "2026-11-24T11:18:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40554",
+      "number": 40554,
+      "title": "[release/10.0.1xx-sr14] [iOS] Don't destroy an already destroyed window in WillTerminate",
+      "repo": "dotnet/maui",
+      "author": "taublast",
+      "mergedAt": "2026-11-24T11:10:21Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/26699",
+      "number": 26699,
+      "title": "[UIKit] Keep trait change observables alive until registration disposal",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T10:50:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27322",
+      "number": 27322,
+      "title": "[NativeAOT] Fix excess framework dependencies. Fixes #27293",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T10:35:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/macios/pull/27390",
+      "number": 27390,
+      "title": "[release/11.0.1xx] [Foundation] Wake response stream reads without polling. Fixes #10113",
+      "repo": "dotnet/macios",
+      "author": "rolfbjarne",
+      "mergedAt": "2026-11-24T09:33:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/macios/pull/27431",
       "number": 27431,
       "title": "[xcode27.3-net11.0] Bump to Xcode 27 .3 Beta 2",
@@ -134451,7 +135411,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-24T08:06:55.427Z",
+  "lastUpdated": "2026-11-25T00:18:34.691Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
