@@ -1,6 +1,506 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1921",
+      "number": 1921,
+      "title": "Fix Android.Telephony documentation errors (R039, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-26T05:39:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/mono/SkiaSharp/pull/4540",
+      "number": 4540,
+      "title": "Add modern uwp (.net) support",
+      "repo": "mono/SkiaSharp",
+      "author": "FoggyFinder",
+      "mergedAt": "2026-11-26T05:13:43Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1837",
+      "number": 1837,
+      "title": "Auto Publish – main to live - 2026-11-25 05:00 UTC",
+      "repo": "dotnet/android-api-docs",
+      "author": "learn-build-service-prod",
+      "mergedAt": "2026-11-26T05:01:28Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1893",
+      "number": 1893,
+      "title": "Fix Android service documentation errors (R005, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-26T03:21:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1919",
+      "number": 1919,
+      "title": "Fix Android ranging documentation errors (R035, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-26T02:51:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1918",
+      "number": 1918,
+      "title": "Fix documentation errors in Android.Views.TextClassifiers (R034, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-26T02:08:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1917",
+      "number": 1917,
+      "title": "Fix Android service documentation errors (R033, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-26T01:51:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1915",
+      "number": 1915,
+      "title": "Fix documentation errors in Android.Media (R031, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-26T01:05:09Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1907",
+      "number": 1907,
+      "title": "Fix documentation errors in Android (R021, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-26T00:49:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13777",
+      "number": 13777,
+      "title": "[tests] Keep Java.Lang.Class peers alive in JNI lookups",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-26T00:34:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40631",
+      "number": 40631,
+      "title": "[ci] /review run-tests: fix the dispatch crash on existing statuses; log refused dispatches",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-26T00:17:37Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13762",
+      "number": 13762,
+      "title": "[Mono.Android] Keep peers alive during FinishCreateInstance",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-25T23:04:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1912",
+      "number": 1912,
+      "title": "Fix documentation errors in Android.Media.TV (R026, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-25T22:54:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/916",
+      "number": 916,
+      "title": "Fix DevFlow XAML source maps during Hot Reload",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-11-25T22:32:11Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/930",
+      "number": 930,
+      "title": "Resize autoresizing children when an AppKit view's logical size changes",
+      "repo": "dotnet/maui-labs",
+      "author": "aritchie",
+      "mergedAt": "2026-11-25T21:44:30Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1896",
+      "number": 1896,
+      "title": "Fix documentation errors in AdServices (R008, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-25T21:40:58Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13780",
+      "number": 13780,
+      "title": "[copilot] Tell agents to init the api-docs submodule in new worktrees",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-25T21:40:48Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40551",
+      "number": 40551,
+      "title": "[iOS] Don't inflate ScrollView content size for the large-title tracked scroll view",
+      "repo": "dotnet/maui",
+      "author": "marcelomoresco",
+      "mergedAt": "2026-11-25T21:27:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1894",
+      "number": 1894,
+      "title": "Fix Khronos OpenGL ES documentation (R003, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-25T21:21:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1911",
+      "number": 1911,
+      "title": "Fix documentation errors in Apache HTTP implementations (R023, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-25T21:05:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40627",
+      "number": 40627,
+      "title": "[ci] /review run-tests: report skipped, selection and run checks as commit statuses",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-25T20:52:32Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui-labs/pull/928",
+      "number": 928,
+      "title": "Bump MAUI Labs and Essentials.AI preview versions",
+      "repo": "dotnet/maui-labs",
+      "author": "Redth",
+      "mergedAt": "2026-11-25T20:51:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40555",
+      "number": 40555,
+      "title": "[Android, iOS, Windows] Fix DivideByZeroException when animation rate is zero",
+      "repo": "dotnet/maui",
+      "author": "Dhivya-SF4094",
+      "mergedAt": "2026-11-25T20:35:43Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40536",
+      "number": 40536,
+      "title": "[Animations] Keyframe storyboards, the animation layer and new Easing curves",
+      "repo": "dotnet/maui",
+      "author": "aritchie",
+      "mergedAt": "2026-11-25T20:33:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40537",
+      "number": 40537,
+      "title": "[Animations] Page transitions, a composable navigation-transition hook and shared elements",
+      "repo": "dotnet/maui",
+      "author": "aritchie",
+      "mergedAt": "2026-11-25T20:24:24Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1910",
+      "number": 1910,
+      "title": "Fix Java Util documentation errors (R022, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-25T20:23:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40628",
+      "number": 40628,
+      "title": "[ci] /review run-tests: build PRs only with their target branch's pipeline",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-25T20:20:41Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40548",
+      "number": 40548,
+      "title": "[Android, Windows] Reset ProgressBar color when ProgressColor is set to null",
+      "repo": "dotnet/maui",
+      "author": "marcelomoresco",
+      "mergedAt": "2026-11-25T19:49:58Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40602",
+      "number": 40602,
+      "title": "Fix Icon truncated when fontsize increses",
+      "repo": "dotnet/maui",
+      "author": "SubhikshaSf4851",
+      "mergedAt": "2026-11-25T19:48:19Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40629",
+      "number": 40629,
+      "title": "[ci] Backport /review run-device-tests dispatch support to net11",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-25T19:46:57Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40611",
+      "number": 40611,
+      "title": "[iOS, Mac] Handle unset gradient-stop colors during rendering",
+      "repo": "dotnet/maui",
+      "author": "SyedAbdulAzeemSF4852",
+      "mergedAt": "2026-11-25T19:46:00Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40575",
+      "number": 40575,
+      "title": "[Windows] Fix LongPressGestureRecognizer not firing on Button",
+      "repo": "dotnet/maui",
+      "author": "praveenkumarkarunanithi",
+      "mergedAt": "2026-11-25T19:42:53Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40610",
+      "number": 40610,
+      "title": "[net11] XIHR: keep VisualDiagnostics source info current on live objects",
+      "repo": "dotnet/maui",
+      "author": "StephaneDelcroix",
+      "mergedAt": "2026-11-25T19:27:38Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1905",
+      "number": 1905,
+      "title": "Fix Dalvik.Bytecode documentation errors (R018, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-25T19:24:03Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40618",
+      "number": 40618,
+      "title": "[net11] Preserve XAML Hot Reload diagnostics when trimming",
+      "repo": "dotnet/maui",
+      "author": "noiseonwires",
+      "mergedAt": "2026-11-25T19:23:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40615",
+      "number": 40615,
+      "title": "[ci] /review run-tests: publish job checks even when the comment is unchanged",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-25T19:20:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40211",
+      "number": 40211,
+      "title": "[net12] Add ScrollAnchorMode to keep the start or end of a CollectionView in view",
+      "repo": "dotnet/maui",
+      "author": "mattleibow",
+      "mergedAt": "2026-11-25T19:15:52Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40623",
+      "number": 40623,
+      "title": "[WIP][Android] Fix SR3 candidate test failure caused by grouped CollectionView enumeration",
+      "repo": "dotnet/maui",
+      "author": "SuthiYuvaraj",
+      "mergedAt": "2026-11-25T19:07:31Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13765",
+      "number": 13765,
+      "title": "[Java.Interop] Keep peers alive across array, Equals, and ref calls",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-25T19:06:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40596",
+      "number": 40596,
+      "title": "Remove standalone /review tests failure-analysis lane",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-25T19:06:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/39762",
+      "number": 39762,
+      "title": "[net12] Add native ContentButton with presentation-only content",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-11-25T19:05:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1890",
+      "number": 1890,
+      "title": "Fix documentation errors in Android.Icu.Lang and Android.Icu.Math (R002, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-25T19:05:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40260",
+      "number": 40260,
+      "title": "[net12] Add Span.TextDecorationColor and TextDecorationThickness (underline / strikethrough color and thickness)",
+      "repo": "dotnet/maui",
+      "author": "Redth",
+      "mergedAt": "2026-11-25T18:53:39Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13761",
+      "number": 13761,
+      "title": "[Mono.Android] Keep JNI peer owners alive in trimmable runtime paths",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-25T18:52:14Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40060",
+      "number": 40060,
+      "title": "Move main to .NET 12",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-25T18:52:12Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": true
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13764",
+      "number": 13764,
+      "title": "[Mono.Android] Keep peers alive in handwritten bindings",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-25T18:51:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13763",
+      "number": 13763,
+      "title": "[Mono.Android] Keep JNI peer handles alive in handwritten collections",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-25T18:50:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40624",
+      "number": 40624,
+      "title": "[ci] /review run-tests: report jobs as commit statuses named after the pipeline",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-25T18:49:06Z",
+      "copilotAuthored": false,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13758",
+      "number": 13758,
+      "title": "[Java.Interop] Keep peer alive during FinishCreateInstance",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-25T18:47:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1903",
+      "number": 1903,
+      "title": "Fix Android networking documentation errors (R014, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-25T18:37:33Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/1904",
       "number": 1904,
       "title": "Fix documentation errors in Android.Media.Audiofx, Browse, Effect, Metrics and Midi (R016, pass 3)",
@@ -136761,7 +137261,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-25T18:23:35.998Z",
+  "lastUpdated": "2026-11-26T06:36:55.706Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
