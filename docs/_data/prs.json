@@ -1,6 +1,376 @@
 {
   "prs": [
     {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1987",
+      "number": 1987,
+      "title": "Fix documentation errors in Android.Telecom (R109, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T16:10:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1986",
+      "number": 1986,
+      "title": "Fix documentation errors in Android.App.AppFunctions (R108, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T15:38:36Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1985",
+      "number": 1985,
+      "title": "Fix documentation errors in Android.Widget (R106, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T15:30:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1984",
+      "number": 1984,
+      "title": "Fix documentation errors in Android.Ranging (R107, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T15:25:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1982",
+      "number": 1982,
+      "title": "Fix documentation errors in Android.Bluetooth (R104, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T15:11:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13819",
+      "number": 13819,
+      "title": "[build] Enable runtime async for .NET 12+ projects",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-28T14:42:34Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1983",
+      "number": 1983,
+      "title": "Fix documentation errors in Android.App.PrivateCompute (R105, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T14:38:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1976",
+      "number": 1976,
+      "title": "Fix Android.Content.PM documentation errors (R096, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T14:10:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1981",
+      "number": 1981,
+      "title": "Fix documentation errors in Android.App.Usage, Android.App.VoiceInteractions, Android.App.Wallpaper (R102, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T14:08:41Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1980",
+      "number": 1980,
+      "title": "Fix documentation errors in Android.Widget.Inline and Android.Widget.PhotoPicker (R101, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T13:55:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android/pull/13811",
+      "number": 13811,
+      "title": "[Mono.Android] Release JNI references on failure",
+      "repo": "dotnet/android",
+      "author": "simonrozsival",
+      "mergedAt": "2026-11-28T13:41:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1978",
+      "number": 1978,
+      "title": "Fix documentation errors in Android.Text and Android.Text.Format (R098, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T13:08:07Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1977",
+      "number": 1977,
+      "title": "Fix documentation errors in Android.Speech and Android.Speech.Tts (R100, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T12:56:49Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1970",
+      "number": 1970,
+      "title": "Fix Camera2 documentation errors (R090, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T12:55:18Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40762",
+      "number": 40762,
+      "title": "MAUI Autopilot: give fix rounds the PR title and author so fork follow-up PRs publish",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-28T12:04:15Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1974",
+      "number": 1974,
+      "title": "Fix Android.Hardware documentation errors (R095, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T11:57:42Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1975",
+      "number": 1975,
+      "title": "Fix Android.Provider documentation errors (R097, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T11:54:50Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1973",
+      "number": 1973,
+      "title": "Fix documentation errors in Java.Nio, Java.Nio.Channels, Java.Nio.Charset and Java.Nio.FileNio (R094, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T11:41:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40661",
+      "number": 40661,
+      "title": "Migrate tests from Helix and XHarness to native dotnet test",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-28T11:34:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40751",
+      "number": 40751,
+      "title": "[Windows] Fix CA1416 build break in MotionPolicy (AnimationsEnabledChanged requires 10.0.19041)",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-28T11:27:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40755",
+      "number": 40755,
+      "title": "Fix More-tab page transitions and native transition test fixtures",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-28T11:27:26Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/maui/pull/40750",
+      "number": 40750,
+      "title": "MAUI Autopilot: resolve merge conflicts, add UI screenshot baselines from Azure DevOps, back off on rate limits",
+      "repo": "dotnet/maui",
+      "author": "kubaflo",
+      "mergedAt": "2026-11-28T11:26:27Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1972",
+      "number": 1972,
+      "title": "Fix documentation errors in Android.Health.Connect (R093, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T10:56:47Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1906",
+      "number": 1906,
+      "title": "Fix documentation errors in Android.App.AppSearch (R017, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T10:37:59Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1971",
+      "number": 1971,
+      "title": "Fix documentation errors in Android.Content.OM, PM.Verify.Domain, PM.Webapp, Res and Res.Loader (R092, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T10:31:32Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1969",
+      "number": 1969,
+      "title": "Fix documentation errors in Java.Security, Java.Security.Acl, Java.Security.Cert, and Java.Security.Interfaces (R091, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T10:24:23Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1964",
+      "number": 1964,
+      "title": "Fix Android.Systems documentation errors (R083, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T10:09:31Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1968",
+      "number": 1968,
+      "title": "Fix documentation errors in Android.Graphics.Pdf.Component and Android.Graphics.Pdf.Content (R089, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T09:55:02Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1967",
+      "number": 1967,
+      "title": "Fix documentation errors in Java.Interop (R088, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T09:21:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1965",
+      "number": 1965,
+      "title": "Fix documentation errors in Android.Graphics.Pdf (R085, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T09:11:45Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1966",
+      "number": 1966,
+      "title": "Fix documentation errors in Android.Ranging (R087, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T08:59:30Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1960",
+      "number": 1960,
+      "title": "Fix documentation errors in Android.Hardware.Hid, Lights and Location (R081, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T08:16:46Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1963",
+      "number": 1963,
+      "title": "Fix documentation errors in Android.Text.Method, Android.Text.Style and Android.Text.Util (R084, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T08:13:22Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1961",
+      "number": 1961,
+      "title": "Fix Wi-Fi Aware and Hotspot2 documentation (R079, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T08:02:57Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1962",
+      "number": 1962,
+      "title": "Fix documentation errors in Android.Net.Wifi.Rtt (R082, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T06:44:25Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1959",
+      "number": 1959,
+      "title": "Fix documentation errors in Java.Util.Concurrent, Java.Util.Concurrent.Atomic, Java.Util.Concurrent.Locks and Java.Util.Functions (R080, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T06:35:29Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
+      "url": "https://github.com/dotnet/android-api-docs/pull/1958",
+      "number": 1958,
+      "title": "Fix documentation errors in Android.Health.Connect (R078, pass 3)",
+      "repo": "dotnet/android-api-docs",
+      "author": "jonathanpeppers",
+      "mergedAt": "2026-11-28T06:07:35Z",
+      "copilotAuthored": true,
+      "mauiReviewerUsed": false
+    },
+    {
       "url": "https://github.com/dotnet/android-api-docs/pull/1914",
       "number": 1914,
       "title": "Fix Java time subnamespace documentation (R027, pass 3)",
@@ -139321,7 +139691,7 @@
       "mauiReviewerUsed": false
     }
   ],
-  "lastUpdated": "2026-11-28T06:02:20.310Z",
+  "lastUpdated": "2026-11-28T16:35:45.964Z",
   "repos": [
     "dotnet/android-api-docs",
     "dotnet/android-libzipsharp",
